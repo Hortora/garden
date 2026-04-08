@@ -45,6 +45,8 @@ Most developers reach for `@RolesAllowed("admin")`, a profile-specific config pr
 
 Not appropriate for features that should be configurable at runtime — use `@ConfigProperty` for that. This is a build-time exclusion.
 
+**See also:** GE-0052 (undocumented anyOf/allOf attributes on @UnlessBuildProfile — extends this technique)
+
 *Score: 14/15 · Included because: CDI-level exclusion is strictly better than runtime guards for truly dev-only functionality; annotation is obscure enough that most Quarkus developers don't know it exists · Reservation: none identified*
 
 ---

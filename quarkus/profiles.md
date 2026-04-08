@@ -41,4 +41,6 @@ public class MockEngine implements SC2Engine { ... }
 
 The Quarkus documentation shows only `@UnlessBuildProfile("sc2")` with a single string. No mention of `anyOf` or `allOf` anywhere in the official docs. Both obvious workarounds (array syntax, stacking annotations) fail to compile, pushing developers toward a fragile `@IfBuildProfile`-for-every-valid-profile pattern.
 
+**See also:** GE-0033 (technique — how to use @UnlessBuildProfile to exclude CDI beans entirely)
+
 *Score: 12/15 · Included because: genuinely undocumented, high discoverability barrier, clean fix · Reservation: Quarkus-only, medium breadth*

@@ -59,6 +59,8 @@ public @Nullable Runnable getPostRenameCallback(
 
 The `PostprocessReformattingAspect` runs transparently — there is no error, the attribute value is correct, and the issue only appears as a cosmetic formatting change. The connection between PSI write actions and the reformatter is not documented in the rename processor API. Developers naturally use `ElementManipulators.handleContentChange()` (the idiomatic PSI edit API) without knowing it triggers the reformatter.
 
+**See also:** GE-0080 (order="first" requirement — same rename processor pipeline), GE-0081 (PsiElement invalidation — same rename lifecycle)
+
 *Score: 14/15 · Included because: silent wrong output, completely undocumented interaction, anyone building a rename processor will hit this · Reservation: none*
 
 ---
@@ -86,6 +88,8 @@ Register with `order="first"` in `plugin.xml`:
 ### Why non-obvious
 
 `prepareRenaming()` is called on ALL processors whose `canProcessElement()` returns true — it appears the processor is working. Only `getPostRenameCallback()` (and `renameElement()` for the primary processor) is restricted to the primary. The distinction between "all processors" and "primary processor" is not documented in the `RenamePsiElementProcessor` Javadoc. The `order` attribute in `plugin.xml` is documented for some extension points but not called out as required here.
+
+**See also:** GE-0079 (spurious space — same rename processor pipeline), GE-0081 (PsiElement invalidation — same rename lifecycle)
 
 *Score: 14/15 · Included because: completely silent failure, 100% reproducible, anyone using getPostRenameCallback() will hit this · Reservation: none*
 
@@ -121,5 +125,7 @@ if (resolved == null || !resolved.isValid()) continue; // element deleted during
 ### Why non-obvious
 
 PSI invalidation during write actions is mentioned in the IntelliJ Platform docs, but the specific scenario (references captured in `prepareRenaming()` surviving into `getPostRenameCallback()`) is not documented. The failure mode — `isValid() == false` silently causing the update to be skipped, or NPE — looks like a logic bug rather than a lifecycle issue. `SmartPsiElementPointer` is the canonical solution but its necessity here is not surfaced by the API.
+
+**See also:** GE-0079 (spurious space — same rename processor pipeline), GE-0080 (order="first" requirement — same rename lifecycle)
 
 *Score: 13/15 · Included because: non-obvious lifecycle issue, silent failure or NPE, SmartPsiElementPointer necessity not documented for this scenario · Reservation: partial overlap with general "PSI element validity" guidance in docs*

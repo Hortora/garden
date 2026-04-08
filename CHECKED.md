@@ -54,3 +54,89 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0084 × GE-0087 | related | 2026-04-08 | GE-0084 is the iframe caching gotcha; GE-0087 is the assert-src-change technique that resolves it |
 | GE-0094 × GE-0095 | related | 2026-04-08 | GE-0094 is the @QuarkusTest real-side-effects gotcha; GE-0095 is the dedicated class + @InjectMock technique |
 | GE-0094 × GE-0036 | related | 2026-04-08 | both @QuarkusTest bean state issues; GE-0036 is state accumulation across classes, GE-0094 is real side-effects firing |
+| GE-0082 × GE-0089 | related | 2026-04-08 | GE-0089 (WORD JOINER technique) works around the trailing-space stripping that GE-0082 describes; cross-referenced |
+| GE-0083 × GE-0088 | related | 2026-04-08 | GE-0088 (move trailing whitespace pre-processing) is the fix technique for GE-0083; cross-referenced |
+| GE-0083 × GE-0089 | related | 2026-04-08 | both address BS4 prettify trailing-space stripping — GE-0088 (pre-processing) and GE-0089 (WORD JOINER) are alternative techniques; cross-referenced |
+| GE-0083 × GE-0090 | related | 2026-04-08 | GE-0090 (stressed flag) explains the html2text mechanism behind the BS4 problem GE-0083 describes; cross-referenced |
+| GE-0088 × GE-0089 | related | 2026-04-08 | both techniques for the same trailing-whitespace pipeline problem; GE-0088 moves whitespace before prettify, GE-0089 marks adjacency with WORD JOINER; cross-referenced |
+| GE-0088 × GE-0090 | related | 2026-04-08 | GE-0090 (stressed flag) explains why GE-0088 (pre-processing) is needed; cross-referenced |
+| GE-0089 × GE-0090 | related | 2026-04-08 | GE-0090 (stressed flag internals) is the mechanism GE-0089 (WORD JOINER) works around; cross-referenced |
+| GE-0079 × GE-0080 | related | 2026-04-08 | both RenamePsiElementProcessor lifecycle gotchas (spurious space + order="first"); cross-referenced |
+| GE-0079 × GE-0081 | related | 2026-04-08 | both RenamePsiElementProcessor lifecycle gotchas (spurious space + PsiElement invalidation); cross-referenced |
+| GE-0080 × GE-0081 | related | 2026-04-08 | both RenamePsiElementProcessor lifecycle gotchas (order="first" + PsiElement invalidation); cross-referenced |
+| GE-0079 × GE-0093 | distinct | 2026-04-08 | PSI rename formatting vs FileBasedIndexExtension recursive read — different IntelliJ APIs |
+| GE-0080 × GE-0093 | distinct | 2026-04-08 | rename processor ordering vs indexing API — different IntelliJ concerns |
+| GE-0081 × GE-0093 | distinct | 2026-04-08 | PsiElement lifecycle vs indexing — different IntelliJ concerns |
+| GE-0052 × GE-0033 | related | 2026-04-08 | GE-0052 (undocumented anyOf/allOf) extends the @UnlessBuildProfile technique in GE-0033; cross-referenced |
+| GE-0047 × GE-0076 | distinct | 2026-04-08 | javap config key discovery technique vs -D flag placement + config expression resolution — different config concerns |
+| GE-0047 × GE-0052 | distinct | 2026-04-08 | config key discovery (javap technique) vs @UnlessBuildProfile anyOf (annotation attribute) |
+| GE-0076 × GE-0052 | distinct | 2026-04-08 | -D flag placement vs @UnlessBuildProfile attribute |
+| GE-0104 × GE-0045 | distinct | 2026-04-08 | Authenticator.publicKeyAlgorithm no getter/setter vs WebAuthn config key naming — different WebAuthn issues |
+| GE-0104 × GE-0046 | distinct | 2026-04-08 | Authenticator API limitation vs session cookie encryption key undocumented |
+| GE-0104 × GE-0077 | distinct | 2026-04-08 | Authenticator API limitation vs Vert.x handler map patching via reflection |
+| GE-0104 × GE-0078 | distinct | 2026-04-08 | Authenticator API limitation vs WebAuthn endpoint path discovery |
+| GE-0045 × GE-0077 | distinct | 2026-04-08 | config key naming vs handler reflection — different WebAuthn concerns |
+| GE-0045 × GE-0078 | distinct | 2026-04-08 | config key naming vs endpoint path discovery |
+| GE-0046 × GE-0077 | distinct | 2026-04-08 | session encryption key vs handler reflection |
+| GE-0046 × GE-0078 | distinct | 2026-04-08 | session encryption key vs endpoint paths |
+| GE-0077 × GE-0078 | distinct | 2026-04-08 | handler reflection technique vs endpoint discovery — different WebAuthn internals |
+| GE-0096 × GE-0097 | related | 2026-04-08 | GE-0097 (per-argument granularity) explains how to write a test that catches the GE-0096 bug; cross-referenced |
+| GE-0096 × GE-0098 | distinct | 2026-04-08 | send-keys key name interpretation vs capture-pane space-padding — different tmux commands |
+| GE-0096 × GE-0099 | distinct | 2026-04-08 | send-keys -l vs attach-session PTY requirement — different commands |
+| GE-0096 × GE-0100 | distinct | 2026-04-08 | send-keys key names vs TUI garbling from dimension mismatch |
+| GE-0096 × GE-0074 | distinct | 2026-04-08 | send-keys vs resize-pane — different commands |
+| GE-0096 × GE-0075 | distinct | 2026-04-08 | send-keys vs capture-pane trailing newline |
+| GE-0097 × GE-0098 | distinct | 2026-04-08 | per-argument test technique vs capture-pane format — different concerns |
+| GE-0097 × GE-0099 | distinct | 2026-04-08 | send-keys test technique vs attach-session PTY |
+| GE-0097 × GE-0100 | distinct | 2026-04-08 | per-argument granularity vs TUI rendering |
+| GE-0097 × GE-0074 | distinct | 2026-04-08 | send-keys technique vs resize-pane |
+| GE-0097 × GE-0075 | distinct | 2026-04-08 | send-keys technique vs capture-pane trailing newline |
+| GE-0098 × GE-0075 | related | 2026-04-08 | both about capture-pane output format quirks (space-padding vs trailing newline); cross-referenced |
+| GE-0098 × GE-0099 | distinct | 2026-04-08 | capture-pane format vs attach-session PTY requirement |
+| GE-0098 × GE-0100 | distinct | 2026-04-08 | space-padding vs TUI garbling from dimension mismatch — different root causes |
+| GE-0098 × GE-0074 | distinct | 2026-04-08 | capture-pane format vs resize-pane |
+| GE-0099 × GE-0100 | distinct | 2026-04-08 | attach-session PTY vs TUI rendering from dimension mismatch |
+| GE-0099 × GE-0074 | distinct | 2026-04-08 | attach-session vs resize-pane |
+| GE-0099 × GE-0075 | distinct | 2026-04-08 | attach-session vs capture-pane trailing newline |
+| GE-0100 × GE-0074 | related | 2026-04-08 | GE-0074 (resize-pane silent no-op) is the mechanism underlying GE-0100 (TUI garbling); cross-referenced |
+| GE-0100 × GE-0075 | distinct | 2026-04-08 | TUI garbling from dimension mismatch vs capture-pane trailing newline |
+| GE-0074 × GE-0075 | distinct | 2026-04-08 | resize-pane no-op vs capture-pane trailing newline — different tmux commands |
+| GE-0101 × GE-0102 | distinct | 2026-04-08 | page.evaluate async vs to_be_visible ancestor chain — different Playwright APIs |
+| GE-0101 × GE-0103 | distinct | 2026-04-08 | page.evaluate async vs wait_for_selector visible default |
+| GE-0101 × GE-0019 | distinct | 2026-04-08 | async gotcha vs screenshot technique |
+| GE-0101 × GE-0084 | distinct | 2026-04-08 | async gotcha vs iframe caching |
+| GE-0101 × GE-0085 | distinct | 2026-04-08 | async gotcha vs sync_playwright asyncio conflict |
+| GE-0101 × GE-0087 | distinct | 2026-04-08 | async gotcha vs iframe src assertion technique |
+| GE-0101 × GE-0092 | distinct | 2026-04-08 | async gotcha vs .all() vs .nth() screenshotting |
+| GE-0102 × GE-0103 | related | 2026-04-08 | both about Playwright "visible" semantics — ancestor chain check; cross-referenced |
+| GE-0102 × GE-0019 | distinct | 2026-04-08 | visibility assertion vs screenshot technique |
+| GE-0102 × GE-0084 | distinct | 2026-04-08 | ancestor visibility vs iframe caching |
+| GE-0102 × GE-0085 | distinct | 2026-04-08 | visibility assertion vs asyncio conflict |
+| GE-0102 × GE-0087 | distinct | 2026-04-08 | visibility assertion vs iframe src assertion |
+| GE-0102 × GE-0092 | distinct | 2026-04-08 | visibility assertion vs .all() screenshotting |
+| GE-0103 × GE-0019 | distinct | 2026-04-08 | wait_for_selector state vs screenshot technique |
+| GE-0103 × GE-0084 | distinct | 2026-04-08 | wait_for_selector state vs iframe caching |
+| GE-0103 × GE-0085 | distinct | 2026-04-08 | wait_for_selector state vs asyncio conflict |
+| GE-0103 × GE-0087 | distinct | 2026-04-08 | wait_for_selector state vs iframe src assertion |
+| GE-0103 × GE-0092 | distinct | 2026-04-08 | wait_for_selector state vs .all() screenshotting |
+| GE-0004 × GE-0058 | distinct | 2026-04-08 | typed return technique vs wrong generic params compile silently — different generics concerns |
+| GE-0004 × GE-0023 | distinct | 2026-04-08 | generics technique vs records immutability |
+| GE-0004 × GE-0024 | distinct | 2026-04-08 | generics technique vs volatile torn snapshot |
+| GE-0004 × GE-0037 | distinct | 2026-04-08 | generics technique vs time-dependent testing |
+| GE-0004 × GE-0064 | distinct | 2026-04-08 | generics technique vs Maven aggregator packaging |
+| GE-0004 × GE-0067 | distinct | 2026-04-08 | generics technique vs Maven ignores non-Java files |
+| GE-0023 × GE-0024 | distinct | 2026-04-08 | records immutability vs volatile torn snapshot |
+| GE-0023 × GE-0037 | distinct | 2026-04-08 | records immutability vs time-dependent testing |
+| GE-0023 × GE-0058 | distinct | 2026-04-08 | records immutability vs wrong generic params |
+| GE-0023 × GE-0064 | distinct | 2026-04-08 | records immutability vs Maven aggregator |
+| GE-0023 × GE-0067 | distinct | 2026-04-08 | records immutability vs Maven non-Java files |
+| GE-0024 × GE-0037 | distinct | 2026-04-08 | volatile concurrency vs time-dependent testing |
+| GE-0024 × GE-0058 | distinct | 2026-04-08 | volatile concurrency vs wrong generic params |
+| GE-0024 × GE-0064 | distinct | 2026-04-08 | volatile concurrency vs Maven aggregator |
+| GE-0024 × GE-0067 | distinct | 2026-04-08 | volatile concurrency vs Maven non-Java files |
+| GE-0037 × GE-0058 | distinct | 2026-04-08 | time testing technique vs wrong generic params |
+| GE-0037 × GE-0064 | distinct | 2026-04-08 | time testing technique vs Maven aggregator |
+| GE-0037 × GE-0067 | distinct | 2026-04-08 | time testing technique vs Maven non-Java files |
+| GE-0058 × GE-0064 | distinct | 2026-04-08 | wrong generic params vs Maven aggregator |
+| GE-0058 × GE-0067 | distinct | 2026-04-08 | wrong generic params vs Maven non-Java files |
+| GE-0064 × GE-0067 | distinct | 2026-04-08 | Maven aggregator packaging vs Maven ignores non-Java resources — different Maven gotchas |

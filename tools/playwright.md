@@ -59,6 +59,8 @@ expect(row.locator('.btn-install')).to_be_visible()  # now works
 ### Why this is non-obvious
 "Locator resolved" implies the element exists. "Unexpected value: hidden" looks like the element itself has `display:none`, not a parent. The "9 ×" polling count confirms Playwright found it every time — consistently hidden. Developers focus on the element's own CSS, not its ancestor chain.
 
+**See also:** GE-0103 (wait_for_selector visible default — same Playwright "visible means whole ancestor chain" semantics)
+
 ---
 
 ## `wait_for_selector(':not(.open)')` waits for visible, but the closed modal is `display:none`
@@ -85,6 +87,8 @@ page.locator('#overlay').wait_for(state='hidden', timeout=3000)
 
 ### Why this is non-obvious
 `#overlay:not(.open)` reads naturally as "wait until overlay loses open class." But `wait_for_selector` interprets this as "find that element AND ensure it's visible" — impossible when `display:none`. The fix requires knowing `wait_for(state='hidden')` is the right API for class-toggled visibility.
+
+**See also:** GE-0102 (to_be_visible() ancestor chain — same Playwright "visible means whole ancestor chain" semantics)
 
 ---
 

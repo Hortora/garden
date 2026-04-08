@@ -37,6 +37,8 @@ new ProcessBuilder("tmux", "send-keys", "-t", sessionName, "-l", userText)
 ### Why this is non-obvious
 The tmux man page documents this but the distinction is easy to miss. Text containing "Enter" or "Escape" as words looks fine in casual testing (most text doesn't contain exact key names) but breaks unpredictably with real user input. The bug manifests silently — wrong keystrokes sent, no error.
 
+**See also:** GE-0097 (per-argument granularity — how to write a test that actually catches this bug)
+
 ---
 
 ## send-keys key name lookup is per-argument, not per-word within an argument
@@ -67,6 +69,8 @@ The fix (always use `-l`) remains correct and important. This entry clarifies ho
 
 ### Why this is non-obvious
 Most developers write `"echo Escape marker"` to test the bug (natural, readable), are confused when the test passes without the fix, and conclude the bug doesn't exist. The per-argument granularity is not documented.
+
+**See also:** GE-0096 (the send-keys -l bug this entry helps test)
 
 ---
 
@@ -100,6 +104,8 @@ String cleaned = Arrays.stream(rawOutput.split("\n"))
 
 ### Why this is non-obvious
 The output looks correct when printed to a standard terminal (terminals handle trailing spaces gracefully). The problem only surfaces when the output is fed to a terminal emulator that tracks cursor position precisely — the trailing spaces move the cursor, causing misalignment on the next write.
+
+**See also:** GE-0075 (trailing newline from capture-pane — similar capture-pane output format quirk)
 
 ---
 
@@ -222,6 +228,8 @@ async def websocket_endpoint(websocket: WebSocket, session_id: str, cols: int, r
 ### Why this is non-obvious
 Garbled TUI rendering looks like a replay ordering problem (history sent at the wrong time), an ANSI escape stripping issue, or an xterm.js parser bug. Nothing in the error output points to pane dimensions. You have to know that tmux tracks pane size as independent state, that SIGWINCH is what causes TUI redraws, and that the fix must happen before `pipe-pane` starts (resize after the stream begins means the garbled initial state is already visible). Also non-obvious: dimensions must go in the URL path — WebSocket headers are not accessible from `@OnOpen` path params in Quarkus WebSockets Next.
 
+**See also:** GE-0074 (resize-pane silent no-op on detached sessions — the mechanism that causes this)
+
 *[GE-0014 — solution revision — Score: 14/15 · Transforms "here's the problem" into complete solution; the history→resize→pipe-pane ordering is the non-obvious part]*
 
 ---
@@ -250,6 +258,8 @@ tmux resize-window -t session-name -x 80 -y 24
 
 ### Why this is non-obvious
 The `tmux resize-pane` man page does not mention client-size constraints. The command exits 0, so there is no signal that it failed. A developer would need to independently verify the pane size after the call to discover the issue.
+
+**See also:** GE-0100 (TUI garbling on WebSocket connect — a key symptom of this bug in streaming contexts)
 
 *Score: 14/15 · Included because: silent failure with no error, not documented, affects any headless tmux usage · Reservation: none*
 
@@ -286,5 +296,7 @@ capture_size = len(lines)
 
 ### Why this is non-obvious
 The trailing newline is invisible in log output. `len(lines)` looks correct at a glance. The off-by-one only manifests as a visual cursor position error, which is easy to attribute to other causes (wrong pane height, wrong cursor reading, etc.).
+
+**See also:** GE-0098 (space-padded lines from capture-pane — similar capture-pane output format quirk)
 
 *Score: 12/15 · Included because: silent arithmetic error with misleading symptom, stable tmux behaviour · Reservation: slightly language-specific in the fix, but root cause is universal*
