@@ -4,6 +4,7 @@
 
 ## Authenticator.publicKeyAlgorithm has no getter/setter — field cannot be persisted in WebAuthnUserProvider
 
+**ID:** GE-0104
 **Stack:** Quarkus 3.9.x, quarkus-security-webauthn, io.vertx.ext.auth.webauthn.Authenticator
 **Symptom:** A `WebAuthnUserProvider` implementation that stores `publicKeyAlgorithm` (e.g. `-7` for ES256) in a credential JSON file successfully writes the value, but has no way to restore it to the `Authenticator` object on lookup. No error is thrown — the field is silently unrestorable.
 **Context:** Any `WebAuthnUserProvider` that tries to persist the full credential including algorithm, so the stored record accurately represents what was registered.
@@ -128,3 +129,81 @@ The key is hashed with SHA-256 before use, so the raw value doesn't need to be a
 - In production, treat this as a secret — rotation invalidates all active sessions
 
 *Score: 13/15 · Included because: production-impacting silent failure; genuinely undocumented in the WebAuthn extension; only discoverable via bytecode · Reservation: none identified*
+
+---
+
+## Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean
+
+**ID:** GE-0077
+**Stack:** Quarkus 3.9.x, Vert.x 4.5.x, Java 11+
+**Labels:** `#pattern` `#quarkus` `#java`
+**What it achieves:** Overrides a third-party handler registered in a private `Map` field without forking the library, using CDI startup lifecycle to ensure the patch runs before any requests arrive.
+**Context:** The Vert.x WebAuthn extension (`WebAuthnImpl`) holds a private `Map<String, Attestation> attestations` field. The built-in `NoneAttestation` handler rejects Apple passkeys (non-zero AAGUID). There is no public API to swap handlers.
+
+### The technique
+
+```java
+@ApplicationScoped
+public class WebAuthnPatcher {
+    @Inject WebAuthnSecurity webAuthnSecurity;
+
+    void onStart(@Observes StartupEvent event) {
+        try {
+            var webAuthn = webAuthnSecurity.getWebAuthn(); // returns WebAuthnImpl
+            Field field = findField(webAuthn.getClass(), "attestations");
+            field.setAccessible(true);
+            @SuppressWarnings("unchecked")
+            var attestations = (Map<String, Attestation>) field.get(webAuthn);
+            attestations.put("none", new LenientNoneAttestation());
+        } catch (Exception e) {
+            LOG.warnf("WebAuthnPatcher: patch failed — %s", e.getMessage());
+        }
+    }
+
+    private static Field findField(Class<?> clazz, String name) {
+        while (clazz != null) {
+            try { return clazz.getDeclaredField(name); }
+            catch (NoSuchFieldException e) { clazz = clazz.getSuperclass(); }
+        }
+        return null;
+    }
+}
+```
+
+### Why this is non-obvious
+Most developers would fork the library or configure it out of the code path. The reflection approach avoids forking while remaining fully encapsulated. Vert.x jars are not JPMS modules (no `module-info.class`), so they're in the unnamed module and `setAccessible(true)` works without `--add-opens` flags on Java 11+. The `Map` is a regular `HashMap`, so `put()` is safe at startup.
+
+*Score: 12/15 · Included because: elegant pattern for overriding third-party behaviour without forking; module access detail is genuinely undocumented · Reservation: slightly specific to Quarkus/Vert.x setup*
+
+---
+
+## Quarkus WebAuthn Actual HTTP Endpoint Paths (Only Discoverable via Bytecode)
+
+**ID:** GE-0078
+**Stack:** Quarkus 3.9.x (`quarkus-security-webauthn`), Vert.x 4.5.x
+
+**What exists:** The Quarkus WebAuthn extension registers four HTTP endpoints under the non-application root (`/q/`):
+
+| Endpoint | Method | Purpose |
+|----------|--------|---------|
+| `/q/webauthn/register` | POST | Step 1: server returns WebAuthn challenge options |
+| `/q/webauthn/login` | POST | Step 1: server returns WebAuthn login challenge |
+| `/q/webauthn/callback` | POST | Step 2: client submits credential/assertion |
+| `/q/webauthn/webauthn.js` | GET | Quarkus-provided JS helper library |
+
+**Why it's undocumented:** The Quarkus WebAuthn guide does not list these paths explicitly. The paths appear only as string constants in `WebAuthnRecorder.class` — discoverable via:
+```bash
+javap -verbose WebAuthnRecorder.class | grep "webauthn/"
+```
+
+**Common mistake:** Most WebAuthn tutorials describe a two-step REST pattern with `/options` and `/finish` endpoints. Quarkus uses a single-step per phase: there are no `/options` or `/finish` endpoints.
+
+**Verification:**
+```bash
+curl http://localhost:7777/q/webauthn/webauthn.js           # 200 (JS helper)
+curl -X POST http://localhost:7777/q/webauthn/register \
+  -H 'Content-Type: application/json' -d '{}'               # 400 (route exists)
+curl -X POST http://localhost:7777/q/webauthn/register/options # 404 (doesn't exist)
+```
+
+*Score: 13/15 · Included because: genuinely absent from official docs, only findable via bytecode inspection, common wrong assumption causes hours of debugging · Reservation: Quarkus-version-specific*

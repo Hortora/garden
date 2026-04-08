@@ -48,3 +48,9 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0069 × GE-0070 | distinct | 2026-04-08 | POJO serialization vs listen doesn't receive SmallRye — different issues |
 | GE-0069 × GE-0071 | distinct | 2026-04-08 | POJO serialization vs SmallRye bridge technique |
 | GE-0070 × GE-0071 | related | 2026-04-08 | GE-0070 is the gotcha (listen doesn't receive SmallRye); GE-0071 is the technique fix (bridge via @Incoming + startInstance()) |
+| GE-0082 × GE-0083 | related | 2026-04-08 | html2text strips trailing space (GE-0082) + BS4 prettify discards same space (GE-0083); same pipeline problem from different angles |
+| GE-0082 × GE-0088 | related | 2026-04-08 | GE-0082 is the gotcha; GE-0088 is the pre-processing technique that fixes it |
+| GE-0082 × GE-0090 | related | 2026-04-08 | GE-0090 is the undocumented stressed flag that causes GE-0082 |
+| GE-0084 × GE-0087 | related | 2026-04-08 | GE-0084 is the iframe caching gotcha; GE-0087 is the assert-src-change technique that resolves it |
+| GE-0094 × GE-0095 | related | 2026-04-08 | GE-0094 is the @QuarkusTest real-side-effects gotcha; GE-0095 is the dedicated class + @InjectMock technique |
+| GE-0094 × GE-0036 | related | 2026-04-08 | both @QuarkusTest bean state issues; GE-0036 is state accumulation across classes, GE-0094 is real side-effects firing |

@@ -6,6 +6,7 @@ Discovered building headless JVM systems that interact with tmux, and writing te
 
 ## send-keys silently interprets "Enter"/"Escape" as key names without -l flag
 
+**ID:** GE-0096
 **Stack:** tmux 3.x; `-l` literal flag requires 3.2+
 **Symptom:** `tmux send-keys -t session "Escape"` fires the actual Escape key instead of typing the word "Escape". `"Enter"` sends a newline instead of the text. No error, no warning. User input containing key names fires those keys silently.
 **Context:** Any code that sends user-provided text to tmux — terminal emulators, test harnesses, remote CLI tools.
@@ -40,6 +41,7 @@ The tmux man page documents this but the distinction is easy to miss. Text conta
 
 ## send-keys key name lookup is per-argument, not per-word within an argument
 
+**ID:** GE-0097
 **Stack:** tmux 3.x
 **Symptom:** A test designed to verify the `-l` fix passes even without `-l` when the test text is `"echo Escape marker"`. The bug is real but the test doesn't catch it.
 **Context:** Writing a test to prove the send-keys -l bug exists. The granularity of key-name matching matters for test design.
@@ -70,6 +72,7 @@ Most developers write `"echo Escape marker"` to test the bug (natural, readable)
 
 ## capture-pane pads every output line to full pane width — blank lines are grid artifacts
 
+**ID:** GE-0098
 **Stack:** tmux 3.x
 **Symptom:** Terminal replay sends cursor to column 80+ after each line. Blank lines in `capture-pane -p` output are not empty — they are space-padded to the pane width.
 **Context:** Any code that captures tmux pane content and replays it to a terminal emulator (xterm.js, VT100 parser, etc.).
@@ -102,6 +105,7 @@ The output looks correct when printed to a standard terminal (terminals handle t
 
 ## attach-session fails from ProcessBuilder — requires a real PTY
 
+**ID:** GE-0099
 **Stack:** tmux 3.x, Java ProcessBuilder (any JVM version)
 **Symptom:** `tmux attach-session` from a Java ProcessBuilder exits immediately with "not a terminal" or similar. The session exists and tmux is running fine.
 **Context:** Any headless JVM, daemon, or server process trying to attach to a tmux session.
@@ -149,6 +153,7 @@ new ProcessBuilder("tmux", "pipe-pane", "-t", sessionName, "cat > " + fifoPath)
 
 ## TUI apps render garbled on WebSocket connect — tmux pane dimensions not synced to browser viewport
 
+**ID:** GE-0100
 **Stack:** tmux 3.x, WebSocket, xterm.js (any browser terminal emulator)
 **Symptom:** TUI apps (vim, claude, ncurses programs) render garbled or wrong-width when a WebSocket client connects to a tmux session streamed via pipe-pane. Lines wrap incorrectly, screens are truncated, or the whole layout is off. Manual browser window resize fixes it immediately.
 **Context:** Any server streaming tmux pane output to a browser via WebSocket + xterm.js, where the tmux pane may have different dimensions than the browser terminal viewport.
@@ -218,3 +223,68 @@ async def websocket_endpoint(websocket: WebSocket, session_id: str, cols: int, r
 Garbled TUI rendering looks like a replay ordering problem (history sent at the wrong time), an ANSI escape stripping issue, or an xterm.js parser bug. Nothing in the error output points to pane dimensions. You have to know that tmux tracks pane size as independent state, that SIGWINCH is what causes TUI redraws, and that the fix must happen before `pipe-pane` starts (resize after the stream begins means the garbled initial state is already visible). Also non-obvious: dimensions must go in the URL path — WebSocket headers are not accessible from `@OnOpen` path params in Quarkus WebSockets Next.
 
 *[GE-0014 — solution revision — Score: 14/15 · Transforms "here's the problem" into complete solution; the history→resize→pipe-pane ordering is the non-obvious part]*
+
+---
+
+## tmux resize-pane Silently No-ops for Detached Sessions
+
+**ID:** GE-0074
+**Stack:** tmux 3.x (all versions observed)
+**Symptom:** `tmux resize-pane -x W -y H` exits 0 with no output, but `tmux display-message -p '#{pane_width}'` still shows the original dimensions. SIGWINCH is never delivered to the process in the pane. TUI apps never redraw.
+**Context:** Any program that manages tmux sessions programmatically without an attached terminal client — CI jobs, web servers, background daemons. Sessions created with `tmux new-session -d` have no attached clients by default.
+
+### What was tried (didn't work)
+- `tmux resize-pane -x 80 -y 24` — exits 0, no change
+- `tmux resize-pane -x 50 -y 24` on a session created with explicit `-x 80 -y 24` — no change
+- Verified the pane size with `tmux display-message -p '#{pane_width}x#{pane_height}'` — unchanged
+
+### Root cause
+`resize-pane` is constrained by the minimum attached-client size. With no clients attached, the minimum client constraint prevents any resize. The constraint silently wins — no error is returned because the command itself succeeded (it just had no effect).
+
+### Fix
+Use `tmux resize-window` instead:
+```bash
+tmux resize-window -t session-name -x 80 -y 24
+```
+`resize-window` bypasses the client-size constraint and reliably resizes detached sessions. For single-pane windows (the common programmatic case), the effect is identical.
+
+### Why this is non-obvious
+The `tmux resize-pane` man page does not mention client-size constraints. The command exits 0, so there is no signal that it failed. A developer would need to independently verify the pane size after the call to discover the issue.
+
+*Score: 14/15 · Included because: silent failure with no error, not documented, affects any headless tmux usage · Reservation: none*
+
+---
+
+## tmux capture-pane Output Ends with \n — split() Gives paneHeight+1 Elements
+
+**ID:** GE-0075
+**Stack:** tmux 3.x, any language that splits capture-pane output by newline
+**Symptom:** Row arithmetic using `lines.length - paneHeight + cursorY` gives the wrong row by exactly 1. A cursor positioning escape lands one row below the intended target.
+**Context:** When using `tmux capture-pane -p -S -N` output and splitting on `\n` with a negative limit, the captured output always ends with `\n`, producing one extra empty string at the end of the array.
+
+### What was tried (didn't work)
+- Calculating `paneRowInCapture = lines.length - paneHeight + paneCursorY` — off by 1
+- Logging `lines.length` vs `paneHeight` — differed by exactly 1
+
+### Root cause
+`tmux capture-pane -p` output is `row1\nrow2\n...rowN\n` — a trailing newline after every row including the last. When split by `\n` with an empty-trailing-element mode, this yields `N+1` elements where the last is `""`.
+
+### Fix
+```java
+// Java
+int captureSize = lines[lines.length - 1].isEmpty()
+    ? lines.length - 1 : lines.length;
+int paneRowInCapture = (captureSize - paneHeight) + paneCursorY;
+```
+```python
+# Python
+lines = raw.split('\n')
+if lines and lines[-1] == '':
+    lines = lines[:-1]
+capture_size = len(lines)
+```
+
+### Why this is non-obvious
+The trailing newline is invisible in log output. `len(lines)` looks correct at a glance. The off-by-one only manifests as a visual cursor position error, which is easy to attribute to other causes (wrong pane height, wrong cursor reading, etc.).
+
+*Score: 12/15 · Included because: silent arithmetic error with misleading symptom, stable tmux behaviour · Reservation: slightly language-specific in the fix, but root cause is universal*

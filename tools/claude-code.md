@@ -159,3 +159,40 @@ The pointer pattern separates *awareness* (mention it in the calling skill's out
 **Don't apply:** When the downstream skill always does substantive work (e.g., update-claude-md is always triggered by commit, always does something meaningful).
 
 *Score: 12/15 · Included because: directly addresses a common over-triggering pattern; clear decision rule for when to apply · Reservation: none identified*
+
+---
+
+## validate_document.py flags markdown tables inside fenced code blocks as corrupted
+
+**ID:** GE-0091
+**Stack:** cc-praxis skills repo, validate_document.py (Python), any type:skills project
+**Symptom:** Running `python3 scripts/validate_document.py <file>.md` returns:
+```
+❌ CRITICAL issues found:
+  - Corrupted table at line N: Table header followed by prose instead of data row
+```
+The flagged line is a valid markdown table row inside a fenced code block. The table itself is well-formed; the error is a false positive.
+**Context:** Any markdown document containing a markdown table as an example inside a fenced code block. Common in design documents, documentation specs, and files showing the format of INDEX.md or similar.
+
+### Root cause
+`validate_document.py` does not correctly track code-fence state. It parses markdown tables inside fenced blocks as if they were real markdown tables in the document body. When the last table row appears immediately before the closing ` ``` `, the validator sees the fence as "prose instead of a data row" following the table, triggering the CRITICAL error.
+
+### Fix
+Add a blank line before the closing fence to break the validator's false pattern match:
+
+```markdown
+| col1 | col2 |
+|------|------|
+| val  | val  |
+
+` `` `
+```
+
+This prevents the closing fence from being parsed as "prose after a table row."
+
+The real fix is to update validate_document.py to track code-fence state and skip table validation for content inside fenced blocks.
+
+### Why non-obvious
+The error message points to a specific line number with content that looks like a valid table row. Nothing in the error message indicates the issue is the code fence context rather than the table itself. Developers will inspect the table columns repeatedly before realising the fenced block is the problem. The workaround (blank line) is counterintuitive — you're adding "wrong" whitespace to fix a validator bug.
+
+*Score: 11/15 · Included because: blocks commits via pre-commit hook; symptom completely misleads about root cause; blank-line workaround is non-obvious · Reservation: specific to validate_document.py in cc-praxis*

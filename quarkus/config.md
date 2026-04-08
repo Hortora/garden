@@ -63,3 +63,32 @@ The `@ConfigItem(name=...)` annotation overrides the field name convention entir
 - Trying to set a property from a transitive/internal Quarkus dependency
 
 *Score: 12/15 · Included because: solves an entire class of Quarkus config debugging problems; the technique transfers to any annotation-driven framework; javap use for annotation inspection is genuinely non-obvious · Reservation: none identified*
+
+---
+
+## -D Flags After -jar Don't Override Config Expressions in Quarkus
+
+**ID:** GE-0076
+**Stack:** Quarkus 3.x (all versions), Java 11+
+**Symptom:** `java -jar app.jar -Dquarkus.http.port=7778` has no effect — the server still starts on the port defined in `application.properties`. No error or warning is logged.
+**Context:** When `application.properties` contains an expression like `quarkus.http.port=${remotecc.port}`, passing `-Dquarkus.http.port=7778` after `-jar` is silently ignored because the expression takes precedence over the program-argument system property.
+
+### Root cause
+Two separate issues combine:
+1. `-D` flags placed *after* `-jar` are program arguments (args to `main()`), not JVM system properties.
+2. Config expressions (`${remotecc.port}`) resolve through Quarkus's SmallRye Config chain. An expression-based property takes its value from the *source* property, not from a directly-set override of the computed property name.
+
+### Fix
+```bash
+# Option 1: Put -D flags BEFORE -jar (real JVM system properties)
+java -Dquarkus.http.port=7778 -jar app.jar
+
+# Option 2: Override the SOURCE property the expression is based on
+java -jar app.jar -Dremotecc.port=7778
+# (because application.properties has: quarkus.http.port=${remotecc.port})
+```
+
+### Why non-obvious
+Both approaches look identical at a glance. The java man page describes `-D` as a system property but doesn't clarify the before/after `-jar` distinction. Quarkus's config expression resolution is an additional layer that isn't surfaced in error messages.
+
+*Score: 11/15 · Included because: common mistake, silent failure, affects Quarkus specifically with expression-based config · Reservation: slightly Quarkus-specific*
