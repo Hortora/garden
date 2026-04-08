@@ -1,0 +1,48 @@
+**Type:** undocumented
+**Submission ID:** GE-0120
+**Date:** 2026-04-08
+**Project:** permuplate
+**Stack:** IntelliJ Platform SDK 232.x (2023.2)
+
+## `FindUsagesManager` has a public constructor and accepts `FindUsagesHandlerBase` directly
+
+**What exists but isn't documented:**
+`com.intellij.find.findUsages.FindUsagesManager` has a public constructor `FindUsagesManager(Project)` and a public method `findUsages(PsiElement[], PsiElement[], FindUsagesHandlerBase, FindUsagesOptions, boolean)` that shows results in the standard Find panel. This allows custom actions to trigger find-usages with multiple primary and secondary elements without going through `FindManagerImpl` (an internal class).
+
+Also undocumented: `findUsages()` takes `FindUsagesHandlerBase` (the base class), not `FindUsagesHandler`. Using `FindUsagesHandler` works too since it extends the base, but the method signature is on `FindUsagesHandlerBase`.
+
+**How to use it:**
+
+```java
+// In an AnAction.actionPerformed():
+PsiElement primary = // the element being searched
+PsiElement[] secondary = // family siblings to include
+
+FindUsagesHandlerBase handler = new FindUsagesHandlerBase(primary) {
+    @Override
+    public PsiElement[] getPrimaryElements() { return new PsiElement[]{primary}; }
+    @Override
+    public PsiElement[] getSecondaryElements() { return secondary; }
+};
+
+FindUsagesOptions options = FindUsagesHandlerBase.createFindUsagesOptions(project, null);
+options.isUsages = true;
+
+// Public constructor — no need for FindManagerImpl
+new FindUsagesManager(project).findUsages(
+    new PsiElement[]{primary},
+    secondary,
+    handler,
+    options,
+    false  // toSkipUsagePanelWhenOneUsage
+);
+```
+
+Results appear in the standard Find panel with full navigation support.
+
+**Why undocumented:**
+The IntelliJ SDK docs for `FindUsagesManager` don't mention the public constructor or show how to use it from a custom action. Most plugin examples either use `FindManager.findUsages(element)` (single element only) or cast to `FindManagerImpl` to access `getFindUsagesManager()` — but `myFindUsagesManager` is private and there's no getter. The public constructor path is discoverable only by reading the class with javap or a decompiler.
+
+**Suggested target:** `intellij-platform/find-usages.md` (new file, header: `# IntelliJ Platform Find Usages — Gotchas and Techniques`)
+
+*Score: 11/15 · Included because: genuinely not in docs, solves a common plugin need (custom multi-element find usages), discoverable only via decompiler · Reservation: public constructor may be unintentional API*
