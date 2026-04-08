@@ -1,0 +1,31 @@
+# Java Generics Gotchas
+
+---
+
+## Wrong generic type parameters in Java stub methods compile silently
+
+**ID:** GE-0058
+**Stack:** Java (all versions)
+**Symptom:** A stub method returning `new Path5<WrongJoin, WrongTuple, ...>(null, null, null)` compiles without error, even though the generic type arguments are completely wrong. No compiler warning. No IDE squiggle. The code appears healthy.
+**Context:** Writing or reviewing hand-rolled arity families (e.g. `Join1Second` through `Join6Second`) where similar methods are copy-pasted and type parameters incremented manually. The pattern: method declared with return type `R<A,B>`, body constructs and returns `R<C,D>` where `C≠A` or `D≠B`. If the declared return type and the constructed type are consistent with each other (both wrong in the same way), the compiler accepts it silently.
+
+### Root cause
+
+Java type erasure. The compiler checks that the body returns something assignment-compatible with the declared return type. Since both the declared type and the constructed type carry the same (wrong) type arguments, they're compatible with each other. The actual type arguments are erased to `Object` at runtime — the JVM never sees them. There is no runtime failure either, because stubs return `null` through the wrapper (`new Foo<>(null, null, null)` returns null-filled fields regardless of type params).
+
+### Fix
+
+Manual inspection by comparing `JoinNSecond.pathM()` against `Join(N-1)Second.pathM()` — the two should differ only by the join arity increment and the fact variable letter. Alternatively, write a test that assigns the method's return value to a correctly-typed local variable; the compiler catches the mismatch at the call site rather than the declaration site.
+
+```java
+// Catches the bug — compiler sees Join4First ≠ Join2First at this assignment:
+Path4<Join4First<END,DS,B,C,D,Tuple5<D,...>>, ...> result = join3second.path5(fn, flt);
+```
+
+### Why non-obvious
+
+Most developers assume "if it compiles, the types are right." With generics, that assumption breaks down when the declared return type and the body are internally consistent with each other but both wrong relative to the intended contract. The familiar case (returning wrong type → compiler error) doesn't apply here because the error is in what the types *mean*, not in structural compatibility. The bug is invisible until a call site constrains the type strongly enough to force a mismatch.
+
+**Discovered:** Fixing vol2 `RuleBuilder.Join3Second` — all five path methods (`path2`–`path6`) had copy-pasted `Join2First`/`B` instead of `Join4First`/`D`. All five compiled cleanly.
+
+*Score: 14/15 · Included because: invisible compiler failure affecting any arity-family author · Reservation: none*

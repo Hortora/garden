@@ -1,0 +1,44 @@
+# Workflow and Orchestration Techniques
+
+---
+
+## Order dependent artifact creation by information flow, not by convention
+
+**ID:** GE-0010
+**Stack:** Any multi-artifact documentation workflow; demonstrated with Claude Code skills
+**Labels:** `#strategy` `#workflow`
+**What it achieves:** Each artifact in a creation chain can reference the freshest versions of its predecessors, producing richer and more accurately cross-referenced outputs.
+**Context:** When you need to create N related artifacts in sequence (documentation, snapshots, diary entries, reports) and some artifacts benefit from referencing others.
+
+### The technique
+
+Analyse the information dependencies between artifacts before deciding the order. Ask for each artifact: "What could this reference if it came last?" Order from least-dependent to most-dependent.
+
+For the session-handoff wrap checklist, the naive order was: garden → blog → snapshot → CLAUDE.md. The correct order is:
+
+1. **Garden sweep** — captures raw session knowledge while context is full; doesn't reference other artifacts
+2. **CLAUDE.md sync** — updates conventions from session work; doesn't need snapshot or blog
+3. **Design snapshot** — freezes current state *including* freshly updated conventions; references CLAUDE.md implicitly
+4. **write-blog** — written last; can name the garden entries just submitted, reference the fresh snapshot path, and note any new conventions added to CLAUDE.md. The most synthesis-capable artifact should come last.
+
+```
+# Information dependency graph:
+garden_sweep  ──────────────────────────────→ (no upstream deps)
+claude_md_sync ─────────────────────────────→ (no upstream deps)
+design_snapshot ──── depends on ────→ claude_md_sync
+write_blog ─── depends on ──────────→ garden_sweep + design_snapshot + claude_md_sync
+```
+
+### Why this is non-obvious
+
+The instinct is to pick an order based on perceived importance, alphabetical order, or the sequence items appear in a menu. Most people don't think about information flow between artifacts — they think about the artifacts themselves. The key insight is that the artifact with the richest synthesis potential (the one that can reference everything else) should always come last, not first.
+
+### When to use it
+- Any pipeline of interdependent documentation artifacts
+- Session wrap sequences (handoff, retrospective, snapshot)
+- Release note generation (changelog → release notes → announcement)
+- Any situation where one artifact's value increases if it can cite others
+
+Limitation: the order only matters if artifact creation is automated or guided. If a human is writing all artifacts manually, they naturally cross-reference as they go.
+
+*Score: 13/15 · Included because: a general principle applying to any documentation pipeline; "order by information dependency, not by feel" is the kind of principle a developer would immediately value once stated · Reservation: none identified*

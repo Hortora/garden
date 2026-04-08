@@ -1,0 +1,44 @@
+# Quarkus Profiles — Gotchas and Undocumented Features
+
+---
+
+## `@UnlessBuildProfile` has undocumented `anyOf` attribute for multi-profile exclusion
+
+**ID:** GE-0052
+**Stack:** Quarkus 3.34.2 (`quarkus-arc`); likely applies to all Quarkus 3.x
+**Symptom:** No obvious way to exclude a CDI bean from two or more profiles simultaneously. `@UnlessBuildProfile` appears to take only a single string.
+**Context:** When a bean should be inactive in multiple named profiles (e.g., active in `%mock` and `%dev` but not in `%sc2` or `%replay`).
+
+### What was tried (didn't work)
+
+- `@UnlessBuildProfile({"sc2", "replay"})` — does not compile; `value()` is `String`, not `String[]`
+- Stacking two `@UnlessBuildProfile` annotations — not a repeatable annotation; compile error
+- Using multiple `@IfBuildProfile` (one per valid profile) — verbose and fragile; breaks when adding a new profile
+
+### Root cause
+
+The `@UnlessBuildProfile` annotation declares three attributes, but only `value()` appears in the Quarkus documentation. The `anyOf()` and `allOf()` attributes exist in the bytecode but are undocumented. Discovered by running `javap -p` on the annotation class:
+
+```
+public abstract java.lang.String value();
+public abstract java.lang.String[] allOf();
+public abstract java.lang.String[] anyOf();
+```
+
+`anyOf` excludes the bean if the active profile matches **any** of the listed values.
+`allOf` excludes only if the active profile matches **all** listed values (unusual use case).
+
+### Fix
+
+```java
+// Exclude this bean from both %sc2 and %replay profiles
+@UnlessBuildProfile(anyOf = {"sc2", "replay"})
+@ApplicationScoped
+public class MockEngine implements SC2Engine { ... }
+```
+
+### Why non-obvious
+
+The Quarkus documentation shows only `@UnlessBuildProfile("sc2")` with a single string. No mention of `anyOf` or `allOf` anywhere in the official docs. Both obvious workarounds (array syntax, stacking annotations) fail to compile, pushing developers toward a fragile `@IfBuildProfile`-for-every-valid-profile pattern.
+
+*Score: 12/15 · Included because: genuinely undocumented, high discoverability barrier, clean fix · Reservation: Quarkus-only, medium breadth*

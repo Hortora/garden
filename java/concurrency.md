@@ -1,0 +1,42 @@
+# Java Concurrency Gotchas
+
+---
+
+## Multiple `volatile` fields read without synchronisation produce torn cross-field snapshots
+
+**ID:** GE-0024
+**Stack:** Java (all versions with volatile and multi-threading)
+**Symptom:** A class with multiple related `volatile` fields reads them in sequence inside a `snapshot()` method. Each individual read is safe, but the group is not atomic — a concurrent mutator can modify one field between two reads, producing an internally inconsistent snapshot. No exception, no error; the returned object contains values from two different points in time.
+**Context:** Any class that exposes a snapshot/copy of several related fields as a single value object, where multiple fields are updated atomically by a mutating method.
+
+### What was tried (didn't work)
+- Declared all scalar fields `volatile` — correctly ensures visibility of individual writes but does not make multi-field reads atomic
+- Relied on `CopyOnWriteArrayList` for the list fields — correct for the list contents, but the volatile scalar reads surrounding it are still not grouped atomically
+
+### Root cause
+`volatile` provides visibility and ordering guarantees for a single field, not for a group of reads. The Java Memory Model treats each volatile read/write independently. Between the read of `minerals` and the read of `supplyUsed`, another thread can call `tick()`, increment `gameFrame`, and adjust `supplyUsed` — the snapshot sees `minerals` from before the tick and `supplyUsed` from after it.
+
+### Fix
+
+```java
+// WRONG — five separate volatile reads, not atomic
+public GameState snapshot() {
+    return new GameState(minerals, vespene, supply, supplyUsed,
+        List.copyOf(myUnits), List.copyOf(myBuildings),
+        List.copyOf(enemyUnits), gameFrame.get());
+}
+
+// CORRECT — synchronized groups all reads into one critical section
+public synchronized GameState snapshot() {
+    return new GameState(minerals, vespene, supply, supplyUsed,
+        List.copyOf(myUnits), List.copyOf(myBuildings),
+        List.copyOf(enemyUnits), gameFrame.get());
+}
+```
+
+Alternative if snapshot performance is critical: use a single `AtomicReference<GameState>` updated atomically by all mutators, eliminating the snapshot method entirely.
+
+### Why this is non-obvious
+The `volatile` keyword feels like it should be sufficient — each field is individually safe. The subtlety is that "each field is safe" ≠ "reading multiple fields together is safe." Code reviews focus on whether mutations are guarded; the read side is easy to overlook because it doesn't modify anything. Unit tests run single-threaded and never catch it; the bug only manifests under real concurrency.
+
+*Score: 14/15 · Included because: one of the most common Java concurrency mistakes; individually correct volatile fields give false sense of thread safety for grouped reads; symptom can be extremely difficult to reproduce · Reservation: none identified*

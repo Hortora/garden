@@ -1,0 +1,130 @@
+# Quarkus WebAuthn Gotchas
+
+---
+
+## Authenticator.publicKeyAlgorithm has no getter/setter — field cannot be persisted in WebAuthnUserProvider
+
+**Stack:** Quarkus 3.9.x, quarkus-security-webauthn, io.vertx.ext.auth.webauthn.Authenticator
+**Symptom:** A `WebAuthnUserProvider` implementation that stores `publicKeyAlgorithm` (e.g. `-7` for ES256) in a credential JSON file successfully writes the value, but has no way to restore it to the `Authenticator` object on lookup. No error is thrown — the field is silently unrestorable.
+**Context:** Any `WebAuthnUserProvider` that tries to persist the full credential including algorithm, so the stored record accurately represents what was registered.
+
+### What was tried (didn't work)
+- Stored `publicKeyAlgorithm: -7` in the credential JSON — write succeeds, field persists to disk
+- Tried `authenticator.setPublicKeyAlgorithm(-7)` on restore — method does not exist
+- Tried `authenticator.getPublicKeyAlgorithm()` to verify round-trip — method does not exist
+- Looked for a builder or constructor that accepts the algorithm — none exists in the public API
+
+### Root cause
+`io.vertx.ext.auth.webauthn.Authenticator` holds the algorithm internally but exposes no getter or setter for it. The field is used during the WebAuthn registration ceremony (handled internally by the Vert.x/Quarkus extension) but is not part of the public API surface. Storing and restoring it is a no-op: the value is written to JSON but can never be read back onto the object.
+
+### Fix
+Omit `publicKeyAlgorithm` from the stored credential entirely. WebAuthn assertion verification (the login flow) does not require the algorithm field to be set on the `Authenticator` — the extension handles verification using the public key and sign count, which can be persisted and restored normally:
+
+```java
+// ❌ includes unpersistable field
+record StoredCredential(String username, String credentialId,
+    String publicKey, int publicKeyAlgorithm, long counter, String aaguid) {}
+
+// ✅ omit it entirely
+record StoredCredential(String username, String credentialId,
+    String publicKey, long counter, String aaguid) {}
+```
+
+Add a comment explaining the omission to prevent a future developer from adding it back:
+
+```java
+// Note: publicKeyAlgorithm is intentionally omitted.
+// io.vertx.ext.auth.webauthn.Authenticator exposes no getter or setter
+// for the algorithm field, so it cannot be persisted or restored.
+```
+
+### Why this is non-obvious
+Including the algorithm in a stored credential is a reasonable, security-conscious decision — you want the stored record to accurately represent what was registered. The write succeeds without error, so the problem is invisible until you look for a restore path and find there isn't one. The Quarkus WebAuthn documentation does not describe the internal structure of `Authenticator` or flag this limitation.
+
+---
+
+## Quarkus WebAuthn config keys use wrong names — silently ignored, no warning
+
+**ID:** GE-0045
+**Stack:** Quarkus 3.9.5 (`quarkus-security-webauthn`)
+**Symptom:** WebAuthn extension starts normally, no warnings, no errors. Relying party name, ID, and origin are not what was configured — the extension is using its defaults.
+**Context:** When configuring `quarkus-security-webauthn` via `application.properties`. Common abbreviated key names (`rp.id`, `rp.name`, `origins`) look plausible but are wrong.
+
+### What was tried (didn't work)
+
+- Set `quarkus.webauthn.rp.id=localhost` — silently ignored, no warning
+- Set `quarkus.webauthn.rp.name=RemoteCC` — silently ignored, no warning
+- Set `quarkus.webauthn.origins=http://localhost:7777` — silently ignored, no warning
+
+No `Unrecognized configuration key` warning was produced for these — the extension consumed them without applying them.
+
+### Root cause
+
+The `WebAuthnRunTimeConfig` interface uses SmallRye Config field names that differ from what abbreviations suggest:
+
+- `relyingParty` (a `RelyingPartyConfig` group) → kebab-case: `relying-party`, not `rp`
+- `origin` (singular `Optional<String>`) → `origin`, not `origins`
+
+Because `quarkus.webauthn.rp.*` and `quarkus.webauthn.origins` are not recognised config keys for this extension, Quarkus silently drops them without warning.
+
+### Fix
+
+```properties
+# Correct keys (Quarkus 3.9.5)
+quarkus.webauthn.relying-party.id=localhost
+quarkus.webauthn.relying-party.name=RemoteCC
+quarkus.webauthn.origin=http://localhost:7777
+
+# Production env vars
+# QUARKUS_WEBAUTHN_RELYING_PARTY_ID=your-domain.com
+# QUARKUS_WEBAUTHN_RELYING_PARTY_NAME=YourApp
+# QUARKUS_WEBAUTHN_ORIGIN=https://your-domain.com
+```
+
+### Why this is non-obvious
+
+`rp` is the standard WebAuthn spec abbreviation for "Relying Party" — it appears in the W3C spec, the JavaScript API, and most WebAuthn libraries. Using `rp.id` and `rp.name` is natural. The fact that Quarkus uses `relying-party` (the full name, kebab-cased) isn't discoverable from docs. The silent failure — no warning, working extension, just wrong config — makes it very hard to notice that registration is using default values instead of your own.
+
+*Score: 12/15 · Included because: silent failure with plausible-looking keys; standard spec abbreviation misleads; WebAuthn is security-critical · Reservation: may be fixed in Quarkus 3.10+; narrow to this extension*
+
+---
+
+## WebAuthn session cookie encryption key is `quarkus.http.auth.session.encryption-key` — not documented in WebAuthn extension docs
+
+**ID:** GE-0046
+**Stack:** Quarkus 3.9.5 (`quarkus-security-webauthn`)
+**Symptom:** On startup: `WARN [io.qua.sec.web.WebAuthnRecorder] Encryption key was not specified for persistent WebAuthn auth, using temporary key`. A new random key is generated per JVM start, so any cookie issued before restart is invalid — users must re-authenticate on every server restart.
+**Context:** Configuring `quarkus-security-webauthn` for production where session persistence is required.
+
+### Description
+
+The property that controls the AES-256 key used to encrypt WebAuthn session cookies belongs to `HttpConfiguration` (the generic Quarkus HTTP layer), not to the WebAuthn extension itself. It is documented on `HttpConfiguration.encryptionKey` in the Quarkus javadoc but not mentioned anywhere in the WebAuthn extension documentation.
+
+The field name `encryptionKey` with a `@ConfigItem(name="auth.session.encryption-key")` annotation produces the full property path `quarkus.http.auth.session.encryption-key` — only visible via bytecode inspection.
+
+### Fix
+
+```properties
+# application.properties — dev profile (stable key survives restarts)
+%dev.quarkus.http.auth.session.encryption-key=<any-string-longer-than-16-chars>
+
+# Production: set via environment variable
+# QUARKUS_HTTP_AUTH_SESSION_ENCRYPTION_KEY=<secret-min-17-chars>
+```
+
+The key is hashed with SHA-256 before use, so the raw value doesn't need to be a specific byte length — just > 16 characters (Quarkus enforces this minimum).
+
+### Why it's not obvious
+
+- The WebAuthn extension docs make no mention of an encryption key config property.
+- Guessing from the `HttpConfiguration` field name `encryptionKey` → `quarkus.http.encryption-key` produces an `Unrecognized configuration key` warning and is silently ignored.
+- The actual property name is only visible in the `@ConfigItem(name=...)` annotation on the field, which requires decompiling `HttpConfiguration.class`.
+- The property semantically belongs to "WebAuthn session persistence" but physically belongs to "Quarkus HTTP configuration."
+
+### Caveats
+
+- Value must be > 16 characters (enforced at runtime)
+- The same property is shared with form-based auth
+- In production, treat this as a secret — rotation invalidates all active sessions
+
+*Score: 13/15 · Included because: production-impacting silent failure; genuinely undocumented in the WebAuthn extension; only discoverable via bytecode · Reservation: none identified*

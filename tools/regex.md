@@ -1,0 +1,46 @@
+# Regex Gotchas and Techniques
+
+---
+
+## Python `format(?:ting|ted|s)?` matches "formats" (plural noun) — false positive in text classifiers
+
+**ID:** GE-0042
+**Stack:** Python (all versions), `re` module
+**Symptom:** A commit like "adopt official formats and reduce custom code by 92%" is classified as trivial/formatting rather than functional. No error — the classification silently succeeds with the wrong result.
+**Context:** When building regex-based text classifiers that look for formatting-related words to exclude trivial changes. The plural form "formats" matches the optional `s?` suffix intended to catch "formatted" and "formatting".
+
+### What was tried (didn't work)
+
+- Pattern `r"\bformat\b"` — does NOT match "formatting" or "formatted" (word boundary after "t")
+- Added `s?` to catch plurals: `format(?:ting|ted|s)?` — catches "formats" as a side effect
+- Tested against "Mermaid format" — no match but "official formats" → match
+
+### Root cause
+
+The optional group `(?:ting|ted|s)?` includes `s?` which matches the plural noun "formats". The word boundary `\b` at the end of the full pattern follows the `s`, so `\bformats\b` matches perfectly — it is a valid word. The pattern doesn't distinguish between "format" used as a verb/adjective (formatting activity) and "formats" used as a plural noun (file formats, output formats).
+
+### Fix
+
+Remove `s?` from the optional group. Use `format(?:ting|ted)?` to match only the verb/adjective forms:
+
+```python
+# Before (matches "formats" — false positive)
+TRIVIAL_RE = re.compile(
+    r"\b(typo|whitespace|format(?:ting|ted|s)?|spelling)\b",
+    re.IGNORECASE,
+)
+
+# After (only matches "format", "formatting", "formatted")
+TRIVIAL_RE = re.compile(
+    r"\b(typo|whitespace|format(?:ting|ted)?|spelling)\b",
+    re.IGNORECASE,
+)
+```
+
+If plural detection is genuinely needed for other words, enumerate the specific plurals explicitly rather than using `s?` — e.g. `(?:typo|typos)` — so it's intentional.
+
+### Why this is non-obvious
+
+The intent of `format(?:ting|ted|s)?` looks reasonable — "match format and its variants". The bug only surfaces when the text being classified uses "formats" as a noun in a positive/functional context. A developer testing with "fix formatting" and "reformat code" would see all expected matches and not think to test "adopt official formats", which reads nothing like a formatting commit.
+
+*Score: 11/15 · Included because: silent false-positive classification with a pattern that looks correct at a glance; common mistake when building text classifiers with optional suffix groups · Reservation: only fails for noun usage*

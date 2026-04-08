@@ -1,0 +1,47 @@
+# CI/CD Techniques
+
+---
+
+## Use `>?<` as a safe sed target for SVG text-element replacement in CI
+
+**ID:** GE-0006
+**Stack:** SVG, GitHub Actions, GNU sed (Linux CI runners), bash
+**Labels:** `#ci-cd` `#svg`
+**What it achieves:** Replaces a visible placeholder in an SVG text element without accidentally hitting aria-labels, comments, or other attributes that contain the same placeholder string.
+**Context:** CI pipelines that generate numbered SVG badges or other parameterised SVGs from a template at build/merge time.
+
+### The technique
+
+Use `?` as the visible placeholder in the SVG text element, and target `>?<` in the sed replacement:
+
+**Template SVG:**
+```xml
+<text x="57" y="86" text-anchor="middle"
+      font-family="Arial Black, Impact, sans-serif"
+      font-size="58" font-weight="900" fill="white">?</text>
+```
+
+**CI sed command:**
+```bash
+sed "s/>?</>$NEXT</g" prog-template.svg > "prog-${PADDED}.svg"
+```
+
+This replaces `>?<` (the closing `>` of the opening tag, the `?` character, and the opening `<` of the closing tag) with the actual number — hitting exactly one location in the file.
+
+### Why this is non-obvious
+
+The obvious placeholder is something like `__N__` or `{{N}}`, which you'd replace with `s/__N__/$NEXT/g`. But that pattern replaces every occurrence of the placeholder in the file — including the `aria-label`, any comments, and any other metadata. If your template has `aria-label="Prog __N__ — The Series"`, that gets replaced too.
+
+`>?<` is more targeted: it only matches text content that sits directly between an element closing `>` and an element opening `<`. In practice, this means only the text node content — not attribute values. Attribute values are always quoted (`aria-label="Prog ?"`), so the `?` in an attribute is surrounded by `"` not by `><`.
+
+The secondary benefit: `?` renders as a visible, meaningful placeholder in the template SVG — anyone who opens `prog-template.svg` before CI runs sees `PROG ?` and immediately knows the number hasn't been assigned yet.
+
+### When to use it
+- SVG badge generation in CI (prog numbers, version badges, build status)
+- Any SVG template where one element's text content is parameterised
+
+### Caveats
+- Only works when the placeholder appears exactly once in a text node
+- `?` in POSIX BRE (basic regex, the default for `sed`) is treated as a literal character — not a quantifier. So `s/>?</>$N</g` does not need escaping. In `sed -E` (extended regex), `?` IS a quantifier and would need escaping as `\?`. Default `sed` without `-E` is safe.
+
+*Score: 9/15 · Included because: `>?<` targeting insight is genuinely clever; exploits SVG structure to achieve precision without regex complexity; visible placeholder is an elegant bonus · Reservation: use case (parameterised SVG badges in CI) is narrow enough that most developers will never encounter it*
