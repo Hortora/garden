@@ -1,0 +1,48 @@
+# IntelliJ Platform — Inspection Gotchas
+
+---
+
+## `localInspection` in plugin.xml Requires `implementationClass` and Explicit `shortName`
+
+**ID:** GE-0110
+**Stack:** IntelliJ Platform (any version), `plugin.xml` `<localInspection>` registration
+
+**Symptom 1 — Wrong attribute name:** Plugin starts but inspection never fires. No error is thrown. Changing annotation strings or triggering the inspection produces no highlights. Root cause: `<localInspection implementation="..."/>` is silently ignored. The correct attribute is `implementationClass`.
+
+**Symptom 2 — Missing `shortName`:** IDE throws at startup: `java.lang.IllegalArgumentException at buildCacheForKeyMapper`. Root cause: `InspectionEP.getImplementationClassName()` returns null when `shortName` is absent, and the cache builder does not handle null.
+
+**Symptom 3 — Test registration:** `myFixture.enableInspections(MyInspection.class)` throws "Unregistered inspection" in `BasePlatformTestCase`. The class-based form requires the inspection to be registered in a plugin.xml visible to the test sandbox.
+
+**Context:** Any `<localInspection>` registration in `plugin.xml`.
+
+### Root cause
+Three separate issues, all from one registration block:
+1. `implementation` vs `implementationClass` — the SDK shows both in examples; only `implementationClass` works
+2. `shortName` described as "optional" in docs but crashes without it at runtime
+3. Test fixture uses class-based `enableInspections()` which requires registry lookup
+
+### Fix
+
+```xml
+<localInspection
+    language="JAVA"
+    shortName="MyInspectionShortName"
+    displayName="My inspection description"
+    groupName="MyGroup"
+    enabledByDefault="true"
+    level="WARNING"
+    implementationClass="com.example.MyInspection"/>
+```
+
+For tests, use the instance-based form which bypasses the registry:
+
+```java
+myFixture.enableInspections(new MyInspection());
+```
+
+### Why non-obvious
+All three issues produce either silent no-op or an unrelated-looking exception. The IntelliJ SDK documentation shows `implementation` in some examples and `implementationClass` in others — the inconsistency means developers copy the wrong form. `shortName` is described as "optional" in the docs but crashes without it in practice.
+
+*Score: 13/15 · Included because: three distinct silent failures from one registration block, all underdocumented · Reservation: shortName crash may be version-specific*
+
+---

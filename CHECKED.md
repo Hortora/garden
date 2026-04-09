@@ -139,4 +139,26 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0037 × GE-0067 | distinct | 2026-04-08 | time testing technique vs Maven non-Java files |
 | GE-0058 × GE-0064 | distinct | 2026-04-08 | wrong generic params vs Maven aggregator |
 | GE-0058 × GE-0067 | distinct | 2026-04-08 | wrong generic params vs Maven non-Java files |
+| GE-0105 × no existing drools GOAP entries | distinct | 2026-04-09 | new drools dir, no conflict |
+| GE-0106 × no existing SVG entries | distinct | 2026-04-09 | new SVG file |
+| GE-0107 × awk extraction technique (markdown.md) | distinct | 2026-04-09 | different topic |
+| GE-0108 × awk extraction technique (markdown.md) | distinct | 2026-04-09 | different topic |
+| GE-0109 × GE-0105 | distinct | 2026-04-09 | different Drools topics |
+| GE-0109 × drools/quarkus-testing (DataSource NPE, DRL syntax) | distinct | 2026-04-09 | different aspects |
+| GE-0110 × intellij-platform/rename-refactoring entries | distinct | 2026-04-09 | different API |
+| GE-0110 × intellij-platform/indexing (FQN recursive crash) | distinct | 2026-04-09 | different API |
+| GE-0111 × no existing intellij-platform/gradle-build entries | distinct | 2026-04-09 | new file |
+| GE-0112 × intellij-platform/rename-refactoring (GE-0079, GE-0080, GE-0081) | distinct | 2026-04-09 | SafeDelete vs rename |
+| GE-0113 × GE-0049 (bulk issue creation) | distinct | 2026-04-09 | different github-cli topics |
+| GE-0114 × awk extraction technique (markdown.md) | distinct | 2026-04-09 | different topic |
+| GE-0115 × GE-0039 (surefire reuseForks, surefire profile excludes) | distinct | 2026-04-09 | different maven plugin |
+| GE-0116 × intellij-platform/indexing (GE: FQN recursive crash) | distinct | 2026-04-09 | different aspect of FileBasedIndex |
+| GE-0117 × GE-0079, GE-0080, GE-0081 (rename-refactoring) | distinct | 2026-04-09 | different pipeline layer |
+| GE-0118 × GE-0002 (git -C), GE-0043, GE-0050 (commit scope) | distinct | 2026-04-09 | different git topics |
+| GE-0119 × intellij-platform/indexing (GE: FQN recursive crash) | distinct | 2026-04-09 | different aspect of index testing |
+| GE-0120 × no existing intellij-platform/find-usages entries | distinct | 2026-04-09 | new file |
+| GE-0121 × GE-0013, GE-0048, GE-0054, GE-0055, GE-0091 (claude-code) | distinct | 2026-04-09 | different claude-code topics |
+| GE-0122 × java generics-gotchas, records, concurrency | distinct | 2026-04-09 | different java topic |
+| GE-0123 × drools/quarkus-testing | distinct | 2026-04-09 | different Quarkus/Drools aspect |
+| GE-0124 × GE-0121 (mv cwd invalidation) | related | 2026-04-09 | both about mv/rename in Claude Code; cross-referenced |
 | GE-0064 × GE-0067 | distinct | 2026-04-08 | Maven aggregator packaging vs Maven ignores non-Java resources — different Maven gotchas |

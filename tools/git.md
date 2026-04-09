@@ -188,3 +188,38 @@ The reflex for "group commits by feature" is to look at changed files. The conve
 *Score: 10/15 · Included because: reframe from "group by files touched" to "group by author's declared scope" is a genuine insight; saved significant work in a 285-commit retrospective · Reservation: only useful for repos with disciplined conventional commits*
 
 **Note:** GE-0043 and GE-0050 are related techniques — GE-0043 covers the extraction pattern in detail; GE-0050 covers the no-diff-read approach for large-scale retrospective analysis.
+
+---
+
+## `git restore --staged .` Also Reverts Working Tree Changes
+
+**ID:** GE-0118
+**Stack:** Git (all versions)
+
+**Symptom:** Running `git restore --staged .` to unstage files also reverts uncommitted working tree modifications to those files. Modified files you wanted to keep are silently reverted to their last committed state.
+
+**Context:** Had a mix of staged file moves (git mv) and unstaged working tree modifications (e.g. pom.xml edits). Wanted to undo the staged moves but keep the unstaged changes. Ran `git restore --staged .` — the staged moves were unstaged, but the working tree modifications were also reverted.
+
+### Root cause
+`git restore --staged .` with a path spec (`.`) restores *both* the index (unstaging) *and* the working tree for files that have both staged and unstaged changes. The `--staged` flag alone doesn't protect the working tree when used with a broad path spec.
+
+### Fix
+To unstage specific files while preserving working tree changes, target files explicitly or use `git reset`:
+
+```bash
+# Unstage specific files only (safer)
+git restore --staged path/to/specific/file.java
+
+# Safest: reset only the index for specific files
+git reset HEAD path/to/file.java
+
+# If you need to unstage moves specifically:
+git restore --staged src/old/path/File.java src/new/path/File.java
+```
+
+### Why non-obvious
+`--staged` implies "only affect the staging area." The working tree revert behaviour is a surprise, especially when using `.` as the path spec. The git documentation mentions it but the mental model of `--staged` = "only the index" is intuitive and wrong.
+
+*Score: 10/15 · Included because: `--staged` strongly implies index-only, working tree revert is silent · Reservation: arguably documented, though easy to miss*
+
+---

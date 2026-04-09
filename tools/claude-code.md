@@ -196,3 +196,75 @@ The real fix is to update validate_document.py to track code-fence state and ski
 The error message points to a specific line number with content that looks like a valid table row. Nothing in the error message indicates the issue is the code fence context rather than the table itself. Developers will inspect the table columns repeatedly before realising the fenced block is the problem. The workaround (blank line) is counterintuitive — you're adding "wrong" whitespace to fix a validator bug.
 
 *Score: 11/15 · Included because: blocks commits via pre-commit hook; symptom completely misleads about root cause; blank-line workaround is non-obvious · Reservation: specific to validate_document.py in cc-praxis*
+
+---
+
+## `mv` Project Folder Invalidates Bash Tool's Shell cwd Mid-Session
+
+**ID:** GE-0121
+**Stack:** Claude Code Bash tool, macOS shell
+
+**Symptom:** After renaming a project folder with `mv /old /new`, all subsequent Bash tool calls fail with "Working directory '/old' no longer exists. Please restart Claude from an existing directory." even when using absolute paths in the command. The shell is completely unusable for the remainder of the session.
+
+**Context:** Any Claude Code session where a project folder is renamed using `mv` — or any shell command that moves the directory that was the working directory when the shell process started.
+
+### Root cause
+The Bash tool's shell process was started with cwd set to the old folder path. When the folder is renamed, the shell's cwd inode becomes invalid. The shell process cannot recover — it fails on startup for each subsequent call. The error message suggests restarting Claude rather than pointing to the folder rename as the cause.
+
+Compounding this: the `Read`, `Write`, `Edit`, and `Glob` tools do NOT use the shell's cwd and continue to work after the rename, since they use the absolute paths passed to them directly. This makes the failure seem inconsistent and puzzling.
+
+### Fix
+Three mitigations:
+1. **Do the rename last** — if you know a folder rename is needed, make it the absolute final operation in the session after all other work is complete.
+2. **Use non-shell tools after the rename** — `Read`, `Write`, `Edit` work via absolute path and are unaffected. For file content operations, they can substitute for many bash commands.
+3. **Use the IntelliJ MCP `execute_terminal_command` tool** if available — this spawns a fresh process with its own working directory and bypasses the broken shell state.
+
+For a new agentic session, start from an existing directory (e.g., the renamed path) and the shell initialises correctly.
+
+### Why non-obvious
+`mv` succeeds silently (exit 0), so there is no error at rename time. The failure only appears on the next unrelated bash command, with an error message that suggests restarting Claude rather than pointing to the rename as the cause. Developers will try re-running the failed command with explicit absolute paths (which should work) and be confused when it still fails — because the problem is not the command, it is the shell process itself.
+
+*Score: 11/15 · Included because: non-obvious symptom that blames Claude restart rather than the rename; affects the whole session; cross-project whenever a folder is renamed mid-session · Reservation: only hits when you rename a folder in an agentic session, which is uncommon — but painful when it does*
+
+---
+
+## Renaming a Claude Code Project Directory Leaves Stale Absolute Paths in `.claude/settings.local.json`
+
+**ID:** GE-0124
+**Stack:** Claude Code (any version), macOS/Linux
+
+**Symptom:** After renaming a project directory (e.g. `mv ~/claude/skills ~/claude/cc-praxis`), previously granted permissions silently fail or behave unexpectedly. A ghost directory (`~/claude/oldname/.claude/`) may also appear containing a near-duplicate of the original `settings.local.json`.
+
+**Context:** Any Claude Code project that accumulates granted permissions over time and is later renamed or moved.
+
+### What was tried (didn't work)
+- `mv ~/claude/skills ~/claude/cc-praxis` — the directory renamed correctly but permissions referencing the old absolute path remained broken
+- Assuming `mv` would handle everything — it moves bytes but not content strings
+
+### Root cause
+`settings.local.json` accumulates absolute path permission entries over time (every `Bash(...)`, `Read(...)` etc. approval gets recorded). `mv` renames the directory but does not update the string contents of files. All permissions containing the old path silently no longer match the new location. Additionally, a ghost `~/claude/oldname/.claude/` directory can appear after the rename — likely recreated by Claude Code or a session-start hook attempting to access the old path.
+
+### Fix
+After renaming, update all path references in the new location's `settings.local.json`:
+
+```bash
+sed -i '' 's|/Users/me/claude/skills/|/Users/me/claude/cc-praxis/|g' \
+  ~/claude/cc-praxis/.claude/settings.local.json
+
+# Verify no old paths remain
+grep "claude/skills/" ~/claude/cc-praxis/.claude/settings.local.json
+```
+
+Then remove the ghost directory if it appeared:
+```bash
+rm -rf ~/claude/oldname/
+```
+
+### Why non-obvious
+`mv` is a well-understood command — developers assume it handles a rename completely. Nothing warns you that file *contents* still reference old paths. Permissions fail silently (the tool just isn't granted rather than throwing an error), making it hard to connect the symptom to the rename. The ghost directory appearing post-rename adds confusion about whether the rename succeeded at all.
+
+**See also:** GE-0121 (mv also invalidates the Bash tool's shell cwd mid-session)
+
+*Score: 12/15 · Included because: silent failure, cross-project (any Claude Code rename), fix requires knowing to look inside settings.local.json · Reservation: somewhat specific to Claude Code's permission accumulation model*
+
+---

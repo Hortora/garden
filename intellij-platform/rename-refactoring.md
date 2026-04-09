@@ -129,3 +129,47 @@ PSI invalidation during write actions is mentioned in the IntelliJ Platform docs
 **See also:** GE-0079 (spurious space — same rename processor pipeline), GE-0080 (order="first" requirement — same rename lifecycle)
 
 *Score: 13/15 · Included because: non-obvious lifecycle issue, silent failure or NPE, SmartPsiElementPointer necessity not documented for this scenario · Reservation: partial overlap with general "PSI element validity" guidance in docs*
+
+---
+
+## `RenameHandler` Intercepts Before `RenamePsiElementProcessor.substituteElementToRename()` Is Called
+
+**ID:** GE-0117
+**Stack:** IntelliJ Platform SDK 232.x (2023.2), RenameHandler, RenamePsiElementProcessor
+
+**Symptom:** `substituteElementToRename()` is never called when a custom `RenameHandler` is registered with high priority. Implementing `substituteElementToRename()` in a `RenamePsiElementProcessor` has no effect — the rename doesn't redirect as expected.
+
+**Context:** Implementing a rename redirect: when the user renames a class in a generated file, `substituteElementToRename()` should silently redirect to the template class. A custom `RenameHandler` was already registered (with `order="first"`) to block renames on generated files. `substituteElementToRename()` was added to the processor but was never reached.
+
+### Root cause
+IntelliJ's rename pipeline has two layers:
+1. `RenameHandler` — controls the overall UX flow (shows dialogs, blocks, etc.)
+2. `RenamePsiElementProcessor` — participates in the rename once the handler decides to proceed
+
+If a `RenameHandler.isAvailableOnDataContext()` returns `true`, IntelliJ uses that handler and calls `invoke()`. The standard rename flow — which calls `substituteElementToRename()` — never runs. The two extension points operate at different levels and don't compose automatically.
+
+### Fix
+Make the `RenameHandler` step aside for cases that `substituteElementToRename()` should handle. In `isAvailableOnDataContext()`, check if the element is one that the processor will redirect, and return `false` in that case:
+
+```java
+@Override
+public boolean isAvailableOnDataContext(@NotNull DataContext dataContext) {
+    VirtualFile file = CommonDataKeys.VIRTUAL_FILE.getData(dataContext);
+    if (file == null || !isGeneratedFile(file)) return false;
+
+    // Step aside for elements that substituteElementToRename() will redirect
+    Project project = CommonDataKeys.PROJECT.getData(dataContext);
+    if (project != null && isHandledByProcessor(project, file)) return false;
+
+    return true; // show block dialog for everything else
+}
+```
+
+### Why non-obvious
+Both `RenameHandler` and `RenamePsiElementProcessor` are documented as rename extension points, but the documentation doesn't explain their execution order or that `RenameHandler` takes full control when available. A developer implementing `substituteElementToRename()` would expect it to always be called, not silently bypassed.
+
+**See also:** GE-0079, GE-0080, GE-0081 (same rename processor pipeline)
+
+*Score: 12/15 · Included because: completely non-obvious interaction between two documented extension points, silent failure · Reservation: specific to IntelliJ rename pipeline architecture*
+
+---

@@ -1,13 +1,11 @@
-**Submission ID:** GE-0106
-**Date:** 2026-04-08
-**Project:** cc-praxis (Hortora blog illustration work)
-**Type:** gotcha
-**Stack:** SVG (all browsers, Playwright headless Chromium), any SVG textPath on a circular arc
-**Suggested target:** `tools/svg.md` (new file — header: `# SVG Gotchas and Techniques`)
+# SVG Gotchas and Techniques
 
 ---
 
 ## SVG textPath `dy` attribute does not reliably position text below a circular arc line
+
+**ID:** GE-0106
+**Stack:** SVG (all browsers, Playwright headless Chromium), any SVG textPath on a circular arc
 
 **Symptom:** Setting `dy="14"` (or any positive value) on a `<textPath>` element referencing a circular arc path fails to move the text below the arc line. The text remains sitting on or straddling the line regardless of the `dy` value tried. No error is thrown.
 
@@ -45,3 +43,5 @@ Inset amount ≈ font-size (12px) + gap (4px) = 16px. Adjust to taste.
 `dy` is the documented SVG attribute for shifting text perpendicular to a path. It works reliably on straight paths. On curved paths, browser rendering varies — the same `dy` value produces different results in different contexts. The inset-radius approach is nowhere documented as the preferred technique; it requires understanding that text renders above (outward from) the path by default.
 
 *Score: 13/15 · Included because: dy unreliability only surfaces on curved paths, not straight ones; fix requires non-obvious geometry; affects any circular diagram labelling · Reservation: may vary by browser/renderer*
+
+---
