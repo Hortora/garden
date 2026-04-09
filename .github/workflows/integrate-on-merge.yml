@@ -1,0 +1,59 @@
+name: Integrate Garden Entry on Merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+jobs:
+  integrate:
+    if: >
+      github.event.pull_request.merged == true &&
+      contains(github.event.pull_request.labels.*.name, 'garden-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout garden
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout soredium
+        uses: actions/checkout@v4
+        with:
+          repository: Hortora/soredium
+          path: .soredium
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Detect merged entry file
+        id: entry
+        run: |
+          FILE=$(git show --name-only --pretty="" HEAD | grep -E '^[^/]+/GE-[0-9]+\.md$' | head -1)
+          if [ -z "$FILE" ]; then
+            echo "No garden entry file in this merge"
+            exit 0
+          fi
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Integrate entry
+        if: steps.entry.outputs.file != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .soredium/scripts/integrate_entry.py "${{ steps.entry.outputs.file }}" .
+
+      - name: Push index updates
+        if: steps.entry.outputs.file != ''
+        run: git push origin main
