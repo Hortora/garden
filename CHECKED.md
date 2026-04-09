@@ -2089,3 +2089,14 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0142 × GE-0146 | distinct | 2026-04-09 | quarkus — different quarkus concerns |
 | GE-0142 × GE-0148 | distinct | 2026-04-09 | quarkus — different quarkus concerns |
 | GE-0146 × GE-0148 | distinct | 2026-04-09 | quarkus — different quarkus concerns |
+| GE-0004 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0023 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0024 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0037 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0058 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0064 × GE-0122 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0067 × GE-0122 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0122 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0139 × GE-0143 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0139 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0143 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
