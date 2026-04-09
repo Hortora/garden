@@ -56,6 +56,8 @@ end
 ### Why non-obvious
 Multi-phase Drools designs naturally use a shared `List<String>` for communication (same pattern as the output lists that work fine after `fire()` completes). The distinction — List mutations are invisible to the agenda, DataStore insertions are not — is not prominently documented. The failure is completely silent: rules compile, the session fires, Phase 1 runs, Phase 2 produces nothing.
 
+**See also:** GE-0063 (`DataSource.createStore()` NPE — same DataStore semantics, different failure mode)
+
 *Score: 12/15 · Included because: silent failure + misleading symptom; affects any multi-phase Rule Unit design · Reservation: none*
 
 ---

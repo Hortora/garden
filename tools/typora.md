@@ -48,3 +48,5 @@ Most developers either accept broken previews in Typora, use relative paths and 
 - Documented on the Typora support site but not widely known
 
 *Score: 10/15 (merge assessment) · Included because: the mismatch between Typora and Jekyll image resolution is a real friction point; typora-root-url front matter key is not discoverable without knowing to look for it · Reservation: narrow to Jekyll + Typora users*
+
+**See also:** GE-0108 (HTML `align` attribute for image float — related: Typora+Markdown image rendering)

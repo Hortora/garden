@@ -57,6 +57,8 @@ The natural approach — use `RuleUnitProvider.get()` for non-CDI testing (as do
 
 ---
 
+**See also:** GE-0109 (Phase 2 rules silently don't fire — related DataStore signalling pattern)
+
 ## Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns
 
 **ID:** GE-0056

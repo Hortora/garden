@@ -125,6 +125,8 @@ Key requirements:
 ### Why this is non-obvious
 `style="float:left"` is the modern CSS equivalent and works in Typora but is stripped by GitHub's HTML sanitiser. `align` is a deprecated HTML 4 attribute that GitHub preserves (it predates the CSS security concern). The no-blank-line requirement for Typora is undocumented — a blank line causes Typora to treat the image as a block and ignore the float.
 
+**See also:** GE-0020 (`typora-root-url` — related: Typora+Jekyll image rendering)
+
 *Score: 12/15 · Included because: `style` is the natural first attempt, GitHub stripping it is not surfaced as an error, `align` as the fix is non-obvious; no-blank-line Typora requirement is undocumented · Reservation: `align` is deprecated HTML — may eventually stop working*
 
 ---

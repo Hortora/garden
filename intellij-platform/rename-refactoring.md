@@ -59,7 +59,7 @@ public @Nullable Runnable getPostRenameCallback(
 
 The `PostprocessReformattingAspect` runs transparently — there is no error, the attribute value is correct, and the issue only appears as a cosmetic formatting change. The connection between PSI write actions and the reformatter is not documented in the rename processor API. Developers naturally use `ElementManipulators.handleContentChange()` (the idiomatic PSI edit API) without knowing it triggers the reformatter.
 
-**See also:** GE-0080 (order="first" requirement — same rename processor pipeline), GE-0081 (PsiElement invalidation — same rename lifecycle)
+**See also:** GE-0080 (order="first" requirement — same rename processor pipeline), GE-0081 (PsiElement invalidation — same rename lifecycle), GE-0117 (RenameHandler intercepting — same rename pipeline, different extension point layer)
 
 *Score: 14/15 · Included because: silent wrong output, completely undocumented interaction, anyone building a rename processor will hit this · Reservation: none*
 
