@@ -1,6 +1,6 @@
-**Last assigned ID:** GE-0144
+**Last assigned ID:** GE-0152
 **Last full DEDUPE sweep:** 2026-04-09
-**Entries merged since last sweep:** 0
+**Entries merged since last sweep:** 28
 **Drift threshold:** 10
 
 ## By Technology
@@ -9,6 +9,7 @@
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/encoding.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/encoding.md)
 - GE-0017 [`html.parser` does not add `<body>` wrapper to fragments; `.body.next` returns None](beautifulsoup/encoding.md)
+- GE-0131 [BeautifulSoup `get_text()` silently drops `<br/>` tags — multi-line content collapses to one line](beautifulsoup/encoding.md)
 ### claude-code/
 - GE-0001 [Claude Code settings.json rejects unknown top-level fields despite additionalProperties schema](claude-code/settings-json-quirks.md)
 ### drools/
@@ -38,6 +39,9 @@
 - GE-0064 [Maven aggregator pom requires `<packaging>pom</packaging>` — omitting it causes a cryptic build failure](java/maven.md)
 - GE-0067 [Maven ignores non-Java files in `src/main/java/` — resources must be in `src/main/resources/` or explicitly declared](java/maven.md)
 - GE-0122 [`package-private` Members in `a.b.c` Are Inaccessible from `a.b` — Sub-Packages Are Distinct Packages](java/package-access.md)
+- GE-0139 [`synchronized(key.intern())` causes JVM-wide global pool contention across unrelated instances](java/concurrency.md)
+- GE-0143 [`final hashCode()` in parent — update the protected field from setters instead of overriding](java/inheritance.md)
+- GE-0144 [Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files](java/maven.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/pty-patterns.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/pty-patterns.md)
@@ -73,6 +77,15 @@
 - GE-0095 [Use a dedicated @QuarkusTest class with @InjectMock to isolate side-effectful endpoint tests](quarkus/testing.md)
 - GE-0104 [Authenticator.publicKeyAlgorithm has no getter/setter — field cannot be persisted in WebAuthnUserProvider](quarkus/webauthn.md)
 - GE-0123 [Use Java-Managed Event Buffers + Fresh RuleUnitInstance per Tick Instead of Drools Fusion STREAM Mode for Temporal CEP in Quarkus Rule Units](quarkus/drools-rule-units.md)
+- GE-0125 [Quarkus static files are embedded in the JAR — source changes require a full rebuild to take effect](quarkus/maven.md)
+- GE-0126 [Quarkus WebAuthn generates a new random session key on restart — REST APIs return 401, WebSocket stays alive](quarkus/webauthn.md)
+- GE-0128 [`quarkus.webauthn.login-page` defaults to `/login.html` — undocumented, causes 404 on protected routes](quarkus/webauthn.md)
+- GE-0133 [Quarkus CDI silently ignores `@ApplicationScoped` beans in jars without a Jandex index](quarkus/cdi.md)
+- GE-0134 [`mvn install -DskipTests` runs Quarkus augmentation on library modules and fails if CDI is unsatisfied](quarkus/maven.md)
+- GE-0138 [`PanacheRepositoryBase.findById()` return type blocks SPI interface implementation](quarkus/panache.md)
+- GE-0142 [Hibernate `@OneToMany` collections must be initialized with `ArrayList`, not `CopyOnWriteArrayList`](quarkus/panache.md)
+- GE-0146 [Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`](quarkus/testing.md)
+- GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/cdi.md)
 ### tools/
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
@@ -134,6 +147,21 @@
 - GE-0114 [`href="dir/"` serves `index.html` on a web server but opens a directory listing locally](tools/github-pages.md)
 - GE-0115 [`maven-compiler-plugin` `<excludes>` Doesn't Prevent Transitive Compilation](tools/maven.md)
 - GE-0118 [`git restore --staged .` Also Reverts Working Tree Changes](tools/git.md)
+- GE-0127 [Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript](tools/xterm.md)
+- GE-0129 [iframe swallows mousemove events when the cursor enters it during a drag](tools/browser-ui.md)
+- GE-0130 [`JSON.stringify()` in HTML onclick attribute silently truncates at the first inner double-quote](tools/browser-ui.md)
+- GE-0132 [Walk text character-by-character tracking quote state to skip keyword matching inside strings](tools/text-processing.md)
+- GE-0135 [Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads](tools/testing-patterns.md)
+- GE-0136 [Structured text validators produce false positives from markers inside fenced code blocks](tools/markdown.md)
+- GE-0137 [`git push` to a non-bare repo is rejected when the target branch is checked out](tools/git.md)
+- GE-0140 [`git filter-branch --msg-filter` doubles footers already in commit bodies — two-pass required](tools/git.md)
+- GE-0141 [Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash](tools/git.md)
+- GE-0145 [Playwright Java: `waitForFunction(String, WaitForFunctionOptions)` silently serialises options as JS arg](tools/playwright.md)
+- GE-0147 [Java 11 WebSocket: `ws.request(N)` must be called before `onText` fires](tools/java-http-client.md)
+- GE-0149 [Maven Surefire: profile `<excludedGroups/>` doesn't clear base config — use `combine.self="override"`](tools/maven.md)
+- GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
+- GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
+- GE-0152 [PixiJS 8: Graphics mask added as child of anchored Sprite makes Sprite invisible](tools/pixijs.md)
 
 ---
 
@@ -190,8 +218,11 @@
 ### #git
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0043 [Use conventional commit scope as the primary feature-clustering signal over file paths](tools/git.md)
+- GE-0141 [Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash](tools/git.md)
 ### #github
 - GE-0049 [Create and close GitHub issues in bulk with a bash function and URL number extraction](tools/github-cli.md)
+### #history-rewriting
+- GE-0141 [Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash](tools/git.md)
 ### #html2text
 - GE-0088 [Move trailing whitespace from inside inline HTML elements to after the closing tag before html2text](tools/html2text.md)
 ### #integration
@@ -218,6 +249,8 @@
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 ### #panama-ffm
 - GE-0039 [Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other](tools/maven.md)
+### #parsing
+- GE-0132 [Walk text character-by-character tracking quote state to skip keyword matching inside strings](tools/text-processing.md)
 ### #pattern
 - GE-0021 [Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()](tools/ocraft-s2client.md)
 - GE-0040 [Use `waitpid(WNOHANG)` polling to verify signal delivery in subprocess tests](tools/testing-patterns.md)
@@ -229,6 +262,9 @@
 - GE-0105 [Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node](drools/drools-goap-planning.md)
 - GE-0119 [PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated](intellij-platform/plugin-testing.md)
 - GE-0123 [Use Java-Managed Event Buffers + Fresh RuleUnitInstance per Tick Instead of Drools Fusion STREAM Mode for Temporal CEP in Quarkus Rule Units](quarkus/drools-rule-units.md)
+- GE-0127 [Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript](tools/xterm.md)
+- GE-0132 [Walk text character-by-character tracking quote state to skip keyword matching inside strings](tools/text-processing.md)
+- GE-0135 [Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads](tools/testing-patterns.md)
 ### #performance
 - GE-0054 [Demand-load reference material in Claude Code skills via separate .md files](tools/claude-code.md)
 - GE-0105 [Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node](drools/drools-goap-planning.md)
@@ -257,6 +293,8 @@
 - GE-0043 [Use conventional commit scope as the primary feature-clustering signal over file paths](tools/git.md)
 - GE-0050 [Use conventional commit scope to cluster commits into issues without reading per-commit diffs](tools/git.md)
 - GE-0105 [Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node](drools/drools-goap-planning.md)
+- GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
+- GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
 ### #svg
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/ci-cd.md)
 ### #technique
@@ -275,6 +313,10 @@
 - GE-0092 [Use `.locator().all()` not `.locator().nth(n)` when screenshotting multiple elements of the same class](tools/playwright.md)
 - GE-0095 [Use a dedicated @QuarkusTest class with @InjectMock to isolate side-effectful endpoint tests](quarkus/testing.md)
 - GE-0119 [PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated](intellij-platform/plugin-testing.md)
+- GE-0127 [Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript](tools/xterm.md)
+- GE-0135 [Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads](tools/testing-patterns.md)
+- GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
+- GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
 ### #token-budget
 - GE-0054 [Demand-load reference material in Claude Code skills via separate .md files](tools/claude-code.md)
 - GE-0055 [Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers](tools/claude-code.md)
@@ -288,3 +330,7 @@
 - GE-0010 [Order dependent artifact creation by information flow, not by convention](tools/workflow.md)
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
 - GE-0035 [Trigger exhaustive sweeps by activity count, not time, to match cost to actual need](tools/data-structures.md)
+
+## Tag Index
+
+algorithm, analysis, appkit, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
