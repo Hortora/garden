@@ -110,3 +110,67 @@ Note: `quarkus-maven-plugin:create` generates this block correctly. The issue oc
 BUILD SUCCESS with exit code 0 is never expected to mean "I did nothing". The WARNING is the only signal and it's easy to miss. Developers typically assume a port binding issue, an application startup failure, or a wrong profile — not that the dev mode was never attempted at all.
 
 *Score: 13/15 · Included because: BUILD SUCCESS hiding a complete skip is deeply counterintuitive; wastes significant debugging time because all assumptions are wrong · Reservation: none identified*
+
+---
+
+## Quarkus static files are embedded in the JAR — source changes require a full rebuild to take effect
+
+**ID:** GE-0125
+**Stack:** Quarkus 3.9.x, JVM mode (quarkus-run.jar)
+**Symptom:** Changes to `src/main/resources/META-INF/resources/` (JS, CSS, HTML) made after `mvn package` are invisible when the production JVM jar is running. The server serves the old version regardless of how many times it is restarted.
+**Context:** Running the Quarkus production jar (`java -jar target/quarkus-app/quarkus-run.jar`). Dev mode (`mvn quarkus:dev`) hot-reloads static files from the source tree; production mode does not.
+
+### What was tried (didn't work)
+- Restarting the server (multiple times)
+- Hard-refreshing the browser (Cmd+Shift+R)
+- Clearing service worker cache
+
+None helped because the source of truth is the embedded JAR, not the source files.
+
+### Root cause
+Quarkus embeds all `META-INF/resources/` content into the JAR at build time (`mvn package`). In dev mode, static files are served live from the source tree with hot reload. In production mode, they are frozen in the JAR.
+
+### Fix
+Always run `mvn package -DskipTests` before restarting the production server when static file changes have been made.
+
+### Why non-obvious
+Dev mode hot-reloads static files transparently. Switching to production mode (for testing auth, native image, etc.) silently changes this behaviour. The symptom (changes not appearing) is identical to a browser caching issue — which is the first thing developers check — causing significant time lost before the real cause is found.
+
+*Score: 13/15 · Included because: high pain (extended debugging loop), high non-obviousness (dev vs prod behaviour divergence is invisible), applies to any Quarkus app with static resources · Reservation: none*
+
+---
+
+## `mvn install -DskipTests` runs Quarkus augmentation on library modules and fails if CDI is unsatisfied
+
+**ID:** GE-0134
+**Stack:** Quarkus Maven plugin 3.x (all versions)
+**Symptom:** `mvn install -DskipTests` fails on a library module (`<packaging>jar</packaging>`) that has `quarkus-maven-plugin` with the `build` goal, because Quarkus augmentation runs and finds unsatisfied CDI dependencies:
+
+```
+[ERROR] Build step io.quarkus.arc.deployment.ArcProcessor#validate threw an exception:
+jakarta.enterprise.inject.spi.DeploymentException: Found 3 deployment problems:
+[1] Unsatisfied dependency for type io.casehub.core.spi.CaseFileRepository
+```
+
+**Context:** A library module provides CDI interfaces but relies on a sibling persistence module to provide the implementations. During `mvn install -DskipTests` on just the library module, the implementations are not on the classpath and augmentation fails.
+
+### What was tried (didn't work)
+- `mvn install -DskipTests` — augmentation still runs, fails
+- `mvn install -Dmaven.test.skip=true` — same result
+
+### Root cause
+When `quarkus-maven-plugin` includes the `build` goal in `<executions>`, it runs Quarkus augmentation during the `package` phase — regardless of whether tests are skipped. This is correct for runnable Quarkus apps but surprising for library modules.
+
+### Fix
+Add `-Dquarkus.build.skip=true` to skip augmentation:
+
+```bash
+mvn install -DskipTests -Dquarkus.build.skip=true
+```
+
+This produces a correctly compiled jar without running augmentation. The resulting jar is suitable as a library dependency.
+
+### Why non-obvious
+`-DskipTests` is universally understood to mean "skip testing." Quarkus augmentation runs in the package phase, not the test phase, so `-DskipTests` has no effect on it. The flag `-Dquarkus.build.skip=true` exists but is only mentioned in passing in the native build guide — not the Maven plugin docs.
+
+*Score: 12/15 · Included because: counter-intuitive flag interaction, affects every multi-module Quarkus library project · Reservation: somewhat discoverable via Maven plugin docs*

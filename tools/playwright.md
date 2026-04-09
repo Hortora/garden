@@ -272,3 +272,127 @@ for i in range(4):
 The error (timeout) gives no indication that the selector strategy is wrong; it looks like the element simply isn't found. `.count()` confirming 4 elements makes the timeout even more confusing. `.all()` is not prominently documented as the preferred approach for this use case.
 
 *Score: 10/15 · Included because: timeout error completely misleads; .all() is the non-obvious fix; common automation task · Reservation: may vary across Playwright versions*
+
+---
+
+## Playwright Java: `waitForFunction(String, WaitForFunctionOptions)` silently serialises options as JS arg
+
+**ID:** GE-0145
+**Stack:** Playwright Java 1.49.0
+**Symptom:** `PlaywrightException: Unsupported type of argument: com.microsoft.playwright.Page$WaitForFunctionOptions@...` at runtime. No compile error. Stack trace points into Playwright's internal serialisation, not the call site.
+**Context:** Calling `page.waitForFunction(expression, options)` with two arguments — expression and `WaitForFunctionOptions` — intending to set a timeout.
+
+### Root cause
+Playwright Java's `waitForFunction` overloads are:
+- `waitForFunction(String expression)`
+- `waitForFunction(String expression, Object arg)` ← JS argument
+- `waitForFunction(String expression, Object arg, WaitForFunctionOptions options)`
+
+There is **no** `waitForFunction(String, WaitForFunctionOptions)` overload. The two-arg call matches `(String, Object)` — treating the options object as the JavaScript argument — and Playwright tries to serialise `WaitForFunctionOptions` as JSON, which fails.
+
+### Fix
+Always pass `null` as the arg when no JS argument is needed:
+
+```java
+// WRONG — WaitForFunctionOptions becomes the JS arg
+page.waitForFunction(
+    "() => window.__test !== undefined",
+    new Page.WaitForFunctionOptions().setTimeout(10_000));
+
+// FIX — explicit null for the JS arg
+page.waitForFunction(
+    "() => window.__test !== undefined",
+    null,
+    new Page.WaitForFunctionOptions().setTimeout(10_000));
+```
+
+### Why non-obvious
+The Python Playwright API accepts `timeout` as a keyword argument directly. Java's overload resolution silently selects the wrong overload. The error message mentions internal serialisation — nothing points to the missing `null`.
+
+*Score: 12/15 · Included because: wrong overload resolved silently, completely misleading error, Java-specific trap for Python Playwright users · Reservation: none*
+
+---
+
+## Expose `window.__test` semantic API for robust canvas/WebGL test assertions
+
+**ID:** GE-0150
+**Stack:** Playwright Java 1.49.0, PixiJS 8, any canvas-based frontend
+**Labels:** `#testing` `#strategy`
+**What it achieves:** Semantic assertions on canvas-rendered UIs without pixel-comparison screenshots, surviving visual style changes while catching behavioral regressions.
+**Context:** Canvas/WebGL rendering is invisible to DOM selectors. Screenshot diffing is fragile. This pattern bridges the gap.
+
+### The technique
+Expose a `window.__test` object from the JavaScript app with helpers returning serialisable state. Set it before loading assets so tests don't have to wait for network:
+
+```javascript
+// In app init — before loadAssets()
+window.__test = {
+    spriteCount: (prefix) =>
+        [...activeSprites.keys()].filter(k => k.startsWith(prefix + ':')).length,
+    sprite: (key) => {
+        const s = activeSprites.get(key);
+        if (!s) return null;
+        return { x: s.x, y: s.y, alpha: s.alpha ?? 1,
+                 visible: s.visible !== false, hasMask: s.mask != null };
+    },
+    hudText: () => hudText?.text ?? '',
+    wsConnected: () => wsConnected,
+};
+```
+
+In Playwright Java tests:
+
+```java
+// Semantic count — survives layout changes
+long units = ((Number) page.evaluate(
+    "() => window.__test.spriteCount('unit')")).intValue();
+assertThat(units).isEqualTo(12);
+
+// Mask regression — catches PixiJS 8 invisible-sprite bug (GE-0152)
+boolean noMasks = (boolean) page.evaluate(
+    "() => Array.from({length:12}, (_,i) => window.__test.sprite('unit:probe-'+i))" +
+    "      .every(s => s !== null && !s.hasMask)");
+assertThat(noMasks).isTrue();
+```
+
+### Why this is non-obvious
+Most developers either skip canvas testing or reach for visual regression tools (Percy, Applitools, screenshot diffs). The `window.__test` pattern is deterministic, fast, and catches behavioral regressions without coupling to visual style.
+
+*Score: 13/15 · Included because: solves a widely-avoided problem (canvas testing), non-obvious to combine page.evaluate with app-side test hooks · Reservation: requires modifying the app under test*
+
+---
+
+## Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`
+
+**ID:** GE-0151
+**Stack:** Java 11 WebSocket, Quarkus 3.x (quarkus-websockets-next), JUnit 5, Playwright Java
+**Labels:** `#testing` `#strategy`
+**What it achieves:** Eliminates a race condition where `ws.onopen` fires before the server's `@OnOpen` handler has registered the session, causing the first server push to be dropped.
+**Context:** `@QuarkusTest` where tests trigger server push immediately after WebSocket connects.
+
+### The technique
+Wait for the first actual message to arrive in the browser — not just for `ws.onopen` or the server's `@OnOpen` callback:
+
+```java
+private Page openPage() {
+    Page page = browser.newPage();
+    page.navigate(pageUrl.toString());
+
+    // 1. Wait for JS init + browser-side WebSocket handshake
+    page.waitForFunction("() => window.__test && window.__test.wsConnected()",
+        null, new Page.WaitForFunctionOptions().setTimeout(10_000));
+
+    // 2. Trigger a server push and wait for it to arrive.
+    //    This proves the server's @OnOpen handler has registered the session.
+    engine.observe();
+    page.waitForFunction("() => window.__test.hudText() !== 'Connecting...'",
+        null, new Page.WaitForFunctionOptions().setTimeout(5_000));
+
+    return page; // guaranteed end-to-end ready
+}
+```
+
+### Why non-obvious
+The `ws.onopen` / server `@OnOpen` ordering is not documented as a potential race. It only manifests in `@QuarkusTest` where the server handler runs on a reactive executor with possible scheduling delay — maybe 10–20% of runs. Using `waitForFunction` with a functional condition (not a timeout) makes the test reliable on any machine speed.
+
+*Score: 12/15 · Included because: eliminates a common flaky-test pattern, @OnOpen async delay not documented, waitForFunction-on-first-message is non-obvious · Reservation: Quarkus-specific trigger, but pattern is general*

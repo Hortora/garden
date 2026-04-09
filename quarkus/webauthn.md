@@ -207,3 +207,62 @@ curl -X POST http://localhost:7777/q/webauthn/register/options # 404 (doesn't ex
 ```
 
 *Score: 13/15 · Included because: genuinely absent from official docs, only findable via bytecode inspection, common wrong assumption causes hours of debugging · Reservation: Quarkus-version-specific*
+
+---
+
+## Quarkus WebAuthn generates a new random session key on restart — REST APIs return 401, WebSocket stays alive
+
+**ID:** GE-0126
+**Stack:** Quarkus 3.9.x, quarkus-security-webauthn
+**Symptom:** After a server restart, REST API calls from the browser return 401 silently (if errors are swallowed in `.catch()`), while an already-open WebSocket connection continues working. The UI appears functional (e.g. terminal displays content) but all authenticated HTTP requests fail.
+**Context:** Running Quarkus WebAuthn in production mode without setting `QUARKUS_HTTP_AUTH_SESSION_ENCRYPTION_KEY`. A WARN log is emitted at startup: `"Encryption key was not specified for persistent WebAuthn auth, using temporary key XYZ="`. The key differs on every restart, so session cookies encrypted with the previous key are rejected.
+
+### What was tried (didn't work)
+- Assumed the WebSocket message handler was broken (wrong)
+- Switched to REST API fetch calls (still silent 401)
+- Added console logging (revealed nothing — JAR hadn't been rebuilt)
+
+### Root cause
+Quarkus uses the encryption key to sign session cookies. Without a stable key, every restart invalidates all existing cookies. The WebSocket is unaffected because it authenticates at connection time and keeps the TCP connection alive — new cookies are only checked on new connections.
+
+### Fix
+Set a stable session encryption key:
+
+```properties
+# application.properties
+%prod.quarkus.http.auth.session.encryption-key=<secret-min-17-chars>
+```
+
+Or via env var: `QUARKUS_HTTP_AUTH_SESSION_ENCRYPTION_KEY=<secret>`.
+
+### Why non-obvious
+The WARN log is easy to miss. The WebSocket-alive / REST-dead symptom actively misleads — it implies the user is logged in (terminal works) but somehow not (API fails). Developers look at CORS, session config, or the WebSocket handler rather than a key rotation issue.
+
+**See also:** GE-0046 (the undocumented config property path and how to discover it)
+
+*Score: 13/15 · Included because: WebSocket-alive/REST-dead symptom is uniquely misleading; caused multiple debugging sessions; fix is one env var once you know what to set · Reservation: none*
+
+---
+
+## `quarkus.webauthn.login-page` defaults to `/login.html` — undocumented, causes 404 on protected routes
+
+**ID:** GE-0128
+**Stack:** Quarkus 3.9.x, quarkus-security-webauthn
+**Symptom:** Accessing a path protected by `quarkus.http.auth.permission.*.policy=authenticated` without an auth cookie redirects to `/login.html`, which returns 404 if no such page exists. The actual login page at a different path is never reached.
+**Context:** `quarkus-security-webauthn` has a runtime config property `loginPage()` on `WebAuthnRunTimeConfig` defaulting to `/login.html`. Not mentioned in Quarkus WebAuthn documentation. Only discoverable by decompiling the config class:
+
+```bash
+jar xf ~/.m2/repository/io/quarkus/quarkus-security-webauthn/3.9.5/quarkus-security-webauthn-3.9.5.jar
+javap io/quarkus/security/webauthn/WebAuthnRunTimeConfig.class
+# → public abstract java.lang.String loginPage();
+```
+
+### Fix
+```properties
+quarkus.webauthn.login-page=/auth/login
+```
+
+### Why non-obvious
+The Quarkus WebAuthn docs do not mention `login-page` or `/login.html`. The symptom (redirect to 404) looks like a routing misconfiguration rather than a missing property. Zero discoverability without javap or source reading.
+
+*Score: 11/15 · Included because: zero discoverability (requires javap), high breadth (every WebAuthn app with custom login path), easy to hit · Reservation: only applies when not using the default /login.html*

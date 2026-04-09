@@ -143,3 +143,44 @@ element = BeautifulSoup(fragment_html, 'html.parser').find()
 The bug only manifests on documents that exercise fragment-parsing code paths. Clean full-page HTML works fine. This creates a confusing 80/20 failure pattern: most documents succeed, some fail with a cryptic `NoneType` error that doesn't point to the parser choice as the cause. The root issue — two parsers produce different tree shapes for fragment input — is documented in BS4 docs but easy to miss when migrating parsers for an unrelated reason.
 
 *Score: 13/15 · Included because: 80/20 failure split looks like a content bug not a parser bug; `.find()` fix is simple but requires knowing why · Reservation: BS4 docs do mention the difference*
+
+---
+
+## BeautifulSoup `get_text()` silently drops `<br/>` tags — multi-line content collapses to one line
+
+**ID:** GE-0131
+**Stack:** Python, BeautifulSoup4 (all versions)
+**Symptom:** Code extracted from `<pre>` blocks appears on a single line with no newlines. The live page renders correctly with line breaks.
+**Context:** Many CMS platforms (WordPress wpautop, Blogger) store code without newline characters and inject `<br/>` tags at render time. When `get_text()` is called on a `<pre>` element containing `<br/>` separators, the `<br/>` elements produce empty strings — they don't become `\n`.
+
+### What was tried (didn't work)
+- Assumed the issue was in html2text conversion
+- Checked encoding — content was correctly decoded
+- Looked at the stored HTML — `<br/>` tags were present
+
+### Root cause
+`BeautifulSoup.get_text()` concatenates NavigableString text nodes, inserting `separator` between them. A `<br/>` Tag has **no text content**, so it contributes an empty string. The `separator` is placed around it, not in place of it. Result: `line1<br/>line2` → `"line1line2"` (or `"line1 line2"` with separator), not `"line1\nline2"`.
+
+### Fix
+Replace `<br/>` tags with `\n` **before** calling `get_text()`:
+
+```python
+for br in element.find_all('br'):
+    br.replace_with('\n')
+text = element.get_text()
+```
+
+If preserving the original tree:
+
+```python
+import copy
+el_copy = copy.copy(element)
+for br in el_copy.find_all('br'):
+    br.replace_with('\n')
+text = el_copy.get_text(separator='')
+```
+
+### Why non-obvious
+`get_text()` has a `separator` parameter that implies it handles element boundaries — but `<br/>` is a void element with no text, so the separator lands around an empty string rather than replacing the tag. The symptom (CMS content on one line) points toward encoding, html2text settings, or storage format — not a BeautifulSoup API subtlety.
+
+*Score: 12/15 · Included because: symptom points to wrong cause, fix requires understanding BS4 tree model, common pattern in CMS content extraction · Reservation: none*

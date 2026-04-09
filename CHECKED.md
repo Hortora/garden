@@ -637,3 +637,6 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0118 × GE-0101 | distinct | 2026-04-09 | tools — different tools concerns |
 | GE-0118 × GE-0102 | distinct | 2026-04-09 | tools — different tools concerns |
 | GE-0118 × GE-0103 | distinct | 2026-04-09 | tools — different tools concerns |
+| GE-0126 × GE-0046 | related | 2026-04-09 | GE-0046 is the undocumented property; GE-0126 is the WebSocket-alive/REST-dead diagnostic symptom — complementary, cross-referenced |
+| GE-0136 × GE-0091 | related | 2026-04-09 | GE-0091 is workaround for validate_document.py; GE-0136 is the general strip_code_fences pattern — related, cross-referenced |
+| GE-0140 × GE-0141 | related | 2026-04-09 | GE-0140 is doubled-footers gotcha; GE-0141 is selective per-commit filter technique — companion entries, cross-referenced |

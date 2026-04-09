@@ -130,3 +130,46 @@ Key requirements:
 *Score: 12/15 · Included because: `style` is the natural first attempt, GitHub stripping it is not surfaced as an error, `align` as the fix is non-obvious; no-blank-line Typora requirement is undocumented · Reservation: `align` is deprecated HTML — may eventually stop working*
 
 ---
+
+## Structured text validators produce false positives from markers inside fenced code blocks
+
+**ID:** GE-0136
+**Stack:** Python (any version), `re` module, any structured markdown validator
+**Symptom:** A validator scanning for a structured marker pattern (e.g. `**ID:** GE-XXXX`) reports false positives — entries that appear to match the pattern but are actually example values inside fenced code blocks. No error is raised; the validator silently misclassifies content.
+**Context:** Any script that uses regex to scan markdown files for structured markers, where those same markers may appear as example values inside `` ``` `` fenced code blocks (e.g. documentation showing what a marker looks like, or gotcha entries showing broken vs fixed output).
+
+### What was tried (didn't work)
+```python
+re.finditer(r'^\*\*ID:\*\*\s+(GE-\d{4})', content, re.MULTILINE)
+# Matches inside code blocks too — `^` matches the start of any line
+```
+
+### Root cause
+`re.MULTILINE` makes `^` match at the start of every line, regardless of whether that line is inside a fenced code block. Python's regex has no awareness of markdown structure. A line like `**ID:** GE-0042` inside a `` ``` `` block is indistinguishable from a real marker line.
+
+### Fix
+Strip fenced code blocks before running the regex:
+
+```python
+import re
+
+def strip_code_fences(content: str) -> str:
+    """Remove content inside fenced code blocks to avoid false positives."""
+    return re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+
+content_stripped = strip_code_fences(path.read_text())
+for m in re.finditer(r'^\*\*ID:\*\*\s+(GE-\d{4})', content_stripped, re.MULTILINE):
+    ge_id = m.group(1)
+    # ...
+```
+
+`re.DOTALL` makes `.` match newlines, so the pattern captures multi-line code blocks correctly.
+
+### Why non-obvious
+The validator works correctly for all "real" structured content. It only fails when the same marker appears as an example in documentation — which is common in gotcha entries that show broken vs fixed output. The false positive looks exactly like a real match (same format, same line), with no indication that a code block is involved.
+
+**See also:** GE-0091 (related: `validate_document.py` tables-in-code-fence false positive in cc-praxis)
+
+*Score: 12/15 · Included because: cross-project pattern affecting any structured markdown validator; fix is non-obvious (strip fences, not adjust the regex) · Reservation: none*
+
+---

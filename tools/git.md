@@ -223,3 +223,151 @@ git restore --staged src/old/path/File.java src/new/path/File.java
 *Score: 10/15 · Included because: `--staged` strongly implies index-only, working tree revert is silent · Reservation: arguably documented, though easy to miss*
 
 ---
+
+## `git push` to a non-bare repo is rejected when the target branch is checked out
+
+**ID:** GE-0137
+**Stack:** Git (all versions)
+**Symptom:** Integration tests simulating concurrent git push/pull between two clones fail with:
+
+```
+remote: error: refusing to update checked out branch: refs/heads/main
+remote: error: By default, updating the current branch in a non-bare repository
+remote: error: is denied, because it will make the index and work tree inconsistent
+```
+
+**Context:** Tests that `git init` a directory and clone it twice, expecting both clones to push to the "origin". Fails because the origin has a working tree with `main` checked out.
+
+### What was tried (didn't work)
+```python
+# Init, clone twice, have both push to origin
+subprocess.run(["git", "clone", str(origin), str(session_a)])
+subprocess.run(["git", "clone", str(origin), str(session_b)])
+git(session_a, "push", "origin", "main")  # ✅
+git(session_b, "push", "origin", "main")  # ❌ "refusing to update checked out branch"
+```
+
+### Root cause
+When you push to a non-bare repository, git refuses to update the branch currently checked out in the target's working tree. This prevents the working tree from becoming out of sync with the index. The restriction applies even if the working tree is clean.
+
+### Fix
+Use `git init --bare` for the shared remote. Bare repositories have no working tree, so there is no checked-out branch — pushes from multiple clones are always accepted:
+
+```python
+bare = root / "origin.git"
+subprocess.run(["git", "init", "--bare", str(bare)])
+
+# Seed via a temporary clone
+seed = root / "seed"
+subprocess.run(["git", "clone", str(bare), str(seed)])
+# ... make initial commit in seed, push to bare ...
+
+# Both sessions clone from the bare remote
+subprocess.run(["git", "clone", str(bare), str(session_a)])
+subprocess.run(["git", "clone", str(bare), str(session_b)])
+git(session_a, "push", "origin", "main")  # ✅
+git(session_b, "push", "origin", "main")  # ✅ (or conflict if diverged — expected)
+```
+
+### Why non-obvious
+The error message says "refusing to update checked out branch" — sounds like branch protection, not a bare vs non-bare distinction. Developers familiar with GitHub (which uses bare repos internally) never encounter this in normal work. It only surfaces in test environments using a local directory as the "remote." The fix is simple but requires knowing "bare" is the right concept.
+
+*Score: 12/15 · Included because: error message actively misleads, affects anyone writing git integration tests, bare repo concept not prominent in learning materials · Reservation: none*
+
+---
+
+## `git filter-branch --msg-filter` doubles footers already in commit bodies — two-pass required
+
+**ID:** GE-0140
+**Stack:** git (all versions)
+**Symptom:** After running `git filter-branch --msg-filter` to append `Refs #6` footers to historical commits, some commits have the footer twice. Also: `filter-branch` may fail immediately with "Cannot rewrite branches: You have unstaged changes" before processing any commits.
+
+### Root cause (doubled footers)
+The `--msg-filter` script is applied unconditionally to every matched commit. If some commits already contain the footer (e.g. written by an earlier tool), the script appends a second copy with no awareness of existing content.
+
+### Root cause (unstaged changes error)
+`filter-branch` refuses to run if there are any uncommitted modifications in the working tree — even files unrelated to the commits being rewritten.
+
+### Fix
+Step 1 — stash before running:
+```bash
+git stash
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --msg-filter '...' -- HEAD
+git stash pop
+```
+
+Step 2 — run a second deduplication pass with inline Python:
+```bash
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --msg-filter '
+python3 -c "
+import sys, re
+msg = sys.stdin.read()
+lines = msg.split(chr(10))
+seen = set()
+result = []
+for line in lines:
+    m = re.match(r\"^(Refs|Closes)\s+(#\d+)\", line.strip())
+    if m:
+        key = line.strip()
+        if key not in seen:
+            seen.add(key)
+            result.append(line)
+    else:
+        result.append(line)
+output = chr(10).join(result)
+output = re.sub(r\"\n{3,}\", chr(10)*2, output)
+sys.stdout.write(output.rstrip(chr(10)) + chr(10))
+"
+' -- HEAD
+```
+
+### Why non-obvious
+The filter is advertised as a message transformer — nothing in the documentation warns it has no knowledge of existing message content. The stash requirement is documented but easy to miss.
+
+**See also:** GE-0141 (selective per-commit filter using `$GIT_COMMIT`)
+
+*Score: 11/15 · Included because: non-obvious double-application behaviour, stash requirement not prominent, real pain when rewriting history in active repos · Reservation: moderately specific use case*
+
+---
+
+## Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash
+
+**ID:** GE-0141
+**Stack:** git (all versions)
+**Labels:** `#git` `#history-rewriting`
+**What it achieves:** Selectively amends specific commits by SHA while leaving all others unchanged — without a separate rebase step per commit.
+**Context:** Retroactively adding issue references, co-author footers, or semantic prefixes to specific historical commits.
+
+### The technique
+
+The `--msg-filter` script has access to `$GIT_COMMIT` — the full SHA of the commit currently being rewritten. Use a `case` statement to target specific commits:
+
+```bash
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --msg-filter '
+case "$GIT_COMMIT" in
+    abc123def456...)  cat && printf "\nCloses #1" ;;
+    789xyz...)        cat && printf "\nRefs #6" ;;
+    *)                cat ;;  # leave all other commits unchanged
+esac
+' -- HEAD
+```
+
+### Why this is non-obvious
+`$GIT_COMMIT` is mentioned in the `git filter-branch` man page but its use in `--msg-filter` (vs other filters) is not documented with examples. Most developers assume `--msg-filter` processes all commits uniformly.
+
+### When to use it
+- Retroactively linking specific commits to issues without touching unrelated commits
+- Adding footers selectively after inspecting which commits need them
+
+**Important caveats:**
+- Stash uncommitted changes before running (see GE-0140)
+- Run with `FILTER_BRANCH_SQUELCH_WARNING=1` to suppress the deprecation warning
+- Check commit bodies first — if some already have the footer, use GE-0140's deduplication pass
+- `$GIT_COMMIT` uses the *original* SHA, not the rewritten one — pre-built case statements work correctly
+- Force push required after rewriting: `git push --force-with-lease origin main`
+
+**See also:** GE-0140 (doubled footers gotcha and deduplication pass)
+
+*Score: 11/15 · Included because: not obvious from docs, saves significant manual rebasing, clean solution · Reservation: git filter-branch is deprecated (but still widely functional)*
+
+---

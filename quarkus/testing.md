@@ -133,3 +133,36 @@ The natural instinct is to add the test to the existing test class alongside oth
 **See also:** GE-0094 (the gotcha this technique resolves)
 
 *Score: 12/15 · Included because: high breadth, elegant solution, non-obvious class-scope implication · Reservation: @InjectMock itself is documented; the pattern is the insight*
+
+---
+
+## Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`
+
+**ID:** GE-0146
+**Stack:** Quarkus 3.34.2, tyrus-standalone-client 2.1.5, JUnit 5
+**Symptom:** `java.lang.IllegalStateException: ArC container not initialized` when running a `@QuarkusTest`. Tests that previously passed now fail during `ContainerProvider.getWebSocketContainer().connectToServer(...)`.
+**Context:** Occurs when `tyrus-standalone-client` is added to test dependencies and used inside a `@QuarkusTest` to connect to a WebSocket endpoint.
+
+### Root cause
+Tyrus uses `ServiceLoader` to find the `ContainerProvider` implementation. In a Quarkus test, the application classloader and the test classloader are separate. Tyrus's `ServiceLoader` invocation uses the wrong classloader, bootstrapping a second CDI container that conflicts with Quarkus's existing container.
+
+### Fix
+Use Java 11's built-in `java.net.http.WebSocket` — no external dependency, no classloader conflict:
+
+```java
+// WRONG — tyrus conflicts with Quarkus classloader
+Session session = ContainerProvider.getWebSocketContainer()
+    .connectToServer(endpoint, wsUri);
+
+// FIX — Java 11 built-in
+WebSocket ws = HttpClient.newHttpClient()
+    .newWebSocketBuilder()
+    .buildAsync(wsUri, listener)
+    .join();
+ws.request(1); // request the first message (required — see GE-0147)
+```
+
+### Why non-obvious
+Tyrus works fine in standard Java apps and in Quarkus apps outside of `@QuarkusTest`. The classloader isolation only applies in the test harness. "Container not initialized" looks like a Quarkus startup problem, not a classloader conflict from a client library.
+
+*Score: 13/15 · Included because: completely misleading error, affects anyone adding WS client tests to Quarkus, easy to waste hours debugging startup · Reservation: none*

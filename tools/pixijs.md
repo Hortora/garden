@@ -1,0 +1,44 @@
+# PixiJS Gotchas and Techniques
+
+---
+
+## PixiJS 8: Graphics mask added as child of anchored Sprite makes Sprite invisible
+
+**ID:** GE-0152
+**Stack:** PixiJS 8.x
+**Symptom:** A `PIXI.Sprite` with `anchor.set(0.5)` is visible in the scene graph (`visible=true`, `alpha=1`, parent container renders) but produces no pixels on the canvas. Other sprites in the same container render normally. No errors or warnings.
+**Context:** Occurs when a `PIXI.Graphics` circular mask is created, added as a child of the sprite (`sprite.addChild(mask)`), then assigned as the sprite's mask (`sprite.mask = mask`). This was the documented approach in PixiJS v7.
+
+### What was tried (didn't work)
+- Checking `visible`, `alpha`, `renderable` — all correct
+- Verified texture loaded
+- Confirmed sprite exists in layer `children`
+- Canvas screenshots showed background color at sprite position (sprite "exists" but renders nothing)
+
+### Root cause
+PixiJS 8 changed how child-based masks interact with anchored sprites. When the mask is a child of the masked sprite and the sprite has a non-zero anchor, the mask's local coordinate space is misaligned relative to the WebGL clipping region, clipping away all pixels.
+
+### Fix
+Remove the mask entirely (rectangular sprites) or add the mask to the parent container — not the sprite — and position it in world space:
+
+```javascript
+// WRONG (PixiJS 8) — mask as child of anchored sprite makes it invisible
+const sprite = new PIXI.Sprite(texture);
+sprite.anchor.set(0.5);
+const mask = new PIXI.Graphics();
+mask.circle(0, 0, radius).fill(0xffffff);
+sprite.addChild(mask);
+sprite.mask = mask;
+
+// FIX — no mask, rectangular sprite
+const sprite = new PIXI.Sprite(texture);
+sprite.width = radius * 2;
+sprite.height = radius * 2;
+sprite.anchor.set(0.5);
+// mask omitted — renders as rectangle
+```
+
+### Why non-obvious
+The old PixiJS v7 pattern (mask as child) worked correctly. No deprecation warning, no console error. The sprite exists in the scene graph with all visibility properties correct. The only way to detect the problem is pixel sampling or `canvas.screenshot()`. Every diagnostic points to "sprite is visible" when it is in fact invisible.
+
+*Score: 13/15 · Included because: silent invisible-but-valid sprite, all diagnostics mislead, breaking change from v7 with no migration warning · Reservation: PixiJS-specific*

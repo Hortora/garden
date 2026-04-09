@@ -95,3 +95,32 @@ jar tf target/myartifact.jar | grep "\.dat"
 The error manifests far from the cause: `Protocol.DEFAULT` is null, `parseReplay()` returns null, all parsing silently fails. Nothing warns you that resource files are missing from the JAR. The `.dat` files exist in the source tree and the JAR is on the classpath — both the things you'd check. The missing step (opening the JAR to see what's actually inside) is non-obvious.
 
 *Score: 14/15 · Included because: silent null failure traceable only by inspecting JAR contents — a step most developers skip when the source files clearly exist · Reservation: none identified*
+
+---
+
+## Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files
+
+**ID:** GE-0144
+**Stack:** Maven (all versions)
+**Symptom:** `NoClassDefFoundError: org/example/MyClass` at test runtime, even though `mvn compile` passed with no errors. The class clearly exists in source.
+**Context:** After changing a class (e.g. adding a method override), Maven's incremental build recompiles that source file successfully. A dependent class has a cached `.class` from before the change that becomes structurally inconsistent.
+
+### What was tried (didn't work)
+- Checked pom.xml for missing dependencies — nothing missing
+- Checked classpath for duplicate jars — none
+- Re-ran `mvn compile` — passed clean, error persisted
+
+### Root cause
+Maven's incremental compilation only recompiles files whose source timestamps have changed. If a cached `.class` becomes structurally inconsistent with a newly compiled dependency (e.g. a method signature changed, a new abstract method was added), Maven doesn't detect or flag it. The old `.class` remains on disk and is loaded at runtime.
+
+### Fix
+```bash
+mvn clean test
+```
+
+Forces full recompilation. Use whenever tests throw `NoClassDefFoundError`, `ClassCastException`, or `AbstractMethodError` on classes that clearly exist in source.
+
+### Why non-obvious
+`NoClassDefFoundError` is universally diagnosed as a classpath/dependency problem — missing jar, wrong scope, shading conflict. The symptom gives no indication that the class exists on disk but is stale. Developers inspect `pom.xml` and dependency trees while the fix is `mvn clean`.
+
+*Score: 11/15 · Included because: misleading symptom sends diagnosis in entirely the wrong direction · Reservation: `mvn clean` is a known fix, but the connection to incremental build staleness is non-obvious*
