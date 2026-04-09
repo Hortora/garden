@@ -640,3 +640,61 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0126 × GE-0046 | related | 2026-04-09 | GE-0046 is the undocumented property; GE-0126 is the WebSocket-alive/REST-dead diagnostic symptom — complementary, cross-referenced |
 | GE-0136 × GE-0091 | related | 2026-04-09 | GE-0091 is workaround for validate_document.py; GE-0136 is the general strip_code_fences pattern — related, cross-referenced |
 | GE-0140 × GE-0141 | related | 2026-04-09 | GE-0140 is doubled-footers gotcha; GE-0141 is selective per-commit filter technique — companion entries, cross-referenced |
+| GE-0131 × GE-0008 | distinct | 2026-04-09 | get_text() br dropping vs lxml double-encoding — different BS4 behaviors |
+| GE-0131 × GE-0016 | distinct | 2026-04-09 | get_text() vs path traversal — different bugs |
+| GE-0131 × GE-0017 | distinct | 2026-04-09 | get_text() br vs html.parser no body wrapper — different BS4 behaviors |
+| GE-0138 × GE-0142 | distinct | 2026-04-09 | Panache SPI return type conflict vs Hibernate @OneToMany collection type — different Panache/Hibernate concerns |
+| GE-0126 × GE-0128 | distinct | 2026-04-09 | session key restart symptom vs login-page default — different WebAuthn config issues |
+| GE-0126 × GE-0045 | distinct | 2026-04-09 | session key restart vs wrong config key names — different WebAuthn concerns |
+| GE-0126 × GE-0077 | distinct | 2026-04-09 | session key vs Vert.x handler reflection |
+| GE-0126 × GE-0078 | distinct | 2026-04-09 | session key vs endpoint paths |
+| GE-0126 × GE-0104 | distinct | 2026-04-09 | session key vs Authenticator no getter |
+| GE-0128 × GE-0045 | related | 2026-04-09 | both are undiscoverable Quarkus WebAuthn config properties (login-page vs config key names); different properties, same discovery pattern |
+| GE-0128 × GE-0046 | distinct | 2026-04-09 | login-page default vs session encryption key — different config properties |
+| GE-0128 × GE-0077 | distinct | 2026-04-09 | login-page vs Vert.x handler reflection |
+| GE-0128 × GE-0078 | distinct | 2026-04-09 | login-page default vs WebAuthn endpoint paths |
+| GE-0128 × GE-0104 | distinct | 2026-04-09 | login-page vs Authenticator API |
+| GE-0139 × GE-0024 | distinct | 2026-04-09 | String.intern() global contention vs volatile torn snapshot — different concurrency mechanisms |
+| GE-0144 × GE-0064 | distinct | 2026-04-09 | stale class files vs aggregator pom packaging — different Maven concerns |
+| GE-0144 × GE-0067 | distinct | 2026-04-09 | stale class files vs non-Java files ignored — different Maven concerns |
+| GE-0137 × GE-0002 | distinct | 2026-04-09 | non-bare repo push vs git -C |
+| GE-0137 × GE-0043 | distinct | 2026-04-09 | non-bare push vs commit scope clustering |
+| GE-0137 × GE-0050 | distinct | 2026-04-09 | non-bare push vs scope clustering for issues |
+| GE-0137 × GE-0118 | distinct | 2026-04-09 | non-bare push vs git restore --staged |
+| GE-0137 × GE-0140 | distinct | 2026-04-09 | non-bare push vs filter-branch doubled footers — different git concerns |
+| GE-0137 × GE-0141 | distinct | 2026-04-09 | non-bare push vs filter-branch $GIT_COMMIT technique |
+| GE-0140 × GE-0002 | distinct | 2026-04-09 | filter-branch vs git -C |
+| GE-0140 × GE-0043 | distinct | 2026-04-09 | filter-branch vs commit scope clustering |
+| GE-0140 × GE-0050 | distinct | 2026-04-09 | filter-branch vs scope clustering |
+| GE-0140 × GE-0118 | distinct | 2026-04-09 | filter-branch doubled footers vs git restore --staged |
+| GE-0141 × GE-0002 | distinct | 2026-04-09 | $GIT_COMMIT technique vs git -C |
+| GE-0141 × GE-0043 | distinct | 2026-04-09 | $GIT_COMMIT technique vs commit scope |
+| GE-0141 × GE-0050 | distinct | 2026-04-09 | $GIT_COMMIT technique vs scope clustering |
+| GE-0141 × GE-0118 | distinct | 2026-04-09 | $GIT_COMMIT technique vs git restore --staged |
+| GE-0129 × GE-0130 | distinct | 2026-04-09 | iframe mousemove capture vs JSON.stringify onclick truncation — different browser UI bugs |
+| GE-0145 × GE-0150 | distinct | 2026-04-09 | waitForFunction arg order gotcha vs window.__test canvas API — different Playwright concerns |
+| GE-0145 × GE-0151 | distinct | 2026-04-09 | waitForFunction overload gotcha vs WS first-message connectivity proof — different concerns |
+| GE-0145 × GE-0101 | distinct | 2026-04-09 | waitForFunction arg order vs page.evaluate not awaiting async — different Playwright gotchas |
+| GE-0150 × GE-0151 | related | 2026-04-09 | GE-0151 uses window.__test from GE-0150; window.__test API (technique) + WS connectivity proof (application) |
+| GE-0150 × GE-0101 | distinct | 2026-04-09 | window.__test canvas technique vs page.evaluate async gotcha |
+| GE-0151 × GE-0101 | distinct | 2026-04-09 | WS first-message technique vs page.evaluate async gotcha |
+| GE-0149 × GE-0039 | distinct | 2026-04-09 | Surefire profile config merge vs reuseForks=false |
+| GE-0149 × GE-0115 | distinct | 2026-04-09 | profile excludedGroups vs excludes transitive compilation — different Maven Surefire behaviors |
+| GE-0135 × GE-0022 | distinct | 2026-04-09 | pure function to avoid mocking vs dual-runner scenario |
+| GE-0135 × GE-0025 | related | 2026-04-09 | both are non-obvious testing strategies around mocking (GE-0025 uses stateful mock; GE-0135 eliminates mock via data return); complementary patterns |
+| GE-0135 × GE-0040 | distinct | 2026-04-09 | pure function pattern vs waitpid signal verification |
+| GE-0133 × GE-0148 | distinct | 2026-04-09 | CDI Jandex missing vs JAX-RS @ApplicationScoped missing — different CDI scoping issues |
+| GE-0133 × GE-0033 | distinct | 2026-04-09 | Jandex missing vs @UnlessBuildProfile technique |
+| GE-0133 × GE-0062 | distinct | 2026-04-09 | Jandex missing vs auth mechanism startup ordering |
+| GE-0133 × GE-0066 | distinct | 2026-04-09 | Jandex missing vs @UnlessBuildProfile Unsatisfied dependency |
+| GE-0148 × GE-0033 | distinct | 2026-04-09 | @ApplicationScoped missing on JAX-RS vs @UnlessBuildProfile technique |
+| GE-0148 × GE-0062 | distinct | 2026-04-09 | @ApplicationScoped default scope vs auth mechanism startup ordering |
+| GE-0148 × GE-0066 | distinct | 2026-04-09 | JAX-RS default scope vs @UnlessBuildProfile Unsatisfied dependency |
+| GE-0125 × GE-0134 | distinct | 2026-04-09 | static files in JAR vs mvn install augmentation — different build lifecycle issues |
+| GE-0125 × GE-0031 | distinct | 2026-04-09 | static files vs quarkus packaging |
+| GE-0125 × GE-0065 | distinct | 2026-04-09 | static files in JAR vs quarkus:dev silently skips |
+| GE-0134 × GE-0031 | distinct | 2026-04-09 | mvn install augmentation vs quarkus packaging |
+| GE-0134 × GE-0065 | distinct | 2026-04-09 | mvn install augmentation vs quarkus:dev skip — different Maven phase issues |
+| GE-0146 × GE-0036 | distinct | 2026-04-09 | Tyrus classloader conflict vs @ApplicationScoped state accumulation |
+| GE-0146 × GE-0094 | distinct | 2026-04-09 | Tyrus classloader vs real beans firing in tests |
+| GE-0146 × GE-0095 | distinct | 2026-04-09 | Tyrus classloader vs @InjectMock dedicated class technique |
