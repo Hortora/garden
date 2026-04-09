@@ -698,3 +698,23 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0146 × GE-0036 | distinct | 2026-04-09 | Tyrus classloader conflict vs @ApplicationScoped state accumulation |
 | GE-0146 × GE-0094 | distinct | 2026-04-09 | Tyrus classloader vs real beans firing in tests |
 | GE-0146 × GE-0095 | distinct | 2026-04-09 | Tyrus classloader vs @InjectMock dedicated class technique |
+| GE-0002 × GE-0043 | distinct | 2026-04-09 | git -C path vs commit scope clustering — different git techniques |
+| GE-0002 × GE-0050 | distinct | 2026-04-09 | git -C path vs scope clustering for bulk retrospective — different git techniques |
+| GE-0002 × GE-0118 | distinct | 2026-04-09 | git -C path vs git restore --staged working tree revert — different git commands |
+| GE-0043 × GE-0118 | distinct | 2026-04-09 | commit scope clustering vs git restore --staged |
+| GE-0050 × GE-0118 | distinct | 2026-04-09 | scope clustering vs git restore --staged |
+| GE-0019 × GE-0084 | distinct | 2026-04-09 | blog screenshots via Playwright vs headless iframe caching gotcha |
+| GE-0019 × GE-0085 | distinct | 2026-04-09 | blog screenshots vs sync_playwright asyncio conflict |
+| GE-0019 × GE-0087 | distinct | 2026-04-09 | blog screenshots vs iframe src assertion technique |
+| GE-0019 × GE-0092 | distinct | 2026-04-09 | blog screenshots vs .all() vs .nth() screenshotting |
+| GE-0084 × GE-0085 | distinct | 2026-04-09 | iframe caching vs sync_playwright asyncio conflict — different Playwright gotchas |
+| GE-0084 × GE-0092 | distinct | 2026-04-09 | iframe caching vs .all() screenshotting — different Playwright concerns |
+| GE-0085 × GE-0087 | distinct | 2026-04-09 | asyncio conflict vs iframe src assertion |
+| GE-0085 × GE-0092 | distinct | 2026-04-09 | asyncio conflict vs .all() screenshotting |
+| GE-0087 × GE-0092 | distinct | 2026-04-09 | iframe src assertion vs .all() screenshotting |
+| GE-0022 × GE-0040 | distinct | 2026-04-09 | dual-runner scenario library vs waitpid signal verification — different testing techniques |
+| GE-0025 × GE-0040 | distinct | 2026-04-09 | stateful mock as spec vs waitpid polling — different testing concerns |
+| GE-0039 × GE-0115 | distinct | 2026-04-09 | Surefire reuseForks vs maven-compiler-plugin excludes transitive — different plugin configs |
+| GE-0136 × GE-0107 | distinct | 2026-04-09 | code fence false positive vs partial heading match in str.replace — different markdown processing bugs |
+| GE-0136 × GE-0108 | distinct | 2026-04-09 | code fence false positive vs deprecated HTML align attribute — different markdown concerns |
+| GE-0036 × GE-0095 | distinct | 2026-04-09 | @ApplicationScoped state accumulation across test classes vs @InjectMock dedicated class technique — different concerns |
