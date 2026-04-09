@@ -53,7 +53,7 @@ The awk range pattern is self-terminating: reads until `---` and stops regardles
 **Symptom:** After running a script that inserts content after a markdown heading, the heading is split mid-line. A heading like `## Title — subtitle` becomes:
 ```
 ## Title
-**ID:** GE-0042 — subtitle
+**ID:** GE-XXXX — subtitle
 ```
 The inserted content appears in the middle of the heading text. No error is raised; the corruption is only visible when reading the file.
 
@@ -63,10 +63,10 @@ The inserted content appears in the middle of the heading text. No error is rais
 ```python
 content = content.replace(
     '## Short heading prefix',
-    '## Short heading prefix\n\n**ID:** GE-0042'
+    '## Short heading prefix\n\n**ID:** GE-XXXX'
 )
 # If the actual heading is "## Short heading prefix — rest of title",
-# the result is: "## Short heading prefix\n\n**ID:** GE-0042 — rest of title"
+# the result is: "## Short heading prefix\n\n**ID:** GE-XXXX — rest of title"
 # which renders as the heading split in two
 ```
 
@@ -82,7 +82,7 @@ import re
 # Match the full heading line (including any suffix after the prefix)
 content = re.sub(
     r'(## Short heading prefix[^\n]*\n\n)',
-    r'\1**ID:** GE-0042\n',
+    r'\1**ID:** GE-XXXX\n',
     content, count=1
 )
 ```
