@@ -1,0 +1,102 @@
+name: Validate Garden Entry
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - '*/GE-*.md'
+      - 'submissions/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout garden
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Checkout soredium
+        uses: actions/checkout@v4
+        with:
+          repository: Hortora/soredium
+          path: .soredium
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Detect changed entry file
+        id: entry
+        run: |
+          FILE=$(git diff --name-only HEAD~1 HEAD | grep -E '^[^/]+/GE-[0-9]+\.md$' | head -1)
+          if [ -z "$FILE" ]; then
+            echo "No garden entry file detected"
+            exit 0
+          fi
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Validate entry
+        id: validate
+        if: steps.entry.outputs.file != ''
+        run: |
+          python .soredium/scripts/validate_pr.py "${{ steps.entry.outputs.file }}" . \
+            > /tmp/result.json 2>&1 || true
+        continue-on-error: true
+
+      - name: Post PR comment
+        if: steps.entry.outputs.file != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESULT=$(cat /tmp/result.json)
+          CRITICALS=$(python3 -c "
+          import json, sys
+          d = json.loads(sys.stdin.read())
+          print('\n'.join(['❌ ' + c for c in d.get('criticals', [])]))
+          " <<< "$RESULT")
+          WARNINGS=$(python3 -c "
+          import json, sys
+          d = json.loads(sys.stdin.read())
+          print('\n'.join(['⚠️ ' + w for w in d.get('warnings', [])]))
+          " <<< "$RESULT")
+          INFOS=$(python3 -c "
+          import json, sys
+          d = json.loads(sys.stdin.read())
+          print('\n'.join(['ℹ️ ' + i for i in d.get('infos', [])]))
+          " <<< "$RESULT")
+          gh pr comment ${{ github.event.pull_request.number }} --body "## Garden Entry Validation
+
+          ${CRITICALS}
+          ${WARNINGS}
+          ${INFOS}
+
+          <details><summary>Full JSON</summary>
+
+          \`\`\`json
+          ${RESULT}
+          \`\`\`
+
+          </details>"
+
+      - name: Apply label and enforce exit code
+        if: steps.entry.outputs.file != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESULT=$(cat /tmp/result.json)
+          PR=${{ github.event.pull_request.number }}
+          HAS_CRITICALS=$(python3 -c "import json,sys; d=json.loads(sys.stdin.read()); print('yes' if d.get('criticals') else 'no')" <<< "$RESULT")
+          IS_AUTO=$(python3 -c "import json,sys; d=json.loads(sys.stdin.read()); print('yes' if any('auto-approve' in i for i in d.get('infos',[])) else 'no')" <<< "$RESULT")
+          if [ "$HAS_CRITICALS" = "yes" ]; then
+            gh pr edit $PR --add-label "rejected"
+            exit 1
+          elif [ "$IS_AUTO" = "yes" ]; then
+            gh pr edit $PR --add-label "auto-approve-eligible"
+          else
+            gh pr edit $PR --add-label "needs-review"
+          fi
