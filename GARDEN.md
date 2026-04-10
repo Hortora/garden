@@ -1,10 +1,12 @@
 **Last assigned ID:** GE-0168
 **Last full DEDUPE sweep:** 2026-04-10
-**Entries merged since last sweep:** 0
+**Entries merged since last sweep:** 4
 **Drift threshold:** 10
 
 ## By Technology
 
+### casehub-engine/
+- GE-0167 [`StateContextImpl.evalObjectTemplate()` is a full mini-template DSL — not JQ](casehub-engine/state-context.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/encoding.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/encoding.md)
@@ -33,6 +35,7 @@
 - GE-0120 [`FindUsagesManager` Has a Public Constructor and Accepts `FindUsagesHandlerBase` Directly](intellij-platform/find-usages.md)
 - GE-0163 [`PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method](intellij-platform/psi-api.md)
 - GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/plugin-testing.md)
+- GE-0165 [IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path`](intellij-platform/mcp.md)
 ### java/
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/generics.md)
 - GE-0023 [Java records with `List<T>` fields are not truly immutable without a compact constructor](java/records.md)
@@ -90,6 +93,7 @@
 - GE-0142 [Hibernate `@OneToMany` collections must be initialized with `ArrayList`, not `CopyOnWriteArrayList`](quarkus/panache.md)
 - GE-0146 [Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`](quarkus/testing.md)
 - GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/cdi.md)
+- GE-0168 [Quarkus Flow discovers workflows from both YAML files and Java classes at build time](quarkus/quarkus-flow.md)
 ### tools/
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
@@ -176,6 +180,7 @@
 - GE-0159 [Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points](tools/claude-code.md)
 - GE-0161 [`gh project item-edit --field-id` rejects field names — requires internal GraphQL node ID](tools/github-cli.md)
 - GE-0162 [Gradle 8.6 fails cryptically when JAVA_HOME points to Java 26](tools/gradle.md)
+- GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
 
 ---
 
@@ -296,6 +301,10 @@
 - GE-0077 [Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean](quarkus/webauthn.md)
 ### #security
 - GE-0033 [Use `@UnlessBuildProfile("prod")` to strip debug/QA beans from production at CDI level](quarkus/cdi.md)
+### #agentic
+- GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
+### #architecture
+- GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
 ### #strategy
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
 - GE-0009 [Add a corruption signature check after text transformations that could silently garble content](tools/defensive-programming.md)
@@ -311,6 +320,7 @@
 - GE-0105 [Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node](drools/drools-goap-planning.md)
 - GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
 - GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
+- GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
 ### #svg
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/ci-cd.md)
 ### #technique
@@ -352,4 +362,4 @@
 
 ## Tag Index
 
-algorithm, analysis, appkit, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
+agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow

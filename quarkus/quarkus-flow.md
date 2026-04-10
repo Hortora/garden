@@ -210,3 +210,30 @@ The natural assumption is to use the FuncDSL `listen` task (see GE-0070 — it d
 **Trade-off:** Each message starts a fresh instance (not a long-lived stateful workflow). For per-message processing pipelines this is correct. For long-lived stateful flows that persist state across many messages, CloudEvent + Kafka integration is needed instead.
 
 *Score: 13/15 · Included because: non-obvious combination of two separate Quarkus APIs; saves significant investigation time; the natural approach (listen task) silently fails · Reservation: only verified on 0.7.1*
+
+---
+
+## Quarkus Flow discovers workflows from both YAML files and Java classes at build time
+
+**ID:** GE-0168
+**Stack:** Quarkus Flow 0.6.0+
+
+**Context:** `DiscoveredWorkflowBuildItem` has two factory methods that produce identical `WorkflowDefinition` instances:
+- `fromSpec(Path, Workflow)` — workflow discovered from a YAML/JSON file on the classpath
+- `fromSource(String className)` — workflow discovered from a Java `Flow` subclass via Jandex
+
+Both are processed identically by the deployment processor. The runtime never knows which source a workflow came from.
+
+### Why this matters
+
+YAML-defined workflows and Java DSL-defined workflows are genuinely first-class equals in Quarkus Flow — not "primary + alternative". Any framework building on Quarkus Flow can offer the same dual-source pattern for free by following the `DiscoveredWorkflowBuildItem` model. The `FlowCollectorProcessor` scans both classpath resources (`.yaml`/`.json`) and the Jandex index (subclasses of `Flow`) and produces items of both types identically.
+
+### Where to find it
+
+`io.quarkiverse.flow.deployment.DiscoveredWorkflowBuildItem` in the `core/deployment` module.
+
+### Why non-obvious
+
+The Quarkus Flow documentation presents the Java DSL (`Flow` subclass) as the primary pattern. YAML support is mentioned but treated as secondary. The implementation treats them identically. The dual-source equality is only visible by reading the deployment processor source — not the docs.
+
+*Score: 11/15 · Included because: the docs actively mislead about the YAML/Java DSL relationship; the parity enables an architectural pattern (dual-source frameworks) that isn't obvious from the docs · Reservation: pre-1.0 Quarkus Flow; may be documented in future releases*

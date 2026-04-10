@@ -2169,3 +2169,20 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0164 × GE-0117 | distinct | 2026-04-10 | intellij-platform — different concerns |
 | GE-0164 × GE-0119 | distinct | 2026-04-10 | intellij-platform — different concerns |
 | GE-0164 × GE-0120 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0165 × GE-0079 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0080 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0081 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0093 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0110 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0111 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0112 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0116 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0117 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0119 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0120 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs platform SDK concern |
+| GE-0165 × GE-0163 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs PSI API concern |
+| GE-0165 × GE-0164 | distinct | 2026-04-10 | intellij-platform — MCP gotcha vs headless test behavior |
+| GE-0168 × GE-0068 | distinct | 2026-04-10 | quarkus-flow — deployment discovery vs consume serialization |
+| GE-0168 × GE-0069 | distinct | 2026-04-10 | quarkus-flow — different quarkus-flow concerns |
+| GE-0168 × GE-0070 | distinct | 2026-04-10 | quarkus-flow — different quarkus-flow concerns |
+| GE-0168 × GE-0071 | distinct | 2026-04-10 | quarkus-flow — different quarkus-flow concerns |
