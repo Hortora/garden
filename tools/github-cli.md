@@ -77,3 +77,59 @@ The `!` prefix appears to work for most `gh` commands. There is no error message
 *Score: 10/15 · Included because: silent failure, no indication the scope wasn't granted, affects anyone adding gh scopes mid-session · Reservation: specific to interactive OAuth flows, not all gh commands*
 
 ---
+
+## `gh project item-edit --field-id` rejects field names — requires internal GraphQL node ID
+
+**ID:** GE-0161
+**Stack:** GitHub CLI (`gh`), GitHub Projects v2
+
+**Symptom:**
+```bash
+gh project item-edit --project-id PVT_kwDO... --id PVTI_lADO... \
+  --field-id "Status" --text "Done"
+# → GraphQL: Could not resolve to a node with the global id of 'Status'
+```
+
+### Root cause
+
+`--field-id` expects the internal GraphQL node ID (format: `PVTSSF_lADO...`), not the human-readable field name. The flag is named "field-id" which implies you pass the field's identifier — but GitHub Projects v2 uses opaque node IDs for all objects, and the CLI does not translate names to IDs.
+
+### Fix
+
+Two-step process using the GraphQL API directly:
+
+```bash
+# Step 1: get the field ID and option IDs for your project
+gh api graphql -f query='{
+  node(id: "PVT_kwDOEFnuXM4BT_U5") {
+    ... on ProjectV2 {
+      fields(first: 10) {
+        nodes {
+          ... on ProjectV2SingleSelectField {
+            id name options { id name }
+          }
+        }
+      }
+    }
+  }
+}'
+# → fieldId: "PVTSSF_lADO...", optionId for "Done": "98236657"
+
+# Step 2: update using the internal IDs
+gh api graphql -f query='mutation {
+  updateProjectV2ItemFieldValue(input: {
+    projectId: "PVT_kwDO..."
+    itemId: "PVTI_lADO..."
+    fieldId: "PVTSSF_lADO..."
+    value: { singleSelectOptionId: "98236657" }
+  }) { projectV2Item { id } }
+}'
+```
+
+### Why non-obvious
+
+`gh project item-edit --help` says `--field-id string: The ID of the field to update` — "the ID of the field" reads as "the identifier you use to refer to the field", not "the GraphQL node ID". No other `gh` command requires raw GraphQL node IDs. The field name is what appears in every other part of the CLI output.
+
+*Score: 11/15 · Included because: "field-id" strongly implies human-readable name; GraphQL node IDs are not mentioned in the help text; affects anyone automating GitHub Projects · Reservation: may be improved in future gh CLI releases*
+
+---

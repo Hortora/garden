@@ -17,9 +17,11 @@ Verifying the service method logic directly (correct), checking CDI scope (not t
 
 Quarkus Flow serializes the workflow input to JSON and deserializes it freshly for each `consume` step. Each step receives an independent copy of the original input, not the output of the previous step. Mutations written in step N are not carried forward.
 
-### Fix
+### Solution 1 — Use immutable records; design steps to be independent
 
-Design workflow step logic to not rely on shared mutable state between steps:
+**Approach:** Replace mutable input with an immutable Java record. Since each step gets its own deserialised copy anyway, design each step to make decisions based on the original input — no cross-step arbitration.
+**Pros:** Clean workflow design; each step is stateless and independently testable; no shared-state coupling.
+**Cons/trade-offs:** Requires redesigning step logic to not depend on prior-step mutations; not feasible when steps must genuinely see each other's effects (e.g. budget arbitration across multiple decisions).
 
 ```java
 // BAD — budget.spendMinerals(100) in checkSupply is invisible to checkProbes
@@ -31,13 +33,43 @@ return workflow("my-flow")
         consume(svc::checkExpansion, MutableInput.class)
     ).build();
 
-// GOOD — use an immutable record; design each step to not need prior-step state
+// GOOD — use an immutable record; each step reads original state independently
 public record ImmutableTick(int minerals, List<Unit> workers) {}
 ```
 
-- Use immutable Java records as workflow input — steps can't mutate them, so there's no silent-loss confusion
-- Treat each step as independently receiving the original input
-- If cross-step budget arbitration is needed, move it outside the flow
+### Solution 2 — Merge sequential consume() steps into a single step
+
+**Approach:** Collapse all sequential `consume()` steps that share mutable state into one `consume()` step that calls each method in sequence.
+**Pros:** Works with mutable objects; simplest fix when steps must share state; one budget object shared across all calls; no serialisation boundary between them.
+**Cons/trade-offs:** Loses workflow-level visibility into individual step progress; all-or-nothing execution (no checkpointing between merged steps).
+
+```java
+// Before — four steps, budget reset between each:
+.tasks(
+    consume(decisions::checkSupply,    GameStateTick.class),
+    consume(decisions::checkProbes,    GameStateTick.class),
+    consume(decisions::checkGas,       GameStateTick.class),
+    consume(decisions::checkExpansion, GameStateTick.class)
+)
+
+// After — one step, one budget shared across all calls:
+.tasks(
+    consume(decisions::checkAll, GameStateTick.class)
+)
+```
+
+Where `checkAll` simply calls the four methods in order:
+
+```java
+public void checkAll(GameStateTick tick) {
+    checkSupply(tick);
+    checkProbes(tick);
+    checkGas(tick);
+    checkExpansion(tick);
+}
+```
+
+**Symptom that surfaced this:** Budget overcommitting — 110 minerals, but both Pylon (100) and Probe (50) were queued because each step saw the original 110. Regression test: hand the workflow 110 minerals with conditions triggering two decisions; assert `intentQueue.pending().hasSize(1)`.
 
 ### Why non-obvious
 

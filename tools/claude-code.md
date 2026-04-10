@@ -175,7 +175,7 @@ The flagged line is a valid markdown table row inside a fenced code block. The t
 **Context:** Any markdown document containing a markdown table as an example inside a fenced code block. Common in design documents, documentation specs, and files showing the format of INDEX.md or similar.
 
 ### Root cause
-`validate_document.py` does not correctly track code-fence state. It parses markdown tables inside fenced blocks as if they were real markdown tables in the document body. When the last table row appears immediately before the closing ` ``` `, the validator sees the fence as "prose instead of a data row" following the table, triggering the CRITICAL error.
+`validate_document.py` does not correctly track code-fence state. It parses markdown tables inside fenced blocks as if they were real markdown tables in the document body. When the last table row appears immediately before the closing fence marker, the validator sees the fence as "prose instead of a data row" following the table, triggering the CRITICAL error.
 
 ### Fix
 Add a blank line before the closing fence to break the validator's false pattern match:
@@ -266,5 +266,73 @@ rm -rf ~/claude/oldname/
 **See also:** GE-0121 (mv also invalidates the Bash tool's shell cwd mid-session)
 
 *Score: 12/15 · Included because: silent failure, cross-project (any Claude Code rename), fix requires knowing to look inside settings.local.json · Reservation: somewhat specific to Claude Code's permission accumulation model*
+
+---
+
+## macOS tmp filesystem full silently blocks all Claude Code Bash tool commands
+
+**ID:** GE-0157
+**Stack:** Claude Code (macOS), Bash tool
+
+**Symptom:** Every Bash tool invocation fails with `ENOSPC: no space left on device, open '/private/tmp/claude-501/...'`, regardless of what the command actually does. Commands that don't write files at all (e.g. `git log`, `echo done`) also fail. The error message names a temp path, not any project directory. The actual command may or may not have executed — there is no way to tell from the error.
+
+**Context:** Claude Code writes each Bash tool call's output to a temp file under `/private/tmp/claude-501/<session-path>/tasks/`. When this directory fills up, the tool cannot write output and fails before reporting the command result.
+
+### What was tried
+
+Assumed disk space was genuinely exhausted. Tried shorter commands, different paths. All failed identically. Checked project directories — all had space. The temp path in the error message was the clue.
+
+### Root cause
+
+The temp directory used by the Claude Code Bash tool output buffer is separate from the system's general temp space and can fill independently — particularly after a long session with many large-output commands (e.g. Maven builds with verbose output).
+
+### Fix
+
+```bash
+rm -rf /private/tmp/claude-501/
+```
+
+After clearing, all Bash tool commands resume normally. The session continues without restart.
+
+### Why non-obvious
+
+The error message looks like a general filesystem problem. `df -h` on the project volume shows plenty of space. Nothing in Claude Code UI indicates the issue. The fix directory (`/private/tmp/claude-501/`) is non-obvious and not documented anywhere.
+
+**See also:** GE-0160 (parallel subagents specifically fill this temp dir — prevention strategy)
+
+*Score: 13/15 · Included because: completely opaque failure, standard disk checks don't find it, non-obvious fix location · Reservation: macOS-specific*
+
+---
+
+## Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points
+
+**ID:** GE-0159
+**Stack:** Claude Code, git (any version), any project
+**Labels:** `#workflow` `#claude-code`
+
+**The problem:** When designing a workspace model where Claude should always open in a dedicated workspace directory, IDE integrations and developer muscle memory keep opening Claude in the project directory instead. If the workspace CLAUDE.md isn't loaded, skills route incorrectly, artifact paths are wrong, and session context is lost.
+
+**The technique:** Create a gitignored symlink at the project root pointing to the workspace CLAUDE.md:
+
+```bash
+# Create symlink: project's CLAUDE.md → workspace CLAUDE.md
+ln -sf ~/claude/private/<project>/CLAUDE.md /path/to/project/CLAUDE.md
+
+# Hide it from git WITHOUT touching tracked .gitignore
+# (works for upstream repos you don't own — Drools, any open source project)
+echo "CLAUDE.md" >> /path/to/project/.git/info/exclude
+```
+
+Claude Code follows project-level symlinks and reads the workspace CLAUDE.md regardless of where it opens. Opening in the project by mistake still loads the correct config — workspace paths, session-start instructions, skill routing table.
+
+**Why `.git/info/exclude`, not `.gitignore`:**
+`.gitignore` is a tracked file — modifying it creates a diff, and for projects you don't own you have no right to commit it. `.git/info/exclude` is local-only, never committed, never shared. It works identically but is invisible to other contributors. Use it consistently for all projects regardless of ownership.
+
+**Why non-obvious:**
+- Most developers know `.git/info/exclude` exists but rarely use it
+- The symlink-to-config pattern is unusual; people typically copy config files or use environment variables
+- The combination (symlink + local exclude) makes the project completely clean to other contributors while Claude gets the right config from either entry point
+
+*Score: 14/15 · Non-obvious approach combining two underused git mechanisms to solve a real workspace config problem*
 
 ---

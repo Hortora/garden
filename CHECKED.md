@@ -2100,3 +2100,4 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0139 × GE-0143 | distinct | 2026-04-09 | java — different java concerns |
 | GE-0139 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
 | GE-0143 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
+| GE-0157 × GE-0160 | related | 2026-04-10 | cross-referenced — GE-0157 is reactive fix (clear temp dir), GE-0160 is prevention (avoid subagent git) |
