@@ -1,6 +1,6 @@
-**Last assigned ID:** GE-0161
+**Last assigned ID:** GE-0168
 **Last full DEDUPE sweep:** 2026-04-09
-**Entries merged since last sweep:** 0
+**Entries merged since last sweep:** 12
 **Drift threshold:** 10
 
 ## By Technology
@@ -12,6 +12,7 @@
 - GE-0131 [BeautifulSoup `get_text()` silently drops `<br/>` tags — multi-line content collapses to one line](beautifulsoup/encoding.md)
 ### claude-code/
 - GE-0001 [Claude Code settings.json rejects unknown top-level fields despite additionalProperties schema](claude-code/settings-json-quirks.md)
+- GE-0160 [Claude Code `/private/tmp` fills during parallel subagents — ENOSPC on git commit despite free disk](claude-code/subagent-patterns.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/quarkus-testing.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/rule-builder-dsl.md)
@@ -30,6 +31,8 @@
 - GE-0117 [`RenameHandler` Intercepts Before `RenamePsiElementProcessor.substituteElementToRename()` Is Called](intellij-platform/rename-refactoring.md)
 - GE-0119 [PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated](intellij-platform/plugin-testing.md)
 - GE-0120 [`FindUsagesManager` Has a Public Constructor and Accepts `FindUsagesHandlerBase` Directly](intellij-platform/find-usages.md)
+- GE-0163 [`PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method](intellij-platform/psi-api.md)
+- GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/plugin-testing.md)
 ### java/
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/generics.md)
 - GE-0023 [Java records with `List<T>` fields are not truly immutable without a compact constructor](java/records.md)
@@ -42,6 +45,7 @@
 - GE-0139 [`synchronized(key.intern())` causes JVM-wide global pool contention across unrelated instances](java/concurrency.md)
 - GE-0143 [`final hashCode()` in parent — update the protected field from setters instead of overriding](java/inheritance.md)
 - GE-0144 [Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files](java/maven.md)
+- GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/records.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/pty-patterns.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/pty-patterns.md)
@@ -162,6 +166,16 @@
 - GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
 - GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
 - GE-0152 [PixiJS 8: Graphics mask added as child of anchored Sprite makes Sprite invisible](tools/pixijs.md)
+- GE-0153 [CSS `var()` in an iframe `<style>` tag silently produces no output](tools/css.md)
+- GE-0154 [Replacing a CSS rule block silently deletes adjacent rules not included in the replacement](tools/css.md)
+- GE-0155 [SVG `fill=""` presentation attributes don't reliably resolve CSS custom properties](tools/svg.md)
+- GE-0156 [macOS `sed -i ''` silently empties a file when the pattern contains `**` (double asterisk)](tools/markdown.md)
+- GE-0121 [`mv` Project Folder Invalidates Bash Tool's Shell cwd Mid-Session](tools/claude-code.md)
+- GE-0124 [Renaming a Claude Code Project Directory Leaves Stale Absolute Paths in `.claude/settings.local.json`](tools/claude-code.md)
+- GE-0157 [macOS tmp filesystem full silently blocks all Claude Code Bash tool commands](tools/claude-code.md)
+- GE-0159 [Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points](tools/claude-code.md)
+- GE-0161 [`gh project item-edit --field-id` rejects field names — requires internal GraphQL node ID](tools/github-cli.md)
+- GE-0162 [Gradle 8.6 fails cryptically when JAVA_HOME points to Java 26](tools/gradle.md)
 
 ---
 
@@ -202,6 +216,7 @@
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
 - GE-0054 [Demand-load reference material in Claude Code skills via separate .md files](tools/claude-code.md)
 - GE-0055 [Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers](tools/claude-code.md)
+- GE-0159 [Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points](tools/claude-code.md)
 ### #context
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
 ### #debugging
@@ -231,6 +246,7 @@
 - GE-0119 [PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated](intellij-platform/plugin-testing.md)
 ### #java
 - GE-0077 [Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean](quarkus/webauthn.md)
+- GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/records.md)
 ### #java-dsl
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/generics.md)
 ### #lambda
@@ -326,11 +342,14 @@
 - GE-0055 [Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers](tools/claude-code.md)
 ### #workaround
 - GE-0061 [Use tput to verify PTY window dimensions in JVM-mode Panama FFM tests](java-panama-ffm/pty-patterns.md)
+### #refactoring
+- GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/records.md)
 ### #workflow
 - GE-0010 [Order dependent artifact creation by information flow, not by convention](tools/workflow.md)
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
 - GE-0035 [Trigger exhaustive sweeps by activity count, not time, to match cost to actual need](tools/data-structures.md)
+- GE-0159 [Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points](tools/claude-code.md)
 
 ## Tag Index
 
-algorithm, analysis, appkit, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
+algorithm, analysis, appkit, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
