@@ -2101,3 +2101,71 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0139 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
 | GE-0143 × GE-0144 | distinct | 2026-04-09 | java — different java concerns |
 | GE-0157 × GE-0160 | related | 2026-04-10 | cross-referenced — GE-0157 is reactive fix (clear temp dir), GE-0160 is prevention (avoid subagent git) |
+| GE-0121 × GE-0013 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0048 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0054 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0055 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0091 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0124 | related | 2026-04-10 | cross-referenced — both about directory renaming side effects (cwd vs settings paths) |
+| GE-0121 × GE-0157 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0121 × GE-0159 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0013 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0048 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0054 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0055 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0091 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0157 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0124 × GE-0159 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0157 × GE-0013 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0157 × GE-0048 | related | 2026-04-10 | cross-referenced — both about claude-code /private/tmp mechanism (GE-0048 output file, GE-0157 dir fills up) |
+| GE-0157 × GE-0054 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0157 × GE-0055 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0157 × GE-0091 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0157 × GE-0159 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0159 × GE-0013 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0159 × GE-0048 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0159 × GE-0054 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0159 × GE-0055 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0159 × GE-0091 | distinct | 2026-04-10 | claude-code — different claude-code concerns |
+| GE-0160 × GE-0001 | distinct | 2026-04-10 | claude-code/ — different claude-code concerns |
+| GE-0153 × GE-0154 | distinct | 2026-04-10 | css — different CSS failure modes |
+| GE-0153 × GE-0155 | related | 2026-04-10 | cross-referenced — both about CSS vars failing in non-CSS contexts (iframe vs SVG attrs) |
+| GE-0155 × GE-0106 | distinct | 2026-04-10 | svg — different SVG concerns |
+| GE-0156 × GE-0107 | distinct | 2026-04-10 | markdown/tools — different failure modes |
+| GE-0156 × GE-0108 | distinct | 2026-04-10 | markdown/tools — different failure modes |
+| GE-0156 × GE-0136 | distinct | 2026-04-10 | markdown/tools — different failure modes |
+| GE-0161 × GE-0049 | distinct | 2026-04-10 | github-cli — different github-cli concerns |
+| GE-0161 × GE-0113 | distinct | 2026-04-10 | github-cli — different github-cli concerns |
+| GE-0158 × GE-0023 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0024 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0037 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0058 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0064 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0067 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0122 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0139 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0143 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0158 × GE-0144 | distinct | 2026-04-10 | java — different java concerns |
+| GE-0163 × GE-0079 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0080 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0081 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0093 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0110 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0111 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0112 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0116 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0117 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0119 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0120 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0163 × GE-0164 | distinct | 2026-04-10 | intellij-platform — PsiParameter API vs Messages.showDialog headless |
+| GE-0164 × GE-0079 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0080 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0081 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0093 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0110 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0111 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0112 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0116 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0117 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0119 | distinct | 2026-04-10 | intellij-platform — different concerns |
+| GE-0164 × GE-0120 | distinct | 2026-04-10 | intellij-platform — different concerns |

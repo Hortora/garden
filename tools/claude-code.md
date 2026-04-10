@@ -67,6 +67,8 @@ The Read tool bypasses the Bash display limit entirely — it reads files at ful
 ### Why this is non-obvious
 The natural instinct is to `cat` the temp file using another Bash call. The truncation message gives you a path and implies "read this to get the full output" — but it doesn't say *how*. Using the Read tool (a different tool, not a Bash command) is the correct approach, and the distinction isn't obvious until you've hit the loop.
 
+**See also:** GE-0157 (when `/private/tmp/claude-501/` fills up entirely — all Bash commands fail, not just large output)
+
 *Score: 10/15 · Included because: the loop behaviour is genuinely confusing; the fix requires tool-switching which is non-obvious · Reservation: may be fixed if Claude Code raises the inline display limit*
 
 ---
@@ -224,6 +226,8 @@ For a new agentic session, start from an existing directory (e.g., the renamed p
 ### Why non-obvious
 `mv` succeeds silently (exit 0), so there is no error at rename time. The failure only appears on the next unrelated bash command, with an error message that suggests restarting Claude rather than pointing to the rename as the cause. Developers will try re-running the failed command with explicit absolute paths (which should work) and be confused when it still fails — because the problem is not the command, it is the shell process itself.
 
+**See also:** GE-0124 (renaming also leaves stale absolute paths in `.claude/settings.local.json`)
+
 *Score: 11/15 · Included because: non-obvious symptom that blames Claude restart rather than the rename; affects the whole session; cross-project whenever a folder is renamed mid-session · Reservation: only hits when you rename a folder in an agentic session, which is uncommon — but painful when it does*
 
 ---
@@ -298,7 +302,7 @@ After clearing, all Bash tool commands resume normally. The session continues wi
 
 The error message looks like a general filesystem problem. `df -h` on the project volume shows plenty of space. Nothing in Claude Code UI indicates the issue. The fix directory (`/private/tmp/claude-501/`) is non-obvious and not documented anywhere.
 
-**See also:** GE-0160 (parallel subagents specifically fill this temp dir — prevention strategy)
+**See also:** GE-0048 (temp file output loop — large Bash output saved there), GE-0160 (parallel subagents specifically fill this temp dir — prevention strategy)
 
 *Score: 13/15 · Included because: completely opaque failure, standard disk checks don't find it, non-obvious fix location · Reservation: macOS-specific*
 
