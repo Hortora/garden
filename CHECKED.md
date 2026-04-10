@@ -19,7 +19,6 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0024 × GE-0023 | distinct | 2026-04-06 | GE-0024 is volatile torn snapshot (concurrency); GE-0023 is records List immutability (different concern) |
 | GE-0015 × GE-0018 | related | 2026-04-06 | GE-0015 is browser cache symptom; GE-0018's Layer 4 (Playwright) is the test that catches GE-0015; cross-referenced |
 | GE-0043 × GE-0050 | related | 2026-04-07 | both are conventional commit scope clustering techniques; GE-0043 covers extraction pattern, GE-0050 covers no-diff-read approach for bulk retrospective; kept distinct, cross-referenced in git.md |
-| GE-0053 × GE-0059 | revise | 2026-04-07 | GE-0059 is a REVISE of GE-0053 — solution now known (firstVariadicArg); integrated into GE-0053 body |
 | GE-0053 × GE-0061 | related | 2026-04-07 | GE-0053 is the gotcha (IOC_OUT silent zero); GE-0061 is the workaround technique (use tput); cross-referenced |
 | GE-0060 × GE-0061 | related | 2026-04-07 | GE-0060 is TERM env var gotcha; GE-0061 cites GE-0060 as a prerequisite caveat |
 | GE-0052 × GE-0066 | related | 2026-04-07 | GE-0052 is @UnlessBuildProfile anyOf (undocumented attribute); GE-0066 is Unsatisfied dependency when injecting profile-excluded bean; different problems, same annotation |
