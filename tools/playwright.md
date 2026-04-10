@@ -232,7 +232,7 @@ The content assertion (`innerText contains new text`) is the natural thing to wr
 - After any operation that updates server-side content rendered in an iframe
 - As the primary assertion; content assertions are secondary
 
-**See also:** GE-0084 (the gotcha this technique resolves)
+**See also:** GE-0084 (the gotcha this technique resolves), GE-0151 (same principle: wait for the right async signal, not just connection open)
 
 *Score: 13/15 · Included because: non-obvious, cross-project, prevents a class of false-green tests · Reservation: specific to iframe + caching scenarios*
 
@@ -394,5 +394,7 @@ private Page openPage() {
 
 ### Why non-obvious
 The `ws.onopen` / server `@OnOpen` ordering is not documented as a potential race. It only manifests in `@QuarkusTest` where the server handler runs on a reactive executor with possible scheduling delay — maybe 10–20% of runs. Using `waitForFunction` with a functional condition (not a timeout) makes the test reliable on any machine speed.
+
+**See also:** GE-0087 (same principle: assert on the right async signal — iframe.src change, not content)
 
 *Score: 12/15 · Included because: eliminates a common flaky-test pattern, @OnOpen async delay not documented, waitForFunction-on-first-message is non-obvious · Reservation: Quarkus-specific trigger, but pattern is general*

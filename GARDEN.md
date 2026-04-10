@@ -1,6 +1,6 @@
-**Last assigned ID:** GE-0168
+**Last assigned ID:** GE-0172
 **Last full DEDUPE sweep:** 2026-04-10
-**Entries merged since last sweep:** 4
+**Entries merged since last sweep:** 0
 **Drift threshold:** 10
 
 ## By Technology
@@ -103,6 +103,10 @@
 - GE-0011 [Commit messages describe intent, not content — Claude can be confidently wrong about file state](tools/llm-testing.md)
 - GE-0012 [Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state](tools/llm-testing.md)
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
+- GE-0169 [Assert on side effects, not LLM output, when testing AI tool use](tools/llm-testing.md)
+- GE-0170 [Use real LLM invocations as protocol capture, replace with scripted replay for CI](tools/llm-testing.md)
+- GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
+- GE-0172 [`claude` CLI subprocess uses keychain OAuth — ANTHROPIC_API_KEY not required on dev machines](tools/llm-testing.md)
 - GE-0015 [Browser cache hides a server fix — tests pass, user still sees the bug](tools/browser-testing.md)
 - GE-0018 [Test encoding correctness at every pipeline layer with a shared garbling-signature helper](tools/defensive-programming.md)
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
@@ -217,6 +221,8 @@
 - GE-0039 [Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other](tools/maven.md)
 ### #claude-cli
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
+- GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
+- GE-0172 [`claude` CLI subprocess uses keychain OAuth — ANTHROPIC_API_KEY not required on dev machines](tools/llm-testing.md)
 ### #claude-code
 - GE-0013 [Inject mandatory instructions directly into an existing session to override ignored guidelines](tools/claude-code.md)
 - GE-0054 [Demand-load reference material in Claude Code skills via separate .md files](tools/claude-code.md)
@@ -259,6 +265,10 @@
 ### #llm-testing
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
 - GE-0012 [Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state](tools/llm-testing.md)
+- GE-0169 [Assert on side effects, not LLM output, when testing AI tool use](tools/llm-testing.md)
+- GE-0170 [Use real LLM invocations as protocol capture, replace with scripted replay for CI](tools/llm-testing.md)
+- GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
+- GE-0172 [`claude` CLI subprocess uses keychain OAuth — ANTHROPIC_API_KEY not required on dev machines](tools/llm-testing.md)
 ### #macos-native
 - GE-0051 [Smoke-test WKWebView rendering by checking for a new WebContent process](macos-native-appkit/appkit-panama-ffm.md)
 ### #markdown
@@ -321,6 +331,8 @@
 - GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
 - GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
+- GE-0169 [Assert on side effects, not LLM output, when testing AI tool use](tools/llm-testing.md)
+- GE-0170 [Use real LLM invocations as protocol capture, replace with scripted replay for CI](tools/llm-testing.md)
 ### #svg
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/ci-cd.md)
 ### #technique
@@ -343,6 +355,9 @@
 - GE-0135 [Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads](tools/testing-patterns.md)
 - GE-0150 [Expose `window.__test` semantic API for robust canvas/WebGL test assertions](tools/playwright.md)
 - GE-0151 [Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`](tools/playwright.md)
+- GE-0169 [Assert on side effects, not LLM output, when testing AI tool use](tools/llm-testing.md)
+- GE-0170 [Use real LLM invocations as protocol capture, replace with scripted replay for CI](tools/llm-testing.md)
+- GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
 ### #token-budget
 - GE-0054 [Demand-load reference material in Claude Code skills via separate .md files](tools/claude-code.md)
 - GE-0055 [Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers](tools/claude-code.md)
@@ -362,4 +377,4 @@
 
 ## Tag Index
 
-agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
+agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, mcp-server, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow

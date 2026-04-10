@@ -6,6 +6,7 @@ Non-obvious approaches for testing systems that use LLM tool calls (MCP, functio
 
 ## Assert on side effects, not LLM output, when testing AI tool use
 
+**ID:** GE-0169
 **Stack:** Any LLM with tool calling (Claude, OpenAI, etc.), any testing framework
 **Labels:** `#strategy` `#testing` `#llm-testing`
 **What it achieves:** Deterministic automated tests for systems where an LLM calls tools, regardless of how the LLM phrases its response.
@@ -34,6 +35,7 @@ Any project with LLM tool use — MCP servers, OpenAI function calling, Anthropi
 
 ## Use real LLM invocations as protocol capture, replace with scripted replay for CI
 
+**ID:** GE-0170
 **Stack:** Claude Code CLI, any LLM, JUnit 5 / any test framework
 **Labels:** `#strategy` `#testing` `#llm-testing` `#ci-cd`
 **What it achieves:** Bootstrap tests with real LLM calls to discover what the model actually does, then replace with deterministic scripted sequences for CI — fast, free, no API tokens.
@@ -52,6 +54,7 @@ The instinct is to either test with real LLM calls (slow, expensive, non-determi
 
 ## Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation
 
+**ID:** GE-0171
 **Stack:** Claude Code CLI (`claude`), MCP HTTP transport, JUnit 5, Maven
 **Labels:** `#testing` `#llm-testing` `#mcp-server` `#claude-cli`
 **What it achieves:** E2E tests that invoke the real `claude` CLI against a locally-running MCP server, without modifying global claude config or requiring persistent external processes.
@@ -138,6 +141,7 @@ class ClaudeE2ETest {
 
 ## `claude` CLI subprocess uses keychain OAuth — ANTHROPIC_API_KEY not required on dev machines
 
+**ID:** GE-0172
 **Stack:** Claude Code CLI (`claude`), JUnit 5, any test harness that shells out to `claude`
 **Symptom:** Tests guarded by `@EnabledIfEnvironmentVariable(named = "ANTHROPIC_API_KEY", ...)` skip silently in the developer's own environment even though `claude` is fully authenticated and works interactively. 0 tests run, 2 skipped, no error.
 **Context:** Automated tests that invoke `claude` as a subprocess. Dev has authenticated via `claude login` (macOS keychain OAuth); CI uses API key.
