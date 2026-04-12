@@ -371,3 +371,107 @@ esac
 *Score: 11/15 · Included because: not obvious from docs, saves significant manual rebasing, clean solution · Reservation: git filter-branch is deprecated (but still widely functional)*
 
 ---
+
+## `git filter-branch` fails with staged changes — even for message-only rewrites
+
+**ID:** GE-0174
+**Stack:** git (all versions)
+**Symptom:** `Cannot rewrite branches: Your index contains uncommitted changes.` — even when only modifying commit messages, not file contents.
+**Context:** Running `git filter-branch --msg-filter '...' BASE..HEAD` while staged (but uncommitted) changes exist. The staged changes are unrelated to the commits being rewritten.
+
+**Root cause:** `git filter-branch` requires a clean index regardless of which filter is used. Even `--msg-filter` (message-only) uses the same machinery and enforces the clean-index requirement. Staged changes trigger the error even if they have no bearing on the commits being rewritten.
+
+**Fix:** Stash before running, pop afterwards:
+```bash
+git stash
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --msg-filter 'your-script.sh' BASE..HEAD
+git stash pop
+```
+
+**See also:** GE-0140 (doubled footers and the general stash workflow)
+
+*Score: 10/15 · Included because: error message is misleading for message-only rewrites; staged-but-unrelated changes blocking is non-obvious · Reservation: covered as a secondary point in GE-0140; promoted here for discoverability*
+
+---
+
+## Merging a branch with `--delete-branch` auto-closes any PR targeting that branch
+
+**ID:** GE-0175
+**Stack:** GitHub (all versions)
+**Symptom:** PR #B (targeting branch A) is silently closed — not retargeted — when branch A is merged and deleted. No warning, no retargeting prompt.
+**Context:** Stacked PRs (B → A → main). Merging A with `--delete-branch` immediately closes B because its base branch no longer exists.
+
+**Root cause:** GitHub closes PRs whose base branch is deleted rather than retargeting them — it cannot safely determine the new base. The PR must be manually recreated.
+
+**Fix:**
+
+Option 1 — Retarget before deleting:
+```bash
+gh pr merge A --merge          # no --delete-branch
+gh pr edit B --base main
+git push origin --delete A
+```
+
+Option 2 — Recreate after the fact:
+```bash
+gh pr create --base main --head B --title "..." --body "..."
+```
+
+**Prevention:** With stacked PRs, always retarget dependent PRs before deleting the base branch.
+
+*Score: 11/15 · Non-obvious GitHub behaviour; error is silent with no warning · Reservation: GitHub-specific, may change if GitHub adds retargeting logic*
+
+---
+
+## Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers
+
+**ID:** GE-0178
+**Stack:** git (all versions), Python 3
+**Labels:** `#ci-cd` `#git`
+**What it achieves:** Bulk-add or correct footers (e.g. `Refs #N`, `Closes #N`) on many historical commits in one pass. Handles 30+ commits where interactive rebase becomes unwieldy.
+
+**Why non-obvious:** Most developers reach for `git rebase -i` and manually reword each commit. `--msg-filter` scales to any number of commits and is fully automatable — the script decides per-commit what to add.
+
+**The technique:** Write a Python script that reads the old message from stdin, checks `$GIT_COMMIT` against a hash→refs mapping, and appends missing refs:
+
+```python
+#!/usr/bin/env python3
+import sys, os
+
+REFS = {
+    'abc1234': ['Refs #42', 'Refs #43'],
+    'def5678': ['Refs #41', 'Refs #40'],
+}
+
+msg    = sys.stdin.read()
+commit = os.environ.get('GIT_COMMIT', '')
+to_add = next((refs for h, refs in REFS.items() if commit.startswith(h)), [])
+to_add = [r for r in to_add if r not in msg]   # skip if already present
+
+if not to_add:
+    sys.stdout.write(msg)
+    sys.exit(0)
+
+body = msg.rstrip() + '\n' + '\n'.join(to_add) + '\n'
+sys.stdout.write(body)
+```
+
+Run it:
+```bash
+git stash    # index must be clean (see GE-0174)
+FILTER_BRANCH_SQUELCH_WARNING=1 \
+  git filter-branch --msg-filter 'python3 /tmp/fix_refs.py' BASE..HEAD
+git stash pop
+git push --force-with-lease origin BRANCH
+```
+
+**Safety net:** Create a backup tag before rewriting:
+```bash
+git tag backup-before-rewrite-$(date +%Y-%m-%d) HEAD
+```
+
+**See also:** GE-0141 (bash case statement approach for simpler cases), GE-0140 (deduplication pass if some commits already have the footer)
+
+*Score: 11/15 · Included because: scalable approach a skilled developer wouldn't naturally reach for; skip-if-present guard prevents doubled footers · Reservation: filter-branch deprecated (but still widely functional)*
+
+---

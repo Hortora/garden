@@ -3916,3 +3916,5 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0161 × GE-0162 | distinct | 2026-04-10 | tools — cross-file, different tool domains |
 | GE-0161 × GE-0166 | distinct | 2026-04-10 | tools — cross-file, different tool domains |
 | GE-0162 × GE-0166 | distinct | 2026-04-10 | tools — cross-file, different tool domains |
+| GE-20260410-5fd0c3 × GE-0136 | distinct | 2026-04-12 | different failure modes: prose ``` treated as fence opener (5fd0c3) vs. IDs inside code blocks (0136) |
+| GE-0174 × GE-0140 | related | 2026-04-12 | both cover clean-index requirement; GE-0140 secondary point; GE-0174 makes it primary focus |

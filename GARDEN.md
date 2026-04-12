@@ -1,6 +1,6 @@
 **Last assigned ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-10
-**Entries merged since last sweep:** 0
+**Entries merged since last sweep:** 9
 **Drift threshold:** 10
 
 ## By Technology
@@ -94,6 +94,10 @@
 - GE-0146 [Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`](quarkus/testing.md)
 - GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/cdi.md)
 - GE-0168 [Quarkus Flow discovers workflows from both YAML files and Java classes at build time](quarkus/quarkus-flow.md)
+### electron/
+- GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/electron-builder.md)
+- GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/electron-testing.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
 ### tools/
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
@@ -185,6 +189,12 @@
 - GE-0161 [`gh project item-edit --field-id` rejects field names — requires internal GraphQL node ID](tools/github-cli.md)
 - GE-0162 [Gradle 8.6 fails cryptically when JAVA_HOME points to Java 26](tools/gradle.md)
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/agentic-patterns.md)
+- GE-0174 [`git filter-branch` fails with staged changes — even for message-only rewrites](tools/git.md)
+- GE-0175 [Merging a branch with `--delete-branch` auto-closes any PR targeting that branch](tools/git.md)
+- GE-0177 [Python `HTTPServer('localhost', port)` may bind to IPv6 on macOS 14+ — health checks on 127.0.0.1 then fail](tools/python.md)
+- GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
+- GE-0180 [`jest.useFakeTimers()` also fakes `setImmediate` — mock process exit events hang](tools/jest.md)
+- GE-20260410-5fd0c3 [`validate_garden.py` strip_code_fences regex silently hides all IDs after a literal triple backtick in entry body text](tools/hortora.md)
 
 ---
 
@@ -219,6 +229,7 @@
 ### #ci-cd
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/ci-cd.md)
 - GE-0039 [Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other](tools/maven.md)
+- GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
 ### #claude-cli
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
 - GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
@@ -245,6 +256,7 @@
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0043 [Use conventional commit scope as the primary feature-clustering signal over file paths](tools/git.md)
 - GE-0141 [Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash](tools/git.md)
+- GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
 ### #github
 - GE-0049 [Create and close GitHub issues in bulk with a bash function and URL number extraction](tools/github-cli.md)
 ### #history-rewriting
@@ -284,6 +296,7 @@
 - GE-0132 [Walk text character-by-character tracking quote state to skip keyword matching inside strings](tools/text-processing.md)
 ### #pattern
 - GE-0021 [Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()](tools/ocraft-s2client.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
 - GE-0040 [Use `waitpid(WNOHANG)` polling to verify signal delivery in subprocess tests](tools/testing-patterns.md)
 - GE-0071 [Bridge SmallRye in-memory channel to Quarkus Flow using @Incoming + startInstance()](quarkus/quarkus-flow.md)
 - GE-0073 [NSEvent local monitor + BOOL flag for mode-based key interception](macos-native-appkit/appkit-panama-ffm.md)
@@ -339,6 +352,7 @@
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
 ### #testing
 - GE-0018 [Test encoding correctness at every pipeline layer with a shared garbling-signature helper](tools/defensive-programming.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
 - GE-0021 [Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()](tools/ocraft-s2client.md)
 - GE-0022 [Dual-runner scenario library: same named tests run against mock and real system](tools/testing-patterns.md)
 - GE-0025 [Use a stateful mock as a living specification that accumulates knowledge of the real system](tools/testing-patterns.md)
