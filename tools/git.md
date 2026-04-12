@@ -324,7 +324,7 @@ sys.stdout.write(output.rstrip(chr(10)) + chr(10))
 ### Why non-obvious
 The filter is advertised as a message transformer — nothing in the documentation warns it has no knowledge of existing message content. The stash requirement is documented but easy to miss.
 
-**See also:** GE-0141 (selective per-commit filter using `$GIT_COMMIT`)
+**See also:** GE-0141 (selective per-commit filter using `$GIT_COMMIT`) | GE-0174 (staged changes block filter-branch even for message-only rewrites) | GE-0178 (Python hash→refs mapping technique for bulk additions)
 
 *Score: 11/15 · Included because: non-obvious double-application behaviour, stash requirement not prominent, real pain when rewriting history in active repos · Reservation: moderately specific use case*
 
@@ -366,7 +366,7 @@ esac
 - `$GIT_COMMIT` uses the *original* SHA, not the rewritten one — pre-built case statements work correctly
 - Force push required after rewriting: `git push --force-with-lease origin main`
 
-**See also:** GE-0140 (doubled footers gotcha and deduplication pass)
+**See also:** GE-0140 (doubled footers gotcha and deduplication pass) | GE-0174 (staged changes block filter-branch even for message-only rewrites) | GE-0178 (Python hash→refs mapping for 30+ commits)
 
 *Score: 11/15 · Included because: not obvious from docs, saves significant manual rebasing, clean solution · Reservation: git filter-branch is deprecated (but still widely functional)*
 
@@ -388,7 +388,7 @@ FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --msg-filter 'your-script.sh' 
 git stash pop
 ```
 
-**See also:** GE-0140 (doubled footers and the general stash workflow)
+**See also:** GE-0140 (doubled footers and the general stash workflow) | GE-0141 ($GIT_COMMIT for selective per-commit filtering) | GE-0178 (Python hash→refs mapping for bulk footer additions)
 
 *Score: 10/15 · Included because: error message is misleading for message-only rewrites; staged-but-unrelated changes blocking is non-obvious · Reservation: covered as a secondary point in GE-0140; promoted here for discoverability*
 
@@ -470,7 +470,7 @@ git push --force-with-lease origin BRANCH
 git tag backup-before-rewrite-$(date +%Y-%m-%d) HEAD
 ```
 
-**See also:** GE-0141 (bash case statement approach for simpler cases), GE-0140 (deduplication pass if some commits already have the footer)
+**See also:** GE-0141 (bash case statement approach for simpler cases) | GE-0140 (deduplication pass if some commits already have the footer) | GE-0174 (staged changes block filter-branch — stash first)
 
 *Score: 11/15 · Included because: scalable approach a skilled developer wouldn't naturally reach for; skip-if-present guard prevents doubled footers · Reservation: filter-branch deprecated (but still widely functional)*
 

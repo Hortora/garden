@@ -42,6 +42,8 @@ Register the static method (not the interface) in `reflect-config.json`.
 ### Why this is non-obvious
 Works perfectly in JVM mode. Fails only in native image. The jextract-generated code looks correct and idiomatic. The failure mode (NoSuchMethodException for an interface method) doesn't point clearly to the privateLookupIn cause.
 
+**See also:** GE-20260412-73b00b (jextract-generated class initializers also fail at build time — different jextract failure mode, same fix category)
+
 ---
 
 ## reachability-metadata.json foreign section uses "directUpcalls" not "upcalls"
@@ -93,6 +95,8 @@ The correct format (GraalVM 25):
 
 ### Why this is non-obvious
 The error message is supposed to print the correct JSON snippet. In GraalVM 25.0.2, it prints nothing (empty snippet). All documentation examples use `upcalls`, not `directUpcalls`. You cannot guess the correct format from any available source — only the tracing agent reveals it.
+
+**See also:** GE-20260412-e103a8 (hand-written classes also need downcall entries in foreign section after deferring to runtime) | GE-20260412-937f1d (MissingForeignRegistrationError also fires when downcall signature is wrong, not just missing)
 
 ---
 
@@ -146,6 +150,8 @@ Args = --enable-native-access=ALL-UNNAMED \
 ### Why this is non-obvious
 The JVM mode works perfectly because class initialization happens at runtime when the dylib is loaded. Only native image breaks. The error message correctly identifies the problem but the solution (runtime initialization of the whole package) isn't obvious.
 
+**See also:** GE-20260412-dc1548 (jextract upcall helpers also fail in native image — different failure mode, same jextract+native-image gap) | GE-20260412-e103a8 (hand-written classes with MethodHandle fields need the same --initialize-at-run-time treatment)
+
 ---
 
 ## Hand-written Panama FFM classes with static final MethodHandle fields also need --initialize-at-run-time
@@ -181,6 +187,8 @@ Also register the new downcall signatures in `reachability-metadata.json` since 
 ### Why this is non-obvious
 jextract-generated classes need run-time init because they call `findOrThrow()` for symbol lookup. A hand-written class with `Linker.downcallHandle()` looks completely safe for build-time init — the Linker is always present and libc symbols are available at build time. The different error type (`linkToNative` analysis failure vs `UnsatisfiedLinkError`) makes it hard to connect the two cases or apply the same fix.
 
+**See also:** GE-20260412-73b00b (jextract-generated package also needs --initialize-at-run-time) | GE-20260412-e00a2f (once deferred to runtime, downcall entries must be added to reachability-metadata.json foreign section)
+
 ---
 
 ## MissingForeignRegistrationError gives no indication which downcall entry is wrong
@@ -208,3 +216,5 @@ Diagnosis when you hit this: cross-check every downcall entry against its `Funct
 
 ### Why this is non-obvious
 The error looks like a missing entry (the function isn't registered at all), not a wrong entry. You instinctively add a new entry rather than fix the existing one. The mismatch is a count error that's easy to make when writing entries by hand from memory.
+
+**See also:** GE-20260412-e00a2f (MissingForeignRegistrationError also fires with wrong JSON key for upcalls — directUpcalls vs upcalls)
