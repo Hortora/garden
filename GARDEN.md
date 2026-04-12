@@ -109,9 +109,9 @@
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
-- GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/electron-builder.md)
-- GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/electron-testing.md)
-- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
+- GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/GE-0173.md)
+- GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
 ### tools/
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/git.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/llm-testing.md)
@@ -209,6 +209,7 @@
 - GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
 - GE-0180 [`jest.useFakeTimers()` also fakes `setImmediate` — mock process exit events hang](tools/jest.md)
 - GE-20260410-5fd0c3 [`validate_garden.py` strip_code_fences regex silently hides all IDs after a literal triple backtick in entry body text](tools/hortora.md)
+- GE-20260412-17c8ce [Enable GitHub Pages Actions source and fix branch protection via gh API — no browser](tools/GE-20260412-17c8ce.md)
 
 ---
 
@@ -244,6 +245,7 @@
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/ci-cd.md)
 - GE-0039 [Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other](tools/maven.md)
 - GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
+- GE-20260412-17c8ce [Enable GitHub Pages Actions source and fix branch protection via gh API — no browser](tools/GE-20260412-17c8ce.md)
 ### #claude-cli
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
 - GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/llm-testing.md)
@@ -273,6 +275,7 @@
 - GE-0178 [Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers](tools/git.md)
 ### #github
 - GE-0049 [Create and close GitHub issues in bulk with a bash function and URL number extraction](tools/github-cli.md)
+- GE-20260412-17c8ce [Enable GitHub Pages Actions source and fix branch protection via gh API — no browser](tools/GE-20260412-17c8ce.md)
 ### #history-rewriting
 - GE-0141 [Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash](tools/git.md)
 ### #html2text
@@ -311,7 +314,7 @@
 - GE-0132 [Walk text character-by-character tracking quote state to skip keyword matching inside strings](tools/text-processing.md)
 ### #pattern
 - GE-0021 [Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()](tools/ocraft-s2client.md)
-- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
 - GE-0040 [Use `waitpid(WNOHANG)` polling to verify signal delivery in subprocess tests](tools/testing-patterns.md)
 - GE-0071 [Bridge SmallRye in-memory channel to Quarkus Flow using @Incoming + startInstance()](quarkus/quarkus-flow.md)
 - GE-0073 [NSEvent local monitor + BOOL flag for mode-based key interception](macos-native-appkit/appkit-panama-ffm.md)
@@ -367,7 +370,7 @@
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/playwright.md)
 ### #testing
 - GE-0018 [Test encoding correctness at every pipeline layer with a shared garbling-signature helper](tools/defensive-programming.md)
-- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/electron-testing.md)
+- GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
 - GE-0021 [Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()](tools/ocraft-s2client.md)
 - GE-0022 [Dual-runner scenario library: same named tests run against mock and real system](tools/testing-patterns.md)
 - GE-0025 [Use a stateful mock as a living specification that accumulates knowledge of the real system](tools/testing-patterns.md)
