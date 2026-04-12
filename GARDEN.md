@@ -1,4 +1,4 @@
-**Last assigned ID:** GE-0180
+**Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-10
 **Entries merged since last sweep:** 20
 **Drift threshold:** 10
