@@ -6,6 +6,7 @@ Discovered building a Quarkus Native macOS app with Panama FFM and an Objective-
 
 ## jextract upcall helpers (allocate()) fail silently in native image
 
+**ID:** GE-20260412-dc1548
 **Stack:** Panama FFM (Java 22+), jextract, GraalVM 25
 **Symptom:** `jextract`-generated callback classes have an `allocate(Function fi, Arena arena)` method. Calling it in JVM mode works. In native image it throws `NoSuchMethodException` for the interface's method.
 **Context:** Any Panama upcall using jextract's generated `SomeCallback.allocate()` helper.
@@ -45,6 +46,7 @@ Works perfectly in JVM mode. Fails only in native image. The jextract-generated 
 
 ## reachability-metadata.json foreign section uses "directUpcalls" not "upcalls"
 
+**ID:** GE-20260412-e00a2f
 **Stack:** Panama FFM, GraalVM native image, GraalVM 25
 **Symptom:** `MissingForeignRegistrationError` at runtime in native image. The error message says "add the following to the 'foreign' section" but prints an empty snippet (GraalVM 25 bug — the snippet generator is broken).
 **Context:** GraalVM 25 native image with Panama FFM upcalls.
@@ -96,6 +98,7 @@ The error message is supposed to print the correct JSON snippet. In GraalVM 25.0
 
 ## Arena.ofAuto() throws UnsupportedOperationException on close()
 
+**ID:** GE-20260412-c15261
 **Stack:** Panama FFM (Java 22+), GraalVM 25
 **Symptom:** Application crashes at shutdown with `UnsupportedOperationException` when a `@PreDestroy` method calls `arena.close()`.
 **Context:** Using `Arena.ofAuto()` as an application-lifetime arena for Panama upcall stubs.
@@ -124,6 +127,7 @@ void close() { arena.close(); }  // now works
 
 ## jextract-generated classes initialize at build time and fail to find dylib symbols
 
+**ID:** GE-20260412-73b00b
 **Stack:** Panama FFM (Java 22+), jextract, GraalVM 25
 **Symptom:** Native image build fails: `Class initialization of MyMacUI_h$myui_start failed. Caused by: UnsatisfiedLinkError: unresolved symbol: myui_start`
 **Context:** jextract-generated binding classes try to resolve native symbols at class-initialization time, which GraalVM runs at build time. The dylib isn't present at build time.
@@ -146,6 +150,7 @@ The JVM mode works perfectly because class initialization happens at runtime whe
 
 ## Hand-written Panama FFM classes with static final MethodHandle fields also need --initialize-at-run-time
 
+**ID:** GE-20260412-e103a8
 **Stack:** Panama FFM, GraalVM native image 25, macOS AArch64
 **Symptom:** Native image build fails with a `linkToNative` parsing error at analysis time on the first public method of a hand-written class that holds `private static final MethodHandle` fields created via `Linker.nativeLinker().downcallHandle()`. Error is completely different from the `UnsatisfiedLinkError` that jextract-generated classes produce.
 **Context:** Any hand-written class (not jextract-generated) that initialises `MethodHandle` fields pointing to native libc functions via `Linker.nativeLinker().defaultLookup()`.
@@ -180,6 +185,7 @@ jextract-generated classes need run-time init because they call `findOrThrow()` 
 
 ## MissingForeignRegistrationError gives no indication which downcall entry is wrong
 
+**ID:** GE-20260412-937f1d
 **Stack:** Panama FFM, GraalVM native image 25, reachability-metadata.json
 **Symptom:** `MissingForeignRegistrationError` at runtime. The error message names the failing function but does NOT tell you which entry in `reachability-metadata.json` is wrong or what is wrong about it (wrong parameter count, wrong type, etc.).
 **Context:** Any time a `downcalls` entry in `reachability-metadata.json` doesn't exactly match the `FunctionDescriptor` used in the code — common when writing entries by hand.

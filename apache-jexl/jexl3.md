@@ -4,6 +4,7 @@
 
 ## JEXL3 `${var}` inside single-quoted string literals is not interpolated — literal text output
 
+**ID:** GE-20260412-2523eb
 **Stack:** Apache Commons JEXL3 3.3 (confirmed; applies to all 3.x versions — ${} in single-quoted strings has never been interpolated)
 **Symptom:** `'Join${i}Second<END, DS, A>'` in a JEXL expression produces the literal string `Join${i}Second<END, DS, A>` — `i` is never substituted. No error is thrown.
 **Context:** Any JEXL expression that tries to embed a variable reference inside a string literal using `${}` syntax. Common when building class name strings dynamically, e.g. in Permuplate `@PermuteReturn(typeArgs = "'Join${i}Second<...'")`.

@@ -4,6 +4,7 @@
 
 ## Quarkus REST client silently fails JSON deserialisation without quarkus-rest-client-reactive-jackson
 
+**ID:** GE-20260412-2a0c4a
 **Stack:** Quarkus 3.9.x, quarkus-rest, quarkus-rest-client
 **Symptom:** REST client throws: `"Response could not be mapped to type java.util.List<Foo> for response with media type application/json. Hints: Consider adding quarkus-rest-client-reactive-jackson or quarkus-rest-client-reactive-jsonb"`. Server returns valid JSON; `curl` against the same endpoint works correctly.
 **Context:** Using `@RegisterRestClient` with the Quarkus REST stack (not Resteasy Reactive) to consume JSON endpoints. Occurs whenever the client tries to deserialise a JSON response into a Java type.

@@ -4,6 +4,7 @@
 
 ## Varargs type-capture for type-safe DSL methods with full generic support
 
+**ID:** GE-20260412-e51f12
 **Context:** Designing fluent DSL methods that need to return a caller-specified
 type without requiring the caller to pass a `Class<T>` argument — especially when
 the target type may include nested generics like `Map<String, Map<String, Date>>`.

@@ -2,6 +2,7 @@
 
 ## Scelight tracker events: three API traps for player and unit identification
 
+**ID:** GE-20260412-fec397
 **Stack:** Scelight scelight-s2protocol, SC2 replay parsing, Java
 **Symptom:**
 1. Filtering `PlayerStatsEvent` by `event.getUserId()` silently applies no stats — all tracker events return `userId = -1`.

@@ -4,6 +4,7 @@
 
 ## Quarkus WebSockets Next @OnOpen silently stops firing after hot-reload
 
+**ID:** GE-20260412-59ef31
 **Stack:** Quarkus 3.9.5, quarkus-websockets-next
 **Symptom:** After a hot-reload in dev mode, WebSocket HTTP 101 upgrade succeeds (handshake OK) but `@OnOpen` is never called. No log entries from WebSocket handlers appear. REST endpoints continue working normally. No error message anywhere.
 **Context:** Dev mode only. Triggered by any Java change that causes a Quarkus hot-reload. WebSocket connections made before the hot-reload continue working; new connections after are silently dead.

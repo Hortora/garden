@@ -1,10 +1,14 @@
 **Last assigned ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-10
-**Entries merged since last sweep:** 9
+**Entries merged since last sweep:** 20
 **Drift threshold:** 10
 
 ## By Technology
 
+### apache-jexl/
+- GE-20260412-2523eb [JEXL3 `${var}` inside single-quoted string literals is not interpolated — literal text output](apache-jexl/jexl3.md)
+### approaches/
+- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](approaches/java-dsl-design.md)
 ### casehub-engine/
 - GE-0167 [`StateContextImpl.evalObjectTemplate()` is a full mini-template DSL — not JQ](casehub-engine/state-context.md)
 ### beautifulsoup/
@@ -54,6 +58,12 @@
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/pty-patterns.md)
 - GE-0060 [tput silently reports 0 when TERM env var is absent in PTY integration tests](java-panama-ffm/pty-patterns.md)
 - GE-0061 [Use tput to verify PTY window dimensions in JVM-mode Panama FFM tests](java-panama-ffm/pty-patterns.md)
+- GE-20260412-dc1548 [jextract upcall helpers (allocate()) fail silently in native image](java-panama-ffm/native-image-patterns.md)
+- GE-20260412-e00a2f [reachability-metadata.json foreign section uses "directUpcalls" not "upcalls"](java-panama-ffm/native-image-patterns.md)
+- GE-20260412-c15261 [Arena.ofAuto() throws UnsupportedOperationException on close()](java-panama-ffm/native-image-patterns.md)
+- GE-20260412-73b00b [jextract-generated classes initialize at build time and fail to find dylib symbols](java-panama-ffm/native-image-patterns.md)
+- GE-20260412-e103a8 [Hand-written Panama FFM classes with static final MethodHandle fields also need --initialize-at-run-time](java-panama-ffm/native-image-patterns.md)
+- GE-20260412-937f1d [MissingForeignRegistrationError gives no indication which downcall entry is wrong](java-panama-ffm/native-image-patterns.md)
 ### macos-native-appkit/
 - GE-0051 [Smoke-test WKWebView rendering by checking for a new WebContent process](macos-native-appkit/appkit-panama-ffm.md)
 - GE-0072 [`performSelectorOnMainThread:waitUntilDone:NO` from main thread schedules asynchronously](macos-native-appkit/appkit-panama-ffm.md)
@@ -94,6 +104,10 @@
 - GE-0146 [Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`](quarkus/testing.md)
 - GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/cdi.md)
 - GE-0168 [Quarkus Flow discovers workflows from both YAML files and Java classes at build time](quarkus/quarkus-flow.md)
+- GE-20260412-59ef31 [Quarkus WebSockets Next @OnOpen silently stops firing after hot-reload](quarkus/websockets-next.md)
+- GE-20260412-2a0c4a [Quarkus REST client silently fails JSON deserialisation without quarkus-rest-client-reactive-jackson](quarkus/rest-client.md)
+### scelight/
+- GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
 - GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/electron-builder.md)
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/electron-testing.md)
@@ -272,6 +286,7 @@
 - GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/records.md)
 ### #java-dsl
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/generics.md)
+- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](approaches/java-dsl-design.md)
 ### #lambda
 - GE-0037 [Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks](java/clock-testing.md)
 ### #llm-testing
