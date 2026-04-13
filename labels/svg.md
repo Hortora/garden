@@ -1,0 +1,1 @@
+- GE-0006: Use `>?<` as a safe sed target for SVG text-element replacement in CI

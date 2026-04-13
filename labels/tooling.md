@@ -1,0 +1,2 @@
+- GE-0020: Use `typora-root-url` in YAML front matter to make Jekyll root-relative image paths work in Typora
+- GE-20260412-b6c0f8: Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep

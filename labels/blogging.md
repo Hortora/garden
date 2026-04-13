@@ -1,0 +1,3 @@
+- GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
+- GE-0020: Use `typora-root-url` in YAML front matter to make Jekyll root-relative image paths work in Typora
+- GE-0108: Use Deprecated HTML `align` Attribute (Not `style="float"`) for Image Wrapping in Markdown

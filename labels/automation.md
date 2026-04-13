@@ -1,0 +1,3 @@
+- GE-0049: Create and close GitHub issues in bulk with a bash function and URL number extraction
+- GE-0050: Use conventional commit scope to cluster commits into issues without reading per-commit diffs
+- GE-0092: Use `.locator().all()` not `.locator().nth(n)` when screenshotting multiple elements of the same class

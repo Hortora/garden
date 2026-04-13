@@ -1,0 +1,1 @@
+- GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser

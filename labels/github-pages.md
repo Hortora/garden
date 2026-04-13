@@ -1,0 +1,2 @@
+- GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser
+- GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9

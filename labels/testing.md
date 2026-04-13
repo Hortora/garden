@@ -1,0 +1,21 @@
+- GE-0179: Use an injectable `_pollFn` property to test Electron process managers without module mocking
+- GE-0119: PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated
+- GE-0037: Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks
+- GE-0061: Use tput to verify PTY window dimensions in JVM-mode Panama FFM tests
+- GE-0051: Smoke-test WKWebView rendering by checking for a new WebContent process
+- GE-0095: Use a dedicated @QuarkusTest class with @InjectMock to isolate side-effectful endpoint tests
+- GE-0018: Test encoding correctness at every pipeline layer with a shared garbling-signature helper
+- GE-0021: Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()
+- GE-0022: Dual-runner scenario library: same named tests run against mock and real system
+- GE-0025: Use a stateful mock as a living specification that accumulates knowledge of the real system
+- GE-0039: Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other
+- GE-0040: Use `waitpid(WNOHANG)` polling to verify signal delivery in subprocess tests
+- GE-0087: Assert that `iframe.src` changes after a save, not that the iframe content changed
+- GE-0092: Use `.locator().all()` not `.locator().nth(n)` when screenshotting multiple elements of the same class
+- GE-0127: Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript
+- GE-0135: Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads
+- GE-0150: Expose `window.__test` semantic API for robust canvas/WebGL test assertions
+- GE-0151: Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`
+- GE-0169: Assert on side effects, not LLM output, when testing AI tool use
+- GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
+- GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation

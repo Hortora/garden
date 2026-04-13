@@ -1,0 +1,1 @@
+- GE-0061: Use tput to verify PTY window dimensions in JVM-mode Panama FFM tests

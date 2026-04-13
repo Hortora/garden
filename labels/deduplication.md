@@ -1,0 +1,1 @@
+- GE-0034: Use a sparse pair log to avoid O(N²) re-comparison across a growing corpus

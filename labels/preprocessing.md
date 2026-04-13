@@ -1,0 +1,1 @@
+- GE-0088: Move trailing whitespace from inside inline HTML elements to after the closing tag before html2text

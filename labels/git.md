@@ -1,0 +1,4 @@
+- GE-0002: Use git -C <path> to operate on a repo without cd-ing into it
+- GE-0043: Use conventional commit scope as the primary feature-clustering signal over file paths
+- GE-0141: Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash
+- GE-0178: Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers

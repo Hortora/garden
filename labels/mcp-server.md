@@ -1,0 +1,1 @@
+- GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation

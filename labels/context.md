@@ -1,0 +1,1 @@
+- GE-0013: Inject mandatory instructions directly into an existing session to override ignored guidelines

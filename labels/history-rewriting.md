@@ -1,0 +1,1 @@
+- GE-0141: Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash

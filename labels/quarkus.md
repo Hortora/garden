@@ -1,0 +1,3 @@
+- GE-0033: Use `@UnlessBuildProfile("prod")` to strip debug/QA beans from production at CDI level
+- GE-0047: Use javap to find the actual Quarkus config property name from a field annotation
+- GE-0077: Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean

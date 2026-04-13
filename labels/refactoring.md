@@ -1,0 +1,1 @@
+- GE-0158: Use `mvn compile` to enumerate all call sites when changing a Java record signature

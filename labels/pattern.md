@@ -1,0 +1,14 @@
+- GE-0105: Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node
+- GE-0179: Use an injectable `_pollFn` property to test Electron process managers without module mocking
+- GE-0119: PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated
+- GE-0073: NSEvent local monitor + BOOL flag for mode-based key interception
+- GE-0071: Bridge SmallRye in-memory channel to Quarkus Flow using @Incoming + startInstance()
+- GE-0077: Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean
+- GE-0095: Use a dedicated @QuarkusTest class with @InjectMock to isolate side-effectful endpoint tests
+- GE-0123: Use Java-Managed Event Buffers + Fresh RuleUnitInstance per Tick Instead of Drools Fusion STREAM Mode for Temporal CEP in Quarkus Rule Units
+- GE-0021: Queue debug commands as Runnables in the S2Agent for cross-thread execution in onStep()
+- GE-0040: Use `waitpid(WNOHANG)` polling to verify signal delivery in subprocess tests
+- GE-0089: Use Unicode WORD JOINER (U+2060) as an invisible reversible marker to preserve adjacency information through BeautifulSoup `prettify()`
+- GE-0127: Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript
+- GE-0132: Walk text character-by-character tracking quote state to skip keyword matching inside strings
+- GE-0135: Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads

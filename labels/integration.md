@@ -1,0 +1,1 @@
+- GE-0071: Bridge SmallRye in-memory channel to Quarkus Flow using @Incoming + startInstance()

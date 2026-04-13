@@ -1,0 +1,1 @@
+- GE-0033: Use `@UnlessBuildProfile("prod")` to strip debug/QA beans from production at CDI level

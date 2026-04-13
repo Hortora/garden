@@ -1,0 +1,1 @@
+- GE-0119: PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated

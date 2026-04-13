@@ -1,0 +1,1 @@
+- GE-0002: Use git -C <path> to operate on a repo without cd-ing into it

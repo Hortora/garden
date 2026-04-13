@@ -1,0 +1,1 @@
+- GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9

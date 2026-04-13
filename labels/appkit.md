@@ -1,0 +1,1 @@
+- GE-0073: NSEvent local monitor + BOOL flag for mode-based key interception

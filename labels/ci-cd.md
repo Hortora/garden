@@ -1,0 +1,6 @@
+- GE-0006: Use `>?<` as a safe sed target for SVG text-element replacement in CI
+- GE-0039: Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other
+- GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
+- GE-0178: Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers
+- GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser
+- GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9

@@ -1,0 +1,5 @@
+- GE-0003: Use a second Claude to verify the first Claude's work — and always confirm the absolute file path
+- GE-0012: Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state
+- GE-0169: Assert on side effects, not LLM output, when testing AI tool use
+- GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
+- GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation

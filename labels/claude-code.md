@@ -1,0 +1,5 @@
+- GE-0013: Inject mandatory instructions directly into an existing session to override ignored guidelines
+- GE-0054: Demand-load reference material in Claude Code skills via separate .md files
+- GE-0055: Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers
+- GE-0159: Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points
+- GE-20260412-b6c0f8: Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep

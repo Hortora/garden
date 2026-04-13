@@ -1,0 +1,2 @@
+- GE-0009: Add a corruption signature check after text transformations that could silently garble content
+- GE-0018: Test encoding correctness at every pipeline layer with a shared garbling-signature helper

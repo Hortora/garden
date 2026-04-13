@@ -1,0 +1,1 @@
+- GE-0089: Use Unicode WORD JOINER (U+2060) as an invisible reversible marker to preserve adjacency information through BeautifulSoup `prettify()`

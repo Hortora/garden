@@ -1,0 +1,2 @@
+- GE-0054: Demand-load reference material in Claude Code skills via separate .md files
+- GE-0055: Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers

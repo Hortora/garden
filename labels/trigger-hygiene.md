@@ -1,0 +1,1 @@
+- GE-0055: Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers

@@ -1,0 +1,2 @@
+- GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
+- GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation

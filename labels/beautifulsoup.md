@@ -1,0 +1,2 @@
+- GE-0088: Move trailing whitespace from inside inline HTML elements to after the closing tag before html2text
+- GE-0089: Use Unicode WORD JOINER (U+2060) as an invisible reversible marker to preserve adjacency information through BeautifulSoup `prettify()`

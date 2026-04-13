@@ -1,0 +1,1 @@
+- GE-0043: Use conventional commit scope as the primary feature-clustering signal over file paths

@@ -1,0 +1,1 @@
+- GE-0039: Use surefire `reuseForks=false` to isolate Panama FFM native I/O tests from each other

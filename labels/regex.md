@@ -1,0 +1,1 @@
+- GE-20260412-e4773d: Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it

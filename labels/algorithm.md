@@ -1,0 +1,2 @@
+- GE-0034: Use a sparse pair log to avoid O(N²) re-comparison across a growing corpus
+- GE-0035: Trigger exhaustive sweeps by activity count, not time, to match cost to actual need

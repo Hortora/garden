@@ -1,0 +1,1 @@
+- GE-0004: Use typed element return in generator/predicate pairs to enforce cross-API type agreement

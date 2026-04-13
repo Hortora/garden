@@ -1,0 +1,17 @@
+- GE-0105: Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node
+- GE-0003: Use a second Claude to verify the first Claude's work — and always confirm the absolute file path
+- GE-0009: Add a corruption signature check after text transformations that could silently garble content
+- GE-0010: Order dependent artifact creation by information flow, not by convention
+- GE-0012: Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state
+- GE-0018: Test encoding correctness at every pipeline layer with a shared garbling-signature helper
+- GE-0022: Dual-runner scenario library: same named tests run against mock and real system
+- GE-0025: Use a stateful mock as a living specification that accumulates knowledge of the real system
+- GE-0034: Use a sparse pair log to avoid O(N²) re-comparison across a growing corpus
+- GE-0035: Trigger exhaustive sweeps by activity count, not time, to match cost to actual need
+- GE-0043: Use conventional commit scope as the primary feature-clustering signal over file paths
+- GE-0050: Use conventional commit scope to cluster commits into issues without reading per-commit diffs
+- GE-0150: Expose `window.__test` semantic API for robust canvas/WebGL test assertions
+- GE-0151: Prove WebSocket end-to-end connectivity by waiting for first message, not just `onOpen`
+- GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
+- GE-0169: Assert on side effects, not LLM output, when testing AI tool use
+- GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI

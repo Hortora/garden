@@ -1,0 +1,1 @@
+- GE-0049: Create and close GitHub issues in bulk with a bash function and URL number extraction

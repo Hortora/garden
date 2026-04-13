@@ -1,0 +1,2 @@
+- GE-0003: Use a second Claude to verify the first Claude's work — and always confirm the absolute file path
+- GE-0012: Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state

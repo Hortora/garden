@@ -1,0 +1,1 @@
+- GE-0108: Use Deprecated HTML `align` Attribute (Not `style="float"`) for Image Wrapping in Markdown

@@ -1,0 +1,2 @@
+- GE-0105: Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node
+- GE-0054: Demand-load reference material in Claude Code skills via separate .md files

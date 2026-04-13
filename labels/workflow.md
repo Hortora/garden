@@ -1,0 +1,4 @@
+- GE-0010: Order dependent artifact creation by information flow, not by convention
+- GE-0013: Inject mandatory instructions directly into an existing session to override ignored guidelines
+- GE-0035: Trigger exhaustive sweeps by activity count, not time, to match cost to actual need
+- GE-0159: Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points

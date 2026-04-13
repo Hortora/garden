@@ -1,0 +1,1 @@
+- GE-0037: Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks

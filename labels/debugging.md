@@ -1,0 +1,1 @@
+- GE-0047: Use javap to find the actual Quarkus config property name from a field annotation

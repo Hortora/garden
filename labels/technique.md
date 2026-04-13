@@ -1,0 +1,1 @@
+- GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
