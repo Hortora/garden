@@ -2,6 +2,9 @@
 
 ---
 
+
+---
+
 ## extendsRule() is authoring-time deduplication — not a runtime inheritance mechanism
 
 **Context:** Implementing a Drools-compatible rule builder DSL, or reasoning
@@ -52,41 +55,3 @@ network, not of the DSL authoring model. The DSL's `extendsRule()` is a
 pattern-copy mechanism at build time; the Rete compiler handles deduplication
 separately. Knowing this, the sandbox implementation becomes trivial: just
 copy sources and filters at construction time.
-
----
-
-## `addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime
-
-**ID:** GE-0057
-**Stack:** Permuplate Drools DSL sandbox (pre-1.0)
-**Symptom:** When using `rule.run(ctx, paramsValue)` with a single-fact filter (`filterLatest`), the filter silently receives `params` as the fact instead of the actual latest joined fact. No error, no exception — wrong data, wrong result.
-**Context:** Building a Drools DSL rule with params (via `ParametersFirst.params()`, `.param()`, or `.map()`) and then using a single-fact filter on a subsequent join.
-
-### Root cause
-
-`RuleDefinition.wrapPredicate()` captures `registeredFactCount = accumulatedFacts` at build time to determine which fact is "latest" for single-fact filters. The trim logic: if `factArity == 1 && registeredFactCount > 1`, extract `facts[registeredFactCount - 1]`. Since params are injected at runtime (not via `addSource()`), `accumulatedFacts` at build time is one lower than the actual runtime fact array length. The "latest" index points to params, not the last joined fact.
-
-### Fix
-
-Call `rd.addParamsFact()` in every params-entry method on `ParametersFirst` immediately after creating the `RuleDefinition`, before returning the chain builder. This increments `accumulatedFacts` by 1 at build time — matching what will actually be at `facts[0]` at runtime:
-
-```java
-// In ParametersFirst.params(), param(), list(), map():
-RuleDefinition<DS> rd = new RuleDefinition<>(name);
-rd.addParamsFact();  // ← must come first, before any addSource()
-return new JoinBuilder.Join1First<>(null, rd);
-```
-
-`addParamsFact()` is a package-private method on `RuleDefinition`:
-
-```java
-void addParamsFact() {
-    accumulatedFacts++;
-}
-```
-
-### Why non-obvious
-
-The fix is a build-time operation (incrementing a counter) for a problem that only manifests at runtime. The symptom (wrong fact in filter) gives no hint that the counter is wrong — it looks like the filter is broken or the join chain is misconfigured. The separation between when params are declared (build time) and when they are injected (run time) means there's no obvious connection between `addParamsFact()` and the runtime behaviour of `wrapPredicate()`.
-
-*Score: 14/15 · Included because: build-time/runtime split causes silent wrong-result with no error · Reservation: none*
