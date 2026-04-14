@@ -15,3 +15,4 @@
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
 - GE-0169: Assert on side effects, not LLM output, when testing AI tool use
 - GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
+- GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation

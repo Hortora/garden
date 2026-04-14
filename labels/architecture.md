@@ -1,1 +1,2 @@
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
+- GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation

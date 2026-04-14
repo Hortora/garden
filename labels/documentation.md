@@ -1,1 +1,2 @@
 - GE-0108: Use Deprecated HTML `align` Attribute (Not `style="float"`) for Image Wrapping in Markdown
+- GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation

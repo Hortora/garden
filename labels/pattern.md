@@ -12,3 +12,4 @@
 - GE-0127: Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript
 - GE-0132: Walk text character-by-character tracking quote state to skip keyword matching inside strings
 - GE-0135: Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads
+- GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
