@@ -1,0 +1,1 @@
+- GE-20260414-9ada73: Panache entity.persist() on a detached entity silently rolls back the transaction

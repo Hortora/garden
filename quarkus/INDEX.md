@@ -34,3 +34,4 @@
 | GE-0146 | Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest` | gotcha | 13/15 |
 | GE-0148 | Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches | gotcha | 12/15 |
 | GE-0168 | Quarkus Flow discovers workflows from both YAML files and Java classes at build time | gotcha | 11/15 |
+| GE-20260414-9ada73 | Panache entity.persist() on a detached entity silently rolls back the transaction | gotcha | 13/15 |
