@@ -2,6 +2,7 @@
 **Last full DEDUPE sweep:** 2026-04-12
 **Entries merged since last sweep:** 0
 **Drift threshold:** 10
+**Last staleness review:** never
 
 ## By Technology
 
