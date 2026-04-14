@@ -1,0 +1,1 @@
+- GE-20260414-c12931: YAML frontmatter regex silently skips files with CRLF line endings

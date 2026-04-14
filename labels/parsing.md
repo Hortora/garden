@@ -1,2 +1,3 @@
 - GE-0132: Walk text character-by-character tracking quote state to skip keyword matching inside strings
 - GE-20260412-e4773d: Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it
+- GE-20260414-c12931: YAML frontmatter regex silently skips files with CRLF line endings

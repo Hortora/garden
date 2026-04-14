@@ -14,3 +14,4 @@
 | permuplate | permuplate/INDEX.md |
 | quarkus | quarkus/INDEX.md |
 | tools | tools/INDEX.md |
+| python | python/INDEX.md |
