@@ -2,3 +2,4 @@
 - GE-0047: Use javap to find the actual Quarkus config property name from a field annotation
 - GE-0077: Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean
 - GE-20260414-9ada73: Panache entity.persist() on a detached entity silently rolls back the transaction
+- GE-20260414-879c59: HQL cast(enum as string) returns the enum type, not a String — causes QueryTypeMismatch
