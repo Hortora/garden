@@ -4920,3 +4920,6 @@ Pairs not appearing here are unchecked candidates for the next DEDUPE sweep.
 | GE-0161 × GE-20260410-5fd0c3 | distinct | 2026-04-12 | tools — different tool domains |
 | GE-0162 × GE-20260410-5fd0c3 | distinct | 2026-04-12 | tools — different tool domains |
 | GE-0166 × GE-20260410-5fd0c3 | distinct | 2026-04-12 | tools — different tool domains |
+| GE-20260414-c12931 × GE-20260414-2a1cd1 | related | 2026-04-14 | cross-referenced — both involve regex validation having gaps; different bugs, different fixes |
+| GE-20260414-3d73c3 × GE-0010 | distinct | 2026-04-14 | GE-0010: artifact ordering by info flow; GE-3d73c3: architecture doc structure — different concerns |
+| GE-20260414-3d73c3 × GE-0166 | distinct | 2026-04-14 | GE-0166: parallel agent dispatch; GE-3d73c3: property-claims doc structure — no overlap |
