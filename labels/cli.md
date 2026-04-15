@@ -1,2 +1,1 @@
-- GE-0049: Create and close GitHub issues in bulk with a bash function and URL number extraction
 - GE-20260414-c08ba3: `gh issue close` only accepts one issue number — bulk close requires a loop

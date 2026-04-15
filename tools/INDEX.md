@@ -103,3 +103,4 @@
 | GE-20260412-b6c0f8 | Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep | gotcha | 8/15 |
 | GE-20260412-e4773d | Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it | gotcha | 11/15 |
 | GE-20260414-3d73c3 | Structure architecture docs as property claims with Guarantees and Graceful Degradation | technique | 14/15 |
+| GE-20260414-c08ba3 | `gh issue close` only accepts one issue number — bulk close requires a loop | gotcha | 9/15 |
