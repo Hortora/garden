@@ -4,3 +4,4 @@
 - GE-20260414-9ada73: Panache entity.persist() on a detached entity silently rolls back the transaction
 - GE-20260414-879c59: HQL cast(enum as string) returns the enum type, not a String — causes QueryTypeMismatch
 - GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
+- GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception

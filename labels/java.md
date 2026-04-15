@@ -1,3 +1,4 @@
 - GE-0158: Use `mvn compile` to enumerate all call sites when changing a Java record signature
 - GE-0077: Patch a Vert.x Internal Handler Map via Reflection in a Quarkus CDI Startup Bean
 - GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
+- GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception

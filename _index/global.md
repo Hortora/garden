@@ -15,3 +15,4 @@
 | quarkus | quarkus/INDEX.md |
 | tools | tools/INDEX.md |
 | python | python/INDEX.md |
+| jep | jep/INDEX.md |
