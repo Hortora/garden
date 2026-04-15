@@ -1,0 +1,1 @@
+- GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity

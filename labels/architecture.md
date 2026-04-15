@@ -1,2 +1,3 @@
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
+- GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
