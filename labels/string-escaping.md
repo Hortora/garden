@@ -1,2 +1,1 @@
-- GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
