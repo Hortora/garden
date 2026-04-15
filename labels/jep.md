@@ -3,3 +3,4 @@
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers
+- GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
