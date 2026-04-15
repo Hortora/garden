@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-14
-**Entries merged since last sweep:** 3
+**Entries merged since last sweep:** 0
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -41,10 +41,15 @@
 - GE-0163 [`PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method](intellij-platform/GE-0163.md)
 - GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/GE-0164.md)
 - GE-0165 [IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path`](intellij-platform/GE-0165.md)
+### jep/
+- GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
+- GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
+- GE-20260415-81aad8 [PYTHONHOME exported for JVM process poisons python3 commands in the same shell](jep/GE-20260415-81aad8.md)
+- GE-20260415-b218d7 [Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers](jep/GE-20260415-b218d7.md)
+- GE-20260415-8b8b7e [JSON-string protocol at the JEP boundary eliminates type marshaling complexity](jep/GE-20260415-8b8b7e.md)
+- GE-20260415-64bd1b [Use interp.set() to pass Java strings to JEP without Python string-literal escaping](jep/GE-20260415-64bd1b.md)
 ### java/
-- GE-20260415-3cf4db [RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value](java/GE-20260415-3cf4db.md)
-- GE-20260415-e112ca [Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need](java/GE-20260415-e112ca.md)
-- GE-20260415-5d762b [Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)](java/GE-20260415-5d762b.md)
+- GE-20260415-4700a5 [JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted](java/GE-20260415-4700a5.md)
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/GE-0004.md)
 - GE-0023 [Java records with `List<T>` fields are not truly immutable without a compact constructor](java/GE-0023.md)
 - GE-0024 [Multiple `volatile` fields read without synchronisation produce torn cross-field snapshots](java/GE-0024.md)
@@ -76,7 +81,6 @@
 - GE-0005 [@PermuteReturn methods with hand-written return types silently disappear via boundary omission](permuplate/GE-0005.md)
 - GE-0007 [typeArgList(from, to, style) accepts dynamic JEXL expressions for from/to, not just constants](permuplate/GE-0007.md)
 ### quarkus/
-- GE-20260415-5c2136 [@QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades](quarkus/GE-20260415-5c2136.md)
 - GE-0031 [`<packaging>quarkus</packaging>` in pom.xml is non-standard and causes tooling issues — Quarkus doesn't generate it](quarkus/GE-0031.md)
 - GE-0032 [Quarkus `@Scheduled` allows overlapping executions by default — no warning, just a race](quarkus/GE-0032.md)
 - GE-0033 [Use `@UnlessBuildProfile("prod")` to strip debug/QA beans from production at CDI level](quarkus/GE-0033.md)
@@ -112,7 +116,6 @@
 - GE-20260415-3ce5f3 [quarkus-junit (wrong) vs quarkus-junit5 (correct) — compiles silently, fails at test runtime](quarkus/GE-20260415-3ce5f3.md)
 - GE-20260415-a13ed7 [A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed](quarkus/GE-20260415-a13ed7.md)
 - GE-20260415-748447 [Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first](quarkus/GE-20260415-748447.md)
-- GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
 - GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/GE-0148.md)
 - GE-0168 [Quarkus Flow discovers workflows from both YAML files and Java classes at build time](quarkus/GE-0168.md)
 - GE-20260412-59ef31 [Quarkus WebSockets Next @OnOpen silently stops firing after hot-reload](quarkus/websockets-next.md)
@@ -124,9 +127,6 @@
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)
 - GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
 ### tools/
-- GE-20260415-5aac89 [PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula](tools/GE-20260415-5aac89.md)
-- GE-20260415-2af3bb [Assert derived values via the same source as the implementation — not hardcoded magic numbers](tools/GE-20260415-2af3bb.md)
-- GE-20260415-0761e9 [Floating-point boundary check with == speed is fragile — use a smaller arrival threshold](tools/GE-20260415-0761e9.md)
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/GE-0002.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/GE-0003.md)
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/GE-0006.md)
@@ -140,8 +140,6 @@
 - GE-0171 [Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation](tools/GE-0171.md)
 - GE-0172 [`claude` CLI subprocess uses keychain OAuth — ANTHROPIC_API_KEY not required on dev machines](tools/GE-0172.md)
 - GE-0015 [Browser cache hides a server fix — tests pass, user still sees the bug](tools/GE-0015.md)
-- GE-20260415-ec4471 [Stacked PRs from a fork: push the base branch to upstream first](tools/GE-20260415-ec4471.md)
-- GE-20260415-84faaf [Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path](tools/GE-20260415-84faaf.md)
 - GE-0018 [Test encoding correctness at every pipeline layer with a shared garbling-signature helper](tools/GE-0018.md)
 - GE-0019 [Generate realistic UI screenshots for blog posts using Playwright headless screenshots](tools/GE-0019.md)
 - GE-0020 [Use `typora-root-url` in YAML front matter to make Jekyll root-relative image paths work in Typora](tools/GE-0020.md)
@@ -427,4 +425,4 @@
 
 ## Tag Index
 
-agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, debugging, deduplication, defensive, documentation, drools, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, lambda, llm-testing, macos-native, markdown, mcp-server, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, token-budget, tooling, trigger-hygiene, workaround, workflow
+agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, deadlock, debugging, deduplication, defensive, documentation, drools, environment, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, jep, json, lambda, llm-testing, macos-native, markdown, marshaling, mcp-server, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, threading, token-budget, tooling, trigger-hygiene, workaround, workflow
