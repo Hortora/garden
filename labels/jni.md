@@ -1,2 +1,3 @@
 - GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
+- GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers

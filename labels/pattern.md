@@ -14,3 +14,4 @@
 - GE-0135: Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
+- GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers
