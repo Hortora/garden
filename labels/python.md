@@ -1,3 +1,4 @@
 - GE-20260412-e4773d: Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it
 - GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
+- GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell

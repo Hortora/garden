@@ -1,2 +1,1 @@
-- GE-0047: Use javap to find the actual Quarkus config property name from a field annotation
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell

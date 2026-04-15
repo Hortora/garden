@@ -1,2 +1,3 @@
 - GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
+- GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
