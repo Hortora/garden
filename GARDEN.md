@@ -41,6 +41,7 @@
 - GE-0163 [`PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method](intellij-platform/GE-0163.md)
 - GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/GE-0164.md)
 - GE-0165 [IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path`](intellij-platform/GE-0165.md)
+- GE-20260416-74e114 [`PsiAnnotation.getQualifiedName()` returns bare simple name when import is unresolved — FQN checks silently miss](intellij-platform/GE-20260416-74e114.md)
 ### java/
 - GE-20260415-3cf4db [RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value](java/GE-20260415-3cf4db.md)
 - GE-20260415-e112ca [Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need](java/GE-20260415-e112ca.md)
