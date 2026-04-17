@@ -42,6 +42,7 @@
 - GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/GE-0164.md)
 - GE-0165 [IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path`](intellij-platform/GE-0165.md)
 - GE-20260416-74e114 [`PsiAnnotation.getQualifiedName()` returns bare simple name when import is unresolved — FQN checks silently miss](intellij-platform/GE-20260416-74e114.md)
+- GE-20260417-680e86 [IntelliJ MCP `ide_diagnostics` does not run `LocalInspectionTool` plugins — use `get_file_problems`](intellij-platform/GE-20260417-680e86.md)
 ### java/
 - GE-20260415-3cf4db [RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value](java/GE-20260415-3cf4db.md)
 - GE-20260415-e112ca [Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need](java/GE-20260415-e112ca.md)
@@ -81,6 +82,9 @@
 - GE-20260416-17bdf4 [PermuteTypeParamTransformer must run BEFORE applySourceTypeParams — type param doubling](permuplate/GE-20260416-17bdf4.md)
 - GE-20260416-f316e2 [@PermuteSource must be stripped from generated output or causes cannot-find-symbol](permuplate/GE-20260416-f316e2.md)
 - GE-20260416-9d1147 [PermuteMojo generate() chain handles composition ordering in-memory — no extra infrastructure](permuplate/GE-20260416-9d1147.md)
+- GE-20260417-d1ba21 [Two independent `@PermuteTypeParam` axes in one class produce duplicate type parameters](permuplate/GE-20260417-d1ba21.md)
+- GE-20260417-f03d4f [`@PermuteTypeParam` on a non-first type parameter keeps A fixed and expands only the remainder](permuplate/GE-20260417-f03d4f.md)
+- GE-20260417-c01ea4 [`typeArgList()` inside `@PermuteDeclr` type strings requires single-quoted style argument](permuplate/GE-20260417-c01ea4.md)
 ### quarkus/
 - GE-20260415-5c2136 [@QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades](quarkus/GE-20260415-5c2136.md)
 - GE-0031 [`<packaging>quarkus</packaging>` in pom.xml is non-standard and causes tooling issues — Quarkus doesn't generate it](quarkus/GE-0031.md)
