@@ -90,6 +90,9 @@
 - GE-20260417-f03d4f [`@PermuteTypeParam` on a non-first type parameter keeps A fixed and expands only the remainder](permuplate/GE-20260417-f03d4f.md)
 - GE-20260417-c01ea4 [`typeArgList()` inside `@PermuteDeclr` type strings requires single-quoted style argument](permuplate/GE-20260417-c01ea4.md)
 ### quarkus/
+- GE-20260417-2e4d46 [Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema](quarkus/GE-20260417-2e4d46.md)
+- GE-20260417-a405a4 [quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error](quarkus/GE-20260417-a405a4.md)
+- GE-20260417-c59817 [quarkus.arc.selected-alternatives activates @Alternative beans in @QuarkusTest — beans.xml is ignored by Arc](quarkus/GE-20260417-c59817.md)
 - GE-20260415-5c2136 [@QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades](quarkus/GE-20260415-5c2136.md)
 - GE-0031 [`<packaging>quarkus</packaging>` in pom.xml is non-standard and causes tooling issues — Quarkus doesn't generate it](quarkus/GE-0031.md)
 - GE-0032 [Quarkus `@Scheduled` allows overlapping executions by default — no warning, just a race](quarkus/GE-0032.md)
