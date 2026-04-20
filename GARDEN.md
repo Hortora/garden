@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-14
-**Entries merged since last sweep:** 7
+**Entries merged since last sweep:** 69
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -41,6 +41,8 @@
 - GE-0163 [`PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method](intellij-platform/GE-0163.md)
 - GE-0164 [`Messages.showDialog()` auto-selects first option in IntelliJ headless test environment](intellij-platform/GE-0164.md)
 - GE-0165 [IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path`](intellij-platform/GE-0165.md)
+- GE-20260416-74e114 [`PsiAnnotation.getQualifiedName()` returns bare simple name when import is unresolved — FQN checks silently miss](intellij-platform/GE-20260416-74e114.md)
+- GE-20260417-680e86 [IntelliJ MCP `ide_diagnostics` does not run `LocalInspectionTool` plugins — use `get_file_problems`](intellij-platform/GE-20260417-680e86.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -62,6 +64,22 @@
 - GE-0143 [`final hashCode()` in parent — update the protected field from setters instead of overriding](java/GE-0143.md)
 - GE-0144 [Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files](java/GE-0144.md)
 - GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/GE-0158.md)
+- GE-20260415-3cf4db [RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value](java/GE-20260415-3cf4db.md)
+- GE-20260415-e112ca [Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need](java/GE-20260415-e112ca.md)
+- GE-20260415-5d762b [Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)](java/GE-20260415-5d762b.md)
+- GE-20260415-fb675d [A* nearestWalkable radius cap causes silent fallback to DirectMovement on out-of-bounds targets](java/GE-20260415-fb675d.md)
+- GE-20260416-39d854 [Synthesised delegation methods need explicit `public` when overriding interface methods](java/GE-20260416-39d854.md)
+- GE-20260416-53d13c [Adding stop-to-fight breaks combat tests via nearest-target ordering change](java/GE-20260416-53d13c.md)
+- GE-20260416-7ec461 [Maven `-am -Dtest=ClassName` propagates test filter to all upstream modules — 'No tests matching pattern' on unrelated modules](java/GE-20260416-7ec461.md)
+- GE-20260416-b57ee4 [JavaParser NodeList.clone() returns raw Object — clone each element individually](java/GE-20260416-b57ee4.md)
+- GE-20260417-246570 [Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference](java/GE-20260417-246570.md)
+- GE-20260417-28e1b8 [URI.create() throws IllegalArgumentException on malformed URLs — urlparse() never does](java/GE-20260417-28e1b8.md)
+- GE-20260417-2b12e1 [Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed](java/GE-20260417-2b12e1.md)
+- GE-20260417-460714 [mvn compile -q suppresses compiler errors — exit code is 0 and no output even when compilation fails](java/GE-20260417-460714.md)
+- GE-20260417-64e848 [JavaParser TYPE_USE annotation on qualified type names goes on scope type, not leaf](java/GE-20260417-64e848.md)
+- GE-20260417-96accd [Maven multi-module cycle: adding a module as test-scope dep when it already depends on you](java/GE-20260417-96accd.md)
+- GE-20260417-f962f2 [URI.getPath().split("/") produces a leading empty string — Python's path.strip('/').split('/') does not](java/GE-20260417-f962f2.md)
+- GE-20260418-93f8b2 [Maven duplicate dependency declarations — test scope silently overrides compile scope](java/GE-20260418-93f8b2.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
@@ -80,6 +98,13 @@
 ### permuplate/
 - GE-0005 [@PermuteReturn methods with hand-written return types silently disappear via boundary omission](permuplate/GE-0005.md)
 - GE-0007 [typeArgList(from, to, style) accepts dynamic JEXL expressions for from/to, not just constants](permuplate/GE-0007.md)
+- GE-20260416-17bdf4 [PermuteTypeParamTransformer must run BEFORE applySourceTypeParams — type param doubling](permuplate/GE-20260416-17bdf4.md)
+- GE-20260416-9d1147 [PermuteMojo generate() chain handles composition ordering in-memory — no extra infrastructure](permuplate/GE-20260416-9d1147.md)
+- GE-20260416-f316e2 [@PermuteSource must be stripped from generated output or causes cannot-find-symbol](permuplate/GE-20260416-f316e2.md)
+- GE-20260417-c01ea4 [`typeArgList()` inside `@PermuteDeclr` type strings requires single-quoted style argument](permuplate/GE-20260417-c01ea4.md)
+- GE-20260417-d1ba21 [Two independent `@PermuteTypeParam` axes in one class produce duplicate type parameters](permuplate/GE-20260417-d1ba21.md)
+- GE-20260417-f03d4f [`@PermuteTypeParam` on a non-first type parameter keeps A fixed and expands only the remainder](permuplate/GE-20260417-f03d4f.md)
+- GE-20260418-90907d [@PermuteCase body with Java string literals silently produces empty switch cases](permuplate/GE-20260418-90907d.md)
 ### quarkus/
 - GE-0031 [`<packaging>quarkus</packaging>` in pom.xml is non-standard and causes tooling issues — Quarkus doesn't generate it](quarkus/GE-0031.md)
 - GE-0032 [Quarkus `@Scheduled` allows overlapping executions by default — no warning, just a race](quarkus/GE-0032.md)
@@ -120,6 +145,25 @@
 - GE-0168 [Quarkus Flow discovers workflows from both YAML files and Java classes at build time](quarkus/GE-0168.md)
 - GE-20260412-59ef31 [Quarkus WebSockets Next @OnOpen silently stops firing after hot-reload](quarkus/websockets-next.md)
 - GE-20260412-2a0c4a [Quarkus REST client silently fails JSON deserialisation without quarkus-rest-client-reactive-jackson](quarkus/rest-client.md)
+- GE-20260415-5c2136 [@QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades](quarkus/GE-20260415-5c2136.md)
+- GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
+- GE-20260416-1a2d0e [Quarkus dev mode compiles at startup — mvn test after server start does not update the running app](quarkus/GE-20260416-1a2d0e.md)
+- GE-20260416-99d4c6 [Profile-scoped Quarkus file logging enables grep-based remote debugging](quarkus/GE-20260416-99d4c6.md)
+- GE-20260416-e10d09 [Use `session.getReference()` to set a `@ManyToOne` FK target in Panache `persist()` without `TransientPropertyValueException`](quarkus/GE-20260416-e10d09.md)
+- GE-20260416-f02f95 [Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`](quarkus/GE-20260416-f02f95.md)
+- GE-20260417-2e4d46 [Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema](quarkus/GE-20260417-2e4d46.md)
+- GE-20260417-3887be [Reset shared test counter immediately after a blocking startCase() call to minimise async contamination](quarkus/GE-20260417-3887be.md)
+- GE-20260417-4a3c22 [Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization](quarkus/GE-20260417-4a3c22.md)
+- GE-20260417-a405a4 [quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error](quarkus/GE-20260417-a405a4.md)
+- GE-20260417-bbaa4b [Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module](quarkus/GE-20260417-bbaa4b.md)
+- GE-20260417-c59817 [quarkus.arc.selected-alternatives activates @Alternative beans in @QuarkusTest — beans.xml is ignored by Arc](quarkus/GE-20260417-c59817.md)
+- GE-20260417-d67b22 [Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions](quarkus/GE-20260417-d67b22.md)
+- GE-20260417-e71f46 [Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module](quarkus/GE-20260417-e71f46.md)
+- GE-20260418-0eda84 [Quarkus Hibernate ORM schema generation rejects 'create-drop' — correct value is 'drop-and-create'](quarkus/GE-20260418-0eda84.md)
+- GE-20260418-0f137f [Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods](quarkus/GE-20260418-0f137f.md)
+- GE-20260418-d123af [Quarkus @WrapBusinessError converts IllegalArgumentException to ToolCallException at CDI proxy — catching IAE alone silently misses it](quarkus/GE-20260418-d123af.md)
+- GE-20260420-7d28fa [PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity](quarkus/GE-20260420-7d28fa.md)
+- GE-20260420-daf5dc [quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests](quarkus/GE-20260420-daf5dc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
@@ -127,6 +171,11 @@
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)
 - GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
 ### tools/
+- GE-20260415-5aac89 [PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula](tools/GE-20260415-5aac89.md)
+- GE-20260415-2af3bb [Assert derived values via the same source as the implementation — not hardcoded magic numbers](tools/GE-20260415-2af3bb.md)
+- GE-20260415-0761e9 [Floating-point boundary check with == speed is fragile — use a smaller arrival threshold](tools/GE-20260415-0761e9.md)
+- GE-20260415-ec4471 [Stacked PRs from a fork: push the base branch to upstream first](tools/GE-20260415-ec4471.md)
+- GE-20260415-84faaf [Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path](tools/GE-20260415-84faaf.md)
 - GE-0002 [Use git -C <path> to operate on a repo without cd-ing into it](tools/GE-0002.md)
 - GE-0003 [Use a second Claude to verify the first Claude's work — and always confirm the absolute file path](tools/GE-0003.md)
 - GE-0006 [Use `>?<` as a safe sed target for SVG text-element replacement in CI](tools/GE-0006.md)
@@ -226,6 +275,19 @@
 - GE-20260412-17c8ce [Enable GitHub Pages Actions source and fix branch protection via gh API — no browser](tools/GE-20260412-17c8ce.md)
 - GE-20260412-e4773d [Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it](tools/GE-20260412-e4773d.md)
 - GE-20260412-b6c0f8 [Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep](tools/GE-20260412-b6c0f8.md)
+- GE-20260416-5df109 [`podman machine rm` permanently destroys the VM — it is not a stop command](tools/GE-20260416-5df109.md)
+- GE-20260416-a5e990 [`git cherry-pick --continue` applies all remaining queued commits, not just the conflicted one](tools/GE-20260416-a5e990.md)
+- GE-20260416-eb035d [GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork](tools/GE-20260416-eb035d.md)
+- GE-20260417-29c2e3 [File-naming trick for top-level inline templates: name file after output class, template class differently](tools/GE-20260417-29c2e3.md)
+- GE-20260417-a1f3e9 [Maven plugin keepTemplate=true with inline=false writes template class to generated sources](tools/GE-20260417-a1f3e9.md)
+- GE-20260417-a420df [PR base becomes stale when upstream maintainer merges your content as a new PR directly to main](tools/GE-20260417-a420df.md)
+- GE-20260417-def63b [Python one-liner to resolve all merge conflicts in a file by uniformly taking one side](tools/GE-20260417-def63b.md)
+- GE-20260417-fdb17f [Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content](tools/GE-20260417-fdb17f.md)
+- GE-20260418-8edb81 [Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures](tools/GE-20260418-8edb81.md)
+- GE-20260418-b5775c [Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves](tools/GE-20260418-b5775c.md)
+- GE-20260420-146d7c [sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times](tools/GE-20260420-146d7c.md)
+- GE-20260420-ca3fb3 [str.replace with list[0] silently no-ops when list order changes](tools/GE-20260420-ca3fb3.md)
+- GE-20260420-dc3c2f [Separating observed_at from indexed_at makes time-series backfill free](tools/GE-20260420-dc3c2f.md)
 
 ---
 
