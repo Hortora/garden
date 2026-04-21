@@ -16,3 +16,4 @@
 | GE-0158 | Use `mvn compile` to enumerate all call sites when changing a Java record signature | gotcha | 10/15 |
 | GE-20260415-4700a5 | JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted | gotcha | 9/15 |
 | GE-20260421-2df2ba | JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces | gotcha | 12/15 |
+| GE-20260421-5886e0 | Synthetic single-iteration config runs a non-template class through a code-gen pipeline | technique | 10/15 |

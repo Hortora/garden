@@ -1,2 +1,1 @@
-- GE-20260421-2df2ba: JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces
 - GE-20260421-5886e0: Synthetic single-iteration config runs a non-template class through a code-gen pipeline
