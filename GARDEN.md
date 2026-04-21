@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
-**Last full DEDUPE sweep:** 2026-04-14
-**Entries merged since last sweep:** 69
+**Last full DEDUPE sweep:** 2026-04-21
+**Entries merged since last sweep:** 0
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -284,7 +284,6 @@
 - GE-20260417-def63b [Python one-liner to resolve all merge conflicts in a file by uniformly taking one side](tools/GE-20260417-def63b.md)
 - GE-20260417-fdb17f [Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content](tools/GE-20260417-fdb17f.md)
 - GE-20260418-8edb81 [Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures](tools/GE-20260418-8edb81.md)
-- GE-20260418-b5775c [Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves](tools/GE-20260418-b5775c.md)
 - GE-20260420-146d7c [sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times](tools/GE-20260420-146d7c.md)
 - GE-20260420-ca3fb3 [str.replace with list[0] silently no-ops when list order changes](tools/GE-20260420-ca3fb3.md)
 - GE-20260420-dc3c2f [Separating observed_at from indexed_at makes time-series backfill free](tools/GE-20260420-dc3c2f.md)
