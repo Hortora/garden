@@ -1,0 +1,14 @@
+#!/bin/bash
+# Warn about untracked garden entry files after any checkout.
+# These files are at risk of being lost by further branch operations.
+
+untracked=$(git ls-files --others --exclude-standard | grep -E "^[^/]+/GE-[0-9]{8}-[0-9a-f]{6}\.md$")
+
+if [ -n "$untracked" ]; then
+  echo ""
+  echo "⚠️  UNTRACKED GARDEN ENTRIES — commit these or they may be lost:"
+  echo "$untracked" | sed 's/^/   /'
+  echo ""
+  echo "   git add <file> && git commit -m 'submit(GE-...): description'"
+  echo ""
+fi

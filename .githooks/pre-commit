@@ -1,0 +1,16 @@
+#!/bin/bash
+# Block commits if untracked garden entry files exist.
+# You must commit (or explicitly discard) floating entries before committing anything else.
+
+untracked=$(git ls-files --others --exclude-standard | grep -E "^[^/]+/GE-[0-9]{8}-[0-9a-f]{6}\.md$")
+
+if [ -n "$untracked" ]; then
+  echo ""
+  echo "❌ Commit blocked: untracked garden entries must be committed first:"
+  echo "$untracked" | sed 's/^/   /'
+  echo ""
+  echo "   git add <file> && git commit -m 'submit(GE-...): description'"
+  echo "   (then re-run your original commit)"
+  echo ""
+  exit 1
+fi
