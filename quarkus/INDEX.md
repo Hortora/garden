@@ -36,3 +36,4 @@
 | GE-0168 | Quarkus Flow discovers workflows from both YAML files and Java classes at build time | gotcha | 11/15 |
 | GE-20260414-9ada73 | Panache entity.persist() on a detached entity silently rolls back the transaction | gotcha | 13/15 |
 | GE-20260414-879c59 | HQL cast(enum as string) returns the enum type, not a String — causes QueryTypeMismatch | gotcha | 10/15 |
+| GE-20260421-03fa72 | Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules | gotcha | 13/15 |
