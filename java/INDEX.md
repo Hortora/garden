@@ -15,3 +15,4 @@
 | GE-0144 | Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files | gotcha | 11/15 |
 | GE-0158 | Use `mvn compile` to enumerate all call sites when changing a Java record signature | gotcha | 10/15 |
 | GE-20260415-4700a5 | JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted | gotcha | 9/15 |
+| GE-20260421-2df2ba | JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces | gotcha | 12/15 |
