@@ -1,0 +1,1 @@
+- GE-20260421-dbc509: replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First
