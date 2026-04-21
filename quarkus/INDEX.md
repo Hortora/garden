@@ -38,3 +38,4 @@
 | GE-20260414-879c59 | HQL cast(enum as string) returns the enum type, not a String — causes QueryTypeMismatch | gotcha | 10/15 |
 | GE-20260421-03fa72 | Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules | gotcha | 13/15 |
 | GE-20260421-3b3104 | Hibernate bytecode enhancement silently zeros all fields when accessed via reflection | gotcha | 14/15 |
+| GE-20260421-4a9364 | JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%' | gotcha | 12/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-21
-**Entries merged since last sweep:** 5
+**Entries merged since last sweep:** 6
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
