@@ -1,0 +1,1 @@
+- GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events

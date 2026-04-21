@@ -40,3 +40,4 @@
 | GE-20260421-3b3104 | Hibernate bytecode enhancement silently zeros all fields when accessed via reflection | gotcha | 14/15 |
 | GE-20260421-4a9364 | JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%' | gotcha | 12/15 |
 | GE-20260421-9498ff | WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts | gotcha | 11/15 |
+| GE-20260421-cd3f95 | CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events | gotcha | 12/15 |

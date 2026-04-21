@@ -1,1 +1,2 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
+- GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
