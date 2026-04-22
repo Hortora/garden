@@ -1,3 +1,4 @@
 .obsidian/
 garden-agent.log
 garden-agent.log.*
+garden-agent.lock
