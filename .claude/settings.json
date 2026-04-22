@@ -10,10 +10,7 @@
       "Bash(git diff *)",
       "Bash(git pull *)",
       "Bash(bash run-scanner.sh *)",
-      "Bash(python3 */validate_garden.py *)",
-      "Bash(gh pr list *)",
-      "Bash(gh pr merge *)",
-      "Bash(gh pr view *)"
+      "Bash(python3 */validate_garden.py *)"
     ],
     "deny": []
   }

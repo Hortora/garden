@@ -14,14 +14,9 @@ PRs then run a full dedup sweep, committing results without asking for confirmat
 
 ## Workflow
 
-### Phase 1 — Merge open PRs
+### Phase 1 — Pull latest entries
 
-1. List open PRs: `gh pr list --state open --json number,title`
-2. For each open PR, issue one separate Bash call per PR (not a loop):
-   `gh pr merge <number> --squash --delete-branch`
-3. Pull merged commits: `git pull`
-
-Skip to Phase 2 if no open PRs.
+`git pull`
 
 ### Phase 2 — Dedup sweep
 
