@@ -6,13 +6,10 @@ dedup sweep and commit the results without asking for confirmation.
 ## Environment
 
 - Garden root: current working directory
-- Scanner: resolve the path to a concrete value first, then use it in all commands:
-  ```bash
-  SOREDIUM="${SOREDIUM_PATH:-$HOME/claude/hortora/soredium}"
-  SCANNER="$SOREDIUM/scripts/dedupe_scanner.py"
-  ```
-  Then call `python3 "$SCANNER" .` — never use `${VAR:-default}` syntax directly
-  inside bash tool calls, as it triggers permission prompts.
+- Scanner: call `bash run-scanner.sh` — this wrapper resolves SOREDIUM_PATH
+  and delegates to dedupe_scanner.py without shell expansions in the command.
+  Example: `bash run-scanner.sh . --top 50`
+  Example: `bash run-scanner.sh . --record "GE-X × GE-Y" distinct "note"`
 - All reads via `git show HEAD:<path>` — never read files directly
 
 ## Workflow

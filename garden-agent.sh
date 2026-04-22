@@ -13,7 +13,7 @@ if [[ "$1" == "--hook" ]] || [[ ! -t 0 ]]; then
         mv "$LOG" "${LOG}.1"
     fi
     echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] garden-agent starting" >> "$LOG"
-    claude --print --dangerously-skip-permissions "$TASK" >> "$LOG" 2>&1
+    claude --print "$TASK" >> "$LOG" 2>&1
     echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] garden-agent done" >> "$LOG"
 else
     claude "$TASK"
