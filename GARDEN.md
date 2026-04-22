@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-04-21
-**Entries merged since last sweep:** 8
+**Entries merged since last sweep:** 9
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -459,6 +459,9 @@
 - GE-0087 [Assert that `iframe.src` changes after a save, not that the iframe content changed](tools/GE-0087.md)
 - GE-0092 [Use `.locator().all()` not `.locator().nth(n)` when screenshotting multiple elements of the same class](tools/GE-0092.md)
 - GE-0095 [Use a dedicated @QuarkusTest class with @InjectMock to isolate side-effectful endpoint tests](quarkus/GE-0095.md)
+- GE-20260420-e61431 [@WrapBusinessError on Quarkus MCP Server CDI proxy wraps exceptions into ToolCallException(cause) — must inspect getCause() to distinguish error types](quarkus/GE-20260420-e61431.md)
+- GE-20260420-33b95f [%test.quarkus.datasource.reactive=false required when hibernate-reactive-panache is on classpath but H2 is the test datasource](quarkus/GE-20260420-33b95f.md)
+- GE-20260420-1417ca [UserTransaction injection in @QuarkusTest for cleaning up DB state created via HTTP requests — @TestTransaction can't help](quarkus/GE-20260420-1417ca.md)
 - GE-0119 [PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated](intellij-platform/GE-0119.md)
 - GE-0127 [Use `terminal.paste()` not `ws.send()` to inject text into an xterm.js terminal from JavaScript](tools/GE-0127.md)
 - GE-0135 [Return resolved data instead of calling a complex interface directly — eliminates mocking even with 12+ overloads](tools/GE-0135.md)
@@ -487,3 +490,6 @@
 ## Tag Index
 
 agentic, algorithm, analysis, appkit, architecture, automation, beautifulsoup, blogging, browser-caching, ci-cd, claude-cli, claude-code, context, deadlock, debugging, deduplication, defensive, documentation, drools, environment, git, github, history-rewriting, html2text, integration, intellij, java, java-dsl, jep, json, lambda, llm-testing, macos-native, markdown, marshaling, mcp-server, multi-agent, multi-repo, panama-ffm, parsing, pattern, performance, playwright, preprocessing, prettify, quarkus, refactoring, security, strategy, svg, technique, testing, threading, token-budget, tooling, trigger-hygiene, workaround, workflow
+
+### web/
+- GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)

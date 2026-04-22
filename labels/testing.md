@@ -19,3 +19,4 @@
 - GE-0169: Assert on side effects, not LLM output, when testing AI tool use
 - GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
 - GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation
+- GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
