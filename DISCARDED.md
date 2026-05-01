@@ -5,3 +5,4 @@
 | GE-20260420-28143a | GE-20260420-c1d394 | 2026-04-22 | Duplicate: same InMemoryReactive delegate pattern with private-final field, c1d394 has higher score (11 vs 9) |
 | GE-20260423-b87e1d | GE-20260421-1d2764 | 2026-04-23 | Duplicate: same QuarkusTest port 8081 bound after mvn test gotcha, 1d2764 has higher score (12 vs 9) |
 | GE-20260420-93d1ae | GE-20260422-042f69 | 2026-04-23 | Duplicate: same *IT classes silently skipped by Surefire gotcha, 042f69 has higher score (11 vs 10) |
+| GE-20260427-bebc2b | GE-20260422-e48245 | 2026-05-01 | Duplicate: same @DefaultBean io.quarkus.arc import gotcha, e48245 has higher score (11 vs 10) |
