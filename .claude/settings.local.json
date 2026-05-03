@@ -8,7 +8,8 @@
       "Bash(git push *)",
       "Bash(gh pr *)",
       "Bash(gh repo *)",
-      "Bash(awk '{print $1}')"
+      "Bash(awk '{print $1}')",
+      "Bash(printf '\\\\n\\\\n**See also:** GE-20260420-5df542 \"Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed\"\\\\n\\\\n**See also:** GE-0141 \"Use \\\\`\\\\$GIT_COMMIT\\\\` in \\\\`--msg-filter\\\\` to selectively rewrite only specific commits by hash\"')"
     ]
   }
 }
