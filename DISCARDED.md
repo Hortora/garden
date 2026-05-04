@@ -6,3 +6,5 @@
 | GE-20260423-b87e1d | GE-20260421-1d2764 | 2026-04-23 | Duplicate: same QuarkusTest port 8081 bound after mvn test gotcha, 1d2764 has higher score (12 vs 9) |
 | GE-20260420-93d1ae | GE-20260422-042f69 | 2026-04-23 | Duplicate: same *IT classes silently skipped by Surefire gotcha, 042f69 has higher score (11 vs 10) |
 | GE-20260427-bebc2b | GE-20260422-e48245 | 2026-05-01 | Duplicate: same @DefaultBean io.quarkus.arc import gotcha, e48245 has higher score (11 vs 10) |
+| GE-20260426-438139 | GE-20260501-04667c | 2026-05-05 | Duplicate: same continue-on-error step outcome masking gotcha; 04667c is newer with more depth on outcome vs conclusion |
+| GE-20260422-1914e0 | GE-20260504-9c9b01 | 2026-05-05 | Duplicate: same Claude Code expansion check bypasses allowlist gotcha; 9c9b01 has higher score (11 vs 10) |
