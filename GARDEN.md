@@ -138,7 +138,6 @@
 - GE-0146 [Tyrus WebSocket client causes `ArC container not initialized` in `@QuarkusTest`](quarkus/GE-0146.md)
 - GE-20260415-e5fa33 [Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X](quarkus/GE-20260415-e5fa33.md)
 - GE-20260415-53068a [RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException](quarkus/GE-20260415-53068a.md)
-- GE-20260415-3ce5f3 [quarkus-junit (wrong) vs quarkus-junit5 (correct) — compiles silently, fails at test runtime](quarkus/GE-20260415-3ce5f3.md)
 - GE-20260415-a13ed7 [A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed](quarkus/GE-20260415-a13ed7.md)
 - GE-20260415-748447 [Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first](quarkus/GE-20260415-748447.md)
 - GE-0148 [Quarkus JAX-RS resource without `@ApplicationScoped` silently breaks instance-level caches](quarkus/GE-0148.md)
