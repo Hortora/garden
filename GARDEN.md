@@ -354,6 +354,8 @@
 - GE-20260512-deda31 [Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS](tools/GE-20260512-deda31.md)
 - GE-20260512-f3a464 [IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames](tools/GE-20260512-f3a464.md)
 - GE-20260512-a28ecc [Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths](tools/GE-20260512-a28ecc.md)
+- GE-20260513-176ca1 [git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm](tools/GE-20260513-176ca1.md)
+- GE-20260513-01e602 [Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout](tools/GE-20260513-01e602.md)
 
 ---
 
