@@ -8,3 +8,16 @@
 | GE-20260427-bebc2b | GE-20260422-e48245 | 2026-05-01 | Duplicate: same @DefaultBean io.quarkus.arc import gotcha, e48245 has higher score (11 vs 10) |
 | GE-20260426-438139 | GE-20260501-04667c | 2026-05-05 | Duplicate: same continue-on-error step outcome masking gotcha; 04667c is newer with more depth on outcome vs conclusion |
 | GE-20260422-1914e0 | GE-20260504-9c9b01 | 2026-05-05 | Duplicate: same Claude Code expansion check bypasses allowlist gotcha; 9c9b01 has higher score (11 vs 10) |
+
+## 2026-05-13 — Audit 1 duplicates (superseded by new jvm/ entries from Audit 2)
+
+| Discarded | Superseded by | Reason |
+|---|---|---|
+| quarkus/GE-20260414-1063be | jvm/GE-20260512-67b3b5 | Panache bare field names — newer entry more complete |
+| quarkus/GE-20260414-9d9c85 | jvm/GE-20260512-a9ad9f | ManagedExecutor vs raw ExecutorService |
+| quarkus/GE-20260420-33b95f | jvm/GE-20260512-a3838e | hibernate-reactive-panache H2 startup failure |
+| quarkus/GE-20260421-d65fe5 | jvm/GE-20260512-b3f32a | @IfBuildProperty build-time only |
+| quarkus/GE-20260429-f61708 | jvm/GE-20260512-0fe012 | CDI fireAsync dispatches before commit |
+| jvm/GE-20260501-d6a70e | jvm/GE-20260512-66d997 | Panache static bypasses CDI alternatives |
+| jvm/GE-20260501-fbd68d | jvm/GE-20260512-6d0c2b | BroadcastProcessor.onNext() throws on no subscribers |
+| jvm/GE-20260501-dfc3c2 | jvm/GE-20260512-50b394 | @TestTransaction scheduler isolation technique |
