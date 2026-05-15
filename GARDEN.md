@@ -222,6 +222,11 @@
 - GE-20260512-2c2eff [Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment](jvm/GE-20260512-2c2eff.md)
 - GE-20260512-e3e525 [OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED](jvm/GE-20260512-e3e525.md)
 - GE-20260512-a09bd3 [Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures](jvm/GE-20260512-a09bd3.md)
+- GE-20260515-6e8205 [Three-tier Maven module structure — api/common/runtime](jvm/GE-20260515-6e8205.md)
+- GE-20260515-da8abd [Maven submodule folder names — short, no repo-name prefix](jvm/GE-20260515-da8abd.md)
+- GE-20260515-70021c [Always scope Maven commands to a specific module with -pl](jvm/GE-20260515-70021c.md)
+- GE-20260515-c272d2 [Quartz job store: RAM store for stateless scheduling](jvm/GE-20260515-c272d2.md)
+- GE-20260515-ffde26 [Optional Quarkus features: Jandex library module pattern](jvm/GE-20260515-ffde26.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
