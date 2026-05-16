@@ -225,6 +225,10 @@
 - GE-20260515-70021c [Always scope Maven commands to a specific module with -pl](jvm/GE-20260515-70021c.md)
 - GE-20260515-c272d2 [Quartz job store: RAM store for stateless scheduling](jvm/GE-20260515-c272d2.md)
 - GE-20260515-ffde26 [Optional Quarkus features: Jandex library module pattern](jvm/GE-20260515-ffde26.md)
+- GE-20260516-4bf0dc [quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI](jvm/GE-20260516-4bf0dc.md)
+- GE-20260516-8375d5 [A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive](jvm/GE-20260516-8375d5.md)
+- GE-20260516-2805b7 [Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment](jvm/GE-20260516-2805b7.md)
+- GE-20260516-e137f6 [QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile](jvm/GE-20260516-e137f6.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
