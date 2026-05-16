@@ -8,8 +8,6 @@
 
 ### apache-jexl/
 - GE-20260412-2523eb [JEXL3 `${var}` inside single-quoted string literals is not interpolated — literal text output](apache-jexl/jexl3.md)
-### approaches/
-- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](approaches/java-dsl-design.md)
 ### casehub-engine/
 - GE-0167 [`StateContextImpl.evalObjectTemplate()` is a full mini-template DSL — not JQ](casehub-engine/GE-0167.md)
 - GE-20260414-10d4da [CNCF Serverless Workflow CallableTaskBuilder.accept(Class) cannot distinguish custom callable names](casehub-engine/GE-20260414-10d4da.md)
