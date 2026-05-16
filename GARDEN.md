@@ -229,6 +229,9 @@
 - GE-20260516-8375d5 [A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive](jvm/GE-20260516-8375d5.md)
 - GE-20260516-2805b7 [Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment](jvm/GE-20260516-2805b7.md)
 - GE-20260516-e137f6 [QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile](jvm/GE-20260516-e137f6.md)
+- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](jvm/java-dsl-design.md)
+- GE-20260421-28c521 [Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference](jvm/GE-20260421-28c521.md)
+- GE-20260511-2b3d3e [Express trust-phase logic as methods on the routing policy value object, not the router](jvm/GE-20260511-2b3d3e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
@@ -442,7 +445,7 @@
 - GE-0158 [Use `mvn compile` to enumerate all call sites when changing a Java record signature](java/GE-0158.md)
 ### #java-dsl
 - GE-0004 [Use typed element return in generator/predicate pairs to enforce cross-API type agreement](java/GE-0004.md)
-- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](approaches/java-dsl-design.md)
+- GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](jvm/java-dsl-design.md)
 ### #lambda
 - GE-0037 [Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks](java/GE-0037.md)
 ### #llm-testing
