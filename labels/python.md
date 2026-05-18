@@ -5,3 +5,4 @@
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
+- GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas

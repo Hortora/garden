@@ -1,2 +1,3 @@
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
+- GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
