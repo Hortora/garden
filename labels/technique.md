@@ -1,2 +1,3 @@
 - GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
+- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline

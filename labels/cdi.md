@@ -1,3 +1,6 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
 - GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
+- GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored

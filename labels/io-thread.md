@@ -1,2 +1,1 @@
-- GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
 - GE-20260518-e4fa52: RESTEasy Reactive endpoints that call .await() on the IO thread throw BlockingOperationNotAllowedException — add @Blocking
