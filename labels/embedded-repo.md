@@ -1,0 +1,1 @@
+- GE-20260518-554158: git add -A silently stages nested git repo as a submodule (mode 160000)

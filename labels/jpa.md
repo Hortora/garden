@@ -1,1 +1,2 @@
 - GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
+- GE-20260518-da7e91: em.flush() + JPQL bulk UPDATE + em.clear() for same-transaction save-then-update

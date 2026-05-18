@@ -1,3 +1,4 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
 - GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
+- GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale

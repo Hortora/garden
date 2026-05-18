@@ -110,3 +110,4 @@
 | GE-20260518-e7b226 | Read any branch's files without checkout using git show and git ls-tree | technique | 10/15 |
 | GE-20260518-4b7541 | Apply journal merges to main before merging two epics that both modify DESIGN.md | technique | 8/15 |
 | GE-20260518-ae7612 | Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory | gotcha | 11/15 |
+| GE-20260518-554158 | git add -A silently stages nested git repo as a submodule (mode 160000) | gotcha | 10/15 |

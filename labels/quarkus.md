@@ -13,3 +13,5 @@
 - GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
+- GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
+- GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus

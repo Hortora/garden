@@ -1,3 +1,2 @@
-- GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus

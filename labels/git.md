@@ -6,3 +6,4 @@
 - GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion
 - GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree
 - GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
+- GE-20260518-554158: git add -A silently stages nested git repo as a submodule (mode 160000)
