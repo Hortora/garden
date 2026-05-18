@@ -1,0 +1,1 @@
+- GE-20260518-6e11a4: Resolve knowledge scope at capture time to prevent audit debt
