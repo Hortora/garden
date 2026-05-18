@@ -1,2 +1,1 @@
-- GE-0119: PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
