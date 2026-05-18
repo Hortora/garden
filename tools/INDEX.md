@@ -104,3 +104,8 @@
 | GE-20260412-e4773d | Python regex alternation matches leftmost option — longer pattern must come before any pattern that is a prefix of it | gotcha | 11/15 |
 | GE-20260414-3d73c3 | Structure architecture docs as property claims with Guarantees and Graceful Degradation | technique | 14/15 |
 | GE-20260414-c08ba3 | `gh issue close` only accepts one issue number — bulk close requires a loop | gotcha | 9/15 |
+| GE-20260518-2de2f8 | Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch | gotcha | 10/15 |
+| GE-20260518-d1775a | git cherry-pick -X ours brings in new files cleanly but silently discards field additions in conflicted files | gotcha | 11/15 |
+| GE-20260518-3adcb9 | git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion | gotcha | 8/15 |
+| GE-20260518-e7b226 | Read any branch's files without checkout using git show and git ls-tree | technique | 10/15 |
+| GE-20260518-4b7541 | Apply journal merges to main before merging two epics that both modify DESIGN.md | technique | 8/15 |

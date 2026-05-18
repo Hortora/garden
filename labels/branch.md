@@ -1,0 +1,3 @@
+- GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
+- GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion
+- GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree

@@ -1,0 +1,1 @@
+- GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch

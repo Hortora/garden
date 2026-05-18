@@ -1,0 +1,1 @@
+- GE-20260518-d1775a: git cherry-pick -X ours brings in new files cleanly but silently discards field additions in conflicted files

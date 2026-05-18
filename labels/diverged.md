@@ -1,0 +1,1 @@
+- GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion

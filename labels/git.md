@@ -2,3 +2,7 @@
 - GE-0043: Use conventional commit scope as the primary feature-clustering signal over file paths
 - GE-0141: Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash
 - GE-0178: Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers
+- GE-20260518-d1775a: git cherry-pick -X ours brings in new files cleanly but silently discards field additions in conflicted files
+- GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion
+- GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree
+- GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md

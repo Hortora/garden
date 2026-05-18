@@ -1,0 +1,1 @@
+- GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
