@@ -12,3 +12,4 @@
 - GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
 - GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
+- GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile

@@ -1,2 +1,3 @@
 - GE-0003: Use a second Claude to verify the first Claude's work — and always confirm the absolute file path
 - GE-0012: Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state
+- GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
