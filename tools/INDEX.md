@@ -114,3 +114,4 @@
 | GE-20260518-cf67e4 | git cherry-pick -X ours silently drops feature code from conflicting files | gotcha | 14/15 |
 | GE-20260518-96bd10 | IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file | gotcha | 14/15 |
 | GE-20260518-6e11a4 | Resolve knowledge scope at capture time to prevent audit debt | technique | 14/15 |
+| GE-20260519-c93fd8 | `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones | gotcha | 11/15 |

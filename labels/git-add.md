@@ -1,0 +1,1 @@
+- GE-20260519-c93fd8: `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones

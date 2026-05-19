@@ -8,3 +8,4 @@
 - GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
 - GE-20260518-554158: git add -A silently stages nested git repo as a submodule (mode 160000)
 - GE-20260518-cf67e4: git cherry-pick -X ours silently drops feature code from conflicting files
+- GE-20260519-c93fd8: `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones
