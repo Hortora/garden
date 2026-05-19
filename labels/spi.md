@@ -1,2 +1,2 @@
-- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
 - GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource

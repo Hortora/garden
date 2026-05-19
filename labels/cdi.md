@@ -5,3 +5,4 @@
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
 - GE-20260519-290cfb: persistence-memory/ vs testing/ — in-memory impls belong in persistence-memory/ only when they have a production use case
+- GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource

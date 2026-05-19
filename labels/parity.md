@@ -1,2 +1,1 @@
-- GE-20260421-3b3104: Hibernate bytecode enhancement silently zeros all fields when accessed via reflection
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests

@@ -22,3 +22,5 @@
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
 - GE-20260519-290cfb: persistence-memory/ vs testing/ — in-memory impls belong in persistence-memory/ only when they have a production use case
+- GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
+- GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource
