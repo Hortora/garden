@@ -1,2 +1,4 @@
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
+- GE-20260519-28275c: @Transactional(REQUIRES_NEW) must return normally — a throw rolls back its own transaction too
+- GE-20260519-23b704: Lifecycle guard ordering: status check must precede policy check to prevent phantom audit entries

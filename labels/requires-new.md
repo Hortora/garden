@@ -1,0 +1,1 @@
+- GE-20260519-28275c: @Transactional(REQUIRES_NEW) must return normally — a throw rolls back its own transaction too

@@ -1,0 +1,1 @@
+- GE-20260519-23b704: Lifecycle guard ordering: status check must precede policy check to prevent phantom audit entries
