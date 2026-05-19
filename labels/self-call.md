@@ -1,0 +1,1 @@
+- GE-20260519-dcdac5: @Transactional on a called method is silently dropped when invoked via self-call from an @ObservesAsync observer

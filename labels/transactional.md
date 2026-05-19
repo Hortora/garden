@@ -2,3 +2,4 @@
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260519-dcdac5: @Transactional on a called method is silently dropped when invoked via self-call from an @ObservesAsync observer

@@ -1,1 +1,2 @@
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260519-dcdac5: @Transactional on a called method is silently dropped when invoked via self-call from an @ObservesAsync observer

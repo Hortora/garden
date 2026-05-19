@@ -1,0 +1,1 @@
+- GE-20260519-28967d: ChannelGateway.receiveHumanMessage() rejects messages whose type isn't in the channel's allowedTypes
