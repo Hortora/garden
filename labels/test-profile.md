@@ -1,0 +1,1 @@
+- GE-20260519-12efe9: QuarkusTestProfile.getEnabledAlternatives() scopes a CDI @Alternative to a single @QuarkusTest class
