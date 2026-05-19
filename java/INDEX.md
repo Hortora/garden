@@ -19,3 +19,4 @@
 | GE-20260421-5886e0 | Synthetic single-iteration config runs a non-template class through a code-gen pipeline | technique | 10/15 |
 | GE-20260421-dbc509 | replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First | gotcha | 9/15 |
 | GE-0144 | Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files | gotcha | 11/15 |
+| GE-0144 | Maven incremental build passes but `NoClassDefFoundError` at runtime — stale `.class` files | gotcha | 11/15 |
