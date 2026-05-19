@@ -1,0 +1,2 @@
+- GE-20260519-098413: @ConfigRoot(BUILD_TIME) in deployment module does not suppress SRCFG00050 if a runtime @ConfigMapping owns the same prefix
+- GE-20260519-244ad2: Gate optional beans in a Quarkus extension with ExcludedTypeBuildItem + @ConfigRoot(BUILD_TIME) — not @IfBuildProperty on runtime beans

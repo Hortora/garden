@@ -16,3 +16,4 @@
 - GE-20260519-dcdac5: @Transactional on a called method is silently dropped when invoked via self-call from an @ObservesAsync observer
 - GE-20260519-f9624b: CDI @Alternative reactive wrapper with private new Impl() delegate is a separate instance from the CDI bean — @AfterEach clear() silently targets the wrong object
 - GE-20260519-f33c66: 'Reactive' Quarkus service classes may use blocking services or Panache statics internally — CDI @Alternative in-memory stores don't intercept those paths
+- GE-20260519-244ad2: Gate optional beans in a Quarkus extension with ExcludedTypeBuildItem + @ConfigRoot(BUILD_TIME) — not @IfBuildProperty on runtime beans
