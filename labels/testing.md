@@ -27,3 +27,4 @@
 - GE-20260519-73820e: InstanceHandle.close() default calls Arc.requireContainer() — fails silently in plain-Java tests
 - GE-20260519-c1ce15: Flyway baselineOnMigrate(true) default baselineVersion=1 silently skips V1 migration
 - GE-20260519-f88597: TDD for Flyway schema migrations: plain-Java test using Flyway+H2 + JDBC metadata assertions
+- GE-20260519-114395: Call @ConsumeEvent/@ObservesAsync handlers directly via injected CDI proxy — preserves @Transactional, eliminates async waiting in tests
