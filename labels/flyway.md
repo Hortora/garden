@@ -1,3 +1,2 @@
-- GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource
 - GE-20260519-c1ce15: Flyway baselineOnMigrate(true) default baselineVersion=1 silently skips V1 migration
 - GE-20260519-f88597: TDD for Flyway schema migrations: plain-Java test using Flyway+H2 + JDBC metadata assertions
