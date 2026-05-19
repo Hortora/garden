@@ -9,3 +9,4 @@
 - GE-20260519-e13b01: @QuarkusTest in casehub harness app crashes with ClassSelector resolution failed when casehub-ledger runtime is on classpath
 - GE-20260519-73820e: InstanceHandle.close() default calls Arc.requireContainer() — fails silently in plain-Java tests
 - GE-20260519-eb8340: Instance<T>.handles() returns Iterable<? extends Instance.Handle<T>> — incompatible with Iterable<InstanceHandle<T>>
+- GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException

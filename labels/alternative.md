@@ -1,3 +1,4 @@
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
 - GE-20260519-290cfb: persistence-memory/ vs testing/ — in-memory impls belong in persistence-memory/ only when they have a production use case
+- GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException

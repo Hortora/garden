@@ -1,0 +1,1 @@
+- GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
