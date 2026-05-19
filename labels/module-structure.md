@@ -1,0 +1,1 @@
+- GE-20260519-290cfb: persistence-memory/ vs testing/ — in-memory impls belong in persistence-memory/ only when they have a production use case

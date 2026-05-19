@@ -21,3 +21,4 @@
 - GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260519-290cfb: persistence-memory/ vs testing/ — in-memory impls belong in persistence-memory/ only when they have a production use case
