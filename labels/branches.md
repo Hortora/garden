@@ -1,0 +1,1 @@
+- GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main

@@ -1,0 +1,2 @@
+- GE-20260520-03f1a7: cc-praxis: hooks/check_project_setup.sh is the canonical source — not install-skills/SKILL.md
+- GE-20260520-836d5b: cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message

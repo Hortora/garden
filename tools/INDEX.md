@@ -117,3 +117,7 @@
 | GE-20260519-c93fd8 | `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones | gotcha | 11/15 |
 | GE-20260519-54d86a | git filter-repo --refs flag does not exempt the non-fresh-clone safety check | gotcha | 11/15 |
 | GE-20260520-be8d9e | git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range | gotcha | 12/15 |
+| GE-20260520-03f1a7 | cc-praxis: hooks/check_project_setup.sh is the canonical source — not install-skills/SKILL.md | gotcha | 13/15 |
+| GE-20260520-9807cd | git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main | gotcha | 9/15 |
+| GE-20260520-ebd8b7 | Semantic Scholar public API returns full citation networks programmatically — no scraping needed | undocumented | 11/15 |
+| GE-20260520-836d5b | cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message | undocumented | 11/15 |

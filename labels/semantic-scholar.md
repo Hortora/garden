@@ -1,0 +1,1 @@
+- GE-20260520-ebd8b7: Semantic Scholar public API returns full citation networks programmatically — no scraping needed
