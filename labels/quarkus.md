@@ -41,3 +41,4 @@
 - GE-20260520-ec2f39: Use jakarta.ws.rs-api (provided) not quarkus-rest when you only need JAX-RS @Provider annotations
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

@@ -1,0 +1,1 @@
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

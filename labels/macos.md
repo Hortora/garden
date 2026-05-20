@@ -1,2 +1,3 @@
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
