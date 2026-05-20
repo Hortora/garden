@@ -116,3 +116,4 @@
 | GE-20260518-6e11a4 | Resolve knowledge scope at capture time to prevent audit debt | technique | 14/15 |
 | GE-20260519-c93fd8 | `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones | gotcha | 11/15 |
 | GE-20260519-54d86a | git filter-repo --refs flag does not exempt the non-fresh-clone safety check | gotcha | 11/15 |
+| GE-20260520-be8d9e | git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range | gotcha | 12/15 |
