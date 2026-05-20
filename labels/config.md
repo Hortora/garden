@@ -1,2 +1,3 @@
 - GE-20260519-b9719e: SmallRye Config throws NoSuchElementException for Map<String,String> @ConfigProperty when no keys match the prefix
 - GE-20260519-098413: @ConfigRoot(BUILD_TIME) in deployment module does not suppress SRCFG00050 if a runtime @ConfigMapping owns the same prefix
+- GE-20260520-c52767: BUILD_TIME @ConfigRoot properties in application.properties cause SRCFG00050 SmallRye Config runtime validation error

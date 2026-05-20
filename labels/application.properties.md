@@ -1,2 +1,1 @@
-- GE-20260519-b9719e: SmallRye Config throws NoSuchElementException for Map<String,String> @ConfigProperty when no keys match the prefix
 - GE-20260520-c52767: BUILD_TIME @ConfigRoot properties in application.properties cause SRCFG00050 SmallRye Config runtime validation error

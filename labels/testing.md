@@ -32,3 +32,4 @@
 - GE-20260519-f9624b: CDI @Alternative reactive wrapper with private new Impl() delegate is a separate instance from the CDI bean — @AfterEach clear() silently targets the wrong object
 - GE-20260519-f33c66: 'Reactive' Quarkus service classes may use blocking services or Panache statics internally — CDI @Alternative in-memory stores don't intercept those paths
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260520-48e1d4: @BuildStep producing ExcludedTypeBuildItem silently not invoked during Quarkus test augmentation from workspace deployment module
