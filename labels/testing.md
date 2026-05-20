@@ -34,3 +34,4 @@
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
 - GE-20260520-48e1d4: @BuildStep producing ExcludedTypeBuildItem silently not invoked during Quarkus test augmentation from workspace deployment module
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
+- GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider

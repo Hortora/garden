@@ -40,3 +40,4 @@
 - GE-20260520-c52767: BUILD_TIME @ConfigRoot properties in application.properties cause SRCFG00050 SmallRye Config runtime validation error
 - GE-20260520-ec2f39: Use jakarta.ws.rs-api (provided) not quarkus-rest when you only need JAX-RS @Provider annotations
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
+- GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
