@@ -4,3 +4,4 @@
 - GE-0159: Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points
 - GE-20260412-b6c0f8: Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
+- GE-20260520-7fb7a8: Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites

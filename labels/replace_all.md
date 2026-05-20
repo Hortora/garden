@@ -1,0 +1,1 @@
+- GE-20260520-7fb7a8: Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites

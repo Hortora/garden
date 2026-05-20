@@ -1,0 +1,1 @@
+- GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH

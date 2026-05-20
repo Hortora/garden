@@ -6,3 +6,4 @@
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
+- GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
