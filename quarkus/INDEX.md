@@ -44,3 +44,4 @@
 | GE-20260420-93d1ae | @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0 | gotcha | 10/15 |
 | GE-20260417-c59817 | quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored | undocumented | 12/15 |
 | GE-20260415-884e48 | @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException | gotcha | 12/15 |
+| GE-20260417-c59817 | quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored | undocumented | 12/15 |

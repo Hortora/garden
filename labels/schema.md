@@ -1,1 +1,2 @@
 - GE-20260519-f88597: TDD for Flyway schema migrations: plain-Java test using Flyway+H2 + JDBC metadata assertions
+- GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null

@@ -1,0 +1,1 @@
+- GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
