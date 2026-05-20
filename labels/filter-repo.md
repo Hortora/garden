@@ -1,0 +1,1 @@
+- GE-20260519-54d86a: git filter-repo --refs flag does not exempt the non-fresh-clone safety check
