@@ -1,0 +1,1 @@
+- GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal

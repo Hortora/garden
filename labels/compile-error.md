@@ -2,3 +2,4 @@
 - GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
 - GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas
 - GE-20260512-552405: @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning
+- GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal

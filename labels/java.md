@@ -62,3 +62,4 @@
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
 - GE-20260521-c04e27: Java Map/Set class fields declared without initializer silently NPE on first use
+- GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal
