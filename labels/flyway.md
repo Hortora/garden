@@ -1,3 +1,5 @@
 - GE-20260519-c1ce15: Flyway baselineOnMigrate(true) default baselineVersion=1 silently skips V1 migration
 - GE-20260519-f88597: TDD for Flyway schema migrations: plain-Java test using Flyway+H2 + JDBC metadata assertions
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
+- GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
+- GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path

@@ -48,3 +48,5 @@
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
+- GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
+- GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
