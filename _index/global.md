@@ -17,3 +17,4 @@
 | python | python/INDEX.md |
 | jep | jep/INDEX.md |
 | jvm | jvm/INDEX.md |
+| casehub-qhorus | casehub-qhorus/INDEX.md |

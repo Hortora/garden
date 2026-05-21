@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 71
+**Entries merged since last sweep:** 73
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -48,6 +48,7 @@
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
 - GE-20260501-b12416 [MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries](casehub-qhorus/GE-20260501-b12416.md)
 - GE-20260508-492336 [casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup](casehub-qhorus/GE-20260508-492336.md)
+- GE-20260521-e39ad1 [CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor](casehub-qhorus/GE-20260521-e39ad1.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
@@ -232,6 +233,7 @@
 - GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](jvm/java-dsl-design.md)
 - GE-20260421-28c521 [Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference](jvm/GE-20260421-28c521.md)
 - GE-20260511-2b3d3e [Express trust-phase logic as methods on the routing policy value object, not the router](jvm/GE-20260511-2b3d3e.md)
+- GE-20260521-6f257b [JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant](jvm/GE-20260521-6f257b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
