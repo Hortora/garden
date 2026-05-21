@@ -1,0 +1,1 @@
+| GE-20260521-e39ad1 | CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor | gotcha | 10/15 |
