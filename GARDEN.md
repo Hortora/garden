@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 781
+**Entries merged since last sweep:** 783
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1133,6 +1133,8 @@
 - GE-20260521-df2a10 [Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value](tools/GE-20260521-df2a10.md)
 - GE-20260521-9bef0c [git rebase -i rejects pick on two-parent merge commits with 'invalid line'](tools/GE-20260521-9bef0c.md)
 - GE-20260521-753c20 [--rebase-merges squash conflicts on shared files when merge replays see squash-modified state](tools/GE-20260521-753c20.md)
+- GE-20260521-517bda [git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor](tools/GE-20260521-517bda.md)
+- GE-20260521-1d5032 [git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'](tools/GE-20260521-1d5032.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

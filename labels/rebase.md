@@ -16,3 +16,5 @@
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
 - GE-20260521-9bef0c: git rebase -i rejects pick on two-parent merge commits with 'invalid line'
 - GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state
+- GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor
+- GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'

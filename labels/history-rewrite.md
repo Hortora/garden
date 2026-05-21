@@ -3,3 +3,4 @@
 - GE-20260414-0a7d31: bash $() strips trailing newlines — git commit --amend footer concatenates to last line
 - GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
 - GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history
+- GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor

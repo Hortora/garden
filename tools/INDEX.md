@@ -362,3 +362,5 @@
 | GE-20260521-df2a10 | Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value | gotcha | 11/15 |
 | GE-20260521-9bef0c | git rebase -i rejects pick on two-parent merge commits with 'invalid line' | gotcha | 10/15 |
 | GE-20260521-753c20 | --rebase-merges squash conflicts on shared files when merge replays see squash-modified state | gotcha | 9/15 |
+| GE-20260521-517bda | git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor | gotcha | 11/15 |
+| GE-20260521-1d5032 | git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop' | gotcha | 8/15 |

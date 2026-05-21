@@ -86,3 +86,5 @@
 - GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
 - GE-20260521-9bef0c: git rebase -i rejects pick on two-parent merge commits with 'invalid line'
 - GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state
+- GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor
+- GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'

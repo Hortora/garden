@@ -5,3 +5,4 @@
 - GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
 - GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state
+- GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor

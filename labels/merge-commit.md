@@ -1,1 +1,2 @@
 - GE-20260505-cc8247: `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit
+- GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
