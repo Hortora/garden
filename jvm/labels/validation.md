@@ -1,0 +1,1 @@
+- GE-20260521-1e981c: Duration.parse() accepts day-based periods like 'P1D' — does not throw DateTimeParseException
