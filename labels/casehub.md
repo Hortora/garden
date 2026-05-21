@@ -8,3 +8,4 @@
 - GE-20260514-e340ee: Evaluate a JQ template against an external map by constructing a temporary CaseContextImpl
 - GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
 - GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED
+- GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING

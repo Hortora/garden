@@ -63,3 +63,5 @@
 | GE-20260511-a5f47d | Registry isKnown() silently bypasses capabilities() override when backed by a static field | gotcha | 10/15 |
 | GE-20260513-436312 | mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure | gotcha | 10/15 |
 | GE-20260513-feea71 | SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour | undocumented | 8/15 |
+| GE-20260501-93f9a8 | Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs | technique | 10/15 |
+| GE-20260501-a9ea1a | SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep | gotcha | 10/15 |

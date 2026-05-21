@@ -1,0 +1,13 @@
+| GE-ID | Title | Type | Score |
+|-------|-------|------|-------|
+| GE-20260420-060bd6 | escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values | technique | 10/15 |
+| GE-20260421-1eac96 | Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init | gotcha | 9/15 |
+| GE-20260421-3460ce | Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction | technique | 11/15 |
+| GE-20260421-6d4f16 | Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles | gotcha | 11/15 |
+| GE-20260421-df549e | Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right | gotcha | 9/15 |
+| GE-20260422-ae631f | Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run | gotcha | 12/15 |
+| GE-20260423-6e8f88 | Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain() | technique | 10/15 |
+| GE-20260423-bf2ab1 | Three.js blue-white DirectionalLight dominates MeshLambertMaterial colour — changing tile colour alone does not fix grey appearance | gotcha | 10/15 |
+| GE-20260426-90563c | e.preventDefault() on mousedown suppresses the subsequent click event on the same element | gotcha | 11/15 |
+| GE-20260508-649308 | Global canvas CSS rule stretches all canvas elements including inline UI canvases | gotcha | 12/15 |
+| GE-20260508-f742f6 | Three.js sprites not raycasted until first render frame updates matrixWorld | gotcha | 13/15 |

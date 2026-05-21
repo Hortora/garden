@@ -43,3 +43,4 @@
 - GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
 - GE-20260501-3c0de6: Hibernate generates invalid `check ((dtype in ()))` DDL when JPA subclasses are not on test classpath
 - GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
+- GE-20260501-93f9a8: Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs

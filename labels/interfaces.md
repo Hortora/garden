@@ -1,2 +1,1 @@
-- GE-20260428-13d4ff: Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403)
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep

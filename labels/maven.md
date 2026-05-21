@@ -76,3 +76,4 @@
 - GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
 - GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
+- GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep

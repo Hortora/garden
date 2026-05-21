@@ -12,3 +12,4 @@
 - GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
 - GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
 - GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements
+- GE-20260501-93f9a8: Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs
