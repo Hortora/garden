@@ -15,3 +15,4 @@
 - GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
 - GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file

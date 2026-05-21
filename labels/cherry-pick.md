@@ -2,3 +2,4 @@
 - GE-20260518-cf67e4: git cherry-pick -X ours silently drops feature code from conflicting files
 - GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
