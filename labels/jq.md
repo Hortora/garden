@@ -2,3 +2,4 @@
 - GE-20260426-165fd9: jq @base64 wraps output at 76 chars — breaks while-read-r line-by-line parsing in bash
 - GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
 - GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
+- GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command

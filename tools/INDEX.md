@@ -357,3 +357,5 @@
 | GE-20260517-97d306 | shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions | gotcha | 11/15 |
 | GE-20260517-9d8cdf | Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path | gotcha | 11/15 |
 | GE-20260517-fc6be7 | JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md | gotcha | 12/15 |
+| GE-20260521-fe44c0 | work-end skill silently targets the wrong repos when invoked from a different workspace session | gotcha | 10/15 |
+| GE-20260521-d8d53f | Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command | technique | 8/15 |

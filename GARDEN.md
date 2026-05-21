@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 761
+**Entries merged since last sweep:** 763
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1113,6 +1113,8 @@
 - GE-20260520-ebd8b7 [Semantic Scholar public API returns full citation networks programmatically — no scraping needed](tools/GE-20260520-ebd8b7.md)
 - GE-20260521-b6a1a7 [git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main](tools/GE-20260521-b6a1a7.md)
 - GE-20260506-1b9019 [Kramdown parses paragraph immediately followed by --- as Setext h2 heading, not horizontal rule](tools/GE-20260506-1b9019.md)
+- GE-20260521-fe44c0 [work-end skill silently targets the wrong repos when invoked from a different workspace session](tools/GE-20260521-fe44c0.md)
+- GE-20260521-d8d53f [Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command](tools/GE-20260521-d8d53f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

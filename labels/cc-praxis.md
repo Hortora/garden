@@ -4,3 +4,4 @@
 - GE-20260513-af85fa: publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match
 - GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
 - GE-20260517-fc6be7: JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md
+- GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session

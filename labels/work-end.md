@@ -1,0 +1,1 @@
+- GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
