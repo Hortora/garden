@@ -1,0 +1,1 @@
+- GE-20260521-9bef0c: git rebase -i rejects pick on two-parent merge commits with 'invalid line'

@@ -1,0 +1,1 @@
+- GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state

@@ -84,3 +84,5 @@
 - GE-20260517-3dddfa: Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist
 - GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions
 - GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
+- GE-20260521-9bef0c: git rebase -i rejects pick on two-parent merge commits with 'invalid line'
+- GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state
