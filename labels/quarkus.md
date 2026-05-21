@@ -267,3 +267,4 @@
 - GE-20260521-537d58: Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables
 - GE-20260521-45e61c: casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
+- GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not

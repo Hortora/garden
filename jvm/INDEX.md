@@ -231,3 +231,4 @@
 | GE-20260521-998034 | Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal | gotcha | 10/15 |
 | GE-20260521-45e61c | casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments | gotcha | 10/15 |
 | GE-20260521-1e95dc | Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread | gotcha | 9/15 |
+| GE-20260521-a92d07 | Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not | undocumented | 10/15 |

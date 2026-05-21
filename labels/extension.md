@@ -13,3 +13,4 @@
 - GE-20260420-dcec35: quarkus-hibernate-reactive-panache in an extension forces Hibernate Reactive to boot for all consumers — @Alternative does not prevent it
 - GE-20260521-8b39bd: ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem
 - GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
+- GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
