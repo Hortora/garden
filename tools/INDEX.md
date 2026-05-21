@@ -122,3 +122,4 @@
 | GE-20260520-ebd8b7 | Semantic Scholar public API returns full citation networks programmatically — no scraping needed | undocumented | 11/15 |
 | GE-20260520-836d5b | cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message | undocumented | 11/15 |
 | GE-20260520-7fb7a8 | Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites | gotcha | 10/15 |
+| GE-20260521-b6a1a7 | git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main | gotcha | 10/15 |
