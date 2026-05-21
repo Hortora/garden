@@ -1,0 +1,1 @@
+- GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based

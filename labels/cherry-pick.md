@@ -1,2 +1,4 @@
 - GE-20260518-d1775a: git cherry-pick -X ours brings in new files cleanly but silently discards field additions in conflicted files
 - GE-20260518-cf67e4: git cherry-pick -X ours silently drops feature code from conflicting files
+- GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
+- GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main

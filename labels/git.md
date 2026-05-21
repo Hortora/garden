@@ -13,3 +13,5 @@
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
 - GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main
 - GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
+- GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
+- GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
