@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 770
+**Entries merged since last sweep:** 771
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -727,6 +727,7 @@
 - GE-20260521-0278e2 [Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors](jvm/GE-20260521-0278e2.md)
 - GE-20260521-977e3e [Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)](jvm/GE-20260521-977e3e.md)
 - GE-20260521-0278e2 [Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors](jvm/GE-20260521-0278e2.md)
+- GE-20260521-debce2 [Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed](jvm/GE-20260521-debce2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
