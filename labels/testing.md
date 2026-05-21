@@ -38,3 +38,4 @@
 - GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
 - GE-20260521-e39ad1: CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor
+- GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check

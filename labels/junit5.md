@@ -1,1 +1,2 @@
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
+- GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check

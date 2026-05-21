@@ -1,2 +1,1 @@
-- GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
 - GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check

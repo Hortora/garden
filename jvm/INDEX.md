@@ -46,3 +46,4 @@
 | GE-20260521-6f257b | JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant | gotcha | 11/15 |
 | GE-20260521-effd2f | Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path | gotcha | 11/15 |
 | GE-20260521-effd2f | Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path | gotcha | 11/15 |
+| GE-20260521-aba9c9 | assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check | gotcha | 10/15 |

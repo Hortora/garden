@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 84
+**Entries merged since last sweep:** 85
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -237,6 +237,7 @@
 - GE-20260521-6f257b [JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant](jvm/GE-20260521-6f257b.md)
 - GE-20260521-effd2f [Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path](jvm/GE-20260521-effd2f.md)
 - GE-20260521-effd2f [Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path](jvm/GE-20260521-effd2f.md)
+- GE-20260521-aba9c9 [assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check](jvm/GE-20260521-aba9c9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 ### electron/
