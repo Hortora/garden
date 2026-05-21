@@ -215,3 +215,5 @@
 | GE-20260521-3ce7ca | @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives | gotcha | 11/15 |
 | GE-20260521-4de4f1 | QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append | gotcha | 9/15 |
 | GE-20260521-3ce7ca | @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives | gotcha | 11/15 |
+| GE-20260521-a5e71b | Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource | gotcha | 11/15 |
+| GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |

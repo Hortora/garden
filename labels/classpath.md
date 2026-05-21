@@ -6,3 +6,4 @@
 - GE-20260424-807b7e: assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error
 - GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
 - GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed
+- GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale

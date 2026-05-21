@@ -40,3 +40,4 @@
 - GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached
 - GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
 - GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously
+- GE-20260521-a5e71b: Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource
