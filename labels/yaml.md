@@ -1,1 +1,2 @@
 - GE-20260414-c12931: YAML frontmatter regex silently skips files with CRLF line endings
+- GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value

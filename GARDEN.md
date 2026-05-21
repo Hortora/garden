@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 763
+**Entries merged since last sweep:** 764
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1115,6 +1115,7 @@
 - GE-20260506-1b9019 [Kramdown parses paragraph immediately followed by --- as Setext h2 heading, not horizontal rule](tools/GE-20260506-1b9019.md)
 - GE-20260521-fe44c0 [work-end skill silently targets the wrong repos when invoked from a different workspace session](tools/GE-20260521-fe44c0.md)
 - GE-20260521-d8d53f [Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command](tools/GE-20260521-d8d53f.md)
+- GE-20260521-df2a10 [Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value](tools/GE-20260521-df2a10.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
