@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 774
+**Entries merged since last sweep:** 775
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -729,6 +729,7 @@
 - GE-20260521-0278e2 [Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors](jvm/GE-20260521-0278e2.md)
 - GE-20260521-debce2 [Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed](jvm/GE-20260521-debce2.md)
 - GE-20260521-c04e27 [Java Map/Set class fields declared without initializer silently NPE on first use](jvm/GE-20260521-c04e27.md)
+- GE-20260521-537d58 [Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables](jvm/GE-20260521-537d58.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

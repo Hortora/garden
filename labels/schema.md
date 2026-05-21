@@ -3,3 +3,4 @@
 - GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences
 - GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
 - GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
+- GE-20260521-537d58: Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables

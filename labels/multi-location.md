@@ -1,0 +1,1 @@
+- GE-20260521-537d58: Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables
