@@ -1,0 +1,1 @@
+- GE-20260521-9188c1: CasePlanModel YAML binding `when:` conditions are not evaluated at runtime — all contextChange bindings fire on every CONTEXT_CHANGED
