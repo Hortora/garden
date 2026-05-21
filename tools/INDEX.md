@@ -364,3 +364,4 @@
 | GE-20260521-753c20 | --rebase-merges squash conflicts on shared files when merge replays see squash-modified state | gotcha | 9/15 |
 | GE-20260521-517bda | git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor | gotcha | 11/15 |
 | GE-20260521-1d5032 | git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop' | gotcha | 8/15 |
+| GE-20260521-f4c128 | gh repo create defaults to SSH remote — fails silently on machines without SSH keys | gotcha | 9/15 |

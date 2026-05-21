@@ -1,1 +1,2 @@
 - GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
+- GE-20260521-f4c128: gh repo create defaults to SSH remote — fails silently on machines without SSH keys

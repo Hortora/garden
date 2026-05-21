@@ -1,2 +1,3 @@
 - GE-20260423-aed486: git filter-repo silently removes the origin remote on every run
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
+- GE-20260521-f4c128: gh repo create defaults to SSH remote — fails silently on machines without SSH keys
