@@ -10,3 +10,4 @@
 - GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException
 - GE-20260501-884024: @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active
 - GE-20260512-d0fa82: H2 + two Agroal datasources in one @Transactional method fails with 'Failed to enlist' — requires transactions=xa
+- GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart

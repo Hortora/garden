@@ -11,3 +11,4 @@
 - GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy
+- GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart

@@ -122,3 +122,4 @@
 - GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append
 - GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
 - GE-20260521-debce2: Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed
+- GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart

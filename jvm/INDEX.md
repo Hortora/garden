@@ -227,3 +227,4 @@
 | GE-20260521-debce2 | Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed | technique | 9/15 |
 | GE-20260521-c04e27 | Java Map/Set class fields declared without initializer silently NPE on first use | gotcha | 11/15 |
 | GE-20260521-537d58 | Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables | technique | 8/15 |
+| GE-20260521-0e0122 | @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart | gotcha | 11/15 |

@@ -1,3 +1,4 @@
 - GE-20260519-28275c: @Transactional(REQUIRES_NEW) must return normally — a throw rolls back its own transaction too
 - GE-20260428-29b30e: Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues
 - GE-20260428-5c3e93: REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state
+- GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart
