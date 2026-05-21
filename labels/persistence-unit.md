@@ -1,0 +1,1 @@
+- GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU

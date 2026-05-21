@@ -42,3 +42,7 @@
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
+- GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
+- GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU
+- GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest

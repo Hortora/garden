@@ -1,1 +1,2 @@
 - GE-20260519-eb8340: Instance<T>.handles() returns Iterable<? extends Instance.Handle<T>> — incompatible with Iterable<InstanceHandle<T>>
+- GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both

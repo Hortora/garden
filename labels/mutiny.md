@@ -2,3 +2,5 @@
 - GE-20260518-e4fa52: RESTEasy Reactive endpoints that call .await() on the IO thread throw BlockingOperationNotAllowedException — add @Blocking
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260519-d32fc0: RESTEasy Reactive silently serializes raw Uni<T> passed to Response.ok() — no compile error, 500 at runtime
+- GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
+- GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest

@@ -8,3 +8,4 @@
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
+- GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both

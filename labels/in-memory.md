@@ -1,2 +1,3 @@
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260519-f9624b: CDI @Alternative reactive wrapper with private new Impl() delegate is a separate instance from the CDI bean — @AfterEach clear() silently targets the wrong object
+- GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest

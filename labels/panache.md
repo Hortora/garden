@@ -5,3 +5,4 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260519-4a42e6: Panache.withTransaction() requires a duplicated Vert.x context — executeBlocking() root context still fails VertxContextSafetyToggle
 - GE-20260519-f33c66: 'Reactive' Quarkus service classes may use blocking services or Panache statics internally — CDI @Alternative in-memory stores don't intercept those paths
+- GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU
