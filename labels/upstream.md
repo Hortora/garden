@@ -1,0 +1,1 @@
+- GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches

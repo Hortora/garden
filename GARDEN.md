@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 82
+**Entries merged since last sweep:** 84
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -377,6 +377,8 @@
 - GE-20260521-50acf0 [grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty](tools/GE-20260521-50acf0.md)
 - GE-20260521-53dae7 [git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash](tools/GE-20260521-53dae7.md)
 - GE-20260521-523b94 [A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails](tools/GE-20260521-523b94.md)
+- GE-20260521-5446cf [Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches](tools/GE-20260521-5446cf.md)
+- GE-20260521-eaa1e1 [git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way](tools/GE-20260521-eaa1e1.md)
 
 ---
 

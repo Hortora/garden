@@ -1,1 +1,2 @@
 - GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main
+- GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches

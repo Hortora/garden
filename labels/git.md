@@ -18,3 +18,5 @@
 - GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
+- GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way

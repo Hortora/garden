@@ -129,3 +129,5 @@
 | GE-20260521-50acf0 | grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty | gotcha | 11/15 |
 | GE-20260521-53dae7 | git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash | gotcha | 10/15 |
 | GE-20260521-523b94 | A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails | gotcha | 9/15 |
+| GE-20260521-5446cf | Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches | technique | 11/15 |
+| GE-20260521-eaa1e1 | git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way | gotcha | 10/15 |

@@ -1,2 +1,1 @@
-- GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way

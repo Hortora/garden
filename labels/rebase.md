@@ -1,1 +1,2 @@
 - GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
