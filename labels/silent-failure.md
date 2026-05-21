@@ -21,3 +21,4 @@
 - GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
 - GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
+- GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i

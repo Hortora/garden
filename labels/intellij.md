@@ -17,3 +17,4 @@
 - GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`
+- GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i
