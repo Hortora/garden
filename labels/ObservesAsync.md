@@ -1,1 +1,2 @@
 - GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
+- GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread

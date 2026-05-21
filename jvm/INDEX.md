@@ -229,3 +229,5 @@
 | GE-20260521-537d58 | Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables | technique | 8/15 |
 | GE-20260521-0e0122 | @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart | gotcha | 11/15 |
 | GE-20260521-998034 | Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal | gotcha | 10/15 |
+| GE-20260521-45e61c | casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments | gotcha | 10/15 |
+| GE-20260521-1e95dc | Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread | gotcha | 9/15 |

@@ -1,3 +1,4 @@
 - GE-20260423-c8d8cb: ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost
 - GE-20260505-da346d: @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread
 - GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
+- GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread

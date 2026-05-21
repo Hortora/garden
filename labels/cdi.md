@@ -123,3 +123,5 @@
 - GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
 - GE-20260521-debce2: Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed
 - GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart
+- GE-20260521-45e61c: casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments
+- GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
