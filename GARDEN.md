@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 780
+**Entries merged since last sweep:** 781
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -734,6 +734,7 @@
 - GE-20260521-998034 [Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal](jvm/GE-20260521-998034.md)
 - GE-20260521-45e61c [casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments](jvm/GE-20260521-45e61c.md)
 - GE-20260521-1e95dc [Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread](jvm/GE-20260521-1e95dc.md)
+- GE-20260521-a92d07 [Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not](jvm/GE-20260521-a92d07.md)
 - GE-20260521-a92d07 [Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not](jvm/GE-20260521-a92d07.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)

@@ -1,1 +1,2 @@
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
+- GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
