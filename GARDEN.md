@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 77
+**Entries merged since last sweep:** 78
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -372,6 +372,7 @@
 - GE-20260521-340888 [git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based](tools/GE-20260521-340888.md)
 - GE-20260521-cb1eea [git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main](tools/GE-20260521-cb1eea.md)
 - GE-20260521-c89fd1 [Resolve cherry-pick conflict by checking out the mature-branch version of the whole file](tools/GE-20260521-c89fd1.md)
+- GE-20260521-50acf0 [grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty](tools/GE-20260521-50acf0.md)
 
 ---
 
