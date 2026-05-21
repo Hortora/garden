@@ -7,3 +7,5 @@
 - GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
 - GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
+- GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location
+- GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors

@@ -193,3 +193,5 @@
 - GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
 - GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append
 - GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260521-f50602: quarkus-oidc: discovery-disabled requires jwks-path or introspection-path
+- GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location

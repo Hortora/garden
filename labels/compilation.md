@@ -3,3 +3,4 @@
 - GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures
 - GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep
+- GE-20260521-8b39bd: ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem

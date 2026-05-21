@@ -19,3 +19,5 @@
 - GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
 - GE-20260427-59ea5d: Flyway version collision when optional Quarkus module shares classpath with runtime module
 - GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types
+- GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location
+- GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors

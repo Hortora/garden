@@ -7,3 +7,4 @@
 - GE-20260506-3096d9: rustkyll serve does not support --incremental flag despite build supporting it
 - GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
+- GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors

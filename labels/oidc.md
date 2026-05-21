@@ -1,0 +1,1 @@
+- GE-20260521-f50602: quarkus-oidc: discovery-disabled requires jwks-path or introspection-path

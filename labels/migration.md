@@ -13,3 +13,5 @@
 - GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types
 - GE-20260422-c0181c: garden_db_migrate.py leaves an empty GE-20260421-test999.md artifact after migration
 - GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions
+- GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location
+- GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors

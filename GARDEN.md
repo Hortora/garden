@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 764
+**Entries merged since last sweep:** 769
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -721,6 +721,11 @@
 - GE-20260521-a5e71b [Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource](jvm/GE-20260521-a5e71b.md)
 - GE-20260521-3e030b [mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale](jvm/GE-20260521-3e030b.md)
 - GE-20260521-981f62 [SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale](jvm/GE-20260521-981f62.md)
+- GE-20260521-f50602 [quarkus-oidc: discovery-disabled requires jwks-path or introspection-path](jvm/GE-20260521-f50602.md)
+- GE-20260521-8b39bd [ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem](jvm/GE-20260521-8b39bd.md)
+- GE-20260521-47ab45 [Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location](jvm/GE-20260521-47ab45.md)
+- GE-20260521-0278e2 [Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors](jvm/GE-20260521-0278e2.md)
+- GE-20260521-977e3e [Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)](jvm/GE-20260521-977e3e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

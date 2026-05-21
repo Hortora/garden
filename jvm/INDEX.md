@@ -218,3 +218,8 @@
 | GE-20260521-a5e71b | Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource | gotcha | 11/15 |
 | GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |
 | GE-20260521-981f62 | SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale | gotcha | 9/15 |
+| GE-20260521-f50602 | quarkus-oidc: discovery-disabled requires jwks-path or introspection-path | gotcha | 9/15 |
+| GE-20260521-8b39bd | ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem | gotcha | 9/15 |
+| GE-20260521-47ab45 | Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location | gotcha | 9/15 |
+| GE-20260521-0278e2 | Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors | gotcha | 8/15 |
+| GE-20260521-977e3e | Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class) | undocumented | 11/15 |

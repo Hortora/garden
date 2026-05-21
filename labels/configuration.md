@@ -5,3 +5,4 @@
 - GE-20260420-45d53b: quarkus.datasource.reactive=false suppresses Hibernate Reactive boot when extension is on classpath but no reactive pool exists
 - GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
 - GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code
+- GE-20260521-f50602: quarkus-oidc: discovery-disabled requires jwks-path or introspection-path

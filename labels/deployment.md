@@ -6,3 +6,5 @@
 - GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry
 - GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard
 - GE-20260501-fc1cc6: GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push'
+- GE-20260521-8b39bd: ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem
+- GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
