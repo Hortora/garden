@@ -1,0 +1,1 @@
+- GE-20260521-c04e27: Java Map/Set class fields declared without initializer silently NPE on first use

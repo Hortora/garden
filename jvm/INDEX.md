@@ -225,3 +225,4 @@
 | GE-20260521-977e3e | Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class) | undocumented | 11/15 |
 | GE-20260521-0278e2 | Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors | gotcha | 8/15 |
 | GE-20260521-debce2 | Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed | technique | 9/15 |
+| GE-20260521-c04e27 | Java Map/Set class fields declared without initializer silently NPE on first use | gotcha | 11/15 |
