@@ -127,3 +127,5 @@
 | GE-20260521-cb1eea | git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main | gotcha | 10/15 |
 | GE-20260521-c89fd1 | Resolve cherry-pick conflict by checking out the mature-branch version of the whole file | technique | 11/15 |
 | GE-20260521-50acf0 | grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty | gotcha | 11/15 |
+| GE-20260521-53dae7 | git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash | gotcha | 10/15 |
+| GE-20260521-523b94 | A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails | gotcha | 9/15 |

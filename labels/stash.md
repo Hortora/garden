@@ -1,2 +1,3 @@
 - GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
+- GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash

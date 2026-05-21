@@ -1,2 +1,4 @@
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
+- GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
+- GE-20260521-523b94: A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails
