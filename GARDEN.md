@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 760
+**Entries merged since last sweep:** 761
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -720,6 +720,7 @@
 - GE-20260521-3ce7ca [@Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives](jvm/GE-20260521-3ce7ca.md)
 - GE-20260521-a5e71b [Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource](jvm/GE-20260521-a5e71b.md)
 - GE-20260521-3e030b [mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale](jvm/GE-20260521-3e030b.md)
+- GE-20260521-981f62 [SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale](jvm/GE-20260521-981f62.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

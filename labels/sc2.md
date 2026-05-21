@@ -3,3 +3,4 @@
 - GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants
 - GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
 - GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer
+- GE-20260521-981f62: SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale

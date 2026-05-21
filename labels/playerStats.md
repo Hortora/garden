@@ -1,2 +1,1 @@
-- GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
 - GE-20260521-981f62: SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale

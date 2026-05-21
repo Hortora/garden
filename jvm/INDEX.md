@@ -217,3 +217,4 @@
 | GE-20260521-3ce7ca | @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives | gotcha | 11/15 |
 | GE-20260521-a5e71b | Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource | gotcha | 11/15 |
 | GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |
+| GE-20260521-981f62 | SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale | gotcha | 9/15 |
