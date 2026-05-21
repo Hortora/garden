@@ -223,3 +223,4 @@
 | GE-20260521-47ab45 | Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location | gotcha | 9/15 |
 | GE-20260521-0278e2 | Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors | gotcha | 8/15 |
 | GE-20260521-977e3e | Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class) | undocumented | 11/15 |
+| GE-20260521-0278e2 | Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors | gotcha | 8/15 |
