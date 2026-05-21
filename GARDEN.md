@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 73
+**Entries merged since last sweep:** 74
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -233,6 +233,7 @@
 - GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](jvm/java-dsl-design.md)
 - GE-20260421-28c521 [Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference](jvm/GE-20260421-28c521.md)
 - GE-20260511-2b3d3e [Express trust-phase logic as methods on the routing policy value object, not the router](jvm/GE-20260511-2b3d3e.md)
+- GE-20260521-6f257b [JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant](jvm/GE-20260521-6f257b.md)
 - GE-20260521-6f257b [JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant](jvm/GE-20260521-6f257b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)

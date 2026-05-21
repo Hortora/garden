@@ -1,1 +1,2 @@
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
+- GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
