@@ -1,0 +1,1 @@
+- GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions

@@ -1,0 +1,1 @@
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup

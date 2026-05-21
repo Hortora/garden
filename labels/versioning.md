@@ -1,0 +1,1 @@
+- GE-20260514-636916: Flyway migration numbering: always verify existing files before naming — prior sessions may have added higher-numbered migrations

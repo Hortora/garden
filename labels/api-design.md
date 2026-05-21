@@ -1,0 +1,5 @@
+- GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
+- GE-20260414-c4ddc9: In-memory service error messages should use human-readable names not internal UUIDs — TDD test assertions catch the difference
+- GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature
+- GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
+- GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path

@@ -1,1 +1,3 @@
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
+- GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
+- GE-20260429-101efe: H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns

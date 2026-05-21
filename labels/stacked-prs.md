@@ -1,0 +1,3 @@
+- GE-20260415-ec4471: Stacked PRs from a fork: push the base branch to upstream first
+- GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed
+- GE-20260422-e5e20f: Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto

@@ -1,0 +1,1 @@
+- GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible

@@ -1,2 +1,17 @@
 - GE-20260519-114395: Call @ConsumeEvent/@ObservesAsync handlers directly via injected CDI proxy — preserves @Transactional, eliminates async waiting in tests
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
+- GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260512-50b394: Use @TestTransaction + unique identifiers to prevent @Scheduled interference in Quarkus tests
+- GE-20260512-6887c9: @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean
+- GE-20260512-a9ad9f: Raw ExecutorService drops CDI context — @Transactional silently broken on background threads
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
+- GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
+- GE-20260414-7ce32b: @TestTransaction swallows unique-constraint violations — Hibernate never flushes within the test body
+- GE-20260414-99854d: @TestTransaction + Hibernate JPQL bulk update = silently stale first-level cache
+- GE-20260415-e92f89: @TestTransaction + @Transactional method call + REST assertion — data invisible across transaction boundary
+- GE-20260420-1417ca: UserTransaction injection in @QuarkusTest for cleaning up DB state created via HTTP requests — @TestTransaction can't help
+- GE-20260421-83560c: @WithTransaction on Quarkus Hibernate Reactive store methods uses REQUIRED propagation — joins outer Panache.withTransaction(), does not create nested
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
+- GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException

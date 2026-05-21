@@ -1,0 +1,2 @@
+- GE-20260416-53d13c: Adding stop-to-fight breaks combat tests via nearest-target ordering change
+- GE-20260418-4d4c43: In combat simulation tests, using an attack command as a 'standing still' baseline silently doubles DPS and moves the unit

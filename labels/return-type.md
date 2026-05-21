@@ -1,0 +1,1 @@
+- GE-20260420-8f9e26: @Scheduled methods must return void — returning int causes cryptic Type mismatch build failure

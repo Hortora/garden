@@ -1,1 +1,12 @@
 - GE-0158: Use `mvn compile` to enumerate all call sites when changing a Java record signature
+- GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants
+- GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time
+- GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
+- GE-20260501-b88737: Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage
+- GE-20260421-ef0a4e: Refactoring tests to extend an abstract base class silently removes implementation-specific test methods
+- GE-20260422-9d2c28: Use grep -l across files to identify cross-file method duplication before extracting to shared utility
+- GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences
+- GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
+- GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
+- GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove

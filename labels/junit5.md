@@ -1,2 +1,9 @@
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
 - GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check
+- GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
+- GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas
+- GE-20260512-47f92e: quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact
+- GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS
+- GE-20260415-5c2136: @QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades
+- GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy
+- GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running

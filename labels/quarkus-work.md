@@ -1,0 +1,6 @@
+- GE-20260423-3be346: WorkerCandidate.of(id) creates empty capabilities — WorkBroker filters all candidates when requiredCapabilities is non-null
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260427-bf4338: WorkItemStatus.EXPIRED.isTerminal() returns false — EXPIRED is not treated as terminal by quarkus-work
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
+- GE-20260423-bcb5b7: quarkus-work-core registers both LeastLoadedStrategy and ClaimFirstStrategy as @ApplicationScoped CDI beans — injecting WorkerSelectionStrategy interface causes AmbiguousResolutionException
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup

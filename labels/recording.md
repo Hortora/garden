@@ -1,0 +1,1 @@
+- GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito

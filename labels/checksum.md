@@ -1,0 +1,1 @@
+- GE-20260417-2e4d46: Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema

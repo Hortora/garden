@@ -1,0 +1,1 @@
+- GE-20260429-cd60ee: Add completeFromSystem()/rejectFromSystem() to WorkItemService to bypass human-actor lifecycle guards

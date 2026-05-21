@@ -1,0 +1,1 @@
+- GE-20260423-29f45a: BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI

@@ -1,0 +1,2 @@
+- GE-20260417-28e1b8: URI.create() throws IllegalArgumentException on malformed URLs — urlparse() never does
+- GE-20260417-f962f2: URI.getPath().split("/") produces a leading empty string — Python's path.strip('/').split('/') does not

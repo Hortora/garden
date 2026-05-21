@@ -1,0 +1,1 @@
+- GE-20260512-d0fa82: H2 + two Agroal datasources in one @Transactional method fails with 'Failed to enlist' — requires transactions=xa

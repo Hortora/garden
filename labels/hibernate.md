@@ -4,3 +4,39 @@
 - GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
 - GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
 - GE-20260518-da7e91: em.flush() + JPQL bulk UPDATE + em.clear() for same-transaction save-then-update
+- GE-20260501-11ce7f: MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing
+- GE-20260501-b12416: MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries
+- GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
+- GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
+- GE-20260513-74dc72: casehub-work requires io.casehub.work.runtime.filter in Hibernate scan packages — omitting it causes FilterRule entity-not-found at startup
+- GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required
+- GE-20260422-53d0f7: JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
+- GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
+- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
+- GE-20260428-5c3e93: REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state
+- GE-20260429-61810f: JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows
+- GE-20260501-ab68c1: Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC
+- GE-20260512-ea776c: Quarkus named persistence units silently skip schema generation — explicit config required per named PU
+- GE-20260514-477d2f: Hibernate 6 SessionFactoryObserverForNamedQueryValidation throws at boot for schema-drifted JARs — quarkus property overrides don't suppress it
+- GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
+- GE-20260414-3fff4a: Call Entity.getEntityManager().clear() after JPQL bulk updates in @QuarkusTest to see DB state
+- GE-20260414-963a6d: Hibernate @PreUpdate fires at flush time, not at persist() — denormalized fields are stale in the returned object
+- GE-20260414-99854d: @TestTransaction + Hibernate JPQL bulk update = silently stale first-level cache
+- GE-20260414-bd3f85: Deleting a Panache entity with a self-referencing FK throws `JdbcSQLIntegrityConstraintViolationException`
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260416-e10d09: Use `session.getReference()` to set a `@ManyToOne` FK target in Panache `persist()` without `TransientPropertyValueException`
+- GE-20260416-f02f95: Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`
+- GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
+- GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time
+- GE-20260420-86180e: em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context
+- GE-20260423-4aa1e0: JPA InheritanceType.JOINED forces all hierarchy entities into one persistence unit
+- GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached
+- GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
+- GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N
+- GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type
+- GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread
+- GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
+- GE-20260501-3c0de6: Hibernate generates invalid `check ((dtype in ()))` DDL when JPA subclasses are not on test classpath

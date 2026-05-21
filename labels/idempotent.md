@@ -1,0 +1,1 @@
+- GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks

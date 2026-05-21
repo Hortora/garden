@@ -1,0 +1,6 @@
+- GE-20260422-164498: Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection
+- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested
+- GE-20260424-7955ee: Three.js tile-coord visualizer: negative game-tile z values map outside world bounds and silently disappear
+- GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run
+- GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()
+- GE-20260423-bf2ab1: Three.js blue-white DirectionalLight dominates MeshLambertMaterial colour — changing tile colour alone does not fix grey appearance

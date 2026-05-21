@@ -1,0 +1,2 @@
+- GE-20260421-876557: Cross-product SAM interface families from one template via @PermuteVar + JEXL ternary macros
+- GE-20260421-c37188: EvaluationContext.evaluate() always returns String — numeric macros silently break evaluateInt()

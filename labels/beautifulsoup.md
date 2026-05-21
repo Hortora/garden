@@ -1,2 +1,4 @@
 - GE-0088: Move trailing whitespace from inside inline HTML elements to after the closing tag before html2text
 - GE-0089: Use Unicode WORD JOINER (U+2060) as an invisible reversible marker to preserve adjacency information through BeautifulSoup `prettify()`
+- GE-20260414-598352: Angle brackets in BeautifulSoup get_text() output are unambiguous HTML-entity markers
+- GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation

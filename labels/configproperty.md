@@ -1,1 +1,3 @@
 - GE-20260519-b9719e: SmallRye Config throws NoSuchElementException for Map<String,String> @ConfigProperty when no keys match the prefix
+- GE-20260517-a6d608: DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides
+- GE-20260414-1b00a0: @ConfigProperty with defaultValue="" causes SRCFG00014 for optional String properties in Quarkus

@@ -1,0 +1,2 @@
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
+- GE-20260516-fba7b6: git -C <path> is required in Claude Bash tool calls — cd state does not persist between calls

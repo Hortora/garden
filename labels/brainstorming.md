@@ -1,0 +1,1 @@
+- GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency

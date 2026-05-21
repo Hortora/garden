@@ -1,0 +1,1 @@
+- GE-20260517-66d611: Jackson ObjectMapperCustomizer mixin adds @JsonTypeInfo to sealed interface without polluting pure-Java api/ module

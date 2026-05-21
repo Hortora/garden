@@ -1,0 +1,1 @@
+- GE-20260517-92a95d: WorkItemCreateRequest record fields expanded in casehub-work 0.2-SNAPSHOT — parentId (UUID) and labels (List<String>) added

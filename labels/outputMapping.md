@@ -1,0 +1,1 @@
+- GE-20260514-e340ee: Evaluate a JQ template against an external map by constructing a temporary CaseContextImpl

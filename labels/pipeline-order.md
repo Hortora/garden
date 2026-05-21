@@ -1,0 +1,1 @@
+- GE-20260416-17bdf4: PermuteTypeParamTransformer must run BEFORE applySourceTypeParams — wrong order causes type param doubling

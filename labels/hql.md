@@ -1,1 +1,3 @@
 - GE-20260414-879c59: HQL cast(enum as string) returns the enum type, not a String — causes QueryTypeMismatch
+- GE-20260512-67b3b5: Panache find() alias-prefixed field names return empty results silently — bare field names required
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type

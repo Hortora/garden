@@ -1,0 +1,1 @@
+- GE-20260427-edbacd: Java test infrastructure: adding a new collection to a class requires clearing it in BOTH reset() and clearAll() — missing one causes @QuarkusTest state bleed

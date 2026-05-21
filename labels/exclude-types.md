@@ -1,0 +1,6 @@
+- GE-20260516-2805b7: Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment
+- GE-20260516-4bf0dc: quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI
+- GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
+- GE-20260516-e137f6: QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile
+- GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list

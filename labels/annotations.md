@@ -1,0 +1,4 @@
+- GE-20260417-64e848: JavaParser TYPE_USE annotation on qualified type names goes on scope type, not leaf
+- GE-20260422-e48245: @DefaultBean lives in io.quarkus.arc, not jakarta.enterprise.inject
+- GE-20260514-83ee13: @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject
+- GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access

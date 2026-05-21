@@ -1,0 +1,1 @@
+- GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously

@@ -1,0 +1,1 @@
+- GE-20260415-53068a: RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException

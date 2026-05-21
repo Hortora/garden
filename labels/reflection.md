@@ -1,2 +1,6 @@
 - GE-20260421-3b3104: Hibernate bytecode enhancement silently zeros all fields when accessed via reflection
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
+- GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference
+- GE-20260427-23f4a7: Reflection-based predicate invocation must detect ctx-first vs no-ctx arity to avoid wrong-number-of-arguments
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
+- GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection

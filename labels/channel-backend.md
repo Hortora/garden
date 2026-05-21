@@ -1,0 +1,1 @@
+- GE-20260517-9e571a: @Typed required when CDI bean implements a framework-owned interface to prevent AmbiguousResolutionException

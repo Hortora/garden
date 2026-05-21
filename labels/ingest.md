@@ -1,0 +1,1 @@
+- GE-20260517-7471c7: Java HttpClient silently returns empty result for file:// URLs

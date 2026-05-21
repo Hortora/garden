@@ -1,0 +1,2 @@
+- GE-20260417-460714: mvn compile -q suppresses compiler errors — exit code is 0 and no output even when compilation fails
+- GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope

@@ -1,3 +1,8 @@
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
 - GE-20260518-e4fa52: RESTEasy Reactive endpoints that call .await() on the IO thread throw BlockingOperationNotAllowedException — add @Blocking
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260428-a67806: casehub-engine Vert.x event-bus handlers lack @Blocking — JPA consumer calls fail from IO thread
+- GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true
+- GE-20260421-67bdd2: @Blocking @Tool + private blockingXxx helper — pattern for mixing blocking and reactive in quarkus-mcp-server
+- GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
+- GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread

@@ -1,1 +1,25 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
+- GE-20260416-7ec461: Maven `-am -Dtest=ClassName` propagates test filter to all upstream modules — 'No tests matching pattern' on unrelated modules
+- GE-20260417-96accd: Maven multi-module cycle: adding a module as test-scope dep when it already depends on you
+- GE-20260504-059d1f: Maven `-pl <submodule>` resolves dependencies from .m2 cache — source changes in sibling modules invisible without `install`
+- GE-20260421-473024: Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss
+- GE-20260424-318ef3: Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module
+- GE-20260501-b88737: Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage
+- GE-20260501-e13ed0: Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root
+- GE-20260508-3a77c5: Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet
+- GE-20260511-5be2d2: Maven -rf resume uses stale .m2 jar from failed earlier module — causes impossible compilation errors
+- GE-20260515-6e8205: Three-tier Maven module structure — api/common/runtime
+- GE-20260515-70021c: Always scope Maven commands to a specific module with -pl
+- GE-20260515-da8abd: Maven submodule folder names — short, no repo-name prefix
+- GE-20260515-ffde26: Optional Quarkus features: Jandex library module pattern
+- GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
+- GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
+- GE-20260422-7ace3d: Stale Maven JAR after branch merge causes NoSuchMethodError in @QuarkusTest
+- GE-20260424-59906a: Quarkus CDI does not scan @ApplicationScoped beans in plain JAR module dependencies
+- GE-20260427-59ea5d: Flyway version collision when optional Quarkus module shares classpath with runtime module
+- GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed
+- GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error
+- GE-20260501-743ff4: Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules
+- GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests

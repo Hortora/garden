@@ -1,0 +1,4 @@
+- GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false
+- GE-20260423-70a4f2: BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile
+- GE-20260423-9a5470: Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter
+- GE-20260423-af487b: IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content

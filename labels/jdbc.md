@@ -1,0 +1,1 @@
+- GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails

@@ -1,0 +1,2 @@
+- GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
+- GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path

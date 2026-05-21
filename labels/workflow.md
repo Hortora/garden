@@ -3,3 +3,12 @@
 - GE-0035: Trigger exhaustive sweeps by activity count, not time, to match cost to actual need
 - GE-0159: Gitignored CLAUDE.md symlink for consistent AI workspace config across entry points
 - GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
+- GE-20260515-70021c: Always scope Maven commands to a specific module with -pl
+- GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
+- GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
+- GE-20260420-de730c: git rebase-merge directory persists after session ends mid-rebase — blocks new rebases on any branch
+- GE-20260420-e3f2c4: Claude Code response size limit (~32k) is separate from context window — large plan generation silently kills the session
+- GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
+- GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
+- GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
+- GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path

@@ -1,0 +1,3 @@
+- GE-20260417-01b5d5: WrapBusinessErrorInterceptor only wraps methods annotated with @Tool — class-level placement is safe
+- GE-20260417-45f47f: Class-level @WrapBusinessError wraps all CDI callers of @Tool methods, not just the MCP server
+- GE-20260417-691885: Class-level @WrapBusinessError converts @Tool method exceptions to isError:true MCP responses without changing return types

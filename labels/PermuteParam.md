@@ -1,0 +1,1 @@
+- GE-20260421-bbc3a9: @PermuteParam inside @PermuteMethod silently skips expansion — inner variable not in scope

@@ -1,0 +1,3 @@
+- GE-20260512-523f68: Quarkus dev mode hot-reload silently breaks WebSocket endpoint registration — full restart required
+- GE-20260422-b0c097: Quarkus game engine leaveGame() silently breaks WebSocket state delivery for late-connecting clients
+- GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required

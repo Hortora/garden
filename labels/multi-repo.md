@@ -1,1 +1,10 @@
 - GE-0002: Use git -C <path> to operate on a repo without cd-ing into it
+- GE-20260430-0042ff: Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required
+- GE-20260430-3275b1: GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes
+- GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
+- GE-20260415-748447: Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first
+- GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
+- GE-20260428-222aa0: Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos
+- GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
+- GE-20260430-be991b: git worktree unlock/prune works on ghost worktrees whose paths no longer exist
+- GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically

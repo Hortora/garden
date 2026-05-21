@@ -1,0 +1,1 @@
+- GE-20260513-4f26a7: @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority

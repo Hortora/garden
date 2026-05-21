@@ -4,3 +4,14 @@
 - GE-20260519-d32fc0: RESTEasy Reactive silently serializes raw Uni<T> passed to Response.ok() — no compile error, 500 at runtime
 - GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
+- GE-20260512-6d0c2b: BroadcastProcessor.onNext() throws BackPressureFailure when no subscribers are registered
+- GE-20260513-4c4205: Use AtomicInteger call counter in Supplier<String> to distinguish SSE events by content in tests
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-f31786: `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`
+- GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
+- GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni
+- GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking
+- GE-20260421-67bdd2: @Blocking @Tool + private blockingXxx helper — pattern for mixing blocking and reactive in quarkus-mcp-server
+- GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
+- GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException
+- GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames

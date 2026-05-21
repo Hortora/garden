@@ -1,3 +1,10 @@
 - GE-0003: Use a second Claude to verify the first Claude's work — and always confirm the absolute file path
 - GE-0012: Use git commit hash as authoritative arbiter when multiple Claude instances disagree about file state
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
+- GE-20260414-6b964c: Two separate subagents for spec compliance then code quality catch different issues than one combined reviewer
+- GE-20260414-b12a99: Background subagent blocks on Bash leaves file edits uncommitted in worktree
+- GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
+- GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
+- GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
+- GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale

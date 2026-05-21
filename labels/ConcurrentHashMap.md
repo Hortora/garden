@@ -1,0 +1,2 @@
+- GE-20260423-c8d8cb: ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost
+- GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks

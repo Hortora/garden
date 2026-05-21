@@ -3,3 +3,13 @@
 - GE-20260519-d32fc0: RESTEasy Reactive silently serializes raw Uni<T> passed to Response.ok() — no compile error, 500 at runtime
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
+- GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment
+- GE-20260512-47f92e: quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact
+- GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode
+- GE-20260514-636916: Flyway migration numbering: always verify existing files before naming — prior sessions may have added higher-numbered migrations
+- GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
+- GE-20260421-cba54e: Use @Observes StartupEvent to mirror Python/Ruby auto-activation of shared singleton state at boot
+- GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types
+- GE-20260422-c0181c: garden_db_migrate.py leaves an empty GE-20260421-test999.md artifact after migration
+- GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions

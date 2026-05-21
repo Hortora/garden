@@ -16,3 +16,5 @@
 - GE-0169: Assert on side effects, not LLM output, when testing AI tool use
 - GE-0170: Use real LLM invocations as protocol capture, replace with scripted replay for CI
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
+- GE-20260415-e112ca: Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need
+- GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code

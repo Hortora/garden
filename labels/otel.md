@@ -1,0 +1,1 @@
+- GE-20260422-70b817: Span.wrap(SpanContext).makeCurrent() creates OTel trace context in tests without SDK

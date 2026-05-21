@@ -1,0 +1,1 @@
+- GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary

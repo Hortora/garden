@@ -1,1 +1,3 @@
 - GE-20260414-2a1cd1: Regex-validated date strings still crash date.fromisoformat() on invalid calendar values
+- GE-20260508-b4c9b4: quarkus-rest does not include Bean Validation — @NotBlank/@Valid silently ignored without quarkus-hibernate-validator
+- GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path

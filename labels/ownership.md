@@ -1,0 +1,1 @@
+- GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead

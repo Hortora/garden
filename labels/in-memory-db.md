@@ -1,0 +1,1 @@
+- GE-20260420-d99177: @QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data

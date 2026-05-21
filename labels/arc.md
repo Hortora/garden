@@ -2,3 +2,20 @@
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260422-e48245: @DefaultBean lives in io.quarkus.arc, not jakarta.enterprise.inject
+- GE-20260514-83ee13: @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260515-fd3156: @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not
+- GE-20260516-2805b7: Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment
+- GE-20260516-4bf0dc: quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI
+- GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
+- GE-20260516-e137f6: QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
+- GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list
+- GE-20260512-ee7c07: Quarkus ArC ignores beans.xml <alternatives> — use quarkus.arc.selected-alternatives
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives

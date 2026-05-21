@@ -1,2 +1,11 @@
 - GE-0020: Use `typora-root-url` in YAML front matter to make Jekyll root-relative image paths work in Typora
 - GE-20260412-b6c0f8: Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep
+- GE-20260427-3dab14: Quarkus formatter plugin rejects files written by external tools before mvn process-sources
+- GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path
+- GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
+- GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
+- GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
+- GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
+- GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
+- GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`

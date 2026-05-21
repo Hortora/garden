@@ -1,0 +1,4 @@
+- GE-20260428-29b30e: Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues
+- GE-20260513-e04f26: Store configuration on the runtime entity to eliminate a parallel callback registry
+- GE-20260420-dc3c2f: Separating observed_at from indexed_at makes time-series backfill free
+- GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency

@@ -1,0 +1,2 @@
+- GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
+- GE-20260421-49a3ca: tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p

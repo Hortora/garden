@@ -1,1 +1,4 @@
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
+- GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls
+- GE-20260417-3b862c: jar xf without -C extracts to the current working directory, not a temp dir
+- GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths

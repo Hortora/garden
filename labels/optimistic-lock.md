@@ -1,0 +1,1 @@
+- GE-20260420-86180e: em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context

@@ -1,1 +1,3 @@
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
+- GE-20260428-0482d3: Quarkus augmentation cache is disk-based — reuseForks=false does NOT clear it
+- GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch

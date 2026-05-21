@@ -1,0 +1,1 @@
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove

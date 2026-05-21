@@ -1,0 +1,5 @@
+- GE-20260422-0ed3e5: CDI container wiring vs service-loader wiring in large JVM frameworks
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260515-fd3156: @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not
+- GE-20260512-ee7c07: Quarkus ArC ignores beans.xml <alternatives> — use quarkus.arc.selected-alternatives
+- GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot

@@ -1,0 +1,1 @@
+- GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences

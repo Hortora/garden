@@ -1,0 +1,1 @@
+- GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit

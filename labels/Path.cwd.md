@@ -1,0 +1,1 @@
+- GE-20260414-22e35f: Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing

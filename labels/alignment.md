@@ -1,0 +1,1 @@
+- GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails

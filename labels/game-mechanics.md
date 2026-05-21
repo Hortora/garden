@@ -1,0 +1,1 @@
+- GE-20260513-feea71: SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour

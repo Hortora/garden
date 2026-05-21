@@ -1,0 +1,1 @@
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag

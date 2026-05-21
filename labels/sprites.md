@@ -1,0 +1,5 @@
+- GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view
+- GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right
+- GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()

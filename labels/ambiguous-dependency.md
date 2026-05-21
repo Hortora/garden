@@ -1,0 +1,3 @@
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface

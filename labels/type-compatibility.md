@@ -1,0 +1,1 @@
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment

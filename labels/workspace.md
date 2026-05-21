@@ -1,1 +1,2 @@
 - GE-20260520-48e1d4: @BuildStep producing ExcludedTypeBuildItem silently not invoked during Quarkus test augmentation from workspace deployment module
+- GE-20260513-af85fa: publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match

@@ -1,0 +1,1 @@
+- GE-20260512-e552f7: @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite

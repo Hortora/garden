@@ -1,0 +1,1 @@
+- GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection

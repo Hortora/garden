@@ -1,0 +1,1 @@
+- GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct

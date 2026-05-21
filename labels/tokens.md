@@ -1,0 +1,1 @@
+- GE-20260501-d9c2d7: GITHUB_TOKEN returns 403 on cross-repo repository_dispatch — needs classic PAT

@@ -1,0 +1,2 @@
+- GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements
+- GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases

@@ -1,0 +1,1 @@
+- GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy

@@ -1,0 +1,1 @@
+- GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims

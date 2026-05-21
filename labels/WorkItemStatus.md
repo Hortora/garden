@@ -1,0 +1,1 @@
+- GE-20260427-bf4338: WorkItemStatus.EXPIRED.isTerminal() returns false — EXPIRED is not treated as terminal by quarkus-work

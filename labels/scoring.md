@@ -1,0 +1,1 @@
+- GE-20260504-cb6206: Split evaluation dimensions into purpose-specific tables to reveal candidate shape, not just rank

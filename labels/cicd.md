@@ -1,0 +1,4 @@
+- GE-20260426-3e6b29: maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload
+- GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260426-d58530: GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths

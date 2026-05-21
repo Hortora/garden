@@ -1,0 +1,3 @@
+- GE-20260416-58b555: @QuarkusTest CDI singletons populated only via HTTP remain null — server startup never calls endpoints
+- GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
+- GE-20260421-cba54e: Use @Observes StartupEvent to mirror Python/Ruby auto-activation of shared singleton state at boot

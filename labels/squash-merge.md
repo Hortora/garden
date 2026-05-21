@@ -1,1 +1,2 @@
 - GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
+- GE-20260504-ae76f6: Squash-merged PR silently drops commits pushed after the PR was opened

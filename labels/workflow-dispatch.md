@@ -1,0 +1,1 @@
+- GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch

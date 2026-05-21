@@ -1,0 +1,1 @@
+- GE-20260421-5817bb: Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill

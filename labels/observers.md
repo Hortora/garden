@@ -1,0 +1,3 @@
+- GE-20260423-29f45a: BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260512-6887c9: @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean

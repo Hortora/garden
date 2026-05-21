@@ -5,3 +5,23 @@
 - GE-20260412-b6c0f8: Claude Code Read tool fails on files over ~256KB — use offset/limit or Bash grep
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
 - GE-20260520-7fb7a8: Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands
+- GE-20260422-e72442: --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list
+- GE-20260504-9c9b01: Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt
+- GE-20260513-2239f6: Claude Code Edit tool refuses to write through symlink paths — use readlink -f first
+- GE-20260414-736039: Subagent prompts must explicitly include issue-workflow steps — CLAUDE.md automatic behaviours don't propagate
+- GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
+- GE-20260420-e3f2c4: Claude Code response size limit (~32k) is separate from context window — large plan generation silently kills the session
+- GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
+- GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits
+- GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
+- GE-20260429-63a862: Claude Code subagent test result reports are unreliable — always verify independently
+- GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
+- GE-20260429-d915d3: Subagent-driven development: parallel subagents commit unrelated changes to shared branch
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
+- GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
+- GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
+- GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
+- GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start

@@ -1,0 +1,1 @@
+- GE-20260424-a02588: CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions

@@ -3,3 +3,20 @@
 - GE-20260519-4a42e6: Panache.withTransaction() requires a duplicated Vert.x context — executeBlocking() root context still fails VertxContextSafetyToggle
 - GE-20260519-d32fc0: RESTEasy Reactive silently serializes raw Uni<T> passed to Response.ok() — no compile error, 500 at runtime
 - GE-20260519-f33c66: 'Reactive' Quarkus service classes may use blocking services or Panache statics internally — CDI @Alternative in-memory stores don't intercept those paths
+- GE-20260427-0e7508: Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules
+- GE-20260512-6d0c2b: BroadcastProcessor.onNext() throws BackPressureFailure when no subscribers are registered
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-f31786: `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`
+- GE-20260416-e10d09: Use `session.getReference()` to set a `@ManyToOne` FK target in Panache `persist()` without `TransientPropertyValueException`
+- GE-20260416-f02f95: Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`
+- GE-20260420-45d53b: quarkus.datasource.reactive=false suppresses Hibernate Reactive boot when extension is on classpath but no reactive pool exists
+- GE-20260420-58520c: Reactive PanacheRepository<E> takes one type arg; use PanacheRepositoryBase<E,Id> for non-Long primary keys
+- GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni
+- GE-20260420-cbd0fa: Quarkus Hibernate Reactive @QuarkusTest cannot use H2 — vertx-jdbc-client alone doesn't register the reactive pool factory
+- GE-20260420-dcec35: quarkus-hibernate-reactive-panache in an extension forces Hibernate Reactive to boot for all consumers — @Alternative does not prevent it
+- GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking
+- GE-20260421-67bdd2: @Blocking @Tool + private blockingXxx helper — pattern for mixing blocking and reactive in quarkus-mcp-server
+- GE-20260421-83560c: @WithTransaction on Quarkus Hibernate Reactive store methods uses REQUIRED propagation — joins outer Panache.withTransaction(), does not create nested
+- GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
+- GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException

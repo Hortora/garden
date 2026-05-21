@@ -1,0 +1,7 @@
+- GE-20260415-5aac89: PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula
+- GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits
+- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested
+- GE-20260428-5757e3: Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent
+- GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
+- GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases

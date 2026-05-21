@@ -1,0 +1,1 @@
+- GE-20260414-14d244: quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution

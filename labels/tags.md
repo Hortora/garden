@@ -1,0 +1,1 @@
+- GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS

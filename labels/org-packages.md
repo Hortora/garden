@@ -1,0 +1,1 @@
+- GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own

@@ -1,0 +1,1 @@
+- GE-20260414-bd3f85: Deleting a Panache entity with a self-referencing FK throws `JdbcSQLIntegrityConstraintViolationException`

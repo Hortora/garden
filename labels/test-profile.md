@@ -1,1 +1,3 @@
 - GE-20260519-12efe9: QuarkusTestProfile.getEnabledAlternatives() scopes a CDI @Alternative to a single @QuarkusTest class
+- GE-20260516-e137f6: QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile
+- GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls

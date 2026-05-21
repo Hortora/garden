@@ -1,0 +1,5 @@
+- GE-20260414-22e35f: Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing
+- GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file
+- GE-20260422-75b92e: git checkout/rebase on a branch checked out in a worktree fails — use git -C <worktree-path> instead
+- GE-20260430-be991b: git worktree unlock/prune works on ghost worktrees whose paths no longer exist
+- GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths

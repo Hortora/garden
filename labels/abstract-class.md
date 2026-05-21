@@ -1,0 +1,2 @@
+- GE-20260516-2805b7: Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment
+- GE-20260421-ef0a4e: Refactoring tests to extend an abstract base class silently removes implementation-specific test methods

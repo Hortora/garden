@@ -1,0 +1,2 @@
+- GE-20260422-2afcb2: Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts
+- GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks

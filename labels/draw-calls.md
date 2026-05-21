@@ -1,0 +1,1 @@
+- GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run

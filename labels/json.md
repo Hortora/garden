@@ -1,3 +1,10 @@
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
+- GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value
+- GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
+- GE-20260415-53068a: RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException
+- GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code
+- GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
+- GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection

@@ -1,0 +1,1 @@
+- GE-20260501-56e179: ThreadLocal set on calling thread is invisible inside CompletableFuture.supplyAsync()

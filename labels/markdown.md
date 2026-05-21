@@ -1,1 +1,4 @@
 - GE-0108: Use Deprecated HTML `align` Attribute (Not `style="float"`) for Image Wrapping in Markdown
+- GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
+- GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
+- GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0

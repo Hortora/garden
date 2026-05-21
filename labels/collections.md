@@ -1,0 +1,3 @@
+- GE-20260421-707db1: WeakHashMap uses equals/hashCode for key lookup — use IdentityHashMap for reference-equality keying
+- GE-20260427-edbacd: Java test infrastructure: adding a new collection to a class requires clearing it in BOTH reset() and clearAll() — missing one causes @QuarkusTest state bleed
+- GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection

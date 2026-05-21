@@ -1,0 +1,2 @@
+- GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
+- GE-20260414-7ce32b: @TestTransaction swallows unique-constraint violations — Hibernate never flushes within the test body

@@ -1,0 +1,1 @@
+- GE-20260422-53d0f7: JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works

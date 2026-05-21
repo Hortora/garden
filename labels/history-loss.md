@@ -1,0 +1,1 @@
+- GE-20260504-ae76f6: Squash-merged PR silently drops commits pushed after the PR was opened

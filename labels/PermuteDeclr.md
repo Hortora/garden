@@ -1,0 +1,2 @@
+- GE-20260417-c01ea4: typeArgList() inside @PermuteDeclr type strings requires single-quoted style argument
+- GE-20260426-f987a9: @PermuteDeclr(name=..., type=...) on a METHOD causes duplicate generation for all arities

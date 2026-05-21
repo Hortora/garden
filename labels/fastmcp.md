@@ -1,0 +1,1 @@
+- GE-20260415-d07a2c: FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items

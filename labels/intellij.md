@@ -1,2 +1,19 @@
 - GE-0119: PSI Scan Fallback for IntelliJ Plugin Tests When Custom FileBasedIndex Isn't Populated
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
+- GE-20260416-74e114: PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss
+- GE-20260417-680e86: IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead
+- GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false
+- GE-20260423-70a4f2: BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile
+- GE-20260423-9a5470: Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter
+- GE-20260423-af487b: IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content
+- GE-20260423-e92da0: IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead
+- GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
+- GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
+- GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
+- GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
+- GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
+- GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
+- GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
+- GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
+- GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`

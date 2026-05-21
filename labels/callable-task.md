@@ -1,0 +1,2 @@
+- GE-20260414-10d4da: CNCF Serverless Workflow CallableTaskBuilder.accept(Class) cannot distinguish custom callable names
+- GE-20260414-5fc8e0: CNCF Serverless Workflow CallableTaskBuilder SPI — exact interface signatures (v7.13)

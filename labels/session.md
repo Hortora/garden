@@ -1,0 +1,1 @@
+- GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404

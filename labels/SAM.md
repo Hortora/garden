@@ -1,0 +1,1 @@
+- GE-20260421-876557: Cross-product SAM interface families from one template via @PermuteVar + JEXL ternary macros

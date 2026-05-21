@@ -1,0 +1,1 @@
+- GE-20260414-2263db: Jackson deserializes Java records without @JsonProperty when Maven -parameters flag is enabled

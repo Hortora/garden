@@ -1,0 +1,1 @@
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy

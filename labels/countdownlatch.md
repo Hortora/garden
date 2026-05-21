@@ -1,0 +1,1 @@
+- GE-20260517-712fe5: Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`

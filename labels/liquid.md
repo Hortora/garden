@@ -1,0 +1,2 @@
+- GE-20260413-7f2e60: Chain Liquid replace filters in Jekyll layouts to fix relative paths without touching source files
+- GE-20260506-934502: Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary

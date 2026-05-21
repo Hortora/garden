@@ -1,0 +1,1 @@
+- GE-20260414-22f094: H2 rejects 'key' as a column name — syntax error with no hint it's a reserved word

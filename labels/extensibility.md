@@ -1,0 +1,1 @@
+- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative

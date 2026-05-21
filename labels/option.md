@@ -1,0 +1,1 @@
+- GE-20260501-9e8490: Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM

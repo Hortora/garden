@@ -1,0 +1,1 @@
+- GE-20260415-fb675d: A* nearestWalkable radius cap causes silent fallback to DirectMovement on out-of-bounds targets

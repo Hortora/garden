@@ -1,0 +1,3 @@
+- GE-20260423-878486: quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+
+- GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
+- GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations

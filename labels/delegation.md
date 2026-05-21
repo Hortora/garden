@@ -1,0 +1,5 @@
+- GE-20260416-39d854: Synthesised delegation methods need explicit `public` when overriding interface methods
+- GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
+- GE-20260513-a49d06: CDI this.method() call bypasses @Transactional proxy — annotation silently dead on delegating overloads
+- GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED
+- GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni

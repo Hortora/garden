@@ -1,0 +1,10 @@
+- GE-20260427-f26db0: Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling
+- GE-20260428-5757e3: Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel
+- GE-20260428-7cfeab: Three.js transparent plane with depthTest:true (default) is invisible when rendered below an opaque plane at the same position
+- GE-20260421-1eac96: Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init
+- GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20260421-6d4f16: Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles
+- GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right
+- GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld

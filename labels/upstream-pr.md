@@ -1,0 +1,1 @@
+- GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom

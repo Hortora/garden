@@ -1,0 +1,1 @@
+- GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically

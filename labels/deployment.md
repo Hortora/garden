@@ -1,0 +1,8 @@
+- GE-20260414-868f32: Quarkiverse extension-descriptor goal validates ALL transitive deployment JARs — not just direct ones
+- GE-20260414-be9977: Quarkus extension activation uses quarkus-extension.properties not quarkus-extension.yaml for deployment-artifact
+- GE-20260415-e5fa33: Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X
+- GE-20260423-8dfa90: mvn clean does not fix ClassNotFoundException after Quarkus dependency inner class moves
+- GE-20260413-83dedd: GitHub Pages `configure-pages` action fails if Pages not enabled via API first
+- GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry
+- GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard
+- GE-20260501-fc1cc6: GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push'

@@ -1,0 +1,3 @@
+- GE-20260414-3153fe: @QuarkusIntegrationTest must live in a separate module from the extension runtime
+- GE-20260414-872786: Quarkus @Scheduled interval expressions require ${property} not {property}
+- GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection

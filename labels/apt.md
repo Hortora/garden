@@ -1,0 +1,1 @@
+- GE-20260421-1fa31e: mvn clean deletes APT-generated classes, triggering cascade failure from annotation processor version mismatch

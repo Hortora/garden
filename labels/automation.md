@@ -2,3 +2,7 @@
 - GE-0050: Use conventional commit scope to cluster commits into issues without reading per-commit diffs
 - GE-0092: Use `.locator().all()` not `.locator().nth(n)` when screenshotting multiple elements of the same class
 - GE-20260414-c08ba3: `gh issue close` only accepts one issue number — bulk close requires a loop
+- GE-20260414-6c9bfc: gh pr create requires --body even when --title is provided in non-interactive mode
+- GE-20260417-def63b: Python one-liner to resolve all merge conflicts in a file by uniformly taking one side
+- GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist
+- GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue

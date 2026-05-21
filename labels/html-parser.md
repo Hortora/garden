@@ -1,0 +1,1 @@
+- GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation

@@ -1,0 +1,1 @@
+- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401

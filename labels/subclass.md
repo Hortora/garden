@@ -1,0 +1,4 @@
+- GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
+- GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented
+- GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed

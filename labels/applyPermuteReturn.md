@@ -1,0 +1,1 @@
+- GE-20260427-cf8a08: @PermuteReturn(when=...) is silently ignored on methods with non-Object declared return types

@@ -1,0 +1,1 @@
+- GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures

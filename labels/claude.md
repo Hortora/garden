@@ -1,0 +1,1 @@
+- GE-20260516-fba7b6: git -C <path> is required in Claude Bash tool calls — cd state does not persist between calls

@@ -1,0 +1,1 @@
+- GE-20260421-a00d0a: Quarkus %test profile serves /qa/emulated/config with HTTP 200 — gating a panel on HTTP status alone shows it in tests

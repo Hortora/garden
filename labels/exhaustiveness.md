@@ -1,0 +1,1 @@
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults

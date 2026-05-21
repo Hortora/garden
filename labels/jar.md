@@ -1,2 +1,6 @@
 - GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
+- GE-20260420-f3e0a7: Use `jar tf` to verify a class exists in an installed Maven artifact before attempting a compile
+- GE-20260426-4e3801: java -jar: JVM -D flags after the jar path are app arguments, not JVM properties
+- GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
+- GE-20260417-3b862c: jar xf without -C extracts to the current working directory, not a temp dir

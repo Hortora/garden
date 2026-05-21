@@ -1,0 +1,2 @@
+- GE-20260415-dfa8ba: @RegisterProvider on @RegisterRestClient not honoured by RestClientBuilder.newBuilder()
+- GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port

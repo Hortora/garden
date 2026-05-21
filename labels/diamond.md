@@ -1,0 +1,1 @@
+- GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference

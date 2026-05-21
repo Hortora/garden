@@ -1,0 +1,1 @@
+- GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied

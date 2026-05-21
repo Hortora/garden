@@ -1,0 +1,1 @@
+- GE-20260429-ede58e: quarkus.flyway.migrate-at-start is build-time fixed — test application.properties cannot override a jar's microprofile-config.properties value

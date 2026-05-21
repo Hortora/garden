@@ -1,0 +1,3 @@
+- GE-20260429-f6905c: GitHub Projects v2 `updateProjectV2Field` silently returns null when updating single-select options on an existing field
+- GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
+- GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line

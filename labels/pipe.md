@@ -1,0 +1,1 @@
+- GE-20260513-436312: mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure

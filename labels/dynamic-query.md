@@ -1,0 +1,1 @@
+- GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N

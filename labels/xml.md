@@ -1,0 +1,3 @@
+- GE-20260421-bd4121: jsoup requires Parser.xmlParser() for XML sitemaps — default HTML parser lowercases element names silently
+- GE-20260420-146d7c: sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times
+- GE-20260424-918740: XML comment containing '--' crashes Maven with Non-parseable POM

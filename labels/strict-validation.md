@@ -1,0 +1,1 @@
+- GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex

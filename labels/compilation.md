@@ -1,0 +1,4 @@
+- GE-20260418-9b272f: Java Sealed Interface Exhaustiveness Breaks Build Mid-Plan When Type Creation and Wiring Are Separate Tasks
+- GE-20260511-5be2d2: Maven -rf resume uses stale .m2 jar from failed earlier module — causes impossible compilation errors
+- GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures
+- GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package

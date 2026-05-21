@@ -1,0 +1,1 @@
+- GE-20260421-e86212: PermuteAnnotationTransformer never called in non-inline pipeline — @PermuteAnnotation silently ignored

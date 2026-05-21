@@ -1,2 +1,4 @@
 - GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260415-95b40f: git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff
+- GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed

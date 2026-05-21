@@ -1,0 +1,2 @@
+- GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring
+- GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks

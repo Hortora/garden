@@ -1,0 +1,1 @@
+- GE-20260505-c8514a: @TestTransaction prevents cross-test message leakage when gateway inbound persists messages inside @QuarkusTest

@@ -1,0 +1,1 @@
+- GE-20260430-b015f5: quarkus-mcp-server silently drops @Tool on methods with public same-name overloads

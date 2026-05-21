@@ -1,0 +1,1 @@
+- GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable

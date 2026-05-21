@@ -1,0 +1,1 @@
+- GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values

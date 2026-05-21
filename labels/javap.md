@@ -1,1 +1,3 @@
 - GE-20260518-ae7612: Bash tool CWD resets between tool calls — jar xf then javap in separate calls uses wrong directory
+- GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level
+- GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access

@@ -1,0 +1,1 @@
+- GE-20260421-954775: Trace iterative algorithms by hand for 3-4 iterations before coding to catch silent convergence failures

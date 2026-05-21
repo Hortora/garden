@@ -1,0 +1,1 @@
+- GE-20260417-96accd: Maven multi-module cycle: adding a module as test-scope dep when it already depends on you

@@ -1,0 +1,2 @@
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()

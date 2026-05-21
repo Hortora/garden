@@ -1,0 +1,1 @@
+- GE-20260512-aa3873: Orphaned git submodule entry without .gitmodules causes git rm -r to fail with 'could not lookup name'

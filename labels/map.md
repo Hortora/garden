@@ -1,0 +1,5 @@
+- GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted
+- GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants
+- GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference
+- GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null
+- GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed

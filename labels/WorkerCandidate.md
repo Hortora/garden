@@ -1,0 +1,1 @@
+- GE-20260423-3be346: WorkerCandidate.of(id) creates empty capabilities — WorkBroker filters all candidates when requiredCapabilities is non-null

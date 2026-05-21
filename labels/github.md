@@ -1,2 +1,29 @@
 - GE-0049: Create and close GitHub issues in bulk with a bash function and URL number extraction
 - GE-20260414-c08ba3: `gh issue close` only accepts one issue number — bulk close requires a loop
+- GE-20260430-0042ff: Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required
+- GE-20260430-3275b1: GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes
+- GE-20260414-6c9bfc: gh pr create requires --body even when --title is provided in non-interactive mode
+- GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path
+- GE-20260415-ec4471: Stacked PRs from a fork: push the base branch to upstream first
+- GE-20260416-eb035d: GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork
+- GE-20260417-a420df: PR base becomes stale when upstream maintainer merges your content as a new PR directly to main
+- GE-20260421-654530: GitHub PR mergeable status is asynchronous after force push — stays CONFLICTING for 1+ minutes
+- GE-20260421-ac2a7b: gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation
+- GE-20260421-f8f11c: Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit
+- GE-20260422-4407a2: GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main
+- GE-20260422-8e9873: GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead
+- GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
+- GE-20260424-64118d: gh repo transfer has no --yes flag — use the API directly
+- GE-20260426-61854e: Create GitHub org team and grant write access to all repos via gh CLI — no browser needed
+- GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
+- GE-20260429-f6905c: GitHub Projects v2 `updateProjectV2Field` silently returns null when updating single-select options on an existing field
+- GE-20260430-01cc0c: Empty git commit as clean CI re-trigger
+- GE-20260504-ae76f6: Squash-merged PR silently drops commits pushed after the PR was opened
+- GE-20260504-c51f9c: Disable squash/rebase merges across all org repos in one API loop
+- GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning
+- GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
+- GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
+- GE-20260505-cc8247: `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit
+- GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
+- GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection
+- GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured

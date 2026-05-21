@@ -1,0 +1,2 @@
+- GE-20260422-273e02: zsh variable-as-command shorthand fails when the command string contains arguments
+- GE-20260422-2afcb2: Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts

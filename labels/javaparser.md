@@ -1,1 +1,6 @@
 - GE-20260421-2df2ba: JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces
+- GE-20260416-b57ee4: JavaParser NodeList.clone() returns raw Object — clone each element individually
+- GE-20260417-64e848: JavaParser TYPE_USE annotation on qualified type names goes on scope type, not leaf
+- GE-20260416-17bdf4: PermuteTypeParamTransformer must run BEFORE applySourceTypeParams — wrong order causes type param doubling
+- GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases
+- GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate

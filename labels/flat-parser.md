@@ -1,0 +1,1 @@
+- GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false

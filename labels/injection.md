@@ -1,0 +1,6 @@
+- GE-20260422-53d0f7: JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works
+- GE-20260504-104371: @ConfigProperty fields are null when @ApplicationScoped bean is instantiated with new outside CDI
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260414-fbf82f: Test scheduled services directly via injection instead of waiting for Quarkus Scheduler to fire
+- GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead
+- GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution

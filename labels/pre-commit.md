@@ -1,0 +1,2 @@
+- GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit
+- GE-20260517-3dddfa: Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist

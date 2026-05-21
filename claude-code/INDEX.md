@@ -4,3 +4,11 @@
 |----|----|-------|-------|
 | GE-0001 | Claude Code settings.json rejects unknown top-level fields despite additionalProperties schema | gotcha | 12/15 |
 | GE-0160 | Claude Code `/private/tmp` fills during parallel subagents — ENOSPC on git commit despite free disk | gotcha | 11/15 |
+| GE-20260413-8cb955 | Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag | gotcha | 13/15 |
+| GE-20260414-6b964c | Two separate subagents for spec compliance then code quality catch different issues than one combined reviewer | technique | 10/15 |
+| GE-20260414-b12a99 | Background subagent blocks on Bash leaves file edits uncommitted in worktree | gotcha | 10/15 |
+| GE-20260417-15f33f | AI session handover can describe committed work that was never committed | gotcha | 9/15 |
+| GE-20260422-3254e2 | Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands | undocumented | 12/15 |
+| GE-20260422-e72442 | --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list | gotcha | 11/15 |
+| GE-20260504-9c9b01 | Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt | undocumented | 11/15 |
+| GE-20260513-2239f6 | Claude Code Edit tool refuses to write through symlink paths — use readlink -f first | gotcha | 10/15 |

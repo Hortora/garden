@@ -1,1 +1,2 @@
 - GE-20260521-e39ad1: CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor
+- GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null

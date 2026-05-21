@@ -1,0 +1,1 @@
+- GE-20260426-a91e05: actions/checkout@v6 with ref: <SHA> fails silently when fetch-depth=1

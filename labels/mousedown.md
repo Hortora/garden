@@ -1,0 +1,1 @@
+- GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element

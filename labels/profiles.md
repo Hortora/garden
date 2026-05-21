@@ -1,0 +1,8 @@
+- GE-20260428-7e57f9: @QuarkusTest always runs in mock profile — Playwright tests pass while the real application (replay/emulated) is broken
+- GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS
+- GE-20260416-99d4c6: Profile-scoped Quarkus file logging enables grep-based remote debugging
+- GE-20260421-a00d0a: Quarkus %test profile serves /qa/emulated/config with HTTP 200 — gating a panel on HTTP status alone shows it in tests
+- GE-20260423-ad5d5e: Quarkus profile swap silently breaks QA endpoint seeding — different CDI bean broadcasts state
+- GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
+- GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
+- GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()

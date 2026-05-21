@@ -1,0 +1,2 @@
+- GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time
+- GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection

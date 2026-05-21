@@ -1,1 +1,3 @@
 - GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
+- GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
+- GE-20260517-fc6be7: JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md

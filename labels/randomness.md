@@ -1,0 +1,1 @@
+- GE-20260416-262221: Override Random.nextDouble() via anonymous subclass to force always-hit/always-miss in probability tests

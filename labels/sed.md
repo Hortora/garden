@@ -1,0 +1,9 @@
+- GE-20260414-119352: macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames
+- GE-20260414-338984: sed appends trailing comment inside a Python string argument when the string is the last positional arg
+- GE-20260420-146d7c: sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS
+- GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations
+- GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit
+- GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
+- GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
+- GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match

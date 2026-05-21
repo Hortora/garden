@@ -1,0 +1,2 @@
+- GE-20260414-0a7d31: bash $() strips trailing newlines — git commit --amend footer concatenates to last line
+- GE-20260505-5601ef: `git reset --soft HEAD~1 && git commit --amend --no-edit` — non-interactive squash preserving message

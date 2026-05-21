@@ -1,0 +1,1 @@
+- GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers

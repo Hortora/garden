@@ -1,1 +1,12 @@
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
+- GE-20260416-ca1c71: Maven *IT.java test files are silently skipped by mvn test — failsafe convention
+- GE-20260421-efa107: Maven -Dexcludes does not suppress Quarkus @QuarkusTest class-loader failures — use Maven profiles instead
+- GE-20260512-493c90: @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire
+- GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS
+- GE-20260415-ffcbdd: Multiple @QuarkusTest classes in Surefire cause intermittent TIME_WAIT port conflict
+- GE-20260421-1d2764: QuarkusTest leaves Quarkus server on port 8081 between mvn test runs — next run sees 'Address already in use'
+- GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin
+- GE-20260428-0482d3: Quarkus augmentation cache is disk-based — reuseForks=false does NOT clear it
+- GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
+- GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
+- GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests

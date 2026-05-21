@@ -1,1 +1,2 @@
 - GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
+- GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'

@@ -1,0 +1,1 @@
+- GE-20260517-5b8e78: casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools

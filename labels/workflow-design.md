@@ -1,0 +1,1 @@
+- GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard

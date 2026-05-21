@@ -1,0 +1,1 @@
+- GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision

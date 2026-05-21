@@ -1,0 +1,1 @@
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh

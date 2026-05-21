@@ -2,3 +2,12 @@
 - GE-20260519-244ad2: Gate optional beans in a Quarkus extension with ExcludedTypeBuildItem + @ConfigRoot(BUILD_TIME) — not @IfBuildProperty on runtime beans
 - GE-20260520-48e1d4: @BuildStep producing ExcludedTypeBuildItem silently not invoked during Quarkus test augmentation from workspace deployment module
 - GE-20260520-c52767: BUILD_TIME @ConfigRoot properties in application.properties cause SRCFG00050 SmallRye Config runtime validation error
+- GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
+- GE-20260414-3153fe: @QuarkusIntegrationTest must live in a separate module from the extension runtime
+- GE-20260414-614675: Use Optional<String> in @ConfigMapping for optional string properties that can be legitimately absent
+- GE-20260414-868f32: Quarkiverse extension-descriptor goal validates ALL transitive deployment JARs — not just direct ones
+- GE-20260414-a2e8a3: @WithDefault("") in @ConfigMapping throws ConfigValidationException — empty string treated as null
+- GE-20260414-be9977: Quarkus extension activation uses quarkus-extension.properties not quarkus-extension.yaml for deployment-artifact
+- GE-20260414-c87a14: @ConfigMapping in a Quarkus extension requires Javadoc on every method, including group accessors
+- GE-20260415-e5fa33: Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X
+- GE-20260420-dcec35: quarkus-hibernate-reactive-panache in an extension forces Hibernate Reactive to boot for all consumers — @Alternative does not prevent it

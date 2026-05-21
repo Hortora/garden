@@ -1,0 +1,8 @@
+- GE-20260429-101efe: H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns
+- GE-20260501-b89a0d: Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment
+- GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode
+- GE-20260514-e5797b: CHECK constraint tying discriminator to key column nullity makes schema self-enforcing
+- GE-20260414-22f094: H2 rejects 'key' as a column name — syntax error with no hint it's a reserved word
+- GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
+- GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision

@@ -1,0 +1,5 @@
+- GE-20260414-f4f539: casehub-engine CaseHubReactor.startCase() no longer calls registerCaseDefinition() — definitions only register at startup
+- GE-20260429-a9bd85: CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write
+- GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
+- GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted

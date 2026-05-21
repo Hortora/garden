@@ -1,0 +1,1 @@
+- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested

@@ -1,0 +1,1 @@
+- GE-20260504-9c9b01: Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt

@@ -1,0 +1,6 @@
+- GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
+- GE-20260504-c51f9c: Disable squash/rebase merges across all org repos in one API loop
+- GE-20260505-5601ef: `git reset --soft HEAD~1 && git commit --amend --no-edit` — non-interactive squash preserving message
+- GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
+- GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject
+- GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote

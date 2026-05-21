@@ -1,0 +1,2 @@
+- GE-20260420-89f0c6: gh issue create does not support --json flag — capture issue number by parsing stdout URL
+- GE-20260429-7d31f6: `status` is a read-only variable in bash — silent failure when used as a function parameter

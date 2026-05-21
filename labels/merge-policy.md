@@ -1,0 +1,1 @@
+- GE-20260504-c51f9c: Disable squash/rebase merges across all org repos in one API loop

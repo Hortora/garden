@@ -1,1 +1,2 @@
 - GE-20260520-ebd8b7: Semantic Scholar public API returns full citation networks programmatically — no scraping needed
+- GE-20260422-458078: Spawn a research agent with targeted academic + standards queries to drive architecture decisions

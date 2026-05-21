@@ -1,0 +1,1 @@
+- GE-20260501-697d3e: Quarkus identity-tokenised repository query returns empty when tokeniseForQuery omitted on new method

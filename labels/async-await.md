@@ -1,0 +1,1 @@
+- GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them

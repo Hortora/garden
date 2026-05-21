@@ -1,0 +1,3 @@
+- GE-20260513-436312: mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure
+- GE-20260504-209c28: git push --all exits 0 even when some branches are rejected
+- GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)

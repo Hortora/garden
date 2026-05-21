@@ -1,0 +1,6 @@
+- GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
+- GE-20260511-a5f47d: Registry isKnown() silently bypasses capabilities() override when backed by a static field
+- GE-20260423-4aa1e0: JPA InheritanceType.JOINED forces all hierarchy entities into one persistence unit
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
+- GE-20260501-3c0de6: Hibernate generates invalid `check ((dtype in ()))` DDL when JPA subclasses are not on test classpath

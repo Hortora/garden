@@ -1,0 +1,1 @@
+- GE-20260502-c77725: MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator cancelling the surplus

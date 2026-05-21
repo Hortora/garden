@@ -1,2 +1,5 @@
 - GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
+- GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached
+- GE-20260421-654530: GitHub PR mergeable status is asynchronous after force push — stays CONFLICTING for 1+ minutes
+- GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'

@@ -1,0 +1,1 @@
+- GE-20260506-3096d9: rustkyll serve does not support --incremental flag despite build supporting it

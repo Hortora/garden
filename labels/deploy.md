@@ -1,0 +1,6 @@
+- GE-20260426-3e6b29: maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload
+- GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260426-d58530: GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths
+- GE-20260428-13d4ff: Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403)
+- GE-20260428-1ad5c4: GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails

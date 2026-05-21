@@ -1,0 +1,2 @@
+- GE-20260417-def63b: Python one-liner to resolve all merge conflicts in a file by uniformly taking one side
+- GE-20260421-f8f11c: Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit

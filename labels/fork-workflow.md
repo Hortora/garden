@@ -1,0 +1,1 @@
+- GE-20260416-eb035d: GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork

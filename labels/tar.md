@@ -1,0 +1,1 @@
+- GE-20260413-c7dc5b: python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator

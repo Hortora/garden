@@ -1,0 +1,2 @@
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment
+- GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode

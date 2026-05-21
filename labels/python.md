@@ -7,3 +7,20 @@
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
+- GE-20260421-cba54e: Use @Observes StartupEvent to mirror Python/Ruby auto-activation of shared singleton state at boot
+- GE-20260413-c7dc5b: python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator
+- GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code
+- GE-20260414-338984: sed appends trailing comment inside a Python string argument when the string is the last positional arg
+- GE-20260414-4d4976: Validator cross-checks silently do nothing when their HTML dependency is absent
+- GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision
+- GE-20260415-d07a2c: FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items
+- GE-20260417-def63b: Python one-liner to resolve all merge conflicts in a file by uniformly taking one side
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code
+- GE-20260420-ca3fb3: str.replace with list[0] silently no-ops when list order changes
+- GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable
+- GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring
+- GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
+- GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist
+- GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed
+- GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
+- GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation

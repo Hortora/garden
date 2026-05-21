@@ -1,0 +1,1 @@
+- GE-20260414-7fbf58: Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert

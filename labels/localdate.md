@@ -1,0 +1,1 @@
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type

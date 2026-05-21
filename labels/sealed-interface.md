@@ -1,0 +1,2 @@
+- GE-20260418-9b272f: Java Sealed Interface Exhaustiveness Breaks Build Mid-Plan When Type Creation and Wiring Are Separate Tasks
+- GE-20260517-66d611: Jackson ObjectMapperCustomizer mixin adds @JsonTypeInfo to sealed interface without polluting pure-Java api/ module

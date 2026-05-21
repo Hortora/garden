@@ -1,0 +1,1 @@
+- GE-20260420-de730c: git rebase-merge directory persists after session ends mid-rebase — blocks new rebases on any branch

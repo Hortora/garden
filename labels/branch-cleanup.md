@@ -1,0 +1,1 @@
+- GE-20260505-db8f1c: `git rebase --onto upstream/main <sha> branch` — drop a specific commit without interactive rebase

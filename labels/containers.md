@@ -1,0 +1,1 @@
+- GE-20260416-5df109: `podman machine rm` permanently destroys the VM — it is not a stop command

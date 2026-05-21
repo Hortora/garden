@@ -1,1 +1,3 @@
 - GE-20260520-ec2f39: Use jakarta.ws.rs-api (provided) not quarkus-rest when you only need JAX-RS @Provider annotations
+- GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope
+- GE-20260420-f3e0a7: Use `jar tf` to verify a class exists in an installed Maven artifact before attempting a compile

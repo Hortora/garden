@@ -1,0 +1,1 @@
+- GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required

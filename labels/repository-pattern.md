@@ -1,0 +1,1 @@
+- GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity

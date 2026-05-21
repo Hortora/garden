@@ -1,0 +1,1 @@
+- GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured

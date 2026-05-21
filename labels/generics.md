@@ -1,2 +1,13 @@
 - GE-20260519-eb8340: Instance<T>.handles() returns Iterable<? extends Instance.Handle<T>> — incompatible with Iterable<InstanceHandle<T>>
 - GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
+- GE-20260416-b57ee4: JavaParser NodeList.clone() returns raw Object — clone each element individually
+- GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference
+- GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature
+- GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference
+- GE-20260427-c94b12: Java erasure conflict at specific arity boundaries when adding ctx-optional filter overloads
+- GE-20260417-d1ba21: Two independent @PermuteTypeParam axes in one class produce duplicate type parameters
+- GE-20260417-f03d4f: @PermuteTypeParam on a non-first type parameter keeps A fixed and expands only the remainder
+- GE-20260426-14d193: Use T directly in @PermuteReturn typeArgs to avoid @PermuteTypeParam on standalone methods
+- GE-20260426-55d1b1: keepTemplate=true preserves sentinel type param even for empty @PermuteTypeParam range
+- GE-20260420-58520c: Reactive PanacheRepository<E> takes one type arg; use PanacheRepositoryBase<E,Id> for non-Long primary keys
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS

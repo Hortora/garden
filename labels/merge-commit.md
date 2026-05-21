@@ -1,0 +1,1 @@
+- GE-20260505-cc8247: `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit

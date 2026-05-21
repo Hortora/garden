@@ -1,0 +1,1 @@
+- GE-20260505-5601ef: `git reset --soft HEAD~1 && git commit --amend --no-edit` — non-interactive squash preserving message

@@ -1,0 +1,1 @@
+- GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas

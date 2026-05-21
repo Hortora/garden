@@ -1,1 +1,18 @@
 - GE-0087: Assert that `iframe.src` changes after a save, not that the iframe content changed
+- GE-20260428-7e57f9: @QuarkusTest always runs in mock profile — Playwright tests pass while the real application (replay/emulated) is broken
+- GE-20260429-07114f: PlaywrightBase BASE_URL hardcoded to 8081 breaks Quarkus random-port E2E tests
+- GE-20260429-272e6b: Quarkus sets `test.url` MicroProfile Config property in @QuarkusTest — actual bound URL including random port
+- GE-20260415-1788e5: fitAddon.fit() is a no-op in headless Playwright — terminal.onResize never fires
+- GE-20260415-20f08f: Playwright page.request() does not inherit page.setExtraHTTPHeaders()
+- GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260422-164498: Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection
+- GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
+- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view
+- GE-20260427-f26db0: Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling
+- GE-20260428-5757e3: Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel
+- GE-20260501-9e8490: Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM
+- GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld

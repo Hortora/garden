@@ -1,0 +1,1 @@
+- GE-20260413-66dbe0: Jekyll permalink: pretty silently breaks all relative image paths

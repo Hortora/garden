@@ -1,0 +1,1 @@
+- GE-20260423-e92da0: IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead

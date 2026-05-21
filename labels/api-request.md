@@ -1,0 +1,1 @@
+- GE-20260415-20f08f: Playwright page.request() does not inherit page.setExtraHTTPHeaders()

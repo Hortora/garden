@@ -1,0 +1,1 @@
+- GE-20260414-4d4976: Validator cross-checks silently do nothing when their HTML dependency is absent

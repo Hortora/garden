@@ -1,0 +1,1 @@
+- GE-20260415-748447: Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first

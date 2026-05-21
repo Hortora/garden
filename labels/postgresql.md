@@ -1,0 +1,8 @@
+- GE-20260514-e5797b: CHECK constraint tying discriminator to key column nullity makes schema self-enforcing
+- GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N
+- GE-20260428-0482d3: Quarkus augmentation cache is disk-based — reuseForks=false does NOT clear it
+- GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
+- GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types
+- GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type
+- GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException

@@ -1,0 +1,2 @@
+- GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type

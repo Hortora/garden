@@ -1,0 +1,1 @@
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage

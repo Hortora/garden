@@ -1,1 +1,4 @@
 - GE-20260521-e39ad1: CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor
+- GE-20260517-5879a9: ChannelGateway.receiveHumanMessage() passes correlationId=null — Commitment auto-state-machine never fires for human responses
+- GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null
+- GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED

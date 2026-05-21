@@ -1,0 +1,1 @@
+- GE-20260428-6d75d7: Panache/JPA count methods may return int rather than long — check the actual return type

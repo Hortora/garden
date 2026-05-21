@@ -1,0 +1,17 @@
+- GE-20260413-83dedd: GitHub Pages `configure-pages` action fails if Pages not enabled via API first
+- GE-20260422-8e9873: GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead
+- GE-20260426-165fd9: jq @base64 wraps output at 76 chars — breaks while-read-r line-by-line parsing in bash
+- GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry
+- GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
+- GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch
+- GE-20260426-a91e05: actions/checkout@v6 with ref: <SHA> fails silently when fetch-depth=1
+- GE-20260428-1ad5c4: GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails
+- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
+- GE-20260501-04667c: GitHub Actions steps.outcome vs steps.conclusion — continue-on-error masks real failures
+- GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard
+- GE-20260501-8320ae: GitHub org secret set with --org defaults to private repos — public repos silently get nothing
+- GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
+- GE-20260501-d9c2d7: GITHUB_TOKEN returns 403 on cross-repo repository_dispatch — needs classic PAT
+- GE-20260501-e6bf89: GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs
+- GE-20260501-fc1cc6: GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push'
+- GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence

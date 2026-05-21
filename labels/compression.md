@@ -1,0 +1,1 @@
+- GE-20260420-b9c06c: java.util.zip.ZipInputStream rejects BZip2-compressed ZIP entries with 'invalid compression method'

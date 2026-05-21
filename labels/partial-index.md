@@ -1,0 +1,1 @@
+- GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure

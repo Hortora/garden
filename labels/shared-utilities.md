@@ -1,0 +1,1 @@
+- GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences

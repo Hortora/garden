@@ -1,0 +1,4 @@
+- GE-20260512-552405: @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning
+- GE-20260414-614675: Use Optional<String> in @ConfigMapping for optional string properties that can be legitimately absent
+- GE-20260414-a2e8a3: @WithDefault("") in @ConfigMapping throws ConfigValidationException — empty string treated as null
+- GE-20260513-a2f5b7: @WithDefault("") on a String method in @ConfigMapping causes ConfigValidationException at Quarkus startup

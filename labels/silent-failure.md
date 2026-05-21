@@ -1,0 +1,22 @@
+- GE-20260501-11ce7f: MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing
+- GE-20260416-ca1c71: Maven *IT.java test files are silently skipped by mvn test — failsafe convention
+- GE-20260429-61810f: JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows
+- GE-20260505-e89194: PlayerState refactor leaves supply=0 — silently blocks all TrainIntent processing
+- GE-20260508-b4c9b4: quarkus-rest does not include Bean Validation — @NotBlank/@Valid silently ignored without quarkus-hibernate-validator
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment
+- GE-20260512-67b3b5: Panache find() alias-prefixed field names return empty results silently — bare field names required
+- GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases
+- GE-20260421-bbc3a9: @PermuteParam inside @PermuteMethod silently skips expansion — inner variable not in scope
+- GE-20260421-c37188: EvaluationContext.evaluate() always returns String — numeric macros silently break evaluateInt()
+- GE-20260414-22e35f: Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing
+- GE-20260414-4bd3cb: validate_links.py uses requests.get not requests.head — wrong mock target causes silently-passing tests
+- GE-20260414-7fbf58: Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert
+- GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead
+- GE-20260501-50a9f4: quarkus-mcp-server silently caps tools/list at 50 — tools beyond alphabetical position 50 simply don't appear
+- GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper
+- GE-20260414-4d4976: Validator cross-checks silently do nothing when their HTML dependency is absent
+- GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS
+- GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
+- GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
+- GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty

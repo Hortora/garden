@@ -1,0 +1,1 @@
+- GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead

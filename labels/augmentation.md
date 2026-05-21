@@ -1,1 +1,9 @@
 - GE-20260520-48e1d4: @BuildStep producing ExcludedTypeBuildItem silently not invoked during Quarkus test augmentation from workspace deployment module
+- GE-20260414-be9977: Quarkus extension activation uses quarkus-extension.properties not quarkus-extension.yaml for deployment-artifact
+- GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
+- GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file
+- GE-20260428-0482d3: Quarkus augmentation cache is disk-based — reuseForks=false does NOT clear it
+- GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
+- GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision
+- GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
+- GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error

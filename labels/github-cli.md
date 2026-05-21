@@ -1,1 +1,7 @@
 - GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser
+- GE-20260420-89f0c6: gh issue create does not support --json flag — capture issue number by parsing stdout URL
+- GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
+- GE-20260428-dc4232: `gh issue create --label` silently fails with 'could not add label' if label doesn't exist in repo
+- GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
+- GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
+- GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure

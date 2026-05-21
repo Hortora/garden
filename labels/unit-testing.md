@@ -1,0 +1,3 @@
+- GE-20260416-262221: Override Random.nextDouble() via anonymous subclass to force always-hit/always-miss in probability tests
+- GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI

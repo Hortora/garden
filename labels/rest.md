@@ -1,2 +1,6 @@
 - GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
 - GE-20260518-e4fa52: RESTEasy Reactive endpoints that call .await() on the IO thread throw BlockingOperationNotAllowedException — add @Blocking
+- GE-20260508-b4c9b4: quarkus-rest does not include Bean Validation — @NotBlank/@Valid silently ignored without quarkus-hibernate-validator
+- GE-20260516-4bf0dc: quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI
+- GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection
+- GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods

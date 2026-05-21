@@ -3,3 +3,11 @@
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
 - GE-20260519-dcdac5: @Transactional on a called method is silently dropped when invoked via self-call from an @ObservesAsync observer
+- GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
+- GE-20260513-a49d06: CDI this.method() call bypasses @Transactional proxy — annotation silently dead on delegating overloads
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
+- GE-20260420-4b55e2: Micrometer Gauge beans need @Startup + public @Transactional methods — three interacting gotchas
+- GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit
+- GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
+- GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy

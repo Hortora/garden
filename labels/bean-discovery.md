@@ -1,1 +1,4 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
+- GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
+- GE-20260424-59906a: Quarkus CDI does not scan @ApplicationScoped beans in plain JAR module dependencies
+- GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index

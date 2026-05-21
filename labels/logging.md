@@ -1,0 +1,2 @@
+- GE-20260416-8fc4c5: Quarkus dev mode log file deleted while JVM holds it open — 161GB invisible disk usage, only visible via lsof
+- GE-20260416-99d4c6: Profile-scoped Quarkus file logging enables grep-based remote debugging

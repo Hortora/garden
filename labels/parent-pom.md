@@ -1,0 +1,1 @@
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it

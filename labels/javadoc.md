@@ -1,0 +1,2 @@
+- GE-20260512-552405: @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning
+- GE-20260414-c87a14: @ConfigMapping in a Quarkus extension requires Javadoc on every method, including group accessors

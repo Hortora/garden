@@ -1,1 +1,8 @@
 - GE-20260519-23b704: Lifecycle guard ordering: status check must precede policy check to prevent phantom audit entries
+- GE-20260427-bf4338: WorkItemStatus.EXPIRED.isTerminal() returns false — EXPIRED is not treated as terminal by quarkus-work
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
+- GE-20260429-cd60ee: Add completeFromSystem()/rejectFromSystem() to WorkItemService to bypass human-actor lifecycle guards
+- GE-20260415-e112ca: Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need
+- GE-20260430-84bef2: serverlessworkflow sdk-java: WorkflowExecutionListener exceptions are silently swallowed as suppressed exceptions — listener appears not to have fired
+- GE-20260414-963a6d: Hibernate @PreUpdate fires at flush time, not at persist() — denormalized fields are stale in the returned object
+- GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead

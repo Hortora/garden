@@ -1,0 +1,1 @@
+- GE-20260427-0e7508: Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules

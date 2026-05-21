@@ -1,0 +1,10 @@
+- GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented
+- GE-20260508-492336: casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
+- GE-20260414-3153fe: @QuarkusIntegrationTest must live in a separate module from the extension runtime
+- GE-20260420-45d53b: quarkus.datasource.reactive=false suppresses Hibernate Reactive boot when extension is on classpath but no reactive pool exists
+- GE-20260420-cbd0fa: Quarkus Hibernate Reactive @QuarkusTest cannot use H2 — vertx-jdbc-client alone doesn't register the reactive pool factory
+- GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests
+- GE-20260422-13f53b: Quarkus @TestProfile restarts don't inherit test application.properties datasource config
+- GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
+- GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision

@@ -1,0 +1,2 @@
+- GE-20260415-dfa8ba: @RegisterProvider on @RegisterRestClient not honoured by RestClientBuilder.newBuilder()
+- GE-20260501-71e164: `gh api` exit code 4 means authentication failure specifically — not a generic error

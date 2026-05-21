@@ -1,0 +1,1 @@
+- GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null

@@ -1,0 +1,1 @@
+- GE-20260501-e6bf89: GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs

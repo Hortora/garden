@@ -1,1 +1,9 @@
 - GE-20260519-28275c: @Transactional(REQUIRES_NEW) must return normally — a throw rolls back its own transaction too
+- GE-20260428-29b30e: Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues
+- GE-20260428-5c3e93: REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260427-893862: @Observes(during = AFTER_SUCCESS) for post-commit side effects that must not fire on rollback
+- GE-20260501-884024: @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active
+- GE-20260505-c8514a: @TestTransaction prevents cross-test message leakage when gateway inbound persists messages inside @QuarkusTest
+- GE-20260505-d702f0: Routing through a gateway method inside @Transactional causes double-persist — split the persistence call from the fan-out
+- GE-20260512-d0fa82: H2 + two Agroal datasources in one @Transactional method fails with 'Failed to enlist' — requires transactions=xa

@@ -1,0 +1,4 @@
+- GE-20260513-4c4205: Use AtomicInteger call counter in Supplier<String> to distinguish SSE events by content in tests
+- GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
+- GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException
+- GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames

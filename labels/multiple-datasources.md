@@ -1,0 +1,1 @@
+- GE-20260422-f86f42: Quarkus dual-PU setup with a library dependency that injects @Default EntityManager requires a dummy default datasource + minimal packages config

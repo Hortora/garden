@@ -1,0 +1,2 @@
+- GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
+- GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException

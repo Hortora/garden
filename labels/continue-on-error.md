@@ -1,0 +1,1 @@
+- GE-20260501-04667c: GitHub Actions steps.outcome vs steps.conclusion — continue-on-error masks real failures

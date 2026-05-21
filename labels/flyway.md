@@ -3,3 +3,19 @@
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
+- GE-20260423-037747: quarkus.flyway.out-of-order=true required when Testcontainers DB is reused across runs with RYUK disabled
+- GE-20260429-ede58e: quarkus.flyway.migrate-at-start is build-time fixed — test application.properties cannot override a jar's microprofile-config.properties value
+- GE-20260512-2c2eff: Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment
+- GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode
+- GE-20260512-ea776c: Quarkus named persistence units silently skip schema generation — explicit config required per named PU
+- GE-20260514-636916: Flyway migration numbering: always verify existing files before naming — prior sessions may have added higher-numbered migrations
+- GE-20260514-e5797b: CHECK constraint tying discriminator to key column nullity makes schema self-enforcing
+- GE-20260414-22f094: H2 rejects 'key' as a column name — syntax error with no hint it's a reserved word
+- GE-20260415-d7a439: Quarkus extension Flyway migrations run in global numeric order — subclass join tables must be numbered above the extension's base schema
+- GE-20260417-2e4d46: Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema
+- GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
+- GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
+- GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
+- GE-20260427-59ea5d: Flyway version collision when optional Quarkus module shares classpath with runtime module
+- GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types

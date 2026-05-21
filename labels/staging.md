@@ -1,1 +1,7 @@
 - GE-20260519-c93fd8: `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones
+- GE-20260501-66625a: git commit bundles other sessions' staged files — git add <file> does not limit what gets committed
+- GE-20260505-9cf5c8: git mv fails 'not under version control' for files copied but never git-added
+- GE-20260505-adae54: git add -u <dir> stages tracked deletions and triggers git's rename detection
+- GE-20260513-01e602: Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout
+- GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm
+- GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions

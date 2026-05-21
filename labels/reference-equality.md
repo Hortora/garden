@@ -1,0 +1,1 @@
+- GE-20260421-707db1: WeakHashMap uses equals/hashCode for key lookup — use IdentityHashMap for reference-equality keying

@@ -1,0 +1,1 @@
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code

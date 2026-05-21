@@ -1,0 +1,1 @@
+- GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision

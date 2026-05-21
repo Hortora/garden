@@ -1,0 +1,2 @@
+- GE-20260428-7e57f9: @QuarkusTest always runs in mock profile — Playwright tests pass while the real application (replay/emulated) is broken
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel

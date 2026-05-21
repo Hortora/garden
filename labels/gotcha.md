@@ -1,0 +1,1 @@
+- GE-20260513-3c1a03: @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP

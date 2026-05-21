@@ -1,0 +1,1 @@
+- GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409

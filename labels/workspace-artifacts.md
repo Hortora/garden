@@ -1,0 +1,1 @@
+- GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history

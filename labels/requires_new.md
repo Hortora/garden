@@ -1,0 +1,1 @@
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails

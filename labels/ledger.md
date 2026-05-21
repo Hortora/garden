@@ -1,1 +1,7 @@
 - GE-20260519-e13b01: @QuarkusTest in casehub harness app crashes with ClassSelector resolution failed when casehub-ledger runtime is on classpath
+- GE-20260420-b9259e: LedgerAttestation in quarkus-ledger 1.0.0-SNAPSHOT is plain @Entity — Panache statics cause compile error
+- GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface
+- GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences
+- GE-20260501-11ce7f: MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing
+- GE-20260501-b12416: MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries

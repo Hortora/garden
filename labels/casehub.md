@@ -1,1 +1,10 @@
 - GE-20260519-e13b01: @QuarkusTest in casehub harness app crashes with ClassSelector resolution failed when casehub-ledger runtime is on classpath
+- GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
+- GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
+- GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260428-a67806: casehub-engine Vert.x event-bus handlers lack @Blocking — JPA consumer calls fail from IO thread
+- GE-20260508-492336: casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup
+- GE-20260514-e340ee: Evaluate a JQ template against an external map by constructing a temporary CaseContextImpl
+- GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
+- GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED

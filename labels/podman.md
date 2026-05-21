@@ -1,1 +1,3 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260515-cd1653: Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed
+- GE-20260416-5df109: `podman machine rm` permanently destroys the VM — it is not a stop command

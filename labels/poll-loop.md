@@ -1,0 +1,1 @@
+- GE-20260414-9b2b14: `wait_for_reply` cancellation requires the cancel to happen WHILE the poll loop is running

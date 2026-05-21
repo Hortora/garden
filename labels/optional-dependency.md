@@ -1,0 +1,2 @@
+- GE-20260515-ffde26: Optional Quarkus features: Jandex library module pattern
+- GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests

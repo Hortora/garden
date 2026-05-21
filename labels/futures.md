@@ -1,0 +1,1 @@
+- GE-20260428-f075ef: Race-free CompletableFuture per-item pattern for CDI async event tests

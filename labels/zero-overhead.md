@@ -1,0 +1,1 @@
+- GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path

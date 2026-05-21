@@ -1,0 +1,3 @@
+- GE-20260414-0a7d31: bash $() strips trailing newlines — git commit --amend footer concatenates to last line
+- GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
+- GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject

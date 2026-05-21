@@ -1,0 +1,2 @@
+- GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
+- GE-20260424-64118d: gh repo transfer has no --yes flag — use the API directly

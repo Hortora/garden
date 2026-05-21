@@ -1,0 +1,1 @@
+- GE-20260511-a5f47d: Registry isKnown() silently bypasses capabilities() override when backed by a static field

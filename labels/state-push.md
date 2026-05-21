@@ -1,0 +1,1 @@
+- GE-20260422-b0c097: Quarkus game engine leaveGame() silently breaks WebSocket state delivery for late-connecting clients

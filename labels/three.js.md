@@ -1,0 +1,3 @@
+- GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
+- GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld

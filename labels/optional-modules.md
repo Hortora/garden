@@ -1,0 +1,1 @@
+- GE-20260427-59ea5d: Flyway version collision when optional Quarkus module shares classpath with runtime module

@@ -1,1 +1,8 @@
 - GE-20260421-03fa72: Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules
+- GE-20260430-b015f5: quarkus-mcp-server silently drops @Tool on methods with public same-name overloads
+- GE-20260515-ffde26: Optional Quarkus features: Jandex library module pattern
+- GE-20260516-2805b7: Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment
+- GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
+- GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
+- GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index
+- GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level

@@ -1,0 +1,1 @@
+- GE-20260506-25d851: Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild

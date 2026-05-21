@@ -1,0 +1,7 @@
+- GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands
+- GE-20260422-e72442: --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list
+- GE-20260504-9c9b01: Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt
+- GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
+- GE-20260426-61854e: Create GitHub org team and grant write access to all repos via gh CLI — no browser needed
+- GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible
+- GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied

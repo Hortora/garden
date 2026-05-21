@@ -47,3 +47,170 @@
 | GE-20260521-effd2f | Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path | gotcha | 11/15 |
 | GE-20260521-effd2f | Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path | gotcha | 11/15 |
 | GE-20260521-aba9c9 | assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check | gotcha | 10/15 |
+| GE-20260428-9571b8 | Bayesian Beta trust model may store confidence as a field but not use it in the update weight | gotcha | 10/15 |
+| GE-20260429-a9bd85 | CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write | undocumented | 9/15 |
+| GE-20260512-59a501 | CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy | gotcha | 11/15 |
+| GE-20260512-5bcc7b | Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy | technique | 10/15 |
+| GE-20260512-b0eea3 | CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted | gotcha | 10/15 |
+| GE-20260501-11ce7f | MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing | gotcha | 11/15 |
+| GE-20260501-b12416 | MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries | gotcha | 10/15 |
+| GE-20260423-3be346 | WorkerCandidate.of(id) creates empty capabilities — WorkBroker filters all candidates when requiredCapabilities is non-null | gotcha | 12/15 |
+| GE-20260501-29e3b8 | QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives | gotcha | 8/15 |
+| GE-20260502-c77725 | MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator cancelling the surplus | gotcha | 12/15 |
+| GE-20260513-74dc72 | casehub-work requires io.casehub.work.runtime.filter in Hibernate scan packages — omitting it causes FilterRule entity-not-found at startup | gotcha | 10/15 |
+| GE-20260421-09d636 | EigenTrust: pre-trusted distribution as dangling-node fallback creates 3-cycle non-convergence | gotcha | 11/15 |
+| GE-20260421-28c521 | Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference | technique | 13/15 |
+| GE-20260421-473024 | Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss | gotcha | 11/15 |
+| GE-20260421-efa107 | Maven -Dexcludes does not suppress Quarkus @QuarkusTest class-loader failures — use Maven profiles instead | gotcha | 11/15 |
+| GE-20260422-0ed3e5 | CDI container wiring vs service-loader wiring in large JVM frameworks | architectural | 11/15 |
+| GE-20260422-53d0f7 | JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works | technique | 10/15 |
+| GE-20260422-70b817 | Span.wrap(SpanContext).makeCurrent() creates OTel trace context in tests without SDK | technique | 10/15 |
+| GE-20260422-e48245 | @DefaultBean lives in io.quarkus.arc, not jakarta.enterprise.inject | gotcha | 11/15 |
+| GE-20260423-037747 | quarkus.flyway.out-of-order=true required when Testcontainers DB is reused across runs with RYUK disabled | undocumented | 10/15 |
+| GE-20260423-29f45a | BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI | technique | 11/15 |
+| GE-20260423-878486 | quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+ | gotcha | 10/15 |
+| GE-20260423-bcb5b7 | quarkus-work-core registers both LeastLoadedStrategy and ClaimFirstStrategy as @ApplicationScoped CDI beans — injecting WorkerSelectionStrategy interface causes AmbiguousResolutionException | gotcha | 11/15 |
+| GE-20260423-c8d8cb | ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost | gotcha | 13/15 |
+| GE-20260423-daef97 | CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately | gotcha | 13/15 |
+| GE-20260423-fce720 | quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup | gotcha | 11/15 |
+| GE-20260424-275fdc | Maven SNAPSHOT jar persists in ~/.m2 when source bumps version — stale annotations cause misleading CDI errors | gotcha | 13/15 |
+| GE-20260424-318ef3 | Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module | gotcha | 9/15 |
+| GE-20260424-439ccb | JPA unique constraint on a business key blocks delegation chains where multiple records share the same key | gotcha | 10/15 |
+| GE-20260424-647a6d | Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes | technique | 10/15 |
+| GE-20260424-807b7e | assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error | gotcha | 8/15 |
+| GE-20260424-a02588 | CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions | technique | 12/15 |
+| GE-20260424-a55003 | Adding a field to a Java record breaks every positional constructor call silently until compile time | gotcha | 9/15 |
+| GE-20260424-e33d79 | Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers | gotcha | 13/15 |
+| GE-20260427-0e7508 | Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules | gotcha | 10/15 |
+| GE-20260427-226217 | Wrap at store time to add ctx-optional API variants without changing the fire path | technique | 9/15 |
+| GE-20260427-23f4a7 | Reflection-based predicate invocation must detect ctx-first vs no-ctx arity to avoid wrong-number-of-arguments | gotcha | 10/15 |
+| GE-20260427-c94b12 | Java erasure conflict at specific arity boundaries when adding ctx-optional filter overloads | gotcha | 10/15 |
+| GE-20260428-096e90 | JPA FK without CASCADE requires manual child deletion before parent deletion | gotcha | 10/15 |
+| GE-20260428-29b30e | Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues | technique | 9/15 |
+| GE-20260428-5c3e93 | REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state | gotcha | 12/15 |
+| GE-20260428-6d75d7 | Panache/JPA count methods may return int rather than long — check the actual return type | undocumented | 8/15 |
+| GE-20260428-7e57f9 | @QuarkusTest always runs in mock profile — Playwright tests pass while the real application (replay/emulated) is broken | gotcha | 12/15 |
+| GE-20260428-b966bd | Vert.x pub/sub fan-out race: mutable completion index overwritten by re-triggered component | gotcha | 10/15 |
+| GE-20260428-f075ef | Race-free CompletableFuture per-item pattern for CDI async event tests | technique | 10/15 |
+| GE-20260429-101efe | H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns | undocumented | 11/15 |
+| GE-20260429-177cbe | Map.of() / Map.ofEntries() throw NPE on get(null), not return null | gotcha | 10/15 |
+| GE-20260429-21e6cf | Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers | gotcha | 11/15 |
+| GE-20260429-42fb02 | Bayesian Beta trust score returns 0.5 for no evidence, not 1.0 | gotcha | 9/15 |
+| GE-20260429-61810f | JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows | gotcha | 10/15 |
+| GE-20260429-68ee24 | @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true | gotcha | 11/15 |
+| GE-20260429-a79d0e | @Alternative @Priority(N) in Quarkus CDI auto-activates without quarkus.arc.selected-alternatives config | technique | 9/15 |
+| GE-20260429-ede58e | quarkus.flyway.migrate-at-start is build-time fixed — test application.properties cannot override a jar's microprofile-config.properties value | gotcha | 9/15 |
+| GE-20260429-f17b24 | Recency decay tests silently pass wrong assertion when attestation.occurredAt is null | gotcha | 8/15 |
+| GE-20260430-0042ff | Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required | gotcha | 11/15 |
+| GE-20260430-3275b1 | GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes | gotcha | 12/15 |
+| GE-20260430-84bef2 | serverlessworkflow sdk-java: WorkflowExecutionListener exceptions are silently swallowed as suppressed exceptions — listener appears not to have fired | gotcha | 9/15 |
+| GE-20260430-b015f5 | quarkus-mcp-server silently drops @Tool on methods with public same-name overloads | undocumented | 13/15 |
+| GE-20260501-56e179 | ThreadLocal set on calling thread is invisible inside CompletableFuture.supplyAsync() | gotcha | 12/15 |
+| GE-20260501-697d3e | Quarkus identity-tokenised repository query returns empty when tokeniseForQuery omitted on new method | gotcha | 11/15 |
+| GE-20260501-76cc3c | IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched | technique | 10/15 |
+| GE-20260501-ab68c1 | Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC | gotcha | 10/15 |
+| GE-20260501-b1874b | Test CDI @Inject fields in plain unit tests by making them package-private and setting directly | technique | 10/15 |
+| GE-20260501-b88737 | Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage | gotcha | 10/15 |
+| GE-20260501-b89a0d | Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields | technique | 10/15 |
+| GE-20260501-e13ed0 | Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root | gotcha | 9/15 |
+| GE-20260504-104371 | @ConfigProperty fields are null when @ApplicationScoped bean is instantiated with new outside CDI | gotcha | 10/15 |
+| GE-20260504-5b9269 | Nested Collectors.groupingBy produces O(M) multi-key grouping without re-streaming | technique | 10/15 |
+| GE-20260505-43a73b | Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call | gotcha | 10/15 |
+| GE-20260505-c07ffa | Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override | technique | 9/15 |
+| GE-20260505-da346d | @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread | undocumented | 8/15 |
+| GE-20260505-e89194 | PlayerState refactor leaves supply=0 — silently blocks all TrainIntent processing | gotcha | 10/15 |
+| GE-20260508-3a77c5 | Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet | gotcha | 12/15 |
+| GE-20260508-b4c9b4 | quarkus-rest does not include Bean Validation — @NotBlank/@Valid silently ignored without quarkus-hibernate-validator | gotcha | 11/15 |
+| GE-20260508-ce2285 | UUID-suffix business keys in @QuarkusTest to prevent H2 in-memory shared-state conflicts | technique | 11/15 |
+| GE-20260511-0b3fa2 | Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it | undocumented | 9/15 |
+| GE-20260511-2b3d3e | Express trust-phase logic as methods on the routing policy value object, not the router | technique | 9/15 |
+| GE-20260511-5be2d2 | Maven -rf resume uses stale .m2 jar from failed earlier module — causes impossible compilation errors | gotcha | 12/15 |
+| GE-20260511-ce1c9d | Java package move breaks wildcard imports and same-package implicit imports — two silent failures | gotcha | 10/15 |
+| GE-20260512-0fe012 | CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits | gotcha | 12/15 |
+| GE-20260512-1fa51e | @Scheduled interval without $ prefix silently uses literal string as duration — fires at wrong frequency | gotcha | 11/15 |
+| GE-20260512-2c2eff | Non-ANSI SQL types in Flyway migrations pass H2 tests silently but fail on PostgreSQL at deployment | gotcha | 13/15 |
+| GE-20260512-47f92e | quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact | gotcha | 10/15 |
+| GE-20260512-493c90 | @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire | gotcha | 12/15 |
+| GE-20260512-50b394 | Use @TestTransaction + unique identifiers to prevent @Scheduled interference in Quarkus tests | technique | 11/15 |
+| GE-20260512-523f68 | Quarkus dev mode hot-reload silently breaks WebSocket endpoint registration — full restart required | gotcha | 10/15 |
+| GE-20260512-552405 | @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning | gotcha | 11/15 |
+| GE-20260512-66d997 | Panache static methods bypass CDI @Alternative stores — returns empty results silently | gotcha | 12/15 |
+| GE-20260512-67b3b5 | Panache find() alias-prefixed field names return empty results silently — bare field names required | gotcha | 12/15 |
+| GE-20260512-6887c9 | @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean | gotcha | 11/15 |
+| GE-20260512-6d0c2b | BroadcastProcessor.onNext() throws BackPressureFailure when no subscribers are registered | gotcha | 10/15 |
+| GE-20260512-7720ab | H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode | gotcha | 11/15 |
+| GE-20260512-9f4de6 | Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor | gotcha | 9/15 |
+| GE-20260512-a09bd3 | Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures | technique | 10/15 |
+| GE-20260512-a3838e | Transitive hibernate-reactive-panache on classpath causes H2 test startup failure — disable reactive datasource in test config | gotcha | 12/15 |
+| GE-20260512-a9ad9f | Raw ExecutorService drops CDI context — @Transactional silently broken on background threads | gotcha | 11/15 |
+| GE-20260512-b3f32a | @IfBuildProperty/@UnlessBuildProperty evaluated at augmentation only — QuarkusTestProfile properties have no effect on bean activation | gotcha | 13/15 |
+| GE-20260512-c246b0 | Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans | technique | 11/15 |
+| GE-20260512-c30f52 | @QuarkusIntegrationTest in the runtime module causes class loading failures — separate integration-tests/ module required | gotcha | 11/15 |
+| GE-20260512-e3e525 | OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED | technique | 12/15 |
+| GE-20260512-e552f7 | @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite | gotcha | 12/15 |
+| GE-20260512-ea776c | Quarkus named persistence units silently skip schema generation — explicit config required per named PU | gotcha | 12/15 |
+| GE-20260513-3c1a03 | @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP | gotcha | 11/15 |
+| GE-20260513-4c4205 | Use AtomicInteger call counter in Supplier<String> to distinguish SSE events by content in tests | technique | 10/15 |
+| GE-20260513-a49d06 | CDI this.method() call bypasses @Transactional proxy — annotation silently dead on delegating overloads | gotcha | 12/15 |
+| GE-20260513-b15933 | @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly | gotcha | 11/15 |
+| GE-20260513-b9df01 | Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state | technique | 10/15 |
+| GE-20260513-e04f26 | Store configuration on the runtime entity to eliminate a parallel callback registry | architectural | 10/15 |
+| GE-20260514-056bc5 | Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch | technique | 9/15 |
+| GE-20260514-36f3ef | Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them | gotcha | 10/15 |
+| GE-20260514-421a6e | ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks | technique | 10/15 |
+| GE-20260514-477d2f | Hibernate 6 SessionFactoryObserverForNamedQueryValidation throws at boot for schema-drifted JARs — quarkus property overrides don't suppress it | gotcha | 11/15 |
+| GE-20260514-636916 | Flyway migration numbering: always verify existing files before naming — prior sessions may have added higher-numbered migrations | gotcha | 9/15 |
+| GE-20260514-83ee13 | @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject | gotcha | 9/15 |
+| GE-20260514-875f82 | Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests | gotcha | 9/15 |
+| GE-20260514-e340ee | Evaluate a JQ template against an external map by constructing a temporary CaseContextImpl | technique | 9/15 |
+| GE-20260514-e5797b | CHECK constraint tying discriminator to key column nullity makes schema self-enforcing | technique | 11/15 |
+| GE-20260515-6e8205 | Three-tier Maven module structure — api/common/runtime | convention | 12/15 |
+| GE-20260515-70021c | Always scope Maven commands to a specific module with -pl | technique | 9/15 |
+| GE-20260515-99cf39 | Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override | technique | 11/15 |
+| GE-20260515-c272d2 | Quartz job store: RAM store for stateless scheduling | convention | 10/15 |
+| GE-20260515-cd1653 | Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed | gotcha | 10/15 |
+| GE-20260515-da8abd | Maven submodule folder names — short, no repo-name prefix | convention | 9/15 |
+| GE-20260515-ed10ee | Awaitility untilAsserted gives weaker guarantee than during for exact async event counts | gotcha | 13/15 |
+| GE-20260515-fd3156 | @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not | gotcha | 13/15 |
+| GE-20260515-ffde26 | Optional Quarkus features: Jandex library module pattern | convention | 12/15 |
+| GE-20260516-2805b7 | Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment | gotcha | 9/15 |
+| GE-20260516-3a27dc | Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS | gotcha | 13/15 |
+| GE-20260516-4bf0dc | quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI | gotcha | 12/15 |
+| GE-20260516-8375d5 | A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive | gotcha | 12/15 |
+| GE-20260516-e137f6 | QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile | technique | 10/15 |
+| GE-20260517-0823c8 | Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos | gotcha | 12/15 |
+| GE-20260517-11dd6b | IllegalArgumentException catch around UUID.fromString + downstream call swallows unrelated errors | gotcha | 11/15 |
+| GE-20260517-5879a9 | ChannelGateway.receiveHumanMessage() passes correlationId=null — Commitment auto-state-machine never fires for human responses | gotcha | 13/15 |
+| GE-20260517-5b8e78 | casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools | undocumented | 12/15 |
+| GE-20260517-5de55b | MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null | undocumented | 11/15 |
+| GE-20260517-66d611 | Jackson ObjectMapperCustomizer mixin adds @JsonTypeInfo to sealed interface without polluting pure-Java api/ module | technique | 10/15 |
+| GE-20260517-712fe5 | Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest` | technique | 11/15 |
+| GE-20260517-7471c7 | Java HttpClient silently returns empty result for file:// URLs | gotcha | 11/15 |
+| GE-20260517-8d62e3 | casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null | gotcha | 10/15 |
+| GE-20260517-9006f7 | `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact | technique | 9/15 |
+| GE-20260517-9181a6 | Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId | technique | 11/15 |
+| GE-20260517-92a95d | WorkItemCreateRequest record fields expanded in casehub-work 0.2-SNAPSHOT — parentId (UUID) and labels (List<String>) added | gotcha | 9/15 |
+| GE-20260517-9e571a | @Typed required when CDI bean implements a framework-owned interface to prevent AmbiguousResolutionException | gotcha | 10/15 |
+| GE-20260517-a6d608 | DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides | technique | 11/15 |
+| GE-20260517-aaf0a7 | List.getLast() — O(1) last-element access via Java 21 SequencedCollection | technique | 10/15 |
+| GE-20260517-da2a42 | casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409 | gotcha | 9/15 |
+| GE-20260517-e10a0f | casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED | gotcha | 10/15 |
+| GE-20260517-e78ae8 | JPA entity returned from @Transactional method is detached — field mutations silently lost | gotcha | 13/15 |
+| GE-20260517-f28d15 | qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels | gotcha | 10/15 |
+| GE-20260517-f31786 | `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()` | gotcha | 9/15 |
+| GE-20260521-3ce7ca | @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives | gotcha | 11/15 |
+| GE-20260521-4de4f1 | QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append | gotcha | 9/15 |
+| GE-20260420-1d1452 | @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time | technique | 9/15 |
+| GE-20260420-86180e | em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context | gotcha | 12/15 |
+| GE-20260420-d99177 | @QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data | gotcha | 10/15 |
+| GE-20260424-883890 | Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file | gotcha | 8/15 |
+| GE-20260427-543663 | @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative | technique | 11/15 |
+| GE-20260427-59ea5d | Flyway version collision when optional Quarkus module shares classpath with runtime module | gotcha | 12/15 |
+| GE-20260427-893862 | @Observes(during = AFTER_SUCCESS) for post-commit side effects that must not fire on rollback | technique | 12/15 |
+| GE-20260501-0586a4 | Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met | technique | 10/15 |
+| GE-20260501-4c94b8 | Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException | gotcha | 13/15 |
+| GE-20260501-884024 | @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active | gotcha | 11/15 |
+| GE-20260501-9de50b | @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear() | gotcha | 12/15 |
+| GE-20260513-4f26a7 | @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority | technique | 10/15 |
+| GE-20260521-3ce7ca | @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives | gotcha | 11/15 |
+| GE-20260521-4de4f1 | QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append | gotcha | 9/15 |

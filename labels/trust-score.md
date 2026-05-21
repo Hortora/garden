@@ -1,0 +1,2 @@
+- GE-20260429-42fb02: Bayesian Beta trust score returns 0.5 for no evidence, not 1.0
+- GE-20260429-f17b24: Recency decay tests silently pass wrong assertion when attestation.occurredAt is null

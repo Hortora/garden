@@ -1,0 +1,1 @@
+- GE-20260417-988839: WorldState.get() returns false for absent keys — open-world semantics

@@ -1,0 +1,1 @@
+- GE-20260422-e72442: --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list

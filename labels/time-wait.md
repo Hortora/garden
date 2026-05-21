@@ -1,0 +1,1 @@
+- GE-20260415-ffcbdd: Multiple @QuarkusTest classes in Surefire cause intermittent TIME_WAIT port conflict

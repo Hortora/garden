@@ -1,0 +1,1 @@
+- GE-20260505-d702f0: Routing through a gateway method inside @Transactional causes double-persist — split the persistence call from the fan-out

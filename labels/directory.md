@@ -1,0 +1,1 @@
+- GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm

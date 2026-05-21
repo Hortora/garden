@@ -1,0 +1,1 @@
+- GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot

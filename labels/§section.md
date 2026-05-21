@@ -1,0 +1,1 @@
+- GE-20260517-fc6be7: JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md

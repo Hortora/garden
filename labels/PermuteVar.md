@@ -1,0 +1,2 @@
+- GE-20260417-d1ba21: Two independent @PermuteTypeParam axes in one class produce duplicate type parameters
+- GE-20260421-876557: Cross-product SAM interface families from one template via @PermuteVar + JEXL ternary macros

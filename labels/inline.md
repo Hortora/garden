@@ -1,0 +1,1 @@
+- GE-20260417-a1f3e9: Maven plugin keepTemplate=true with inline=false writes template class to generated sources

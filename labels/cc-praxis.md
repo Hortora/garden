@@ -1,2 +1,6 @@
 - GE-20260520-03f1a7: cc-praxis: hooks/check_project_setup.sh is the canonical source — not install-skills/SKILL.md
 - GE-20260520-836d5b: cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message
+- GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
+- GE-20260513-af85fa: publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match
+- GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
+- GE-20260517-fc6be7: JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md

@@ -1,0 +1,1 @@
+- GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls

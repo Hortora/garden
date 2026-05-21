@@ -1,0 +1,1 @@
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view

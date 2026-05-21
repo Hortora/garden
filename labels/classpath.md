@@ -1,3 +1,8 @@
 - GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
 - GE-20260521-effd2f: Flyway scans classpath:db/migration recursively — subdirectory db/migration/<module>/ is visible to any datasource scanning the parent path
+- GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
+- GE-20260424-807b7e: assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error
+- GE-20260516-8375d5: A jar with application.properties at its root causes Quarkus to scan all its classes as an application archive
+- GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed

@@ -1,0 +1,5 @@
+- GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly
+- GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call
+- GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it
+- GE-20260512-c246b0: Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans
+- GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests

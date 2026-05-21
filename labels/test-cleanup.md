@@ -1,0 +1,1 @@
+- GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy

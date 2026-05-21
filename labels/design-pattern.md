@@ -1,1 +1,6 @@
 - GE-20260421-5886e0: Synthetic single-iteration config runs a non-template class through a code-gen pipeline
+- GE-20260429-cd60ee: Add completeFromSystem()/rejectFromSystem() to WorkItemService to bypass human-actor lifecycle guards
+- GE-20260511-3e5a75: casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior
+- GE-20260415-e112ca: Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need
+- GE-20260424-647a6d: Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes
+- GE-20260421-566d3d: CDI @Any Instance<T> + name() method builds a self-registering strategy registry with O(1) lookup and startup validation

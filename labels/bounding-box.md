@@ -1,0 +1,1 @@
+- GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements

@@ -1,0 +1,1 @@
+- GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames

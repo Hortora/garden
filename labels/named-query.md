@@ -1,0 +1,2 @@
+- GE-20260514-477d2f: Hibernate 6 SessionFactoryObserverForNamedQueryValidation throws at boot for schema-drifted JARs — quarkus property overrides don't suppress it
+- GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time

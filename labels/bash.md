@@ -2,3 +2,18 @@
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
 - GE-20260521-523b94: A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260513-436312: mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure
+- GE-20260414-0a7d31: bash $() strips trailing newlines — git commit --amend footer concatenates to last line
+- GE-20260420-146d7c: sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times
+- GE-20260422-273e02: zsh variable-as-command shorthand fails when the command string contains arguments
+- GE-20260422-2afcb2: Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts
+- GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks
+- GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
+- GE-20260426-165fd9: jq @base64 wraps output at 76 chars — breaks while-read-r line-by-line parsing in bash
+- GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
+- GE-20260429-7d31f6: `status` is a read-only variable in bash — silent failure when used as a function parameter
+- GE-20260501-e6bf89: GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs
+- GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
+- GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit
+- GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)

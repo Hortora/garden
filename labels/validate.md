@@ -1,0 +1,1 @@
+- GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache

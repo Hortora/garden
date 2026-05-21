@@ -1,0 +1,3 @@
+- GE-20260416-17bdf4: PermuteTypeParamTransformer must run BEFORE applySourceTypeParams — wrong order causes type param doubling
+- GE-20260416-9d1147: PermuteMojo's generate() chain already handles template composition ordering — no extra infrastructure needed
+- GE-20260416-f316e2: @PermuteSource and other source-only annotations must be stripped from generated output

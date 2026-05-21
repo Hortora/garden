@@ -1,0 +1,1 @@
+- GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free

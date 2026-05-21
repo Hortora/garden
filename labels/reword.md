@@ -1,0 +1,1 @@
+- GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions

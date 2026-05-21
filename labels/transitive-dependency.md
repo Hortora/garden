@@ -1,0 +1,2 @@
+- GE-20260429-21e6cf: Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers
+- GE-20260512-a3838e: Transitive hibernate-reactive-panache on classpath causes H2 test startup failure — disable reactive datasource in test config

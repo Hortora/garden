@@ -1,0 +1,1 @@
+- GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured

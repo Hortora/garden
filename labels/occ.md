@@ -1,0 +1,5 @@
+- GE-20260502-c77725: MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator cancelling the surplus
+- GE-20260501-ab68c1: Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
+- GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus

@@ -1,3 +1,5 @@
 - GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
+- GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package

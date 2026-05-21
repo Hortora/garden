@@ -1,0 +1,2 @@
+- GE-20260512-47f92e: quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact
+- GE-20260414-5b3897: quarkus-flow uses the CNCF Serverless Workflow SDK directly — not Kogito

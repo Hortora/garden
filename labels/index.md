@@ -1,0 +1,2 @@
+- GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index

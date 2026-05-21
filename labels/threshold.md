@@ -1,0 +1,1 @@
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED

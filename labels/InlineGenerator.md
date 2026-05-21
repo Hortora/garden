@@ -1,0 +1,2 @@
+- GE-20260426-f987a9: @PermuteDeclr(name=..., type=...) on a METHOD causes duplicate generation for all arities
+- GE-20260427-cf8a08: @PermuteReturn(when=...) is silently ignored on methods with non-Object declared return types

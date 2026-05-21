@@ -1,0 +1,2 @@
+- GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard
+- GE-20260501-fc1cc6: GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push'

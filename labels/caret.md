@@ -1,0 +1,1 @@
+- GE-20260423-70a4f2: BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile

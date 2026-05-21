@@ -1,1 +1,4 @@
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
+- GE-20260416-ca1c71: Maven *IT.java test files are silently skipped by mvn test — failsafe convention
+- GE-20260512-493c90: @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire
+- GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin

@@ -1,1 +1,6 @@
 - GE-20260519-28967d: ChannelGateway.receiveHumanMessage() rejects messages whose type isn't in the channel's allowedTypes
+- GE-20260508-492336: casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup
+- GE-20260517-5879a9: ChannelGateway.receiveHumanMessage() passes correlationId=null — Commitment auto-state-machine never fires for human responses
+- GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
+- GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED
+- GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error

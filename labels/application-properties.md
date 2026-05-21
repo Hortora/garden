@@ -1,0 +1,1 @@
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list

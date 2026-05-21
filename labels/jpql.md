@@ -1,0 +1,4 @@
+- GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time
+- GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N
+- GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index

@@ -1,0 +1,3 @@
+- GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
+- GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them
+- GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values

@@ -6,3 +6,37 @@
 - GE-20260519-4a42e6: Panache.withTransaction() requires a duplicated Vert.x context — executeBlocking() root context still fails VertxContextSafetyToggle
 - GE-20260519-f33c66: 'Reactive' Quarkus service classes may use blocking services or Panache statics internally — CDI @Alternative in-memory stores don't intercept those paths
 - GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU
+- GE-20260420-b9259e: LedgerAttestation in quarkus-ledger 1.0.0-SNAPSHOT is plain @Entity — Panache statics cause compile error
+- GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
+- GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
+- GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
+- GE-20260424-647a6d: Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes
+- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
+- GE-20260428-6d75d7: Panache/JPA count methods may return int rather than long — check the actual return type
+- GE-20260501-ab68c1: Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC
+- GE-20260512-66d997: Panache static methods bypass CDI @Alternative stores — returns empty results silently
+- GE-20260512-67b3b5: Panache find() alias-prefixed field names return empty results silently — bare field names required
+- GE-20260512-a3838e: Transitive hibernate-reactive-panache on classpath causes H2 test startup failure — disable reactive datasource in test config
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
+- GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
+- GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
+- GE-20260414-3fff4a: Call Entity.getEntityManager().clear() after JPQL bulk updates in @QuarkusTest to see DB state
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
+- GE-20260414-7ce32b: @TestTransaction swallows unique-constraint violations — Hibernate never flushes within the test body
+- GE-20260414-963a6d: Hibernate @PreUpdate fires at flush time, not at persist() — denormalized fields are stale in the returned object
+- GE-20260414-99854d: @TestTransaction + Hibernate JPQL bulk update = silently stale first-level cache
+- GE-20260414-bd3f85: Deleting a Panache entity with a self-referencing FK throws `JdbcSQLIntegrityConstraintViolationException`
+- GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260416-e10d09: Use `session.getReference()` to set a `@ManyToOne` FK target in Panache `persist()` without `TransientPropertyValueException`
+- GE-20260416-f02f95: Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`
+- GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods
+- GE-20260420-1417ca: UserTransaction injection in @QuarkusTest for cleaning up DB state created via HTTP requests — @TestTransaction can't help
+- GE-20260420-58520c: Reactive PanacheRepository<E> takes one type arg; use PanacheRepositoryBase<E,Id> for non-Long primary keys
+- GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity
+- GE-20260420-dcec35: quarkus-hibernate-reactive-panache in an extension forces Hibernate Reactive to boot for all consumers — @Alternative does not prevent it
+- GE-20260421-83560c: @WithTransaction on Quarkus Hibernate Reactive store methods uses REQUIRED propagation — joins outer Panache.withTransaction(), does not create nested
+- GE-20260423-3240d2: Panache delete() returns deleted row count — use it to collapse find-then-delete into one call
+- GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously

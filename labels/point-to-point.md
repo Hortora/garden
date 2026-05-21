@@ -1,0 +1,1 @@
+- GE-20260422-1b6a56: Quarkus Vert.x @ConsumeEvent on a request() address silently starves the primary consumer

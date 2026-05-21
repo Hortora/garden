@@ -1,0 +1,1 @@
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults

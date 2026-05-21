@@ -1,0 +1,3 @@
+- GE-20260414-7fbf58: Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert
+- GE-20260420-ca3fb3: str.replace with list[0] silently no-ops when list order changes
+- GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring

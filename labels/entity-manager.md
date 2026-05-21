@@ -1,0 +1,4 @@
+- GE-20260424-a02588: CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions
+- GE-20260424-e33d79: Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers
+- GE-20260414-3fff4a: Call Entity.getEntityManager().clear() after JPQL bulk updates in @QuarkusTest to see DB state
+- GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time

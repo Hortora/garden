@@ -1,0 +1,6 @@
+- GE-20260421-924fc7: Creating a Java class with the same name as an existing class in the same package silently overwrites it
+- GE-20260512-493c90: @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire
+- GE-20260515-da8abd: Maven submodule folder names — short, no repo-name prefix
+- GE-20260420-cb4c7a: Micrometer Gauge named with _total suffix silently absent from Prometheus output
+- GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin
+- GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning

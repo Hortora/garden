@@ -1,1 +1,2 @@
 - GE-0037: Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks
+- GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas

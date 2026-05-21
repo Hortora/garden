@@ -1,0 +1,1 @@
+- GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands

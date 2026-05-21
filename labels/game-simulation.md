@@ -1,0 +1,1 @@
+- GE-20260416-53d13c: Adding stop-to-fight breaks combat tests via nearest-target ordering change

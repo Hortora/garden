@@ -1,0 +1,2 @@
+- GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
+- GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures

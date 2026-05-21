@@ -1,0 +1,1 @@
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index

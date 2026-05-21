@@ -1,0 +1,2 @@
+- GE-20260422-273e02: zsh variable-as-command shorthand fails when the command string contains arguments
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh

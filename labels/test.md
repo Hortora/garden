@@ -1,1 +1,11 @@
 - GE-20260519-e13b01: @QuarkusTest in casehub harness app crashes with ClassSelector resolution failed when casehub-ledger runtime is on classpath
+- GE-20260416-74e114: PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss
+- GE-20260424-807b7e: assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error
+- GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
+- GE-20260420-1417ca: UserTransaction injection in @QuarkusTest for cleaning up DB state created via HTTP requests — @TestTransaction can't help
+- GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list
+- GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
+- GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed

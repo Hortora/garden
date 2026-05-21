@@ -1,1 +1,4 @@
 - GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
+- GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
+- GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router
+- GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached

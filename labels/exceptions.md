@@ -1,0 +1,1 @@
+- GE-20260417-28e1b8: URI.create() throws IllegalArgumentException on malformed URLs — urlparse() never does

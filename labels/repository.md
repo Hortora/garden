@@ -1,0 +1,3 @@
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager

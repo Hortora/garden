@@ -1,0 +1,1 @@
+- GE-20260423-037747: quarkus.flyway.out-of-order=true required when Testcontainers DB is reused across runs with RYUK disabled

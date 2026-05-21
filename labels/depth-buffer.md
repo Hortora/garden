@@ -1,0 +1,1 @@
+- GE-20260421-6d4f16: Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles

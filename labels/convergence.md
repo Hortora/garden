@@ -1,0 +1,2 @@
+- GE-20260421-09d636: EigenTrust: pre-trusted distribution as dangling-node fallback creates 3-cycle non-convergence
+- GE-20260421-954775: Trace iterative algorithms by hand for 3-4 iterations before coding to catch silent convergence failures

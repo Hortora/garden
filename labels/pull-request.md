@@ -1,0 +1,6 @@
+- GE-20260415-ec4471: Stacked PRs from a fork: push the base branch to upstream first
+- GE-20260421-654530: GitHub PR mergeable status is asynchronous after force push — stays CONFLICTING for 1+ minutes
+- GE-20260421-f8f11c: Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit
+- GE-20260422-8e9873: GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead
+- GE-20260422-e5e20f: Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto
+- GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream

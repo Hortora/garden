@@ -20,3 +20,67 @@
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
 - GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
+- GE-20260417-15f33f: AI session handover can describe committed work that was never committed
+- GE-20260414-22e35f: Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing
+- GE-20260414-0a7d31: bash $() strips trailing newlines — git commit --amend footer concatenates to last line
+- GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
+- GE-20260414-db76e9: `git worktree remove` fails after merge when worktree was used as subagent CWD
+- GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path
+- GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones
+- GE-20260415-95b40f: git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff
+- GE-20260415-ec4471: Stacked PRs from a fork: push the base branch to upstream first
+- GE-20260416-a5e990: `git cherry-pick --continue` applies all remaining queued commits, not just the conflicted one
+- GE-20260416-eb035d: GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork
+- GE-20260417-a420df: PR base becomes stale when upstream maintainer merges your content as a new PR directly to main
+- GE-20260417-def63b: Python one-liner to resolve all merge conflicts in a file by uniformly taking one side
+- GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
+- GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
+- GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed
+- GE-20260420-de730c: git rebase-merge directory persists after session ends mid-rebase — blocks new rebases on any branch
+- GE-20260421-654530: GitHub PR mergeable status is asynchronous after force push — stays CONFLICTING for 1+ minutes
+- GE-20260421-f8f11c: Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit
+- GE-20260422-4407a2: GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main
+- GE-20260422-75b92e: git checkout/rebase on a branch checked out in a worktree fails — use git -C <worktree-path> instead
+- GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
+- GE-20260422-e5e20f: Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto
+- GE-20260423-5f606b: git push --force-with-lease rejected after local history rewrite
+- GE-20260423-aed486: git filter-repo silently removes the origin remote on every run
+- GE-20260426-1a8caf: git stash one-liner to baseline-check if a build failure pre-existed your change
+- GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently
+- GE-20260429-52be19: Rewrite non-HEAD commit message without interactive rebase using git commit-tree
+- GE-20260429-d915d3: Subagent-driven development: parallel subagents commit unrelated changes to shared branch
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
+- GE-20260430-01cc0c: Empty git commit as clean CI re-trigger
+- GE-20260430-be991b: git worktree unlock/prune works on ghost worktrees whose paths no longer exist
+- GE-20260501-66625a: git commit bundles other sessions' staged files — git add <file> does not limit what gets committed
+- GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue
+- GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit
+- GE-20260504-209c28: git push --all exits 0 even when some branches are rejected
+- GE-20260504-ae76f6: Squash-merged PR silently drops commits pushed after the PR was opened
+- GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history
+- GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
+- GE-20260505-5601ef: `git reset --soft HEAD~1 && git commit --amend --no-edit` — non-interactive squash preserving message
+- GE-20260505-9cf5c8: git mv fails 'not under version control' for files copied but never git-added
+- GE-20260505-adae54: git add -u <dir> stages tracked deletions and triggers git's rename detection
+- GE-20260505-cc8247: `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit
+- GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
+- GE-20260505-db8f1c: `git rebase --onto upstream/main <sha> branch` — drop a specific commit without interactive rebase
+- GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
+- GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit
+- GE-20260508-a30558: git rm -r silently leaves untracked files — only tracked files are staged for removal
+- GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
+- GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject
+- GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free
+- GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
+- GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
+- GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
+- GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
+- GE-20260512-aa3873: Orphaned git submodule entry without .gitmodules causes git rm -r to fail with 'could not lookup name'
+- GE-20260513-01e602: Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout
+- GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm
+- GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
+- GE-20260516-fba7b6: git -C <path> is required in Claude Bash tool calls — cd state does not persist between calls
+- GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured
+- GE-20260517-3dddfa: Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist
+- GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions
+- GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path

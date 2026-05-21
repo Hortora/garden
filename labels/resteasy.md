@@ -1,0 +1,1 @@
+- GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file

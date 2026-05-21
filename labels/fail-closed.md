@@ -1,0 +1,1 @@
+- GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override

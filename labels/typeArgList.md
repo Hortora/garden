@@ -1,0 +1,1 @@
+- GE-20260417-c01ea4: typeArgList() inside @PermuteDeclr type strings requires single-quoted style argument

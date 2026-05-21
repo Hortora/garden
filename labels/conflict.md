@@ -1,2 +1,4 @@
 - GE-20260518-d1775a: git cherry-pick -X ours brings in new files cleanly but silently discards field additions in conflicted files
 - GE-20260518-4b7541: Apply journal merges to main before merging two epics that both modify DESIGN.md
+- GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead

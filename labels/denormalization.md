@@ -1,0 +1,1 @@
+- GE-20260414-963a6d: Hibernate @PreUpdate fires at flush time, not at persist() — denormalized fields are stale in the returned object

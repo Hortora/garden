@@ -1,1 +1,3 @@
 - GE-20260519-c93fd8: `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones
+- GE-20260505-9cf5c8: git mv fails 'not under version control' for files copied but never git-added
+- GE-20260505-adae54: git add -u <dir> stages tracked deletions and triggers git's rename detection

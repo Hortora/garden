@@ -1,0 +1,4 @@
+- GE-20260417-d67b22: Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions
+- GE-20260512-c30f52: @QuarkusIntegrationTest in the runtime module causes class loading failures — separate integration-tests/ module required
+- GE-20260414-3153fe: @QuarkusIntegrationTest must live in a separate module from the extension runtime
+- GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin

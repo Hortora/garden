@@ -21,3 +21,102 @@
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
 - GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface
+- GE-20260423-3be346: WorkerCandidate.of(id) creates empty capabilities — WorkBroker filters all candidates when requiredCapabilities is non-null
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
+- GE-20260505-8c57c2: CDI events as a bridge for circular Maven module dependencies — fire from lower module, observe in upper
+- GE-20260422-0ed3e5: CDI container wiring vs service-loader wiring in large JVM frameworks
+- GE-20260422-53d0f7: JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works
+- GE-20260422-e48245: @DefaultBean lives in io.quarkus.arc, not jakarta.enterprise.inject
+- GE-20260423-29f45a: BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI
+- GE-20260423-bcb5b7: quarkus-work-core registers both LeastLoadedStrategy and ClaimFirstStrategy as @ApplicationScoped CDI beans — injecting WorkerSelectionStrategy interface causes AmbiguousResolutionException
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260424-275fdc: Maven SNAPSHOT jar persists in ~/.m2 when source bumps version — stale annotations cause misleading CDI errors
+- GE-20260424-a02588: CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions
+- GE-20260424-e33d79: Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers
+- GE-20260428-b966bd: Vert.x pub/sub fan-out race: mutable completion index overwritten by re-triggered component
+- GE-20260428-f075ef: Race-free CompletableFuture per-item pattern for CDI async event tests
+- GE-20260429-a79d0e: @Alternative @Priority(N) in Quarkus CDI auto-activates without quarkus.arc.selected-alternatives config
+- GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly
+- GE-20260504-104371: @ConfigProperty fields are null when @ApplicationScoped bean is instantiated with new outside CDI
+- GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call
+- GE-20260505-da346d: @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread
+- GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260512-66d997: Panache static methods bypass CDI @Alternative stores — returns empty results silently
+- GE-20260512-6887c9: @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean
+- GE-20260512-a9ad9f: Raw ExecutorService drops CDI context — @Transactional silently broken on background threads
+- GE-20260512-b3f32a: @IfBuildProperty/@UnlessBuildProperty evaluated at augmentation only — QuarkusTestProfile properties have no effect on bean activation
+- GE-20260512-c246b0: Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans
+- GE-20260512-e552f7: @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite
+- GE-20260513-a49d06: CDI this.method() call bypasses @Transactional proxy — annotation silently dead on delegating overloads
+- GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
+- GE-20260513-e04f26: Store configuration on the runtime entity to eliminate a parallel callback registry
+- GE-20260514-83ee13: @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject
+- GE-20260515-6e8205: Three-tier Maven module structure — api/common/runtime
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260515-fd3156: @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not
+- GE-20260515-ffde26: Optional Quarkus features: Jandex library module pattern
+- GE-20260516-2805b7: Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment
+- GE-20260516-4bf0dc: quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI
+- GE-20260517-5b8e78: casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools
+- GE-20260517-712fe5: Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-9e571a: @Typed required when CDI bean implements a framework-owned interface to prevent AmbiguousResolutionException
+- GE-20260517-a6d608: DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides
+- GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409
+- GE-20260517-f28d15: qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels
+- GE-20260517-f31786: `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260416-58b555: @QuarkusTest CDI singletons populated only via HTTP remain null — server startup never calls endpoints
+- GE-20260417-45f47f: Class-level @WrapBusinessError wraps all CDI callers of @Tool methods, not just the MCP server
+- GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct
+- GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods
+- GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead
+- GE-20260418-d123af: Quarkus @WrapBusinessError converts IllegalArgumentException to ToolCallException at CDI proxy — catching IAE alone silently misses it
+- GE-20260420-4b55e2: Micrometer Gauge beans need @Startup + public @Transactional methods — three interacting gotchas
+- GE-20260420-e61431: @WrapBusinessError on Quarkus MCP Server CDI proxy wraps exceptions into ToolCallException(cause) — must inspect getCause() to distinguish error types
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260421-566d3d: CDI @Any Instance<T> + name() method builds a self-registering strategy registry with O(1) lookup and startup validation
+- GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
+- GE-20260421-a00d0a: Quarkus %test profile serves /qa/emulated/config with HTTP 200 — gating a panel on HTTP status alone shows it in tests
+- GE-20260421-cba54e: Use @Observes StartupEvent to mirror Python/Ruby auto-activation of shared singleton state at boot
+- GE-20260422-3242bf: Use Instance<T> for optional CDI injection — resolves gracefully to null when no bean exists
+- GE-20260422-334eb8: Quarkus named persistence unit EntityManager injection uses io.quarkus.hibernate.orm.PersistenceUnit — not jakarta.persistence.PersistenceUnit
+- GE-20260422-50c33c: CDI @Observes on an abstract base type catches all subtype events — useful for generifying event observers
+- GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
+- GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
+- GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
+- GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
+- GE-20260423-ad5d5e: Quarkus profile swap silently breaks QA endpoint seeding — different CDI bean broadcasts state
+- GE-20260424-59906a: Quarkus CDI does not scan @ApplicationScoped beans in plain JAR module dependencies
+- GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
+- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
+- GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito
+- GE-20260427-893862: @Observes(during = AFTER_SUCCESS) for post-commit side effects that must not fire on rollback
+- GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list
+- GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit
+- GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
+- GE-20260501-884024: @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active
+- GE-20260501-9de50b: @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()
+- GE-20260505-84577e: @ApplicationScoped CDI proxy field writes go to the proxy, not the bean — silent in @QuarkusTest
+- GE-20260505-d702f0: Routing through a gateway method inside @Transactional causes double-persist — split the persistence call from the fan-out
+- GE-20260505-fc9770: ThreadLocal<Deque<T>> on @ApplicationScoped bean as CDI interceptor context — works in tests and scheduled jobs, cleans up automatically
+- GE-20260512-ee7c07: Quarkus ArC ignores beans.xml <alternatives> — use quarkus.arc.selected-alternatives
+- GE-20260513-4f26a7: @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority
+- GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy
+- GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot
+- GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
+- GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append

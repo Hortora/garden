@@ -1,0 +1,1 @@
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld

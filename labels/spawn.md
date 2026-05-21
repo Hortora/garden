@@ -1,0 +1,1 @@
+- GE-20260424-647a6d: Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes

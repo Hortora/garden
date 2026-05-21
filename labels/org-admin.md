@@ -1,0 +1,2 @@
+- GE-20260426-61854e: Create GitHub org team and grant write access to all repos via gh CLI — no browser needed
+- GE-20260504-c51f9c: Disable squash/rebase merges across all org repos in one API loop

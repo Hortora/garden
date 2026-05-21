@@ -1,1 +1,7 @@
 - GE-20260519-f88597: TDD for Flyway schema migrations: plain-Java test using Flyway+H2 + JDBC metadata assertions
+- GE-20260414-23982b: `check_messages` excludes EVENT messages by design — tests expecting EVENTs via check_messages always get fewer results than sent
+- GE-20260414-c4ddc9: In-memory service error messages should use human-readable names not internal UUIDs — TDD test assertions catch the difference
+- GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
+- GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
+- GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
+- GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers

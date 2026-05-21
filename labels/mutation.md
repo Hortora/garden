@@ -1,0 +1,3 @@
+- GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion
+- GE-20260514-36f3ef: Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them
+- GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate

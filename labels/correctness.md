@@ -1,0 +1,1 @@
+- GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently

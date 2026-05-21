@@ -1,0 +1,4 @@
+- GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature
+- GE-20260427-c94b12: Java erasure conflict at specific arity boundaries when adding ctx-optional filter overloads
+- GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
+- GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history

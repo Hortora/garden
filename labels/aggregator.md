@@ -1,0 +1,1 @@
+- GE-20260501-743ff4: Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules

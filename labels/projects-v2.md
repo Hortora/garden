@@ -1,0 +1,2 @@
+- GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
+- GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure

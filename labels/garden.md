@@ -1,0 +1,2 @@
+- GE-20260422-c0181c: garden_db_migrate.py leaves an empty GE-20260421-test999.md artifact after migration
+- GE-20260517-3dddfa: Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist

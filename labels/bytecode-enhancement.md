@@ -1,1 +1,2 @@
 - GE-20260421-3b3104: Hibernate bytecode enhancement silently zeros all fields when accessed via reflection
+- GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity

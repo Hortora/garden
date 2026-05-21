@@ -1,0 +1,2 @@
+- GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed
+- GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit

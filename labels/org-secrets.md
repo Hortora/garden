@@ -1,0 +1,1 @@
+- GE-20260501-8320ae: GitHub org secret set with --org defaults to private repos — public repos silently get nothing

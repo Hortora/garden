@@ -1,0 +1,1 @@
+- GE-20260421-bd4121: jsoup requires Parser.xmlParser() for XML sitemaps — default HTML parser lowercases element names silently

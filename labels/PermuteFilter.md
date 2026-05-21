@@ -1,0 +1,1 @@
+- GE-20260427-5c5bab: @PermuteFilter is silently ignored on plain template methods — use single-clone @PermuteMethod to enable per-arity suppression

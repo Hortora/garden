@@ -1,0 +1,1 @@
+- GE-20260512-9f4de6: Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor

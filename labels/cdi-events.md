@@ -1,0 +1,2 @@
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
+- GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events

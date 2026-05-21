@@ -1,0 +1,1 @@
+- GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start

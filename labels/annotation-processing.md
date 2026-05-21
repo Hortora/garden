@@ -1,2 +1,4 @@
 - GE-20260421-2df2ba: JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces
 - GE-20260421-5886e0: Synthetic single-iteration config runs a non-template class through a code-gen pipeline
+- GE-20260428-28391e: Permuplate keepTemplate=true: @PermuteBody replaces generated classes only — template class body unchanged
+- GE-20260417-29c2e3: File-naming trick for top-level inline templates: name file after output class, template class differently

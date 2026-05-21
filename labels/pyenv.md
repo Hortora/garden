@@ -1,0 +1,1 @@
+- GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed

@@ -1,1 +1,15 @@
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
+- GE-20260414-6b964c: Two separate subagents for spec compliance then code quality catch different issues than one combined reviewer
+- GE-20260414-b12a99: Background subagent blocks on Bash leaves file edits uncommitted in worktree
+- GE-20260418-9b272f: Java Sealed Interface Exhaustiveness Breaks Build Mid-Plan When Type Creation and Wiring Are Separate Tasks
+- GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls
+- GE-20260514-636916: Flyway migration numbering: always verify existing files before naming — prior sessions may have added higher-numbered migrations
+- GE-20260414-db76e9: `git worktree remove` fails after merge when worktree was used as subagent CWD
+- GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
+- GE-20260420-e3f2c4: Claude Code response size limit (~32k) is separate from context window — large plan generation silently kills the session
+- GE-20260429-52be19: Rewrite non-HEAD commit message without interactive rebase using git commit-tree
+- GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
+- GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
+- GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions

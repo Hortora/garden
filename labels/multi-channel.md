@@ -1,0 +1,1 @@
+- GE-20260501-b12416: MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries

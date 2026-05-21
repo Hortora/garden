@@ -1,0 +1,3 @@
+- GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
+- GE-20260422-164498: Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection
+- GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run

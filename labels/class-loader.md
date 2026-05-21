@@ -1,0 +1,1 @@
+- GE-20260421-efa107: Maven -Dexcludes does not suppress Quarkus @QuarkusTest class-loader failures — use Maven profiles instead

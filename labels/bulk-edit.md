@@ -1,0 +1,1 @@
+- GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist

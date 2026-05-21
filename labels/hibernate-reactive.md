@@ -1,1 +1,9 @@
 - GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU
+- GE-20260508-492336: casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup
+- GE-20260512-a3838e: Transitive hibernate-reactive-panache on classpath causes H2 test startup failure — disable reactive datasource in test config
+- GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
+- GE-20260420-45d53b: quarkus.datasource.reactive=false suppresses Hibernate Reactive boot when extension is on classpath but no reactive pool exists
+- GE-20260420-cbd0fa: Quarkus Hibernate Reactive @QuarkusTest cannot use H2 — vertx-jdbc-client alone doesn't register the reactive pool factory
+- GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests
+- GE-20260420-dcec35: quarkus-hibernate-reactive-panache in an extension forces Hibernate Reactive to boot for all consumers — @Alternative does not prevent it
+- GE-20260421-83560c: @WithTransaction on Quarkus Hibernate Reactive store methods uses REQUIRED propagation — joins outer Panache.withTransaction(), does not create nested

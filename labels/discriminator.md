@@ -1,0 +1,2 @@
+- GE-20260429-61810f: JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows
+- GE-20260501-3c0de6: Hibernate generates invalid `check ((dtype in ()))` DDL when JPA subclasses are not on test classpath

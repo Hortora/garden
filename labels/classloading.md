@@ -1,0 +1,4 @@
+- GE-20260512-c30f52: @QuarkusIntegrationTest in the runtime module causes class loading failures — separate integration-tests/ module required
+- GE-20260423-8dfa90: mvn clean does not fix ClassNotFoundException after Quarkus dependency inner class moves
+- GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
+- GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running

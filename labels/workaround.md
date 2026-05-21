@@ -1,1 +1,4 @@
 - GE-0061: Use tput to verify PTY window dimensions in JVM-mode Panama FFM tests
+- GE-20260414-b12a99: Background subagent blocks on Bash leaves file edits uncommitted in worktree
+- GE-20260414-db76e9: `git worktree remove` fails after merge when worktree was used as subagent CWD
+- GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path

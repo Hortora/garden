@@ -1,0 +1,1 @@
+- GE-20260508-a2b49e: Quarkus dev-mode live-reload scanner adds ~1.5s latency to HTTP requests after idle

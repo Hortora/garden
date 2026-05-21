@@ -1,0 +1,1 @@
+- GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package

@@ -1,0 +1,2 @@
+- GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false
+- GE-20260423-9a5470: Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter

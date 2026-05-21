@@ -1,0 +1,1 @@
+- GE-20260422-4407a2: GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main

@@ -1,2 +1,18 @@
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
 - GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource
+- GE-20260414-10d4da: CNCF Serverless Workflow CallableTaskBuilder.accept(Class) cannot distinguish custom callable names
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260429-a9bd85: CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write
+- GE-20260511-a5f47d: Registry isKnown() silently bypasses capabilities() override when backed by a static field
+- GE-20260501-b88737: Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
+- GE-20260512-c246b0: Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans
+- GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-a6d608: DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides
+- GE-20260414-14d244: quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution
+- GE-20260414-5fc8e0: CNCF Serverless Workflow CallableTaskBuilder SPI — exact interface signatures (v7.13)
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
+- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
+- GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito

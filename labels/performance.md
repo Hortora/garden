@@ -1,2 +1,11 @@
 - GE-0105: Drools as Action Compiler for GOAP — One Session per Tick, Not per A* Node
 - GE-0054: Demand-load reference material in Claude Code skills via separate .md files
+- GE-20260423-29f45a: BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI
+- GE-20260428-29b30e: Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues
+- GE-20260504-5b9269: Nested Collectors.groupingBy produces O(M) multi-key grouping without re-streaming
+- GE-20260423-3240d2: Panache delete() returns deleted row count — use it to collapse find-then-delete into one call
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
+- GE-20260508-a2b49e: Quarkus dev-mode live-reload scanner adds ~1.5s latency to HTTP requests after idle
+- GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
+- GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
+- GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run

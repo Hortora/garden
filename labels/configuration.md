@@ -1,0 +1,7 @@
+- GE-20260429-ede58e: quarkus.flyway.migrate-at-start is build-time fixed — test application.properties cannot override a jar's microprofile-config.properties value
+- GE-20260515-c272d2: Quartz job store: RAM store for stateless scheduling
+- GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct
+- GE-20260418-0eda84: Quarkus Hibernate ORM schema generation rejects 'create-drop' — correct value is 'drop-and-create'
+- GE-20260420-45d53b: quarkus.datasource.reactive=false suppresses Hibernate Reactive boot when extension is on classpath but no reactive pool exists
+- GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
+- GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code

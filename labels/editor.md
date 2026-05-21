@@ -1,0 +1,1 @@
+- GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue

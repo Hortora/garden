@@ -1,0 +1,1 @@
+- GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves

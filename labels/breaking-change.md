@@ -1,0 +1,1 @@
+- GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time

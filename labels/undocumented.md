@@ -1,0 +1,4 @@
+- GE-20260430-b015f5: quarkus-mcp-server silently drops @Tool on methods with public same-name overloads
+- GE-20260414-fa6489: quarkus-mcp-server @ToolArg has 'required' and 'defaultValue' attributes — not in docs, only in bytecode
+- GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
+- GE-20260421-5817bb: Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill

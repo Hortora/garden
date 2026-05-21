@@ -3,3 +3,43 @@
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
+- GE-20260429-a9bd85: CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write
+- GE-20260420-b9259e: LedgerAttestation in quarkus-ledger 1.0.0-SNAPSHOT is plain @Entity — Panache statics cause compile error
+- GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences
+- GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented
+- GE-20260501-11ce7f: MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing
+- GE-20260501-b12416: MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries
+- GE-20260421-4a9364: JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'
+- GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required
+- GE-20260422-53d0f7: JPA @EntityListeners can be @ApplicationScoped CDI beans in Quarkus — injection works
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
+- GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
+- GE-20260424-647a6d: Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes
+- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
+- GE-20260428-29b30e: Reuse an already-required query to drive a second operation inside REQUIRES_NEW — avoids extra DB round-trips and transaction visibility issues
+- GE-20260428-5c3e93: REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state
+- GE-20260428-6d75d7: Panache/JPA count methods may return int rather than long — check the actual return type
+- GE-20260429-21e6cf: Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers
+- GE-20260429-61810f: JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows
+- GE-20260512-67b3b5: Panache find() alias-prefixed field names return empty results silently — bare field names required
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
+- GE-20260515-6e8205: Three-tier Maven module structure — api/common/runtime
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260416-e10d09: Use `session.getReference()` to set a `@ManyToOne` FK target in Panache `persist()` without `TransientPropertyValueException`
+- GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time
+- GE-20260420-4b55e2: Micrometer Gauge beans need @Startup + public @Transactional methods — three interacting gotchas
+- GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity
+- GE-20260420-86180e: em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context
+- GE-20260423-3240d2: Panache delete() returns deleted row count — use it to collapse find-then-delete into one call
+- GE-20260423-4aa1e0: JPA InheritanceType.JOINED forces all hierarchy entities into one persistence unit
+- GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
+- GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
+- GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
+- GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
+- GE-20260501-3c0de6: Hibernate generates invalid `check ((dtype in ()))` DDL when JPA subclasses are not on test classpath
+- GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access

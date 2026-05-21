@@ -1,0 +1,1 @@
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS

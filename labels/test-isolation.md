@@ -1,2 +1,5 @@
 - GE-20260519-12efe9: QuarkusTestProfile.getEnabledAlternatives() scopes a CDI @Alternative to a single @QuarkusTest class
 - GE-20260519-685b4b: DB UNIQUE constraint on a shared @QuarkusTest H2 instance forces @BeforeEach template cleanup across all test classes
+- GE-20260501-29e3b8: QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives
+- GE-20260508-ce2285: UUID-suffix business keys in @QuarkusTest to prevent H2 in-memory shared-state conflicts
+- GE-20260420-d99177: @QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data

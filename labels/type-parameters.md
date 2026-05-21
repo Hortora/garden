@@ -1,0 +1,1 @@
+- GE-20260417-f03d4f: @PermuteTypeParam on a non-first type parameter keeps A fixed and expands only the remainder

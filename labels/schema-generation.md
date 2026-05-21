@@ -1,0 +1,2 @@
+- GE-20260512-ea776c: Quarkus named persistence units silently skip schema generation — explicit config required per named PU
+- GE-20260418-0eda84: Quarkus Hibernate ORM schema generation rejects 'create-drop' — correct value is 'drop-and-create'

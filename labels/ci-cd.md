@@ -4,3 +4,11 @@
 - GE-0178: Use `git filter-branch --msg-filter` with a Python hash→refs mapping to bulk-add commit footers
 - GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser
 - GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9
+- GE-20260430-0042ff: Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required
+- GE-20260430-3275b1: GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes
+- GE-20260414-6c9bfc: gh pr create requires --body even when --title is provided in non-interactive mode
+- GE-20260430-01cc0c: Empty git commit as clean CI re-trigger
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260501-04667c: GitHub Actions steps.outcome vs steps.conclusion — continue-on-error masks real failures
+- GE-20260501-d9c2d7: GITHUB_TOKEN returns 403 on cross-repo repository_dispatch — needs classic PAT
+- GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence

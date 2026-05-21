@@ -1,2 +1,7 @@
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
+- GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value
+- GE-20260508-ce2285: UUID-suffix business keys in @QuarkusTest to prevent H2 in-memory shared-state conflicts
+- GE-20260415-e92f89: @TestTransaction + @Transactional method call + REST assertion — data invisible across transaction boundary
+- GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
+- GE-20260429-272e6b: Quarkus sets `test.url` MicroProfile Config property in @QuarkusTest — actual bound URL including random port

@@ -1,0 +1,2 @@
+- GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
+- GE-20260517-7471c7: Java HttpClient silently returns empty result for file:// URLs

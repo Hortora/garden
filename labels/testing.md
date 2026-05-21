@@ -39,3 +39,156 @@
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
 - GE-20260521-e39ad1: CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor
 - GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check
+- GE-20260414-f4f539: casehub-engine CaseHubReactor.startCase() no longer calls registerCaseDefinition() — definitions only register at startup
+- GE-20260417-3887be: Reset shared test counter immediately after a blocking startCase() call to minimise async contamination
+- GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
+- GE-20260417-d67b22: Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions
+- GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
+- GE-20260414-23982b: `check_messages` excludes EVENT messages by design — tests expecting EVENTs via check_messages always get fewer results than sent
+- GE-20260508-492336: casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260502-c77725: MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator cancelling the surplus
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260423-70a4f2: BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile
+- GE-20260423-9a5470: Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter
+- GE-20260423-e92da0: IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead
+- GE-20260414-c4ddc9: In-memory service error messages should use human-readable names not internal UUIDs — TDD test assertions catch the difference
+- GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value
+- GE-20260416-262221: Override Random.nextDouble() via anonymous subclass to force always-hit/always-miss in probability tests
+- GE-20260416-53d13c: Adding stop-to-fight breaks combat tests via nearest-target ordering change
+- GE-20260416-7ec461: Maven `-am -Dtest=ClassName` propagates test filter to all upstream modules — 'No tests matching pattern' on unrelated modules
+- GE-20260416-ca1c71: Maven *IT.java test files are silently skipped by mvn test — failsafe convention
+- GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
+- GE-20260418-4d4c43: In combat simulation tests, using an attack command as a 'standing still' baseline silently doubles DPS and moves the unit
+- GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
+- GE-20260427-edbacd: Java test infrastructure: adding a new collection to a class requires clearing it in BOTH reset() and clearAll() — missing one causes @QuarkusTest state bleed
+- GE-20260513-feea71: SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour
+- GE-20260421-efa107: Maven -Dexcludes does not suppress Quarkus @QuarkusTest class-loader failures — use Maven profiles instead
+- GE-20260422-70b817: Span.wrap(SpanContext).makeCurrent() creates OTel trace context in tests without SDK
+- GE-20260428-5c3e93: REQUIRES_NEW suspends outer transaction — inner JPA queries see pre-commit state
+- GE-20260428-7e57f9: @QuarkusTest always runs in mock profile — Playwright tests pass while the real application (replay/emulated) is broken
+- GE-20260428-b966bd: Vert.x pub/sub fan-out race: mutable completion index overwritten by re-triggered component
+- GE-20260428-f075ef: Race-free CompletableFuture per-item pattern for CDI async event tests
+- GE-20260429-101efe: H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns
+- GE-20260429-21e6cf: Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers
+- GE-20260429-42fb02: Bayesian Beta trust score returns 0.5 for no evidence, not 1.0
+- GE-20260429-a79d0e: @Alternative @Priority(N) in Quarkus CDI auto-activates without quarkus.arc.selected-alternatives config
+- GE-20260429-ede58e: quarkus.flyway.migrate-at-start is build-time fixed — test application.properties cannot override a jar's microprofile-config.properties value
+- GE-20260429-f17b24: Recency decay tests silently pass wrong assertion when attestation.occurredAt is null
+- GE-20260501-697d3e: Quarkus identity-tokenised repository query returns empty when tokeniseForQuery omitted on new method
+- GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly
+- GE-20260501-b89a0d: Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields
+- GE-20260501-e13ed0: Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root
+- GE-20260504-104371: @ConfigProperty fields are null when @ApplicationScoped bean is instantiated with new outside CDI
+- GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call
+- GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override
+- GE-20260508-ce2285: UUID-suffix business keys in @QuarkusTest to prevent H2 in-memory shared-state conflicts
+- GE-20260512-47f92e: quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact
+- GE-20260512-493c90: @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire
+- GE-20260512-50b394: Use @TestTransaction + unique identifiers to prevent @Scheduled interference in Quarkus tests
+- GE-20260512-66d997: Panache static methods bypass CDI @Alternative stores — returns empty results silently
+- GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
+- GE-20260512-a3838e: Transitive hibernate-reactive-panache on classpath causes H2 test startup failure — disable reactive datasource in test config
+- GE-20260512-a9ad9f: Raw ExecutorService drops CDI context — @Transactional silently broken on background threads
+- GE-20260512-b3f32a: @IfBuildProperty/@UnlessBuildProperty evaluated at augmentation only — QuarkusTestProfile properties have no effect on bean activation
+- GE-20260512-c246b0: Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans
+- GE-20260512-e552f7: @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite
+- GE-20260513-3c1a03: @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP
+- GE-20260513-4c4205: Use AtomicInteger call counter in Supplier<String> to distinguish SSE events by content in tests
+- GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
+- GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
+- GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260516-e137f6: QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile
+- GE-20260517-712fe5: Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`
+- GE-20260517-7471c7: Java HttpClient silently returns empty result for file:// URLs
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append
+- GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
+- GE-20260414-4bd3cb: validate_links.py uses requests.get not requests.head — wrong mock target causes silently-passing tests
+- GE-20260414-7fbf58: Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert
+- GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
+- GE-20260414-3fff4a: Call Entity.getEntityManager().clear() after JPQL bulk updates in @QuarkusTest to see DB state
+- GE-20260414-7ce32b: @TestTransaction swallows unique-constraint violations — Hibernate never flushes within the test body
+- GE-20260414-926cee: RestAssured percent-encodes `:` in URL paths, breaking JAX-RS routes like `/a2a/message:send`
+- GE-20260414-937013: Add a non-@Tool overload to evolve an MCP @Tool method signature without breaking test call sites
+- GE-20260414-99854d: @TestTransaction + Hibernate JPQL bulk update = silently stale first-level cache
+- GE-20260414-9b2b14: `wait_for_reply` cancellation requires the cancel to happen WHILE the poll loop is running
+- GE-20260414-fbf82f: Test scheduled services directly via injection instead of waiting for Quarkus Scheduler to fire
+- GE-20260415-53068a: RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException
+- GE-20260415-5c2136: @QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades
+- GE-20260415-e92f89: @TestTransaction + @Transactional method call + REST assertion — data invisible across transaction boundary
+- GE-20260415-ffcbdd: Multiple @QuarkusTest classes in Surefire cause intermittent TIME_WAIT port conflict
+- GE-20260416-58b555: @QuarkusTest CDI singletons populated only via HTTP remain null — server startup never calls endpoints
+- GE-20260416-f02f95: Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`
+- GE-20260417-2e4d46: Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema
+- GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
+- GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
+- GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
+- GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni
+- GE-20260420-cbd0fa: Quarkus Hibernate Reactive @QuarkusTest cannot use H2 — vertx-jdbc-client alone doesn't register the reactive pool factory
+- GE-20260420-d99177: @QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data
+- GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
+- GE-20260421-1d2764: QuarkusTest leaves Quarkus server on port 8081 between mvn test runs — next run sees 'Address already in use'
+- GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
+- GE-20260421-a00d0a: Quarkus %test profile serves /qa/emulated/config with HTTP 200 — gating a panel on HTTP status alone shows it in tests
+- GE-20260422-13f53b: Quarkus @TestProfile restarts don't inherit test application.properties datasource config
+- GE-20260422-6997d5: @Scheduled bean testability via package-private Clock+Duration constructor
+- GE-20260422-7ace3d: Stale Maven JAR after branch merge causes NoSuchMethodError in @QuarkusTest
+- GE-20260422-f86f42: Quarkus dual-PU setup with a library dependency that injects @Default EntityManager requires a dummy default datasource + minimal packages config
+- GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
+- GE-20260423-ad5d5e: Quarkus profile swap silently breaks QA endpoint seeding — different CDI bean broadcasts state
+- GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito
+- GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
+- GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
+- GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index
+- GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
+- GE-20260428-0482d3: Quarkus augmentation cache is disk-based — reuseForks=false does NOT clear it
+- GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
+- GE-20260428-5dbd37: Flyway migrations written against H2 silently fail on PostgreSQL — H2 accepts non-standard SQL types
+- GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision
+- GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit
+- GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
+- GE-20260429-07114f: PlaywrightBase BASE_URL hardcoded to 8081 breaks Quarkus random-port E2E tests
+- GE-20260429-272e6b: Quarkus sets `test.url` MicroProfile Config property in @QuarkusTest — actual bound URL including random port
+- GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
+- GE-20260501-884024: @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active
+- GE-20260501-9de50b: @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()
+- GE-20260505-84577e: @ApplicationScoped CDI proxy field writes go to the proxy, not the bean — silent in @QuarkusTest
+- GE-20260505-c8514a: @TestTransaction prevents cross-test message leakage when gateway inbound persists messages inside @QuarkusTest
+- GE-20260505-fc9770: ThreadLocal<Deque<T>> on @ApplicationScoped bean as CDI interceptor context — works in tests and scheduled jobs, cleans up automatically
+- GE-20260414-4d4976: Validator cross-checks silently do nothing when their HTML dependency is absent
+- GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
+- GE-20260415-1788e5: fitAddon.fit() is a no-op in headless Playwright — terminal.onResize never fires
+- GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
+- GE-20260415-d07a2c: FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items
+- GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures
+- GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves
+- GE-20260420-ca3fb3: str.replace with list[0] silently no-ops when list order changes
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable
+- GE-20260421-954775: Trace iterative algorithms by hand for 3-4 iterations before coding to catch silent convergence failures
+- GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot
+- GE-20260421-ef0a4e: Refactoring tests to extend an abstract base class silently removes implementation-specific test methods
+- GE-20260422-164498: Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection
+- GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring
+- GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
+- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view
+- GE-20260427-f26db0: Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling
+- GE-20260428-5757e3: Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel
+- GE-20260429-63a862: Claude Code subagent test result reports are unreliable — always verify independently
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
+- GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error
+- GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
+- GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed
+- GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests
+- GE-20260516-4e5919: Discovery test as permanent protocol constant coverage instrument
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld
+- GE-20260521-3ce7ca: @Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append

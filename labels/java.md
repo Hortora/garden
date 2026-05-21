@@ -9,3 +9,55 @@
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
 - GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
+- GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
+- GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted
+- GE-20260415-5d762b: Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)
+- GE-20260415-e112ca: Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need
+- GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants
+- GE-20260416-39d854: Synthesised delegation methods need explicit `public` when overriding interface methods
+- GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference
+- GE-20260417-28e1b8: URI.create() throws IllegalArgumentException on malformed URLs — urlparse() never does
+- GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
+- GE-20260417-f962f2: URI.getPath().split("/") produces a leading empty string — Python's path.strip('/').split('/') does not
+- GE-20260418-9b272f: Java Sealed Interface Exhaustiveness Breaks Build Mid-Plan When Type Creation and Wiring Are Separate Tasks
+- GE-20260420-b9c06c: java.util.zip.ZipInputStream rejects BZip2-compressed ZIP entries with 'invalid compression method'
+- GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
+- GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
+- GE-20260421-924fc7: Creating a Java class with the same name as an existing class in the same package silently overwrites it
+- GE-20260426-4e3801: java -jar: JVM -D flags after the jar path are app arguments, not JVM properties
+- GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature
+- GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
+- GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference
+- GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time
+- GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null
+- GE-20260501-697d3e: Quarkus identity-tokenised repository query returns empty when tokeniseForQuery omitted on new method
+- GE-20260501-b88737: Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage
+- GE-20260501-b89a0d: Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields
+- GE-20260504-5b9269: Nested Collectors.groupingBy produces O(M) multi-key grouping without re-streaming
+- GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call
+- GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260512-9f4de6: Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
+- GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
+- GE-20260514-056bc5: Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch
+- GE-20260514-36f3ef: Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them
+- GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
+- GE-20260517-7471c7: Java HttpClient silently returns empty result for file:// URLs
+- GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection
+- GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
+- GE-20260428-28391e: Permuplate keepTemplate=true: @PermuteBody replaces generated classes only — template class body unchanged
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
+- GE-20260414-119352: macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames
+- GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
+- GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures
+- GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS
+- GE-20260421-ef0a4e: Refactoring tests to extend an abstract base class silently removes implementation-specific test methods
+- GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
+- GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
+- GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
+- GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package

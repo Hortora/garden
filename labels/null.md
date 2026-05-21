@@ -1,1 +1,2 @@
 - GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
+- GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted

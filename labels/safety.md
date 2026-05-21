@@ -1,0 +1,1 @@
+- GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS

@@ -1,0 +1,1 @@
+- GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos

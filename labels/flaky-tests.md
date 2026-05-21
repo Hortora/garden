@@ -1,0 +1,3 @@
+- GE-20260512-e552f7: @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
+- GE-20260501-9de50b: @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()

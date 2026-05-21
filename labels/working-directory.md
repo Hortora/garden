@@ -1,0 +1,1 @@
+- GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations

@@ -1,0 +1,1 @@
+- GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference

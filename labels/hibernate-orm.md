@@ -1,0 +1,5 @@
+- GE-20260429-21e6cf: Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers
+- GE-20260418-0eda84: Quarkus Hibernate ORM schema generation rejects 'create-drop' — correct value is 'drop-and-create'
+- GE-20260422-334eb8: Quarkus named persistence unit EntityManager injection uses io.quarkus.hibernate.orm.PersistenceUnit — not jakarta.persistence.PersistenceUnit
+- GE-20260422-f86f42: Quarkus dual-PU setup with a library dependency that injects @Default EntityManager requires a dummy default datasource + minimal packages config
+- GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously

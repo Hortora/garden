@@ -1,0 +1,1 @@
+- GE-20260415-5d762b: Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)

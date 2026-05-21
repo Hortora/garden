@@ -1,0 +1,1 @@
+- GE-20260426-1a8caf: git stash one-liner to baseline-check if a build failure pre-existed your change

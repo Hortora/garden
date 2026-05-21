@@ -1,0 +1,1 @@
+- GE-20260426-c8f5c6: Jekyll defaults: silently ignored on files without YAML frontmatter

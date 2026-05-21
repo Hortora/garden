@@ -1,0 +1,1 @@
+- GE-20260414-736039: Subagent prompts must explicitly include issue-workflow steps — CLAUDE.md automatic behaviours don't propagate

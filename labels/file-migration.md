@@ -1,0 +1,1 @@
+- GE-20260508-a30558: git rm -r silently leaves untracked files — only tracked files are staged for removal

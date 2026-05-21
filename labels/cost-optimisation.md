@@ -1,0 +1,1 @@
+- GE-20260417-a7f7fc: GOAP cheaper plan bypasses intended action when precondition complement is missing

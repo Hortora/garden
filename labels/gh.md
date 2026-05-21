@@ -1,0 +1,5 @@
+- GE-20260420-89f0c6: gh issue create does not support --json flag — capture issue number by parsing stdout URL
+- GE-20260428-dc4232: `gh issue create --label` silently fails with 'could not add label' if label doesn't exist in repo
+- GE-20260504-c51f9c: Disable squash/rebase merges across all org repos in one API loop
+- GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning
+- GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection

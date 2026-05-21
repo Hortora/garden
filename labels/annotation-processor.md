@@ -1,0 +1,4 @@
+- GE-20260421-1fa31e: mvn clean deletes APT-generated classes, triggering cascade failure from annotation processor version mismatch
+- GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases
+- GE-20260427-5c5bab: @PermuteFilter is silently ignored on plain template methods — use single-clone @PermuteMethod to enable per-arity suppression
+- GE-20260414-c87a14: @ConfigMapping in a Quarkus extension requires Javadoc on every method, including group accessors

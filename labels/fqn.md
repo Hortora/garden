@@ -1,0 +1,1 @@
+- GE-20260416-74e114: PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss

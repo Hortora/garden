@@ -1,0 +1,1 @@
+- GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match

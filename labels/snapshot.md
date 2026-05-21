@@ -1,3 +1,13 @@
 - GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
+- GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
+- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
+- GE-20260424-275fdc: Maven SNAPSHOT jar persists in ~/.m2 when source bumps version — stale annotations cause misleading CDI errors
+- GE-20260430-0042ff: Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required
+- GE-20260430-3275b1: GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes
+- GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
+- GE-20260415-748447: Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first
+- GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error

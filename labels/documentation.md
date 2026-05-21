@@ -1,2 +1,4 @@
 - GE-0108: Use Deprecated HTML `align` Attribute (Not `style="float"`) for Image Wrapping in Markdown
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
+- GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
+- GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims

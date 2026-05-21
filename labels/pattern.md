@@ -15,3 +15,11 @@
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers
+- GE-20260501-b89a0d: Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields
+- GE-20260504-5b9269: Nested Collectors.groupingBy produces O(M) multi-key grouping without re-streaming
+- GE-20260416-8466a8: Use a no-profile-guard @ApplicationScoped bridge bean to flow profile-specific data to general-purpose consumers
+- GE-20260421-67bdd2: @Blocking @Tool + private blockingXxx helper — pattern for mixing blocking and reactive in quarkus-mcp-server
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
+- GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code
+- GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
+- GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot

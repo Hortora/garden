@@ -1,0 +1,1 @@
+- GE-20260514-477d2f: Hibernate 6 SessionFactoryObserverForNamedQueryValidation throws at boot for schema-drifted JARs — quarkus property overrides don't suppress it

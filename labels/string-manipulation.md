@@ -1,1 +1,2 @@
 - GE-20260421-dbc509: replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First
+- GE-20260420-ca3fb3: str.replace with list[0] silently no-ops when list order changes

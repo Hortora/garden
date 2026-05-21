@@ -1,0 +1,2 @@
+- GE-20260416-eb035d: GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork
+- GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed

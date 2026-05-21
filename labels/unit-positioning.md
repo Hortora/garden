@@ -1,0 +1,1 @@
+- GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()

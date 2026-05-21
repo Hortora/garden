@@ -1,0 +1,2 @@
+- GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
+- GE-20260427-3dab14: Quarkus formatter plugin rejects files written by external tools before mvn process-sources

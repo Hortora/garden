@@ -1,0 +1,1 @@
+- GE-20260414-5b3897: quarkus-flow uses the CNCF Serverless Workflow SDK directly — not Kogito

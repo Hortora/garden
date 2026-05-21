@@ -1,1 +1,3 @@
 - GE-20260518-da7e91: em.flush() + JPQL bulk UPDATE + em.clear() for same-transaction save-then-update
+- GE-20260414-3fff4a: Call Entity.getEntityManager().clear() after JPQL bulk updates in @QuarkusTest to see DB state
+- GE-20260414-99854d: @TestTransaction + Hibernate JPQL bulk update = silently stale first-level cache

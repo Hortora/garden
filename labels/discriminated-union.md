@@ -1,0 +1,2 @@
+- GE-20260514-056bc5: Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch
+- GE-20260514-e5797b: CHECK constraint tying discriminator to key column nullity makes schema self-enforcing

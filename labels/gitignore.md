@@ -1,1 +1,3 @@
 - GE-20260518-554158: git add -A silently stages nested git repo as a submodule (mode 160000)
+- GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones
+- GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently

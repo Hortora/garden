@@ -1,1 +1,2 @@
 - GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception
+- GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true

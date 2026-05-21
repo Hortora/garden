@@ -1,0 +1,1 @@
+- GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion

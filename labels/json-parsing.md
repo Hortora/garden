@@ -1,0 +1,1 @@
+- GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq

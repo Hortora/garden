@@ -1,0 +1,6 @@
+- GE-20260417-3887be: Reset shared test counter immediately after a blocking startCase() call to minimise async contamination
+- GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
+- GE-20260417-d67b22: Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions
+- GE-20260515-c272d2: Quartz job store: RAM store for stateless scheduling
+- GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
+- GE-20260420-8f9e26: @Scheduled methods must return void — returning int causes cryptic Type mismatch build failure

@@ -1,1 +1,2 @@
 - GE-20260518-554158: git add -A silently stages nested git repo as a submodule (mode 160000)
+- GE-20260512-aa3873: Orphaned git submodule entry without .gitmodules causes git rm -r to fail with 'could not lookup name'

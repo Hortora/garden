@@ -1,0 +1,3 @@
+- GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
+- GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
+- GE-20260414-937013: Add a non-@Tool overload to evolve an MCP @Tool method signature without breaking test call sites

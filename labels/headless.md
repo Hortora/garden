@@ -1,0 +1,1 @@
+- GE-20260415-1788e5: fitAddon.fit() is a no-op in headless Playwright — terminal.onResize never fires

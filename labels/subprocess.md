@@ -1,1 +1,3 @@
 - GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel
+- GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed

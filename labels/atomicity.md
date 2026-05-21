@@ -1,0 +1,1 @@
+- GE-20260429-a9bd85: CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write

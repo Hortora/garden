@@ -1,0 +1,1 @@
+- GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature

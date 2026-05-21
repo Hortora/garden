@@ -1,0 +1,1 @@
+- GE-20260426-f987a9: @PermuteDeclr(name=..., type=...) on a METHOD causes duplicate generation for all arities

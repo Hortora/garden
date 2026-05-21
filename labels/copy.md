@@ -1,0 +1,1 @@
+- GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit

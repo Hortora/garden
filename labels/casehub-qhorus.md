@@ -1,0 +1,6 @@
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
+- GE-20260517-5879a9: ChannelGateway.receiveHumanMessage() passes correlationId=null — Commitment auto-state-machine never fires for human responses
+- GE-20260517-5b8e78: casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools
+- GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null
+- GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
+- GE-20260517-f28d15: qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels

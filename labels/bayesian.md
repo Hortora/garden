@@ -1,0 +1,2 @@
+- GE-20260428-9571b8: Bayesian Beta trust model may store confidence as a field but not use it in the update weight
+- GE-20260429-42fb02: Bayesian Beta trust score returns 0.5 for no evidence, not 1.0

@@ -1,2 +1,5 @@
 - GE-20260412-17c8ce: Enable GitHub Pages Actions source and fix branch protection via gh API — no browser
 - GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9
+- GE-20260413-66dbe0: Jekyll permalink: pretty silently breaks all relative image paths
+- GE-20260413-83dedd: GitHub Pages `configure-pages` action fails if Pages not enabled via API first
+- GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry

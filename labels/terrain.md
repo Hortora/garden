@@ -1,0 +1,4 @@
+- GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
+- GE-20260505-d71db6: ocraft ImageData.getData() returns byte[] directly — not ByteString
+- GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()
+- GE-20260423-bf2ab1: Three.js blue-white DirectionalLight dominates MeshLambertMaterial colour — changing tile colour alone does not fix grey appearance

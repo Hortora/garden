@@ -1,0 +1,1 @@
+- GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits

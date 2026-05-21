@@ -1,0 +1,5 @@
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
+- GE-20260514-056bc5: Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch
+- GE-20260414-7fbf58: Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert
+- GE-20260423-7c5214: Quarkus dev mode fails with ClassTooLargeException after large enum or switch growth
+- GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants

@@ -1,1 +1,9 @@
 - GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
+- GE-20260414-23982b: `check_messages` excludes EVENT messages by design — tests expecting EVENTs via check_messages always get fewer results than sent
+- GE-20260505-8c57c2: CDI events as a bridge for circular Maven module dependencies — fire from lower module, observe in upper
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260517-f31786: `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
+- GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element

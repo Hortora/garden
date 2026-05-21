@@ -1,0 +1,2 @@
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view
+- GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld

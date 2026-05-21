@@ -1,0 +1,1 @@
+- GE-20260417-680e86: IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead

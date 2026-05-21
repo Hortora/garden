@@ -1,0 +1,1 @@
+- GE-20260426-61854e: Create GitHub org team and grant write access to all repos via gh CLI — no browser needed

@@ -1,3 +1,14 @@
 - GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260414-6b964c: Two separate subagents for spec compliance then code quality catch different issues than one combined reviewer
+- GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
+- GE-20260513-4c4205: Use AtomicInteger call counter in Supplier<String> to distinguish SSE events by content in tests
+- GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
+- GE-20260517-a6d608: DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides
+- GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260430-01cc0c: Empty git commit as clean CI re-trigger
+- GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
+- GE-20260505-df6f1e: Sub-tile LOS sampling for path smoothing: step at 0.8× movement speed
+- GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction

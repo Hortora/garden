@@ -1,0 +1,12 @@
+- GE-20260415-ec4471: Stacked PRs from a fork: push the base branch to upstream first
+- GE-20260417-a420df: PR base becomes stale when upstream maintainer merges your content as a new PR directly to main
+- GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
+- GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
+- GE-20260428-1ad5c4: GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails
+- GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom
+- GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning
+- GE-20260505-db8f1c: `git rebase --onto upstream/main <sha> branch` — drop a specific commit without interactive rebase
+- GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection
+- GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
+- GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
+- GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote

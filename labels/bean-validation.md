@@ -1,0 +1,1 @@
+- GE-20260508-b4c9b4: quarkus-rest does not include Bean Validation — @NotBlank/@Valid silently ignored without quarkus-hibernate-validator

@@ -1,0 +1,1 @@
+- GE-20260413-83d434: ImageMagick `convert` silently shadowed by macOS built-in — use `magick` instead

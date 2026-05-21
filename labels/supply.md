@@ -1,0 +1,2 @@
+- GE-20260505-e89194: PlayerState refactor leaves supply=0 — silently blocks all TrainIntent processing
+- GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary

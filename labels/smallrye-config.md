@@ -1,0 +1,2 @@
+- GE-20260414-614675: Use Optional<String> in @ConfigMapping for optional string properties that can be legitimately absent
+- GE-20260414-a2e8a3: @WithDefault("") in @ConfigMapping throws ConfigValidationException — empty string treated as null

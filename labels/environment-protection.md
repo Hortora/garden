@@ -1,0 +1,1 @@
+- GE-20260426-4576d1: GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry

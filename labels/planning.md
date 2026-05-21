@@ -1,0 +1,5 @@
+- GE-20260418-9b272f: Java Sealed Interface Exhaustiveness Breaks Build Mid-Plan When Type Creation and Wiring Are Separate Tasks
+- GE-20260417-a7f7fc: GOAP cheaper plan bypasses intended action when precondition complement is missing
+- GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
+- GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently
+- GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits

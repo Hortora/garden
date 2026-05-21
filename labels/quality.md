@@ -1,0 +1,1 @@
+- GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction

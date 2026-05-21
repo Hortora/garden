@@ -1,1 +1,4 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker
+- GE-20260515-cd1653: Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed
+- GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running

@@ -1,1 +1,2 @@
 - GE-20260519-3ffbc0: Class.isAssignableFrom() direction is silently wrong in reflection-based SPI parity tests
+- GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures

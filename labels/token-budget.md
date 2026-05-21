@@ -1,2 +1,3 @@
 - GE-0054: Demand-load reference material in Claude Code skills via separate .md files
 - GE-0055: Restrict Claude Code skill CSO triggers to explicit user invocation; use pointer mentions in callers
+- GE-20260420-e3f2c4: Claude Code response size limit (~32k) is separate from context window — large plan generation silently kills the session

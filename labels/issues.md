@@ -1,0 +1,2 @@
+- GE-20260422-4407a2: GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main
+- GE-20260428-dc4232: `gh issue create --label` silently fails with 'could not add label' if label doesn't exist in repo

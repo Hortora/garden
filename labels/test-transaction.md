@@ -1,0 +1,2 @@
+- GE-20260512-50b394: Use @TestTransaction + unique identifiers to prevent @Scheduled interference in Quarkus tests
+- GE-20260415-e92f89: @TestTransaction + @Transactional method call + REST assertion — data invisible across transaction boundary

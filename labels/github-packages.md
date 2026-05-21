@@ -1,0 +1,10 @@
+- GE-20260426-3e6b29: maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload
+- GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260426-d58530: GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths
+- GE-20260428-13d4ff: Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403)
+- GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom
+- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
+- GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible
+- GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead
+- GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own

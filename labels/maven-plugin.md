@@ -1,0 +1,2 @@
+- GE-20260421-e86212: PermuteAnnotationTransformer never called in non-inline pipeline — @PermuteAnnotation silently ignored
+- GE-20260417-a405a4: quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error

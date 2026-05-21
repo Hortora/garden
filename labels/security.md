@@ -1,1 +1,6 @@
 - GE-0033: Use `@UnlessBuildProfile("prod")` to strip debug/QA beans from production at CDI level
+- GE-20260422-e72442: --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list
+- GE-20260501-697d3e: Quarkus identity-tokenised repository query returns empty when tokeniseForQuery omitted on new method
+- GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override
+- GE-20260513-3c1a03: @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP
+- GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values

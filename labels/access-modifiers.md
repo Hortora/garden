@@ -1,0 +1,1 @@
+- GE-20260416-39d854: Synthesised delegation methods need explicit `public` when overriding interface methods

@@ -1,0 +1,2 @@
+- GE-20260501-56e179: ThreadLocal set on calling thread is invisible inside CompletableFuture.supplyAsync()
+- GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events

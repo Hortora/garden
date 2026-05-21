@@ -1,0 +1,2 @@
+- GE-20260426-55d1b1: keepTemplate=true preserves sentinel type param even for empty @PermuteTypeParam range
+- GE-20260417-a1f3e9: Maven plugin keepTemplate=true with inline=false writes template class to generated sources

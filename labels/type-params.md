@@ -1,0 +1,2 @@
+- GE-20260426-14d193: Use T directly in @PermuteReturn typeArgs to avoid @PermuteTypeParam on standalone methods
+- GE-20260426-55d1b1: keepTemplate=true preserves sentinel type param even for empty @PermuteTypeParam range

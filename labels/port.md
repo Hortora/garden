@@ -1,0 +1,4 @@
+- GE-20260415-5c2136: @QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades
+- GE-20260415-ffcbdd: Multiple @QuarkusTest classes in Surefire cause intermittent TIME_WAIT port conflict
+- GE-20260421-1d2764: QuarkusTest leaves Quarkus server on port 8081 between mvn test runs — next run sees 'Address already in use'
+- GE-20260429-07114f: PlaywrightBase BASE_URL hardcoded to 8081 breaks Quarkus random-port E2E tests

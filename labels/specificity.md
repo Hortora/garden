@@ -1,0 +1,1 @@
+- GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases

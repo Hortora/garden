@@ -1,1 +1,3 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met

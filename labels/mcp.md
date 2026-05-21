@@ -1,1 +1,18 @@
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
+- GE-20260417-680e86: IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead
+- GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
+- GE-20260417-691885: Class-level @WrapBusinessError converts @Tool method exceptions to isError:true MCP responses without changing return types
+- GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods
+- GE-20260418-d123af: Quarkus @WrapBusinessError converts IllegalArgumentException to ToolCallException at CDI proxy — catching IAE alone silently misses it
+- GE-20260420-e61431: @WrapBusinessError on Quarkus MCP Server CDI proxy wraps exceptions into ToolCallException(cause) — must inspect getCause() to distinguish error types
+- GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking
+- GE-20260421-67bdd2: @Blocking @Tool + private blockingXxx helper — pattern for mixing blocking and reactive in quarkus-mcp-server
+- GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
+- GE-20260501-50a9f4: quarkus-mcp-server silently caps tools/list at 50 — tools beyond alphabetical position 50 simply don't appear
+- GE-20260415-d07a2c: FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items
+- GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations
+- GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
+- GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed
+- GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
+- GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove

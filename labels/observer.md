@@ -1,1 +1,8 @@
 - GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
+- GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
+- GE-20260517-712fe5: Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`
+- GE-20260422-50c33c: CDI @Observes on an abstract base type catches all subtype events — useful for generifying event observers
+- GE-20260427-893862: @Observes(during = AFTER_SUCCESS) for post-commit side effects that must not fire on rollback
+- GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
+- GE-20260501-884024: @Observes(during = AFTER_SUCCESS) CDI observer silently does not fire when no JTA transaction is active
+- GE-20260501-9de50b: @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()

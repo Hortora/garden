@@ -1,0 +1,1 @@
+- GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit

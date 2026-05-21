@@ -1,0 +1,1 @@
+- GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value

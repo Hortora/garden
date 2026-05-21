@@ -3,3 +3,6 @@
 - GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
 - GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
+- GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
+- GE-20260416-a5e990: `git cherry-pick --continue` applies all remaining queued commits, not just the conflicted one
+- GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content

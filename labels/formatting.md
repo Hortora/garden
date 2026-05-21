@@ -1,0 +1,1 @@
+- GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line

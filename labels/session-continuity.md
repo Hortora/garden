@@ -1,0 +1,1 @@
+- GE-20260417-15f33f: AI session handover can describe committed work that was never committed

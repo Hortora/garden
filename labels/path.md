@@ -1,0 +1,2 @@
+- GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached
+- GE-20260413-83d434: ImageMagick `convert` silently shadowed by macOS built-in — use `magick` instead

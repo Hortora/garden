@@ -1,0 +1,2 @@
+- GE-20260429-a79d0e: @Alternative @Priority(N) in Quarkus CDI auto-activates without quarkus.arc.selected-alternatives config
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager

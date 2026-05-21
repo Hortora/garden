@@ -1,0 +1,1 @@
+- GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently

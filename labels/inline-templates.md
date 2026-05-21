@@ -1,0 +1,1 @@
+- GE-20260417-29c2e3: File-naming trick for top-level inline templates: name file after output class, template class differently

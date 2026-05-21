@@ -1,0 +1,2 @@
+- GE-20260421-876557: Cross-product SAM interface families from one template via @PermuteVar + JEXL ternary macros
+- GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure

@@ -1,0 +1,2 @@
+- GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
+- GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED

@@ -1,0 +1,1 @@
+- GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject

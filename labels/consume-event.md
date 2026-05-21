@@ -1,1 +1,3 @@
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
+- GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true
+- GE-20260420-f0a37a: Quarkus Vert.x eventBus.publish() is fan-out; eventBus.send() is point-to-point — multiple @ConsumeEvent handlers require publish()

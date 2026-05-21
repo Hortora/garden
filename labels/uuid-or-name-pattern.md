@@ -1,0 +1,1 @@
+- GE-20260517-11dd6b: IllegalArgumentException catch around UUID.fromString + downstream call swallows unrelated errors

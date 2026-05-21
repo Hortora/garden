@@ -1,0 +1,1 @@
+- GE-20260420-89f0c6: gh issue create does not support --json flag — capture issue number by parsing stdout URL

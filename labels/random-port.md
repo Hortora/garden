@@ -1,0 +1,2 @@
+- GE-20260429-07114f: PlaywrightBase BASE_URL hardcoded to 8081 breaks Quarkus random-port E2E tests
+- GE-20260429-272e6b: Quarkus sets `test.url` MicroProfile Config property in @QuarkusTest — actual bound URL including random port

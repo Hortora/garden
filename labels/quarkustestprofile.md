@@ -1,1 +1,3 @@
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append
+- GE-20260521-4de4f1: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append

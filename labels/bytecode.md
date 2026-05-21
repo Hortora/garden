@@ -1,0 +1,2 @@
+- GE-20260423-7c5214: Quarkus dev mode fails with ClassTooLargeException after large enum or switch growth
+- GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level

@@ -1,0 +1,7 @@
+- GE-20260512-1fa51e: @Scheduled interval without $ prefix silently uses literal string as duration — fires at wrong frequency
+- GE-20260512-50b394: Use @TestTransaction + unique identifiers to prevent @Scheduled interference in Quarkus tests
+- GE-20260414-872786: Quarkus @Scheduled interval expressions require ${property} not {property}
+- GE-20260414-fbf82f: Test scheduled services directly via injection instead of waiting for Quarkus Scheduler to fire
+- GE-20260420-8f9e26: @Scheduled methods must return void — returning int causes cryptic Type mismatch build failure
+- GE-20260422-6997d5: @Scheduled bean testability via package-private Clock+Duration constructor
+- GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls

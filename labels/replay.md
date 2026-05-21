@@ -1,0 +1,2 @@
+- GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary
+- GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer

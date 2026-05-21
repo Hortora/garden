@@ -1,0 +1,1 @@
+- GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate

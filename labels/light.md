@@ -1,0 +1,1 @@
+- GE-20260421-1eac96: Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init

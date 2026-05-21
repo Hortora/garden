@@ -1,0 +1,2 @@
+- GE-20260424-318ef3: Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module
+- GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly

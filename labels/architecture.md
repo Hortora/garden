@@ -2,3 +2,13 @@
 - GE-20260414-3d73c3: Structure architecture docs as property claims with Guarantees and Graceful Degradation
 - GE-20260415-8b8b7e: JSON-string protocol at the JEP boundary eliminates type marshaling complexity
 - GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers
+- GE-20260505-8c57c2: CDI events as a bridge for circular Maven module dependencies — fire from lower module, observe in upper
+- GE-20260422-0ed3e5: CDI container wiring vs service-loader wiring in large JVM frameworks
+- GE-20260501-b88737: Parallel SPI interfaces in api/ and runtime/ modules diverge silently — no compile error, no usage
+- GE-20260501-b89a0d: Use '*' sentinel string instead of NULL for 'applies to all' in scoped fields
+- GE-20260515-6e8205: Three-tier Maven module structure — api/common/runtime
+- GE-20260416-9d1147: PermuteMojo's generate() chain already handles template composition ordering — no extra infrastructure needed
+- GE-20260416-8466a8: Use a no-profile-guard @ApplicationScoped bridge bean to flow profile-specific data to general-purpose consumers
+- GE-20260505-d702f0: Routing through a gateway method inside @Transactional causes double-persist — split the persistence call from the fan-out
+- GE-20260422-458078: Spawn a research agent with targeted academic + standards queries to drive architecture decisions
+- GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency

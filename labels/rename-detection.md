@@ -1,0 +1,1 @@
+- GE-20260505-adae54: git add -u <dir> stages tracked deletions and triggers git's rename detection

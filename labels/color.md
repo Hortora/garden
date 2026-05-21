@@ -1,0 +1,1 @@
+- GE-20260423-bf2ab1: Three.js blue-white DirectionalLight dominates MeshLambertMaterial colour — changing tile colour alone does not fix grey appearance

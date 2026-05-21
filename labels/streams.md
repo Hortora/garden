@@ -1,0 +1,2 @@
+- GE-20260504-5b9269: Nested Collectors.groupingBy produces O(M) multi-key grouping without re-streaming
+- GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call

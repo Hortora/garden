@@ -1,0 +1,1 @@
+- GE-20260417-3887be: Reset shared test counter immediately after a blocking startCase() call to minimise async contamination

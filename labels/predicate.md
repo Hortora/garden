@@ -1,0 +1,1 @@
+- GE-20260427-23f4a7: Reflection-based predicate invocation must detect ctx-first vs no-ctx arity to avoid wrong-number-of-arguments

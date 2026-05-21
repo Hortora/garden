@@ -1,0 +1,1 @@
+- GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router

@@ -1,3 +1,6 @@
 - GE-20260518-896005: In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge
 - GE-20260519-f9624b: CDI @Alternative reactive wrapper with private new Impl() delegate is a separate instance from the CDI bean — @AfterEach clear() silently targets the wrong object
 - GE-20260521-49e7fd: CDI delegate pattern: reactive in-memory store wraps blocking store to share state across both interfaces in @QuarkusTest
+- GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
+- GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
+- GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni

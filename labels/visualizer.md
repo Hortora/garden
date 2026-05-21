@@ -1,0 +1,1 @@
+- GE-20260424-7955ee: Three.js tile-coord visualizer: negative game-tile z values map outside world bounds and silently disappear

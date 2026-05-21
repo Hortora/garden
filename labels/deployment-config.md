@@ -1,0 +1,1 @@
+- GE-20260511-3e5a75: casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior

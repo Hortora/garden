@@ -1,1 +1,6 @@
 - GE-20260521-2b82e7: Panache.withTransaction() uses the default persistence unit — silently wrong in apps with only a named PU
+- GE-20260424-e33d79: Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers
+- GE-20260423-4aa1e0: JPA InheritanceType.JOINED forces all hierarchy entities into one persistence unit
+- GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
+- GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
+- GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously

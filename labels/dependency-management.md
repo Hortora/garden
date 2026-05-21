@@ -1,0 +1,2 @@
+- GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it
+- GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency

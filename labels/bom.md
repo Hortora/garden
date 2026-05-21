@@ -1,0 +1,1 @@
+- GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it

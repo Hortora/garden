@@ -1,0 +1,11 @@
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
+- GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
+- GE-20260427-a15a51: Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view
+- GE-20260428-5757e3: Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent
+- GE-20260428-74de4d: Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel
+- GE-20260428-7cfeab: Three.js transparent plane with depthTest:true (default) is invisible when rendered below an opaque plane at the same position
+- GE-20260421-1eac96: Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init
+- GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20260421-6d4f16: Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles
+- GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right

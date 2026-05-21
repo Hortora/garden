@@ -1,0 +1,1 @@
+- GE-20260501-29e3b8: QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives

@@ -2,3 +2,5 @@
 - GE-20260414-c12931: YAML frontmatter regex silently skips files with CRLF line endings
 - GE-20260414-2a1cd1: Regex-validated date strings still crash date.fromisoformat() on invalid calendar values
 - GE-20260421-dbc509: replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First
+- GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
+- GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0

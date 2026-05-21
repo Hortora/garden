@@ -1,0 +1,4 @@
+- GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope
+- GE-20260417-a405a4: quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error
+- GE-20260424-918740: XML comment containing '--' crashes Maven with Non-parseable POM
+- GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations

@@ -1,1 +1,6 @@
 - GE-0123: Use Java-Managed Event Buffers + Fresh RuleUnitInstance per Tick Instead of Drools Fusion STREAM Mode for Temporal CEP in Quarkus Rule Units
+- GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire
+- GE-20260427-0e7508: Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules
+- GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path
+- GE-20260427-23f4a7: Reflection-based predicate invocation must detect ctx-first vs no-ctx arity to avoid wrong-number-of-arguments
+- GE-20260427-c94b12: Java erasure conflict at specific arity boundaries when adding ctx-optional filter overloads

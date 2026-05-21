@@ -1,0 +1,2 @@
+- GE-20260424-275fdc: Maven SNAPSHOT jar persists in ~/.m2 when source bumps version — stale annotations cause misleading CDI errors
+- GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed

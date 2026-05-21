@@ -1,1 +1,18 @@
 - GE-20260519-114395: Call @ConsumeEvent/@ObservesAsync handlers directly via injected CDI proxy — preserves @Transactional, eliminates async waiting in tests
+- GE-20260417-3887be: Reset shared test counter immediately after a blocking startCase() call to minimise async contamination
+- GE-20260417-d67b22: Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260512-6887c9: @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260517-712fe5: Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`
+- GE-20260517-f31786: `event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`
+- GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking
+- GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit
+- GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
+- GE-20260501-9de50b: @ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
+- GE-20260427-f26db0: Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling

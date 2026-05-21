@@ -1,0 +1,1 @@
+- GE-20260428-13d4ff: Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403)

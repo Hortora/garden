@@ -1,0 +1,2 @@
+- GE-20260505-9cf5c8: git mv fails 'not under version control' for files copied but never git-added
+- GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm

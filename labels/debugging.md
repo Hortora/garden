@@ -1,3 +1,14 @@
 - GE-0047: Use javap to find the actual Quarkus config property name from a field annotation
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
+- GE-20260420-f3e0a7: Use `jar tf` to verify a class exists in an installed Maven artifact before attempting a compile
+- GE-20260416-99d4c6: Profile-scoped Quarkus file logging enables grep-based remote debugging
+- GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
+- GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code
+- GE-20260421-ac2a7b: gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation
+- GE-20260426-1a8caf: git stash one-liner to baseline-check if a build failure pre-existed your change
+- GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
+- GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements

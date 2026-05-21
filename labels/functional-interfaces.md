@@ -1,0 +1,1 @@
+- GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types

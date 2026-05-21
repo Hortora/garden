@@ -1,0 +1,2 @@
+- GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
+- GE-20260421-ef0a4e: Refactoring tests to extend an abstract base class silently removes implementation-specific test methods

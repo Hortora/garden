@@ -1,1 +1,7 @@
 - GE-20260412-48e9e2: GitHub Pages 'Deploy from branch' ignores your Gemfile and builds with Jekyll 3.9
+- GE-20260413-66dbe0: Jekyll permalink: pretty silently breaks all relative image paths
+- GE-20260413-7f2e60: Chain Liquid replace filters in Jekyll layouts to fix relative paths without touching source files
+- GE-20260426-c8f5c6: Jekyll defaults: silently ignored on files without YAML frontmatter
+- GE-20260506-25d851: Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild
+- GE-20260506-3096d9: rustkyll serve does not support --incremental flag despite build supporting it
+- GE-20260506-934502: Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary

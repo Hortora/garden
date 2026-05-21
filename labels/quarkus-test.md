@@ -1,1 +1,8 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
+- GE-20260428-9311f8: casehub-engine @ApplicationScoped no-op SPI beans collide with consumer implementations when engine is indexed
+- GE-20260428-a67806: casehub-engine Vert.x event-bus handlers lack @Blocking — JPA consumer calls fail from IO thread
+- GE-20260501-29e3b8: QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives
+- GE-20260514-477d2f: Hibernate 6 SessionFactoryObserverForNamedQueryValidation throws at boot for schema-drifted JARs — quarkus property overrides don't suppress it
+- GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
+- GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
+- GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error

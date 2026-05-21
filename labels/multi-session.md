@@ -1,0 +1,1 @@
+- GE-20260501-66625a: git commit bundles other sessions' staged files — git add <file> does not limit what gets committed

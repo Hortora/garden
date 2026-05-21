@@ -1,0 +1,1 @@
+- GE-20260415-dfa8ba: @RegisterProvider on @RegisterRestClient not honoured by RestClientBuilder.newBuilder()

@@ -1,0 +1,1 @@
+- GE-20260415-0761e9: Floating-point boundary check with == speed is fragile — use a smaller arrival threshold

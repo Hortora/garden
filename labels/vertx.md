@@ -1,2 +1,10 @@
 - GE-20260518-a61d1b: @ConsumeEvent(blocking=true) and @Transactional on the same method work correctly in Quarkus
 - GE-20260519-4a42e6: Panache.withTransaction() requires a duplicated Vert.x context — executeBlocking() root context still fails VertxContextSafetyToggle
+- GE-20260428-a67806: casehub-engine Vert.x event-bus handlers lack @Blocking — JPA consumer calls fail from IO thread
+- GE-20260428-b966bd: Vert.x pub/sub fan-out race: mutable completion index overwritten by re-triggered component
+- GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true
+- GE-20260416-f02f95: Hibernate Reactive in Quarkus 3.x: `runOnContext()` alone throws context safety error — use `VertxContextSupport.subscribeAndAwait()`
+- GE-20260420-f0a37a: Quarkus Vert.x eventBus.publish() is fan-out; eventBus.send() is point-to-point — multiple @ConsumeEvent handlers require publish()
+- GE-20260422-1b6a56: Quarkus Vert.x @ConsumeEvent on a request() address silently starves the primary consumer
+- GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread
+- GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException

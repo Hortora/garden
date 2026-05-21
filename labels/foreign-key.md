@@ -1,0 +1,1 @@
+- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion

@@ -1,0 +1,1 @@
+- GE-20260420-cb4c7a: Micrometer Gauge named with _total suffix silently absent from Prometheus output

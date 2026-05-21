@@ -1,0 +1,5 @@
+- GE-20260513-feea71: SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour
+- GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary
+- GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants
+- GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
+- GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer

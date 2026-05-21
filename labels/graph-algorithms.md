@@ -1,0 +1,1 @@
+- GE-20260421-09d636: EigenTrust: pre-trusted distribution as dangling-node fallback creates 3-cycle non-convergence

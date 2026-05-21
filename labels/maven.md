@@ -2,3 +2,77 @@
 - GE-20260518-2de2f8: Maven SNAPSHOT jar from sibling branch persists in .m2 — tests fail with constructor mismatch
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
+- GE-20260416-7ec461: Maven `-am -Dtest=ClassName` propagates test filter to all upstream modules — 'No tests matching pattern' on unrelated modules
+- GE-20260416-ca1c71: Maven *IT.java test files are silently skipped by mvn test — failsafe convention
+- GE-20260417-460714: mvn compile -q suppresses compiler errors — exit code is 0 and no output even when compilation fails
+- GE-20260417-96accd: Maven multi-module cycle: adding a module as test-scope dep when it already depends on you
+- GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope
+- GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls
+- GE-20260420-f3e0a7: Use `jar tf` to verify a class exists in an installed Maven artifact before attempting a compile
+- GE-20260421-1fa31e: mvn clean deletes APT-generated classes, triggering cascade failure from annotation processor version mismatch
+- GE-20260504-059d1f: Maven `-pl <submodule>` resolves dependencies from .m2 cache — source changes in sibling modules invisible without `install`
+- GE-20260505-8c57c2: CDI events as a bridge for circular Maven module dependencies — fire from lower module, observe in upper
+- GE-20260513-436312: mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure
+- GE-20260421-473024: Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss
+- GE-20260424-275fdc: Maven SNAPSHOT jar persists in ~/.m2 when source bumps version — stale annotations cause misleading CDI errors
+- GE-20260424-318ef3: Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module
+- GE-20260424-807b7e: assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error
+- GE-20260429-21e6cf: Quarkus: JPA entity in a dependency artifact forces datasource config on ALL downstream consumers
+- GE-20260430-0042ff: Transitive SNAPSHOT dependencies unreliable on GitHub Packages — explicit dep required
+- GE-20260430-3275b1: GitHub Packages SNAPSHOT CI timing race — downstream fails before upstream publishes
+- GE-20260501-e13ed0: Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root
+- GE-20260508-3a77c5: Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet
+- GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it
+- GE-20260511-5be2d2: Maven -rf resume uses stale .m2 jar from failed earlier module — causes impossible compilation errors
+- GE-20260512-47f92e: quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact
+- GE-20260512-493c90: @QuarkusTest classes named *IT.java silently report 0 tests — maven-failsafe collects them instead of surefire
+- GE-20260512-c30f52: @QuarkusIntegrationTest in the runtime module causes class loading failures — separate integration-tests/ module required
+- GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
+- GE-20260515-6e8205: Three-tier Maven module structure — api/common/runtime
+- GE-20260515-70021c: Always scope Maven commands to a specific module with -pl
+- GE-20260515-da8abd: Maven submodule folder names — short, no repo-name prefix
+- GE-20260515-ffde26: Optional Quarkus features: Jandex library module pattern
+- GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS
+- GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
+- GE-20260416-9d1147: PermuteMojo's generate() chain already handles template composition ordering — no extra infrastructure needed
+- GE-20260414-2263db: Jackson deserializes Java records without @JsonProperty when Maven -parameters flag is enabled
+- GE-20260414-868f32: Quarkiverse extension-descriptor goal validates ALL transitive deployment JARs — not just direct ones
+- GE-20260415-748447: Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first
+- GE-20260415-e5fa33: Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X
+- GE-20260417-bbaa4b: Maven module order causes 'missing table' schema validation failure when Flyway lives in a later module
+- GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests
+- GE-20260421-1d2764: QuarkusTest leaves Quarkus server on port 8081 between mvn test runs — next run sees 'Address already in use'
+- GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin
+- GE-20260422-7ace3d: Stale Maven JAR after branch merge causes NoSuchMethodError in @QuarkusTest
+- GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy
+- GE-20260423-8dfa90: mvn clean does not fix ClassNotFoundException after Quarkus dependency inner class moves
+- GE-20260424-59906a: Quarkus CDI does not scan @ApplicationScoped beans in plain JAR module dependencies
+- GE-20260427-3dab14: Quarkus formatter plugin rejects files written by external tools before mvn process-sources
+- GE-20260427-59ea5d: Flyway version collision when optional Quarkus module shares classpath with runtime module
+- GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed
+- GE-20260417-29c2e3: File-naming trick for top-level inline templates: name file after output class, template class differently
+- GE-20260417-a1f3e9: Maven plugin keepTemplate=true with inline=false writes template class to generated sources
+- GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures
+- GE-20260424-918740: XML comment containing '--' crashes Maven with Non-parseable POM
+- GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations
+- GE-20260426-3e6b29: maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload
+- GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
+- GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260426-d58530: GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths
+- GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently
+- GE-20260428-13d4ff: Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403)
+- GE-20260428-1ad5c4: GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails
+- GE-20260428-222aa0: Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos
+- GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom
+- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
+- GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist
+- GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead
+- GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error
+- GE-20260501-743ff4: Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules
+- GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own
+- GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests
+- GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures
+- GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
+- GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
+- GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths

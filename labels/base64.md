@@ -1,0 +1,1 @@
+- GE-20260426-165fd9: jq @base64 wraps output at 76 chars — breaks while-read-r line-by-line parsing in bash

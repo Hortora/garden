@@ -1,0 +1,4 @@
+- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
+- GE-20260414-bd3f85: Deleting a Panache entity with a self-referencing FK throws `JdbcSQLIntegrityConstraintViolationException`
+- GE-20260423-3240d2: Panache delete() returns deleted row count — use it to collapse find-then-delete into one call
+- GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied

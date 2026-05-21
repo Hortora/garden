@@ -1,0 +1,2 @@
+- GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
+- GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks

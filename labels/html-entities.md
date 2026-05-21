@@ -1,0 +1,1 @@
+- GE-20260414-598352: Angle brackets in BeautifulSoup get_text() output are unambiguous HTML-entity markers

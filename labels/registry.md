@@ -1,0 +1,2 @@
+- GE-20260511-a5f47d: Registry isKnown() silently bypasses capabilities() override when backed by a static field
+- GE-20260421-566d3d: CDI @Any Instance<T> + name() method builds a self-registering strategy registry with O(1) lookup and startup validation

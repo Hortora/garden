@@ -1,0 +1,1 @@
+- GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones

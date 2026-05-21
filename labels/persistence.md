@@ -1,0 +1,2 @@
+- GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
+- GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker

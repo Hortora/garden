@@ -1,0 +1,1 @@
+- GE-20260416-1a2d0e: Quarkus dev mode compiles at startup — mvn test after server start does not update the running app

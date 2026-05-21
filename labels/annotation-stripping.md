@@ -1,0 +1,1 @@
+- GE-20260416-f316e2: @PermuteSource and other source-only annotations must be stripped from generated output

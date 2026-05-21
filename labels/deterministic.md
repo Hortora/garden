@@ -1,0 +1,2 @@
+- GE-20260414-fbf82f: Test scheduled services directly via injection instead of waiting for Quarkus Scheduler to fire
+- GE-20260422-6997d5: @Scheduled bean testability via package-private Clock+Duration constructor

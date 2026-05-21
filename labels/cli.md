@@ -1,1 +1,5 @@
 - GE-20260414-c08ba3: `gh issue close` only accepts one issue number — bulk close requires a loop
+- GE-20260413-83d434: ImageMagick `convert` silently shadowed by macOS built-in — use `magick` instead
+- GE-20260414-6c9bfc: gh pr create requires --body even when --title is provided in non-interactive mode
+- GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable
+- GE-20260421-ac2a7b: gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation

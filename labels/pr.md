@@ -1,0 +1,1 @@
+- GE-20260417-a420df: PR base becomes stale when upstream maintainer merges your content as a new PR directly to main

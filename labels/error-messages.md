@@ -1,0 +1,1 @@
+- GE-20260414-c4ddc9: In-memory service error messages should use human-readable names not internal UUIDs — TDD test assertions catch the difference

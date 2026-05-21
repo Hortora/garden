@@ -1,0 +1,1 @@
+- GE-20260428-222aa0: Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos

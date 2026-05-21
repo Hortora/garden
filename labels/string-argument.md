@@ -1,0 +1,1 @@
+- GE-20260414-338984: sed appends trailing comment inside a Python string argument when the string is the last positional arg

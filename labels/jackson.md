@@ -1,1 +1,4 @@
 - GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
+- GE-20260517-66d611: Jackson ObjectMapperCustomizer mixin adds @JsonTypeInfo to sealed interface without polluting pure-Java api/ module
+- GE-20260414-2263db: Jackson deserializes Java records without @JsonProperty when Maven -parameters flag is enabled
+- GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper

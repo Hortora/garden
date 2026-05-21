@@ -1,0 +1,3 @@
+- GE-20260413-66dbe0: Jekyll permalink: pretty silently breaks all relative image paths
+- GE-20260413-7f2e60: Chain Liquid replace filters in Jekyll layouts to fix relative paths without touching source files
+- GE-20260426-c8f5c6: Jekyll defaults: silently ignored on files without YAML frontmatter

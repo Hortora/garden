@@ -1,0 +1,1 @@
+- GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached

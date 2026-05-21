@@ -1,0 +1,1 @@
+- GE-20260426-d58530: GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths

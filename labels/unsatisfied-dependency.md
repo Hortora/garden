@@ -1,0 +1,1 @@
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed

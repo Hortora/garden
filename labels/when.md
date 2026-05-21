@@ -1,0 +1,2 @@
+- GE-20260427-5413df: @PermuteReturn(when="i == N") generates a method only on a specific arity in a Permuplate template
+- GE-20260427-cf8a08: @PermuteReturn(when=...) is silently ignored on methods with non-Object declared return types

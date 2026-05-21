@@ -1,0 +1,1 @@
+- GE-20260428-7cfeab: Three.js transparent plane with depthTest:true (default) is invisible when rendered below an opaque plane at the same position

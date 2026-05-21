@@ -1,0 +1,15 @@
+- GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences
+- GE-20260502-c77725: MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator cancelling the surplus
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion
+- GE-20260428-b966bd: Vert.x pub/sub fan-out race: mutable completion index overwritten by re-triggered component
+- GE-20260428-f075ef: Race-free CompletableFuture per-item pattern for CDI async event tests
+- GE-20260501-ab68c1: Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC
+- GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260512-a9ad9f: Raw ExecutorService drops CDI context — @Transactional silently broken on background threads
+- GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
+- GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
+- GE-20260414-9b2b14: `wait_for_reply` cancellation requires the cancel to happen WHILE the poll loop is running
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
+- GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events

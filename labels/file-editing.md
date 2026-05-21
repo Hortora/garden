@@ -1,0 +1,2 @@
+- GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
+- GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS

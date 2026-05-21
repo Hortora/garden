@@ -2,3 +2,18 @@
 - GE-20260519-098413: @ConfigRoot(BUILD_TIME) in deployment module does not suppress SRCFG00050 if a runtime @ConfigMapping owns the same prefix
 - GE-20260520-c52767: BUILD_TIME @ConfigRoot properties in application.properties cause SRCFG00050 SmallRye Config runtime validation error
 - GE-20260520-e15ff0: Use @QuarkusTestProfile.getConfigOverrides() to isolate per-class @QuarkusTest config
+- GE-20260504-104371: @ConfigProperty fields are null when @ApplicationScoped bean is instantiated with new outside CDI
+- GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override
+- GE-20260512-1fa51e: @Scheduled interval without $ prefix silently uses literal string as duration — fires at wrong frequency
+- GE-20260512-552405: @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260516-e137f6: QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile
+- GE-20260414-1b00a0: @ConfigProperty with defaultValue="" causes SRCFG00014 for optional String properties in Quarkus
+- GE-20260414-614675: Use Optional<String> in @ConfigMapping for optional string properties that can be legitimately absent
+- GE-20260414-872786: Quarkus @Scheduled interval expressions require ${property} not {property}
+- GE-20260414-a2e8a3: @WithDefault("") in @ConfigMapping throws ConfigValidationException — empty string treated as null
+- GE-20260414-c87a14: @ConfigMapping in a Quarkus extension requires Javadoc on every method, including group accessors
+- GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list
+- GE-20260429-272e6b: Quarkus sets `test.url` MicroProfile Config property in @QuarkusTest — actual bound URL including random port
+- GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
+- GE-20260513-a2f5b7: @WithDefault("") on a String method in @ConfigMapping causes ConfigValidationException at Quarkus startup

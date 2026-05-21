@@ -1,0 +1,1 @@
+- GE-20260428-9571b8: Bayesian Beta trust model may store confidence as a field but not use it in the update weight

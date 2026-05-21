@@ -1,0 +1,2 @@
+- GE-20260501-ab68c1: Hibernate persistAndFlush() flushes ALL tracked entities — @Version entity loaded read-only causes OCC
+- GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations

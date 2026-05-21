@@ -1,0 +1,2 @@
+- GE-20260415-5aac89: PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula
+- GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right

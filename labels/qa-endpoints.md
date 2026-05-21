@@ -1,0 +1,1 @@
+- GE-20260423-ad5d5e: Quarkus profile swap silently breaks QA endpoint seeding — different CDI bean broadcasts state

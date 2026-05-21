@@ -1,0 +1,1 @@
+- GE-20260422-50c33c: CDI @Observes on an abstract base type catches all subtype events — useful for generifying event observers

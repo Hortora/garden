@@ -1,1 +1,3 @@
 - GE-20260519-28967d: ChannelGateway.receiveHumanMessage() rejects messages whose type isn't in the channel's allowedTypes
+- GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
+- GE-20260517-f28d15: qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels

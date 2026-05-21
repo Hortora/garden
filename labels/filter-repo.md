@@ -1,2 +1,5 @@
 - GE-20260519-54d86a: git filter-repo --refs flag does not exempt the non-fresh-clone safety check
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
+- GE-20260423-5f606b: git push --force-with-lease rejected after local history rewrite
+- GE-20260423-aed486: git filter-repo silently removes the origin remote on every run
+- GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history

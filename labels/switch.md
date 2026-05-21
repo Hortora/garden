@@ -1,0 +1,2 @@
+- GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants
+- GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases

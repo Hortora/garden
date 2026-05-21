@@ -1,3 +1,12 @@
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260416-8fc4c5: Quarkus dev mode log file deleted while JVM holds it open — 161GB invisible disk usage, only visible via lsof
+- GE-20260413-83d434: ImageMagick `convert` silently shadowed by macOS built-in — use `magick` instead
+- GE-20260414-119352: macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames
+- GE-20260416-5df109: `podman machine rm` permanently destroys the VM — it is not a stop command
+- GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS
+- GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
+- GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
+- GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match
+- GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured

@@ -1,0 +1,1 @@
+- GE-20260506-934502: Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary

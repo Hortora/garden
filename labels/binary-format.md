@@ -1,0 +1,2 @@
+- GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
+- GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer

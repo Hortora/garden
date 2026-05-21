@@ -1,0 +1,1 @@
+- GE-20260417-f962f2: URI.getPath().split("/") produces a leading empty string — Python's path.strip('/').split('/') does not

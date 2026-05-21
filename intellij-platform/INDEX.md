@@ -16,3 +16,10 @@
 | GE-0163 | `PsiParameter` does not extend `PsiMember` — use `getDeclarationScope()` to get the containing method | gotcha | 11/15 |
 | GE-0164 | `Messages.showDialog()` auto-selects first option in IntelliJ headless test environment | gotcha | 12/15 |
 | GE-0165 | IntelliJ MCP `ide_index_status` errors when multiple projects are open without `project_path` | gotcha | 12/15 |
+| GE-20260416-74e114 | PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss | gotcha | 10/15 |
+| GE-20260417-680e86 | IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead | gotcha | 9/15 |
+| GE-20260423-442a71 | IntelliJ flat-PSI annotator: element.getParent() != file guard is always false | gotcha | 12/15 |
+| GE-20260423-70a4f2 | BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile | gotcha | 10/15 |
+| GE-20260423-9a5470 | Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter | technique | 9/15 |
+| GE-20260423-af487b | IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content | undocumented | 11/15 |
+| GE-20260423-e92da0 | IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead | undocumented | 9/15 |

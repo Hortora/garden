@@ -1,2 +1,5 @@
 - GE-20260520-03f1a7: cc-praxis: hooks/check_project_setup.sh is the canonical source — not install-skills/SKILL.md
 - GE-20260520-836d5b: cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message
+- GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit
+- GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start

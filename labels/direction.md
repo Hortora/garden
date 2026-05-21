@@ -1,0 +1,1 @@
+- GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right

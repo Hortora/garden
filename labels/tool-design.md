@@ -1,0 +1,1 @@
+- GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations

@@ -1,0 +1,3 @@
+- GE-20260422-b0c097: Quarkus game engine leaveGame() silently breaks WebSocket state delivery for late-connecting clients
+- GE-20260415-0761e9: Floating-point boundary check with == speed is fragile — use a smaller arrival threshold
+- GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers

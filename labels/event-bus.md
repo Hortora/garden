@@ -1,1 +1,3 @@
 - GE-20260519-114395: Call @ConsumeEvent/@ObservesAsync handlers directly via injected CDI proxy — preserves @Transactional, eliminates async waiting in tests
+- GE-20260428-a67806: casehub-engine Vert.x event-bus handlers lack @Blocking — JPA consumer calls fail from IO thread
+- GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true

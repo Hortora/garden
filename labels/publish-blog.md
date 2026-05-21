@@ -1,0 +1,1 @@
+- GE-20260513-af85fa: publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match

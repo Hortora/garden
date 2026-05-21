@@ -1,0 +1,1 @@
+- GE-20260430-84bef2: serverlessworkflow sdk-java: WorkflowExecutionListener exceptions are silently swallowed as suppressed exceptions — listener appears not to have fired

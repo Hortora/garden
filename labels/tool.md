@@ -1,0 +1,3 @@
+- GE-20260414-937013: Add a non-@Tool overload to evolve an MCP @Tool method signature without breaking test call sites
+- GE-20260414-fa6489: quarkus-mcp-server @ToolArg has 'required' and 'defaultValue' attributes — not in docs, only in bytecode
+- GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking

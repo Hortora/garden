@@ -1,0 +1,1 @@
+- GE-20260423-af487b: IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content

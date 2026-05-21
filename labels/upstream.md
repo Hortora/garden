@@ -1,1 +1,6 @@
 - GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
+- GE-20260417-a420df: PR base becomes stale when upstream maintainer merges your content as a new PR directly to main
+- GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
+- GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
+- GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
+- GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote

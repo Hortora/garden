@@ -1,0 +1,3 @@
+- GE-20260512-523f68: Quarkus dev mode hot-reload silently breaks WebSocket endpoint registration — full restart required
+- GE-20260416-1a2d0e: Quarkus dev mode compiles at startup — mvn test after server start does not update the running app
+- GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy

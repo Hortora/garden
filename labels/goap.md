@@ -1,0 +1,5 @@
+- GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire
+- GE-20260417-988839: WorldState.get() returns false for absent keys — open-world semantics
+- GE-20260417-a7f7fc: GOAP cheaper plan bypasses intended action when precondition complement is missing
+- GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
+- GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently

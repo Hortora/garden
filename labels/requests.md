@@ -1,0 +1,1 @@
+- GE-20260414-4bd3cb: validate_links.py uses requests.get not requests.head — wrong mock target causes silently-passing tests

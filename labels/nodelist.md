@@ -1,0 +1,1 @@
+- GE-20260416-b57ee4: JavaParser NodeList.clone() returns raw Object — clone each element individually

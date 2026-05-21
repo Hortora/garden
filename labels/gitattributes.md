@@ -1,0 +1,1 @@
+- GE-20260415-95b40f: git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff

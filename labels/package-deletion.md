@@ -1,0 +1,2 @@
+- GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible
+- GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead

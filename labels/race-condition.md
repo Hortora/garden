@@ -1,0 +1,4 @@
+- GE-20260429-2e1c4f: quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences
+- GE-20260423-c8d8cb: ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost
+- GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls
+- GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race

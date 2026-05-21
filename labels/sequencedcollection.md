@@ -1,0 +1,1 @@
+- GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection

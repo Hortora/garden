@@ -1,0 +1,1 @@
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface

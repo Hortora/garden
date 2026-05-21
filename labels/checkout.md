@@ -1,1 +1,2 @@
 - GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree
+- GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage

@@ -1,0 +1,1 @@
+- GE-20260421-c37188: EvaluationContext.evaluate() always returns String — numeric macros silently break evaluateInt()

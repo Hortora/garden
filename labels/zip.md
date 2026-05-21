@@ -1,0 +1,2 @@
+- GE-20260420-b9c06c: java.util.zip.ZipInputStream rejects BZip2-compressed ZIP entries with 'invalid compression method'
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code

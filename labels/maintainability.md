@@ -1,0 +1,1 @@
+- GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants

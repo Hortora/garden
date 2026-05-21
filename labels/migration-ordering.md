@@ -1,0 +1,1 @@
+- GE-20260415-d7a439: Quarkus extension Flyway migrations run in global numeric order — subclass join tables must be numbered above the extension's base schema

@@ -2,3 +2,8 @@
 - GE-20260520-ec2f39: Use jakarta.ws.rs-api (provided) not quarkus-rest when you only need JAX-RS @Provider annotations
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
 - GE-20260521-6f257b: JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant
+- GE-20260516-4bf0dc: quarkus.arc.exclude-types does not gate JAX-RS @Path resources — REST scanner is independent of CDI
+- GE-20260414-926cee: RestAssured percent-encodes `:` in URL paths, breaking JAX-RS routes like `/a2a/message:send`
+- GE-20260415-a13ed7: A @Transactional JAX-RS method that calls @Transactional CDI beans sees their writes immediately — no flush needed
+- GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached
+- GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file

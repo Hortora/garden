@@ -1,1 +1,6 @@
 - GE-20260520-ebd8b7: Semantic Scholar public API returns full citation networks programmatically — no scraping needed
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
+- GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
+- GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead
+- GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied
+- GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own

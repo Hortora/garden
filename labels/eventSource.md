@@ -1,0 +1,1 @@
+- GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames

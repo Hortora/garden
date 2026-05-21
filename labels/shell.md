@@ -2,3 +2,8 @@
 - GE-20260521-50acf0: grep -c with || echo 0 produces double-line output — non-empty check sees clean repo as dirty
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
 - GE-20260521-523b94: A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails
+- GE-20260504-9c9b01: Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt
+- GE-20260422-273e02: zsh variable-as-command shorthand fails when the command string contains arguments
+- GE-20260422-9d2c28: Use grep -l across files to identify cross-file method duplication before extracting to shared utility
+- GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
+- GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)

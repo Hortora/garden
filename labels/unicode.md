@@ -1,0 +1,4 @@
+- GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
+- GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
+- GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
+- GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free

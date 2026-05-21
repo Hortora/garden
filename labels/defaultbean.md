@@ -1,0 +1,8 @@
+- GE-20260514-83ee13: @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260515-fd3156: @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not
+- GE-20260517-9006f7: `@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact
+- GE-20260517-a6d608: DefaultBean @ApplicationScoped + MicroProfile Config @ConfigProperty enables zero-config SPI with deployment-level overrides
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260513-4f26a7: @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority

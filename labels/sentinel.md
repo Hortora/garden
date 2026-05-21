@@ -1,0 +1,1 @@
+- GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks

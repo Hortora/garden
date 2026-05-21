@@ -18,3 +18,7 @@
 | jep | jep/INDEX.md |
 | jvm | jvm/INDEX.md |
 | casehub-qhorus | casehub-qhorus/INDEX.md |
+| casehub-ledger | casehub-ledger/INDEX.md |
+| casehub-work | casehub-work/INDEX.md |
+| scelight | scelight/INDEX.md |
+| web | web/INDEX.md |

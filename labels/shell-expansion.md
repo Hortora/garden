@@ -1,0 +1,1 @@
+- GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security

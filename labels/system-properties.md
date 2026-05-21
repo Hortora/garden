@@ -1,0 +1,1 @@
+- GE-20260426-4e3801: java -jar: JVM -D flags after the jar path are app arguments, not JVM properties

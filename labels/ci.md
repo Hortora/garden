@@ -1,0 +1,15 @@
+- GE-20260417-460714: mvn compile -q suppresses compiler errors — exit code is 0 and no output even when compilation fails
+- GE-20260421-473024: Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss
+- GE-20260515-cd1653: Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed
+- GE-20260413-83dedd: GitHub Pages `configure-pages` action fails if Pages not enabled via API first
+- GE-20260413-c7dc5b: python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator
+- GE-20260421-ac2a7b: gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation
+- GE-20260422-8e9873: GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead
+- GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
+- GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
+- GE-20260426-a91e05: actions/checkout@v6 with ref: <SHA> fails silently when fetch-depth=1
+- GE-20260428-1ad5c4: GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails
+- GE-20260428-222aa0: Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos
+- GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom
+- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
+- GE-20260501-743ff4: Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules

@@ -1,2 +1,16 @@
 - GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
+- GE-20260421-473024: Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss
+- GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
+- GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
+- GE-20260420-de730c: git rebase-merge directory persists after session ends mid-rebase — blocks new rebases on any branch
+- GE-20260421-f8f11c: Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit
+- GE-20260422-75b92e: git checkout/rebase on a branch checked out in a worktree fails — use git -C <worktree-path> instead
+- GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
+- GE-20260422-e5e20f: Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto
+- GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue
+- GE-20260505-db8f1c: `git rebase --onto upstream/main <sha> branch` — drop a specific commit without interactive rebase
+- GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
+- GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject
+- GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free
+- GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote

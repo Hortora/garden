@@ -1,0 +1,4 @@
+- GE-20260414-736039: Subagent prompts must explicitly include issue-workflow steps — CLAUDE.md automatic behaviours don't propagate
+- GE-20260429-63a862: Claude Code subagent test result reports are unreliable — always verify independently
+- GE-20260429-d915d3: Subagent-driven development: parallel subagents commit unrelated changes to shared branch
+- GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims

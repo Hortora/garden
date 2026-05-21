@@ -131,3 +131,229 @@
 | GE-20260521-523b94 | A && B || C shell pattern is not if/else — C runs when A is false, not only when B fails | gotcha | 9/15 |
 | GE-20260521-5446cf | Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches | technique | 11/15 |
 | GE-20260521-eaa1e1 | git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way | gotcha | 10/15 |
+| GE-20260413-66dbe0 | Jekyll permalink: pretty silently breaks all relative image paths | gotcha | 15/15 |
+| GE-20260413-7f2e60 | Chain Liquid replace filters in Jekyll layouts to fix relative paths without touching source files | technique | 15/15 |
+| GE-20260413-83d434 | ImageMagick `convert` silently shadowed by macOS built-in — use `magick` instead | gotcha | 12/15 |
+| GE-20260413-83dedd | GitHub Pages `configure-pages` action fails if Pages not enabled via API first | gotcha | 10/15 |
+| GE-20260413-c7dc5b | python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator | gotcha | 12/15 |
+| GE-20260414-007a93 | Use a module-level configurable dict for scoring/bonus rules so strategy is data not code | technique | 11/15 |
+| GE-20260414-0a7d31 | bash $() strips trailing newlines — git commit --amend footer concatenates to last line | gotcha | 10/15 |
+| GE-20260414-119352 | macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames | gotcha | 13/15 |
+| GE-20260414-338984 | sed appends trailing comment inside a Python string argument when the string is the last positional arg | gotcha | 9/15 |
+| GE-20260414-4d4976 | Validator cross-checks silently do nothing when their HTML dependency is absent | gotcha | 9/15 |
+| GE-20260414-55f1ed | Cherry-pick loop to rewrite commit messages without interactive rebase | technique | 11/15 |
+| GE-20260414-5687e0 | mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed | gotcha | 11/15 |
+| GE-20260414-6c9bfc | gh pr create requires --body even when --title is provided in non-interactive mode | gotcha | 9/15 |
+| GE-20260414-736039 | Subagent prompts must explicitly include issue-workflow steps — CLAUDE.md automatic behaviours don't propagate | gotcha | 10/15 |
+| GE-20260414-8c43a9 | ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events | technique | 12/15 |
+| GE-20260414-db76e9 | `git worktree remove` fails after merge when worktree was used as subagent CWD | gotcha | 10/15 |
+| GE-20260414-f0bfd8 | Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions | technique | 10/15 |
+| GE-20260415-0761e9 | Floating-point boundary check with == speed is fragile — use a smaller arrival threshold | gotcha | 8/15 |
+| GE-20260415-1788e5 | fitAddon.fit() is a no-op in headless Playwright — terminal.onResize never fires | gotcha | 12/15 |
+| GE-20260415-20f08f | Playwright page.request() does not inherit page.setExtraHTTPHeaders() | gotcha | 11/15 |
+| GE-20260415-2af3bb | Assert derived values via the same source as the implementation — not hardcoded magic numbers | technique | 10/15 |
+| GE-20260415-5aac89 | PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula | gotcha | 10/15 |
+| GE-20260415-7ca64f | Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision | gotcha | 12/15 |
+| GE-20260415-84faaf | Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path | gotcha | 9/15 |
+| GE-20260415-8d619d | Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones | gotcha | 10/15 |
+| GE-20260415-95b40f | git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff | technique | 10/15 |
+| GE-20260415-d07a2c | FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items | gotcha | 11/15 |
+| GE-20260415-ec4471 | Stacked PRs from a fork: push the base branch to upstream first | technique | 10/15 |
+| GE-20260416-41a9cb | PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently | gotcha | 9/15 |
+| GE-20260416-5df109 | `podman machine rm` permanently destroys the VM — it is not a stop command | gotcha | 8/15 |
+| GE-20260416-a5e990 | `git cherry-pick --continue` applies all remaining queued commits, not just the conflicted one | gotcha | 9/15 |
+| GE-20260416-eb035d | GitHub stacked PRs from a fork: base branch must exist on the upstream repo, not the fork | gotcha | 9/15 |
+| GE-20260417-29c2e3 | File-naming trick for top-level inline templates: name file after output class, template class differently | technique | 10/15 |
+| GE-20260417-3b862c | jar xf without -C extracts to the current working directory, not a temp dir | gotcha | 10/15 |
+| GE-20260417-988839 | WorldState.get() returns false for absent keys — open-world semantics | undocumented | 10/15 |
+| GE-20260417-a1f3e9 | Maven plugin keepTemplate=true with inline=false writes template class to generated sources | undocumented | 9/15 |
+| GE-20260417-a420df | PR base becomes stale when upstream maintainer merges your content as a new PR directly to main | gotcha | 10/15 |
+| GE-20260417-a7f7fc | GOAP cheaper plan bypasses intended action when precondition complement is missing | gotcha | 10/15 |
+| GE-20260417-c6e3db | GOAP wrong goal key produces empty plan — units idle with no error | gotcha | 11/15 |
+| GE-20260417-def63b | Python one-liner to resolve all merge conflicts in a file by uniformly taking one side | technique | 9/15 |
+| GE-20260417-f661fd | GOAP action correctness: verify reachability and goal-advancement independently | technique | 12/15 |
+| GE-20260417-fdb17f | Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content | technique | 11/15 |
+| GE-20260418-8edb81 | Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures | undocumented | 12/15 |
+| GE-20260418-b5775c | Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves | gotcha | 11/15 |
+| GE-20260420-146d7c | sed range deletion /start/,/end/d corrupts XML when the end pattern appears multiple times | gotcha | 8/15 |
+| GE-20260420-1ffdff | git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead | gotcha | 9/15 |
+| GE-20260420-374a25 | Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks | technique | 9/15 |
+| GE-20260420-500405 | Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code | technique | 9/15 |
+| GE-20260420-5df542 | Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed | technique | 9/15 |
+| GE-20260420-89f0c6 | gh issue create does not support --json flag — capture issue number by parsing stdout URL | gotcha | 8/15 |
+| GE-20260420-ca3fb3 | str.replace with list[0] silently no-ops when list order changes | gotcha | 9/15 |
+| GE-20260420-dc3c2f | Separating observed_at from indexed_at makes time-series backfill free | technique | 11/15 |
+| GE-20260420-de730c | git rebase-merge directory persists after session ends mid-rebase — blocks new rebases on any branch | gotcha | 10/15 |
+| GE-20260420-e3f2c4 | Claude Code response size limit (~32k) is separate from context window — large plan generation silently kills the session | gotcha | 13/15 |
+| GE-20260421-368e34 | Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race | technique | 9/15 |
+| GE-20260421-49a3ca | tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p | gotcha | 10/15 |
+| GE-20260421-5817bb | Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill | undocumented | 8/15 |
+| GE-20260421-654530 | GitHub PR mergeable status is asynchronous after force push — stays CONFLICTING for 1+ minutes | gotcha | 9/15 |
+| GE-20260421-690e47 | Inject a decide_fn callback to make interactive CLI tools fully unit-testable | technique | 11/15 |
+| GE-20260421-954775 | Trace iterative algorithms by hand for 3-4 iterations before coding to catch silent convergence failures | technique | 9/15 |
+| GE-20260421-ac2a7b | gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation | technique | 9/15 |
+| GE-20260421-c8fdb8 | sed -i '' silently truncates Java files with generics on macOS | gotcha | 12/15 |
+| GE-20260421-d1580e | Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed | gotcha | 10/15 |
+| GE-20260421-e580ee | Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot | technique | 12/15 |
+| GE-20260421-ef0a4e | Refactoring tests to extend an abstract base class silently removes implementation-specific test methods | gotcha | 9/15 |
+| GE-20260421-f8f11c | Squash multi-commit PR with repeated GARDEN.md conflicts into a single clean commit | technique | 10/15 |
+| GE-20260422-164498 | Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection | technique | 11/15 |
+| GE-20260422-273e02 | zsh variable-as-command shorthand fails when the command string contains arguments | gotcha | 8/15 |
+| GE-20260422-2afcb2 | Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts | technique | 10/15 |
+| GE-20260422-390ac3 | Substring occurrence count in tests breaks when a new line contains the same substring | gotcha | 9/15 |
+| GE-20260422-4407a2 | GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main | gotcha | 9/15 |
+| GE-20260422-458078 | Spawn a research agent with targeted academic + standards queries to drive architecture decisions | technique | 9/15 |
+| GE-20260422-75b92e | git checkout/rebase on a branch checked out in a worktree fails — use git -C <worktree-path> instead | gotcha | 10/15 |
+| GE-20260422-8d2613 | Sentinel-guarded heredoc append for idempotent bash installer blocks | technique | 11/15 |
+| GE-20260422-8e9873 | GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead | gotcha | 9/15 |
+| GE-20260422-9d2c28 | Use grep -l across files to identify cross-file method duplication before extracting to shared utility | technique | 9/15 |
+| GE-20260422-b3423e | Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences | gotcha | 12/15 |
+| GE-20260422-b45302 | Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security | technique | 11/15 |
+| GE-20260422-c0181c | garden_db_migrate.py leaves an empty GE-20260421-test999.md artifact after migration | gotcha | 8/15 |
+| GE-20260422-ceb229 | git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream' | undocumented | 10/15 |
+| GE-20260422-e5e20f | Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto | technique | 11/15 |
+| GE-20260423-1593b7 | Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware | technique | 10/15 |
+| GE-20260423-522c5a | Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations | technique | 10/15 |
+| GE-20260423-5f606b | git push --force-with-lease rejected after local history rewrite | gotcha | 11/15 |
+| GE-20260423-aed486 | git filter-repo silently removes the origin remote on every run | gotcha | 12/15 |
+| GE-20260423-af9030 | Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits | technique | 10/15 |
+| GE-20260423-d40b93 | Playwright scene-object count passes when units are fogged — visual invisibility is not tested | gotcha | 11/15 |
+| GE-20260424-12e346 | ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants | undocumented | 9/15 |
+| GE-20260424-3f5e60 | GitHub repo transfer API returns 200 immediately but transfer completes asynchronously | gotcha | 8/15 |
+| GE-20260424-64118d | gh repo transfer has no --yes flag — use the API directly | gotcha | 8/15 |
+| GE-20260424-7955ee | Three.js tile-coord visualizer: negative game-tile z values map outside world bounds and silently disappear | gotcha | 10/15 |
+| GE-20260424-918740 | XML comment containing '--' crashes Maven with Non-parseable POM | gotcha | 9/15 |
+| GE-20260424-ccdff5 | sed replace of a SNAPSHOT version in a pom corrupts parent version declarations | gotcha | 9/15 |
+| GE-20260426-0915b7 | Poll a semantically-meaningful ready signal, not just HTTP 200, for fast-starting services | technique | 10/15 |
+| GE-20260426-165fd9 | jq @base64 wraps output at 76 chars — breaks while-read-r line-by-line parsing in bash | gotcha | 12/15 |
+| GE-20260426-1a8caf | git stash one-liner to baseline-check if a build failure pre-existed your change | technique | 8/15 |
+| GE-20260426-3e6b29 | maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload | undocumented | 9/15 |
+| GE-20260426-4576d1 | GitHub Pages environment protection custom branch policy silently blocks main after stale branch entry | gotcha | 9/15 |
+| GE-20260426-5800d0 | SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding | undocumented | 13/15 |
+| GE-20260426-5c059f | Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64 | technique | 11/15 |
+| GE-20260426-611fdc | SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer | undocumented | 12/15 |
+| GE-20260426-61854e | Create GitHub org team and grant write access to all repos via gh CLI — no browser needed | technique | 10/15 |
+| GE-20260426-6ec343 | Strip Unicode control characters before piping GitHub API JSON to jq | technique | 11/15 |
+| GE-20260426-805acb | workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch | undocumented | 10/15 |
+| GE-20260426-840309 | mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error | gotcha | 13/15 |
+| GE-20260426-a91e05 | actions/checkout@v6 with ref: <SHA> fails silently when fetch-depth=1 | gotcha | 12/15 |
+| GE-20260426-ad8f5a | Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it | gotcha | 12/15 |
+| GE-20260426-c8f5c6 | Jekyll defaults: silently ignored on files without YAML frontmatter | gotcha | 10/15 |
+| GE-20260426-d58530 | GitHub Packages silently accepts Maven artifact uploads to non-existent repository paths | gotcha | 12/15 |
+| GE-20260427-0460f9 | Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII | gotcha | 9/15 |
+| GE-20260427-39f085 | Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails | technique | 9/15 |
+| GE-20260427-a15a51 | Three.js worldToScreen at y=0 misses raycaster hit for sprites with non-zero Y — causes ~27px click offset in isometric view | gotcha | 10/15 |
+| GE-20260427-b5ec7a | git add -A before .gitignore on a new repo commits target/ and binaries permanently | gotcha | 9/15 |
+| GE-20260427-b90696 | JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them | gotcha | 10/15 |
+| GE-20260427-f26db0 | Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling | technique | 11/15 |
+| GE-20260428-13d4ff | Maven child POM missing snapshotRepository causes SNAPSHOT deploy to parent's registry (403) | gotcha | 10/15 |
+| GE-20260428-1ad5c4 | GitHub Actions fork CI deploys to upstream registry using GITHUB_TOKEN — unconditional mvn deploy fails | gotcha | 10/15 |
+| GE-20260428-1cc51a | Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously | technique | 11/15 |
+| GE-20260428-222aa0 | Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos | technique | 12/15 |
+| GE-20260428-49333e | Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom | technique | 11/15 |
+| GE-20260428-5757e3 | Three.js WebGLRenderer preserveDrawingBuffer:false (default) makes canvas pixel sampling silently return black/transparent | gotcha | 11/15 |
+| GE-20260428-74de4d | Visual pixel regression pattern for Three.js/WebGL: start real jar as subprocess, aim camera via window.__test, sample WebGL canvas pixel | technique | 13/15 |
+| GE-20260428-7cfeab | Three.js transparent plane with depthTest:true (default) is invisible when rendered below an opaque plane at the same position | gotcha | 11/15 |
+| GE-20260428-dc4232 | `gh issue create --label` silently fails with 'could not add label' if label doesn't exist in repo | gotcha | 10/15 |
+| GE-20260428-f94886 | setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401 | gotcha | 13/15 |
+| GE-20260429-52be19 | Rewrite non-HEAD commit message without interactive rebase using git commit-tree | technique | 10/15 |
+| GE-20260429-636ef1 | Cross-repo quality audit via parallel subagents after shipping an abstraction | technique | 9/15 |
+| GE-20260429-63a862 | Claude Code subagent test result reports are unreliable — always verify independently | gotcha | 10/15 |
+| GE-20260429-7d31f6 | `status` is a read-only variable in bash — silent failure when used as a function parameter | gotcha | 9/15 |
+| GE-20260429-c455e1 | Agentic code review: Important findings silently dismissed by controller — user never sees them | gotcha | 10/15 |
+| GE-20260429-d915d3 | Subagent-driven development: parallel subagents commit unrelated changes to shared branch | gotcha | 8/15 |
+| GE-20260429-ef6bdb | git checkout <hash> -- files + stash for non-destructive pre-existing regression triage | technique | 10/15 |
+| GE-20260429-f6905c | GitHub Projects v2 `updateProjectV2Field` silently returns null when updating single-select options on an existing field | undocumented | 11/15 |
+| GE-20260430-01cc0c | Empty git commit as clean CI re-trigger | technique | 8/15 |
+| GE-20260430-01fecd | Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames | technique | 10/15 |
+| GE-20260430-6b668c | Subagent-written code changes not committed leave published artifact stale | gotcha | 11/15 |
+| GE-20260430-be991b | git worktree unlock/prune works on ghost worktrees whose paths no longer exist | technique | 10/15 |
+| GE-20260501-04667c | GitHub Actions steps.outcome vs steps.conclusion — continue-on-error masks real failures | gotcha | 11/15 |
+| GE-20260501-0a33bf | Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist | technique | 8/15 |
+| GE-20260501-159207 | GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible | gotcha | 12/15 |
+| GE-20260501-1fbdc7 | GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead | gotcha | 11/15 |
+| GE-20260501-28459b | Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error | gotcha | 11/15 |
+| GE-20260501-3372e9 | Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level | technique | 12/15 |
+| GE-20260501-4242d8 | Use github.event_name != 'pull_request' as universal GitHub Actions publish guard | technique | 10/15 |
+| GE-20260501-66625a | git commit bundles other sessions' staged files — git add <file> does not limit what gets committed | gotcha | 13/15 |
+| GE-20260501-71e164 | `gh api` exit code 4 means authentication failure specifically — not a generic error | undocumented | 9/15 |
+| GE-20260501-743ff4 | Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules | gotcha | 12/15 |
+| GE-20260501-7835fe | Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue | technique | 9/15 |
+| GE-20260501-8320ae | GitHub org secret set with --org defaults to private repos — public repos silently get nothing | gotcha | 13/15 |
+| GE-20260501-9e8490 | Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM | gotcha | 13/15 |
+| GE-20260501-bc4553 | Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied | technique | 11/15 |
+| GE-20260501-c579bb | Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically | technique | 11/15 |
+| GE-20260501-c836e1 | GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own | gotcha | 12/15 |
+| GE-20260501-d7eb0e | Aggressive pre-commit hook silently absorbs staged files into a concurrent commit | gotcha | 11/15 |
+| GE-20260501-d9c2d7 | GITHUB_TOKEN returns 403 on cross-repo repository_dispatch — needs classic PAT | gotcha | 12/15 |
+| GE-20260501-e6bf89 | GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs | gotcha | 13/15 |
+| GE-20260501-fc1cc6 | GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push' | gotcha | 11/15 |
+| GE-20260504-209c28 | git push --all exits 0 even when some branches are rejected | gotcha | 10/15 |
+| GE-20260504-ae76f6 | Squash-merged PR silently drops commits pushed after the PR was opened | gotcha | 13/15 |
+| GE-20260504-b74000 | Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history | gotcha | 11/15 |
+| GE-20260504-ba71a8 | GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence | technique | 10/15 |
+| GE-20260504-c0c8dc | IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions | gotcha | 11/15 |
+| GE-20260504-c51f9c | Disable squash/rebase merges across all org repos in one API loop | technique | 10/15 |
+| GE-20260504-cb6206 | Split evaluation dimensions into purpose-specific tables to reveal candidate shape, not just rank | technique | 9/15 |
+| GE-20260504-e61c56 | gh repo fork creates <name>-1 when name already exists with no warning | gotcha | 9/15 |
+| GE-20260504-f5b84c | Use git filter-repo --invert-paths --prune-empty to remove workspace files from history | technique | 11/15 |
+| GE-20260505-14159c | init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0 | gotcha | 12/15 |
+| GE-20260505-2718d5 | Parallel bash tool calls share working directory — drift produces silent wrong-repo operations | gotcha | 10/15 |
+| GE-20260505-47c2f0 | Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh | gotcha | 9/15 |
+| GE-20260505-5601ef | `git reset --soft HEAD~1 && git commit --amend --no-edit` — non-interactive squash preserving message | technique | 10/15 |
+| GE-20260505-6e554c | Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations | technique | 13/15 |
+| GE-20260505-9325a6 | `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line | gotcha | 10/15 |
+| GE-20260505-953bd7 | Explore full ecosystem dependency graph before adding a cross-repo type dependency | technique | 9/15 |
+| GE-20260505-9cf5c8 | git mv fails 'not under version control' for files copied but never git-added | gotcha | 10/15 |
+| GE-20260505-adae54 | git add -u <dir> stages tracked deletions and triggers git's rename detection | technique | 10/15 |
+| GE-20260505-c7db9d | Tile-centre Bresenham LOS passes but continuous movement at speed<1 crosses wall tiles | gotcha | 11/15 |
+| GE-20260505-c93a61 | IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404 | gotcha | 8/15 |
+| GE-20260505-cc8247 | `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit | gotcha | 10/15 |
+| GE-20260505-d13335 | `gh project item-add --url` exits 0 with no output on both success and silent failure | gotcha | 12/15 |
+| GE-20260505-d434ea | Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims | gotcha | 10/15 |
+| GE-20260505-d71db6 | ocraft ImageData.getData() returns byte[] directly — not ByteString | undocumented | 9/15 |
+| GE-20260505-db8f1c | `git rebase --onto upstream/main <sha> branch` — drop a specific commit without interactive rebase | technique | 11/15 |
+| GE-20260505-df6f1e | Sub-tile LOS sampling for path smoothing: step at 0.8× movement speed | technique | 11/15 |
+| GE-20260505-ea8485 | `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection | gotcha | 8/15 |
+| GE-20260505-ef9683 | PR branch silently carries unrelated commit when cut from local main ahead of upstream | gotcha | 11/15 |
+| GE-20260505-f60bab | MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed | gotcha | 12/15 |
+| GE-20260505-f694a2 | sed inline header patch during cross-repo file copy — avoids copy-then-edit | technique | 8/15 |
+| GE-20260506-01e78e | Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements | gotcha | 10/15 |
+| GE-20260506-25d851 | Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild | gotcha | 10/15 |
+| GE-20260506-3096d9 | rustkyll serve does not support --incremental flag despite build supporting it | undocumented | 8/15 |
+| GE-20260506-934502 | Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary | technique | 10/15 |
+| GE-20260508-a30558 | git rm -r silently leaves untracked files — only tracked files are staged for removal | gotcha | 10/15 |
+| GE-20260510-cf4b9d | mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests | gotcha | 11/15 |
+| GE-20260511-044e40 | git rebase: `reword` silently becomes `pick` in non-interactive sessions | gotcha | 13/15 |
+| GE-20260511-1b4fbc | git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject | undocumented | 11/15 |
+| GE-20260511-3495de | ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm | gotcha | 9/15 |
+| GE-20260511-3986e6 | `&&`-chained grep commands silently stop when any grep finds nothing (exit 1) | gotcha | 9/15 |
+| GE-20260511-4e76ab | cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start | gotcha | 9/15 |
+| GE-20260511-88aede | IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures | technique | 11/15 |
+| GE-20260511-9c3c13 | Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free | technique | 11/15 |
+| GE-20260511-d8a359 | Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous | technique | 12/15 |
+| GE-20260511-db8f50 | git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote | gotcha | 9/15 |
+| GE-20260512-0acffb | mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache | technique | 9/15 |
+| GE-20260512-0dc5df | macOS sed -i '' silently empties a file when the working tree file is already empty | gotcha | 11/15 |
+| GE-20260512-40d282 | IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported | gotcha | 10/15 |
+| GE-20260512-7f4aa4 | Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access | technique | 9/15 |
+| GE-20260512-8c282a | IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name | gotcha | 12/15 |
+| GE-20260512-a28ecc | Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths | gotcha | 10/15 |
+| GE-20260512-aa3873 | Orphaned git submodule entry without .gitmodules causes git rm -r to fail with 'could not lookup name' | gotcha | 10/15 |
+| GE-20260512-deda31 | Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS | technique | 9/15 |
+| GE-20260512-f3a464 | IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames | undocumented | 11/15 |
+| GE-20260513-01e602 | Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout | technique | 10/15 |
+| GE-20260513-176ca1 | git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm | gotcha | 10/15 |
+| GE-20260513-3f8e53 | ide_find_references on an interface method confirms zero polymorphic callers — safe to remove | technique | 10/15 |
+| GE-20260513-af85fa | publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match | gotcha | 8/15 |
+| GE-20260515-1f6274 | `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob` | gotcha | 9/15 |
+| GE-20260516-42a11c | Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package | gotcha | 11/15 |
+| GE-20260516-4e5919 | Discovery test as permanent protocol constant coverage instrument | technique | 11/15 |
+| GE-20260516-c6d441 | macOS sed -i '' silently wipes file when replacement pattern has no match | gotcha | 11/15 |
+| GE-20260516-fba7b6 | git -C <path> is required in Claude Bash tool calls — cd state does not persist between calls | technique | 11/15 |
+| GE-20260517-1ad615 | macOS keychain has GitHub credentials but git ignores them without credential.helper configured | gotcha | 10/15 |
+| GE-20260517-3dddfa | Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist | gotcha | 12/15 |
+| GE-20260517-62b9db | Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation | gotcha | 11/15 |
+| GE-20260517-97d306 | shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions | gotcha | 11/15 |
+| GE-20260517-9d8cdf | Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path | gotcha | 11/15 |
+| GE-20260517-fc6be7 | JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md | gotcha | 12/15 |

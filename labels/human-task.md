@@ -1,0 +1,1 @@
+- GE-20260414-10d4da: CNCF Serverless Workflow CallableTaskBuilder.accept(Class) cannot distinguish custom callable names

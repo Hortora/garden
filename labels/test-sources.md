@@ -1,0 +1,1 @@
+- GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures

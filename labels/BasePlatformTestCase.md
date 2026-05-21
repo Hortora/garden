@@ -1,0 +1,3 @@
+- GE-20260423-70a4f2: BasePlatformTestCase: <caret> inside injected language switches myFile to injected PsiFile
+- GE-20260423-9a5470: Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter
+- GE-20260423-e92da0: IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead

@@ -1,0 +1,1 @@
+- GE-20260505-e89194: PlayerState refactor leaves supply=0 — silently blocks all TrainIntent processing

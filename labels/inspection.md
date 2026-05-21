@@ -1,1 +1,4 @@
 - GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree
+- GE-20260416-74e114: PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss
+- GE-20260417-680e86: IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead
+- GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code

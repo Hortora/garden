@@ -1,0 +1,9 @@
+- GE-20260504-059d1f: Maven `-pl <submodule>` resolves dependencies from .m2 cache — source changes in sibling modules invisible without `install`
+- GE-20260501-e13ed0: Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root
+- GE-20260515-70021c: Always scope Maven commands to a specific module with -pl
+- GE-20260415-e5fa33: Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X
+- GE-20260427-3dab14: Quarkus formatter plugin rejects files written by external tools before mvn process-sources
+- GE-20260506-25d851: Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild
+- GE-20260506-3096d9: rustkyll serve does not support --incremental flag despite build supporting it
+- GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
+- GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths

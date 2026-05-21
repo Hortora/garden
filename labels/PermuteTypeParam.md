@@ -1,0 +1,4 @@
+- GE-20260417-d1ba21: Two independent @PermuteTypeParam axes in one class produce duplicate type parameters
+- GE-20260417-f03d4f: @PermuteTypeParam on a non-first type parameter keeps A fixed and expands only the remainder
+- GE-20260426-14d193: Use T directly in @PermuteReturn typeArgs to avoid @PermuteTypeParam on standalone methods
+- GE-20260426-55d1b1: keepTemplate=true preserves sentinel type param even for empty @PermuteTypeParam range

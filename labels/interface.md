@@ -1,1 +1,7 @@
 - GE-20260521-d72294: Blocking and reactive store interfaces have irreconcilable put() signatures — one class cannot implement both
+- GE-20260415-e112ca: Interface default no-op methods for optional lifecycle callbacks — implementors only override what they need
+- GE-20260416-39d854: Synthesised delegation methods need explicit `public` when overriding interface methods
+- GE-20260421-473024: Rebasing a branch onto upstream silently breaks downstream interface implementors in multi-module Maven — CI catches what local tests miss
+- GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
+- GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
+- GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove

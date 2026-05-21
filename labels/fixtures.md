@@ -1,0 +1,1 @@
+- GE-20260429-f17b24: Recency decay tests silently pass wrong assertion when attestation.occurredAt is null

@@ -1,0 +1,1 @@
+- GE-20260414-926cee: RestAssured percent-encodes `:` in URL paths, breaking JAX-RS routes like `/a2a/message:send`

@@ -1,0 +1,1 @@
+- GE-20260423-e96787: EntityManager.merge() return value must be captured — the original instance stays detached

@@ -1,1 +1,6 @@
 - GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation
+- GE-20260430-b015f5: quarkus-mcp-server silently drops @Tool on methods with public same-name overloads
+- GE-20260414-937013: Add a non-@Tool overload to evolve an MCP @Tool method signature without breaking test call sites
+- GE-20260414-fa6489: quarkus-mcp-server @ToolArg has 'required' and 'defaultValue' attributes — not in docs, only in bytecode
+- GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
+- GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`

@@ -1,1 +1,4 @@
 - GE-20260518-da7e91: em.flush() + JPQL bulk UPDATE + em.clear() for same-transaction save-then-update
+- GE-20260420-86180e: em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context
+- GE-20260422-334eb8: Quarkus named persistence unit EntityManager injection uses io.quarkus.hibernate.orm.PersistenceUnit — not jakarta.persistence.PersistenceUnit
+- GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager

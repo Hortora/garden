@@ -1,0 +1,5 @@
+- GE-20260424-a02588: CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions
+- GE-20260515-99cf39: Config-driven @Produces @DefaultBean for engine-internal strategy selection with consumer override
+- GE-20260515-fd3156: @DefaultBean on @Produces method makes the produced bean default — placing it on the class does not
+- GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative

@@ -1,1 +1,4 @@
 - GE-0141: Use `$GIT_COMMIT` in `--msg-filter` to selectively rewrite only specific commits by hash
+- GE-20260423-5f606b: git push --force-with-lease rejected after local history rewrite
+- GE-20260423-aed486: git filter-repo silently removes the origin remote on every run
+- GE-20260429-52be19: Rewrite non-HEAD commit message without interactive rebase using git commit-tree

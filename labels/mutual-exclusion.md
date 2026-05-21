@@ -1,0 +1,1 @@
+- GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire

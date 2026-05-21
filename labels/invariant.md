@@ -1,0 +1,1 @@
+- GE-20260422-164498: Use scene.traverse() + getWorldPosition() in Playwright to catch off-map geometry without visual inspection

@@ -1,0 +1,1 @@
+- GE-20260414-119352: macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames

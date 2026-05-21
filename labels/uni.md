@@ -1,1 +1,2 @@
 - GE-20260519-f0967f: Quarkus reactive SPI test shim: resolve Uni injections in @QuarkusTest without a Vert.x datasource
+- GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny

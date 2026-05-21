@@ -1,0 +1,1 @@
+- GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding

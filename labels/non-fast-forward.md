@@ -1,0 +1,1 @@
+- GE-20260504-209c28: git push --all exits 0 even when some branches are rejected
