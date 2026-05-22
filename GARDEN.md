@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 845
+**Entries merged since last sweep:** 846
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1194,6 +1194,7 @@
 - GE-20260522-76dc5b [Blog entries added to workspace main after branch creation are invisible from the epic branch](tools/GE-20260522-76dc5b.md)
 - GE-20260522-543863 [git checkout -b confirms success but repo silently reverts to main later in the same session](tools/GE-20260522-543863.md)
 - GE-20260522-7c6ec7 [Bulk sed rename on markdown files garbles headers with parenthesized values](tools/GE-20260522-7c6ec7.md)
+- GE-20260522-0d3a0d [git squash working branch shows stale commit range when main updated concurrently by another session](tools/GE-20260522-0d3a0d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

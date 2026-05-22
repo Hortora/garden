@@ -1,0 +1,1 @@
+- GE-20260522-0d3a0d: git squash working branch shows stale commit range when main updated concurrently by another session

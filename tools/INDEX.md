@@ -377,3 +377,4 @@
 | GE-20260522-76dc5b | Blog entries added to workspace main after branch creation are invisible from the epic branch | gotcha | 10/15 |
 | GE-20260522-543863 | git checkout -b confirms success but repo silently reverts to main later in the same session | gotcha | 12/15 |
 | GE-20260522-7c6ec7 | Bulk sed rename on markdown files garbles headers with parenthesized values | gotcha | 8/15 |
+| GE-20260522-0d3a0d | git squash working branch shows stale commit range when main updated concurrently by another session | gotcha | 11/15 |
