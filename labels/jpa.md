@@ -45,3 +45,4 @@
 - GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
 - GE-20260501-93f9a8: Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
+- GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"

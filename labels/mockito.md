@@ -4,3 +4,4 @@
 - GE-20260512-c246b0: Test Quarkus CDI SPI implementations with @Alternative static inner classes — Mockito cannot be injected as CDI beans
 - GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
+- GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues

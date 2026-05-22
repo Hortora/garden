@@ -202,3 +202,4 @@
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
 - GE-20260522-adb5cd: Moving @ApplicationScoped bean from Quarkus app module to library JAR silently breaks CDI discovery
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
+- GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues

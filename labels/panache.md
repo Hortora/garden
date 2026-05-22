@@ -42,3 +42,4 @@
 - GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously
 - GE-20260521-a5e71b: Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
+- GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"

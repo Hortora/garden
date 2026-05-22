@@ -2,3 +2,4 @@
 - GE-20260422-50c33c: CDI @Observes on an abstract base type catches all subtype events — useful for generifying event observers
 - GE-20260428-92e34e: CDI Event.fireAsync().toCompletableFuture().join() waits until all @ObservesAsync handlers commit
 - GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
+- GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
