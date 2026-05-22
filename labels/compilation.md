@@ -4,3 +4,4 @@
 - GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep
 - GE-20260521-8b39bd: ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem
+- GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved

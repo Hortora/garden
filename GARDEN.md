@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 852
+**Entries merged since last sweep:** 854
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -786,6 +786,8 @@
 - GE-20260523-afab1d [@ApplicationScoped bean present in JAR bytecode is invisible to Quarkus ARC without a Jandex index](jvm/GE-20260523-afab1d.md)
 - GE-20260523-c2cca8 [Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active](jvm/GE-20260523-c2cca8.md)
 - GE-20260523-20046c [%prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects](jvm/GE-20260523-20046c.md)
+- GE-20260523-60365e [Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath](jvm/GE-20260523-60365e.md)
+- GE-20260523-51620a [Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved](jvm/GE-20260523-51620a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

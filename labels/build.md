@@ -9,3 +9,4 @@
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
+- GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath

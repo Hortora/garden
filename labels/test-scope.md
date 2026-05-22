@@ -1,1 +1,2 @@
 - GE-20260417-96accd: Maven multi-module cycle: adding a module as test-scope dep when it already depends on you
+- GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath

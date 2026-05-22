@@ -10,3 +10,5 @@
 - GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
+- GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
+- GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved

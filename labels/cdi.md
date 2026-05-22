@@ -136,3 +136,4 @@
 - GE-20260523-54f02a: quarkus.arc.exclude-types on a non-indexed JAR triggers full JAR scan — activating beans instead of suppressing them
 - GE-20260523-afab1d: @ApplicationScoped bean present in JAR bytecode is invisible to Quarkus ARC without a Jandex index
 - GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects
+- GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath

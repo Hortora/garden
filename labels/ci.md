@@ -13,3 +13,4 @@
 - GE-20260428-49333e: Use -DaltDeploymentRepository to publish a fork without adding distributionManagement to the pom
 - GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
 - GE-20260501-743ff4: Maven aggregator -pl flag selects only the top-level module — does not recurse into its submodules
+- GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
