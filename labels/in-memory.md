@@ -4,3 +4,4 @@
 - GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
 - GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
 - GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni
+- GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently

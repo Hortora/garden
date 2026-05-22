@@ -2,3 +2,6 @@
 - GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
 - GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException
 - GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames
+- GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
+- GE-20260522-daca26: Mutiny MultiEmitter.emit() from virtual thread does not flush SSE frames to browser in @Blocking Quarkus endpoint
+- GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream

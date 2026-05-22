@@ -269,3 +269,5 @@
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
+- GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
+- GE-20260522-daca26: Mutiny MultiEmitter.emit() from virtual thread does not flush SSE frames to browser in @Blocking Quarkus endpoint

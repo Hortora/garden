@@ -16,3 +16,4 @@
 - GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
 - GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
 - GE-20260427-f26db0: Make window.__test helpers async and use page.evaluate('async () =>') to reliably await full UI pipeline in Playwright — eliminates fragile waitForFunction polling
+- GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream

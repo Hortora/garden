@@ -1,3 +1,4 @@
 - GE-20260414-c4ddc9: In-memory service error messages should use human-readable names not internal UUIDs — TDD test assertions catch the difference
 - GE-20260517-11dd6b: IllegalArgumentException catch around UUID.fromString + downstream call swallows unrelated errors
 - GE-20260420-58520c: Reactive PanacheRepository<E> takes one type arg; use PanacheRepositoryBase<E,Id> for non-Long primary keys
+- GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently

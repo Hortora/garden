@@ -4,3 +4,4 @@
 - GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
 - GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED
 - GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error
+- GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently

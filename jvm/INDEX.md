@@ -240,3 +240,7 @@
 | GE-20260522-a575c3 | Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams | technique | 11/15 |
 | GE-20260522-27d097 | SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values | undocumented | 11/15 |
 | GE-20260522-a69fa1 | Java String.matches() anchors the full string — not a substring search | gotcha | 9/15 |
+| GE-20260522-1bc491 | Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame | gotcha | 13/15 |
+| GE-20260522-daca26 | Mutiny MultiEmitter.emit() from virtual thread does not flush SSE frames to browser in @Blocking Quarkus endpoint | gotcha | 12/15 |
+| GE-20260522-2a4009 | onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream | gotcha | 11/15 |
+| GE-20260522-567cc5 | InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently | gotcha | 8/15 |
