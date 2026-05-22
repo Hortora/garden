@@ -234,3 +234,4 @@
 | GE-20260521-a92d07 | Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not | undocumented | 10/15 |
 | GE-20260521-a92d07 | Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not | undocumented | 10/15 |
 | GE-20260521-4fa9cf | IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i | gotcha | 10/15 |
+| GE-20260511-ce1c9d | Java package move breaks wildcard imports and same-package implicit imports — two silent failures | gotcha | 10/15 |

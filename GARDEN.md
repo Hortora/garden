@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 785
+**Entries merged since last sweep:** 786
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -737,6 +737,7 @@
 - GE-20260521-a92d07 [Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not](jvm/GE-20260521-a92d07.md)
 - GE-20260521-a92d07 [Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not](jvm/GE-20260521-a92d07.md)
 - GE-20260521-4fa9cf [IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i](jvm/GE-20260521-4fa9cf.md)
+- GE-20260511-ce1c9d [Java package move breaks wildcard imports and same-package implicit imports — two silent failures](jvm/GE-20260511-ce1c9d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

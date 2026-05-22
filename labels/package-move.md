@@ -1,1 +1,2 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures

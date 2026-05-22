@@ -1,2 +1,3 @@
 - GE-20260505-e89194: PlayerState refactor leaves supply=0 — silently blocks all TrainIntent processing
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
