@@ -1,3 +1,4 @@
 - GE-20260517-11dd6b: IllegalArgumentException catch around UUID.fromString + downstream call swallows unrelated errors
 - GE-20260418-d123af: Quarkus @WrapBusinessError converts IllegalArgumentException to ToolCallException at CDI proxy — catching IAE alone silently misses it
 - GE-20260420-e61431: @WrapBusinessError on Quarkus MCP Server CDI proxy wraps exceptions into ToolCallException(cause) — must inspect getCause() to distinguish error types
+- GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup

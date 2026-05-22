@@ -245,3 +245,6 @@
 | GE-20260522-2a4009 | onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream | gotcha | 11/15 |
 | GE-20260522-567cc5 | InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently | gotcha | 8/15 |
 | GE-20260522-adb5cd | Moving @ApplicationScoped bean from Quarkus app module to library JAR silently breaks CDI discovery | gotcha | 8/15 |
+| GE-20260522-5685ba | Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup | gotcha | 10/15 |
+| GE-20260522-831b53 | Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues | technique | 10/15 |
+| GE-20260522-945518 | JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work" | gotcha | 11/15 |

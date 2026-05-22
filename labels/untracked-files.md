@@ -1,2 +1,3 @@
 - GE-20260519-c93fd8: `git add -A` after targeted `git checkout <branch> -- <files>` stages all untracked files, not just checked-out ones
 - GE-20260508-a30558: git rm -r silently leaves untracked files — only tracked files are staged for removal
+- GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked

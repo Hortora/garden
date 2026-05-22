@@ -7,3 +7,4 @@
 - GE-20260422-9d2c28: Use grep -l across files to identify cross-file method duplication before extracting to shared utility
 - GE-20260505-47c2f0: Counters incremented inside `while read <<< "$VAR"` are not visible to the parent shell in zsh
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
+- GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path

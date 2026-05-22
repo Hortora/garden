@@ -1,0 +1,1 @@
+- GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path

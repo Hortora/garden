@@ -25,3 +25,4 @@
 - GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
 - GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
 - GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
+- GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked

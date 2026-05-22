@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 796
+**Entries merged since last sweep:** 801
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -748,6 +748,9 @@
 - GE-20260522-2a4009 [onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream](jvm/GE-20260522-2a4009.md)
 - GE-20260522-567cc5 [InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently](jvm/GE-20260522-567cc5.md)
 - GE-20260522-adb5cd [Moving @ApplicationScoped bean from Quarkus app module to library JAR silently breaks CDI discovery](jvm/GE-20260522-adb5cd.md)
+- GE-20260522-5685ba [Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup](jvm/GE-20260522-5685ba.md)
+- GE-20260522-831b53 [Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues](jvm/GE-20260522-831b53.md)
+- GE-20260522-945518 [JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"](jvm/GE-20260522-945518.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1148,6 +1151,8 @@
 - GE-20260521-517bda [git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor](tools/GE-20260521-517bda.md)
 - GE-20260521-1d5032 [git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'](tools/GE-20260521-1d5032.md)
 - GE-20260521-f4c128 [gh repo create defaults to SSH remote — fails silently on machines without SSH keys](tools/GE-20260521-f4c128.md)
+- GE-20260522-ed1b72 [Protocol files written by cross-repo sessions accumulate silently as untracked](tools/GE-20260522-ed1b72.md)
+- GE-20260522-fee40e [Audit closed status of all branches without checkout using git show <branch>:path](tools/GE-20260522-fee40e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

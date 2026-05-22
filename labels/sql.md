@@ -6,3 +6,4 @@
 - GE-20260414-22f094: H2 rejects 'key' as a column name — syntax error with no hint it's a reserved word
 - GE-20260420-fa98a8: H2 does not support partial indexes — WHERE clause in CREATE INDEX causes Flyway failure
 - GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision
+- GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"

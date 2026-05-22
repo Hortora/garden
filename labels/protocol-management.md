@@ -1,0 +1,1 @@
+- GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked

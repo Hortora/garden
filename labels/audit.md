@@ -2,3 +2,4 @@
 - GE-20260519-23b704: Lifecycle guard ordering: status check must precede policy check to prevent phantom audit entries
 - GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
 - GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
+- GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path
