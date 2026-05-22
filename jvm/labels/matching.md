@@ -1,0 +1,1 @@
+- GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
