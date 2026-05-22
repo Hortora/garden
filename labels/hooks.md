@@ -3,3 +3,4 @@
 - GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
 - GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit
 - GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
+- GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 813
+**Entries merged since last sweep:** 815
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1165,6 +1165,8 @@
 - GE-20260522-fee40e [Audit closed status of all branches without checkout using git show <branch>:path](tools/GE-20260522-fee40e.md)
 - GE-20260522-cf54ad [`git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content](tools/GE-20260522-cf54ad.md)
 - GE-20260522-e062ba [Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative](tools/GE-20260522-e062ba.md)
+- GE-20260522-7159b4 [git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor](tools/GE-20260522-7159b4.md)
+- GE-20260522-5b1589 [git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs](tools/GE-20260522-5b1589.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

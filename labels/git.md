@@ -94,3 +94,5 @@
 - GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
+- GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
+- GE-20260522-5b1589: git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs

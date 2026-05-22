@@ -1,2 +1,3 @@
 - GE-20260422-9d2c28: Use grep -l across files to identify cross-file method duplication before extracting to shared utility
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
+- GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor

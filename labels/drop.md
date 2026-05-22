@@ -1,0 +1,1 @@
+- GE-20260522-5b1589: git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs
