@@ -1,1 +1,2 @@
 - GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones
+- GE-20260522-5ff0b2: Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21

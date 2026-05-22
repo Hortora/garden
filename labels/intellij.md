@@ -18,3 +18,4 @@
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`
 - GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i
+- GE-20260522-d6a1c9: IntelliJ has three separate config files that must all be updated when a project repo is physically relocated

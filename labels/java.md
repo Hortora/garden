@@ -72,3 +72,4 @@
 - GE-20260522-05f4f1: ArchUnit rules pass silently when no classes match the that() predicate — vacuous green
 - GE-20260522-aa4ff0: ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()
 - GE-20260522-3fce33: Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call
+- GE-20260522-5ff0b2: Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21

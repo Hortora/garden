@@ -8,3 +8,4 @@
 - GE-20260521-f50602: quarkus-oidc: discovery-disabled requires jwks-path or introspection-path
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
+- GE-20260522-d6a1c9: IntelliJ has three separate config files that must all be updated when a project repo is physically relocated

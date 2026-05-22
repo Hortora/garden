@@ -1,2 +1,3 @@
 - GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
 - GE-20260514-056bc5: Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch
+- GE-20260522-5ff0b2: Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21
