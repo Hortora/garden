@@ -1,2 +1,3 @@
 - GE-20260424-3f5e60: GitHub repo transfer API returns 200 immediately but transfer completes asynchronously
 - GE-20260424-64118d: gh repo transfer has no --yes flag — use the API directly
+- GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works

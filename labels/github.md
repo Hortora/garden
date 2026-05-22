@@ -29,3 +29,4 @@
 - GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
 - GE-20260521-f4c128: gh repo create defaults to SSH remote — fails silently on machines without SSH keys
+- GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works

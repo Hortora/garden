@@ -1,1 +1,2 @@
 - GE-20260504-209c28: git push --all exits 0 even when some branches are rejected
+- GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works

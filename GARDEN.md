@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 819
+**Entries merged since last sweep:** 820
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1171,6 +1171,7 @@
 - GE-20260522-e062ba [Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative](tools/GE-20260522-e062ba.md)
 - GE-20260522-7159b4 [git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor](tools/GE-20260522-7159b4.md)
 - GE-20260522-5b1589 [git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs](tools/GE-20260522-5b1589.md)
+- GE-20260522-b341ae [GitHub transparently redirects git push after repo transfer — old origin URL still works](tools/GE-20260522-b341ae.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

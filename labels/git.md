@@ -96,3 +96,4 @@
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
 - GE-20260522-5b1589: git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs
+- GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works
