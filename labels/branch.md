@@ -4,3 +4,4 @@
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
 - GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
+- GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content

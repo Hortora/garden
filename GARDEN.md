@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 808
+**Entries merged since last sweep:** 810
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1160,6 +1160,8 @@
 - GE-20260521-f4c128 [gh repo create defaults to SSH remote — fails silently on machines without SSH keys](tools/GE-20260521-f4c128.md)
 - GE-20260522-ed1b72 [Protocol files written by cross-repo sessions accumulate silently as untracked](tools/GE-20260522-ed1b72.md)
 - GE-20260522-fee40e [Audit closed status of all branches without checkout using git show <branch>:path](tools/GE-20260522-fee40e.md)
+- GE-20260522-cf54ad [`git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content](tools/GE-20260522-cf54ad.md)
+- GE-20260522-e062ba [Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative](tools/GE-20260522-e062ba.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

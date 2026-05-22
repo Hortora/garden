@@ -7,3 +7,5 @@
 - GE-20260521-753c20: --rebase-merges squash conflicts on shared files when merge replays see squash-modified state
 - GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor
 - GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i
+- GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
+- GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative

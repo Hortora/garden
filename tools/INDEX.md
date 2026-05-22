@@ -367,3 +367,5 @@
 | GE-20260521-f4c128 | gh repo create defaults to SSH remote — fails silently on machines without SSH keys | gotcha | 9/15 |
 | GE-20260522-ed1b72 | Protocol files written by cross-repo sessions accumulate silently as untracked | gotcha | 11/15 |
 | GE-20260522-fee40e | Audit closed status of all branches without checkout using git show <branch>:path | technique | 10/15 |
+| GE-20260522-cf54ad | `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content | gotcha | 11/15 |
+| GE-20260522-e062ba | Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative | gotcha | 9/15 |

@@ -2,3 +2,4 @@
 - GE-20260429-63a862: Claude Code subagent test result reports are unreliable — always verify independently
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
 - GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
+- GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
