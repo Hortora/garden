@@ -281,3 +281,6 @@
 - GE-20260522-2664b9: @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
 - GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
+- GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries
+- GE-20260522-483b67: Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free
+- GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus

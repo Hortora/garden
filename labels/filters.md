@@ -1,0 +1,1 @@
+- GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries

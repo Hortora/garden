@@ -43,3 +43,6 @@
 - GE-20260521-a5e71b: Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
+- GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries
+- GE-20260522-483b67: Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free
+- GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus

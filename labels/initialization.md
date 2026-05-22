@@ -1,0 +1,1 @@
+- GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus

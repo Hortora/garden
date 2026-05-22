@@ -2,3 +2,4 @@
 - GE-20260512-67b3b5: Panache find() alias-prefixed field names return empty results silently — bare field names required
 - GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
 - GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N
+- GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries

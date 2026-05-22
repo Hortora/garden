@@ -6,3 +6,4 @@
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
 - GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
+- GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
