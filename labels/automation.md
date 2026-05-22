@@ -7,3 +7,4 @@
 - GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist
 - GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
+- GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand

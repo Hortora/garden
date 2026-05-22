@@ -30,3 +30,4 @@
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
 - GE-20260521-f4c128: gh repo create defaults to SSH remote — fails silently on machines without SSH keys
 - GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works
+- GE-20260522-b9a6d4: git push --force-with-lease always rejects on a freshly-created GitHub fork

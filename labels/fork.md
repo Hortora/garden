@@ -10,3 +10,4 @@
 - GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
+- GE-20260522-b9a6d4: git push --force-with-lease always rejects on a freshly-created GitHub fork

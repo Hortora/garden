@@ -1,1 +1,2 @@
 - GE-20260423-5f606b: git push --force-with-lease rejected after local history rewrite
+- GE-20260522-b9a6d4: git push --force-with-lease always rejects on a freshly-created GitHub fork
