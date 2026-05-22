@@ -2,3 +2,5 @@
 - GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
 - GE-20260424-59906a: Quarkus CDI does not scan @ApplicationScoped beans in plain JAR module dependencies
 - GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index
+- GE-20260523-54f02a: quarkus.arc.exclude-types on a non-indexed JAR triggers full JAR scan — activating beans instead of suppressing them
+- GE-20260523-afab1d: @ApplicationScoped bean present in JAR bytecode is invisible to Quarkus ARC without a Jandex index

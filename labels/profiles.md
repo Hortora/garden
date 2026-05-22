@@ -6,3 +6,4 @@
 - GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
 - GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
 - GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()
+- GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects

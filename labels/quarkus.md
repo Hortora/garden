@@ -288,3 +288,7 @@
 - GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException
 - GE-20260522-672965: @JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath
+- GE-20260523-54f02a: quarkus.arc.exclude-types on a non-indexed JAR triggers full JAR scan — activating beans instead of suppressing them
+- GE-20260523-afab1d: @ApplicationScoped bean present in JAR bytecode is invisible to Quarkus ARC without a Jandex index
+- GE-20260523-c2cca8: Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active
+- GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects

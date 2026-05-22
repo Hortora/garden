@@ -7,3 +7,4 @@
 - GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls
 - GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
 - GE-20260522-4e806e: EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop
+- GE-20260523-c2cca8: Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active
