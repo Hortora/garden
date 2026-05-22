@@ -3,3 +3,4 @@
 - GE-20260512-59a501: CaseContextImpl.snapshot() returns CaseContextImpl — subclasses lose their type on copy
 - GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
 - GE-20260512-b0eea3: CaseContextImpl.set(key, null) on an absent key is a no-op — the key is never inserted
+- GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
