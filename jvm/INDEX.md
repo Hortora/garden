@@ -251,3 +251,5 @@
 | GE-20260522-945518 | JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work" | gotcha | 11/15 |
 | GE-20260522-5685ba | Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup | gotcha | 10/15 |
 | GE-20260522-831b53 | Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues | technique | 10/15 |
+| GE-20260522-99b6a0 | @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access | gotcha | 12/15 |
+| GE-20260522-bc642c | ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread | gotcha | 10/15 |

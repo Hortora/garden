@@ -3,3 +3,4 @@
 - GE-20260513-a49d06: CDI this.method() call bypasses @Transactional proxy — annotation silently dead on delegating overloads
 - GE-20260420-e61431: @WrapBusinessError on Quarkus MCP Server CDI proxy wraps exceptions into ToolCallException(cause) — must inspect getCause() to distinguish error types
 - GE-20260505-84577e: @ApplicationScoped CDI proxy field writes go to the proxy, not the bean — silent in @QuarkusTest
+- GE-20260522-99b6a0: @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access
