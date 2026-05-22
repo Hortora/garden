@@ -98,3 +98,4 @@
 - GE-20260522-5b1589: git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs
 - GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session

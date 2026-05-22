@@ -10,3 +10,4 @@
 - GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
 - GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session

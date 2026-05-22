@@ -2,3 +2,4 @@
 - GE-20260513-af85fa: publish-blog skill reads from docs/_posts/ but workspace blog entries live in blog/ — paths don't match
 - GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session

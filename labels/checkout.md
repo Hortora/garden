@@ -1,2 +1,3 @@
 - GE-20260518-e7b226: Read any branch's files without checkout using git show and git ls-tree
 - GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
