@@ -1,2 +1,3 @@
 - GE-20260421-876557: Cross-product SAM interface families from one template via @PermuteVar + JEXL ternary macros
 - GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
+- GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)

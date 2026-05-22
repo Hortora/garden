@@ -254,3 +254,4 @@
 | GE-20260522-99b6a0 | @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access | gotcha | 12/15 |
 | GE-20260522-bc642c | ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread | gotcha | 10/15 |
 | GE-20260522-2664b9 | @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances | undocumented | 10/15 |
+| GE-20260522-3e2589 | LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest) | gotcha | 8/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 807
+**Entries merged since last sweep:** 808
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -757,6 +757,7 @@
 - GE-20260522-99b6a0 [@ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access](jvm/GE-20260522-99b6a0.md)
 - GE-20260522-bc642c [ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread](jvm/GE-20260522-bc642c.md)
 - GE-20260522-2664b9 [@QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances](jvm/GE-20260522-2664b9.md)
+- GE-20260522-3e2589 [LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)](jvm/GE-20260522-3e2589.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
