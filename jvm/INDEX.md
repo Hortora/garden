@@ -244,3 +244,4 @@
 | GE-20260522-daca26 | Mutiny MultiEmitter.emit() from virtual thread does not flush SSE frames to browser in @Blocking Quarkus endpoint | gotcha | 12/15 |
 | GE-20260522-2a4009 | onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream | gotcha | 11/15 |
 | GE-20260522-567cc5 | InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently | gotcha | 8/15 |
+| GE-20260522-adb5cd | Moving @ApplicationScoped bean from Quarkus app module to library JAR silently breaks CDI discovery | gotcha | 8/15 |

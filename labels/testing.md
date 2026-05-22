@@ -200,3 +200,4 @@
 - GE-20260521-45e61c: casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
+- GE-20260522-adb5cd: Moving @ApplicationScoped bean from Quarkus app module to library JAR silently breaks CDI discovery
