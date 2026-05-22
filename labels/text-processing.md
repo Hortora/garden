@@ -1,0 +1,1 @@
+- GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values

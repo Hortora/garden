@@ -7,3 +7,4 @@
 - GE-20260512-0dc5df: macOS sed -i '' silently empties a file when the working tree file is already empty
 - GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
 - GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match
+- GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values

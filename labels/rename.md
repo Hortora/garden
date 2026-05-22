@@ -1,2 +1,3 @@
 - GE-20260501-76cc3c: IntelliJ ide_refactor_rename with relatedRenamingStrategy:none renames one overload precisely — declaration and internal call sites updated, sibling overloads untouched
 - GE-20260414-119352: macOS BSD sed silently ignores \b word boundaries — use perl for Java class renames
+- GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values

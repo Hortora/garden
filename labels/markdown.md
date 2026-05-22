@@ -3,3 +3,4 @@
 - GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
 - GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
+- GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values
