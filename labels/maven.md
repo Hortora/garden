@@ -81,3 +81,4 @@
 - GE-20260521-47ab45: Plain-Java Flyway contract test picks up src/test/resources SQL files when scanning production classpath location
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
+- GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import

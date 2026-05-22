@@ -11,3 +11,4 @@
 - GE-20260426-840309: mvn deploy fails on first SNAPSHOT publish to GitHub Packages — metadata lookup error
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
 - GE-20260501-28459b: Rebuilding only the Qhorus runtime Maven module leaves the testing module stale — E2E tests fail silently with timeouts, no compile error
+- GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
