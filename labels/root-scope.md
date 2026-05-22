@@ -1,0 +1,1 @@
+- GE-20260522-a87fd7: Path.parent() returns null for single-segment paths — root scope silently excluded from ancestor walk

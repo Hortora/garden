@@ -269,3 +269,4 @@
 | GE-20260522-483b67 | Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free | technique | 8/15 |
 | GE-20260522-e570ee | @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus | technique | 9/15 |
 | GE-20260522-99d52d | Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm | gotcha | 11/15 |
+| GE-20260522-a87fd7 | Path.parent() returns null for single-segment paths — root scope silently excluded from ancestor walk | gotcha | 12/15 |
