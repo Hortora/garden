@@ -255,3 +255,6 @@
 | GE-20260522-bc642c | ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread | gotcha | 10/15 |
 | GE-20260522-2664b9 | @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances | undocumented | 10/15 |
 | GE-20260522-3e2589 | LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest) | gotcha | 8/15 |
+| GE-20260522-98b286 | ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window | gotcha | 11/15 |
+| GE-20260522-6c22a3 | ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns | technique | 12/15 |
+| GE-20260522-1bc491 | Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame | gotcha | 13/15 |

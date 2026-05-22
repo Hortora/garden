@@ -66,3 +66,5 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
 - GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)
+- GE-20260522-98b286: ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window
+- GE-20260522-6c22a3: ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns

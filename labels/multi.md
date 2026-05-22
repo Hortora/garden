@@ -1,1 +1,2 @@
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
+- GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame

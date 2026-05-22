@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 810
+**Entries merged since last sweep:** 813
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -758,6 +758,9 @@
 - GE-20260522-bc642c [ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread](jvm/GE-20260522-bc642c.md)
 - GE-20260522-2664b9 [@QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances](jvm/GE-20260522-2664b9.md)
 - GE-20260522-3e2589 [LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)](jvm/GE-20260522-3e2589.md)
+- GE-20260522-98b286 [ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window](jvm/GE-20260522-98b286.md)
+- GE-20260522-6c22a3 [ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns](jvm/GE-20260522-6c22a3.md)
+- GE-20260522-1bc491 [Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame](jvm/GE-20260522-1bc491.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

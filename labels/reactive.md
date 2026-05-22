@@ -22,3 +22,4 @@
 - GE-20260501-4c94b8: Vert.x Mutiny PgPool.getConnection() returns SqlConnection wrapper — casting to PgConnection throws ClassCastException
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
 - GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream
+- GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame

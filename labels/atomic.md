@@ -1,0 +1,1 @@
+- GE-20260522-6c22a3: ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns

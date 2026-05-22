@@ -1,0 +1,1 @@
+- GE-20260522-98b286: ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window
