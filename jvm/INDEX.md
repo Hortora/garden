@@ -271,3 +271,6 @@
 | GE-20260522-99d52d | Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm | gotcha | 11/15 |
 | GE-20260522-a87fd7 | Path.parent() returns null for single-segment paths — root scope silently excluded from ancestor walk | gotcha | 12/15 |
 | GE-20260522-ac6b1d | Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive | gotcha | 10/15 |
+| GE-20260522-f63c9f | REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries | gotcha | 13/15 |
+| GE-20260522-259812 | Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException | technique | 12/15 |
+| GE-20260522-672965 | @JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath | gotcha | 10/15 |

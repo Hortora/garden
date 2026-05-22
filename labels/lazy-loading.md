@@ -1,2 +1,1 @@
-- GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException

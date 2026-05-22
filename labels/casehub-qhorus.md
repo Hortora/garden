@@ -4,3 +4,4 @@
 - GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null
 - GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
 - GE-20260517-f28d15: qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels
+- GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries

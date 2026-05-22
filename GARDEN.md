@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 840
+**Entries merged since last sweep:** 843
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -779,6 +779,9 @@
 - GE-20260522-99d52d [Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm](jvm/GE-20260522-99d52d.md)
 - GE-20260522-a87fd7 [Path.parent() returns null for single-segment paths — root scope silently excluded from ancestor walk](jvm/GE-20260522-a87fd7.md)
 - GE-20260522-ac6b1d [Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive](jvm/GE-20260522-ac6b1d.md)
+- GE-20260522-f63c9f [REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries](jvm/GE-20260522-f63c9f.md)
+- GE-20260522-259812 [Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException](jvm/GE-20260522-259812.md)
+- GE-20260522-672965 [@JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath](jvm/GE-20260522-672965.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

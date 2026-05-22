@@ -210,3 +210,4 @@
 - GE-20260522-0d8d9e: JavaMethod.isSynthetic() does not exist in ArchUnit 1.4.1 — filter by PUBLIC modifier only
 - GE-20260522-05f4f1: ArchUnit rules pass silently when no classes match the that() predicate — vacuous green
 - GE-20260522-aa4ff0: ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()
+- GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
