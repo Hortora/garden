@@ -1,1 +1,2 @@
 - GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection
+- GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm

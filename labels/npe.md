@@ -1,2 +1,3 @@
 - GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null
 - GE-20260512-9f4de6: Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor
+- GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm

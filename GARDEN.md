@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 835
+**Entries merged since last sweep:** 836
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -776,6 +776,7 @@
 - GE-20260522-8df6a6 [Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries](jvm/GE-20260522-8df6a6.md)
 - GE-20260522-483b67 [Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free](jvm/GE-20260522-483b67.md)
 - GE-20260522-e570ee [@Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus](jvm/GE-20260522-e570ee.md)
+- GE-20260522-99d52d [Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm](jvm/GE-20260522-99d52d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
