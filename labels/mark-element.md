@@ -1,0 +1,1 @@
+- GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize

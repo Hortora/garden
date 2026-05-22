@@ -1,4 +1,2 @@
-- GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
-- GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize
 - GE-20260522-405c25: Process text nodes in reverse DOM order when splitting them for inline element injection
 - GE-20260522-6786c3: el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters

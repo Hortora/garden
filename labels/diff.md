@@ -3,3 +3,4 @@
 - GE-20260415-95b40f: git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff
 - GE-20260420-5df542: Split a large single-commit branch into stacked PRs using git diff patches — no interactive rebase needed
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
+- GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize

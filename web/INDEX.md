@@ -11,3 +11,6 @@
 | GE-20260426-90563c | e.preventDefault() on mousedown suppresses the subsequent click event on the same element | gotcha | 11/15 |
 | GE-20260508-649308 | Global canvas CSS rule stretches all canvas elements including inline UI canvases | gotcha | 12/15 |
 | GE-20260508-f742f6 | Three.js sprites not raycasted until first render frame updates matrixWorld | gotcha | 13/15 |
+| GE-20260522-676291 | ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize | gotcha | 12/15 |
+| GE-20260522-405c25 | Process text nodes in reverse DOM order when splitting them for inline element injection | technique | 11/15 |
+| GE-20260522-6786c3 | el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters | technique | 9/15 |

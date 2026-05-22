@@ -1,3 +1,5 @@
 - GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion
 - GE-20260514-36f3ef: Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them
 - GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate
+- GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize
+- GE-20260522-405c25: Process text nodes in reverse DOM order when splitting them for inline element injection
