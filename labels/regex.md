@@ -4,3 +4,4 @@
 - GE-20260421-dbc509: replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First
 - GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
 - GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
+- GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search

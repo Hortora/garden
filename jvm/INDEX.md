@@ -239,3 +239,4 @@
 | GE-20260522-eccbde | SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions | gotcha | 12/15 |
 | GE-20260522-a575c3 | Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams | technique | 11/15 |
 | GE-20260522-27d097 | SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values | undocumented | 11/15 |
+| GE-20260522-a69fa1 | Java String.matches() anchors the full string — not a substring search | gotcha | 9/15 |

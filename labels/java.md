@@ -64,3 +64,4 @@
 - GE-20260521-c04e27: Java Map/Set class fields declared without initializer silently NPE on first use
 - GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
