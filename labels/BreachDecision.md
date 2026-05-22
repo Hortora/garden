@@ -1,0 +1,1 @@
+- GE-20260522-de5ee3: BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit

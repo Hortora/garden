@@ -1,1 +1,2 @@
 - GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
+- GE-20260522-4e806e: EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 831
+**Entries merged since last sweep:** 835
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -40,6 +40,10 @@
 - GE-20260511-a28064 [Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations](casehub-work/GE-20260511-a28064.md)
 - GE-20260511-3e5a75 [casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260511-3e5a75 [casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior](casehub-work/GE-20260511-3e5a75.md)
+- GE-20260522-9cd6d5 [casehub-work SlaBreachPolicy wiring calls Path.root() before platform publishes it — silent compile blocker](casehub-work/GE-20260522-9cd6d5.md)
+- GE-20260522-4e806e [EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop](casehub-work/GE-20260522-4e806e.md)
+- GE-20260522-f7db12 [Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed](casehub-work/GE-20260522-f7db12.md)
+- GE-20260522-de5ee3 [BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit](casehub-work/GE-20260522-de5ee3.md)
 ### casehub-ledger/
 - GE-20260511-b6f903 [casehub-ledger required fields](casehub-ledger/GE-20260511-b6f903.md)
 - GE-20260420-b9259e [LedgerAttestation in quarkus-ledger is plain @Entity — Panache statics cause compile error](casehub-ledger/GE-20260420-b9259e.md)

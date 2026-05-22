@@ -15,3 +15,4 @@
 - GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
 - GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
 - GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException
+- GE-20260522-4e806e: EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop
