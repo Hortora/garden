@@ -3,3 +3,4 @@
 - GE-20260513-74dc72: casehub-work requires io.casehub.work.runtime.filter in Hibernate scan packages — omitting it causes FilterRule entity-not-found at startup
 - GE-20260517-92a95d: WorkItemCreateRequest record fields expanded in casehub-work 0.2-SNAPSHOT — parentId (UUID) and labels (List<String>) added
 - GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409
+- GE-20260511-3e5a75: casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior

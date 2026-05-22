@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 826
+**Entries merged since last sweep:** 827
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -38,6 +38,7 @@
 - GE-20260501-29e3b8 [QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives](casehub-work/GE-20260501-29e3b8.md)
 - GE-20260502-c77725 [MultiInstanceSpawnService.onThresholdReached defaults to CANCEL — tests completing all children race with coordinator](casehub-work/GE-20260502-c77725.md)
 - GE-20260511-a28064 [Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations](casehub-work/GE-20260511-a28064.md)
+- GE-20260511-3e5a75 [casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260511-3e5a75 [casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior](casehub-work/GE-20260511-3e5a75.md)
 ### casehub-ledger/
 - GE-20260511-b6f903 [casehub-ledger required fields](casehub-ledger/GE-20260511-b6f903.md)
