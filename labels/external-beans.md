@@ -1,0 +1,1 @@
+- GE-20260522-2664b9: @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances

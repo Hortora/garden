@@ -278,3 +278,4 @@
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
 - GE-20260522-99b6a0: @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access
 - GE-20260522-bc642c: ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread
+- GE-20260522-2664b9: @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances
