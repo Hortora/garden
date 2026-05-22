@@ -8,3 +8,4 @@
 - GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code
 - GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
 - GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection
+- GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results

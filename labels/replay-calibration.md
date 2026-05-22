@@ -1,0 +1,1 @@
+- GE-20260522-27d097: SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values

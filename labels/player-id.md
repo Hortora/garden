@@ -1,0 +1,1 @@
+- GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results

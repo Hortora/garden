@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 786
+**Entries merged since last sweep:** 790
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -738,6 +738,10 @@
 - GE-20260521-a92d07 [Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not](jvm/GE-20260521-a92d07.md)
 - GE-20260521-4fa9cf [IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i](jvm/GE-20260521-4fa9cf.md)
 - GE-20260511-ce1c9d [Java package move breaks wildcard imports and same-package implicit imports — two silent failures](jvm/GE-20260511-ce1c9d.md)
+- GE-20260522-f0d1ec [SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results](jvm/GE-20260522-f0d1ec.md)
+- GE-20260522-eccbde [SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions](jvm/GE-20260522-eccbde.md)
+- GE-20260522-a575c3 [Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams](jvm/GE-20260522-a575c3.md)
+- GE-20260522-27d097 [SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values](jvm/GE-20260522-27d097.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

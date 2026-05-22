@@ -1,1 +1,2 @@
 - GE-20260429-42fb02: Bayesian Beta trust score returns 0.5 for no evidence, not 1.0
+- GE-20260522-a575c3: Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams

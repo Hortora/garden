@@ -4,3 +4,7 @@
 - GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
 - GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer
 - GE-20260521-981f62: SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale
+- GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results
+- GE-20260522-eccbde: SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions
+- GE-20260522-a575c3: Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams
+- GE-20260522-27d097: SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values

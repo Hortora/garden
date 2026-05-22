@@ -235,3 +235,7 @@
 | GE-20260521-a92d07 | Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not | undocumented | 10/15 |
 | GE-20260521-4fa9cf | IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i | gotcha | 10/15 |
 | GE-20260511-ce1c9d | Java package move breaks wildcard imports and same-package implicit imports — two silent failures | gotcha | 10/15 |
+| GE-20260522-f0d1ec | SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results | gotcha | 10/15 |
+| GE-20260522-eccbde | SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions | gotcha | 12/15 |
+| GE-20260522-a575c3 | Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams | technique | 11/15 |
+| GE-20260522-27d097 | SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values | undocumented | 11/15 |

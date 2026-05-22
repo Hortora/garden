@@ -1,0 +1,1 @@
+- GE-20260522-eccbde: SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions

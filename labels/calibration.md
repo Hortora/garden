@@ -1,2 +1,1 @@
-- GE-20260416-53d13c: Adding stop-to-fight breaks combat tests via nearest-target ordering change
 - GE-20260522-a575c3: Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams

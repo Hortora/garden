@@ -1,1 +1,3 @@
 - GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary
+- GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results
+- GE-20260522-eccbde: SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions
