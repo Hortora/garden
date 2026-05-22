@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 825
+**Entries merged since last sweep:** 826
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -766,6 +766,7 @@
 - GE-20260522-aa4ff0 [ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()](jvm/GE-20260522-aa4ff0.md)
 - GE-20260522-3fce33 [Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call](jvm/GE-20260522-3fce33.md)
 - GE-20260522-5ff0b2 [Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21](jvm/GE-20260522-5ff0b2.md)
+- GE-20260522-44bbf3 [Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs](jvm/GE-20260522-44bbf3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

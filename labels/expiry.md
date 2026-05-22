@@ -1,1 +1,2 @@
 - GE-20260421-49a3ca: tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p
+- GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs

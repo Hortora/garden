@@ -280,3 +280,4 @@
 - GE-20260522-bc642c: ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread
 - GE-20260522-2664b9: @QuarkusComponentTest silently auto-stubs external beans — use value[] to wire real instances
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
+- GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs

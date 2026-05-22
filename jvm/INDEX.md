@@ -263,3 +263,4 @@
 | GE-20260522-aa4ff0 | ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check() | technique | 9/15 |
 | GE-20260522-3fce33 | Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call | gotcha | 9/15 |
 | GE-20260522-5ff0b2 | Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21 | technique | 10/15 |
+| GE-20260522-44bbf3 | Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs | gotcha | 11/15 |

@@ -5,3 +5,4 @@
 - GE-20260420-8f9e26: @Scheduled methods must return void — returning int causes cryptic Type mismatch build failure
 - GE-20260422-6997d5: @Scheduled bean testability via package-private Clock+Duration constructor
 - GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls
+- GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
