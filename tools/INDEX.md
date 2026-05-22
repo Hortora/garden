@@ -373,3 +373,5 @@
 | GE-20260522-5b1589 | git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs | gotcha | 11/15 |
 | GE-20260522-b341ae | GitHub transparently redirects git push after repo transfer — old origin URL still works | undocumented | 9/15 |
 | GE-20260522-d6a1c9 | IntelliJ has three separate config files that must all be updated when a project repo is physically relocated | gotcha | 10/15 |
+| GE-20260522-f8c1c3 | Workflow state dotfiles invisible to bare ls — design/.meta appears missing | gotcha | 8/15 |
+| GE-20260522-76dc5b | Blog entries added to workspace main after branch creation are invisible from the epic branch | gotcha | 10/15 |

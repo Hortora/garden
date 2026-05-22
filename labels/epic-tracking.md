@@ -1,0 +1,2 @@
+- GE-20260522-f8c1c3: Workflow state dotfiles invisible to bare ls — design/.meta appears missing
+- GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch

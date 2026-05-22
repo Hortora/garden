@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 836
+**Entries merged since last sweep:** 838
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1185,6 +1185,8 @@
 - GE-20260522-5b1589 [git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs](tools/GE-20260522-5b1589.md)
 - GE-20260522-b341ae [GitHub transparently redirects git push after repo transfer — old origin URL still works](tools/GE-20260522-b341ae.md)
 - GE-20260522-d6a1c9 [IntelliJ has three separate config files that must all be updated when a project repo is physically relocated](tools/GE-20260522-d6a1c9.md)
+- GE-20260522-f8c1c3 [Workflow state dotfiles invisible to bare ls — design/.meta appears missing](tools/GE-20260522-f8c1c3.md)
+- GE-20260522-76dc5b [Blog entries added to workspace main after branch creation are invisible from the epic branch](tools/GE-20260522-76dc5b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,0 +1,1 @@
+- GE-20260522-f8c1c3: Workflow state dotfiles invisible to bare ls — design/.meta appears missing

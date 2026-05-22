@@ -12,3 +12,4 @@
 - GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
 - GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
 - GE-20260517-9d8cdf: Epic skill routes to close workflow only when on the epic branch — orphaned .meta on main has no close path
+- GE-20260522-f8c1c3: Workflow state dotfiles invisible to bare ls — design/.meta appears missing

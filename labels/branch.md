@@ -5,3 +5,4 @@
 - GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
+- GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
