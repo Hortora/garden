@@ -1,0 +1,1 @@
+- GE-20260522-aa4ff0: ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()

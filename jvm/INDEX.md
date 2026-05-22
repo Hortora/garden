@@ -258,3 +258,6 @@
 | GE-20260522-98b286 | ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window | gotcha | 11/15 |
 | GE-20260522-6c22a3 | ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns | technique | 12/15 |
 | GE-20260522-1bc491 | Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame | gotcha | 13/15 |
+| GE-20260522-0d8d9e | JavaMethod.isSynthetic() does not exist in ArchUnit 1.4.1 — filter by PUBLIC modifier only | gotcha | 9/15 |
+| GE-20260522-05f4f1 | ArchUnit rules pass silently when no classes match the that() predicate — vacuous green | gotcha | 10/15 |
+| GE-20260522-aa4ff0 | ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check() | technique | 9/15 |
