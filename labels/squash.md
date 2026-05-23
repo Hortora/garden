@@ -12,3 +12,4 @@
 - GE-20260522-5b1589: git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs
 - GE-20260522-0d3a0d: git squash working branch shows stale commit range when main updated concurrently by another session
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
+- GE-20260523-5b3204: git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command

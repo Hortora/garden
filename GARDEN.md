@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 866
+**Entries merged since last sweep:** 867
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1215,6 +1215,7 @@
 - GE-20260522-0d3a0d [git squash working branch shows stale commit range when main updated concurrently by another session](tools/GE-20260522-0d3a0d.md)
 - GE-20260522-409183 [GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand](tools/GE-20260522-409183.md)
 - GE-20260522-b9a6d4 [git push --force-with-lease always rejects on a freshly-created GitHub fork](tools/GE-20260522-b9a6d4.md)
+- GE-20260523-5b3204 [git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command](tools/GE-20260523-5b3204.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

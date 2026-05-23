@@ -380,3 +380,4 @@
 | GE-20260522-0d3a0d | git squash working branch shows stale commit range when main updated concurrently by another session | gotcha | 11/15 |
 | GE-20260522-409183 | GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand | gotcha | 11/15 |
 | GE-20260522-b9a6d4 | git push --force-with-lease always rejects on a freshly-created GitHub fork | gotcha | 10/15 |
+| GE-20260523-5b3204 | git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command | gotcha | 10/15 |
