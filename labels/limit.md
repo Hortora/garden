@@ -1,0 +1,1 @@
+- GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation

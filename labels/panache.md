@@ -46,3 +46,4 @@
 - GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries
 - GE-20260522-483b67: Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free
 - GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
+- GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
