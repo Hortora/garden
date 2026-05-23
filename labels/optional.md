@@ -2,3 +2,4 @@
 - GE-20260414-1b00a0: @ConfigProperty with defaultValue="" causes SRCFG00014 for optional String properties in Quarkus
 - GE-20260414-614675: Use Optional<String> in @ConfigMapping for optional string properties that can be legitimately absent
 - GE-20260513-a2f5b7: @WithDefault("") on a String method in @ConfigMapping causes ConfigValidationException at Quarkus startup
+- GE-20260523-80cc31: Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()

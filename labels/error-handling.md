@@ -1,3 +1,4 @@
 - GE-20260417-691885: Class-level @WrapBusinessError converts @Tool method exceptions to isError:true MCP responses without changing return types
 - GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them
 - GE-20260501-e6bf89: GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs
+- GE-20260523-80cc31: Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()
