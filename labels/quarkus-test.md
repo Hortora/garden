@@ -7,3 +7,4 @@
 - GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
 - GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
+- GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError

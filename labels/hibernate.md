@@ -43,3 +43,4 @@
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
+- GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError

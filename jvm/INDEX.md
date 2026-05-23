@@ -293,3 +293,4 @@
 | GE-20260523-06e8b6 | Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation | gotcha | 12/15 |
 | GE-20260523-fa7407 | CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak | gotcha | 8/15 |
 | GE-20260523-de55e8 | @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean | gotcha | 12/15 |
+| GE-20260523-fc1fe7 | Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError | gotcha | 12/15 |

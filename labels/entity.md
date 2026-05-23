@@ -1,3 +1,4 @@
 - GE-20260514-36f3ef: Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them
 - GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity
 - GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
+- GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError
