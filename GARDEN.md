@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 861
+**Entries merged since last sweep:** 862
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -795,6 +795,7 @@
 - GE-20260523-fc50d0 [Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders](jvm/GE-20260523-fc50d0.md)
 - GE-20260523-fc29ea [Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause](jvm/GE-20260523-fc29ea.md)
 - GE-20260523-7fcea7 [ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code](jvm/GE-20260523-7fcea7.md)
+- GE-20260523-0ecc24 [Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed](jvm/GE-20260523-0ecc24.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
