@@ -293,3 +293,4 @@
 - GE-20260523-c2cca8: Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active
 - GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
+- GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection

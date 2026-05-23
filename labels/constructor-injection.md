@@ -1,0 +1,1 @@
+- GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection

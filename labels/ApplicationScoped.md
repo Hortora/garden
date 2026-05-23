@@ -1,2 +1,3 @@
 - GE-20260505-da346d: @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread
 - GE-20260522-99b6a0: @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access
+- GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection

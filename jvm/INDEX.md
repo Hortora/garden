@@ -280,3 +280,4 @@
 | GE-20260523-20046c | %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects | technique | 10/15 |
 | GE-20260523-60365e | Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath | gotcha | 12/15 |
 | GE-20260523-51620a | Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved | gotcha | 11/15 |
+| GE-20260523-53430a | Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection | gotcha | 12/15 |
