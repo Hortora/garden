@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 873
+**Entries merged since last sweep:** 874
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -474,6 +474,7 @@
 - GE-20260421-03fa72 [Quarkus optional module jar missing Jandex index — CDI beans not discovered by consuming modules](quarkus/GE-20260421-03fa72.md)
 - GE-20260421-3b3104 [Hibernate bytecode enhancement silently zeros all fields when accessed via reflection](quarkus/GE-20260421-3b3104.md)
 - GE-20260421-cd3f95 [CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events](quarkus/GE-20260421-cd3f95.md)
+- GE-20260420-4a62d3 [@Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index](quarkus/GE-20260420-4a62d3.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

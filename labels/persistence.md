@@ -1,2 +1,3 @@
 - GE-20260420-4a62d3: casehub-persistence-memory as Maven test dependency fails for @QuarkusTest — copy sources instead
 - GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker
+- GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index

@@ -221,3 +221,4 @@
 | GE-20260513-a2f5b7 | @WithDefault("") on a String method in @ConfigMapping causes ConfigValidationException at Quarkus startup | gotcha | 11/15 |
 | GE-20260514-641df6 | @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy | technique | 8/15 |
 | GE-20260514-8a6191 | Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running | gotcha | 8/15 |
+| GE-20260420-4a62d3 | @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index | gotcha | 11/15 |

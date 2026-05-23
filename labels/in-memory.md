@@ -6,3 +6,4 @@
 - GE-20260420-c1d394: Zero-duplication reactive test doubles: wrap InMemory*Store in a delegation shell returning Uni
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
+- GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
