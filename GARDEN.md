@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 856
+**Entries merged since last sweep:** 857
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -28,6 +28,7 @@
 - GE-20260521-a0f5a6 [HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING](casehub-engine/GE-20260521-a0f5a6.md)
 - GE-20260523-fd8725 [binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter](casehub-engine/GE-20260523-fd8725.md)
 - GE-20260523-4ca5e7 [casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath](casehub-engine/GE-20260523-4ca5e7.md)
+- GE-20260523-86ed13 [casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points](casehub-engine/GE-20260523-86ed13.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
