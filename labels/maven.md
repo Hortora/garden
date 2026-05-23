@@ -84,3 +84,4 @@
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
 - GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
+- GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause

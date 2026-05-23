@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 859
+**Entries merged since last sweep:** 860
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -793,6 +793,7 @@
 - GE-20260523-51620a [Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved](jvm/GE-20260523-51620a.md)
 - GE-20260523-53430a [Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection](jvm/GE-20260523-53430a.md)
 - GE-20260523-fc50d0 [Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders](jvm/GE-20260523-fc50d0.md)
+- GE-20260523-fc29ea [Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause](jvm/GE-20260523-fc29ea.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

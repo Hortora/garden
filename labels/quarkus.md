@@ -295,3 +295,4 @@
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
 - GE-20260523-fc50d0: Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders
+- GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause

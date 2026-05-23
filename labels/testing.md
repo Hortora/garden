@@ -211,3 +211,4 @@
 - GE-20260522-05f4f1: ArchUnit rules pass silently when no classes match the that() predicate — vacuous green
 - GE-20260522-aa4ff0: ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()
 - GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
+- GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause

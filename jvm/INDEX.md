@@ -282,3 +282,4 @@
 | GE-20260523-51620a | Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved | gotcha | 11/15 |
 | GE-20260523-53430a | Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection | gotcha | 12/15 |
 | GE-20260523-fc50d0 | Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders | technique | 11/15 |
+| GE-20260523-fc29ea | Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause | gotcha | 10/15 |
