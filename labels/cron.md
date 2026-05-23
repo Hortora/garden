@@ -1,1 +1,2 @@
 - GE-20260523-c2cca8: Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active
+- GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath

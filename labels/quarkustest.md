@@ -2,3 +2,4 @@
 - GE-20260421-1d2764: QuarkusTest leaves Quarkus server on port 8081 between mvn test runs — next run sees 'Address already in use'
 - GE-20260429-3d4e35: Test @ObservesAsync CDI observers in @QuarkusTest with @TestTransaction + fireAsync().join()
 - GE-20260505-84577e: @ApplicationScoped CDI proxy field writes go to the proxy, not the bean — silent in @QuarkusTest
+- GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath

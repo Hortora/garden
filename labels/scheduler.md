@@ -8,3 +8,4 @@
 - GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
 - GE-20260522-4e806e: EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop
 - GE-20260523-c2cca8: Quartz 'Unable to create Scheduler / Cron expression contains 5 parts' caused by dormant @Scheduled bean becoming active
+- GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath

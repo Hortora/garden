@@ -8,3 +8,4 @@
 - GE-20260522-4e806e: EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260522-de5ee3: BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit
+- GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath
