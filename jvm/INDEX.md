@@ -287,3 +287,4 @@
 | GE-20260523-0ecc24 | Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed | technique | 11/15 |
 | GE-20260523-45d97e | @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test | gotcha | 10/15 |
 | GE-20260523-722840 | Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check() | technique | 9/15 |
+| GE-20260523-5b90bf | Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern' | gotcha | 10/15 |

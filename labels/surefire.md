@@ -10,3 +10,4 @@
 - GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
 - GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
 - GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests
+- GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'

@@ -1,0 +1,1 @@
+- GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'

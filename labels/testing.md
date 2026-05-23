@@ -214,3 +214,4 @@
 - GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260523-722840: Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()
+- GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'
