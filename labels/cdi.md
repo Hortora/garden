@@ -140,3 +140,4 @@
 - GE-20260523-86ed13: casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
 - GE-20260523-fc50d0: Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders
+- GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread

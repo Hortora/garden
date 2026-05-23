@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 867
+**Entries merged since last sweep:** 868
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -800,6 +800,7 @@
 - GE-20260523-722840 [Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()](jvm/GE-20260523-722840.md)
 - GE-20260523-5b90bf [Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'](jvm/GE-20260523-5b90bf.md)
 - GE-20260523-80cc31 [Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()](jvm/GE-20260523-80cc31.md)
+- GE-20260523-bd68ba [@ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread](jvm/GE-20260523-bd68ba.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

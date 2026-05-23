@@ -1,1 +1,2 @@
 - GE-20260501-56e179: ThreadLocal set on calling thread is invisible inside CompletableFuture.supplyAsync()
+- GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread

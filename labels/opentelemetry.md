@@ -1,1 +1,2 @@
 - GE-20260422-70b817: Span.wrap(SpanContext).makeCurrent() creates OTel trace context in tests without SDK
+- GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
