@@ -1,2 +1,3 @@
 - GE-20260522-aa4ff0: ArchUnit cross-class ArchCondition: capture JavaClasses in outer scope to look up related classes inside check()
 - GE-20260523-7fcea7: ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code
+- GE-20260523-722840: Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 863
+**Entries merged since last sweep:** 864
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -797,6 +797,7 @@
 - GE-20260523-7fcea7 [ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code](jvm/GE-20260523-7fcea7.md)
 - GE-20260523-0ecc24 [Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed](jvm/GE-20260523-0ecc24.md)
 - GE-20260523-45d97e [@TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test](jvm/GE-20260523-45d97e.md)
+- GE-20260523-722840 [Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()](jvm/GE-20260523-722840.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

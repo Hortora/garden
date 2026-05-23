@@ -75,3 +75,4 @@
 - GE-20260522-5ff0b2: Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21
 - GE-20260523-7fcea7: ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code
 - GE-20260523-0ecc24: Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed
+- GE-20260523-722840: Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()
