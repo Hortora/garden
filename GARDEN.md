@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 869
+**Entries merged since last sweep:** 871
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -802,6 +802,7 @@
 - GE-20260523-80cc31 [Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()](jvm/GE-20260523-80cc31.md)
 - GE-20260523-bd68ba [@ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread](jvm/GE-20260523-bd68ba.md)
 - GE-20260523-06e8b6 [Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation](jvm/GE-20260523-06e8b6.md)
+- GE-20260523-fa7407 [CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak](jvm/GE-20260523-fa7407.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1218,6 +1219,7 @@
 - GE-20260522-409183 [GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand](tools/GE-20260522-409183.md)
 - GE-20260522-b9a6d4 [git push --force-with-lease always rejects on a freshly-created GitHub fork](tools/GE-20260522-b9a6d4.md)
 - GE-20260523-5b3204 [git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command](tools/GE-20260523-5b3204.md)
+- GE-20260523-1b6250 [Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table](tools/GE-20260523-1b6250.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

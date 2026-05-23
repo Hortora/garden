@@ -291,3 +291,4 @@
 | GE-20260523-80cc31 | Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent() | technique | 10/15 |
 | GE-20260523-bd68ba | @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread | gotcha | 8/15 |
 | GE-20260523-06e8b6 | Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation | gotcha | 12/15 |
+| GE-20260523-fa7407 | CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak | gotcha | 8/15 |

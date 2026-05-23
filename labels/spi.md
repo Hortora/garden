@@ -16,3 +16,4 @@
 - GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
 - GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
 - GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito
+- GE-20260523-fa7407: CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak

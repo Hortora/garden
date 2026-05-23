@@ -1,0 +1,1 @@
+- GE-20260523-fa7407: CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak

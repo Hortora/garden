@@ -1,0 +1,1 @@
+- GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table

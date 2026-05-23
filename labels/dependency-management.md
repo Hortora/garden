@@ -1,2 +1,3 @@
 - GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it
 - GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency
+- GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
