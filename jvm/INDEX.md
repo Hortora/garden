@@ -283,3 +283,4 @@
 | GE-20260523-53430a | Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection | gotcha | 12/15 |
 | GE-20260523-fc50d0 | Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders | technique | 11/15 |
 | GE-20260523-fc29ea | Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause | gotcha | 10/15 |
+| GE-20260523-7fcea7 | ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code | gotcha | 9/15 |
