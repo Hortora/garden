@@ -215,3 +215,4 @@
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260523-722840: Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()
 - GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'
+- GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean

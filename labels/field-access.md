@@ -1,0 +1,1 @@
+- GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean

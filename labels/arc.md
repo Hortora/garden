@@ -25,3 +25,4 @@
 - GE-20260523-afab1d: @ApplicationScoped bean present in JAR bytecode is invisible to Quarkus ARC without a Jandex index
 - GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
+- GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean

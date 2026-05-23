@@ -299,3 +299,4 @@
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260523-80cc31: Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
+- GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean

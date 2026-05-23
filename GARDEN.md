@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 871
+**Entries merged since last sweep:** 872
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -803,6 +803,7 @@
 - GE-20260523-bd68ba [@ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread](jvm/GE-20260523-bd68ba.md)
 - GE-20260523-06e8b6 [Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation](jvm/GE-20260523-06e8b6.md)
 - GE-20260523-fa7407 [CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak](jvm/GE-20260523-fa7407.md)
+- GE-20260523-de55e8 [@ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean](jvm/GE-20260523-de55e8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
