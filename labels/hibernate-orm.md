@@ -4,3 +4,4 @@
 - GE-20260422-f86f42: Quarkus dual-PU setup with a library dependency that injects @Default EntityManager requires a dummy default datasource + minimal packages config
 - GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously
 - GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause
+- GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test

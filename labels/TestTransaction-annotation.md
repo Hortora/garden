@@ -1,0 +1,1 @@
+- GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test

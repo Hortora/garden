@@ -285,3 +285,4 @@
 | GE-20260523-fc29ea | Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause | gotcha | 10/15 |
 | GE-20260523-7fcea7 | ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code | gotcha | 9/15 |
 | GE-20260523-0ecc24 | Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed | technique | 11/15 |
+| GE-20260523-45d97e | @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test | gotcha | 10/15 |
