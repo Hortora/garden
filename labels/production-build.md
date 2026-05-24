@@ -1,0 +1,1 @@
+- GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module

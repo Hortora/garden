@@ -1,0 +1,1 @@
+- GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent

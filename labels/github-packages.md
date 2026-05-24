@@ -8,3 +8,4 @@
 - GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible
 - GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead
 - GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own
+- GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent

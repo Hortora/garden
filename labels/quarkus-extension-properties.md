@@ -1,0 +1,1 @@
+- GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension

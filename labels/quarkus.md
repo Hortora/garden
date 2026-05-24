@@ -303,3 +303,6 @@
 - GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
 - GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit
+- GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
+- GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
+- GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension

@@ -86,3 +86,6 @@
 - GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
 - GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause
 - GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'
+- GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
+- GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
+- GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent

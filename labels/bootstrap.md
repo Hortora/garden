@@ -1,1 +1,2 @@
 - GE-20260423-878486: quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+
+- GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent

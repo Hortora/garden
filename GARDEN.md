@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 883
+**Entries merged since last sweep:** 888
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -807,6 +807,11 @@
 - GE-20260523-de55e8 [@ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean](jvm/GE-20260523-de55e8.md)
 - GE-20260523-fc1fe7 [Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError](jvm/GE-20260523-fc1fe7.md)
 - GE-20260524-cf232c [Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit](jvm/GE-20260524-cf232c.md)
+- GE-20260524-2b587e [quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build](jvm/GE-20260524-2b587e.md)
+- GE-20260524-baae14 [Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope](jvm/GE-20260524-baae14.md)
+- GE-20260524-122018 [Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent](jvm/GE-20260524-122018.md)
+- GE-20260524-d75218 [CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module](jvm/GE-20260524-d75218.md)
+- GE-20260524-c1e573 [quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension](jvm/GE-20260524-c1e573.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

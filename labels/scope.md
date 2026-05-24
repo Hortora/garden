@@ -1,3 +1,4 @@
 - GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope
 - GE-20260427-0e7508: Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules
 - GE-20260421-bbc3a9: @PermuteParam inside @PermuteMethod silently skips expansion — inner variable not in scope
+- GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope

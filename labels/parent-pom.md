@@ -1,1 +1,2 @@
 - GE-20260426-ad8f5a: Maven multi-module: root parent POM must be deployed to GitHub Packages even when maven.deploy.skip=true — downstream consumers need it
+- GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent

@@ -143,3 +143,6 @@
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
 - GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit
+- GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
+- GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
+- GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension

@@ -295,3 +295,8 @@
 | GE-20260523-de55e8 | @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean | gotcha | 12/15 |
 | GE-20260523-fc1fe7 | Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError | gotcha | 12/15 |
 | GE-20260524-cf232c | Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit | gotcha | 10/15 |
+| GE-20260524-2b587e | quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build | gotcha | 13/15 |
+| GE-20260524-baae14 | Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope | gotcha | 9/15 |
+| GE-20260524-122018 | Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent | gotcha | 11/15 |
+| GE-20260524-d75218 | CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module | technique | 13/15 |
+| GE-20260524-c1e573 | quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension | gotcha | 10/15 |
