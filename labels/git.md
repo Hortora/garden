@@ -105,3 +105,4 @@
 - GE-20260523-5b3204: git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command
 - GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
+- GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command

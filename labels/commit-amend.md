@@ -1,1 +1,2 @@
 - GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free
+- GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command

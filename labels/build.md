@@ -10,3 +10,4 @@
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
 - GE-20260521-0278e2: Stale target/test-classes from mid-session file moves cause spurious Flyway duplicate-version errors
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
+- GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit

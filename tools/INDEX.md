@@ -386,3 +386,4 @@
 | GE-20260521-1d5032 | git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop' | gotcha | 8/15 |
 | GE-20260524-9ef9fa | GitHub Actions bash: missing associative map key returns empty string silently | gotcha | 9/15 |
 | GE-20260524-e0aabf | Incremental CI: module missing from state-save step always rebuilds on next run | gotcha | 9/15 |
+| GE-20260524-7de5c2 | git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command | gotcha | 9/15 |

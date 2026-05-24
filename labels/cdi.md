@@ -142,3 +142,4 @@
 - GE-20260523-fc50d0: Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
+- GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit

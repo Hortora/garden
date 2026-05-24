@@ -9,3 +9,4 @@
 - GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
 - GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision
 - GE-20260521-a5e71b: Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource
+- GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit

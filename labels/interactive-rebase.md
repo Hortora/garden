@@ -1,3 +1,4 @@
 - GE-20260521-9bef0c: git rebase -i rejects pick on two-parent merge commits with 'invalid line'
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
+- GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command

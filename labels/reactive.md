@@ -24,3 +24,4 @@
 - GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
 - GE-20260523-80cc31: Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()
+- GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit
