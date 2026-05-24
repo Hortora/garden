@@ -11,3 +11,4 @@
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
 - GE-20260522-b9a6d4: git push --force-with-lease always rejects on a freshly-created GitHub fork
+- GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch

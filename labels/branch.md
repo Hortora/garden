@@ -7,3 +7,4 @@
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch

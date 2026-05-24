@@ -106,3 +106,4 @@
 - GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
 - GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command
+- GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch

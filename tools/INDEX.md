@@ -389,3 +389,4 @@
 | GE-20260524-7de5c2 | git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command | gotcha | 9/15 |
 | GE-20260524-2920b6 | SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction | gotcha | 8/15 |
 | GE-20260524-2920b6 | SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction | gotcha | 8/15 |
+| GE-20260524-1f0045 | git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch | gotcha | 10/15 |
