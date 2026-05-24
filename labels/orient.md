@@ -1,1 +1,2 @@
 - GE-20260524-2920b6: SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction
+- GE-20260524-2920b6: SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction
