@@ -107,3 +107,5 @@
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
 - GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
+- GE-20260524-bc8f10: git commit --amend without --allow-empty silently skips empty commits
+- GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches

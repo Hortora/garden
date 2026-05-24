@@ -8,3 +8,4 @@
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
+- GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches

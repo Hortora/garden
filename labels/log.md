@@ -1,2 +1,3 @@
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
+- GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches

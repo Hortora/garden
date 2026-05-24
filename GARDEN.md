@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 889
+**Entries merged since last sweep:** 891
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1238,6 +1238,8 @@
 - GE-20260524-2920b6 [SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction](tools/GE-20260524-2920b6.md)
 - GE-20260524-1f0045 [git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch](tools/GE-20260524-1f0045.md)
 - GE-20260524-c66b05 [Tutorial layer dependency labels can silently point at the wrong milestone](tools/GE-20260524-c66b05.md)
+- GE-20260524-bc8f10 [git commit --amend without --allow-empty silently skips empty commits](tools/GE-20260524-bc8f10.md)
+- GE-20260524-ce0ad3 [git diff --name-only main..branch counts main's newer files as missing from old branches](tools/GE-20260524-ce0ad3.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
