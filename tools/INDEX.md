@@ -382,3 +382,5 @@
 | GE-20260522-b9a6d4 | git push --force-with-lease always rejects on a freshly-created GitHub fork | gotcha | 10/15 |
 | GE-20260523-5b3204 | git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command | gotcha | 10/15 |
 | GE-20260523-1b6250 | Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table | technique | 10/15 |
+| GE-20260524-4bc41a | git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first | gotcha | 8/15 |
+| GE-20260521-1d5032 | git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop' | gotcha | 8/15 |

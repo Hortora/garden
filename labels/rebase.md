@@ -25,3 +25,5 @@
 - GE-20260522-0d3a0d: git squash working branch shows stale commit range when main updated concurrently by another session
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
 - GE-20260523-5b3204: git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command
+- GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
+- GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'

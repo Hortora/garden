@@ -4,3 +4,4 @@
 - GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
 - GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history
 - GE-20260521-517bda: git rebase -i onto a backup/pre-squash branch immediately conflicts — backup is a sibling, not an ancestor
+- GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
