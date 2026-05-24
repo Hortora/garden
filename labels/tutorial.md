@@ -1,1 +1,2 @@
 - GE-20260513-4f26a7: @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority
+- GE-20260524-c66b05: Tutorial layer dependency labels can silently point at the wrong milestone

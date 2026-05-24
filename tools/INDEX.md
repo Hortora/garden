@@ -390,3 +390,4 @@
 | GE-20260524-2920b6 | SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction | gotcha | 8/15 |
 | GE-20260524-2920b6 | SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction | gotcha | 8/15 |
 | GE-20260524-1f0045 | git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch | gotcha | 10/15 |
+| GE-20260524-c66b05 | Tutorial layer dependency labels can silently point at the wrong milestone | gotcha | 9/15 |

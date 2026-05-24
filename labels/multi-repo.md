@@ -11,3 +11,4 @@
 - GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20260524-c66b05: Tutorial layer dependency labels can silently point at the wrong milestone
