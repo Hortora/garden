@@ -15,3 +15,5 @@
 - GE-20260501-e6bf89: GitHub Actions bash: set -e silently kills script on failed command substitution before error handler runs
 - GE-20260501-fc1cc6: GitHub Actions: workflow_dispatch trigger silently skips steps guarded by github.event_name == 'push'
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
+- GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
+- GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run

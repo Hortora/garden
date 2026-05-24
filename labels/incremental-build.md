@@ -1,2 +1,3 @@
 - GE-20260428-222aa0: Three-state incremental build (BUILD/TEST/SKIP) from SHA comparison across repos
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
+- GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run

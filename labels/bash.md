@@ -17,3 +17,4 @@
 - GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
 - GE-20260505-f694a2: sed inline header patch during cross-repo file copy — avoids copy-then-edit
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
+- GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently

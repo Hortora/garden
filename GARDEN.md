@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 876
+**Entries merged since last sweep:** 878
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1225,6 +1225,8 @@
 - GE-20260523-1b6250 [Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table](tools/GE-20260523-1b6250.md)
 - GE-20260524-4bc41a [git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first](tools/GE-20260524-4bc41a.md)
 - GE-20260521-1d5032 [git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'](tools/GE-20260521-1d5032.md)
+- GE-20260524-9ef9fa [GitHub Actions bash: missing associative map key returns empty string silently](tools/GE-20260524-9ef9fa.md)
+- GE-20260524-e0aabf [Incremental CI: module missing from state-save step always rebuilds on next run](tools/GE-20260524-e0aabf.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

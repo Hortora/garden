@@ -25,3 +25,4 @@
 - GE-20260522-05f4f1: ArchUnit rules pass silently when no classes match the that() predicate — vacuous green
 - GE-20260522-3fce33: Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call
 - GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
+- GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
