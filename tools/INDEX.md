@@ -387,3 +387,4 @@
 | GE-20260524-9ef9fa | GitHub Actions bash: missing associative map key returns empty string silently | gotcha | 9/15 |
 | GE-20260524-e0aabf | Incremental CI: module missing from state-save step always rebuilds on next run | gotcha | 9/15 |
 | GE-20260524-7de5c2 | git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command | gotcha | 9/15 |
+| GE-20260524-2920b6 | SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction | gotcha | 8/15 |
