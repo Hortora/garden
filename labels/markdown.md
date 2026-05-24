@@ -4,3 +4,5 @@
 - GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
 - GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values
+- GE-20260524-b0a4d9: marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs
+- GE-20260524-d643d9: marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all

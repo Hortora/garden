@@ -3,3 +3,4 @@
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
 - GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
+- GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed

@@ -5,3 +5,4 @@
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
 - GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize
 - GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches
+- GE-20260524-b0a4d9: marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs

@@ -10,3 +10,4 @@
 - GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
 - GE-20260414-5687e0: mvn test -pl <module> fails with 'cannot find symbol' when sibling module has new classes not yet installed
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
+- GE-20260524-89eda5: Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs

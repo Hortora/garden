@@ -9,3 +9,4 @@
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
 - GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path
 - GE-20260522-f8c1c3: Workflow state dotfiles invisible to bare ls — design/.meta appears missing
+- GE-20260524-8ba4ce: Piping Playwright output through `head -N` hangs the test process indefinitely

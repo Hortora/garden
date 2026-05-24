@@ -16,3 +16,7 @@
 - GE-20260501-9e8490: Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM
 - GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements
 - GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld
+- GE-20260524-8ba4ce: Piping Playwright output through `head -N` hangs the test process indefinitely
+- GE-20260524-89eda5: Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs
+- GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
+- GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration

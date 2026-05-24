@@ -1,2 +1,1 @@
-- GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito
 - GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration

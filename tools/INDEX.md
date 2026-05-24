@@ -393,3 +393,5 @@
 | GE-20260524-c66b05 | Tutorial layer dependency labels can silently point at the wrong milestone | gotcha | 9/15 |
 | GE-20260524-bc8f10 | git commit --amend without --allow-empty silently skips empty commits | gotcha | 13/15 |
 | GE-20260524-ce0ad3 | git diff --name-only main..branch counts main's newer files as missing from old branches | gotcha | 9/15 |
+| GE-20260524-8ba4ce | Piping Playwright output through `head -N` hangs the test process indefinitely | gotcha | 10/15 |
+| GE-20260524-4c1400 | Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed | technique | 11/15 |

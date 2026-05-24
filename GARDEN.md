@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 891
+**Entries merged since last sweep:** 897
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -819,6 +819,8 @@
 - GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/GE-0173.md)
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)
 - GE-0179 [Use an injectable `_pollFn` property to test Electron process managers without module mocking](electron/GE-0179.md)
+- GE-20260524-89eda5 [Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs](electron/GE-20260524-89eda5.md)
+- GE-20260524-71ffd5 [Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration](electron/GE-20260524-71ffd5.md)
 ### tools/
 - GE-20260415-5aac89 [PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula](tools/GE-20260415-5aac89.md)
 - GE-20260415-2af3bb [Assert derived values via the same source as the implementation — not hardcoded magic numbers](tools/GE-20260415-2af3bb.md)
@@ -1240,6 +1242,8 @@
 - GE-20260524-c66b05 [Tutorial layer dependency labels can silently point at the wrong milestone](tools/GE-20260524-c66b05.md)
 - GE-20260524-bc8f10 [git commit --amend without --allow-empty silently skips empty commits](tools/GE-20260524-bc8f10.md)
 - GE-20260524-ce0ad3 [git diff --name-only main..branch counts main's newer files as missing from old branches](tools/GE-20260524-ce0ad3.md)
+- GE-20260524-8ba4ce [Piping Playwright output through `head -N` hangs the test process indefinitely](tools/GE-20260524-8ba4ce.md)
+- GE-20260524-4c1400 [Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed](tools/GE-20260524-4c1400.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -1266,6 +1270,8 @@
 - GE-20260522-676291 [ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize](web/GE-20260522-676291.md)
 - GE-20260522-405c25 [Process text nodes in reverse DOM order when splitting them for inline element injection](web/GE-20260522-405c25.md)
 - GE-20260522-6786c3 [el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters](web/GE-20260522-6786c3.md)
+- GE-20260524-b0a4d9 [marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs](web/GE-20260524-b0a4d9.md)
+- GE-20260524-d643d9 [marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all](web/GE-20260524-d643d9.md)
 
 ---
 

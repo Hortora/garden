@@ -218,3 +218,5 @@
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
 - GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
+- GE-20260524-8ba4ce: Piping Playwright output through `head -N` hangs the test process indefinitely
+- GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration

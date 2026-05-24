@@ -1,0 +1,2 @@
+- GE-20260524-b0a4d9: marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs
+- GE-20260524-d643d9: marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all

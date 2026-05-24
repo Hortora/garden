@@ -1,2 +1,4 @@
 - GE-20260413-c7dc5b: python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator
 - GE-20260426-0915b7: Poll a semantically-meaningful ready signal, not just HTTP 200, for fast-starting services
+- GE-20260524-89eda5: Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs
+- GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
