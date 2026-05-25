@@ -12,3 +12,4 @@
 - GE-20260501-04667c: GitHub Actions steps.outcome vs steps.conclusion — continue-on-error masks real failures
 - GE-20260501-d9c2d7: GITHUB_TOKEN returns 403 on cross-repo repository_dispatch — needs classic PAT
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
+- GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files

@@ -1,0 +1,1 @@
+- GE-20260525-5cf881: OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin

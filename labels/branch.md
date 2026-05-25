@@ -9,3 +9,4 @@
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
 - GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches
+- GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase

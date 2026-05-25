@@ -1,2 +1,3 @@
 - GE-20260505-cc8247: `git merge-base --is-ancestor` returns false for a merged PR when GitHub used a merge commit
 - GE-20260511-d8a359: Check branch relationships in both directions — single-direction `git log A ^B` is ambiguous
+- GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase

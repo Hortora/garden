@@ -4,3 +4,5 @@
 - GE-20260501-d7eb0e: Aggressive pre-commit hook silently absorbs staged files into a concurrent commit
 - GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
+- GE-20260525-06327c: Setting core.hooksPath before committing the hook causes the hook to block its own installation commit
+- GE-20260525-db848c: Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths

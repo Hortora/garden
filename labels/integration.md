@@ -1,3 +1,4 @@
 - GE-0071: Bridge SmallRye in-memory channel to Quarkus Flow using @Incoming + startInstance()
 - GE-20260501-e13ed0: Maven mvn test in a child module silently skips sibling example/integration modules — need mvn install from root
 - GE-20260416-8466a8: Use a no-profile-guard @ApplicationScoped bridge bean to flow profile-specific data to general-purpose consumers
+- GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL

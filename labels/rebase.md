@@ -28,3 +28,4 @@
 - GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
 - GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command
+- GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase

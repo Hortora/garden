@@ -17,3 +17,4 @@
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
 - GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
 - GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run
+- GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files

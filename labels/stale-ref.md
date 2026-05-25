@@ -1,0 +1,1 @@
+- GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase

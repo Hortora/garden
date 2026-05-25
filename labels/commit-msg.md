@@ -1,0 +1,1 @@
+- GE-20260525-06327c: Setting core.hooksPath before committing the hook causes the hook to block its own installation commit

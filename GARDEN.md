@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 909
+**Entries merged since last sweep:** 916
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1256,6 +1256,13 @@
 - GE-20260524-ce0ad3 [git diff --name-only main..branch counts main's newer files as missing from old branches](tools/GE-20260524-ce0ad3.md)
 - GE-20260524-8ba4ce [Piping Playwright output through `head -N` hangs the test process indefinitely](tools/GE-20260524-8ba4ce.md)
 - GE-20260524-4c1400 [Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed](tools/GE-20260524-4c1400.md)
+- GE-20260525-8e5b29 [git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase](tools/GE-20260525-8e5b29.md)
+- GE-20260525-06327c [Setting core.hooksPath before committing the hook causes the hook to block its own installation commit](tools/GE-20260525-06327c.md)
+- GE-20260525-c0b5a4 [Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code](tools/GE-20260525-c0b5a4.md)
+- GE-20260525-db848c [Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths](tools/GE-20260525-db848c.md)
+- GE-20260525-2833e9 [GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files](tools/GE-20260525-2833e9.md)
+- GE-20260525-5cf881 [OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin](tools/GE-20260525-5cf881.md)
+- GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -12,3 +12,4 @@
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260524-c66b05: Tutorial layer dependency labels can silently point at the wrong milestone
+- GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
