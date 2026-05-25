@@ -4,3 +4,4 @@
 - GE-20260501-1fbdc7: GitHub Packages Maven: HTTP 400 when deleting the last version — must delete the whole package instead
 - GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied
 - GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own
+- GE-20260525-80e370: LangChain4j 1.x UserMessage: text accessor is singleText(), not text()

@@ -1,1 +1,2 @@
 - GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)
+- GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point

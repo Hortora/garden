@@ -1,2 +1,3 @@
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
 - GE-20260506-25d851: Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild
+- GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes

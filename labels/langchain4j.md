@@ -2,3 +2,5 @@
 - GE-20260422-f922f3: quarkus-langchain4j-core Quarkus extension stalls @QuarkusTest augmentation when no model provider is configured
 - GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations
 - GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)
+- GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point
+- GE-20260525-80e370: LangChain4j 1.x UserMessage: text accessor is singleText(), not text()

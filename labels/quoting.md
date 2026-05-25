@@ -1,1 +1,2 @@
 - GE-20260422-2afcb2: Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts
+- GE-20260525-606069: YAML string values with special chars produce invalid YAML unless single-quoted

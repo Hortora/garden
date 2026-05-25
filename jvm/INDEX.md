@@ -302,3 +302,7 @@
 | GE-20260524-c1e573 | quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension | gotcha | 10/15 |
 | GE-20260525-a8c35a | SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values | gotcha | 12/15 |
 | GE-20260525-1a1a7f | SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly | technique | 9/15 |
+| GE-20260525-fd4868 | LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point | breaking | 12/15 |
+| GE-20260525-80e370 | LangChain4j 1.x UserMessage: text accessor is singleText(), not text() | gotcha | 10/15 |
+| GE-20260525-606069 | YAML string values with special chars produce invalid YAML unless single-quoted | gotcha | 9/15 |
+| GE-20260525-c24dbe | Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes | technique | 9/15 |

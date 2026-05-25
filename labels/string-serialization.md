@@ -1,0 +1,1 @@
+- GE-20260525-606069: YAML string values with special chars produce invalid YAML unless single-quoted
