@@ -311,3 +311,5 @@
 | GE-20260525-4e0b24 | Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules | gotcha | 10/15 |
 | GE-20260525-8c0ba2 | AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup | technique | 9/15 |
 | GE-20260525-531f36 | Google-style test method naming: subject_state with one underscore, lowerCamelCase components | convention | 8/15 |
+| GE-20260525-65a5c1 | LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about | gotcha | 10/15 |
+| GE-20260525-00cbde | Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes | technique | 9/15 |

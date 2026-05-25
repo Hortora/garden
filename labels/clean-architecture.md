@@ -1,2 +1,1 @@
-- GE-20260429-cd60ee: Add completeFromSystem()/rejectFromSystem() to WorkItemService to bypass human-actor lifecycle guards
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes

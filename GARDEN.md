@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 922
+**Entries merged since last sweep:** 924
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -827,6 +827,8 @@
 - GE-20260525-4e0b24 [Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules](jvm/GE-20260525-4e0b24.md)
 - GE-20260525-8c0ba2 [AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup](jvm/GE-20260525-8c0ba2.md)
 - GE-20260525-531f36 [Google-style test method naming: subject_state with one underscore, lowerCamelCase components](jvm/GE-20260525-531f36.md)
+- GE-20260525-65a5c1 [LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about](jvm/GE-20260525-65a5c1.md)
+- GE-20260525-00cbde [Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes](jvm/GE-20260525-00cbde.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
