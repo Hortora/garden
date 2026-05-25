@@ -1,0 +1,1 @@
+- GE-20260525-58fcbf: Always-needed vs triggered: decision rule for AI context file curation

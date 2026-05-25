@@ -26,3 +26,5 @@
 - GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
 - GE-20260511-4e76ab: cc-praxis workspace hook false-negative — checks wrong CLAUDE.md for ## Session Start
 - GE-20260522-ed1b72: Protocol files written by cross-repo sessions accumulate silently as untracked
+- GE-20260525-58fcbf: Always-needed vs triggered: decision rule for AI context file curation
+- GE-20260525-3fe619: wc -l understates AI context file bloat — always measure with wc -c

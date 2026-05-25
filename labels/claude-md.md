@@ -1,0 +1,2 @@
+- GE-20260525-58fcbf: Always-needed vs triggered: decision rule for AI context file curation
+- GE-20260525-3fe619: wc -l understates AI context file bloat — always measure with wc -c

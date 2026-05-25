@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 899
+**Entries merged since last sweep:** 901
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -77,6 +77,8 @@
 - GE-20260422-e72442 [--dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list](claude-code/GE-20260422-e72442.md)
 - GE-20260504-9c9b01 [Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt](claude-code/GE-20260504-9c9b01.md)
 - GE-20260513-2239f6 [Claude Code Edit tool refuses to write through symlink paths — use readlink -f first](claude-code/GE-20260513-2239f6.md)
+- GE-20260525-58fcbf [Always-needed vs triggered: decision rule for AI context file curation](claude-code/GE-20260525-58fcbf.md)
+- GE-20260525-3fe619 [wc -l understates AI context file bloat — always measure with wc -c](claude-code/GE-20260525-3fe619.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

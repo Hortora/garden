@@ -12,3 +12,5 @@
 | GE-20260422-e72442 | --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list | gotcha | 11/15 |
 | GE-20260504-9c9b01 | Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt | undocumented | 11/15 |
 | GE-20260513-2239f6 | Claude Code Edit tool refuses to write through symlink paths — use readlink -f first | gotcha | 10/15 |
+| GE-20260525-58fcbf | Always-needed vs triggered: decision rule for AI context file curation | technique | 9/15 |
+| GE-20260525-3fe619 | wc -l understates AI context file bloat — always measure with wc -c | gotcha | 8/15 |
