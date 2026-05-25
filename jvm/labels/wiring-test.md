@@ -1,0 +1,1 @@
+- GE-20260525-f04530: Inject Event<T> in @QuarkusTest as a synchronous test driver for @Observes handlers
