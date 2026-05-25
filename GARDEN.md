@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 897
+**Entries merged since last sweep:** 899
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -812,6 +812,8 @@
 - GE-20260524-122018 [Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent](jvm/GE-20260524-122018.md)
 - GE-20260524-d75218 [CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module](jvm/GE-20260524-d75218.md)
 - GE-20260524-c1e573 [quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension](jvm/GE-20260524-c1e573.md)
+- GE-20260525-a8c35a [SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values](jvm/GE-20260525-a8c35a.md)
+- GE-20260525-1a1a7f [SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly](jvm/GE-20260525-1a1a7f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

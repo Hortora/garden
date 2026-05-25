@@ -1,0 +1,1 @@
+- GE-20260525-a8c35a: SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values

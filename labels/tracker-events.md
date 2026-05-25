@@ -1,0 +1,1 @@
+- GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly

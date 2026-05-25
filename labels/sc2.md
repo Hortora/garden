@@ -8,3 +8,5 @@
 - GE-20260522-eccbde: SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions
 - GE-20260522-a575c3: Range-bounded modal algorithm for empirical calibration of simulation timing constants from paired event streams
 - GE-20260522-27d097: SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values
+- GE-20260525-a8c35a: SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values
+- GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly

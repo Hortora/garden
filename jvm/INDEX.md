@@ -300,3 +300,5 @@
 | GE-20260524-122018 | Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent | gotcha | 11/15 |
 | GE-20260524-d75218 | CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module | technique | 13/15 |
 | GE-20260524-c1e573 | quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension | gotcha | 10/15 |
+| GE-20260525-a8c35a | SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values | gotcha | 12/15 |
+| GE-20260525-1a1a7f | SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly | technique | 9/15 |
