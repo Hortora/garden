@@ -1,3 +1,4 @@
 - GE-20260423-a01832: Quarkus CDI does not scan @Alternative beans in third-party test jars without explicit index config
 - GE-20260429-d20380: JPA JOINED inheritance: filtering by subclass column vs inherited column for same UUID — only inherited uses the index
 - GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
+- GE-20260525-99837c: PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed

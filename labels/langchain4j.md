@@ -4,3 +4,4 @@
 - GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)
 - GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point
 - GE-20260525-80e370: LangChain4j 1.x UserMessage: text accessor is singleText(), not text()
+- GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
