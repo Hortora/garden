@@ -20,3 +20,4 @@
 - GE-20260524-89eda5: Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
 - GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration
+- GE-20260525-5f6efe: Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium

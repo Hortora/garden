@@ -1,1 +1,2 @@
 - GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
+- GE-20260525-5f6efe: Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium

@@ -1,2 +1,1 @@
-- GE-20260426-0915b7: Poll a semantically-meaningful ready signal, not just HTTP 200, for fast-starting services
 - GE-20260525-5f6efe: Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium
