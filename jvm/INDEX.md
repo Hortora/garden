@@ -314,3 +314,4 @@
 | GE-20260525-65a5c1 | LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about | gotcha | 10/15 |
 | GE-20260525-00cbde | Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes | technique | 9/15 |
 | GE-20260525-c942c0 | @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error | gotcha | 11/15 |
+| GE-20260525-56c580 | Freezing simulation entities mid-test by setting movement target to current position only works if the movement system does not remove targets on arrival | technique | 9/15 |

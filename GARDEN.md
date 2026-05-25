@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 927
+**Entries merged since last sweep:** 928
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -830,6 +830,7 @@
 - GE-20260525-65a5c1 [LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about](jvm/GE-20260525-65a5c1.md)
 - GE-20260525-00cbde [Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes](jvm/GE-20260525-00cbde.md)
 - GE-20260525-c942c0 [@Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error](jvm/GE-20260525-c942c0.md)
+- GE-20260525-56c580 [Freezing simulation entities mid-test by setting movement target to current position only works if the movement system does not remove targets on arrival](jvm/GE-20260525-56c580.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

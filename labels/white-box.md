@@ -1,0 +1,1 @@
+- GE-20260525-56c580: Freezing simulation entities mid-test by setting movement target to current position only works if the movement system does not remove targets on arrival
