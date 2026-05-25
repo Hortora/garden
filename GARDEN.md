@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 916
+**Entries merged since last sweep:** 919
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1260,6 +1260,9 @@
 - GE-20260525-06327c [Setting core.hooksPath before committing the hook causes the hook to block its own installation commit](tools/GE-20260525-06327c.md)
 - GE-20260525-c0b5a4 [Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code](tools/GE-20260525-c0b5a4.md)
 - GE-20260525-db848c [Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths](tools/GE-20260525-db848c.md)
+- GE-20260525-2833e9 [GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files](tools/GE-20260525-2833e9.md)
+- GE-20260525-5cf881 [OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin](tools/GE-20260525-5cf881.md)
+- GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)
 - GE-20260525-2833e9 [GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files](tools/GE-20260525-2833e9.md)
 - GE-20260525-5cf881 [OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin](tools/GE-20260525-5cf881.md)
 - GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)

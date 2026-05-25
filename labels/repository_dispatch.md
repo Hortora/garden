@@ -1,2 +1,3 @@
 - GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
+- GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
