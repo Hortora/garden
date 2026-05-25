@@ -315,3 +315,5 @@
 | GE-20260525-00cbde | Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes | technique | 9/15 |
 | GE-20260525-c942c0 | @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error | gotcha | 11/15 |
 | GE-20260525-56c580 | Freezing simulation entities mid-test by setting movement target to current position only works if the movement system does not remove targets on arrival | technique | 9/15 |
+| GE-20260525-c01bb4 | String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument | gotcha | 9/15 |
+| GE-20260525-55d8f6 | Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem | technique | 9/15 |

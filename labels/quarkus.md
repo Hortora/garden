@@ -310,3 +310,4 @@
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
 - GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
+- GE-20260525-55d8f6: Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem
