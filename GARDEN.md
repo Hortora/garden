@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 907
+**Entries merged since last sweep:** 909
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -29,6 +29,8 @@
 - GE-20260523-fd8725 [binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter](casehub-engine/GE-20260523-fd8725.md)
 - GE-20260523-4ca5e7 [casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath](casehub-engine/GE-20260523-4ca5e7.md)
 - GE-20260523-86ed13 [casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points](casehub-engine/GE-20260523-86ed13.md)
+- GE-20260525-f09688 [CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead](casehub-engine/GE-20260525-f09688.md)
+- GE-20260525-d06282 [casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry](casehub-engine/GE-20260525-d06282.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
