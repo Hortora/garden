@@ -30,3 +30,4 @@
 - GE-20260525-3fe619: wc -l understates AI context file bloat — always measure with wc -c
 - GE-20260525-c0b5a4: Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code
 - GE-20260525-db848c: Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths
+- GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json

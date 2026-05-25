@@ -1,0 +1,1 @@
+- GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json

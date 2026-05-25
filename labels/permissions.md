@@ -6,3 +6,4 @@
 - GE-20260501-159207: GitHub fine-grained PATs cannot delete org-level Maven packages even with delete:packages scope visible
 - GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied
 - GE-20260525-c0b5a4: Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code
+- GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
