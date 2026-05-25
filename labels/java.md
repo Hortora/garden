@@ -78,3 +78,6 @@
 - GE-20260523-722840: Test that an ArchUnit rule catches a violation using rule.evaluate().hasViolation() — not rule.check()
 - GE-20260525-606069: YAML string values with special chars produce invalid YAML unless single-quoted
 - GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes
+- GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules
+- GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
+- GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components

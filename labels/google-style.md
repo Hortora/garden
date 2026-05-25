@@ -1,0 +1,1 @@
+- GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components

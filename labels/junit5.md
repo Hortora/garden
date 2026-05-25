@@ -7,3 +7,4 @@
 - GE-20260415-5c2136: @QuarkusTest binds hardcoded port 8081 — add test-port=0 to prevent 'Port already bound' cascades
 - GE-20260514-641df6: @BeforeEach @Transactional works in @QuarkusTest — lifecycle methods go through the CDI proxy
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
+- GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components

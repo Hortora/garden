@@ -220,3 +220,4 @@
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
 - GE-20260524-8ba4ce: Piping Playwright output through `head -N` hangs the test process indefinitely
 - GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration
+- GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components

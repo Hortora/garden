@@ -1,1 +1,2 @@
 - GE-20260421-707db1: WeakHashMap uses equals/hashCode for key lookup — use IdentityHashMap for reference-equality keying
+- GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules

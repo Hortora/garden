@@ -308,3 +308,6 @@
 | GE-20260525-c24dbe | Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes | technique | 9/15 |
 | GE-20260525-d5b5eb | JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate | gotcha | 12/15 |
 | GE-20260525-6f8b88 | Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence | gotcha | 13/15 |
+| GE-20260525-4e0b24 | Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules | gotcha | 10/15 |
+| GE-20260525-8c0ba2 | AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup | technique | 9/15 |
+| GE-20260525-531f36 | Google-style test method naming: subject_state with one underscore, lowerCamelCase components | convention | 8/15 |

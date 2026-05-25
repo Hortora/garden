@@ -4,3 +4,4 @@
 - GE-20260420-cb4c7a: Micrometer Gauge named with _total suffix silently absent from Prometheus output
 - GE-20260422-042f69: Maven Surefire silently skips *IT test classes — they only run under maven-failsafe-plugin
 - GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning
+- GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components

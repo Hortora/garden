@@ -1,3 +1,4 @@
 - GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time
 - GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection
 - GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes
+- GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
