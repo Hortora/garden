@@ -405,3 +405,4 @@
 | GE-20260525-2833e9 | GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files | gotcha | 10/15 |
 | GE-20260525-5cf881 | OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin | undocumented | 10/15 |
 | GE-20260525-a91e15 | OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL | undocumented | 11/15 |
+| GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |

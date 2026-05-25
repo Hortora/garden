@@ -1,0 +1,1 @@
+- GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify

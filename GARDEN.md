@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 933
+**Entries merged since last sweep:** 934
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1280,6 +1280,7 @@
 - GE-20260525-2833e9 [GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files](tools/GE-20260525-2833e9.md)
 - GE-20260525-5cf881 [OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin](tools/GE-20260525-5cf881.md)
 - GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)
+- GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
