@@ -313,3 +313,4 @@
 | GE-20260525-531f36 | Google-style test method naming: subject_state with one underscore, lowerCamelCase components | convention | 8/15 |
 | GE-20260525-65a5c1 | LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about | gotcha | 10/15 |
 | GE-20260525-00cbde | Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes | technique | 9/15 |
+| GE-20260525-c942c0 | @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error | gotcha | 11/15 |

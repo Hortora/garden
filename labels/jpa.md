@@ -49,3 +49,4 @@
 - GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
+- GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
