@@ -19,3 +19,4 @@
 - GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream
 - GE-20260522-bc642c: ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
+- GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence

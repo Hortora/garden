@@ -306,3 +306,5 @@
 | GE-20260525-80e370 | LangChain4j 1.x UserMessage: text accessor is singleText(), not text() | gotcha | 10/15 |
 | GE-20260525-606069 | YAML string values with special chars produce invalid YAML unless single-quoted | gotcha | 9/15 |
 | GE-20260525-c24dbe | Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes | technique | 9/15 |
+| GE-20260525-d5b5eb | JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate | gotcha | 12/15 |
+| GE-20260525-6f8b88 | Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence | gotcha | 13/15 |

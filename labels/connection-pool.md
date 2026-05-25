@@ -1,2 +1,1 @@
-- GE-20260426-14d193: Use T directly in @PermuteReturn typeArgs to avoid @PermuteTypeParam on standalone methods
 - GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence

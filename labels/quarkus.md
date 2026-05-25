@@ -306,3 +306,4 @@
 - GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
+- GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence

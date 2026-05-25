@@ -2,3 +2,4 @@
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
 - GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
 - GE-20260525-606069: YAML string values with special chars produce invalid YAML unless single-quoted
+- GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate

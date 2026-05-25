@@ -26,3 +26,4 @@
 - GE-20260522-3fce33: Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call
 - GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
 - GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
+- GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate

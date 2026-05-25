@@ -1,2 +1,3 @@
 - GE-20260415-5a9a11: JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception
 - GE-20260429-68ee24: @ConsumeEvent handler silently deadlocks if .join() is called without blocking = true
+- GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence

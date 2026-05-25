@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 905
+**Entries merged since last sweep:** 907
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -820,6 +820,8 @@
 - GE-20260525-80e370 [LangChain4j 1.x UserMessage: text accessor is singleText(), not text()](jvm/GE-20260525-80e370.md)
 - GE-20260525-606069 [YAML string values with special chars produce invalid YAML unless single-quoted](jvm/GE-20260525-606069.md)
 - GE-20260525-c24dbe [Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes](jvm/GE-20260525-c24dbe.md)
+- GE-20260525-d5b5eb [JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate](jvm/GE-20260525-d5b5eb.md)
+- GE-20260525-6f8b88 [Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence](jvm/GE-20260525-6f8b88.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

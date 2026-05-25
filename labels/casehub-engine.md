@@ -6,3 +6,5 @@
 - GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
 - GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath
 - GE-20260523-86ed13: casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points
+- GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
+- GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence

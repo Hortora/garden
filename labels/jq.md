@@ -3,3 +3,4 @@
 - GE-20260426-5c059f: Use jq @tsv + IFS=$'\t' read to iterate multi-field JSON objects in bash without base64
 - GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
+- GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
