@@ -3,3 +3,4 @@
 - GE-20260504-45a947: Quarkus test profile enabling a `@Scheduled` feature must also disable the scheduler — or it races direct `runComputation()` calls
 - GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
+- GE-20260525-6accc3: Electron ready-to-show handler missed if registered after await loadURL — IPC messages silently lost

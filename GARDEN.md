@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 926
+**Entries merged since last sweep:** 927
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -840,6 +840,7 @@
 - GE-20260524-89eda5 [Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs](electron/GE-20260524-89eda5.md)
 - GE-20260524-71ffd5 [Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration](electron/GE-20260524-71ffd5.md)
 - GE-20260525-5f6efe [Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium](electron/GE-20260525-5f6efe.md)
+- GE-20260525-6accc3 [Electron ready-to-show handler missed if registered after await loadURL — IPC messages silently lost](electron/GE-20260525-6accc3.md)
 ### tools/
 - GE-20260415-5aac89 [PixiJS 8: tile-rectangle top-left uses (VIEWPORT_H - y - 1) * SCALE — not the point formula](tools/GE-20260415-5aac89.md)
 - GE-20260415-2af3bb [Assert derived values via the same source as the implementation — not hardcoded magic numbers](tools/GE-20260415-2af3bb.md)
