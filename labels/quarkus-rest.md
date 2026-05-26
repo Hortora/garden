@@ -1,2 +1,3 @@
 - GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409
 - GE-20260414-926cee: RestAssured percent-encodes `:` in URL paths, breaking JAX-RS routes like `/a2a/message:send`
+- GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently

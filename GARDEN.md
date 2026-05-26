@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 945
+**Entries merged since last sweep:** 946
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -835,6 +835,7 @@
 - GE-20260526-5247f2 [ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing](jvm/GE-20260526-5247f2.md)
 - GE-20260526-f8e3bf [MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs](jvm/GE-20260526-f8e3bf.md)
 - GE-20260526-3c8553 [@WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack](jvm/GE-20260526-3c8553.md)
+- GE-20260526-399a43 [quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently](jvm/GE-20260526-399a43.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
