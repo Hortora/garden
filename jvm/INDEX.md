@@ -319,3 +319,4 @@
 | GE-20260525-55d8f6 | Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem | technique | 9/15 |
 | GE-20260525-a8bd9a | quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing | gotcha | 12/15 |
 | GE-20260525-99837c | PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed | undocumented | 11/15 |
+| GE-20260526-fa0e3e | CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch | undocumented | 10/15 |
