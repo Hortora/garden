@@ -27,3 +27,4 @@
 - GE-20260524-cf232c: Quarkus CDI validation fails with reactive service beans from transitive deps unless quarkus.datasource.reactive=false is explicit
 - GE-20260525-55d8f6: Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
+- GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion

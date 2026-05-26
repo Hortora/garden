@@ -325,3 +325,4 @@
 | GE-20260526-f8e3bf | MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs | undocumented | 8/15 |
 | GE-20260526-3c8553 | @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack | gotcha | 8/15 |
 | GE-20260526-399a43 | quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently | gotcha | 12/15 |
+| GE-20260526-cacddb | UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion | technique | 9/15 |
