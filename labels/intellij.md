@@ -20,3 +20,4 @@
 - GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i
 - GE-20260522-d6a1c9: IntelliJ has three separate config files that must all be updated when a project repo is physically relocated
 - GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor
+- GE-20260526-8c7f5f: mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities

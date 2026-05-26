@@ -50,3 +50,4 @@
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
 - GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
+- GE-20260526-a5bbd2: LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically

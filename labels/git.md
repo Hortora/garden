@@ -114,3 +114,4 @@
 - GE-20260525-c0b5a4: Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code
 - GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
+- GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'

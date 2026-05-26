@@ -1,0 +1,1 @@
+- GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'

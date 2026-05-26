@@ -19,3 +19,4 @@
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
 - GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
 - GE-20260525-c0b5a4: Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code
+- GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'

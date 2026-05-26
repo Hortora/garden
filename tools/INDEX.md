@@ -408,3 +408,5 @@
 | GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |
 | GE-20260526-4ac862 | Use branch switch to auto-remove branch-only tracked files without manual deletion | technique | 8/15 |
 | GE-20260526-8b0676 | IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor | gotcha | 10/15 |
+| GE-20260526-8c7f5f | mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities | undocumented | 9/15 |
+| GE-20260526-254c2c | Bash for loops with git commands inside eval fail with 'command not found: git' | gotcha | 9/15 |

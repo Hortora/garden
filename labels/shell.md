@@ -11,3 +11,4 @@
 - GE-20260522-f8c1c3: Workflow state dotfiles invisible to bare ls — design/.meta appears missing
 - GE-20260524-8ba4ce: Piping Playwright output through `head -N` hangs the test process indefinitely
 - GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
+- GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'

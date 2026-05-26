@@ -1,0 +1,1 @@
+- GE-20260526-a5bbd2: LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically

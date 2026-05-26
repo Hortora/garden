@@ -17,3 +17,4 @@
 - GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor
+- GE-20260526-8c7f5f: mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities

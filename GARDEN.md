@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 938
+**Entries merged since last sweep:** 943
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -830,6 +830,9 @@
 - GE-20260525-a8bd9a [quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing](jvm/GE-20260525-a8bd9a.md)
 - GE-20260525-99837c [PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed](jvm/GE-20260525-99837c.md)
 - GE-20260526-fa0e3e [CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch](jvm/GE-20260526-fa0e3e.md)
+- GE-20260526-a5bbd2 [LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically](jvm/GE-20260526-a5bbd2.md)
+- GE-20260526-5247f2 [ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing](jvm/GE-20260526-5247f2.md)
+- GE-20260526-f8e3bf [MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs](jvm/GE-20260526-f8e3bf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1273,6 +1276,8 @@
 - GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
 - GE-20260526-4ac862 [Use branch switch to auto-remove branch-only tracked files without manual deletion](tools/GE-20260526-4ac862.md)
 - GE-20260526-8b0676 [IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor](tools/GE-20260526-8b0676.md)
+- GE-20260526-8c7f5f [mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities](tools/GE-20260526-8c7f5f.md)
+- GE-20260526-254c2c [Bash for loops with git commands inside eval fail with 'command not found: git'](tools/GE-20260526-254c2c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

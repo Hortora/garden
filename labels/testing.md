@@ -222,3 +222,4 @@
 - GE-20260524-71ffd5: Playwright window.evaluate closures don't persist across calls — save spy orig on window for later restoration
 - GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components
 - GE-20260525-56c580: Freezing simulation entities mid-test by setting movement target to current position only works if the movement system does not remove targets on arrival
+- GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
