@@ -1,3 +1,4 @@
 - GE-20260417-680e86: IntelliJ MCP ide_diagnostics does not run LocalInspectionTool plugins — use get_file_problems instead
 - GE-20260513-436312: mvn test -q 2>&1 | tail -N always exits 0 — pipe masks Maven failure
 - GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures
+- GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor

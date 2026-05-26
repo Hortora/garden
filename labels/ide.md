@@ -1,0 +1,1 @@
+- GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor

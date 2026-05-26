@@ -16,3 +16,4 @@
 - GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
 - GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
+- GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor

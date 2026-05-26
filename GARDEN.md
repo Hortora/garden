@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 937
+**Entries merged since last sweep:** 938
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -656,7 +656,6 @@
 - GE-20260517-712fe5 [Use `@ApplicationScoped` capture bean with `CountDownLatch` to test `@ObservesAsync` CDI events in `@QuarkusTest`](jvm/GE-20260517-712fe5.md)
 - GE-20260517-7471c7 [Java HttpClient silently returns empty result for file:// URLs](jvm/GE-20260517-7471c7.md)
 - GE-20260517-8d62e3 [casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null](jvm/GE-20260517-8d62e3.md)
-- GE-20260517-9006f7 [`@DefaultBean @ApplicationScoped` blocking bridge for reactive SPI in `@QuarkusTest` — no CDI ambiguity, no production impact](jvm/GE-20260517-9006f7.md)
 - GE-20260517-9181a6 [Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId](jvm/GE-20260517-9181a6.md)
 - GE-20260517-92a95d [WorkItemCreateRequest record fields expanded in casehub-work 0.2-SNAPSHOT — parentId (UUID) and labels (List<String>) added](jvm/GE-20260517-92a95d.md)
 - GE-20260517-9e571a [@Typed required when CDI bean implements a framework-owned interface to prevent AmbiguousResolutionException](jvm/GE-20260517-9e571a.md)
@@ -1273,6 +1272,7 @@
 - GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)
 - GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
 - GE-20260526-4ac862 [Use branch switch to auto-remove branch-only tracked files without manual deletion](tools/GE-20260526-4ac862.md)
+- GE-20260526-8b0676 [IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor](tools/GE-20260526-8b0676.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

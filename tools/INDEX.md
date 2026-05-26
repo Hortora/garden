@@ -407,3 +407,4 @@
 | GE-20260525-a91e15 | OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL | undocumented | 11/15 |
 | GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |
 | GE-20260526-4ac862 | Use branch switch to auto-remove branch-only tracked files without manual deletion | technique | 8/15 |
+| GE-20260526-8b0676 | IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor | gotcha | 10/15 |

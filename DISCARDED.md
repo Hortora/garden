@@ -34,3 +34,4 @@
 | tools/GE-20260521-1d5032 | tools/GE-20260521-9bef0c | git rebase -i pick on merge commits — 9bef0c has higher score (10 vs 8) |
 | tools/GE-20260523-5b3204 | tools/GE-20260522-5b1589 | git rebase -i drop on merge commit — 5b1589 has higher score (11 vs 10) |
 | tools/GE-20260518-d1775a | tools/GE-20260518-cf67e4 | git cherry-pick -X ours drops conflicting files — cf67e4 has higher score (14 vs 11) |
+| jvm/GE-20260517-9006f7 | jvm/GE-20260519-f0967f | @DefaultBean blocking bridge for reactive SPI shim — identical technique, f0967f has higher score (12 vs 9) |
