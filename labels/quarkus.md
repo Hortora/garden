@@ -316,3 +316,4 @@
 - GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
 - GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion
+- GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response

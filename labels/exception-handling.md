@@ -4,3 +4,4 @@
 - GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
 - GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
+- GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response

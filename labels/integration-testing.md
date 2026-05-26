@@ -1,0 +1,1 @@
+- GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response

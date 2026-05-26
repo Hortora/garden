@@ -1,1 +1,2 @@
 - GE-20260512-1fa51e: @Scheduled interval without $ prefix silently uses literal string as duration — fires at wrong frequency
+- GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response
