@@ -21,3 +21,16 @@
 | jvm/GE-20260501-d6a70e | jvm/GE-20260512-66d997 | Panache static bypasses CDI alternatives |
 | jvm/GE-20260501-fbd68d | jvm/GE-20260512-6d0c2b | BroadcastProcessor.onNext() throws on no subscribers |
 | jvm/GE-20260501-dfc3c2 | jvm/GE-20260512-50b394 | @TestTransaction scheduler isolation technique |
+
+## 2026-05-26 — Dedup sweep
+
+| Discarded | Superseded by | Reason |
+|---|---|---|
+| jvm/GE-20260514-83ee13 | jvm/GE-20260422-e48245 | @DefaultBean import — e48245 has higher score (11 vs 9) |
+| jvm/GE-20260521-a5e71b | jvm/GE-20260521-2b82e7 | Panache.withTransaction() default PU — 2b82e7 is longer (59 vs 53 lines), same score |
+| quarkus/GE-20260414-a2e8a3 | quarkus/GE-20260513-a2f5b7 | @WithDefault("") @ConfigMapping — a2f5b7 is newer (2026-05-13 vs 2026-04-14), same score |
+| quarkus/GE-20260512-ee7c07 | quarkus/GE-20260417-c59817 | Quarkus ArC beans.xml alternatives — c59817 has higher score (12 vs 11) |
+| casehub-engine/GE-20260420-4a62d3 | quarkus/GE-20260427-c2b84f | @Alternative CDI beans in JAR without Jandex — c2b84f has higher score (12 vs 11) |
+| tools/GE-20260521-1d5032 | tools/GE-20260521-9bef0c | git rebase -i pick on merge commits — 9bef0c has higher score (10 vs 8) |
+| tools/GE-20260523-5b3204 | tools/GE-20260522-5b1589 | git rebase -i drop on merge commit — 5b1589 has higher score (11 vs 10) |
+| tools/GE-20260518-d1775a | tools/GE-20260518-cf67e4 | git cherry-pick -X ours drops conflicting files — cf67e4 has higher score (14 vs 11) |
