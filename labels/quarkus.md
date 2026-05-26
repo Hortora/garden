@@ -317,3 +317,4 @@
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
 - GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion
 - GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response
+- GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile

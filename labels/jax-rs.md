@@ -8,3 +8,4 @@
 - GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached
 - GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
+- GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile

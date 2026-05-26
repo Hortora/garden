@@ -1,0 +1,1 @@
+- GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile

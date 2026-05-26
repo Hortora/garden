@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 948
+**Entries merged since last sweep:** 949
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -838,6 +838,7 @@
 - GE-20260526-399a43 [quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently](jvm/GE-20260526-399a43.md)
 - GE-20260526-cacddb [UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion](jvm/GE-20260526-cacddb.md)
 - GE-20260526-a08a81 [Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response](jvm/GE-20260526-a08a81.md)
+- GE-20260526-5a7d46 [jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile](jvm/GE-20260526-5a7d46.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
