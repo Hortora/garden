@@ -1,0 +1,1 @@
+- GE-20260526-27301b: OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)

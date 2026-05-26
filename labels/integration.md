@@ -3,3 +3,4 @@
 - GE-20260416-8466a8: Use a no-profile-guard @ApplicationScoped bridge bean to flow profile-specific data to general-purpose consumers
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
+- GE-20260526-27301b: OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)

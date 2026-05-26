@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 956
+**Entries merged since last sweep:** 958
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -846,6 +846,7 @@
 - GE-20260526-08e14c [JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity](jvm/GE-20260526-08e14c.md)
 - GE-20260526-e21a7c [JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values](jvm/GE-20260526-e21a7c.md)
 - GE-20260526-bfc589 [REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision](jvm/GE-20260526-bfc589.md)
+- GE-20260526-1653dc [@All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>](jvm/GE-20260526-1653dc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1291,6 +1292,7 @@
 - GE-20260526-8b0676 [IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor](tools/GE-20260526-8b0676.md)
 - GE-20260526-8c7f5f [mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities](tools/GE-20260526-8c7f5f.md)
 - GE-20260526-254c2c [Bash for loops with git commands inside eval fail with 'command not found: git'](tools/GE-20260526-254c2c.md)
+- GE-20260526-27301b [OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)](tools/GE-20260526-27301b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

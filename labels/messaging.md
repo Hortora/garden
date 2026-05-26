@@ -1,1 +1,2 @@
 - GE-20260414-23982b: `check_messages` excludes EVENT messages by design — tests expecting EVENTs via check_messages always get fewer results than sent
+- GE-20260526-27301b: OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)

@@ -5,3 +5,4 @@
 - GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead
 - GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
 - GE-20260522-405c25: Process text nodes in reverse DOM order when splitting them for inline element injection
+- GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>

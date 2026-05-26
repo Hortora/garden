@@ -319,3 +319,4 @@
 - GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response
 - GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile
 - GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
+- GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>

@@ -28,3 +28,4 @@
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
 - GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
+- GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>

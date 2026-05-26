@@ -2,3 +2,4 @@
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
 - GE-20260525-5cf881: OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
+- GE-20260526-27301b: OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)
