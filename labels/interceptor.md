@@ -1,3 +1,4 @@
 - GE-20260417-01b5d5: WrapBusinessErrorInterceptor only wraps methods annotated with @Tool — class-level placement is safe
 - GE-20260417-45f47f: Class-level @WrapBusinessError wraps all CDI callers of @Tool methods, not just the MCP server
 - GE-20260505-fc9770: ThreadLocal<Deque<T>> on @ApplicationScoped bean as CDI interceptor context — works in tests and scheduled jobs, cleans up automatically
+- GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack

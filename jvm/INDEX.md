@@ -323,3 +323,4 @@
 | GE-20260526-a5bbd2 | LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically | undocumented | 9/15 |
 | GE-20260526-5247f2 | ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing | gotcha | 10/15 |
 | GE-20260526-f8e3bf | MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs | undocumented | 8/15 |
+| GE-20260526-3c8553 | @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack | gotcha | 8/15 |

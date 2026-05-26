@@ -147,3 +147,4 @@
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
+- GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
