@@ -4,3 +4,4 @@
 - GE-20260508-ce2285: UUID-suffix business keys in @QuarkusTest to prevent H2 in-memory shared-state conflicts
 - GE-20260420-d99177: @QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data
 - GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects
+- GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
