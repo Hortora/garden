@@ -9,3 +9,4 @@
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260522-de5ee3: BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit
 - GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations

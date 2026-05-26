@@ -1,2 +1,3 @@
 - GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
 - GE-20260417-2e4d46: Editing Flyway SQL source files changes checksum — use mvn clean test or H2 silently reuses stale schema
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations

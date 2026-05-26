@@ -25,3 +25,4 @@
 - GE-20260521-537d58: Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables
 - GE-20260523-fc29ea: Stale qhorus local snapshot causes TABLE NOT FOUND in consuming project @QuarkusTest — schema-generation-strategy mismatch hides root cause
 - GE-20260525-99837c: PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations

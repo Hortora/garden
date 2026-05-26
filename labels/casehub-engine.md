@@ -11,3 +11,4 @@
 - GE-20260525-f09688: CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead
 - GE-20260525-d06282: casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry
 - GE-20260526-fa0e3e: CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations

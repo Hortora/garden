@@ -313,3 +313,4 @@
 - GE-20260525-55d8f6: Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations

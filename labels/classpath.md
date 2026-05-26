@@ -13,3 +13,4 @@
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
 - GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
+- GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
