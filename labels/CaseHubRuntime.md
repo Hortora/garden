@@ -1,0 +1,1 @@
+- GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure

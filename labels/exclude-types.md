@@ -6,3 +6,4 @@
 - GE-20260428-539732: quarkus.arc.exclude-types in test application.properties replaces (not appends) the main config list
 - GE-20260523-54f02a: quarkus.arc.exclude-types on a non-indexed JAR triggers full JAR scan — activating beans instead of suppressing them
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
+- GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure

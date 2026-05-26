@@ -4,3 +4,5 @@
 - GE-20260505-84577e: @ApplicationScoped CDI proxy field writes go to the proxy, not the bean — silent in @QuarkusTest
 - GE-20260523-4ca5e7: casehub-work 5-field Unix cron scheduler beans fail at startup when casehub-engine-scheduler-quartz is on the classpath
 - GE-20260525-d06282: casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry
+- GE-20260526-34a4c4: Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures
+- GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure

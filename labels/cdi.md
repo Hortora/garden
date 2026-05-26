@@ -148,3 +148,5 @@
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
+- GE-20260526-34a4c4: Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures
+- GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 950
+**Entries merged since last sweep:** 952
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -30,6 +30,8 @@
 - GE-20260523-86ed13 [casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points](casehub-engine/GE-20260523-86ed13.md)
 - GE-20260525-f09688 [CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead](casehub-engine/GE-20260525-f09688.md)
 - GE-20260525-d06282 [casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry](casehub-engine/GE-20260525-d06282.md)
+- GE-20260526-34a4c4 [Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures](casehub-engine/GE-20260526-34a4c4.md)
+- GE-20260526-2ee43b [New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure](casehub-engine/GE-20260526-2ee43b.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

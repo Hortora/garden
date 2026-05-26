@@ -12,3 +12,5 @@
 - GE-20260525-d06282: casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry
 - GE-20260526-fa0e3e: CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch
 - GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
+- GE-20260526-34a4c4: Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures
+- GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure
