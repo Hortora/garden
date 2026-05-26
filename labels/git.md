@@ -113,3 +113,4 @@
 - GE-20260525-06327c: Setting core.hooksPath before committing the hook causes the hook to block its own installation commit
 - GE-20260525-c0b5a4: Write bulk git operations to /tmp/script.py to avoid shell permission-prompt triggers in Claude Code
 - GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify
+- GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion

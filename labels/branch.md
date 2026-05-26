@@ -10,3 +10,4 @@
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
 - GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches
 - GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase
+- GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion

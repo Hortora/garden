@@ -406,3 +406,4 @@
 | GE-20260525-5cf881 | OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin | undocumented | 10/15 |
 | GE-20260525-a91e15 | OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL | undocumented | 11/15 |
 | GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |
+| GE-20260526-4ac862 | Use branch switch to auto-remove branch-only tracked files without manual deletion | technique | 8/15 |

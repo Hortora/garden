@@ -3,3 +3,4 @@
 - GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20260526-b28228: Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's

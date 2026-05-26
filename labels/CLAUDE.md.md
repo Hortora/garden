@@ -1,0 +1,1 @@
+- GE-20260526-b28228: Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's

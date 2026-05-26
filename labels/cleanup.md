@@ -2,3 +2,4 @@
 - GE-20260427-d0172f: @TestTransaction in @QuarkusTest auto-rolls back JPA changes — zero cleanup code needed
 - GE-20260430-be991b: git worktree unlock/prune works on ghost worktrees whose paths no longer exist
 - GE-20260522-ac6b1d: Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive
+- GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion

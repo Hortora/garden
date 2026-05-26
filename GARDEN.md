@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 934
+**Entries merged since last sweep:** 936
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -82,6 +82,7 @@
 - GE-20260525-58fcbf [Always-needed vs triggered: decision rule for AI context file curation](claude-code/GE-20260525-58fcbf.md)
 - GE-20260525-3fe619 [wc -l understates AI context file bloat — always measure with wc -c](claude-code/GE-20260525-3fe619.md)
 - GE-20260525-6c3a27 [gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json](claude-code/GE-20260525-6c3a27.md)
+- GE-20260526-b28228 [Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's](claude-code/GE-20260526-b28228.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -1281,6 +1282,7 @@
 - GE-20260525-5cf881 [OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin](tools/GE-20260525-5cf881.md)
 - GE-20260525-a91e15 [OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL](tools/GE-20260525-a91e15.md)
 - GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
+- GE-20260526-4ac862 [Use branch switch to auto-remove branch-only tracked files without manual deletion](tools/GE-20260526-4ac862.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
