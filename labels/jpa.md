@@ -52,3 +52,5 @@
 - GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
 - GE-20260526-a5bbd2: LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
+- GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values

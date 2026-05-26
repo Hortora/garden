@@ -90,3 +90,4 @@
 - GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
 - GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
+- GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar

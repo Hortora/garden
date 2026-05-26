@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 952
+**Entries merged since last sweep:** 955
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -842,6 +842,9 @@
 - GE-20260526-a08a81 [Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response](jvm/GE-20260526-a08a81.md)
 - GE-20260526-5a7d46 [jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile](jvm/GE-20260526-5a7d46.md)
 - GE-20260526-286ac7 [Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration](jvm/GE-20260526-286ac7.md)
+- GE-20260526-43a51d [Maven incremental compile silently passes after changing a record's component count in an installed jar](jvm/GE-20260526-43a51d.md)
+- GE-20260526-08e14c [JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity](jvm/GE-20260526-08e14c.md)
+- GE-20260526-e21a7c [JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values](jvm/GE-20260526-e21a7c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

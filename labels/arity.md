@@ -1,2 +1,3 @@
 - GE-20260427-23f4a7: Reflection-based predicate invocation must detect ctx-first vs no-ctx arity to avoid wrong-number-of-arguments
 - GE-20260427-5413df: @PermuteReturn(when="i == N") generates a method only on a specific arity in a Permuplate template
+- GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar

@@ -13,3 +13,4 @@
 - GE-20260414-9b2b14: `wait_for_reply` cancellation requires the cancel to happen WHILE the poll loop is running
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
 - GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
+- GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity

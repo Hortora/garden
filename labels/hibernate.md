@@ -45,3 +45,5 @@
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
 - GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError
 - GE-20260526-a5bbd2: LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically
+- GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values

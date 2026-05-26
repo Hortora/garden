@@ -2,3 +2,4 @@
 - GE-20260418-93f8b2: Maven duplicate dependency declarations — test scope silently overrides compile scope
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
 - GE-20260522-9cd6d5: casehub-work SlaBreachPolicy wiring calls Path.root() before platform publishes it — silent compile blocker
+- GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar

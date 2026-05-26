@@ -329,3 +329,6 @@
 | GE-20260526-a08a81 | Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response | gotcha | 14/15 |
 | GE-20260526-5a7d46 | jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile | gotcha | 10/15 |
 | GE-20260526-286ac7 | Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration | technique | 9/15 |
+| GE-20260526-43a51d | Maven incremental compile silently passes after changing a record's component count in an installed jar | gotcha | 12/15 |
+| GE-20260526-08e14c | JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity | technique | 11/15 |
+| GE-20260526-e21a7c | JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values | undocumented | 9/15 |
