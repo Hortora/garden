@@ -3,3 +3,4 @@
 - GE-20260414-2263db: Jackson deserializes Java records without @JsonProperty when Maven -parameters flag is enabled
 - GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper
 - GE-20260522-672965: @JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath
+- GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision

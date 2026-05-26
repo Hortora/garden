@@ -225,3 +225,4 @@
 - GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
 - GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion
+- GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
