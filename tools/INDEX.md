@@ -411,3 +411,5 @@
 | GE-20260526-8c7f5f | mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities | undocumented | 9/15 |
 | GE-20260526-254c2c | Bash for loops with git commands inside eval fail with 'command not found: git' | gotcha | 9/15 |
 | GE-20260526-27301b | OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier) | undocumented | 10/15 |
+| GE-20260527-b00814 | git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost | gotcha | 11/15 |
+| GE-20260527-e0f70d | Use exec git commit --amend in rebase todo to set a custom squash message in-place | technique | 10/15 |

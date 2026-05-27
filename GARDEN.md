@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 959
+**Entries merged since last sweep:** 961
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1294,6 +1294,8 @@
 - GE-20260526-8c7f5f [mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities](tools/GE-20260526-8c7f5f.md)
 - GE-20260526-254c2c [Bash for loops with git commands inside eval fail with 'command not found: git'](tools/GE-20260526-254c2c.md)
 - GE-20260526-27301b [OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier)](tools/GE-20260526-27301b.md)
+- GE-20260527-b00814 [git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost](tools/GE-20260527-b00814.md)
+- GE-20260527-e0f70d [Use exec git commit --amend in rebase todo to set a custom squash message in-place](tools/GE-20260527-e0f70d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

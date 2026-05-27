@@ -115,3 +115,5 @@
 - GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
 - GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'
+- GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
+- GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place

@@ -29,3 +29,5 @@
 - GE-20260521-1d5032: git rebase -i todo: 'pick' does not accept merge commits — use 'merge -C' or 'drop'
 - GE-20260524-7de5c2: git rebase -i exec commands cannot span multiple lines — parser treats each line as a separate command
 - GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase
+- GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
+- GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place

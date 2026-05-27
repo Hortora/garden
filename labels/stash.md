@@ -3,3 +3,4 @@
 - GE-20260521-53dae7: git stash exits 0 with 'No local changes to save' — recording stash@{0} points at the previous stash
 - GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
 - GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
+- GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost

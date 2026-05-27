@@ -13,3 +13,4 @@
 - GE-20260522-0d3a0d: git squash working branch shows stale commit range when main updated concurrently by another session
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
 - GE-20260523-5b3204: git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command
+- GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
