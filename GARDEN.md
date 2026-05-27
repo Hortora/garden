@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 961
+**Entries merged since last sweep:** 962
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -848,6 +848,7 @@
 - GE-20260526-bfc589 [REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision](jvm/GE-20260526-bfc589.md)
 - GE-20260526-1653dc [@All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>](jvm/GE-20260526-1653dc.md)
 - GE-20260527-714661 [PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results](jvm/GE-20260527-714661.md)
+- GE-20260522-daca26 [Mutiny MultiEmitter.emit() from Vert.x I/O thread silently drops SSE frames in @Blocking Quarkus endpoint](jvm/GE-20260522-daca26.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
