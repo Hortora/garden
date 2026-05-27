@@ -152,3 +152,4 @@
 - GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure
 - GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately

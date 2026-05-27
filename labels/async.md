@@ -22,3 +22,4 @@
 - GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence
 - GE-20260527-714661: PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately

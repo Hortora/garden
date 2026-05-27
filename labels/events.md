@@ -7,3 +7,4 @@
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
 - GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
 - GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
+- GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
