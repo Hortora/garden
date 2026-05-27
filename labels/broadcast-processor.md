@@ -1,0 +1,1 @@
+- GE-20260527-714661: PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results

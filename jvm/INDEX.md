@@ -334,3 +334,4 @@
 | GE-20260526-e21a7c | JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values | undocumented | 9/15 |
 | GE-20260526-bfc589 | REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision | technique | 11/15 |
 | GE-20260526-1653dc | @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T> | technique | 12/15 |
+| GE-20260527-714661 | PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results | technique | 11/15 |
