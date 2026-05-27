@@ -29,3 +29,4 @@
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
 - GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
+- GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered

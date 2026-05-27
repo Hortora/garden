@@ -7,3 +7,4 @@
 - GE-20260522-2a4009: onTermination() on inner Multi in Mutiny concatenation does not fire when outer Multi is cancelled during first stream
 - GE-20260522-1bc491: Quarkus @Blocking SSE endpoint auto-wraps Multi<String> items — manual 'data: ' prefix produces double-frame
 - GE-20260522-daca26: Mutiny MultiEmitter.emit() from Vert.x I/O thread silently drops SSE frames in @Blocking Quarkus endpoint
+- GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered

@@ -14,3 +14,4 @@
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
 - GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
+- GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered
