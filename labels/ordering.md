@@ -3,3 +3,4 @@
 - GE-20260421-9498ff: WorkItemService.delegate() must run strategy BEFORE clearing assigneeId or Hibernate auto-flush corrupts workload counts
 - GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
 - GE-20260506-934502: Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary
+- GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
