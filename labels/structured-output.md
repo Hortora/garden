@@ -1,0 +1,1 @@
+- GE-20260528-e9564b: LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation

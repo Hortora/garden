@@ -5,3 +5,4 @@
 - GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point
 - GE-20260525-80e370: LangChain4j 1.x UserMessage: text accessor is singleText(), not text()
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
+- GE-20260528-e9564b: LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 982
+**Entries merged since last sweep:** 985
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -867,6 +867,9 @@
 - GE-20260528-5e2fb5 [Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path](jvm/GE-20260528-5e2fb5.md)
 - GE-20260528-8e51f1 [NativeImageResourcePatternsBuildItem constructor and includePatterns() are deprecated in Quarkus 3.x — use builder().includeGlob()](jvm/GE-20260528-8e51f1.md)
 - GE-20260528-fa4655 [Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources](jvm/GE-20260528-fa4655.md)
+- GE-20260528-e9564b [LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation](jvm/GE-20260528-e9564b.md)
+- GE-20260528-e9ed9f [LLM renderer cache key must hash all output-affecting context, not just LLM input fields](jvm/GE-20260528-e9ed9f.md)
+- GE-20260528-1e92db [Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct](jvm/GE-20260528-1e92db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

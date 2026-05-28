@@ -1,3 +1,4 @@
 - GE-0037: Inject a Supplier<Instant> to test time-dependent logic without sleeping or mocking frameworks
 - GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas
 - GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules
+- GE-20260528-1e92db: Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct

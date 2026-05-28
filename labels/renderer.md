@@ -1,0 +1,1 @@
+- GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
