@@ -413,3 +413,4 @@
 | GE-20260526-27301b | OpenClaw WhatsApp uses Baileys (personal tier) not Meta Cloud API (business tier) | undocumented | 10/15 |
 | GE-20260527-b00814 | git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost | gotcha | 11/15 |
 | GE-20260527-e0f70d | Use exec git commit --amend in rebase todo to set a custom squash message in-place | technique | 10/15 |
+| GE-20260528-99941f | "Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA) | gotcha | 11/15 |

@@ -1,0 +1,1 @@
+- GE-20260528-99941f: "Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA)
