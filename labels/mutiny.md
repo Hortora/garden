@@ -22,3 +22,4 @@
 - GE-20260522-daca26: Mutiny MultiEmitter.emit() from Vert.x I/O thread silently drops SSE frames in @Blocking Quarkus endpoint
 - GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered
 - GE-20260528-74914d: @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints
+- GE-20260528-f0a75c: @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative

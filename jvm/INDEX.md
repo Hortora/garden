@@ -340,3 +340,5 @@
 | GE-20260527-cad5ba | Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods | technique | 11/15 |
 | GE-20260423-daef97 | CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately | gotcha | 13/15 |
 | GE-20260528-74914d | @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints | gotcha | 13/15 |
+| GE-20260528-f0a75c | @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative | technique | 12/15 |
+| GE-20260528-55a526 | Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters | technique | 10/15 |

@@ -1,0 +1,1 @@
+- GE-20260528-55a526: Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters

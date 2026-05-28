@@ -17,3 +17,4 @@
 - GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
 - GE-20260427-62d3ab: Use @Alternative @Priority(1) inner beans in @QuarkusTest to spy on SPI call sites without Mockito
 - GE-20260523-fa7407: CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak
+- GE-20260528-55a526: Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters

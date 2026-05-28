@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 966
+**Entries merged since last sweep:** 968
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -853,6 +853,8 @@
 - GE-20260527-cad5ba [Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods](jvm/GE-20260527-cad5ba.md)
 - GE-20260423-daef97 [CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately](jvm/GE-20260423-daef97.md)
 - GE-20260528-74914d [@Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints](jvm/GE-20260528-74914d.md)
+- GE-20260528-f0a75c [@DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative](jvm/GE-20260528-f0a75c.md)
+- GE-20260528-55a526 [Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters](jvm/GE-20260528-55a526.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
