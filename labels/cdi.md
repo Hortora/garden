@@ -159,3 +159,4 @@
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
 - GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources
 - GE-20260528-1e92db: Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct
+- GE-20260529-c4ed43: Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations

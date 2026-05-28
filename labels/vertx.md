@@ -11,3 +11,4 @@
 - GE-20260522-daca26: Mutiny MultiEmitter.emit() from virtual thread does not flush SSE frames to browser in @Blocking Quarkus endpoint
 - GE-20260522-daca26: Mutiny MultiEmitter.emit() from Vert.x I/O thread silently drops SSE frames in @Blocking Quarkus endpoint
 - GE-20260528-d4b81d: casehub-engine SNAPSHOT: internal package refactor breaks VertxProcessor augmentation — masked by cached augmentation
+- GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI

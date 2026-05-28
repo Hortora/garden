@@ -1,0 +1,1 @@
+- GE-20260529-c6ff44: Math.abs(0.8 - 0.7) > 0.1 in Java IEEE 754 — exact decimal boundary tests fail silently

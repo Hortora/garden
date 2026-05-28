@@ -357,3 +357,7 @@
 | GE-20260528-e9564b | LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation | undocumented | 14/15 |
 | GE-20260528-e9ed9f | LLM renderer cache key must hash all output-affecting context, not just LLM input fields | gotcha | 12/15 |
 | GE-20260528-1e92db | Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct | technique | 10/15 |
+| GE-20260529-c6ff44 | Math.abs(0.8 - 0.7) > 0.1 in Java IEEE 754 — exact decimal boundary tests fail silently | gotcha | 9/15 |
+| GE-20260529-c4ed43 | Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations | technique | 9/15 |
+| GE-20260529-ff186e | emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI | technique | 9/15 |
+| GE-20260529-37764f | OptionalDouble over double+NaN sentinel for absent numeric primitives in records | technique | 8/15 |

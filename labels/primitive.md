@@ -1,1 +1,2 @@
 - GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check
+- GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records

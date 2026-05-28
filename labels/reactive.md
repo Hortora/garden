@@ -32,3 +32,4 @@
 - GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered
 - GE-20260528-f0a75c: @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative
 - GE-20260528-55a526: Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters
+- GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI

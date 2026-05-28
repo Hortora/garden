@@ -23,3 +23,4 @@
 - GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered
 - GE-20260528-74914d: @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints
 - GE-20260528-f0a75c: @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative
+- GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI

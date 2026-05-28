@@ -1,1 +1,2 @@
 - GE-20260415-0761e9: Floating-point boundary check with == speed is fragile — use a smaller arrival threshold
+- GE-20260529-c6ff44: Math.abs(0.8 - 0.7) > 0.1 in Java IEEE 754 — exact decimal boundary tests fail silently
