@@ -1,0 +1,1 @@
+- GE-20260528-3b9ccb: Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction

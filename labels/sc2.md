@@ -10,3 +10,4 @@
 - GE-20260522-27d097: SC2 unit training times are integer game loops — the community formula (seconds × 22.4) gives wrong values
 - GE-20260525-a8c35a: SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values
 - GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly
+- GE-20260528-3b9ccb: Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction

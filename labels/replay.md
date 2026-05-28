@@ -3,3 +3,4 @@
 - GE-20260521-981f62: SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale
 - GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results
 - GE-20260522-eccbde: SC2 replay abilLink IDs are patch-specific — same binary protocol, different ability IDs across SC2 versions
+- GE-20260528-3b9ccb: Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction
