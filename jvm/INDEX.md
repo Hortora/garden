@@ -342,3 +342,8 @@
 | GE-20260528-74914d | @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints | gotcha | 13/15 |
 | GE-20260528-f0a75c | @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative | technique | 12/15 |
 | GE-20260528-55a526 | Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters | technique | 10/15 |
+| GE-20260528-d4b81d | casehub-engine SNAPSHOT: internal package refactor breaks VertxProcessor augmentation — masked by cached augmentation | gotcha | 13/15 |
+| GE-20260528-35a81c | WorkItemPriority has no NORMAL value — enum values are LOW, MEDIUM, HIGH, URGENT; NORMAL causes Hibernate IllegalArgumentException at read time | gotcha | 11/15 |
+| GE-20260528-936918 | Response.Status.UNPROCESSABLE_ENTITY doesn't exist in Jakarta EE 9 JAX-RS — use raw integer 422 | gotcha | 9/15 |
+| GE-20260528-3d3847 | @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime | gotcha | 12/15 |
+| GE-20260528-c968e2 | Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference | technique | 11/15 |
