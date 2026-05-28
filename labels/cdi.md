@@ -153,3 +153,4 @@
 - GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
 - GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260528-74914d: @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints

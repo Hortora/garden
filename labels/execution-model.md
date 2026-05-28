@@ -1,0 +1,1 @@
+- GE-20260528-74914d: @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints
