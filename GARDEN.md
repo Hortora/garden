@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 975
+**Entries merged since last sweep:** 976
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1310,6 +1310,7 @@
 - GE-20260527-b00814 [git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost](tools/GE-20260527-b00814.md)
 - GE-20260527-e0f70d [Use exec git commit --amend in rebase todo to set a custom squash message in-place](tools/GE-20260527-e0f70d.md)
 - GE-20260528-99941f ["Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA)](tools/GE-20260528-99941f.md)
+- GE-20260528-de4fc4 [GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch](tools/GE-20260528-de4fc4.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

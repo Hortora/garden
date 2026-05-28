@@ -117,3 +117,4 @@
 - GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
 - GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
+- GE-20260528-de4fc4: GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch

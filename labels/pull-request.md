@@ -4,3 +4,4 @@
 - GE-20260422-8e9873: GitHub /retest bot comment produces 'completed skipped' workflow — use gh run rerun --failed instead
 - GE-20260422-e5e20f: Cascade rebase a chain of dependent PRs onto new base using captured old tips and git rebase --onto
 - GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
+- GE-20260528-de4fc4: GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch
