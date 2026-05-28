@@ -10,3 +10,5 @@
 - GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection
 - GE-20260522-f0d1ec: SC2EGSet ToonPlayerDescMap userID is not playerID-1 — game event filter silently returns 0 results
 - GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
+- GE-20260528-6ebb38: SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check
+- GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere

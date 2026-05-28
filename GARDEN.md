@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 976
+**Entries merged since last sweep:** 978
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -861,6 +861,8 @@
 - GE-20260528-3d3847 [@Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime](jvm/GE-20260528-3d3847.md)
 - GE-20260528-c968e2 [Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference](jvm/GE-20260528-c968e2.md)
 - GE-20260528-3b9ccb [Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction](jvm/GE-20260528-3b9ccb.md)
+- GE-20260528-6ebb38 [SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check](jvm/GE-20260528-6ebb38.md)
+- GE-20260528-f89f62 [SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere](jvm/GE-20260528-f89f62.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

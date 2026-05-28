@@ -1,0 +1,1 @@
+- GE-20260528-6ebb38: SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check

@@ -348,3 +348,5 @@
 | GE-20260528-3d3847 | @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime | gotcha | 12/15 |
 | GE-20260528-c968e2 | Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference | technique | 11/15 |
 | GE-20260528-3b9ccb | Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction | gotcha | 9/15 |
+| GE-20260528-6ebb38 | SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check | gotcha | 8/15 |
+| GE-20260528-f89f62 | SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere | undocumented | 9/15 |
