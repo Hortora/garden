@@ -1,1 +1,2 @@
 - GE-20260518-96bd10: IntelliJ MCP get_file_text_by_path and read_file return stale cached content diverging from on-disk file
+- GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path

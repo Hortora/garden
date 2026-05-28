@@ -350,3 +350,7 @@
 | GE-20260528-3b9ccb | Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction | gotcha | 9/15 |
 | GE-20260528-6ebb38 | SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check | gotcha | 8/15 |
 | GE-20260528-f89f62 | SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere | undocumented | 9/15 |
+| GE-20260528-ed3022 | Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner | gotcha | 12/15 |
+| GE-20260528-5e2fb5 | Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path | gotcha | 10/15 |
+| GE-20260528-8e51f1 | NativeImageResourcePatternsBuildItem constructor and includePatterns() are deprecated in Quarkus 3.x — use builder().includeGlob() | undocumented | 8/15 |
+| GE-20260528-fa4655 | Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources | undocumented | 10/15 |

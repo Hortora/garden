@@ -157,3 +157,4 @@
 - GE-20260528-f0a75c: @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative
 - GE-20260528-55a526: Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
+- GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources

@@ -27,3 +27,6 @@
 - GE-20260525-99837c: PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed
 - GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
 - GE-20260528-35a81c: WorkItemPriority has no NORMAL value — enum values are LOW, MEDIUM, HIGH, URGENT; NORMAL causes Hibernate IllegalArgumentException at read time
+- GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
+- GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path
+- GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources

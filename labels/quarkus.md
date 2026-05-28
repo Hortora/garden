@@ -331,3 +331,6 @@
 - GE-20260528-d4b81d: casehub-engine SNAPSHOT: internal package refactor breaks VertxProcessor augmentation — masked by cached augmentation
 - GE-20260528-936918: Response.Status.UNPROCESSABLE_ENTITY doesn't exist in Jakarta EE 9 JAX-RS — use raw integer 422
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
+- GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
+- GE-20260528-8e51f1: NativeImageResourcePatternsBuildItem constructor and includePatterns() are deprecated in Quarkus 3.x — use builder().includeGlob()
+- GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources

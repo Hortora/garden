@@ -16,3 +16,4 @@
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
+- GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
