@@ -32,3 +32,4 @@
 - GE-20260525-db848c: Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths
 - GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
 - GE-20260526-b28228: Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's
+- GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries

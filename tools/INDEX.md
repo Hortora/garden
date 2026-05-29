@@ -415,3 +415,4 @@
 | GE-20260527-e0f70d | Use exec git commit --amend in rebase todo to set a custom squash message in-place | technique | 10/15 |
 | GE-20260528-99941f | "Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA) | gotcha | 11/15 |
 | GE-20260528-de4fc4 | GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch | gotcha | 12/15 |
+| GE-20260529-182916 | project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries | gotcha | 8/15 |
