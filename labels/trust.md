@@ -1,2 +1,3 @@
 - GE-20260428-9571b8: Bayesian Beta trust model may store confidence as a field but not use it in the update weight
 - GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router
+- GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
