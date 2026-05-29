@@ -352,3 +352,5 @@
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
 - GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
 - GE-20260529-7985ba: quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties
+- GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler
+- GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans

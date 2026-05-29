@@ -1,0 +1,1 @@
+- GE-20260529-6eccfe: Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data

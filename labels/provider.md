@@ -1,1 +1,2 @@
 - GE-20260520-ec2f39: Use jakarta.ws.rs-api (provided) not quarkus-rest when you only need JAX-RS @Provider annotations
+- GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler

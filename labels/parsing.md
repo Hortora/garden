@@ -4,3 +4,4 @@
 - GE-20260414-2a1cd1: Regex-validated date strings still crash date.fromisoformat() on invalid calendar values
 - GE-20260421-bd4121: jsoup requires Parser.xmlParser() for XML sitemaps — default HTML parser lowercases element names silently
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
+- GE-20260529-6eccfe: Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data

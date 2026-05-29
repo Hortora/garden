@@ -384,3 +384,6 @@
 | GE-20260529-bc1eaa | TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE | gotcha | 10/15 |
 | GE-20260529-7985ba | quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties | gotcha | 10/15 |
 | GE-20260529-a488bf | Jakarta Mail MimeMessage defaults to text/plain until saveChanges() is called — isMimeType() is wrong on freshly-constructed messages | gotcha | 13/15 |
+| GE-20260529-636a36 | JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler | gotcha | 9/15 |
+| GE-20260529-6eccfe | Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data | technique | 9/15 |
+| GE-20260529-5a8158 | Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans | gotcha | 9/15 |

@@ -18,3 +18,4 @@
 - GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
 - GE-20260513-a2f5b7: @WithDefault("") on a String method in @ConfigMapping causes ConfigValidationException at Quarkus startup
 - GE-20260522-d6a1c9: IntelliJ has three separate config files that must all be updated when a project repo is physically relocated
+- GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans

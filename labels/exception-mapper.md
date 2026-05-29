@@ -1,1 +1,2 @@
 - GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409
+- GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler
