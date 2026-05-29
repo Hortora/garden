@@ -82,3 +82,4 @@
 - GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
 - GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components
 - GE-20260525-c01bb4: String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument
+- GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing

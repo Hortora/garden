@@ -1,1 +1,2 @@
 - GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI
+- GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread

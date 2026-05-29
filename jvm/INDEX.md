@@ -371,3 +371,6 @@
 | GE-20260529-d57945 | JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup | gotcha | 10/15 |
 | GE-20260529-9f3557 | @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied | gotcha | 11/15 |
 | GE-20260529-fef800 | casehub-engine in-memory: CaseCompleted CDI event unreliable in @QuarkusTest — GoalReached fires first and is more reliable | gotcha | 9/15 |
+| GE-20260529-b994c2 | Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread | gotcha | 12/15 |
+| GE-20260529-a4dadf | Maven test-jar export for cross-module abstract contract test sharing | technique | 11/15 |
+| GE-20260529-166347 | @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest | technique | 10/15 |

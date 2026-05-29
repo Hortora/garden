@@ -13,3 +13,4 @@
 - GE-20260528-d4b81d: casehub-engine SNAPSHOT: internal package refactor breaks VertxProcessor augmentation — masked by cached augmentation
 - GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI
 - GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter
+- GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread

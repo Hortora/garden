@@ -92,3 +92,4 @@
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
 - GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar
 - GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path
+- GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing

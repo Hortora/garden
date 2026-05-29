@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1002
+**Entries merged since last sweep:** 1005
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -885,6 +885,9 @@
 - GE-20260529-d57945 [JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup](jvm/GE-20260529-d57945.md)
 - GE-20260529-9f3557 [@TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied](jvm/GE-20260529-9f3557.md)
 - GE-20260529-fef800 [casehub-engine in-memory: CaseCompleted CDI event unreliable in @QuarkusTest — GoalReached fires first and is more reliable](jvm/GE-20260529-fef800.md)
+- GE-20260529-b994c2 [Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread](jvm/GE-20260529-b994c2.md)
+- GE-20260529-a4dadf [Maven test-jar export for cross-module abstract contract test sharing](jvm/GE-20260529-a4dadf.md)
+- GE-20260529-166347 [@TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest](jvm/GE-20260529-166347.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

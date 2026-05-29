@@ -3,3 +3,4 @@
 - GE-20260428-fd7a65: @Transactional(SUPPORTS) makes JPA reads callable from any thread — including Vert.x IO thread
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
 - GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI
+- GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread

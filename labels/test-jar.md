@@ -1,0 +1,1 @@
+- GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing

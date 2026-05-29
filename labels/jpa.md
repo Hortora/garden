@@ -57,3 +57,4 @@
 - GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error
 - GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException
 - GE-20260529-9f3557: @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied
+- GE-20260529-166347: @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest
