@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1044
+**Entries merged since last sweep:** 1046
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -927,6 +927,8 @@
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
 - GE-20260529-a2681d [Scelight Delta.getRemoveMask() payload types are heterogeneous — ZeroIndices retains, Mask is BitArray, not Number](scelight/GE-20260529-a2681d.md)
+- GE-20260529-90ed14 [Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable](scelight/GE-20260529-90ed14.md)
+- GE-20260529-90ed14 [Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable](scelight/GE-20260529-90ed14.md)
 ### electron/
 - GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/GE-0173.md)
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)

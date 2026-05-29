@@ -4,3 +4,5 @@
 - GE-20260525-a8c35a: SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values
 - GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly
 - GE-20260529-a2681d: Scelight Delta.getRemoveMask() payload types are heterogeneous — ZeroIndices retains, Mask is BitArray, not Number
+- GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
+- GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
