@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1005
+**Entries merged since last sweep:** 1008
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -200,6 +200,7 @@
 - GE-20260421-dbc509 [replaceAll("\\d+$") strips only trailing digits — misses embedded arity numbers like Join2First](java/GE-20260421-dbc509.md)
 - GE-20260501-93f9a8 [Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs](java/GE-20260501-93f9a8.md)
 - GE-20260501-a9ea1a [SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep](java/GE-20260501-a9ea1a.md)
+- GE-20260529-8b17d1 [LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache](java/GE-20260529-8b17d1.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
@@ -888,6 +889,8 @@
 - GE-20260529-b994c2 [Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread](jvm/GE-20260529-b994c2.md)
 - GE-20260529-a4dadf [Maven test-jar export for cross-module abstract contract test sharing](jvm/GE-20260529-a4dadf.md)
 - GE-20260529-166347 [@TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest](jvm/GE-20260529-166347.md)
+- GE-20260520-c0e5b4 [Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper](jvm/GE-20260520-c0e5b4.md)
+- GE-20260529-b510e4 [@Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early](jvm/GE-20260529-b510e4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

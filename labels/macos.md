@@ -10,3 +10,4 @@
 - GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
 - GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match
 - GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

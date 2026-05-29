@@ -1,0 +1,1 @@
+- GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache

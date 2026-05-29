@@ -12,3 +12,4 @@
 - GE-20260512-d0fa82: H2 + two Agroal datasources in one @Transactional method fails with 'Failed to enlist' — requires transactions=xa
 - GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart
 - GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
+- GE-20260529-b510e4: @Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early
