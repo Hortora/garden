@@ -276,6 +276,13 @@ Gotchas and techniques already captured:
 
 ---
 
+## See Also
+
+- [approaches/observability.md](../approaches/observability.md) — observability concepts (three pillars, MDC, tracing, metrics)
+- [approaches/observability-patterns.md](../approaches/observability-patterns.md) — implementation patterns and production checklist
+
+---
+
 ## Known Gaps
 
 - [ ] YAML workflow definition syntax and schema reference
