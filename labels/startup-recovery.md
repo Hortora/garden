@@ -1,0 +1,1 @@
+- GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery

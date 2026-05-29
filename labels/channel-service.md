@@ -1,0 +1,1 @@
+- GE-20260529-24cb03: ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup

@@ -376,3 +376,7 @@
 | GE-20260529-166347 | @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest | technique | 10/15 |
 | GE-20260520-c0e5b4 | Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper | gotcha | 13/15 |
 | GE-20260529-b510e4 | @Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early | gotcha | 12/15 |
+| GE-20260529-586849 | io.casehub.qhorus.runtime.channel.Channel — entity is in runtime.channel not runtime.model | gotcha | 9/15 |
+| GE-20260529-24cb03 | ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup | undocumented | 9/15 |
+| GE-20260529-d1397c | Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery | technique | 10/15 |
+| GE-20260529-88b7b6 | ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel() | gotcha | 9/15 |

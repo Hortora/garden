@@ -1,1 +1,2 @@
 - GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
+- GE-20260529-586849: io.casehub.qhorus.runtime.channel.Channel — entity is in runtime.channel not runtime.model

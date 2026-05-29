@@ -13,3 +13,7 @@
 - GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
 - GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
 - GE-20260529-b5723e: casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module
+- GE-20260529-586849: io.casehub.qhorus.runtime.channel.Channel — entity is in runtime.channel not runtime.model
+- GE-20260529-24cb03: ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup
+- GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
+- GE-20260529-88b7b6: ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel()

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1009
+**Entries merged since last sweep:** 1014
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -33,6 +33,7 @@
 - GE-20260526-34a4c4 [Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures](casehub-engine/GE-20260526-34a4c4.md)
 - GE-20260526-2ee43b [New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure](casehub-engine/GE-20260526-2ee43b.md)
 - GE-20260529-b5723e [casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module](casehub-engine/GE-20260529-b5723e.md)
+- GE-20260529-0c23f1 [quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces](casehub-engine/GE-20260529-0c23f1.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -892,6 +893,10 @@
 - GE-20260529-166347 [@TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest](jvm/GE-20260529-166347.md)
 - GE-20260520-c0e5b4 [Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper](jvm/GE-20260520-c0e5b4.md)
 - GE-20260529-b510e4 [@Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early](jvm/GE-20260529-b510e4.md)
+- GE-20260529-586849 [io.casehub.qhorus.runtime.channel.Channel — entity is in runtime.channel not runtime.model](jvm/GE-20260529-586849.md)
+- GE-20260529-24cb03 [ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup](jvm/GE-20260529-24cb03.md)
+- GE-20260529-d1397c [Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery](jvm/GE-20260529-d1397c.md)
+- GE-20260529-88b7b6 [ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel()](jvm/GE-20260529-88b7b6.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

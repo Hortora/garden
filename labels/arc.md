@@ -29,3 +29,4 @@
 - GE-20260524-2b587e: quarkus.arc.selected-alternatives does not activate @Alternative beans during quarkus:build
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
 - GE-20260526-1653dc: @All List<T> in Quarkus/ArC gives testable multi-bean injection without Instance<T>
+- GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces

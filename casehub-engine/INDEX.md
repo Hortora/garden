@@ -12,3 +12,4 @@
 | GE-20260526-34a4c4 | Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures | gotcha | 11/15 |
 | GE-20260526-2ee43b | New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure | gotcha | 9/15 |
 | GE-20260529-b5723e | casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module | gotcha | 11/15 |
+| GE-20260529-0c23f1 | quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces | gotcha | 10/15 |

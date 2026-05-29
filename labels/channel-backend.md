@@ -1,1 +1,2 @@
 - GE-20260517-9e571a: @Typed required when CDI bean implements a framework-owned interface to prevent AmbiguousResolutionException
+- GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
