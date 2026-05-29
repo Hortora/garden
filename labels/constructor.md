@@ -1,0 +1,1 @@
+- GE-20260529-ab148d: Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor
