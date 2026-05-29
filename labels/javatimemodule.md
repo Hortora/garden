@@ -1,1 +1,2 @@
 - GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper
+- GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants

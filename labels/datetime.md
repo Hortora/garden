@@ -1,1 +1,2 @@
 - GE-20260414-2a1cd1: Regex-validated date strings still crash date.fromisoformat() on invalid calendar values
+- GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants

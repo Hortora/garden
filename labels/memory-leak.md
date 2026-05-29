@@ -1,1 +1,2 @@
 - GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
+- GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside

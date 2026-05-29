@@ -1,1 +1,2 @@
 - GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
+- GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside

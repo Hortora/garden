@@ -8,3 +8,4 @@
 - GE-20260418-5a5689: CDI @Inject silently does nothing on plain Java objects owned by CDI beans — inject into the owning bean instead
 - GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()

@@ -1,0 +1,1 @@
+- GE-20260529-66bf53: OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires

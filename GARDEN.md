@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1047
+**Entries merged since last sweep:** 1052
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1382,6 +1382,11 @@
 - GE-20260529-4518ac [Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces](tools/GE-20260529-4518ac.md)
 - GE-20260521-eaa1e1 [git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way](tools/GE-20260521-eaa1e1.md)
 - GE-20260529-774b14 [Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally](tools/GE-20260529-774b14.md)
+- GE-20260529-9727bb [OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration](tools/GE-20260529-9727bb.md)
+- GE-20260529-66bf53 [OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires](tools/GE-20260529-66bf53.md)
+- GE-20260529-71742a [OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()](tools/GE-20260529-71742a.md)
+- GE-20260529-ef1d8c [Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside](tools/GE-20260529-ef1d8c.md)
+- GE-20260529-22b91b [Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants](tools/GE-20260529-22b91b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

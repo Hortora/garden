@@ -1,0 +1,1 @@
+- GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()

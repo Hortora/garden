@@ -1,3 +1,5 @@
 - GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
 - GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them
 - GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values
+- GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
+- GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants

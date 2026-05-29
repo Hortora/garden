@@ -420,3 +420,8 @@
 | GE-20260529-4518ac | Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces | gotcha | 12/15 |
 | GE-20260521-eaa1e1 | git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way | gotcha | 10/15 |
 | GE-20260529-774b14 | Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally | gotcha | 8/15 |
+| GE-20260529-9727bb | OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration | gotcha | 11/15 |
+| GE-20260529-66bf53 | OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires | gotcha | 11/15 |
+| GE-20260529-71742a | OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register() | gotcha | 9/15 |
+| GE-20260529-ef1d8c | Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside | technique | 10/15 |
+| GE-20260529-22b91b | Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants | technique | 8/15 |

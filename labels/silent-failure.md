@@ -29,3 +29,5 @@
 - GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
 - GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
+- GE-20260529-66bf53: OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires
+- GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()

@@ -6,3 +6,6 @@
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
 - GE-20260525-06327c: Setting core.hooksPath before committing the hook causes the hook to block its own installation commit
 - GE-20260525-db848c: Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths
+- GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration
+- GE-20260529-66bf53: OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires
+- GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()

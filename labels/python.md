@@ -25,3 +25,4 @@
 - GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
 - GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
+- GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration

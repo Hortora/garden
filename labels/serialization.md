@@ -3,3 +3,4 @@
 - GE-20260415-d07a2c: FastMCP serializes list tool returns as one TextContent per element — empty list produces zero content items
 - GE-20260522-672965: @JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath
 - GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
+- GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants
