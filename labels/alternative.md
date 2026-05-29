@@ -24,3 +24,4 @@
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
 - GE-20260529-c4ed43: Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
+- GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException

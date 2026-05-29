@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1038
+**Entries merged since last sweep:** 1039
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -486,6 +486,7 @@
 - GE-20260427-5d7c67 [quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean](quarkus/GE-20260427-5d7c67.md)
 - GE-0134 [`mvn install -DskipTests` runs Quarkus augmentation on library modules and fails if CDI is unsatisfied](quarkus/GE-0134.md)
 - GE-20260424-6b88a0 [`quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented](quarkus/GE-20260424-6b88a0.md)
+- GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

@@ -171,3 +171,4 @@
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
 - GE-20260529-bfa5d5: WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
+- GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
