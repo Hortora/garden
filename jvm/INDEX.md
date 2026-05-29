@@ -394,3 +394,4 @@
 | GE-20260529-dbea23 | Greenmail SMTP server silently adds Message-ID header — tests asserting header absence must bypass SMTP | gotcha | 9/15 |
 | GE-20260529-4691e8 | Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage() | technique | 10/15 |
 | GE-20260529-59d35a | GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing | undocumented | 8/15 |
+| GE-20260529-baf565 | @ObservesAsync observers are silently skipped when the event source uses Event.fire() | gotcha | 12/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1034
+**Entries merged since last sweep:** 1035
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -914,6 +914,7 @@
 - GE-20260529-dbea23 [Greenmail SMTP server silently adds Message-ID header — tests asserting header absence must bypass SMTP](jvm/GE-20260529-dbea23.md)
 - GE-20260529-4691e8 [Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()](jvm/GE-20260529-4691e8.md)
 - GE-20260529-59d35a [GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing](jvm/GE-20260529-59d35a.md)
+- GE-20260529-baf565 [@ObservesAsync observers are silently skipped when the event source uses Event.fire()](jvm/GE-20260529-baf565.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

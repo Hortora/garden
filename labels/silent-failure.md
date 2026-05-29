@@ -28,3 +28,4 @@
 - GE-20260524-9ef9fa: GitHub Actions bash: missing associative map key returns empty string silently
 - GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
 - GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
+- GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()

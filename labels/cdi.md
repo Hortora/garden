@@ -170,3 +170,4 @@
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
 - GE-20260529-bfa5d5: WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel
+- GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
