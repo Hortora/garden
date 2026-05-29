@@ -2,3 +2,4 @@
 - GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
 - GE-20260522-98b286: ConcurrentHashMap.remove(key, value) uses equals() — reflexive equality on mutable list values creates TOCTOU window
 - GE-20260522-6c22a3: ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns
+- GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls

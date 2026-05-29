@@ -85,3 +85,4 @@
 - GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing
 - GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache
 - GE-20260529-586849: io.casehub.qhorus.runtime.channel.Channel — entity is in runtime.channel not runtime.model
+- GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon

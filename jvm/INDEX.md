@@ -395,3 +395,6 @@
 | GE-20260529-4691e8 | Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage() | technique | 10/15 |
 | GE-20260529-59d35a | GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing | undocumented | 8/15 |
 | GE-20260529-baf565 | @ObservesAsync observers are silently skipped when the event source uses Event.fire() | gotcha | 12/15 |
+| GE-20260529-d8156d | ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls | gotcha | 13/15 |
+| GE-20260529-8eb96e | Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon | gotcha | 11/15 |
+| GE-20260529-04a5a5 | WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion | gotcha | 9/15 |

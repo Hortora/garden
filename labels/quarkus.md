@@ -356,3 +356,4 @@
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
 - GE-20260529-72f189: Greenmail fixed ports (ServerSetupTest.SMTP_IMAP) conflict when @QuarkusTestResource and @RegisterExtension both run in the same Maven test execution
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
+- GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon

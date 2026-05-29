@@ -1,2 +1,1 @@
-- GE-20260414-be9977: Quarkus extension activation uses quarkus-extension.properties not quarkus-extension.yaml for deployment-artifact
 - GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon

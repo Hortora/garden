@@ -1,2 +1,1 @@
-- GE-20260423-c8d8cb: ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost
 - GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls

@@ -1,3 +1,4 @@
 - GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
 - GE-20260522-ac6b1d: Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
+- GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon

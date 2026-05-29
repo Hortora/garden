@@ -1,0 +1,1 @@
+- GE-20260529-04a5a5: WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion
