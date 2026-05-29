@@ -1,0 +1,1 @@
+- GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE

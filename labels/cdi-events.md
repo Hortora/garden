@@ -1,3 +1,4 @@
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
 - GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
 - GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
+- GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE

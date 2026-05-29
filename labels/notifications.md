@@ -1,2 +1,3 @@
 - GE-20260501-29e3b8: QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives
 - GE-20260427-893862: @Observes(during = AFTER_SUCCESS) for post-commit side effects that must not fire on rollback
+- GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE

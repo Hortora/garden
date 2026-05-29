@@ -6,3 +6,4 @@
 | GE-20260522-4e806e | EscalateTo(empty groups) throws BreachExecutionFailed past @Transactional boundary — silent infinite retry loop | gotcha | 13/15 |
 | GE-20260522-f7db12 | Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed | technique | 13/15 |
 | GE-20260522-de5ee3 | BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit | technique | 10/15 |
+| GE-20260529-af0f2e | casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE | gotcha | 11/15 |

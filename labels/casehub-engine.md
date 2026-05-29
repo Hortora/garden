@@ -18,3 +18,4 @@
 - GE-20260529-fef800: casehub-engine in-memory: CaseCompleted CDI event unreliable in @QuarkusTest — GoalReached fires first and is more reliable
 - GE-20260529-b5723e: casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
+- GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE
