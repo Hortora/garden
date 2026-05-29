@@ -7,3 +7,4 @@
 - GE-20260501-b12416: MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries
 - GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
+- GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented

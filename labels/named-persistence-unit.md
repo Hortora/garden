@@ -2,3 +2,4 @@
 - GE-20260422-13f53b: Quarkus @TestProfile restarts don't inherit test application.properties datasource config
 - GE-20260422-334eb8: Quarkus named persistence unit EntityManager injection uses io.quarkus.hibernate.orm.PersistenceUnit — not jakarta.persistence.PersistenceUnit
 - GE-20260422-f86f42: Quarkus dual-PU setup with a library dependency that injects @Default EntityManager requires a dummy default datasource + minimal packages config
+- GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented
