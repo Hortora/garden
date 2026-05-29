@@ -1,2 +1,1 @@
-- GE-20260526-cacddb: UniAsserter.assertFailedWith has a Consumer<Throwable> overload for message assertion
 - GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter

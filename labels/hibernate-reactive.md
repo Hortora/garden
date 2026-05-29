@@ -10,3 +10,4 @@
 - GE-20260521-a5e71b: Panache.withTransaction(() -> ...) silently routes to default PU even when consumer has only a named datasource
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
+- GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter

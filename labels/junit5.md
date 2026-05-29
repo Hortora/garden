@@ -9,3 +9,4 @@
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
 - GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
+- GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter

@@ -52,3 +52,4 @@
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
 - GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error
+- GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter
