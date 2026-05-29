@@ -1,0 +1,1 @@
+- GE-20260529-4518ac: Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces
