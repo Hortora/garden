@@ -1,1 +1,2 @@
 - GE-20260422-458078: Spawn a research agent with targeted academic + standards queries to drive architecture decisions
+- GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally

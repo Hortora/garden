@@ -1,1 +1,2 @@
 - GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
+- GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()

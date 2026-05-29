@@ -33,3 +33,4 @@
 - GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
 - GE-20260526-b28228: Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
+- GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally

@@ -3,3 +3,4 @@
 - GE-20260422-75b92e: git checkout/rebase on a branch checked out in a worktree fails — use git -C <worktree-path> instead
 - GE-20260430-be991b: git worktree unlock/prune works on ghost worktrees whose paths no longer exist
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
+- GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally

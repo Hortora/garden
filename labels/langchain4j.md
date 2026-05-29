@@ -7,3 +7,4 @@
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
 - GE-20260528-e9564b: LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation
 - GE-20260529-0b8284: Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()
+- GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()
