@@ -224,3 +224,4 @@
 | GE-20260420-4a62d3 | @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index | gotcha | 11/15 |
 | GE-20260511-a28064 | Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations | gotcha | 13/15 |
 | GE-20260415-884e48 | @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException | gotcha | 12/15 |
+| GE-20260427-5d7c67 | quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean | gotcha | 11/15 |

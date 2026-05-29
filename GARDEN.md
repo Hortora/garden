@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1014
+**Entries merged since last sweep:** 1015
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -483,6 +483,7 @@
 - GE-20260421-cd3f95 [CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events](quarkus/GE-20260421-cd3f95.md)
 - GE-20260511-a28064 [Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations](quarkus/GE-20260511-a28064.md)
 - GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
+- GE-20260427-5d7c67 [quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean](quarkus/GE-20260427-5d7c67.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

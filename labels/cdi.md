@@ -168,3 +168,4 @@
 - GE-20260529-b510e4: @Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early
 - GE-20260529-b5723e: casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
