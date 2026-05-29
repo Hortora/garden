@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 992
+**Entries merged since last sweep:** 993
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -876,6 +876,7 @@
 - GE-20260529-37764f [OptionalDouble over double+NaN sentinel for absent numeric primitives in records](jvm/GE-20260529-37764f.md)
 - GE-20260529-9d2ad0 [Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error](jvm/GE-20260529-9d2ad0.md)
 - GE-20260529-18fc5f [Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs](jvm/GE-20260529-18fc5f.md)
+- GE-20260529-010101 [@Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException](jvm/GE-20260529-010101.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

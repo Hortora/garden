@@ -160,3 +160,4 @@
 - GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources
 - GE-20260528-1e92db: Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct
 - GE-20260529-c4ed43: Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations
+- GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException

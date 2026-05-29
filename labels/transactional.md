@@ -18,3 +18,4 @@
 - GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
+- GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException

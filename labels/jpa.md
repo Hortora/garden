@@ -55,3 +55,4 @@
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error
+- GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException
