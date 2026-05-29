@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1021
+**Entries merged since last sweep:** 1022
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -901,6 +901,7 @@
 - GE-20260529-8e127e [@Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation](jvm/GE-20260529-8e127e.md)
 - GE-20260529-bc1eaa [TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE](jvm/GE-20260529-bc1eaa.md)
 - GE-20260529-7985ba [quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties](jvm/GE-20260529-7985ba.md)
+- GE-20260529-a488bf [Jakarta Mail MimeMessage defaults to text/plain until saveChanges() is called — isMimeType() is wrong on freshly-constructed messages](jvm/GE-20260529-a488bf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,0 +1,1 @@
+- GE-20260529-a488bf: Jakarta Mail MimeMessage defaults to text/plain until saveChanges() is called — isMimeType() is wrong on freshly-constructed messages
