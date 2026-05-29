@@ -3,3 +3,4 @@
 - GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
 - GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
 - GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
+- GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters

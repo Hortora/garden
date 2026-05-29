@@ -19,3 +19,4 @@
 - GE-20260529-88b7b6: ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel()
 - GE-20260529-bfa5d5: WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel
 - GE-20260529-e32a4d: MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException
+- GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
