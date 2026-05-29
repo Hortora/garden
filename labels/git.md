@@ -120,3 +120,4 @@
 - GE-20260528-de4fc4: GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch
 - GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way

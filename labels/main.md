@@ -1,1 +1,2 @@
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way

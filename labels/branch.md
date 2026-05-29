@@ -12,3 +12,4 @@
 - GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way

@@ -418,3 +418,4 @@
 | GE-20260529-182916 | project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries | gotcha | 8/15 |
 | GE-20260529-5a82f1 | git rebase -i with partial plan silently drops branch commits beyond the listed range | gotcha | 14/15 |
 | GE-20260529-4518ac | Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces | gotcha | 12/15 |
+| GE-20260521-eaa1e1 | git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way | gotcha | 10/15 |

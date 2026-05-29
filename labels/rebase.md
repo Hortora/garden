@@ -32,3 +32,4 @@
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
 - GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
+- GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
