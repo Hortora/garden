@@ -1,0 +1,1 @@
+- GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()

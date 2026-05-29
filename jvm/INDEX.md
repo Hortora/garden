@@ -402,3 +402,4 @@
 | GE-20260529-0c80ca | LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat() | undocumented | 8/15 |
 | GE-20260529-d7b6f8 | TrustBootstrapSource SPI is never invoked on a fresh deployment | gotcha | 11/15 |
 | GE-20260513-b15933 | @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly | gotcha | 11/15 |
+| GE-20260529-e43076 | Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage() | technique | 11/15 |
