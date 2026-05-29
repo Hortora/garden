@@ -223,3 +223,4 @@
 | GE-20260514-8a6191 | Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running | gotcha | 8/15 |
 | GE-20260420-4a62d3 | @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index | gotcha | 11/15 |
 | GE-20260511-a28064 | Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations | gotcha | 13/15 |
+| GE-20260415-884e48 | @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException | gotcha | 12/15 |
