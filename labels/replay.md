@@ -6,3 +6,4 @@
 - GE-20260528-3b9ccb: Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction
 - GE-20260528-6ebb38: SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check
 - GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere
+- GE-20260529-a2681d: Scelight Delta.getRemoveMask() payload types are heterogeneous — ZeroIndices retains, Mask is BitArray, not Number

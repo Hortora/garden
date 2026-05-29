@@ -1,0 +1,1 @@
+- GE-20260529-a2681d: Scelight Delta.getRemoveMask() payload types are heterogeneous — ZeroIndices retains, Mask is BitArray, not Number
