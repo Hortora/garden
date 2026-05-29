@@ -366,3 +366,6 @@
 | GE-20260529-010101 | @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException | gotcha | 12/15 |
 | GE-20260529-78ecb9 | @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter | gotcha | 9/15 |
 | GE-20260529-ab148d | Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor | gotcha | 12/15 |
+| GE-20260529-c1e783 | Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T> | technique | 11/15 |
+| GE-20260529-709049 | Java 21 sealed interface with nested records requires no explicit permits clause | undocumented | 9/15 |
+| GE-20260529-d57945 | JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup | gotcha | 10/15 |

@@ -1,1 +1,2 @@
 - GE-20260415-20f08f: Playwright page.request() does not inherit page.setExtraHTTPHeaders()
+- GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup

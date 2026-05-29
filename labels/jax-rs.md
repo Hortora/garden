@@ -10,3 +10,4 @@
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
 - GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile
 - GE-20260528-936918: Response.Status.UNPROCESSABLE_ENTITY doesn't exist in Jakarta EE 9 JAX-RS — use raw integer 422
+- GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup

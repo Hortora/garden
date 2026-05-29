@@ -1,2 +1,3 @@
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
+- GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup

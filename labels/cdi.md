@@ -163,3 +163,4 @@
 - GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
 - GE-20260529-ab148d: Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor
+- GE-20260529-c1e783: Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T>

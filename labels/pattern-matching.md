@@ -1,3 +1,4 @@
 - GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones
 - GE-20260522-5ff0b2: Runnable switch expression pattern gives compile-time exhaustiveness for void dispatch over sealed interfaces in Java 21
 - GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm
+- GE-20260529-709049: Java 21 sealed interface with nested records requires no explicit permits clause

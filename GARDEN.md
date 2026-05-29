@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 997
+**Entries merged since last sweep:** 1000
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -880,6 +880,9 @@
 - GE-20260529-010101 [@Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException](jvm/GE-20260529-010101.md)
 - GE-20260529-78ecb9 [@QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter](jvm/GE-20260529-78ecb9.md)
 - GE-20260529-ab148d [Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor](jvm/GE-20260529-ab148d.md)
+- GE-20260529-c1e783 [Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T>](jvm/GE-20260529-c1e783.md)
+- GE-20260529-709049 [Java 21 sealed interface with nested records requires no explicit permits clause](jvm/GE-20260529-709049.md)
+- GE-20260529-d57945 [JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup](jvm/GE-20260529-d57945.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
