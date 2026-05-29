@@ -380,3 +380,4 @@
 | GE-20260529-24cb03 | ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup | undocumented | 9/15 |
 | GE-20260529-d1397c | Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery | technique | 10/15 |
 | GE-20260529-88b7b6 | ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel() | gotcha | 9/15 |
+| GE-20260529-8e127e | @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation | gotcha | 11/15 |

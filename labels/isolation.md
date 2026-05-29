@@ -3,3 +3,4 @@
 - GE-20260417-d67b22: Use per-case DB query instead of shared AtomicInteger to isolate @QuarkusTest async worker assertions
 - GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
+- GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation

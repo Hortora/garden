@@ -20,3 +20,4 @@
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
+- GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
