@@ -359,3 +359,4 @@
 - GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
+- GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly

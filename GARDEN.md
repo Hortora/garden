@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1043
+**Entries merged since last sweep:** 1044
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -922,6 +922,7 @@
 - GE-20260529-0b8284 [Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()](jvm/GE-20260529-0b8284.md)
 - GE-20260529-0c80ca [LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()](jvm/GE-20260529-0c80ca.md)
 - GE-20260529-d7b6f8 [TrustBootstrapSource SPI is never invoked on a fresh deployment](jvm/GE-20260529-d7b6f8.md)
+- GE-20260513-b15933 [@ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly](jvm/GE-20260513-b15933.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
