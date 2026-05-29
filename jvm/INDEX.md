@@ -398,3 +398,4 @@
 | GE-20260529-d8156d | ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls | gotcha | 13/15 |
 | GE-20260529-8eb96e | Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon | gotcha | 11/15 |
 | GE-20260529-04a5a5 | WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion | gotcha | 9/15 |
+| GE-20260529-0b8284 | Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout() | gotcha | 9/15 |

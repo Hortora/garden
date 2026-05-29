@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1039
+**Entries merged since last sweep:** 1040
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -919,6 +919,7 @@
 - GE-20260529-d8156d [ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls](jvm/GE-20260529-d8156d.md)
 - GE-20260529-8eb96e [Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon](jvm/GE-20260529-8eb96e.md)
 - GE-20260529-04a5a5 [WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion](jvm/GE-20260529-04a5a5.md)
+- GE-20260529-0b8284 [Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()](jvm/GE-20260529-0b8284.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
