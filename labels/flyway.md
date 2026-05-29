@@ -30,3 +30,5 @@
 - GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
 - GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path
 - GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources
+- GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
+- GE-20260529-7985ba: quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties

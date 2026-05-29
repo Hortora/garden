@@ -381,3 +381,5 @@
 | GE-20260529-d1397c | Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery | technique | 10/15 |
 | GE-20260529-88b7b6 | ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel() | gotcha | 9/15 |
 | GE-20260529-8e127e | @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation | gotcha | 11/15 |
+| GE-20260529-bc1eaa | TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE | gotcha | 10/15 |
+| GE-20260529-7985ba | quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties | gotcha | 10/15 |

@@ -8,3 +8,4 @@
 - GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
+- GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
