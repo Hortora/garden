@@ -1,4 +1,3 @@
-- GE-20260529-a488bf: Jakarta Mail MimeMessage defaults to text/plain until saveChanges() is called — isMimeType() is wrong on freshly-constructed messages
 - GE-20260529-aa8445: GreenMailExtension has no public deliver() method — MimeMessage delivery requires SMTP or internal MailFolder.appendMessage()
 - GE-20260529-72f189: Greenmail fixed ports (ServerSetupTest.SMTP_IMAP) conflict when @QuarkusTestResource and @RegisterExtension both run in the same Maven test execution
 - GE-20260529-dbea23: Greenmail SMTP server silently adds Message-ID header — tests asserting header absence must bypass SMTP

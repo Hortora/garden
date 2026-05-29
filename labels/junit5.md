@@ -11,3 +11,5 @@
 - GE-20260528-3d3847: @Transactional on @BeforeAll static methods in @QuarkusTest has no effect — CDI interceptors cannot intercept static methods; results in ContextNotActive at runtime
 - GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter
 - GE-20260529-166347: @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest
+- GE-20260529-aa8445: GreenMailExtension has no public deliver() method — MimeMessage delivery requires SMTP or internal MailFolder.appendMessage()
+- GE-20260529-59d35a: GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing

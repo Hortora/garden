@@ -389,3 +389,8 @@
 | GE-20260529-5a8158 | Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans | gotcha | 9/15 |
 | GE-20260529-bfa5d5 | WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel | gotcha | 14/15 |
 | GE-20260529-e32a4d | MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException | gotcha | 13/15 |
+| GE-20260529-aa8445 | GreenMailExtension has no public deliver() method — MimeMessage delivery requires SMTP or internal MailFolder.appendMessage() | gotcha | 11/15 |
+| GE-20260529-72f189 | Greenmail fixed ports (ServerSetupTest.SMTP_IMAP) conflict when @QuarkusTestResource and @RegisterExtension both run in the same Maven test execution | gotcha | 9/15 |
+| GE-20260529-dbea23 | Greenmail SMTP server silently adds Message-ID header — tests asserting header absence must bypass SMTP | gotcha | 9/15 |
+| GE-20260529-4691e8 | Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage() | technique | 10/15 |
+| GE-20260529-59d35a | GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing | undocumented | 8/15 |
