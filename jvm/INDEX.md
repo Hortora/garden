@@ -362,3 +362,4 @@
 | GE-20260529-ff186e | emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI | technique | 9/15 |
 | GE-20260529-37764f | OptionalDouble over double+NaN sentinel for absent numeric primitives in records | technique | 8/15 |
 | GE-20260529-9d2ad0 | Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error | gotcha | 10/15 |
+| GE-20260529-18fc5f | Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs | gotcha | 9/15 |

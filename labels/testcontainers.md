@@ -4,3 +4,4 @@
 - GE-20260515-cd1653: Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed
 - GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
+- GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
