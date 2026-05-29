@@ -404,3 +404,4 @@
 | GE-20260513-b15933 | @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly | gotcha | 11/15 |
 | GE-20260529-e43076 | Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage() | technique | 11/15 |
 | GE-20260529-d3d4b6 | PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters | gotcha | 10/15 |
+| GE-20260526-e21a7c | JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values | undocumented | 9/15 |

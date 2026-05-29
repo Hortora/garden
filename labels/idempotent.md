@@ -1,2 +1,3 @@
 - GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values

@@ -1,2 +1,3 @@
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values

@@ -9,3 +9,4 @@
 - GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values

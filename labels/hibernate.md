@@ -48,3 +48,4 @@
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260528-35a81c: WorkItemPriority has no NORMAL value — enum values are LOW, MEDIUM, HIGH, URGENT; NORMAL causes Hibernate IllegalArgumentException at read time
+- GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
