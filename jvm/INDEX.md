@@ -370,3 +370,4 @@
 | GE-20260529-709049 | Java 21 sealed interface with nested records requires no explicit permits clause | undocumented | 9/15 |
 | GE-20260529-d57945 | JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup | gotcha | 10/15 |
 | GE-20260529-9f3557 | @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied | gotcha | 11/15 |
+| GE-20260529-fef800 | casehub-engine in-memory: CaseCompleted CDI event unreliable in @QuarkusTest — GoalReached fires first and is more reliable | gotcha | 9/15 |

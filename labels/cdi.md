@@ -164,3 +164,4 @@
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
 - GE-20260529-ab148d: Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor
 - GE-20260529-c1e783: Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T>
+- GE-20260529-fef800: casehub-engine in-memory: CaseCompleted CDI event unreliable in @QuarkusTest — GoalReached fires first and is more reliable
