@@ -1,1 +1,2 @@
 - GE-20260428-6d75d7: Panache/JPA count methods may return int rather than long — check the actual return type
+- GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error

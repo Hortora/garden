@@ -5,3 +5,4 @@
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260522-945518: JPQL LIKE prefix query treats _ as wildcard — byNamePrefix("case_123") matches "case-123/work"
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
+- GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error

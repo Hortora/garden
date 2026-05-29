@@ -1,1 +1,2 @@
 - GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity
+- GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error
