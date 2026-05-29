@@ -31,3 +31,4 @@
 - GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
 - GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
+- GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range

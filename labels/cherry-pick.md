@@ -6,3 +6,4 @@
 - GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
 - GE-20260416-a5e990: `git cherry-pick --continue` applies all remaining queued commits, not just the conflicted one
 - GE-20260417-fdb17f: Create clean branch from target base + cherry-pick only new commits when old branch has accumulated already-merged content
+- GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range

@@ -11,3 +11,4 @@
 - GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches
 - GE-20260525-8e5b29: git log branch ^main returns commits that are already on main when branch pointer is stale post-rebase
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
+- GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
