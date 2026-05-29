@@ -344,3 +344,4 @@
 - GE-20260529-ab148d: Multiple CDI constructors without @Inject → UnsatisfiedResolutionException for the bean itself, not a constructor
 - GE-20260529-c1e783: Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T>
 - GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup
+- GE-20260529-9f3557: @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied
