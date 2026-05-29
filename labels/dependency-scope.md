@@ -1,0 +1,1 @@
+- GE-20260529-b5723e: casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module
