@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1027
+**Entries merged since last sweep:** 1029
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -907,6 +907,8 @@
 - GE-20260529-636a36 [JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler](jvm/GE-20260529-636a36.md)
 - GE-20260529-6eccfe [Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data](jvm/GE-20260529-6eccfe.md)
 - GE-20260529-5a8158 [Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans](jvm/GE-20260529-5a8158.md)
+- GE-20260529-bfa5d5 [WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel](jvm/GE-20260529-bfa5d5.md)
+- GE-20260529-e32a4d [MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException](jvm/GE-20260529-e32a4d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

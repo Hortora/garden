@@ -387,3 +387,5 @@
 | GE-20260529-636a36 | JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler | gotcha | 9/15 |
 | GE-20260529-6eccfe | Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data | technique | 9/15 |
 | GE-20260529-5a8158 | Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans | gotcha | 9/15 |
+| GE-20260529-bfa5d5 | WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel | gotcha | 14/15 |
+| GE-20260529-e32a4d | MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException | gotcha | 13/15 |
