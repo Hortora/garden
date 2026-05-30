@@ -3,3 +3,4 @@
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented
 - GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
+- GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented

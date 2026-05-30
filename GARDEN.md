@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1058
+**Entries merged since last sweep:** 1059
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -60,6 +60,7 @@
 - GE-20260427-97650e [CDI ambiguity when adding second implementation of a quarkus-ledger repository interface](casehub-ledger/GE-20260427-97650e.md)
 - GE-20260429-2e1c4f [quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences](casehub-ledger/GE-20260429-2e1c4f.md)
 - GE-20260511-b6f903 [casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented](casehub-ledger/GE-20260511-b6f903.md)
+- GE-20260511-b6f903 [casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented](casehub-ledger/GE-20260511-b6f903.md)
 ### casehub-qhorus/
 - GE-20260414-23982b [check_messages excludes EVENT messages by design — tests expecting EVENTs always get fewer results than sent](casehub-qhorus/GE-20260414-23982b.md)
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
