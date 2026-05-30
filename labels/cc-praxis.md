@@ -6,3 +6,4 @@
 - GE-20260517-fc6be7: JOURNAL.md plain prose is silently skipped at epic close — only §Section anchors are merged into DESIGN.md
 - GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
+- GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/

@@ -1,2 +1,3 @@
 - GE-20260518-3adcb9: git diff main..<branch> shows files as 'Added' when main deleted them but the branch predates the deletion
 - GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own
+- GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/

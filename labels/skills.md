@@ -1,0 +1,1 @@
+- GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
