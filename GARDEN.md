@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1067
+**Entries merged since last sweep:** 1068
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -937,6 +937,7 @@
 - GE-20260530-01bcfe [JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()](jvm/GE-20260530-01bcfe.md)
 - GE-20260530-7426b7 [Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable](jvm/GE-20260530-7426b7.md)
 - GE-20260530-da427e [Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit](jvm/GE-20260530-da427e.md)
+- GE-20260530-5e5c67 [runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool](jvm/GE-20260530-5e5c67.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
