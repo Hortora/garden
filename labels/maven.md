@@ -96,3 +96,4 @@
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
 - GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient
+- GE-20260530-4359ee: AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface

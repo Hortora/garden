@@ -247,3 +247,4 @@
 - GE-20260529-04a5a5: WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion
 - GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()
 - GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
+- GE-20260530-4359ee: AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface

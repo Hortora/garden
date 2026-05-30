@@ -2,3 +2,4 @@
 - GE-20260512-9f4de6: Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor
 - GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm
 - GE-20260525-c01bb4: String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument
+- GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false

@@ -1,0 +1,1 @@
+- GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false

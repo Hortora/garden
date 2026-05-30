@@ -1,0 +1,1 @@
+- GE-20260530-4359ee: AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface
