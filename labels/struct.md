@@ -1,0 +1,1 @@
+- GE-20260530-f5b1d9: Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map

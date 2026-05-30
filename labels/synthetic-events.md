@@ -1,0 +1,1 @@
+- GE-20260530-f75780: Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561

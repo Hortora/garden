@@ -248,3 +248,5 @@
 - GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()
 - GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
 - GE-20260530-4359ee: AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface
+- GE-20260530-f75780: Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561
+- GE-20260530-f5b1d9: Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map
