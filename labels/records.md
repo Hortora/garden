@@ -4,3 +4,4 @@
 - GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
 - GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar
 - GE-20260529-709049: Java 21 sealed interface with nested records requires no explicit permits clause
+- GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
