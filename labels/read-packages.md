@@ -1,0 +1,1 @@
+- GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
