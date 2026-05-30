@@ -1,0 +1,1 @@
+- GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3

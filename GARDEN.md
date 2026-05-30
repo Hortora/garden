@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1055
+**Entries merged since last sweep:** 1056
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -927,6 +927,7 @@
 - GE-20260529-e43076 [Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()](jvm/GE-20260529-e43076.md)
 - GE-20260529-d3d4b6 [PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters](jvm/GE-20260529-d3d4b6.md)
 - GE-20260526-e21a7c [JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values](jvm/GE-20260526-e21a7c.md)
+- GE-20260529-a2095c [quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3](jvm/GE-20260529-a2095c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -361,3 +361,4 @@
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
 - GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
 - GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
+- GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3
