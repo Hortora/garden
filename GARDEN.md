@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1063
+**Entries merged since last sweep:** 1064
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1398,6 +1398,7 @@
 - GE-20260529-ef1d8c [Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside](tools/GE-20260529-ef1d8c.md)
 - GE-20260529-22b91b [Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants](tools/GE-20260529-22b91b.md)
 - GE-20260530-9a5474 [gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails](tools/GE-20260530-9a5474.md)
+- GE-20260511-044e40 [git rebase: `reword` silently becomes `pick` in non-interactive sessions](tools/GE-20260511-044e40.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

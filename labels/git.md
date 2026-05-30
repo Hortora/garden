@@ -122,3 +122,4 @@
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
+- GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions

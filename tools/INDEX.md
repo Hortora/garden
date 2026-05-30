@@ -426,3 +426,4 @@
 | GE-20260529-ef1d8c | Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside | technique | 10/15 |
 | GE-20260529-22b91b | Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants | technique | 8/15 |
 | GE-20260530-9a5474 | gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails | gotcha | 11/15 |
+| GE-20260511-044e40 | git rebase: `reword` silently becomes `pick` in non-interactive sessions | gotcha | 13/15 |
