@@ -424,3 +424,6 @@
 | GE-20260530-3cc195 | String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting | gotcha | 12/15 |
 | GE-20260530-02ef50 | Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module | gotcha | 9/15 |
 | GE-20260530-5400f3 | Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection) | undocumented | 12/15 |
+| GE-20260530-a14b49 | Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE | gotcha | 11/15 |
+| GE-20260530-c13942 | CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead | gotcha | 9/15 |
+| GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |

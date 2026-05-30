@@ -26,3 +26,4 @@
 - GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation
 - GE-20260521-df2a10: Python YAML frontmatter str.split('---') breaks when '---' appears in a quoted value
 - GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration
+- GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail

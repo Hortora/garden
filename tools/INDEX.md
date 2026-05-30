@@ -430,3 +430,4 @@
 | GE-20260530-e14065 | U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it | undocumented | 13/15 |
 | GE-20260422-ceb229 | git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream' | undocumented | 10/15 |
 | GE-20260530-939013 | claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/ | gotcha | 10/15 |
+| GE-20260530-319607 | Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail | technique | 9/15 |

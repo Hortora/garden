@@ -1,3 +1,4 @@
 - GE-20260505-da346d: @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread
 - GE-20260522-99b6a0: @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
+- GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead

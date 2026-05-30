@@ -88,3 +88,4 @@
 - GE-20260529-8eb96e: Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon
 - GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
+- GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail

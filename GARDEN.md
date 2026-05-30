@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1082
+**Entries merged since last sweep:** 1086
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -947,6 +947,9 @@
 - GE-20260530-3cc195 [String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting](jvm/GE-20260530-3cc195.md)
 - GE-20260530-02ef50 [Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module](jvm/GE-20260530-02ef50.md)
 - GE-20260530-5400f3 [Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)](jvm/GE-20260530-5400f3.md)
+- GE-20260530-a14b49 [Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE](jvm/GE-20260530-a14b49.md)
+- GE-20260530-c13942 [CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead](jvm/GE-20260530-c13942.md)
+- GE-20260521-3e030b [mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale](jvm/GE-20260521-3e030b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1417,6 +1420,7 @@
 - GE-20260530-e14065 [U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it](tools/GE-20260530-e14065.md)
 - GE-20260422-ceb229 [git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'](tools/GE-20260422-ceb229.md)
 - GE-20260530-939013 [claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/](tools/GE-20260530-939013.md)
+- GE-20260530-319607 [Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail](tools/GE-20260530-319607.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

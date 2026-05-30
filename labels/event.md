@@ -5,3 +5,4 @@
 - GE-20260522-5685ba: Synchronous CDI Event.fire() in @Observes StartupEvent propagates observer exceptions — can abort Quarkus startup
 - GE-20260529-c1e783: Dual-constructor CDI pattern: @Inject CDI constructor delegates to package-private test constructor accepting Consumer<T> instead of Event<T>
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
+- GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
