@@ -1,3 +1,4 @@
 - GE-20260501-29e3b8: QuarkusTest: notification rules persist across tests — dynamic WireMock port reuse causes false positives
 - GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
 - GE-20260529-04a5a5: WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion
+- GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled

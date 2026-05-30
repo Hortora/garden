@@ -363,3 +363,4 @@
 - GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
 - GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
+- GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled

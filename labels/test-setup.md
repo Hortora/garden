@@ -1,0 +1,1 @@
+- GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled

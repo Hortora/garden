@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1059
+**Entries merged since last sweep:** 1060
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -930,6 +930,7 @@
 - GE-20260526-e21a7c [JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values](jvm/GE-20260526-e21a7c.md)
 - GE-20260529-a2095c [quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3](jvm/GE-20260529-a2095c.md)
 - GE-20260530-3562b0 [ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException](jvm/GE-20260530-3562b0.md)
+- GE-20260530-29545c [Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled](jvm/GE-20260530-29545c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -407,3 +407,4 @@
 | GE-20260526-e21a7c | JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values | undocumented | 9/15 |
 | GE-20260529-a2095c | quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3 | gotcha | 12/15 |
 | GE-20260530-3562b0 | ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException | gotcha | 15/15 |
+| GE-20260530-29545c | Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled | gotcha | 12/15 |
