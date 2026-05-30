@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1086
+**Entries merged since last sweep:** 1089
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -950,6 +950,9 @@
 - GE-20260530-a14b49 [Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE](jvm/GE-20260530-a14b49.md)
 - GE-20260530-c13942 [CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead](jvm/GE-20260530-c13942.md)
 - GE-20260521-3e030b [mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale](jvm/GE-20260521-3e030b.md)
+- GE-20260530-9cdfb5 [MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback](jvm/GE-20260530-9cdfb5.md)
+- GE-20260530-0bee65 [Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly](jvm/GE-20260530-0bee65.md)
+- GE-20260530-9b5bbe [Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding](jvm/GE-20260530-9b5bbe.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

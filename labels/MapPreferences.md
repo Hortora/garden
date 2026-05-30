@@ -1,0 +1,1 @@
+- GE-20260530-9cdfb5: MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback

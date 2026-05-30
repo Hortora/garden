@@ -1,0 +1,1 @@
+- GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly

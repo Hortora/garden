@@ -4,3 +4,4 @@
 - GE-20260426-4e3801: java -jar: JVM -D flags after the jar path are app arguments, not JVM properties
 - GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
 - GE-20260417-3b862c: jar xf without -C extracts to the current working directory, not a temp dir
+- GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly

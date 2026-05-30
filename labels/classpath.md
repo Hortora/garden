@@ -16,3 +16,4 @@
 - GE-20260511-a28064: Quarkus Flyway classpath:db/migration scans transitive JARs — casehub-work V1-V21 conflicts with consumer domain migrations
 - GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
+- GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly

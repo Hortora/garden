@@ -374,3 +374,4 @@
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
 - GE-20260530-a14b49: Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE
 - GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
+- GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly

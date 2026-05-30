@@ -1,0 +1,1 @@
+- GE-20260530-9b5bbe: Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding

@@ -427,3 +427,6 @@
 | GE-20260530-a14b49 | Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE | gotcha | 11/15 |
 | GE-20260530-c13942 | CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead | gotcha | 9/15 |
 | GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |
+| GE-20260530-9cdfb5 | MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback | gotcha | 10/15 |
+| GE-20260530-0bee65 | Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly | gotcha | 9/15 |
+| GE-20260530-9b5bbe | Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding | technique | 9/15 |
