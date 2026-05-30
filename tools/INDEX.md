@@ -428,3 +428,4 @@
 | GE-20260530-9a5474 | gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails | gotcha | 11/15 |
 | GE-20260511-044e40 | git rebase: `reword` silently becomes `pick` in non-interactive sessions | gotcha | 13/15 |
 | GE-20260530-e14065 | U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it | undocumented | 13/15 |
+| GE-20260422-ceb229 | git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream' | undocumented | 10/15 |

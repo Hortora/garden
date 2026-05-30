@@ -15,3 +15,4 @@
 - GE-20260523-5b3204: git rebase -i: including a 'drop' for a merge commit in a custom todo causes BUG: sequencer.c unexpected todo_command
 - GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
+- GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
