@@ -1,0 +1,1 @@
+- GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable

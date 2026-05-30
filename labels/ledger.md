@@ -8,3 +8,4 @@
 - GE-20260522-f63c9f: REQUIRES_NEW commits persist across @TestTransaction rollback — cross-test correlationId contamination in cross-channel ledger queries
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented
+- GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable

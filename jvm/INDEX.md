@@ -411,3 +411,5 @@
 | GE-20260530-b68c00 | Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution | gotcha | 10/15 |
 | GE-20260530-0178fd | Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient | gotcha | 11/15 |
 | GE-20260530-385dbb | @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient | gotcha | 12/15 |
+| GE-20260530-01bcfe | JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save() | gotcha | 12/15 |
+| GE-20260530-7426b7 | Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable | technique | 9/15 |

@@ -5,3 +5,4 @@
 - GE-20260417-e71f46: Downstream @QuarkusTest modules fail with 'qrtz_triggers does not exist' after Flyway moves to a separate module
 - GE-20260521-537d58: Flyway plain-Java schema test: specify all real locations instead of manually bootstrapping dependency tables
 - GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
+- GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable

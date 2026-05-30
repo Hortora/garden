@@ -49,3 +49,4 @@
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260528-35a81c: WorkItemPriority has no NORMAL value — enum values are LOW, MEDIUM, HIGH, URGENT; NORMAL causes Hibernate IllegalArgumentException at read time
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260530-01bcfe: JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()

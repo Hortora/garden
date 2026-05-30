@@ -3,3 +3,4 @@
 - GE-20260521-5446cf: Uniform 'N commits behind upstream' across all local branches signals squash-merged stale branches
 - GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
 - GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path
+- GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable

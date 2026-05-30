@@ -62,3 +62,4 @@
 - GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
+- GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable
