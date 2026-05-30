@@ -54,3 +54,4 @@
 - GE-20260529-9d2ad0: Panache count(String, Object...) prepends FROM Entity WHERE — passing 'WHERE predicate' causes double-WHERE syntax error
 - GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter
 - GE-20260529-9f3557: @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required

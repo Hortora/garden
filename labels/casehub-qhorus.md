@@ -11,3 +11,5 @@
 - GE-20260529-24cb03: ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup
 - GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
 - GE-20260529-88b7b6: ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel()
+- GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required

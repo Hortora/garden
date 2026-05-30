@@ -1,0 +1,1 @@
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required

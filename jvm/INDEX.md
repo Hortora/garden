@@ -419,3 +419,5 @@
 | GE-20260518-bee1b3 | Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline | technique | 11/15 |
 | GE-20260530-1ce875 | Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false | gotcha | 11/15 |
 | GE-20260530-4359ee | AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface | gotcha | 11/15 |
+| GE-20260530-1a7e84 | casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE) | gotcha | 9/15 |
+| GE-20260530-4387cb | casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required | gotcha | 8/15 |

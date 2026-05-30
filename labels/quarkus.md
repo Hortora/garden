@@ -371,3 +371,4 @@
 - GE-20260530-5e5c67: runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool
 - GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required

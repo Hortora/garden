@@ -1,2 +1,3 @@
 - GE-20260529-e32a4d: MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
+- GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)

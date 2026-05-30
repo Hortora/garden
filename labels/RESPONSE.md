@@ -1,0 +1,1 @@
+- GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)

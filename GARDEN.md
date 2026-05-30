@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1076
+**Entries merged since last sweep:** 1078
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -942,6 +942,8 @@
 - GE-20260518-bee1b3 [Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline](jvm/GE-20260518-bee1b3.md)
 - GE-20260530-1ce875 [Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false](jvm/GE-20260530-1ce875.md)
 - GE-20260530-4359ee [AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface](jvm/GE-20260530-4359ee.md)
+- GE-20260530-1a7e84 [casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)](jvm/GE-20260530-1a7e84.md)
+- GE-20260530-4387cb [casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required](jvm/GE-20260530-4387cb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
