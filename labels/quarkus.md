@@ -367,3 +367,4 @@
 - GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient
 - GE-20260530-385dbb: @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient
 - GE-20260530-01bcfe: JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()
+- GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit

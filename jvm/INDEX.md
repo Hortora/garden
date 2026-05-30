@@ -413,3 +413,4 @@
 | GE-20260530-385dbb | @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient | gotcha | 12/15 |
 | GE-20260530-01bcfe | JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save() | gotcha | 12/15 |
 | GE-20260530-7426b7 | Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable | technique | 9/15 |
+| GE-20260530-da427e | Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit | gotcha | 12/15 |

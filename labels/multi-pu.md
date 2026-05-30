@@ -1,0 +1,1 @@
+- GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit

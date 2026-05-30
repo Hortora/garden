@@ -4,3 +4,4 @@
 - GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
 - GE-20260424-a29f1c: IntelliJ Java formatter silently strips @PersistenceUnit qualifier and its import
 - GE-20260512-4d6f48: Panache entities cannot be scanned by two Quarkus persistence units simultaneously
+- GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
