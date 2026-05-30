@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1079
+**Entries merged since last sweep:** 1082
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -944,6 +944,9 @@
 - GE-20260530-4359ee [AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface](jvm/GE-20260530-4359ee.md)
 - GE-20260530-1a7e84 [casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)](jvm/GE-20260530-1a7e84.md)
 - GE-20260530-4387cb [casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required](jvm/GE-20260530-4387cb.md)
+- GE-20260530-3cc195 [String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting](jvm/GE-20260530-3cc195.md)
+- GE-20260530-02ef50 [Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module](jvm/GE-20260530-02ef50.md)
+- GE-20260530-5400f3 [Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)](jvm/GE-20260530-5400f3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

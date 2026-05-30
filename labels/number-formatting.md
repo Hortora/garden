@@ -1,0 +1,1 @@
+- GE-20260530-3cc195: String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting

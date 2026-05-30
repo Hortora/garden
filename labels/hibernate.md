@@ -51,3 +51,4 @@
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260530-01bcfe: JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()
 - GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
+- GE-20260530-5400f3: Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)

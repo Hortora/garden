@@ -7,3 +7,4 @@
 - GE-20260525-80e370: LangChain4j 1.x UserMessage: text accessor is singleText(), not text()
 - GE-20260529-24cb03: ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
+- GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module

@@ -3,3 +3,4 @@
 - GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
 - GE-20260427-aa0cf9: JPQL positional IN parameter requires parentheses: IN (?N) not IN ?N
 - GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries
+- GE-20260530-5400f3: Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)

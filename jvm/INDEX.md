@@ -421,3 +421,6 @@
 | GE-20260530-4359ee | AbstractMethodError at runtime after mvn -U pulls newer SNAPSHOT — testing artifact compiled against old interface | gotcha | 11/15 |
 | GE-20260530-1a7e84 | casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE) | gotcha | 9/15 |
 | GE-20260530-4387cb | casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required | gotcha | 8/15 |
+| GE-20260530-3cc195 | String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting | gotcha | 12/15 |
+| GE-20260530-02ef50 | Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module | gotcha | 9/15 |
+| GE-20260530-5400f3 | Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection) | undocumented | 12/15 |
