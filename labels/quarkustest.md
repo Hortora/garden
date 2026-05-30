@@ -6,3 +6,4 @@
 - GE-20260525-d06282: casehub-engine-testing must be indexed in @QuarkusTest — without it TestCaseMetaModelRepository is undiscovered and CaseDefinition lookups fail on test retry
 - GE-20260526-34a4c4: Adding casehub-engine-scheduler-quartz as test dep cascades to WorkerExecutionRecoveryService CDI failures
 - GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure
+- GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient

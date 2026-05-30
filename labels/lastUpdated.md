@@ -1,0 +1,1 @@
+- GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution

@@ -10,3 +10,4 @@
 - GE-20260501-c836e1: GitHub Packages org API returns ALL packages in the org — including external groupIds you don't own
 - GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
+- GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution

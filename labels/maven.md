@@ -94,3 +94,5 @@
 - GE-20260528-5e2fb5: Stale target/classes/ from git mv of resource files causes false-positive test passes — migrations silently run from old path
 - GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
+- GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
+- GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient

@@ -3,3 +3,4 @@
 - GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch
 - GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache
 - GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls
+- GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution

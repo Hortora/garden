@@ -9,3 +9,4 @@
 - GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
 - GE-20260525-a8bd9a: quarkus-langchain4j AiServicesProcessor throws 'Duplicate key null' when -parameters javac flag is missing
 - GE-20260528-d4b81d: casehub-engine SNAPSHOT: internal package refactor breaks VertxProcessor augmentation — masked by cached augmentation
+- GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient
