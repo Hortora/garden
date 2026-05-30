@@ -1,2 +1,4 @@
 - GE-20260521-1e981c: Duration.parse() accepts day-based periods like 'P1D' — does not throw DateTimeParseException
 - GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
+- GE-20260530-fcc6c3: ConcurrentHashMap.putIfAbsent silently keeps stale TTL cache entries — need atomic conditional remove first
+- GE-20260530-82884a: Compose an abstract cache class with put() bypass when loadContext() can't receive the computation context

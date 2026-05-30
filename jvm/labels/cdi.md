@@ -1,2 +1,5 @@
 - GE-20260525-c715ae: SlaBreachContext Javadoc says MapPreferences.empty() — method does not exist
 - GE-20260525-f04530: Inject Event<T> in @QuarkusTest as a synchronous test driver for @Observes handlers
+- GE-20260530-c3087c: Arc CDI proxy makes getClass().getAnnotation(Priority.class) return null — use InjectableBean.getPriority() instead
+- GE-20260530-680285: CDI 4.1 Instance.handles() returns Iterable not Stream — use Arc's InjectableInstance.handlesStream()
+- GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
