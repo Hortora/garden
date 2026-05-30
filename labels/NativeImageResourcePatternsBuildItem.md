@@ -1,0 +1,1 @@
+- GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image

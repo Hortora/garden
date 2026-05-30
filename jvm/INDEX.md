@@ -415,3 +415,4 @@
 | GE-20260530-7426b7 | Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable | technique | 9/15 |
 | GE-20260530-da427e | Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit | gotcha | 12/15 |
 | GE-20260530-5e5c67 | runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool | gotcha | 14/15 |
+| GE-20260530-0dc6de | casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image | gotcha | 11/15 |

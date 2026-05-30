@@ -1,3 +1,4 @@
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
+- GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image

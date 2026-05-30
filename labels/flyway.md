@@ -32,3 +32,4 @@
 - GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources
 - GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
 - GE-20260529-7985ba: quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties
+- GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image
