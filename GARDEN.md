@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1062
+**Entries merged since last sweep:** 1063
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -933,6 +933,7 @@
 - GE-20260530-29545c [Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled](jvm/GE-20260530-29545c.md)
 - GE-20260530-b68c00 [Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution](jvm/GE-20260530-b68c00.md)
 - GE-20260530-0178fd [Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient](jvm/GE-20260530-0178fd.md)
+- GE-20260530-385dbb [@Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient](jvm/GE-20260530-385dbb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -32,3 +32,22 @@ No code changes are required — the extension auto-configures Jackson as the JS
 
 ### Why this is non-obvious
 The error message mentions "media type" which strongly implies a content negotiation problem, leading developers to add `@Produces`/`@Consumes` annotations that do nothing. The fix hint is buried at the end of the error message and easy to miss. Worse, the extension name says "reactive" — when using the non-reactive Quarkus REST stack, a developer would reasonably assume this extension doesn't apply to them and dismiss it. It does apply, the name is just misleading.
+
+### Update — Quarkus 3.32.x artifact rename
+
+`quarkus-rest-client-reactive-jackson` was renamed to `quarkus-rest-client-jackson` in
+Quarkus 3.x. The "reactive" suffix was dropped. The old name is absent from the Quarkus
+3.32.2 BOM — using it produces **"version missing"** (not "artifact not found"), which
+is a more confusing error than simply adding a new unknown artifact. The correct name on
+Quarkus 3.32.x:
+
+```xml
+<dependency>
+  <groupId>io.quarkus</groupId>
+  <artifactId>quarkus-rest-client-jackson</artifactId>
+</dependency>
+```
+
+The error message hint in the symptom above still says `quarkus-rest-client-reactive-jackson`
+in older Quarkus versions — that error message itself has not been updated — so developers
+following the hint on Quarkus 3.32+ will add the wrong (non-existent) artifact name.

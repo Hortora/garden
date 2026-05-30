@@ -410,3 +410,4 @@
 | GE-20260530-29545c | Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled | gotcha | 12/15 |
 | GE-20260530-b68c00 | Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution | gotcha | 10/15 |
 | GE-20260530-0178fd | Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient | gotcha | 11/15 |
+| GE-20260530-385dbb | @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient | gotcha | 12/15 |
