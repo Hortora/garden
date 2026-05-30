@@ -2,3 +2,4 @@
 - GE-20260427-0460f9: Unicode box-drawing characters misalign in GitHub code blocks — use pure ASCII
 - GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
 - GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free
+- GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
