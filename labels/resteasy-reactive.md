@@ -3,3 +3,4 @@
 - GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
+- GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404

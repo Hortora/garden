@@ -8,3 +8,4 @@
 - GE-20260421-7b8196: @Singleton nested static class inside @QuarkusTest is discovered by CDI and injectable as EventCaptor
 - GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
 - GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260531-864d8e: @Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync

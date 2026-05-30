@@ -2,3 +2,6 @@
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
 - GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image
+- GE-20260531-d2ed26: LedgerEntryRepository.save() triggers full Merkle chain update — concurrent writes violate UQ_MERKLE_FRONTIER_SUBJECT_LEVEL
+- GE-20260531-1587fe: JpaLedgerMerkleFrontierRepository must be added to selected-alternatives alongside JpaLedgerEntryRepository for LedgerVerificationService to work in @QuarkusTest
+- GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything

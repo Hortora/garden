@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1089
+**Entries merged since last sweep:** 1094
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -34,6 +34,7 @@
 - GE-20260526-2ee43b [New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure](casehub-engine/GE-20260526-2ee43b.md)
 - GE-20260529-b5723e [casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module](casehub-engine/GE-20260529-b5723e.md)
 - GE-20260529-0c23f1 [quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces](casehub-engine/GE-20260529-0c23f1.md)
+- GE-20260531-864d8e [@Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync](casehub-engine/GE-20260531-864d8e.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -61,6 +62,9 @@
 - GE-20260429-2e1c4f [quarkus-ledger sequence_number index is not unique — race yields silent duplicate sequences](casehub-ledger/GE-20260429-2e1c4f.md)
 - GE-20260511-b6f903 [casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented](casehub-ledger/GE-20260511-b6f903.md)
 - GE-20260511-b6f903 [casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented](casehub-ledger/GE-20260511-b6f903.md)
+- GE-20260531-d2ed26 [LedgerEntryRepository.save() triggers full Merkle chain update — concurrent writes violate UQ_MERKLE_FRONTIER_SUBJECT_LEVEL](casehub-ledger/GE-20260531-d2ed26.md)
+- GE-20260531-1587fe [JpaLedgerMerkleFrontierRepository must be added to selected-alternatives alongside JpaLedgerEntryRepository for LedgerVerificationService to work in @QuarkusTest](casehub-ledger/GE-20260531-1587fe.md)
+- GE-20260531-46f8ab [casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything](casehub-ledger/GE-20260531-46f8ab.md)
 ### casehub-qhorus/
 - GE-20260414-23982b [check_messages excludes EVENT messages by design — tests expecting EVENTs always get fewer results than sent](casehub-qhorus/GE-20260414-23982b.md)
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
@@ -953,6 +957,7 @@
 - GE-20260530-9cdfb5 [MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback](jvm/GE-20260530-9cdfb5.md)
 - GE-20260530-0bee65 [Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly](jvm/GE-20260530-0bee65.md)
 - GE-20260530-9b5bbe [Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding](jvm/GE-20260530-9b5bbe.md)
+- GE-20260531-dd44a2 [@Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404](jvm/GE-20260531-dd44a2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

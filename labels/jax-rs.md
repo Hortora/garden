@@ -13,3 +13,4 @@
 - GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup
 - GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
+- GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404

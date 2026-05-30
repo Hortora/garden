@@ -1,3 +1,4 @@
 - GE-20260512-66d997: Panache static methods bypass CDI @Alternative stores — returns empty results silently
 - GE-20260427-c2b84f: @Alternative @Priority(1) beans in a test-helper jar are invisible to downstream @QuarkusTest — no Jandex index
 - GE-20260512-ee7c07: Quarkus ArC ignores beans.xml <alternatives> — use quarkus.arc.selected-alternatives
+- GE-20260531-1587fe: JpaLedgerMerkleFrontierRepository must be added to selected-alternatives alongside JpaLedgerEntryRepository for LedgerVerificationService to work in @QuarkusTest

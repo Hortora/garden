@@ -1,2 +1,1 @@
-- GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history
 - GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything

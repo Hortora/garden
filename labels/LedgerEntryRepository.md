@@ -1,0 +1,1 @@
+- GE-20260531-d2ed26: LedgerEntryRepository.save() triggers full Merkle chain update — concurrent writes violate UQ_MERKLE_FRONTIER_SUBJECT_LEVEL

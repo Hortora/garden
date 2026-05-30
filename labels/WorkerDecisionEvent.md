@@ -1,0 +1,1 @@
+- GE-20260531-864d8e: @Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync
