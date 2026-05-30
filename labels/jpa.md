@@ -64,3 +64,4 @@
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
 - GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable
 - GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
+- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline

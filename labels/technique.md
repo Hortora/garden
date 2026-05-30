@@ -12,3 +12,4 @@
 - GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
 - GE-20260505-df6f1e: Sub-tile LOS sampling for path smoothing: step at 0.8× movement speed
 - GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline

@@ -175,3 +175,4 @@
 - GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
 - GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
 - GE-20260530-385dbb: @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient
+- GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
