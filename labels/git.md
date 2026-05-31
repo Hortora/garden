@@ -125,3 +125,4 @@
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
 - GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
 - GE-20260531-5137f7: mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class
+- GE-20260531-2f51fd: Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches

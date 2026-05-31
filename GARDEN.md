@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1099
+**Entries merged since last sweep:** 1100
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1434,6 +1434,7 @@
 - GE-20260530-939013 [claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/](tools/GE-20260530-939013.md)
 - GE-20260530-319607 [Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail](tools/GE-20260530-319607.md)
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/GE-0166.md)
+- GE-20260531-2f51fd [Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches](tools/GE-20260531-2f51fd.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
