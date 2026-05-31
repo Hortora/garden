@@ -431,3 +431,4 @@
 | GE-20260530-0bee65 | Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly | gotcha | 9/15 |
 | GE-20260530-9b5bbe | Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding | technique | 9/15 |
 | GE-20260531-dd44a2 | @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404 | gotcha | 9/15 |
+| GE-20260531-70e07c | Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails | gotcha | 10/15 |
