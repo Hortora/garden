@@ -102,3 +102,4 @@
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
 - GE-20260531-5137f7: mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class
 - GE-20260508-3a77c5: Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet
+- GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure

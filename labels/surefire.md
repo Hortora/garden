@@ -11,3 +11,4 @@
 - GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
 - GE-20260510-cf4b9d: mvn -Dtest=ClassName -am fails on upstream modules that have no matching tests
 - GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'
+- GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure

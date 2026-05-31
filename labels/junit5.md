@@ -13,3 +13,4 @@
 - GE-20260529-166347: @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest
 - GE-20260529-aa8445: GreenMailExtension has no public deliver() method — MimeMessage delivery requires SMTP or internal MailFolder.appendMessage()
 - GE-20260529-59d35a: GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing
+- GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure

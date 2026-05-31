@@ -1,0 +1,1 @@
+- GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure
