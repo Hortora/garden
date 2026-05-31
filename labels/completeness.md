@@ -1,0 +1,1 @@
+- GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats

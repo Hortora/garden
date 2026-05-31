@@ -3,3 +3,4 @@
 - GE-20260428-3c89fa: Java overload erasure clash: same generic class with flipped type args is not a distinct signature
 - GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
 - GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path
+- GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider

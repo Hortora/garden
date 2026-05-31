@@ -1,0 +1,1 @@
+- GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider

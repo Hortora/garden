@@ -445,3 +445,7 @@
 | GE-20260531-18fa72 | Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath | technique | 9/15 |
 | GE-20260531-6298f4 | RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n' | undocumented | 10/15 |
 | GE-20260531-6298f4 | RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n' | undocumented | 10/15 |
+| GE-20260531-4354e3 | JSON substring completeness check silently always-passes for JSON output formats | gotcha | 11/15 |
+| GE-20260531-686150 | Adding a member to an enum dimension set breaks evaluators that iterate EvalDimension.values() | gotcha | 11/15 |
+| GE-20260531-5e6553 | Put format-to-dimension mapping on the enum as a static factory method shared by all consumers | technique | 9/15 |
+| GE-20260531-afc422 | Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider | convention | 9/15 |

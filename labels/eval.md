@@ -1,0 +1,3 @@
+- GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
+- GE-20260531-686150: Adding a member to an enum dimension set breaks evaluators that iterate EvalDimension.values()
+- GE-20260531-5e6553: Put format-to-dimension mapping on the enum as a static factory method shared by all consumers
