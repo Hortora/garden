@@ -439,3 +439,4 @@
 | GE-20260531-de42ae | AI agent auto-commit: use a per-turn flag, not a per-tool-call stack | technique | 9/15 |
 | GE-20260531-efe09b | OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params | undocumented | 9/15 |
 | GE-20260531-c7f95a | git checkout 2>/dev/null in a loop silently continues on the wrong branch | gotcha | 10/15 |
+| GE-20260601-8c9e4b | Stamp a git branch locked in a linked worktree using commit-tree + update-ref | technique | 10/15 |

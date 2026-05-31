@@ -5,3 +5,4 @@
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
 - GE-20260531-c7f95a: git checkout 2>/dev/null in a loop silently continues on the wrong branch
+- GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref

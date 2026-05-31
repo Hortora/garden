@@ -128,3 +128,4 @@
 - GE-20260531-2f51fd: Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches
 - GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
 - GE-20260531-c7f95a: git checkout 2>/dev/null in a loop silently continues on the wrong branch
+- GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
