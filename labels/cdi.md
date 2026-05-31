@@ -181,3 +181,4 @@
 - GE-20260531-864d8e: @Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync
 - GE-20260531-1587fe: JpaLedgerMerkleFrontierRepository must be added to selected-alternatives alongside JpaLedgerEntryRepository for LedgerVerificationService to work in @QuarkusTest
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
+- GE-20260531-ed2f7a: @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event

@@ -3,3 +3,4 @@
 - GE-20260522-bc642c: ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
+- GE-20260531-ed2f7a: @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event
