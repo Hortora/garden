@@ -383,3 +383,4 @@
 - GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface
 - GE-20260531-a6bd23: SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead
 - GE-20260531-e1ce47: CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events
+- GE-20260531-ac2489: quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation

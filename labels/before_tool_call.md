@@ -1,0 +1,1 @@
+- GE-20260531-efe09b: OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params

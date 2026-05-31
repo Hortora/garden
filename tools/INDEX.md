@@ -435,3 +435,6 @@
 | GE-20260531-2f51fd | Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches | gotcha | 11/15 |
 | GE-20260531-68222f | Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups | technique | 9/15 |
 | GE-20260531-b7c259 | Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback | gotcha | 12/15 |
+| GE-20260531-050543 | macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses | gotcha | 8/15 |
+| GE-20260531-de42ae | AI agent auto-commit: use a per-turn flag, not a per-tool-call stack | technique | 9/15 |
+| GE-20260531-efe09b | OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params | undocumented | 9/15 |

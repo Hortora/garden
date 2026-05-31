@@ -2,3 +2,4 @@
 - GE-20260513-3c1a03: @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP
 - GE-20260414-fa6489: quarkus-mcp-server @ToolArg has 'required' and 'defaultValue' attributes — not in docs, only in bytecode
 - GE-20260524-b0a4d9: marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs
+- GE-20260531-ac2489: quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation

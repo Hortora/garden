@@ -1,0 +1,1 @@
+- GE-20260531-de42ae: AI agent auto-commit: use a per-turn flag, not a per-tool-call stack

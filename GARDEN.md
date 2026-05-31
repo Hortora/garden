@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1123
+**Entries merged since last sweep:** 1127
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -981,6 +981,7 @@
 - GE-20260531-db10ab [SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort](jvm/GE-20260531-db10ab.md)
 - GE-20260531-20d80a [Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty](jvm/GE-20260531-20d80a.md)
 - GE-20260531-df79cb [SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column](jvm/GE-20260531-df79cb.md)
+- GE-20260531-ac2489 [quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation](jvm/GE-20260531-ac2489.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1455,6 +1456,9 @@
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/GE-0166.md)
 - GE-20260531-2f51fd [Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches](tools/GE-20260531-2f51fd.md)
 - GE-20260531-b7c259 [Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback](tools/GE-20260531-b7c259.md)
+- GE-20260531-050543 [macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses](tools/GE-20260531-050543.md)
+- GE-20260531-de42ae [AI agent auto-commit: use a per-turn flag, not a per-tool-call stack](tools/GE-20260531-de42ae.md)
+- GE-20260531-efe09b [OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params](tools/GE-20260531-efe09b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -8,3 +8,4 @@
 - GE-20260512-deda31: Use Python str.replace() over sed -i '' for safe multi-file text replacement on macOS
 - GE-20260516-c6d441: macOS sed -i '' silently wipes file when replacement pattern has no match
 - GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values
+- GE-20260531-050543: macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses
