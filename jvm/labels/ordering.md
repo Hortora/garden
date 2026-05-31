@@ -1,0 +1,1 @@
+- GE-20260530-c3087c: Arc CDI proxy makes getClass().getAnnotation(Priority.class) return null — use InjectableBean.getPriority() instead

@@ -1,0 +1,1 @@
+- GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation

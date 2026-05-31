@@ -35,3 +35,5 @@
 | tools/GE-20260523-5b3204 | tools/GE-20260522-5b1589 | git rebase -i drop on merge commit — 5b1589 has higher score (11 vs 10) |
 | tools/GE-20260518-d1775a | tools/GE-20260518-cf67e4 | git cherry-pick -X ours drops conflicting files — cf67e4 has higher score (14 vs 11) |
 | jvm/GE-20260517-9006f7 | jvm/GE-20260519-f0967f | @DefaultBean blocking bridge for reactive SPI shim — identical technique, f0967f has higher score (12 vs 9) |
+| jvm/GE-20260529-baf565 | jvm/GE-20260423-daef97 | @ObservesAsync silently skipped when event source uses fire() — same gotcha, daef97 has higher score (13 vs 12) |
+| tools/GE-20260531-68222f | tools/GE-20260527-e0f70d | exec git commit --amend in rebase todo — same technique, e0f70d has higher score (10 vs 9) |

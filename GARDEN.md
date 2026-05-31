@@ -921,7 +921,6 @@
 - GE-20260529-dbea23 [Greenmail SMTP server silently adds Message-ID header — tests asserting header absence must bypass SMTP](jvm/GE-20260529-dbea23.md)
 - GE-20260529-4691e8 [Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()](jvm/GE-20260529-4691e8.md)
 - GE-20260529-59d35a [GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing](jvm/GE-20260529-59d35a.md)
-- GE-20260529-baf565 [@ObservesAsync observers are silently skipped when the event source uses Event.fire()](jvm/GE-20260529-baf565.md)
 - GE-20260529-d8156d [ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls](jvm/GE-20260529-d8156d.md)
 - GE-20260529-8eb96e [Java .properties colon is a key-value separator — actorId strings like 'claude:reviewer@v1' silently split at the colon](jvm/GE-20260529-8eb96e.md)
 - GE-20260529-04a5a5 [WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion](jvm/GE-20260529-04a5a5.md)
@@ -1443,7 +1442,6 @@
 - GE-20260530-319607 [Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail](tools/GE-20260530-319607.md)
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/GE-0166.md)
 - GE-20260531-2f51fd [Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches](tools/GE-20260531-2f51fd.md)
-- GE-20260531-68222f [Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups](tools/GE-20260531-68222f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

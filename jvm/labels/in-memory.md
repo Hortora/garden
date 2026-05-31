@@ -1,0 +1,1 @@
+- GE-20260530-63f1cb: @EntityListeners @PrePersist callbacks don't fire in non-JPA (in-memory) repository implementations

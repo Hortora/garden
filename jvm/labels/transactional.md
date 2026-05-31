@@ -1,0 +1,1 @@
+- GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction

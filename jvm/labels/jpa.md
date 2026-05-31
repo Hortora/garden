@@ -1,0 +1,3 @@
+- GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
+- GE-20260530-63f1cb: @EntityListeners @PrePersist callbacks don't fire in non-JPA (in-memory) repository implementations
+- GE-20260530-c05d12: entityManager.persist() inside @PrePersist of a different entity is unsafe — JPA spec doesn't guarantee flush ordering

@@ -1,0 +1,2 @@
+- GE-20260530-c3087c: Arc CDI proxy makes getClass().getAnnotation(Priority.class) return null — use InjectableBean.getPriority() instead
+- GE-20260530-680285: CDI 4.1 Instance.handles() returns Iterable not Stream — use Arc's InjectableInstance.handlesStream()

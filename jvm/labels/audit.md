@@ -1,0 +1,2 @@
+- GE-20260530-c05d12: entityManager.persist() inside @PrePersist of a different entity is unsafe — JPA spec doesn't guarantee flush ordering
+- GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
