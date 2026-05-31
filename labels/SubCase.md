@@ -1,0 +1,2 @@
+- GE-20260531-1e51d4: casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore
+- GE-20260531-d896bf: SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions

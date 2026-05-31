@@ -14,3 +14,7 @@
 | GE-20260529-b5723e | casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module | gotcha | 11/15 |
 | GE-20260529-0c23f1 | quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces | gotcha | 10/15 |
 | GE-20260531-864d8e | @Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync | gotcha | 8/15 |
+| GE-20260531-1e51d4 | casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore | gotcha | 10/15 |
+| GE-20260531-4e21c1 | casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift | gotcha | 11/15 |
+| GE-20260531-d896bf | SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions | gotcha | 10/15 |
+| GE-20260531-e5a1aa | Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them | undocumented | 8/15 |

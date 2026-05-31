@@ -4,3 +4,5 @@
 - GE-20260525-606069: YAML string values with special chars produce invalid YAML unless single-quoted
 - GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
 - GE-20260530-9b5bbe: Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding
+- GE-20260531-d896bf: SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions
+- GE-20260531-e5a1aa: Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them

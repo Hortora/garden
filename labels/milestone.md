@@ -1,0 +1,1 @@
+- GE-20260531-e5a1aa: Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them

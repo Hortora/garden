@@ -1,0 +1,1 @@
+- GE-20260531-d896bf: SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions

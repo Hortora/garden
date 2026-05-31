@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1110
+**Entries merged since last sweep:** 1114
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -35,6 +35,10 @@
 - GE-20260529-b5723e [casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module](casehub-engine/GE-20260529-b5723e.md)
 - GE-20260529-0c23f1 [quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces](casehub-engine/GE-20260529-0c23f1.md)
 - GE-20260531-864d8e [@Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync](casehub-engine/GE-20260531-864d8e.md)
+- GE-20260531-1e51d4 [casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore](casehub-engine/GE-20260531-1e51d4.md)
+- GE-20260531-4e21c1 [casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift](casehub-engine/GE-20260531-4e21c1.md)
+- GE-20260531-d896bf [SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions](casehub-engine/GE-20260531-d896bf.md)
+- GE-20260531-e5a1aa [Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them](casehub-engine/GE-20260531-e5a1aa.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
