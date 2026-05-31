@@ -1,0 +1,1 @@
+- GE-20260531-9118e7: runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression

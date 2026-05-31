@@ -435,3 +435,4 @@
 | GE-20260531-c41c7f | Part.getInputStream() throws UnsupportedDataTypeException for binary MIME parts constructed in-memory — use getContent() and dispatch on type | gotcha | 10/15 |
 | GE-20260531-ed2f7a | @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event | gotcha | 12/15 |
 | GE-20260531-5137f7 | mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class | gotcha | 11/15 |
+| GE-20260531-9118e7 | runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression | gotcha | 11/15 |

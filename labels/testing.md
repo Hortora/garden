@@ -253,3 +253,4 @@
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
 - GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
 - GE-20260531-c41c7f: Part.getInputStream() throws UnsupportedDataTypeException for binary MIME parts constructed in-memory — use getContent() and dispatch on type
+- GE-20260531-9118e7: runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression
