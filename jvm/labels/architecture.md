@@ -1,0 +1,1 @@
+- GE-20260531-8b1f4e: Maven cross-tenant SPI interface in wrong module tier causes unresolvable dependency direction

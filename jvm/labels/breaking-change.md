@@ -1,0 +1,1 @@
+- GE-20260531-22e747: Adding a component to a Java record breaks every construction site — no compatible migration path
