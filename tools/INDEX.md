@@ -438,3 +438,4 @@
 | GE-20260531-050543 | macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses | gotcha | 8/15 |
 | GE-20260531-de42ae | AI agent auto-commit: use a per-turn flag, not a per-tool-call stack | technique | 9/15 |
 | GE-20260531-efe09b | OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params | undocumented | 9/15 |
+| GE-20260531-c7f95a | git checkout 2>/dev/null in a loop silently continues on the wrong branch | gotcha | 10/15 |
