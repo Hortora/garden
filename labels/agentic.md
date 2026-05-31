@@ -13,3 +13,4 @@
 - GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
 - GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
+- GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
