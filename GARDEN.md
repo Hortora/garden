@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1096
+**Entries merged since last sweep:** 1097
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -959,6 +959,7 @@
 - GE-20260530-9b5bbe [Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding](jvm/GE-20260530-9b5bbe.md)
 - GE-20260531-dd44a2 [@Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404](jvm/GE-20260531-dd44a2.md)
 - GE-20260531-70e07c [Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails](jvm/GE-20260531-70e07c.md)
+- GE-20260531-c41c7f [Part.getInputStream() throws UnsupportedDataTypeException for binary MIME parts constructed in-memory — use getContent() and dispatch on type](jvm/GE-20260531-c41c7f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
