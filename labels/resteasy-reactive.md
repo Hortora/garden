@@ -4,3 +4,6 @@
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
 - GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'

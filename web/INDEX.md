@@ -16,3 +16,4 @@
 | GE-20260522-6786c3 | el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters | technique | 9/15 |
 | GE-20260524-b0a4d9 | marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs | gotcha | 13/15 |
 | GE-20260524-d643d9 | marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all | undocumented | 12/15 |
+| GE-20260531-929107 | EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE | gotcha | 12/15 |

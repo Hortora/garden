@@ -9,3 +9,7 @@
 - GE-20260522-daca26: Mutiny MultiEmitter.emit() from Vert.x I/O thread silently drops SSE frames in @Blocking Quarkus endpoint
 - GE-20260527-8c3ff5: Merging two transformToUniAndConcatenate Mutiny streams allows concurrent DB fetches — duplicate SSE frames delivered
 - GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3
+- GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'

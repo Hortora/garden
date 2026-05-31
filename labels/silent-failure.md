@@ -31,3 +31,4 @@
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
 - GE-20260529-66bf53: OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires
 - GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()
+- GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE

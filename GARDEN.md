@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1107
+**Entries merged since last sweep:** 1110
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -968,6 +968,8 @@
 - GE-20260531-e1ce47 [CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events](jvm/GE-20260531-e1ce47.md)
 - GE-20260531-0f0688 [Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count](jvm/GE-20260531-0f0688.md)
 - GE-20260531-2ec49a [IMAPFolder.idle(boolean once) — once=false blocks indefinitely; once=true returns after first notification](jvm/GE-20260531-2ec49a.md)
+- GE-20260531-18fa72 [Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath](jvm/GE-20260531-18fa72.md)
+- GE-20260531-6298f4 [RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'](jvm/GE-20260531-6298f4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1470,6 +1472,7 @@
 - GE-20260522-6786c3 [el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters](web/GE-20260522-6786c3.md)
 - GE-20260524-b0a4d9 [marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs](web/GE-20260524-b0a4d9.md)
 - GE-20260524-d643d9 [marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all](web/GE-20260524-d643d9.md)
+- GE-20260531-929107 [EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE](web/GE-20260531-929107.md)
 
 ---
 

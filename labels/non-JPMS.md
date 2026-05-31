@@ -1,2 +1,1 @@
-- GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
 - GE-20260531-18fa72: Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath

@@ -1,0 +1,1 @@
+- GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
