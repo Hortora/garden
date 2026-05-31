@@ -434,3 +434,4 @@
 | GE-20260531-70e07c | Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails | gotcha | 10/15 |
 | GE-20260531-c41c7f | Part.getInputStream() throws UnsupportedDataTypeException for binary MIME parts constructed in-memory — use getContent() and dispatch on type | gotcha | 10/15 |
 | GE-20260531-ed2f7a | @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event | gotcha | 12/15 |
+| GE-20260531-5137f7 | mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class | gotcha | 11/15 |
