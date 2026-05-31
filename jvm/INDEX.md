@@ -455,3 +455,5 @@
 | GE-20260531-df79cb | SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column | technique | 10/15 |
 | GE-20260531-ac2489 | quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation | gotcha | 11/15 |
 | GE-20260531-769f9c | casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests | gotcha | 10/15 |
+| GE-20260531-bd4b53 | quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+ | gotcha | 9/15 |
+| GE-20260508-3a77c5 | Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet | gotcha | 12/15 |
