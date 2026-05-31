@@ -1,3 +1,6 @@
 - GE-20260428-336f35: Quarkus bakes JDBC driver class into Agroal at augmentation time — switching db-kind at runtime silently fails
 - GE-20260521-45e61c: casehub-connectors-core TwilioSmsConnector and WhatsAppConnector fail CDI validation in JDBC-only test environments
 - GE-20260526-399a43: quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently
+- GE-20260531-2ca323: HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails
+- GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
+- GE-20260531-df79cb: SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column

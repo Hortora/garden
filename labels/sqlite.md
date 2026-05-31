@@ -1,2 +1,6 @@
 - GE-20260415-7ca64f: Truncated hash as SQL primary key with INSERT OR IGNORE silently discards rows on collision
 - GE-20260415-95b40f: git textconv driver makes binary file diffs human-readable — SQLite databases show as SQL dumps in git diff
+- GE-20260531-2ca323: HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails
+- GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort
+- GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
+- GE-20260531-df79cb: SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column

@@ -1,2 +1,1 @@
-- GE-20260420-c2f9d2: PriorityBlockingQueue silently corrupts heap order when element sort keys are mutated after insertion
 - GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort

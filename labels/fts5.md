@@ -1,0 +1,1 @@
+- GE-20260531-df79cb: SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column

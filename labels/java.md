@@ -90,3 +90,4 @@
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
 - GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail
 - GE-20260531-18fa72: Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath
+- GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort

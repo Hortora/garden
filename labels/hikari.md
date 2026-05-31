@@ -1,0 +1,2 @@
+- GE-20260531-2ca323: HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails
+- GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty

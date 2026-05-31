@@ -449,3 +449,7 @@
 | GE-20260531-686150 | Adding a member to an enum dimension set breaks evaluators that iterate EvalDimension.values() | gotcha | 11/15 |
 | GE-20260531-5e6553 | Put format-to-dimension mapping on the enum as a static factory method shared by all consumers | technique | 9/15 |
 | GE-20260531-afc422 | Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider | convention | 9/15 |
+| GE-20260531-2ca323 | HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails | gotcha | 10/15 |
+| GE-20260531-db10ab | SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort | gotcha | 11/15 |
+| GE-20260531-20d80a | Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty | technique | 10/15 |
+| GE-20260531-df79cb | SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column | technique | 10/15 |

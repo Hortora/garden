@@ -1,3 +1,5 @@
 - GE-20260525-6f8b88: Calling startCase().toCompletableFuture().join() inside @Transactional while holding an Agroal connection causes connection-pool deadlock under JPA engine persistence
 - GE-20260529-b510e4: @Transactional on @ObservesAsync observer fires on every event, exhausting DB connections even when body returns early
 - GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3
+- GE-20260531-2ca323: HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails
+- GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty

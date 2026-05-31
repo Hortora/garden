@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1118
+**Entries merged since last sweep:** 1122
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -977,6 +977,10 @@
 - GE-20260531-686150 [Adding a member to an enum dimension set breaks evaluators that iterate EvalDimension.values()](jvm/GE-20260531-686150.md)
 - GE-20260531-5e6553 [Put format-to-dimension mapping on the enum as a static factory method shared by all consumers](jvm/GE-20260531-5e6553.md)
 - GE-20260531-afc422 [Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider](jvm/GE-20260531-afc422.md)
+- GE-20260531-2ca323 [HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails](jvm/GE-20260531-2ca323.md)
+- GE-20260531-db10ab [SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort](jvm/GE-20260531-db10ab.md)
+- GE-20260531-20d80a [Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty](jvm/GE-20260531-20d80a.md)
+- GE-20260531-df79cb [SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column](jvm/GE-20260531-df79cb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

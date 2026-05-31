@@ -1,2 +1,3 @@
 - GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper
 - GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
+- GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort

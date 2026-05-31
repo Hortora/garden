@@ -4,3 +4,4 @@
 - GE-20260414-2ec494: Panache `find("ORDER BY field ASC")` without a WHERE clause returns empty silently
 - GE-20260506-934502: Two-pass Liquid sort for stable multi-key ordering: sort secondary first, then primary
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
+- GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort

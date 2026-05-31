@@ -1,0 +1,1 @@
+- GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
