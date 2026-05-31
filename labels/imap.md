@@ -5,3 +5,4 @@
 - GE-20260529-4691e8: Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()
 - GE-20260529-59d35a: GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing
 - GE-20260531-c41c7f: Part.getInputStream() throws UnsupportedDataTypeException for binary MIME parts constructed in-memory — use getContent() and dispatch on type
+- GE-20260531-2ec49a: IMAPFolder.idle(boolean once) — once=false blocks indefinitely; once=true returns after first notification

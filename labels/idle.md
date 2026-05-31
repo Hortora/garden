@@ -1,0 +1,1 @@
+- GE-20260531-2ec49a: IMAPFolder.idle(boolean once) — once=false blocks indefinitely; once=true returns after first notification

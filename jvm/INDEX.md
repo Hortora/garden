@@ -440,3 +440,4 @@
 | GE-20260531-a6bd23 | SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead | gotcha | 10/15 |
 | GE-20260531-e1ce47 | CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events | gotcha | 11/15 |
 | GE-20260531-0f0688 | Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count | technique | 9/15 |
+| GE-20260531-2ec49a | IMAPFolder.idle(boolean once) — once=false blocks indefinitely; once=true returns after first notification | gotcha | 9/15 |

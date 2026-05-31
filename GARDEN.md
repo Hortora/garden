@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1105
+**Entries merged since last sweep:** 1107
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -967,6 +967,7 @@
 - GE-20260531-a6bd23 [SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead](jvm/GE-20260531-a6bd23.md)
 - GE-20260531-e1ce47 [CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events](jvm/GE-20260531-e1ce47.md)
 - GE-20260531-0f0688 [Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count](jvm/GE-20260531-0f0688.md)
+- GE-20260531-2ec49a [IMAPFolder.idle(boolean once) — once=false blocks indefinitely; once=true returns after first notification](jvm/GE-20260531-2ec49a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1440,6 +1441,7 @@
 - GE-20260530-319607 [Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail](tools/GE-20260530-319607.md)
 - GE-0166 [Dispatch parallel agents for exhaustive cross-codebase comparison](tools/GE-0166.md)
 - GE-20260531-2f51fd [Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches](tools/GE-20260531-2f51fd.md)
+- GE-20260531-68222f [Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups](tools/GE-20260531-68222f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

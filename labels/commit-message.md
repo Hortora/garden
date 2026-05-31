@@ -2,3 +2,4 @@
 - GE-20260414-55f1ed: Cherry-pick loop to rewrite commit messages without interactive rebase
 - GE-20260511-1b4fbc: git `squash` without GIT_EDITOR concatenates both commit messages and uses the first as subject
 - GE-20260527-e0f70d: Use exec git commit --amend in rebase todo to set a custom squash message in-place
+- GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
