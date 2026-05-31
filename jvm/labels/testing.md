@@ -2,3 +2,4 @@
 - GE-20260525-f04530: Inject Event<T> in @QuarkusTest as a synchronous test driver for @Observes handlers
 - GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
 - GE-20260530-63f1cb: @EntityListeners @PrePersist callbacks don't fire in non-JPA (in-memory) repository implementations
+- GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests

@@ -1,3 +1,4 @@
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
 - GE-20260521-9188c1: CasePlanModel YAML binding `when:` conditions are not evaluated at runtime — all contextChange bindings fire on every CONTEXT_CHANGED
+- GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests

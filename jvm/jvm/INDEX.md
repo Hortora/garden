@@ -13,3 +13,4 @@
 | GE-20260530-5a9f02 | @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction | technique | 11/15 |
 | GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
 | GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
+| GE-20260531-769f9c | casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests | gotcha | 10/15 |

@@ -1,0 +1,2 @@
+- GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
+- GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
