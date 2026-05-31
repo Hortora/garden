@@ -2,3 +2,4 @@
 - GE-20260414-8c43a9: ConcurrentHashMap<ID, CompletableFuture> registry for suspending workflows pending external events
 - GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
 - GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE
+- GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count

@@ -1,2 +1,3 @@
 - GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response
 - GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
+- GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count

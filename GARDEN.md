@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1101
+**Entries merged since last sweep:** 1105
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -963,6 +963,10 @@
 - GE-20260531-ed2f7a [@Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event](jvm/GE-20260531-ed2f7a.md)
 - GE-20260531-5137f7 [mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class](jvm/GE-20260531-5137f7.md)
 - GE-20260531-9118e7 [runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression](jvm/GE-20260531-9118e7.md)
+- GE-20260531-1ec900 [Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface](jvm/GE-20260531-1ec900.md)
+- GE-20260531-a6bd23 [SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead](jvm/GE-20260531-a6bd23.md)
+- GE-20260531-e1ce47 [CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events](jvm/GE-20260531-e1ce47.md)
+- GE-20260531-0f0688 [Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count](jvm/GE-20260531-0f0688.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

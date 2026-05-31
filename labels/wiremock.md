@@ -2,3 +2,4 @@
 - GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
 - GE-20260529-04a5a5: WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion
 - GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled
+- GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count

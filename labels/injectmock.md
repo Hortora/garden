@@ -1,2 +1,3 @@
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
 - GE-20260521-debce2: Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed
+- GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface

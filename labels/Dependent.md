@@ -1,0 +1,1 @@
+- GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface

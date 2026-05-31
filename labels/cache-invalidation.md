@@ -1,2 +1,3 @@
 - GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
+- GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count

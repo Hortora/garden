@@ -21,3 +21,4 @@
 - GE-20260529-ff186e: emitOn(Infrastructure.getDefaultWorkerPool()) — correct way to shift blocking I/O off Vert.x IO thread in a reactive SPI
 - GE-20260529-a4dadf: Maven test-jar export for cross-module abstract contract test sharing
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
+- GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface

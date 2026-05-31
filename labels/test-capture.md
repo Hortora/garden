@@ -1,2 +1,1 @@
-- GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
 - GE-20260531-e1ce47: CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events

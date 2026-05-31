@@ -1,0 +1,1 @@
+- GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count

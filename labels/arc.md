@@ -32,3 +32,4 @@
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
 - GE-20260531-9118e7: runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression
+- GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface

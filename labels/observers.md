@@ -2,3 +2,4 @@
 - GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
 - GE-20260512-6887c9: @ObservesAsync + @Transactional on the same method is unreliable — delegate transactional logic to a separate bean
 - GE-20260423-daef97: CDI event.fire() does not deliver to @ObservesAsync observers — fireAsync() required separately
+- GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface

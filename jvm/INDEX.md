@@ -436,3 +436,7 @@
 | GE-20260531-ed2f7a | @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event | gotcha | 12/15 |
 | GE-20260531-5137f7 | mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class | gotcha | 11/15 |
 | GE-20260531-9118e7 | runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression | gotcha | 11/15 |
+| GE-20260531-1ec900 | Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface | gotcha | 12/15 |
+| GE-20260531-a6bd23 | SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead | gotcha | 10/15 |
+| GE-20260531-e1ce47 | CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events | gotcha | 11/15 |
+| GE-20260531-0f0688 | Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count | technique | 9/15 |
