@@ -4,3 +4,4 @@
 - GE-20260530-82884a: Compose an abstract cache class with put() bypass when loadContext() can't receive the computation context
 - GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
 - GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
+- GE-20260531-22e747: Adding a component to a Java record breaks every construction site — no compatible migration path

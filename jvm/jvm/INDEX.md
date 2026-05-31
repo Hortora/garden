@@ -14,3 +14,6 @@
 | GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
 | GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
 | GE-20260531-769f9c | casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests | gotcha | 10/15 |
+| GE-20260531-446fea | Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope | technique | 11/15 |
+| GE-20260531-8b1f4e | Maven cross-tenant SPI interface in wrong module tier causes unresolvable dependency direction | gotcha | 10/15 |
+| GE-20260531-22e747 | Adding a component to a Java record breaks every construction site — no compatible migration path | gotcha | 11/15 |
