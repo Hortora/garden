@@ -1,0 +1,1 @@
+- GE-20260531-b7c259: Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback

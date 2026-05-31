@@ -9,3 +9,4 @@
 - GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
 - GE-20260421-6d4f16: Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles
 - GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right
+- GE-20260531-b7c259: Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback

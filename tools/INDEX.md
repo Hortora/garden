@@ -434,3 +434,4 @@
 | GE-0166 | Dispatch parallel agents for exhaustive cross-codebase comparison | gotcha | 13/15 |
 | GE-20260531-2f51fd | Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches | gotcha | 11/15 |
 | GE-20260531-68222f | Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups | technique | 9/15 |
+| GE-20260531-b7c259 | Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback | gotcha | 12/15 |

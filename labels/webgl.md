@@ -8,3 +8,4 @@
 - GE-20260421-df549e: Three.js directional sprite selection needs Math.atan2(-dx, dz) — positive dx inverts left/right
 - GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
 - GE-20260508-f742f6: Three.js sprites not raycasted until first render frame updates matrixWorld
+- GE-20260531-b7c259: Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback
