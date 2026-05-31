@@ -1,1 +1,3 @@
 - GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
+- GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
+- GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration

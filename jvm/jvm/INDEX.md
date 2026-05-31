@@ -11,3 +11,5 @@
 | GE-20260530-c05d12 | entityManager.persist() inside @PrePersist of a different entity is unsafe — JPA spec doesn't guarantee flush ordering | gotcha | 12/15 |
 | GE-20260530-82884a | Compose an abstract cache class with put() bypass when loadContext() can't receive the computation context | technique | 11/15 |
 | GE-20260530-5a9f02 | @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction | technique | 11/15 |
+| GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
+| GE-20260531-935576 | Python re.sub [^)]+ breaks on nested method calls during Java source migration | gotcha | 10/15 |
