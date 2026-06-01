@@ -444,3 +444,5 @@
 | GE-20260601-2e31ae | Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked | technique | 8/15 |
 | GE-20260601-265cdc | IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities | gotcha | 11/15 |
 | GE-20260601-5a71f1 | update-claude-md silently skips modular routing when document_discovery.py is absent | gotcha | 11/15 |
+| GE-20260601-53763c | gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative | gotcha | 10/15 |
+| GE-20260601-ad3154 | Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source | technique | 9/15 |

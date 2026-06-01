@@ -1,2 +1,3 @@
 - GE-20260426-4e3801: java -jar: JVM -D flags after the jar path are app arguments, not JVM properties
 - GE-20260423-7c5214: Quarkus dev mode fails with ClassTooLargeException after large enum or switch growth
+- GE-20260601-ad3154: Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source

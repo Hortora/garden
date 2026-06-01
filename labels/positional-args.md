@@ -1,0 +1,1 @@
+- GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values

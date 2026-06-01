@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1154
+**Entries merged since last sweep:** 1158
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1000,6 +1000,8 @@
 - GE-20260601-81be07 [Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean](jvm/GE-20260601-81be07.md)
 - GE-20260601-08a351 [quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth](jvm/GE-20260601-08a351.md)
 - GE-20260529-5a8158 [Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans](jvm/GE-20260529-5a8158.md)
+- GE-20260601-fcf0d9 [Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied](jvm/GE-20260601-fcf0d9.md)
+- GE-20260601-6170a6 [Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values](jvm/GE-20260601-6170a6.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1483,6 +1485,8 @@
 - GE-20260601-2e31ae [Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked](tools/GE-20260601-2e31ae.md)
 - GE-20260601-265cdc [IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities](tools/GE-20260601-265cdc.md)
 - GE-20260601-5a71f1 [update-claude-md silently skips modular routing when document_discovery.py is absent](tools/GE-20260601-5a71f1.md)
+- GE-20260601-53763c [gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative](tools/GE-20260601-53763c.md)
+- GE-20260601-ad3154 [Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source](tools/GE-20260601-ad3154.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

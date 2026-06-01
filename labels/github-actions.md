@@ -19,3 +19,4 @@
 - GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
+- GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative

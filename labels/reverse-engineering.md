@@ -1,1 +1,2 @@
 - GE-20260516-4e5919: Discovery test as permanent protocol constant coverage instrument
+- GE-20260601-ad3154: Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source

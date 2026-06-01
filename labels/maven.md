@@ -105,3 +105,4 @@
 - GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure
 - GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure
 - GE-20260601-265cdc: IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities
+- GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative

@@ -196,3 +196,4 @@
 - GE-20260601-848232: quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs
 - GE-20260601-cee623: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
+- GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
