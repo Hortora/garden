@@ -22,3 +22,6 @@
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException
+- GE-20260601-85afd0: Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG
+- GE-20260601-b0eabf: ARC42STORIES.MD Key files class names may not exist in production — verify with find
+- GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing

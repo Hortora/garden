@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1159
+**Entries merged since last sweep:** 1164
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -128,6 +128,7 @@
 - GE-20260423-9a5470 [Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter](intellij-platform/GE-20260423-9a5470.md)
 - GE-20260423-af487b [IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content](intellij-platform/GE-20260423-af487b.md)
 - GE-20260423-e92da0 [IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead](intellij-platform/GE-20260423-e92da0.md)
+- GE-20260602-c6bfb7 [IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause](intellij-platform/GE-20260602-c6bfb7.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1003,6 +1004,10 @@
 - GE-20260601-fcf0d9 [Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied](jvm/GE-20260601-fcf0d9.md)
 - GE-20260601-6170a6 [Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values](jvm/GE-20260601-6170a6.md)
 - GE-20260530-4387cb [casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest](jvm/GE-20260530-4387cb.md)
+- GE-20260602-e7824c [Convert sealed interface to enum when all variants become stateless after refactoring](jvm/GE-20260602-e7824c.md)
+- GE-20260601-85afd0 [Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG](jvm/GE-20260601-85afd0.md)
+- GE-20260601-b0eabf [ARC42STORIES.MD Key files class names may not exist in production — verify with find](jvm/GE-20260601-b0eabf.md)
+- GE-20260601-c09f71 [ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing](jvm/GE-20260601-c09f71.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

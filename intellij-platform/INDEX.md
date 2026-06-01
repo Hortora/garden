@@ -23,3 +23,4 @@
 | GE-20260423-9a5470 | Testing IntelliJ Annotators on injected language: use doHighlighting() + HighlightInfo filter | technique | 9/15 |
 | GE-20260423-af487b | IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content | undocumented | 11/15 |
 | GE-20260423-e92da0 | IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead | undocumented | 9/15 |
+| GE-20260602-c6bfb7 | IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause | gotcha | 11/15 |

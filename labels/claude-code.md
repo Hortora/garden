@@ -36,3 +36,4 @@
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
 - GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
 - GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent
+- GE-20260602-c6bfb7: IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause

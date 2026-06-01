@@ -478,3 +478,7 @@
 | GE-20260601-fcf0d9 | Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied | gotcha | 12/15 |
 | GE-20260601-6170a6 | Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values | gotcha | 12/15 |
 | GE-20260530-4387cb | casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest | gotcha | 8/15 |
+| GE-20260602-e7824c | Convert sealed interface to enum when all variants become stateless after refactoring | technique | 8/15 |
+| GE-20260601-85afd0 | Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG | technique | 13/15 |
+| GE-20260601-b0eabf | ARC42STORIES.MD Key files class names may not exist in production — verify with find | gotcha | 12/15 |
+| GE-20260601-c09f71 | ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing | gotcha | 11/15 |

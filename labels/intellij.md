@@ -22,3 +22,4 @@
 - GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor
 - GE-20260526-8c7f5f: mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities
 - GE-20260601-265cdc: IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities
+- GE-20260602-c6bfb7: IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause

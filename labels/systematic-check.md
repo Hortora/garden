@@ -1,2 +1,1 @@
-- GE-20260429-636ef1: Cross-repo quality audit via parallel subagents after shipping an abstraction
 - GE-20260601-85afd0: Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG

@@ -4,3 +4,6 @@
 - GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
 - GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
+- GE-20260601-85afd0: Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG
+- GE-20260601-b0eabf: ARC42STORIES.MD Key files class names may not exist in production — verify with find
+- GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing

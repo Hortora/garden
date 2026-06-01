@@ -1,0 +1,1 @@
+- GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing

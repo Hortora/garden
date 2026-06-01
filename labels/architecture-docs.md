@@ -1,0 +1,1 @@
+- GE-20260601-b0eabf: ARC42STORIES.MD Key files class names may not exist in production — verify with find
