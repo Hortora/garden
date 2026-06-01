@@ -96,6 +96,7 @@
 - GE-20260525-3fe619 [wc -l understates AI context file bloat — always measure with wc -c](claude-code/GE-20260525-3fe619.md)
 - GE-20260525-6c3a27 [gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json](claude-code/GE-20260525-6c3a27.md)
 - GE-20260526-b28228 [Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's](claude-code/GE-20260526-b28228.md)
+- GE-20260601-c1a8f9 [Subagent worktree commits land on worktree branch, not on the session branch](claude-code/GE-20260601-c1a8f9.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
