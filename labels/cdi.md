@@ -188,3 +188,4 @@
 - GE-20260531-1e51d4: casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
+- GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index

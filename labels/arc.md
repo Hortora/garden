@@ -34,3 +34,4 @@
 - GE-20260531-9118e7: runtime Maven scope on a shared mock library silently expands CDI scan, breaking @DefaultBean suppression
 - GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
+- GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index

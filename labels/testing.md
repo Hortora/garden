@@ -257,3 +257,4 @@
 - GE-20260531-18fa72: Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException
+- GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties

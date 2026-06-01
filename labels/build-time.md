@@ -5,3 +5,4 @@
 - GE-20260512-b3f32a: @IfBuildProperty/@UnlessBuildProperty evaluated at augmentation only — QuarkusTestProfile properties have no effect on bean activation
 - GE-20260426-6ed53b: @IfBuildProfile is resolved at build time — runtime profile switch cannot add excluded beans
 - GE-20260428-73d821: Quarkus @TestProfile and QuarkusTestResource config overrides are NOT visible to the augmentation cache decision
+- GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties

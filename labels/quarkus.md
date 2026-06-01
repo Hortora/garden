@@ -389,3 +389,5 @@
 - GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
+- GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
+- GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
