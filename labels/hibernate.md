@@ -53,3 +53,4 @@
 - GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
 - GE-20260530-5400f3: Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
+- GE-20260601-17fa50: PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL

@@ -6,3 +6,4 @@
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
 - GE-20260526-a08a81: Quarkus MicroProfile REST Client throws WebApplicationException on non-2xx when return type is Response
 - GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException
+- GE-20260601-17fa50: PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL

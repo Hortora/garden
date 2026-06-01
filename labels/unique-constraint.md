@@ -2,3 +2,4 @@
 - GE-20260424-439ccb: JPA unique constraint on a business key blocks delegation chains where multiple records share the same key
 - GE-20260429-101efe: H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns
 - GE-20260525-99837c: PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed
+- GE-20260601-17fa50: PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1134
+**Entries merged since last sweep:** 1135
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -986,6 +986,7 @@
 - GE-20260531-bd4b53 [quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+](jvm/GE-20260531-bd4b53.md)
 - GE-20260508-3a77c5 [Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet](jvm/GE-20260508-3a77c5.md)
 - GE-20260601-8ff52b [Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure](jvm/GE-20260601-8ff52b.md)
+- GE-20260601-17fa50 [PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL](jvm/GE-20260601-17fa50.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

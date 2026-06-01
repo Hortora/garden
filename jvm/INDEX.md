@@ -458,3 +458,4 @@
 | GE-20260531-bd4b53 | quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+ | gotcha | 9/15 |
 | GE-20260508-3a77c5 | Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet | gotcha | 12/15 |
 | GE-20260601-8ff52b | Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure | gotcha | 8/15 |
+| GE-20260601-17fa50 | PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL | gotcha | 14/15 |
