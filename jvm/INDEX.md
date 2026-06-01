@@ -465,3 +465,4 @@
 | GE-20260601-a35fb3 | InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException | gotcha | 11/15 |
 | GE-20260601-b76fba | QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties | gotcha | 11/15 |
 | GE-20260601-7a3b38 | @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index | gotcha | 12/15 |
+| GE-20260601-b9a489 | Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure | gotcha | 9/15 |

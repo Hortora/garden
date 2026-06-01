@@ -18,3 +18,4 @@
 - GE-20260524-c1e573: quarkus.arc.exclude-types silently fails for beans registered by a Quarkus extension
 - GE-20260528-ed3022: Quarkus FlywayConfigurationCustomizer runtime location additions silently ignored by QuarkusPathLocationScanner
 - GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly
+- GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure

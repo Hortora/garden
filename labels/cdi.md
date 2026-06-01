@@ -189,3 +189,4 @@
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
 - GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
+- GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure

@@ -1,0 +1,1 @@
+- GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure
