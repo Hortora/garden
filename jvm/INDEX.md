@@ -467,3 +467,5 @@
 | GE-20260601-7a3b38 | @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index | gotcha | 12/15 |
 | GE-20260601-b9a489 | Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure | gotcha | 9/15 |
 | GE-20260601-7a3b38 | @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index | gotcha | 12/15 |
+| GE-20260601-ad6203 | Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain | gotcha | 10/15 |
+| GE-20260601-33dd8e | @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives | gotcha | 9/15 |

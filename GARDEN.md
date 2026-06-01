@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1143
+**Entries merged since last sweep:** 1146
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -995,6 +995,8 @@
 - GE-20260601-7a3b38 [@DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index](jvm/GE-20260601-7a3b38.md)
 - GE-20260601-b9a489 [Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure](jvm/GE-20260601-b9a489.md)
 - GE-20260601-7a3b38 [@DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index](jvm/GE-20260601-7a3b38.md)
+- GE-20260601-ad6203 [Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain](jvm/GE-20260601-ad6203.md)
+- GE-20260601-33dd8e [@Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives](jvm/GE-20260601-33dd8e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1475,6 +1477,7 @@
 - GE-20260531-c7f95a [git checkout 2>/dev/null in a loop silently continues on the wrong branch](tools/GE-20260531-c7f95a.md)
 - GE-20260601-8c9e4b [Stamp a git branch locked in a linked worktree using commit-tree + update-ref](tools/GE-20260601-8c9e4b.md)
 - GE-20260601-350be3 [GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts](tools/GE-20260601-350be3.md)
+- GE-20260601-2e31ae [Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked](tools/GE-20260601-2e31ae.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -14,3 +14,4 @@
 - GE-20260531-ac2489: quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation
 - GE-20260531-bd4b53: quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
+- GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain

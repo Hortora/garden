@@ -1,2 +1,3 @@
 - GE-20260422-2afcb2: Quoted heredoc delimiter prevents variable expansion in bash installer embedded scripts
 - GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks
+- GE-20260601-2e31ae: Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked

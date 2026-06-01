@@ -36,3 +36,5 @@
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
 - GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
 - GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
+- GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
+- GE-20260601-33dd8e: @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives

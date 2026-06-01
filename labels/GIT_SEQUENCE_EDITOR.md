@@ -1,1 +1,2 @@
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
+- GE-20260601-2e31ae: Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked

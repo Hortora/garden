@@ -25,3 +25,4 @@
 - GE-20260529-c4ed43: Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
 - GE-20260415-884e48: @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException
+- GE-20260601-33dd8e: @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives

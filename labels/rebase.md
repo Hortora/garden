@@ -37,3 +37,4 @@
 - GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
 - GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
 - GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts
+- GE-20260601-2e31ae: Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked
