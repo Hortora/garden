@@ -4,3 +4,4 @@
 - GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache
 - GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
+- GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs

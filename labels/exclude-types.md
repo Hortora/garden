@@ -9,3 +9,4 @@
 - GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure
 - GE-20260529-0c23f1: quarkus.arc.exclude-types should only exclude no-op SPI beans the implementing module actually replaces
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
+- GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs

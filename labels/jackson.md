@@ -6,3 +6,4 @@
 - GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
 - GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
+- GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers

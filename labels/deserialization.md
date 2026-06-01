@@ -1,0 +1,1 @@
+- GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers

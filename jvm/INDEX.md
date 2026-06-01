@@ -459,3 +459,6 @@
 | GE-20260508-3a77c5 | Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet | gotcha | 12/15 |
 | GE-20260601-8ff52b | Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure | gotcha | 8/15 |
 | GE-20260601-17fa50 | PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL | gotcha | 14/15 |
+| GE-20260601-13fc26 | JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers | gotcha | 12/15 |
+| GE-20260601-0eb1b6 | Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs | gotcha | 9/15 |
+| GE-20260601-3dbc80 | quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs | technique | 9/15 |

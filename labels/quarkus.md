@@ -386,3 +386,6 @@
 - GE-20260531-ac2489: quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation
 - GE-20260531-bd4b53: quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+
 - GE-20260508-3a77c5: Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet
+- GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
+- GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
+- GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
