@@ -477,3 +477,4 @@
 | GE-20260529-5a8158 | Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans | gotcha | 9/15 |
 | GE-20260601-fcf0d9 | Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied | gotcha | 12/15 |
 | GE-20260601-6170a6 | Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values | gotcha | 12/15 |
+| GE-20260530-4387cb | casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest | gotcha | 8/15 |

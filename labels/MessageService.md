@@ -2,3 +2,4 @@
 - GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null
 - GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest

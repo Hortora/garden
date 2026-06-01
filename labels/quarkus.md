@@ -401,3 +401,4 @@
 - GE-20260601-08a351: quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest

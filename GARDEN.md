@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1158
+**Entries merged since last sweep:** 1159
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1002,6 +1002,7 @@
 - GE-20260529-5a8158 [Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans](jvm/GE-20260529-5a8158.md)
 - GE-20260601-fcf0d9 [Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied](jvm/GE-20260601-fcf0d9.md)
 - GE-20260601-6170a6 [Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values](jvm/GE-20260601-6170a6.md)
+- GE-20260530-4387cb [casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest](jvm/GE-20260530-4387cb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
