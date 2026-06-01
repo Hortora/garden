@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1164
+**Entries merged since last sweep:** 1167
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1008,6 +1008,9 @@
 - GE-20260601-85afd0 [Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG](jvm/GE-20260601-85afd0.md)
 - GE-20260601-b0eabf [ARC42STORIES.MD Key files class names may not exist in production — verify with find](jvm/GE-20260601-b0eabf.md)
 - GE-20260601-c09f71 [ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing](jvm/GE-20260601-c09f71.md)
+- GE-20260601-b0eabf [ARC42STORIES.MD Key files class names may not exist in production — verify with find](jvm/GE-20260601-b0eabf.md)
+- GE-20260601-c09f71 [ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing](jvm/GE-20260601-c09f71.md)
+- GE-20260601-85afd0 [Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG](jvm/GE-20260601-85afd0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

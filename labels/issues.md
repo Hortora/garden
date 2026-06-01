@@ -1,3 +1,4 @@
 - GE-20260422-4407a2: GitHub 'Closes #N' commit messages don't reliably auto-close issues on direct push to main
 - GE-20260428-dc4232: `gh issue create --label` silently fails with 'could not add label' if label doesn't exist in repo
 - GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing
+- GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing

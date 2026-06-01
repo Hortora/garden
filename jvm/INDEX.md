@@ -482,3 +482,6 @@
 | GE-20260601-85afd0 | Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG | technique | 13/15 |
 | GE-20260601-b0eabf | ARC42STORIES.MD Key files class names may not exist in production — verify with find | gotcha | 12/15 |
 | GE-20260601-c09f71 | ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing | gotcha | 11/15 |
+| GE-20260601-b0eabf | ARC42STORIES.MD Key files class names may not exist in production — verify with find | gotcha | 12/15 |
+| GE-20260601-c09f71 | ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing | gotcha | 11/15 |
+| GE-20260601-85afd0 | Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG | technique | 13/15 |
