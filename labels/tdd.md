@@ -5,3 +5,4 @@
 - GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
 - GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
 - GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
+- GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour

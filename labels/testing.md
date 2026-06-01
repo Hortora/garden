@@ -258,3 +258,4 @@
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
+- GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1146
+**Entries merged since last sweep:** 1147
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -997,6 +997,7 @@
 - GE-20260601-7a3b38 [@DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index](jvm/GE-20260601-7a3b38.md)
 - GE-20260601-ad6203 [Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain](jvm/GE-20260601-ad6203.md)
 - GE-20260601-33dd8e [@Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives](jvm/GE-20260601-33dd8e.md)
+- GE-20260601-aa7b04 [TDD for constant renames — write a PASS test first to pin existing behaviour](jvm/GE-20260601-aa7b04.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

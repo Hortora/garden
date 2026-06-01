@@ -1,1 +1,2 @@
 - GE-20260516-4e5919: Discovery test as permanent protocol constant coverage instrument
+- GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour

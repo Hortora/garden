@@ -12,3 +12,4 @@
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
 - GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail
+- GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour
