@@ -398,3 +398,5 @@
 - GE-20260601-848232: quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs
 - GE-20260601-cee623: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
+- GE-20260601-08a351: quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth
+- GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans

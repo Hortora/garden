@@ -1,2 +1,3 @@
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
 - GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled
+- GE-20260601-08a351: quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1151
+**Entries merged since last sweep:** 1153
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1002,6 +1002,8 @@
 - GE-20260601-848232 [quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs](jvm/GE-20260601-848232.md)
 - GE-20260601-cee623 [QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge](jvm/GE-20260601-cee623.md)
 - GE-20260601-81be07 [Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean](jvm/GE-20260601-81be07.md)
+- GE-20260601-08a351 [quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth](jvm/GE-20260601-08a351.md)
+- GE-20260529-5a8158 [Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans](jvm/GE-20260529-5a8158.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

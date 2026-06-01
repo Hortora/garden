@@ -3,3 +3,4 @@
 - GE-20260414-1b00a0: @ConfigProperty with defaultValue="" causes SRCFG00014 for optional String properties in Quarkus
 - GE-20260528-1e92db: Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
+- GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans

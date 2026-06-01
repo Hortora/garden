@@ -259,3 +259,4 @@
 - GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
 - GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour
+- GE-20260601-08a351: quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth
