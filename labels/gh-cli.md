@@ -5,3 +5,4 @@
 - GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
+- GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit

@@ -446,3 +446,6 @@
 | GE-20260601-5a71f1 | update-claude-md silently skips modular routing when document_discovery.py is absent | gotcha | 11/15 |
 | GE-20260601-53763c | gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative | gotcha | 10/15 |
 | GE-20260601-ad3154 | Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source | technique | 9/15 |
+| GE-20260601-607fc9 | Pre-push hook that always blocks — not candidate-based | gotcha | 9/15 |
+| GE-20260601-3fe99d | Java 'cannot find symbol' names the class FQCN — not which artifact is missing it | gotcha | 8/15 |
+| GE-20260601-60efe8 | gh workflow run — manually trigger a repo's CI without a dummy commit | technique | 8/15 |

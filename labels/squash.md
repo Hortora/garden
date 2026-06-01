@@ -17,3 +17,4 @@
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
 - GE-20260422-ceb229: git rebase --onto silently drops commits already present upstream — prints 'patch contents already upstream'
 - GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
+- GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based

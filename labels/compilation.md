@@ -5,3 +5,4 @@
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep
 - GE-20260521-8b39bd: ArtifactResultBuildItem lives in io.quarkus.deployment.pkg.builditem, not io.quarkus.deployment.builditem
 - GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
+- GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it

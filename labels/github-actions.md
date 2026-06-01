@@ -20,3 +20,4 @@
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
+- GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit

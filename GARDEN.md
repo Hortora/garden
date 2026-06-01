@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1167
+**Entries merged since last sweep:** 1170
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1496,6 +1496,9 @@
 - GE-20260601-5a71f1 [update-claude-md silently skips modular routing when document_discovery.py is absent](tools/GE-20260601-5a71f1.md)
 - GE-20260601-53763c [gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative](tools/GE-20260601-53763c.md)
 - GE-20260601-ad3154 [Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source](tools/GE-20260601-ad3154.md)
+- GE-20260601-607fc9 [Pre-push hook that always blocks — not candidate-based](tools/GE-20260601-607fc9.md)
+- GE-20260601-3fe99d [Java 'cannot find symbol' names the class FQCN — not which artifact is missing it](tools/GE-20260601-3fe99d.md)
+- GE-20260601-60efe8 [gh workflow run — manually trigger a repo's CI without a dummy commit](tools/GE-20260601-60efe8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
