@@ -1,0 +1,1 @@
+- GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException

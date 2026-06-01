@@ -21,3 +21,4 @@
 - GE-20260529-e32a4d: MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
+- GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException

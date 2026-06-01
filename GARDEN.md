@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1138
+**Entries merged since last sweep:** 1139
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -990,6 +990,7 @@
 - GE-20260601-13fc26 [JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers](jvm/GE-20260601-13fc26.md)
 - GE-20260601-0eb1b6 [Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs](jvm/GE-20260601-0eb1b6.md)
 - GE-20260601-3dbc80 [quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs](jvm/GE-20260601-3dbc80.md)
+- GE-20260601-a35fb3 [InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException](jvm/GE-20260601-a35fb3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
