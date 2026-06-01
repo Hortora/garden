@@ -1,2 +1,1 @@
-- GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
 - GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent

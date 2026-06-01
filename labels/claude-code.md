@@ -35,3 +35,4 @@
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
 - GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
+- GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent

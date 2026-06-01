@@ -33,3 +33,4 @@
 - GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()
 - GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE
 - GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
+- GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent

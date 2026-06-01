@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1153
+**Entries merged since last sweep:** 1154
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -571,7 +571,6 @@
 - GE-20260424-647a6d [Encode group membership in a string field to avoid a join table — deterministic scoping without schema changes](jvm/GE-20260424-647a6d.md)
 - GE-20260424-807b7e [assertj-core not on runtime test classpath in Quarkiverse multi-module — produces misleading compiler error](jvm/GE-20260424-807b7e.md)
 - GE-20260424-a02588 [CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions](jvm/GE-20260424-a02588.md)
-- GE-20260424-a55003 [Adding a field to a Java record breaks every positional constructor call silently until compile time](jvm/GE-20260424-a55003.md)
 - GE-20260424-e33d79 [Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers](jvm/GE-20260424-e33d79.md)
 - GE-20260427-0e7508 [Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules](jvm/GE-20260427-0e7508.md)
 - GE-20260427-226217 [Wrap at store time to add ctx-optional API variants without changing the fire path](jvm/GE-20260427-226217.md)
@@ -689,7 +688,6 @@
 - GE-20260517-f28d15 [qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels](jvm/GE-20260517-f28d15.md)
 - GE-20260517-f31786 [`event.fireAsync()` returns `CompletionStage<Event<T>>` not `CompletionStage<Void>` — Mutiny bridge needs `.replaceWith()`](jvm/GE-20260517-f31786.md)
 - GE-20260521-3ce7ca [@Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives](jvm/GE-20260521-3ce7ca.md)
-- GE-20260521-4de4f1 [QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append](jvm/GE-20260521-4de4f1.md)
 - GE-20260420-1d1452 [@NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time](jvm/GE-20260420-1d1452.md)
 - GE-20260420-86180e [em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context](jvm/GE-20260420-86180e.md)
 - GE-20260420-d99177 [@QuarkusTest classes sharing the same H2 in-memory JDBC URL contaminate each other's data](jvm/GE-20260420-d99177.md)
@@ -703,7 +701,6 @@
 - GE-20260501-9de50b [@ObservesAsync events from one @QuarkusTest method leak into the next via @BeforeEach clear()](jvm/GE-20260501-9de50b.md)
 - GE-20260513-4f26a7 [@DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority](jvm/GE-20260513-4f26a7.md)
 - GE-20260521-3ce7ca [@Alternative @Priority(1) from an external JAR does not override a non-alternative bean in Quarkus — needs exclude-types + selected-alternatives](jvm/GE-20260521-3ce7ca.md)
-- GE-20260521-4de4f1 [QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives entirely — does not append](jvm/GE-20260521-4de4f1.md)
 - GE-20260518-069f64 [Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection](jvm/GE-20260518-069f64.md)
 - GE-20260518-6ed073 [mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale](jvm/GE-20260518-6ed073.md)
 - GE-20260518-896005 [In-memory test doubles are not rolled back when @Transactional rolls back — JTA and non-JTA writes diverge](jvm/GE-20260518-896005.md)
@@ -997,7 +994,6 @@
 - GE-20260601-b9a489 [Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure](jvm/GE-20260601-b9a489.md)
 - GE-20260601-7a3b38 [@DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index](jvm/GE-20260601-7a3b38.md)
 - GE-20260601-ad6203 [Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain](jvm/GE-20260601-ad6203.md)
-- GE-20260601-33dd8e [@Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives](jvm/GE-20260601-33dd8e.md)
 - GE-20260601-aa7b04 [TDD for constant renames — write a PASS test first to pin existing behaviour](jvm/GE-20260601-aa7b04.md)
 - GE-20260601-848232 [quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs](jvm/GE-20260601-848232.md)
 - GE-20260601-cee623 [QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge](jvm/GE-20260601-cee623.md)
@@ -1486,6 +1482,7 @@
 - GE-20260601-350be3 [GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts](tools/GE-20260601-350be3.md)
 - GE-20260601-2e31ae [Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked](tools/GE-20260601-2e31ae.md)
 - GE-20260601-265cdc [IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities](tools/GE-20260601-265cdc.md)
+- GE-20260601-5a71f1 [update-claude-md silently skips modular routing when document_discovery.py is absent](tools/GE-20260601-5a71f1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
