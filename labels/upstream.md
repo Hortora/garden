@@ -4,3 +4,4 @@
 - GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
 - GE-20260505-ef9683: PR branch silently carries unrelated commit when cut from local main ahead of upstream
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
+- GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts

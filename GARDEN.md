@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1133
+**Entries merged since last sweep:** 1134
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1465,6 +1465,7 @@
 - GE-20260531-efe09b [OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params](tools/GE-20260531-efe09b.md)
 - GE-20260531-c7f95a [git checkout 2>/dev/null in a loop silently continues on the wrong branch](tools/GE-20260531-c7f95a.md)
 - GE-20260601-8c9e4b [Stamp a git branch locked in a linked worktree using commit-tree + update-ref](tools/GE-20260601-8c9e4b.md)
+- GE-20260601-350be3 [GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts](tools/GE-20260601-350be3.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
