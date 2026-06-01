@@ -442,3 +442,4 @@
 | GE-20260601-8c9e4b | Stamp a git branch locked in a linked worktree using commit-tree + update-ref | technique | 10/15 |
 | GE-20260601-350be3 | GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts | gotcha | 10/15 |
 | GE-20260601-2e31ae | Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked | technique | 8/15 |
+| GE-20260601-265cdc | IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities | gotcha | 11/15 |

@@ -470,3 +470,6 @@
 | GE-20260601-ad6203 | Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain | gotcha | 10/15 |
 | GE-20260601-33dd8e | @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives | gotcha | 9/15 |
 | GE-20260601-aa7b04 | TDD for constant renames — write a PASS test first to pin existing behaviour | technique | 11/15 |
+| GE-20260601-848232 | quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs | gotcha | 12/15 |
+| GE-20260601-cee623 | QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge | gotcha | 12/15 |
+| GE-20260601-81be07 | Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean | technique | 9/15 |
