@@ -199,3 +199,4 @@
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260602-047ac4: Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
+- GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns

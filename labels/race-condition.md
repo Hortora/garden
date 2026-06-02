@@ -4,3 +4,4 @@
 - GE-20260421-368e34: Use a terrainReady flag in window.__test instead of threeReady when loadTerrain() is async — prevents Playwright race
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
 - GE-20260525-6accc3: Electron ready-to-show handler missed if registered after await loadURL — IPC messages silently lost
+- GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns

@@ -496,3 +496,5 @@
 | GE-20260602-6cfbdb | ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage() | gotcha | 12/15 |
 | GE-20260602-c38360 | PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache | gotcha | 10/15 |
 | GE-20260602-488fa9 | Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly | gotcha | 9/15 |
+| GE-20260602-6941d6 | Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns | technique | 11/15 |
+| GE-20260602-298736 | Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness | gotcha | 8/15 |

@@ -404,3 +404,4 @@
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
+- GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns

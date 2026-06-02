@@ -2,3 +2,4 @@
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
 - GE-20260525-55d8f6: Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
+- GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness

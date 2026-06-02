@@ -94,3 +94,4 @@
 - GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
+- GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness

@@ -42,3 +42,4 @@
 - GE-20260601-cee623: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns
