@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1187
+**Entries merged since last sweep:** 1188
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -39,6 +39,7 @@
 - GE-20260531-4e21c1 [casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift](casehub-engine/GE-20260531-4e21c1.md)
 - GE-20260531-d896bf [SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions](casehub-engine/GE-20260531-d896bf.md)
 - GE-20260531-e5a1aa [Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them](casehub-engine/GE-20260531-e5a1aa.md)
+- GE-20260602-c68651 [casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath](casehub-engine/GE-20260602-c68651.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
