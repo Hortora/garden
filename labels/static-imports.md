@@ -1,0 +1,1 @@
+- GE-20260602-793302: Checkstyle AvoidStarImport applies to static imports — test assertion methods caught

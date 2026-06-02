@@ -29,3 +29,4 @@
 - GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
 - GE-20260530-5e5c67: runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
+- GE-20260602-286f16: Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()

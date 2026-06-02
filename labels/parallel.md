@@ -2,3 +2,4 @@
 - GE-20260414-f0bfd8: Dispatch TDD subagents with 'read source first, then write tests' instruction to get targeted assertions
 - GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
 - GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
+- GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit

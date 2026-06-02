@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1173
+**Entries merged since last sweep:** 1179
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1014,6 +1014,12 @@
 - GE-20260602-2cff5e [Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type](jvm/GE-20260602-2cff5e.md)
 - GE-20260602-a4d290 [new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required](jvm/GE-20260602-a4d290.md)
 - GE-20260602-f2ca07 [Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload](jvm/GE-20260602-f2ca07.md)
+- GE-20260602-286f16 [Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()](jvm/GE-20260602-286f16.md)
+- GE-20260602-793302 [Checkstyle AvoidStarImport applies to static imports — test assertion methods caught](jvm/GE-20260602-793302.md)
+- GE-20260602-bacaf2 [Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles](jvm/GE-20260602-bacaf2.md)
+- GE-20260602-047ac4 [Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects](jvm/GE-20260602-047ac4.md)
+- GE-20260602-c4a68a [Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit](jvm/GE-20260602-c4a68a.md)
+- GE-20260602-6cfbdb [ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()](jvm/GE-20260602-6cfbdb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

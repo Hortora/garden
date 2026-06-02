@@ -488,3 +488,9 @@
 | GE-20260602-2cff5e | Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type | gotcha | 11/15 |
 | GE-20260602-a4d290 | new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required | undocumented | 11/15 |
 | GE-20260602-f2ca07 | Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload | technique | 10/15 |
+| GE-20260602-286f16 | Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor() | gotcha | 9/15 |
+| GE-20260602-793302 | Checkstyle AvoidStarImport applies to static imports — test assertion methods caught | gotcha | 8/15 |
+| GE-20260602-bacaf2 | Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles | gotcha | 9/15 |
+| GE-20260602-047ac4 | Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects | technique | 10/15 |
+| GE-20260602-c4a68a | Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit | technique | 9/15 |
+| GE-20260602-6cfbdb | ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage() | gotcha | 12/15 |
