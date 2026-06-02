@@ -498,3 +498,6 @@
 | GE-20260602-488fa9 | Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly | gotcha | 9/15 |
 | GE-20260602-6941d6 | Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns | technique | 11/15 |
 | GE-20260602-298736 | Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness | gotcha | 8/15 |
+| GE-20260602-fd91cb | jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name | gotcha | 10/15 |
+| GE-20260602-9eb73f | Java record toString() in REST response maps returns type representation, not value — silently corrupts output | gotcha | 11/15 |
+| GE-20260602-63b535 | JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts | gotcha | 9/15 |

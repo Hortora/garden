@@ -405,3 +405,6 @@
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
 - GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns
+- GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name
+- GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
+- GE-20260602-63b535: JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts

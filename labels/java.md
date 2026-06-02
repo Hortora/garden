@@ -95,3 +95,4 @@
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
+- GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name

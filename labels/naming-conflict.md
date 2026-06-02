@@ -1,0 +1,1 @@
+- GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name

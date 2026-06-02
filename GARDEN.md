@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1192
+**Entries merged since last sweep:** 1195
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1025,6 +1025,9 @@
 - GE-20260602-488fa9 [Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly](jvm/GE-20260602-488fa9.md)
 - GE-20260602-6941d6 [Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns](jvm/GE-20260602-6941d6.md)
 - GE-20260602-298736 [Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness](jvm/GE-20260602-298736.md)
+- GE-20260602-fd91cb [jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name](jvm/GE-20260602-fd91cb.md)
+- GE-20260602-9eb73f [Java record toString() in REST response maps returns type representation, not value — silently corrupts output](jvm/GE-20260602-9eb73f.md)
+- GE-20260602-63b535 [JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts](jvm/GE-20260602-63b535.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

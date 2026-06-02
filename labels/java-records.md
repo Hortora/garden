@@ -3,3 +3,4 @@
 - GE-20260602-2cff5e: Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type
 - GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
 - GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
+- GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output

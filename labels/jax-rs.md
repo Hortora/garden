@@ -15,3 +15,5 @@
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
 - GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404
 - GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
+- GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name
+- GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
