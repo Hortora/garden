@@ -263,3 +263,4 @@
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260602-dfc29a: Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted()
+- GE-20260529-4691e8: Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()

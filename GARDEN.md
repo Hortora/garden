@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1197
+**Entries merged since last sweep:** 1200
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1030,6 +1030,9 @@
 - GE-20260602-9eb73f [Java record toString() in REST response maps returns type representation, not value — silently corrupts output](jvm/GE-20260602-9eb73f.md)
 - GE-20260602-63b535 [JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts](jvm/GE-20260602-63b535.md)
 - GE-20260602-dfc29a [Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted()](jvm/GE-20260602-dfc29a.md)
+- GE-20260529-4691e8 [Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()](jvm/GE-20260529-4691e8.md)
+- GE-20260602-093fea [@Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it](jvm/GE-20260602-093fea.md)
+- GE-20260602-f8c7db [claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required](jvm/GE-20260602-f8c7db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

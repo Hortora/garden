@@ -41,3 +41,4 @@
 - GE-20260602-286f16: Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()
 - GE-20260602-488fa9: Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
+- GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
