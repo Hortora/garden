@@ -486,3 +486,4 @@
 | GE-20260601-c09f71 | ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing | gotcha | 11/15 |
 | GE-20260601-85afd0 | Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG | technique | 13/15 |
 | GE-20260602-2cff5e | Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type | gotcha | 11/15 |
+| GE-20260602-a4d290 | new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required | undocumented | 11/15 |

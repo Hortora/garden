@@ -7,3 +7,4 @@
 - GE-20260531-d896bf: SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions
 - GE-20260531-e5a1aa: Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them
 - GE-20260602-2cff5e: Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type
+- GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required

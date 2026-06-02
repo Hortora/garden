@@ -1,0 +1,1 @@
+- GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
