@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1172
+**Entries merged since last sweep:** 1173
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1013,6 +1013,7 @@
 - GE-20260601-85afd0 [Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG](jvm/GE-20260601-85afd0.md)
 - GE-20260602-2cff5e [Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type](jvm/GE-20260602-2cff5e.md)
 - GE-20260602-a4d290 [new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required](jvm/GE-20260602-a4d290.md)
+- GE-20260602-f2ca07 [Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload](jvm/GE-20260602-f2ca07.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,3 +1,4 @@
 - GE-20260423-878486: quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+
 - GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
+- GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload

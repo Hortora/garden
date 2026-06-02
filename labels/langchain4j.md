@@ -9,3 +9,4 @@
 - GE-20260529-0b8284: Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()
 - GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()
 - GE-20260531-bd4b53: quarkus-langchain4j-anthropic 0.26.1 fails with 'Run time configuration cannot be consumed in Build Steps' on Quarkus 3.33+
+- GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload

@@ -1,0 +1,1 @@
+- GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
