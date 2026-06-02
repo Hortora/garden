@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1202
+**Entries merged since last sweep:** 1203
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1035,6 +1035,7 @@
 - GE-20260602-f8c7db [claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required](jvm/GE-20260602-f8c7db.md)
 - GE-20260602-093fea [@Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it](jvm/GE-20260602-093fea.md)
 - GE-20260602-f8c7db [claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required](jvm/GE-20260602-f8c7db.md)
+- GE-20260602-9ae24a [@ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest](jvm/GE-20260602-9ae24a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

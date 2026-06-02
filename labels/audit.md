@@ -5,3 +5,4 @@
 - GE-20260522-fee40e: Audit closed status of all branches without checkout using git show <branch>:path
 - GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable
 - GE-20260531-ed2f7a: @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event
+- GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest

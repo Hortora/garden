@@ -2,3 +2,4 @@
 - GE-20260521-1e95dc: Static test capture list in @ObservesAsync @Mock bean is a data race with the test thread
 - GE-20260513-b15933: @ObservesAsync CDI events are silently not delivered in @QuarkusTest — call observer directly
 - GE-20260531-e1ce47: CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events
+- GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest

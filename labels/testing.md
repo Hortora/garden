@@ -264,3 +264,4 @@
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260602-dfc29a: Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted()
 - GE-20260529-4691e8: Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()
+- GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest
