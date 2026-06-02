@@ -27,3 +27,4 @@
 - GE-20260529-bfa5d5: WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
 - GE-20260531-864d8e: @Observes silently never fires for casehub-engine WorkerDecisionEvent — must use @ObservesAsync
+- GE-20260602-dfc29a: Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted()

@@ -501,3 +501,4 @@
 | GE-20260602-fd91cb | jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name | gotcha | 10/15 |
 | GE-20260602-9eb73f | Java record toString() in REST response maps returns type representation, not value — silently corrupts output | gotcha | 11/15 |
 | GE-20260602-63b535 | JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts | gotcha | 9/15 |
+| GE-20260602-dfc29a | Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted() | gotcha | 9/15 |
