@@ -19,3 +19,4 @@
 | GE-20260531-d896bf | SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions | gotcha | 10/15 |
 | GE-20260531-e5a1aa | Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them | undocumented | 8/15 |
 | GE-20260602-c68651 | casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath | gotcha | 10/15 |
+| GE-20260602-c68651 | casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath | gotcha | 10/15 |

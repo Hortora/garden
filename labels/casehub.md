@@ -29,3 +29,4 @@
 - GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing
 - GE-20260601-85afd0: Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
+- GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
