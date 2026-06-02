@@ -1,2 +1,3 @@
 - GE-20260529-0b8284: Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()
 - GE-20260529-0c80ca: LangChain4j StreamingChatModel: mock doChat() not chat() — default chat() wraps handler in observingHandler before calling doChat()
+- GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache

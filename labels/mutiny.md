@@ -30,3 +30,5 @@
 - GE-20260530-5e5c67: runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260602-286f16: Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()
+- GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
+- GE-20260602-488fa9: Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly

@@ -494,3 +494,5 @@
 | GE-20260602-047ac4 | Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects | technique | 10/15 |
 | GE-20260602-c4a68a | Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit | technique | 9/15 |
 | GE-20260602-6cfbdb | ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage() | gotcha | 12/15 |
+| GE-20260602-c38360 | PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache | gotcha | 10/15 |
+| GE-20260602-488fa9 | Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly | gotcha | 9/15 |

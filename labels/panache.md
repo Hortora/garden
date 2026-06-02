@@ -56,3 +56,4 @@
 - GE-20260529-9f3557: @TestTransaction + JPA auto-flush makes store-seam compliance tests pass before the fix is applied
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
+- GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache

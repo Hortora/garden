@@ -132,3 +132,4 @@
 - GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts
 - GE-20260601-2e31ae: Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
+- GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied

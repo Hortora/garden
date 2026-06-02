@@ -403,3 +403,4 @@
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
+- GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache

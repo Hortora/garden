@@ -454,3 +454,4 @@
 | GE-20260602-258bf9 | Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously | technique | 14/15 |
 | GE-20260602-1fb07b | Enumerate atomic facts before content migration — makes loss detectable, not just possible | technique | 13/15 |
 | GE-20260602-73b303 | Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction | gotcha | 9/15 |
+| GE-20260602-fd2a31 | git rebase on backup/pre-squash-* base silently fails — commits already applied | gotcha | 9/15 |
