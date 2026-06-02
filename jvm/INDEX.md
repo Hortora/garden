@@ -505,3 +505,5 @@
 | GE-20260529-4691e8 | Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage() | technique | 10/15 |
 | GE-20260602-093fea | @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it | gotcha | 10/15 |
 | GE-20260602-f8c7db | claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required | gotcha | 9/15 |
+| GE-20260602-093fea | @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it | gotcha | 10/15 |
+| GE-20260602-f8c7db | claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required | gotcha | 9/15 |
