@@ -13,3 +13,4 @@
 - GE-20260602-cd71e3: Structural prescription locks documentation mode — narrative instruction alone causes prose drift
 - GE-20260602-258bf9: Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously
 - GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible
+- GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading

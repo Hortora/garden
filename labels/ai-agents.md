@@ -1,1 +1,2 @@
 - GE-20260531-de42ae: AI agent auto-commit: use a per-turn flag, not a per-tool-call stack
+- GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading

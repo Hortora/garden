@@ -14,3 +14,4 @@
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
 - GE-20260504-c0c8dc: IntelliJ MCP session ties to IDE lifecycle — HTTP 404 on IDE restart kills in-flight Claude sessions
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
+- GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading

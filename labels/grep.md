@@ -2,3 +2,4 @@
 - GE-20260511-3986e6: `&&`-chained grep commands silently stop when any grep finds nothing (exit 1)
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
+- GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts

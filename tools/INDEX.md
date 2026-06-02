@@ -455,3 +455,5 @@
 | GE-20260602-1fb07b | Enumerate atomic facts before content migration — makes loss detectable, not just possible | technique | 13/15 |
 | GE-20260602-73b303 | Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction | gotcha | 9/15 |
 | GE-20260602-fd2a31 | git rebase on backup/pre-squash-* base silently fails — commits already applied | gotcha | 9/15 |
+| GE-20260529-182916 | project-init fast-path gives false negatives for two common workspace layouts | gotcha | 9/15 |
+| GE-20260602-7e604f | Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading | technique | 13/15 |

@@ -8,3 +8,4 @@
 - GE-20260524-d643d9: marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
 - GE-20260529-4518ac: Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces
+- GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts

@@ -38,3 +38,5 @@
 - GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent
 - GE-20260602-c6bfb7: IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause
 - GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction
+- GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
+- GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading
