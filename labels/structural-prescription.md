@@ -1,0 +1,1 @@
+- GE-20260602-cd71e3: Structural prescription locks documentation mode — narrative instruction alone causes prose drift

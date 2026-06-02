@@ -24,3 +24,4 @@
 - GE-20260529-7985ba: quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties
 - GE-20260529-6eccfe: Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data
 - GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly
+- GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible

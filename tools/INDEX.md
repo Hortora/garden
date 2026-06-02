@@ -449,3 +449,8 @@
 | GE-20260601-607fc9 | Pre-push hook that always blocks — not candidate-based | gotcha | 9/15 |
 | GE-20260601-3fe99d | Java 'cannot find symbol' names the class FQCN — not which artifact is missing it | gotcha | 8/15 |
 | GE-20260601-60efe8 | gh workflow run — manually trigger a repo's CI without a dummy commit | technique | 8/15 |
+| GE-20260602-9c056b | Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom | technique | 15/15 |
+| GE-20260602-cd71e3 | Structural prescription locks documentation mode — narrative instruction alone causes prose drift | technique | 14/15 |
+| GE-20260602-258bf9 | Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously | technique | 14/15 |
+| GE-20260602-1fb07b | Enumerate atomic facts before content migration — makes loss detectable, not just possible | technique | 13/15 |
+| GE-20260602-73b303 | Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction | gotcha | 9/15 |

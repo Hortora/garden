@@ -1,0 +1,1 @@
+- GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible

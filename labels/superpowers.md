@@ -1,1 +1,2 @@
 - GE-20260421-5817bb: Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill
+- GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction

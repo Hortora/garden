@@ -1,2 +1,1 @@
-- GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency
 - GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction

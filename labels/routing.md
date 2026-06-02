@@ -3,3 +3,4 @@
 - GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router
 - GE-20260421-bdf1a4: RESTEasy Reactive: {path:.*} wildcard route captures GET / — bare @GET is never reached
 - GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404
+- GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction

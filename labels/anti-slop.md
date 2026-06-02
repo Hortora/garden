@@ -1,0 +1,1 @@
+- GE-20260602-9c056b: Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom

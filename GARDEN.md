@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1179
+**Entries merged since last sweep:** 1184
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1508,6 +1508,11 @@
 - GE-20260601-607fc9 [Pre-push hook that always blocks — not candidate-based](tools/GE-20260601-607fc9.md)
 - GE-20260601-3fe99d [Java 'cannot find symbol' names the class FQCN — not which artifact is missing it](tools/GE-20260601-3fe99d.md)
 - GE-20260601-60efe8 [gh workflow run — manually trigger a repo's CI without a dummy commit](tools/GE-20260601-60efe8.md)
+- GE-20260602-9c056b [Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom](tools/GE-20260602-9c056b.md)
+- GE-20260602-cd71e3 [Structural prescription locks documentation mode — narrative instruction alone causes prose drift](tools/GE-20260602-cd71e3.md)
+- GE-20260602-258bf9 [Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously](tools/GE-20260602-258bf9.md)
+- GE-20260602-1fb07b [Enumerate atomic facts before content migration — makes loss detectable, not just possible](tools/GE-20260602-1fb07b.md)
+- GE-20260602-73b303 [Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction](tools/GE-20260602-73b303.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

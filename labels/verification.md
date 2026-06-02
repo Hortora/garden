@@ -4,3 +4,4 @@
 - GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
 - GE-20260522-e062ba: Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
+- GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible

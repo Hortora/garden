@@ -1,0 +1,1 @@
+- GE-20260602-258bf9: Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously

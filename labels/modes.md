@@ -1,0 +1,2 @@
+- GE-20260602-9c056b: Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom
+- GE-20260602-cd71e3: Structural prescription locks documentation mode — narrative instruction alone causes prose drift
