@@ -1,3 +1,4 @@
 - GE-20260516-fba7b6: git -C <path> is required in Claude Bash tool calls — cd state does not persist between calls
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
+- GE-20260603-fde412: claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder

@@ -512,3 +512,7 @@
 | GE-20260603-268164 | quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors | gotcha | 11/15 |
 | GE-20260603-1559a3 | Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests | gotcha | 12/15 |
 | GE-20260603-4b1d1b | quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run | technique | 9/15 |
+| GE-20260603-d7aa80 | Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout | gotcha | 15/15 |
+| GE-20260603-b17e57 | Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams | technique | 14/15 |
+| GE-20260603-fdc6d5 | @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread | technique | 13/15 |
+| GE-20260603-1c03a1 | Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux | gotcha | 11/15 |

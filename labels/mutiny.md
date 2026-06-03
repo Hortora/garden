@@ -33,3 +33,6 @@
 - GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
 - GE-20260602-488fa9: Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
+- GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
+- GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
+- GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
