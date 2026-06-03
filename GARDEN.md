@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1217
+**Entries merged since last sweep:** 1223
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1044,6 +1044,7 @@
 - GE-20260603-b17e57 [Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams](jvm/GE-20260603-b17e57.md)
 - GE-20260603-fdc6d5 [@Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread](jvm/GE-20260603-fdc6d5.md)
 - GE-20260603-1c03a1 [Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux](jvm/GE-20260603-1c03a1.md)
+- GE-20260603-301b80 [langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types](jvm/GE-20260603-301b80.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1546,6 +1547,11 @@
 - GE-20260603-ed7a17 [git update-ref moves a local branch to any ref without checking it out](tools/GE-20260603-ed7a17.md)
 - GE-20260603-f257ab [In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes](tools/GE-20260603-f257ab.md)
 - GE-20260522-cf54ad [`git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content](tools/GE-20260522-cf54ad.md)
+- GE-20260603-3b267a [mcp__intellij-index__ide_search_text uses `query` parameter, not `q`](tools/GE-20260603-3b267a.md)
+- GE-20260603-1a45aa [mcp__intellij-index__ide_find_references requires file, line, AND column — omitting column errors](tools/GE-20260603-1a45aa.md)
+- GE-20260603-a4e92f [mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns](tools/GE-20260603-a4e92f.md)
+- GE-20260603-cab7b9 [Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot](tools/GE-20260603-cab7b9.md)
+- GE-20260603-7808c8 [ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation](tools/GE-20260603-7808c8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

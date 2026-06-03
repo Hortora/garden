@@ -1,2 +1,7 @@
 - GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
 - GE-20260511-88aede: IntelliJ build_project catches test-source compilation errors that Maven misreports as main-source failures
+- GE-20260603-3b267a: mcp__intellij-index__ide_search_text uses `query` parameter, not `q`
+- GE-20260603-1a45aa: mcp__intellij-index__ide_find_references requires file, line, AND column — omitting column errors
+- GE-20260603-a4e92f: mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns
+- GE-20260603-cab7b9: Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot
+- GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation

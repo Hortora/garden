@@ -1,0 +1,2 @@
+- GE-20260603-3b267a: mcp__intellij-index__ide_search_text uses `query` parameter, not `q`
+- GE-20260603-1a45aa: mcp__intellij-index__ide_find_references requires file, line, AND column — omitting column errors

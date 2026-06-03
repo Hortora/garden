@@ -1,2 +1,1 @@
-- GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
 - GE-20260603-cab7b9: Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot

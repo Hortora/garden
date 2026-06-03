@@ -463,3 +463,8 @@
 | GE-20260603-ed7a17 | git update-ref moves a local branch to any ref without checking it out | technique | 9/15 |
 | GE-20260603-f257ab | In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes | gotcha | 9/15 |
 | GE-20260522-cf54ad | `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content | gotcha | 11/15 |
+| GE-20260603-3b267a | mcp__intellij-index__ide_search_text uses `query` parameter, not `q` | gotcha | 11/15 |
+| GE-20260603-1a45aa | mcp__intellij-index__ide_find_references requires file, line, AND column — omitting column errors | gotcha | 10/15 |
+| GE-20260603-a4e92f | mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns | gotcha | 12/15 |
+| GE-20260603-cab7b9 | Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot | technique | 12/15 |
+| GE-20260603-7808c8 | ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation | technique | 11/15 |

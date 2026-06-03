@@ -40,3 +40,8 @@
 - GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
 - GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading
+- GE-20260603-3b267a: mcp__intellij-index__ide_search_text uses `query` parameter, not `q`
+- GE-20260603-1a45aa: mcp__intellij-index__ide_find_references requires file, line, AND column — omitting column errors
+- GE-20260603-a4e92f: mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns
+- GE-20260603-cab7b9: Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot
+- GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
