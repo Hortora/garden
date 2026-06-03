@@ -135,3 +135,5 @@
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260603-ba54b8: git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260603-ed7a17: git update-ref moves a local branch to any ref without checking it out
+- GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1214
+**Entries merged since last sweep:** 1216
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1543,6 +1543,8 @@
 - GE-20260603-ba54b8 [git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe](tools/GE-20260603-ba54b8.md)
 - GE-20260521-cb1eea [git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main](tools/GE-20260521-cb1eea.md)
 - GE-20260603-fde412 [claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder](tools/GE-20260603-fde412.md)
+- GE-20260603-ed7a17 [git update-ref moves a local branch to any ref without checking it out](tools/GE-20260603-ed7a17.md)
+- GE-20260603-f257ab [In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes](tools/GE-20260603-f257ab.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

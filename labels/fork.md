@@ -13,3 +13,4 @@
 - GE-20260522-b9a6d4: git push --force-with-lease always rejects on a freshly-created GitHub fork
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
 - GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts
+- GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes

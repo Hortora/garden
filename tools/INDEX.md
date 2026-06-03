@@ -460,3 +460,5 @@
 | GE-20260603-ba54b8 | git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe | gotcha | 11/15 |
 | GE-20260521-cb1eea | git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main | gotcha | 10/15 |
 | GE-20260603-fde412 | claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder | undocumented | 9/15 |
+| GE-20260603-ed7a17 | git update-ref moves a local branch to any ref without checking it out | technique | 9/15 |
+| GE-20260603-f257ab | In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes | gotcha | 9/15 |

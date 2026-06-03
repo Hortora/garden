@@ -1,0 +1,1 @@
+- GE-20260603-ed7a17: git update-ref moves a local branch to any ref without checking it out

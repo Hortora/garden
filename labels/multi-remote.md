@@ -1,0 +1,1 @@
+- GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes

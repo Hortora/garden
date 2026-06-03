@@ -13,3 +13,4 @@
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260521-eaa1e1: git rebase $BRANCH while on main replays main's commits onto the branch tip, not the other way
+- GE-20260603-ed7a17: git update-ref moves a local branch to any ref without checking it out
