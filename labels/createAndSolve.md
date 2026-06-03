@@ -1,0 +1,1 @@
+- GE-20260603-a944d1: CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference

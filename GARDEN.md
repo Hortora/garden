@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1226
+**Entries merged since last sweep:** 1228
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -41,6 +41,8 @@
 - GE-20260531-e5a1aa [Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them](casehub-engine/GE-20260531-e5a1aa.md)
 - GE-20260602-c68651 [casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath](casehub-engine/GE-20260602-c68651.md)
 - GE-20260602-c68651 [casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath](casehub-engine/GE-20260602-c68651.md)
+- GE-20260603-e98633 [TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored](casehub-engine/GE-20260603-e98633.md)
+- GE-20260603-a944d1 [CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference](casehub-engine/GE-20260603-a944d1.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

@@ -20,3 +20,5 @@
 | GE-20260531-e5a1aa | Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them | undocumented | 8/15 |
 | GE-20260602-c68651 | casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath | gotcha | 10/15 |
 | GE-20260602-c68651 | casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath | gotcha | 10/15 |
+| GE-20260603-e98633 | TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored | gotcha | 13/15 |
+| GE-20260603-a944d1 | CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference | gotcha | 11/15 |

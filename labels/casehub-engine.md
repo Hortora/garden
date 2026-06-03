@@ -24,3 +24,5 @@
 - GE-20260531-4e21c1: casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift
 - GE-20260531-d896bf: SubCase M-of-N fields (groupId, totalInGroup, requiredCount, onThresholdReached) are DSL-only — not supported in YAML case definitions
 - GE-20260531-e5a1aa: Milestone YAML field is 'condition' not 'completionCriteria' — mapper converts between them
+- GE-20260603-e98633: TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored
+- GE-20260603-a944d1: CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference

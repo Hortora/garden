@@ -1,0 +1,1 @@
+- GE-20260603-e98633: TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored

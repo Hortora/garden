@@ -17,3 +17,4 @@
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
 - GE-20260602-793302: Checkstyle AvoidStarImport applies to static imports — test assertion methods caught
+- GE-20260603-a944d1: CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference
