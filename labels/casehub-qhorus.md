@@ -14,3 +14,4 @@
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
+- GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup

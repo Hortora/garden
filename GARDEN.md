@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1228
+**Entries merged since last sweep:** 1229
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1050,6 +1050,7 @@
 - GE-20260603-8f582a [Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>](jvm/GE-20260603-8f582a.md)
 - GE-20260603-f32ff2 [@Transactional catch block cannot prevent TransactionalException from propagating to the caller](jvm/GE-20260603-f32ff2.md)
 - GE-20260603-dfcecc [Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean](jvm/GE-20260603-dfcecc.md)
+- GE-20260603-7ea359 [Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup](jvm/GE-20260603-7ea359.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

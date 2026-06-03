@@ -23,3 +23,4 @@
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
 - GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface
 - GE-20260603-301b80: langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types
+- GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup

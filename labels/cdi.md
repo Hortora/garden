@@ -208,3 +208,4 @@
 - GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
+- GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
