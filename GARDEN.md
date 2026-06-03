@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1207
+**Entries merged since last sweep:** 1208
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1536,6 +1536,7 @@
 - GE-20260602-fd2a31 [git rebase on backup/pre-squash-* base silently fails — commits already applied](tools/GE-20260602-fd2a31.md)
 - GE-20260529-182916 [project-init fast-path gives false negatives for two common workspace layouts](tools/GE-20260529-182916.md)
 - GE-20260602-7e604f [Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading](tools/GE-20260602-7e604f.md)
+- GE-20260603-ba54b8 [git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe](tools/GE-20260603-ba54b8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

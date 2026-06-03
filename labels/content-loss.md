@@ -1,1 +1,2 @@
 - GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible
+- GE-20260603-ba54b8: git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe

@@ -19,3 +19,4 @@
 - GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
+- GE-20260603-ba54b8: git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe
