@@ -35,3 +35,4 @@
 - GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
 - GE-20260601-5a71f1: update-claude-md silently skips modular routing when document_discovery.py is absent
 - GE-20260603-e98633: TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored
+- GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error

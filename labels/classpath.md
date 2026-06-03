@@ -20,3 +20,4 @@
 - GE-20260531-5137f7: mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
+- GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error

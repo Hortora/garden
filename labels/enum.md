@@ -8,3 +8,4 @@
 - GE-20260531-5e6553: Put format-to-dimension mapping on the enum as a static factory method shared by all consumers
 - GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
+- GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations

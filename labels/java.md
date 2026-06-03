@@ -97,3 +97,4 @@
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
 - GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name
 - GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>
+- GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations

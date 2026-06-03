@@ -523,3 +523,5 @@
 | GE-20260603-7ea359 | Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup | undocumented | 9/15 |
 | GE-20260603-86f2a9 | H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING | gotcha | 9/15 |
 | GE-20260603-83883c | JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured | gotcha | 11/15 |
+| GE-20260603-753526 | Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations | gotcha | 13/15 |
+| GE-20260603-5a5cc0 | ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error | gotcha | 9/15 |
