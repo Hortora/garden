@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1234
+**Entries merged since last sweep:** 1235
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1055,6 +1055,7 @@
 - GE-20260603-83883c [JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured](jvm/GE-20260603-83883c.md)
 - GE-20260603-753526 [Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations](jvm/GE-20260603-753526.md)
 - GE-20260603-5a5cc0 [ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error](jvm/GE-20260603-5a5cc0.md)
+- GE-20260603-ed5e47 [Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep](jvm/GE-20260603-ed5e47.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

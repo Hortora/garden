@@ -1,0 +1,1 @@
+- GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep

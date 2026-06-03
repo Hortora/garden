@@ -18,3 +18,4 @@
 - GE-20260602-047ac4: Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects
 - GE-20260602-6cfbdb: ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
+- GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep

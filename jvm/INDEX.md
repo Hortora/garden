@@ -525,3 +525,4 @@
 | GE-20260603-83883c | JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured | gotcha | 11/15 |
 | GE-20260603-753526 | Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations | gotcha | 13/15 |
 | GE-20260603-5a5cc0 | ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error | gotcha | 9/15 |
+| GE-20260603-ed5e47 | Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep | technique | 9/15 |

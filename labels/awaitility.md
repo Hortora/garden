@@ -4,3 +4,4 @@
 - GE-20260525-f09688: CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead
 - GE-20260601-a35fb3: InMemoryCaseInstanceRepository.findByUuid(UUID, String) silently returns null when stored tenancyId is null — NPE buried as Suppressed in ConditionTimeoutException
 - GE-20260602-dfc29a: Awaitility failMessage() does not exist in 4.3.0 — embed message via assertThat().as() inside untilAsserted()
+- GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep
