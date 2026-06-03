@@ -1,0 +1,1 @@
+- GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run

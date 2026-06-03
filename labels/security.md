@@ -6,3 +6,4 @@
 - GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values
 - GE-20260528-55a526: Extract security enforcement to a static utility when it must be callable from both blocking and reactive-only SPI adapters
 - GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
+- GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests

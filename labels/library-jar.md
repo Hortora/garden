@@ -1,2 +1,3 @@
 - GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
 - GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260603-268164: quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors

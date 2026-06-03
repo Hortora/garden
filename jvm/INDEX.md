@@ -508,3 +508,7 @@
 | GE-20260602-093fea | @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it | gotcha | 10/15 |
 | GE-20260602-f8c7db | claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required | gotcha | 9/15 |
 | GE-20260602-9ae24a | @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest | gotcha | 10/15 |
+| GE-20260603-d67333 | PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required | gotcha | 13/15 |
+| GE-20260603-268164 | quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors | gotcha | 11/15 |
+| GE-20260603-1559a3 | Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests | gotcha | 12/15 |
+| GE-20260603-4b1d1b | quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run | technique | 9/15 |

@@ -1,0 +1,2 @@
+- GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required
+- GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests

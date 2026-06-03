@@ -43,3 +43,4 @@
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns
+- GE-20260603-268164: quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors

@@ -4,3 +4,4 @@
 - GE-20260531-2ca323: HikariCP addDataSourceProperty cannot set a Properties object on SQLiteDataSource — PropertyElf reflection coercion fails
 - GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
 - GE-20260531-df79cb: SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column
+- GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required

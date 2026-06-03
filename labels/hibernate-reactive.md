@@ -12,3 +12,4 @@
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
 - GE-20260529-78ecb9: @QuarkusTest methods calling Panache.withTransaction() on JUnit thread fail with 'No current Vertx context' — use @RunOnVertxContext + UniAsserter
 - GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
+- GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required

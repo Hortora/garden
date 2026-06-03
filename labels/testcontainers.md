@@ -6,3 +6,5 @@
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests
+- GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run

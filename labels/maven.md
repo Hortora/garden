@@ -110,3 +110,4 @@
 - GE-20260602-bacaf2: Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
+- GE-20260603-268164: quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors

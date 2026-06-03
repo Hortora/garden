@@ -10,3 +10,6 @@
 - GE-20260527-714661: PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results
 - GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
 - GE-20260601-17fa50: PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL
+- GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required
+- GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests
+- GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run
