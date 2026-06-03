@@ -462,3 +462,4 @@
 | GE-20260603-fde412 | claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder | undocumented | 9/15 |
 | GE-20260603-ed7a17 | git update-ref moves a local branch to any ref without checking it out | technique | 9/15 |
 | GE-20260603-f257ab | In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes | gotcha | 9/15 |
+| GE-20260522-cf54ad | `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content | gotcha | 11/15 |

@@ -1,2 +1,3 @@
 - GE-20260513-01e602: Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
+- GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content

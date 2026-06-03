@@ -1,1 +1,2 @@
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
+- GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content

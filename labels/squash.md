@@ -22,3 +22,4 @@
 - GE-20260603-ba54b8: git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
 - GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes
+- GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
