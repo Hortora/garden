@@ -468,3 +468,4 @@
 | GE-20260603-a4e92f | mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns | gotcha | 12/15 |
 | GE-20260603-cab7b9 | Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot | technique | 12/15 |
 | GE-20260603-7808c8 | ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation | technique | 11/15 |
+| GE-20260520-be8d9e | git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range | gotcha | 12/15 |

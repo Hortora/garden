@@ -1,2 +1,3 @@
 - GE-20260519-54d86a: git filter-repo --refs flag does not exempt the non-fresh-clone safety check
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
+- GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range

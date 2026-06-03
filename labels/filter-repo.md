@@ -4,3 +4,4 @@
 - GE-20260423-aed486: git filter-repo silently removes the origin remote on every run
 - GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history
 - GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
+- GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
