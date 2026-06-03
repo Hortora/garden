@@ -1,0 +1,1 @@
+- GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>

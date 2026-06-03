@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1223
+**Entries merged since last sweep:** 1224
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1045,6 +1045,7 @@
 - GE-20260603-fdc6d5 [@Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread](jvm/GE-20260603-fdc6d5.md)
 - GE-20260603-1c03a1 [Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux](jvm/GE-20260603-1c03a1.md)
 - GE-20260603-301b80 [langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types](jvm/GE-20260603-301b80.md)
+- GE-20260603-8f582a [Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>](jvm/GE-20260603-8f582a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

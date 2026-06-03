@@ -205,3 +205,4 @@
 - GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest
 - GE-20260603-268164: quarkus:build on a library JAR module forces CDI validation on compile-scope classpath only — spurious 'Unsatisfied dependency' errors
 - GE-20260603-fdc6d5: @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread
+- GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>

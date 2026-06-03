@@ -13,3 +13,4 @@
 - GE-20260421-c8fdb8: sed -i '' silently truncates Java files with generics on macOS
 - GE-20260523-7fcea7: ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
+- GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>
