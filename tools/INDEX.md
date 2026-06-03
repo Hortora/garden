@@ -458,3 +458,4 @@
 | GE-20260529-182916 | project-init fast-path gives false negatives for two common workspace layouts | gotcha | 9/15 |
 | GE-20260602-7e604f | Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading | technique | 13/15 |
 | GE-20260603-ba54b8 | git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe | gotcha | 11/15 |
+| GE-20260521-cb1eea | git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main | gotcha | 10/15 |

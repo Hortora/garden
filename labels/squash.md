@@ -20,3 +20,4 @@
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260603-ba54b8: git rebase silently skips commits already in target — warns 'previously applied' but doesn't say if it's safe
+- GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
