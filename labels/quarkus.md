@@ -417,3 +417,5 @@
 - GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
 - GE-20260603-fdc6d5: @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread
+- GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
+- GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean

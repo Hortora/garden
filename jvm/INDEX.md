@@ -518,3 +518,5 @@
 | GE-20260603-1c03a1 | Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux | gotcha | 11/15 |
 | GE-20260603-301b80 | langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types | undocumented | 12/15 |
 | GE-20260603-8f582a | Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>> | gotcha | 11/15 |
+| GE-20260603-f32ff2 | @Transactional catch block cannot prevent TransactionalException from propagating to the caller | gotcha | 10/15 |
+| GE-20260603-dfcecc | Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean | technique | 9/15 |
