@@ -1,0 +1,1 @@
+- GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured

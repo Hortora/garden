@@ -419,3 +419,4 @@
 - GE-20260603-fdc6d5: @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
+- GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured

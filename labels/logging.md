@@ -2,3 +2,4 @@
 - GE-20260416-99d4c6: Profile-scoped Quarkus file logging enables grep-based remote debugging
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
+- GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured
