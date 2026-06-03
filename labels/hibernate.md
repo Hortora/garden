@@ -56,3 +56,4 @@
 - GE-20260601-17fa50: PSQLException extends java.sql.SQLException — not SQLIntegrityConstraintViolationException — so instanceof catches miss in production PostgreSQL
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
 - GE-20260602-63b535: JPA @Converter(autoApply = true) globally converts all fields of that type — use autoApply = false for value types shared with non-entity contexts
+- GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING

@@ -1,0 +1,1 @@
+- GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING

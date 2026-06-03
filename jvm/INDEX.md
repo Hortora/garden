@@ -521,3 +521,4 @@
 | GE-20260603-f32ff2 | @Transactional catch block cannot prevent TransactionalException from propagating to the caller | gotcha | 10/15 |
 | GE-20260603-dfcecc | Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean | technique | 9/15 |
 | GE-20260603-7ea359 | Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup | undocumented | 9/15 |
+| GE-20260603-86f2a9 | H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING | gotcha | 9/15 |

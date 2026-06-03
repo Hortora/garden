@@ -1,1 +1,2 @@
 - GE-20260522-483b67: Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free
+- GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING

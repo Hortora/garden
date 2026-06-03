@@ -266,3 +266,4 @@
 - GE-20260529-4691e8: Deliver MimeMessage directly to Greenmail IMAP mailbox (bypassing SMTP) using MailFolder.appendMessage()
 - GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest
 - GE-20260603-8f582a: Java nested wildcard inference: List.of() with wildcards fails assignment to List<? extends Foo<?>>
+- GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING

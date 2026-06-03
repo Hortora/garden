@@ -35,3 +35,4 @@
 - GE-20260530-0dc6de: casehub-ledger LedgerProcessor doesn't self-register db/ledger/migration/*.sql for native image
 - GE-20260530-0bee65: Plain JAR (non-Quarkus extension) does not auto-register Flyway migrations — consumers must configure locations explicitly
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
+- GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING
