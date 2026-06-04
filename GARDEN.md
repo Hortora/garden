@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1247
+**Entries merged since last sweep:** 1250
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1065,6 +1065,9 @@
 - GE-20260604-c1ce51 [ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race](jvm/GE-20260604-c1ce51.md)
 - GE-20260604-043617 [Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false](jvm/GE-20260604-043617.md)
 - GE-20260604-4bfd2c [Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it](jvm/GE-20260604-4bfd2c.md)
+- GE-20260604-81a6a6 [@DefaultBean @Unremovable required when injection point lives in a different Maven module](jvm/GE-20260604-81a6a6.md)
+- GE-20260604-917790 [Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously](jvm/GE-20260604-917790.md)
+- GE-20260604-2f0889 [@Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements](jvm/GE-20260604-2f0889.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

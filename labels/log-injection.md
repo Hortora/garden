@@ -1,2 +1,1 @@
-- GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously

@@ -422,3 +422,5 @@
 - GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope
 - GE-20260604-4bfd2c: Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it
+- GE-20260604-81a6a6: @DefaultBean @Unremovable required when injection point lives in a different Maven module
+- GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements

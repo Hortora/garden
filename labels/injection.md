@@ -10,3 +10,4 @@
 - GE-20260530-385dbb: @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient
 - GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements

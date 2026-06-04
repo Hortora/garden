@@ -9,3 +9,4 @@
 - GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
 - GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
 - GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run
+- GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously

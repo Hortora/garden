@@ -15,3 +15,4 @@
 - GE-20260601-848232: quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260604-81a6a6: @DefaultBean @Unremovable required when injection point lives in a different Maven module

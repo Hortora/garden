@@ -535,3 +535,6 @@
 | GE-20260604-c1ce51 | ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race | technique | 10/15 |
 | GE-20260604-043617 | Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false | gotcha | 12/15 |
 | GE-20260604-4bfd2c | Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it | gotcha | 11/15 |
+| GE-20260604-81a6a6 | @DefaultBean @Unremovable required when injection point lives in a different Maven module | gotcha | 10/15 |
+| GE-20260604-917790 | Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously | technique | 9/15 |
+| GE-20260604-2f0889 | @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements | gotcha | 11/15 |
