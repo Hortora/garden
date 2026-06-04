@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1255
+**Entries merged since last sweep:** 1258
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1583,6 +1583,9 @@
 - GE-20260520-be8d9e [git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range](tools/GE-20260520-be8d9e.md)
 - GE-20260604-7e0560 [git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked](tools/GE-20260604-7e0560.md)
 - GE-20260529-5a82f1 [git rebase -i with partial plan silently drops branch commits beyond the listed range](tools/GE-20260529-5a82f1.md)
+- GE-20260604-60e350 [Brief/Reference mode applied globally to a README strips load-bearing explanatory prose](tools/GE-20260604-60e350.md)
+- GE-20260604-037c42 [gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking](tools/GE-20260604-037c42.md)
+- GE-20260604-4899e0 [Section-to-mode map prevents global mode application in multi-mode documents](tools/GE-20260604-4899e0.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

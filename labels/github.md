@@ -34,3 +34,4 @@
 - GE-20260528-de4fc4: GitHub PR shows DIRTY/CONFLICTING with clean diff when base branch was pushed moments before feature branch
 - GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260604-037c42: gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking

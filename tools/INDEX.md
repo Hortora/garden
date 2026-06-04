@@ -471,3 +471,6 @@
 | GE-20260520-be8d9e | git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range | gotcha | 12/15 |
 | GE-20260604-7e0560 | git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked | gotcha | 10/15 |
 | GE-20260529-5a82f1 | git rebase -i with partial plan silently drops branch commits beyond the listed range | gotcha | 14/15 |
+| GE-20260604-60e350 | Brief/Reference mode applied globally to a README strips load-bearing explanatory prose | gotcha | 11/15 |
+| GE-20260604-037c42 | gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking | gotcha | 10/15 |
+| GE-20260604-4899e0 | Section-to-mode map prevents global mode application in multi-mode documents | technique | 10/15 |

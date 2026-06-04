@@ -1,0 +1,1 @@
+- GE-20260604-037c42: gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking

@@ -14,3 +14,4 @@
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
 - GE-20260601-350be3: GitHub PR CONFLICTING/DIRTY when fork main diverged from upstream — no file conflicts
 - GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes
+- GE-20260604-037c42: gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking

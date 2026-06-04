@@ -1,0 +1,1 @@
+- GE-20260604-60e350: Brief/Reference mode applied globally to a README strips load-bearing explanatory prose

@@ -1,0 +1,1 @@
+- GE-20260604-4899e0: Section-to-mode map prevents global mode application in multi-mode documents

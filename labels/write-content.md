@@ -1,0 +1,2 @@
+- GE-20260604-60e350: Brief/Reference mode applied globally to a README strips load-bearing explanatory prose
+- GE-20260604-4899e0: Section-to-mode map prevents global mode application in multi-mode documents
