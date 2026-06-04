@@ -17,3 +17,4 @@
 - GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
 - GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
+- GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking

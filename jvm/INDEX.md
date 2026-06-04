@@ -547,3 +547,4 @@
 | GE-20260519-e193d2 | Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException | gotcha | 9/15 |
 | GE-20260604-4298f9 | @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths | gotcha | 10/15 |
 | GE-20260604-96d82a | Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking | gotcha | 11/15 |
+| GE-20260604-96d82a | Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking | gotcha | 11/15 |

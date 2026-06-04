@@ -20,3 +20,4 @@
 - GE-20260526-8c7f5f: mcp__intellij and mcp__intellij-index are separate MCP namespaces with different resolution capabilities
 - GE-20260602-c6bfb7: IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
+- GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
