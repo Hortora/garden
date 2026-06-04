@@ -469,3 +469,5 @@
 | GE-20260603-cab7b9 | Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot | technique | 12/15 |
 | GE-20260603-7808c8 | ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation | technique | 11/15 |
 | GE-20260520-be8d9e | git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range | gotcha | 12/15 |
+| GE-20260604-7e0560 | git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked | gotcha | 10/15 |
+| GE-20260529-5a82f1 | git rebase -i with partial plan silently drops branch commits beyond the listed range | gotcha | 14/15 |

@@ -1,3 +1,4 @@
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
+- GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range

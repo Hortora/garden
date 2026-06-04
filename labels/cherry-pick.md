@@ -9,3 +9,4 @@
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
