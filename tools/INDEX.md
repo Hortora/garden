@@ -474,3 +474,5 @@
 | GE-20260604-60e350 | Brief/Reference mode applied globally to a README strips load-bearing explanatory prose | gotcha | 11/15 |
 | GE-20260604-037c42 | gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking | gotcha | 10/15 |
 | GE-20260604-4899e0 | Section-to-mode map prevents global mode application in multi-mode documents | technique | 10/15 |
+| GE-20260602-fd2a31 | git rebase on backup/pre-squash-* base silently fails — commits already applied | gotcha | 9/15 |
+| GE-20260604-eae751 | Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical | technique | 12/15 |

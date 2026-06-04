@@ -141,3 +141,5 @@
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
 - GE-20260604-7e0560: git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
+- GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
+- GE-20260604-eae751: Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical

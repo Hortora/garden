@@ -1,0 +1,1 @@
+- GE-20260604-eae751: Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical
