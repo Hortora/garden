@@ -3,3 +3,4 @@
 - GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
 - GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
 - GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour
+- GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate

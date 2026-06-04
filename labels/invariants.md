@@ -1,0 +1,1 @@
+- GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate

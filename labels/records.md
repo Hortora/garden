@@ -6,3 +6,4 @@
 - GE-20260529-709049: Java 21 sealed interface with nested records requires no explicit permits clause
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
 - GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values
+- GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate
