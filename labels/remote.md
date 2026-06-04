@@ -2,3 +2,4 @@
 - GE-20260511-db8f50: git-squash on a fork+upstream repo silently operates on the stale fork, not the authoritative remote
 - GE-20260521-f4c128: gh repo create defaults to SSH remote — fails silently on machines without SSH keys
 - GE-20260522-b341ae: GitHub transparently redirects git push after repo transfer — old origin URL still works
+- GE-20260604-3aed8c: GitHub repo transfer leaves old remote URL silently redirecting — git push succeeds with a notice, not an error

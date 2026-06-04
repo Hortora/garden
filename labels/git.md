@@ -143,3 +143,4 @@
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260604-eae751: Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical
+- GE-20260604-3aed8c: GitHub repo transfer leaves old remote URL silently redirecting — git push succeeds with a notice, not an error

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1270
+**Entries merged since last sweep:** 1271
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1598,6 +1598,7 @@
 - GE-20260604-4899e0 [Section-to-mode map prevents global mode application in multi-mode documents](tools/GE-20260604-4899e0.md)
 - GE-20260602-fd2a31 [git rebase on backup/pre-squash-* base silently fails — commits already applied](tools/GE-20260602-fd2a31.md)
 - GE-20260604-eae751 [Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical](tools/GE-20260604-eae751.md)
+- GE-20260604-3aed8c [GitHub repo transfer leaves old remote URL silently redirecting — git push succeeds with a notice, not an error](tools/GE-20260604-3aed8c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
