@@ -1,2 +1,3 @@
 - GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
+- GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base

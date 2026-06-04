@@ -5,3 +5,4 @@
 - GE-20260504-f5b84c: Use git filter-repo --invert-paths --prune-empty to remove workspace files from history
 - GE-20260524-4bc41a: git filter-repo re-run fails with EOF when reading a line — delete .git/filter-repo/already_ran first
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
+- GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base

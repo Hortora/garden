@@ -44,3 +44,4 @@
 - GE-20260604-7e0560: git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
+- GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
