@@ -1,3 +1,4 @@
 - GE-20260416-74e114: PsiAnnotation.getQualifiedName() returns bare simple name when import is unresolved — FQN checks silently miss
 - GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false
 - GE-20260423-af487b: IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content
+- GE-20260604-a8ffaa: ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed

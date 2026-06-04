@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1279
+**Entries merged since last sweep:** 1280
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -135,6 +135,7 @@
 - GE-20260423-af487b [IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content](intellij-platform/GE-20260423-af487b.md)
 - GE-20260423-e92da0 [IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead](intellij-platform/GE-20260423-e92da0.md)
 - GE-20260602-c6bfb7 [IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause](intellij-platform/GE-20260602-c6bfb7.md)
+- GE-20260604-a8ffaa [ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed](intellij-platform/GE-20260604-a8ffaa.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
