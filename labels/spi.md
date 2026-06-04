@@ -26,3 +26,4 @@
 - GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
 - GE-20260604-098217: serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage
 - GE-20260604-c1ce51: ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race
+- GE-20260414-14d244: quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution

@@ -228,3 +228,4 @@
 | GE-0134 | `mvn install -DskipTests` runs Quarkus augmentation on library modules and fails if CDI is unsatisfied | gotcha | 12/15 |
 | GE-20260424-6b88a0 | `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented | undocumented | 10/15 |
 | GE-20260415-884e48 | @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException | gotcha | 12/15 |
+| GE-20260414-14d244 | quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution | undocumented | 11/15 |

@@ -6,3 +6,4 @@
 - GE-20260604-098217: serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage
 - GE-20260604-b3d2ef: quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency
 - GE-20260604-ed1b02: quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe
+- GE-20260414-14d244: quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution
