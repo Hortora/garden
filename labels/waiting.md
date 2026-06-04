@@ -1,0 +1,1 @@
+- GE-20260604-38e09e: casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING

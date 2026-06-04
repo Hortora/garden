@@ -1,2 +1,3 @@
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
 - GE-20260523-fd8725: binding 'when' field silently ignored for contextChange triggers — conditions must be in on.contextChange.filter
+- GE-20260604-38e09e: casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING

@@ -1,2 +1,3 @@
 - GE-20260511-3e5a75: casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior
 - GE-20260511-3e5a75: casehub-work SLA enforcement: set candidateGroups + claimDeadline only — EscalationPolicy SPI owns breach behavior
+- GE-20260604-97031b: Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed

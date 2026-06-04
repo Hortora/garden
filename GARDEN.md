@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1258
+**Entries merged since last sweep:** 1262
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -43,6 +43,8 @@
 - GE-20260602-c68651 [casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath](casehub-engine/GE-20260602-c68651.md)
 - GE-20260603-e98633 [TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored](casehub-engine/GE-20260603-e98633.md)
 - GE-20260603-a944d1 [CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference](casehub-engine/GE-20260603-a944d1.md)
+- GE-20260604-97031b [Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed](casehub-engine/GE-20260604-97031b.md)
+- GE-20260604-38e09e [casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING](casehub-engine/GE-20260604-38e09e.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -1073,6 +1075,8 @@
 - GE-20260604-b561df [@ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible](jvm/GE-20260604-b561df.md)
 - GE-20260604-0bb3e7 [casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()](jvm/GE-20260604-0bb3e7.md)
 - GE-20260604-5bb2e7 [CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents](jvm/GE-20260604-5bb2e7.md)
+- GE-20260518-6ed073 [mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale](jvm/GE-20260518-6ed073.md)
+- GE-20260519-e193d2 [Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException](jvm/GE-20260519-e193d2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
