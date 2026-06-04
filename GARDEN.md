@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1246
+**Entries merged since last sweep:** 1247
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1064,6 +1064,7 @@
 - GE-20260604-ed1b02 [quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe](jvm/GE-20260604-ed1b02.md)
 - GE-20260604-c1ce51 [ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race](jvm/GE-20260604-c1ce51.md)
 - GE-20260604-043617 [Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false](jvm/GE-20260604-043617.md)
+- GE-20260604-4bfd2c [Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it](jvm/GE-20260604-4bfd2c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
