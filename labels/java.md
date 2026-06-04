@@ -100,3 +100,4 @@
 - GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
+- GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1250
+**Entries merged since last sweep:** 1252
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1068,6 +1068,8 @@
 - GE-20260604-81a6a6 [@DefaultBean @Unremovable required when injection point lives in a different Maven module](jvm/GE-20260604-81a6a6.md)
 - GE-20260604-917790 [Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously](jvm/GE-20260604-917790.md)
 - GE-20260604-2f0889 [@Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements](jvm/GE-20260604-2f0889.md)
+- GE-20260604-b38ae2 [Quarkus dual-path services: reactive path silently bypasses Java record compact constructor validation](jvm/GE-20260604-b38ae2.md)
+- GE-20260604-f449db [Mechanical anchor comment: make future maintenance obligations traceable to the exact code location](jvm/GE-20260604-f449db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

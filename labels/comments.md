@@ -1,0 +1,1 @@
+- GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location

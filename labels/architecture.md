@@ -13,3 +13,4 @@
 - GE-20260422-458078: Spawn a research agent with targeted academic + standards queries to drive architecture decisions
 - GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
+- GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location

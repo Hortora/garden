@@ -4,3 +4,4 @@
 - GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
 - GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
 - GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
+- GE-20260604-b38ae2: Quarkus dual-path services: reactive path silently bypasses Java record compact constructor validation

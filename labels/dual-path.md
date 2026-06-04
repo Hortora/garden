@@ -1,2 +1,1 @@
-- GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate
 - GE-20260604-b38ae2: Quarkus dual-path services: reactive path silently bypasses Java record compact constructor validation
