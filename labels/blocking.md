@@ -15,3 +15,4 @@
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
 - GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
+- GE-20260604-ed1b02: quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe

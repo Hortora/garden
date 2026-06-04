@@ -1,0 +1,1 @@
+- GE-20260604-c1ce51: ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race

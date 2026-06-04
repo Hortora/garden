@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1240
+**Entries merged since last sweep:** 1244
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1058,6 +1058,10 @@
 - GE-20260604-942686 [Prometheus counter fires on both paths of a find-or-create method](jvm/GE-20260604-942686.md)
 - GE-20260604-b3afd6 [Java record compact constructor as single invariant enforcement gate](jvm/GE-20260604-b3afd6.md)
 - GE-20260604-18b28f [Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope](jvm/GE-20260604-18b28f.md)
+- GE-20260604-098217 [serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage](jvm/GE-20260604-098217.md)
+- GE-20260604-b3d2ef [quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency](jvm/GE-20260604-b3d2ef.md)
+- GE-20260604-ed1b02 [quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe](jvm/GE-20260604-ed1b02.md)
+- GE-20260604-c1ce51 [ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race](jvm/GE-20260604-c1ce51.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

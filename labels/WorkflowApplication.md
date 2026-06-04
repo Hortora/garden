@@ -1,0 +1,1 @@
+- GE-20260604-b3d2ef: quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency

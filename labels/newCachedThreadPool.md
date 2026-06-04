@@ -1,0 +1,1 @@
+- GE-20260604-ed1b02: quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe

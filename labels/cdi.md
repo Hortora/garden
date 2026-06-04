@@ -209,3 +209,4 @@
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
 - GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
+- GE-20260604-b3d2ef: quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency

@@ -6,3 +6,4 @@
 - GE-20260530-5e5c67: runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool
 - GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
 - GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
+- GE-20260604-ed1b02: quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe

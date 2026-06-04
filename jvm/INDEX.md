@@ -529,3 +529,7 @@
 | GE-20260604-942686 | Prometheus counter fires on both paths of a find-or-create method | gotcha | 11/15 |
 | GE-20260604-b3afd6 | Java record compact constructor as single invariant enforcement gate | technique | 10/15 |
 | GE-20260604-18b28f | Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope | gotcha | 14/15 |
+| GE-20260604-098217 | serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage | gotcha | 10/15 |
+| GE-20260604-b3d2ef | quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency | gotcha | 9/15 |
+| GE-20260604-ed1b02 | quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe | undocumented | 9/15 |
+| GE-20260604-c1ce51 | ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race | technique | 10/15 |
