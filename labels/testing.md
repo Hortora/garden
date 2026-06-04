@@ -271,3 +271,4 @@
 - GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep
 - GE-20260604-4bfd2c: Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
+- GE-20260604-4298f9: @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths

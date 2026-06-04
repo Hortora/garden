@@ -5,3 +5,4 @@
 - GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
 - GE-20260522-831b53: Unit test @Observes StartupEvent handlers via package-private method + mocks — avoids @QuarkusTest transaction visibility issues
+- GE-20260604-4298f9: @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths

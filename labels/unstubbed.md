@@ -1,0 +1,1 @@
+- GE-20260604-4298f9: @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths

@@ -214,3 +214,4 @@
 - GE-20260604-81a6a6: @DefaultBean @Unremovable required when injection point lives in a different Maven module
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
+- GE-20260604-4298f9: @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths

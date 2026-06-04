@@ -545,3 +545,4 @@
 | GE-20260604-5bb2e7 | CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents | gotcha | 10/15 |
 | GE-20260518-6ed073 | mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale | gotcha | 11/15 |
 | GE-20260519-e193d2 | Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException | gotcha | 9/15 |
+| GE-20260604-4298f9 | @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths | gotcha | 10/15 |
