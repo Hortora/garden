@@ -1,3 +1,4 @@
 - GE-20260417-a405a4: quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error
 - GE-20260522-672965: @JsonInclude and @Nullable cannot annotate records in a framework-free api module — Jackson not on classpath
 - GE-20260603-301b80: langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types
+- GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module

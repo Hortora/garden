@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1272
+**Entries merged since last sweep:** 1273
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1084,6 +1084,7 @@
 - GE-20260604-851f40 [Mem0 OSS REST API deviates from cloud docs in five critical ways](jvm/GE-20260604-851f40.md)
 - GE-20260604-21b1fa [Mem0 /search scores are not comparable across separate calls](jvm/GE-20260604-21b1fa.md)
 - GE-20260604-cf25cd [InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null](jvm/GE-20260604-cf25cd.md)
+- GE-20260604-a6f008 [Multi-module extension: optional module types often live in the core module, not the feature module](jvm/GE-20260604-a6f008.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

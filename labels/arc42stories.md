@@ -5,3 +5,4 @@
 - GE-20260601-c09f71: ARC42STORIES.MD §12 issue references stale at migration time — verify before publishing
 - GE-20260601-85afd0: Three-check quality sweep for ARC42STORIES.MD after generation from LAYER-LOG
 - GE-20260602-cd71e3: Structural prescription locks documentation mode — narrative instruction alone causes prose drift
+- GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module

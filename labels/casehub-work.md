@@ -13,3 +13,4 @@
 - GE-20260528-35a81c: WorkItemPriority has no NORMAL value — enum values are LOW, MEDIUM, HIGH, URGENT; NORMAL causes Hibernate IllegalArgumentException at read time
 - GE-20260528-c968e2: Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference
 - GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE
+- GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
