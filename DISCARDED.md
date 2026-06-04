@@ -40,3 +40,4 @@
 | jvm/GE-20260521-4de4f1 | jvm/GE-20260601-cee623 | getEnabledAlternatives() replaces selected-alternatives — same gotcha, cee623 has higher score (12 vs 9) |
 | jvm/GE-20260601-33dd8e | jvm/GE-20260521-3ce7ca | @Alternative external JAR needs selected-alternatives — same gotcha, 3ce7ca has higher score (11 vs 9) |
 | jvm/GE-20260424-a55003 | jvm/GE-20260531-22e747 | Adding Java record field breaks all call sites — same gotcha, 22e747 has higher score (11 vs 9) |
+| jvm/GE-20260602-bacaf2 | jvm/GE-20260517-0823c8 | Cross-repo Maven mvn install required between repos — same gotcha, 0823c8 has higher score (12 vs 9) |

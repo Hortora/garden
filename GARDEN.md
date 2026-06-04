@@ -1020,7 +1020,6 @@
 - GE-20260602-f2ca07 [Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload](jvm/GE-20260602-f2ca07.md)
 - GE-20260602-286f16 [Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()](jvm/GE-20260602-286f16.md)
 - GE-20260602-793302 [Checkstyle AvoidStarImport applies to static imports — test assertion methods caught](jvm/GE-20260602-793302.md)
-- GE-20260602-bacaf2 [Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles](jvm/GE-20260602-bacaf2.md)
 - GE-20260602-047ac4 [Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects](jvm/GE-20260602-047ac4.md)
 - GE-20260602-c4a68a [Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit](jvm/GE-20260602-c4a68a.md)
 - GE-20260602-6cfbdb [ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()](jvm/GE-20260602-6cfbdb.md)
