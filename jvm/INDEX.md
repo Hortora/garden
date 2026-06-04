@@ -533,3 +533,4 @@
 | GE-20260604-b3d2ef | quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency | gotcha | 9/15 |
 | GE-20260604-ed1b02 | quarkus-flow task executor threads use Executors.newCachedThreadPool() — blocking is safe | undocumented | 9/15 |
 | GE-20260604-c1ce51 | ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race | technique | 10/15 |
+| GE-20260604-043617 | Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false | gotcha | 12/15 |

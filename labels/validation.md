@@ -4,3 +4,4 @@
 - GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
 - GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour
 - GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate
+- GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
