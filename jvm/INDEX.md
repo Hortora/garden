@@ -558,3 +558,4 @@
 | GE-20260604-9d91f9 | Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem | technique | 13/15 |
 | GE-20260604-76c3f9 | String DotNames for optional library annotations in Quarkus deployment modules | convention | 8/15 |
 | GE-20260604-8b199c | Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools | gotcha | 10/15 |
+| GE-20260604-d8c0c1 | Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls | technique | 9/15 |
