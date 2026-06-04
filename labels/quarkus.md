@@ -420,3 +420,4 @@
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
 - GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured
+- GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope

@@ -1,2 +1,1 @@
-- GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope

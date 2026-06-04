@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1239
+**Entries merged since last sweep:** 1240
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1057,6 +1057,7 @@
 - GE-20260603-ed5e47 [Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep](jvm/GE-20260603-ed5e47.md)
 - GE-20260604-942686 [Prometheus counter fires on both paths of a find-or-create method](jvm/GE-20260604-942686.md)
 - GE-20260604-b3afd6 [Java record compact constructor as single invariant enforcement gate](jvm/GE-20260604-b3afd6.md)
+- GE-20260604-18b28f [Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope](jvm/GE-20260604-18b28f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

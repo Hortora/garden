@@ -528,3 +528,4 @@
 | GE-20260603-ed5e47 | Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep | technique | 9/15 |
 | GE-20260604-942686 | Prometheus counter fires on both paths of a find-or-create method | gotcha | 11/15 |
 | GE-20260604-b3afd6 | Java record compact constructor as single invariant enforcement gate | technique | 10/15 |
+| GE-20260604-18b28f | Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope | gotcha | 14/15 |
