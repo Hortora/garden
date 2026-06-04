@@ -1,1 +1,2 @@
 - GE-20260603-a944d1: CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference
+- GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null

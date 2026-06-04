@@ -551,3 +551,4 @@
 | GE-20260604-d08c9f | @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean | technique | 11/15 |
 | GE-20260604-851f40 | Mem0 OSS REST API deviates from cloud docs in five critical ways | undocumented | 13/15 |
 | GE-20260604-21b1fa | Mem0 /search scores are not comparable across separate calls | gotcha | 11/15 |
+| GE-20260604-cf25cd | InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null | gotcha | 13/15 |

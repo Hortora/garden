@@ -1,1 +1,2 @@
 - GE-20260602-6cfbdb: ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()
+- GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null

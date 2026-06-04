@@ -1,0 +1,1 @@
+- GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null
