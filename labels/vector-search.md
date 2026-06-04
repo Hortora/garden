@@ -1,0 +1,1 @@
+- GE-20260604-21b1fa: Mem0 /search scores are not comparable across separate calls

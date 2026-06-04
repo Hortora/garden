@@ -1,1 +1,2 @@
 - GE-20260512-ea776c: Quarkus named persistence units silently skip schema generation — explicit config required per named PU
+- GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways

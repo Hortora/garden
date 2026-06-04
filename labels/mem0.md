@@ -1,0 +1,2 @@
+- GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
+- GE-20260604-21b1fa: Mem0 /search scores are not comparable across separate calls
