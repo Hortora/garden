@@ -45,3 +45,4 @@
 - GE-20260602-093fea: @Blocking on plain CDI @ApplicationScoped service methods is invalid in Quarkus 3 — only framework entrypoints support it
 - GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
+- GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
