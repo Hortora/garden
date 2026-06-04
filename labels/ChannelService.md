@@ -1,1 +1,2 @@
 - GE-20260517-5b8e78: casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools
+- GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()

@@ -1,0 +1,1 @@
+- GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible

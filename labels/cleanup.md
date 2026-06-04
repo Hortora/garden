@@ -4,3 +4,4 @@
 - GE-20260522-ac6b1d: Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive
 - GE-20260526-4ac862: Use branch switch to auto-remove branch-only tracked files without manual deletion
 - GE-20260604-7e0560: git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked
+- GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()

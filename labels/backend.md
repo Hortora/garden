@@ -1,2 +1,1 @@
-- GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
 - GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()

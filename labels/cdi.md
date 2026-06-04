@@ -213,3 +213,4 @@
 - GE-20260604-4bfd2c: Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it
 - GE-20260604-81a6a6: @DefaultBean @Unremovable required when injection point lives in a different Maven module
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
+- GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible

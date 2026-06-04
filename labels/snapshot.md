@@ -21,3 +21,4 @@
 - GE-20260531-4e21c1: casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift
 - GE-20260601-265cdc: IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities
 - GE-20260602-bacaf2: Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles
+- GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
