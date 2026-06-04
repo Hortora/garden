@@ -17,3 +17,4 @@
 | GE-20260531-446fea | Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope | technique | 11/15 |
 | GE-20260531-8b1f4e | Maven cross-tenant SPI interface in wrong module tier causes unresolvable dependency direction | gotcha | 10/15 |
 | GE-20260531-22e747 | Adding a component to a Java record breaks every construction site — no compatible migration path | gotcha | 11/15 |
+| GE-20260530-1a7e84 | casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE) | gotcha | 9/15 |
