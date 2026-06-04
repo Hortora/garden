@@ -1,2 +1,3 @@
 - GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands
 - GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
+- GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents

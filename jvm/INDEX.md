@@ -542,3 +542,4 @@
 | GE-20260604-f449db | Mechanical anchor comment: make future maintenance obligations traceable to the exact code location | technique | 8/15 |
 | GE-20260604-b561df | @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible | gotcha | 11/15 |
 | GE-20260604-0bb3e7 | casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion() | undocumented | 9/15 |
+| GE-20260604-5bb2e7 | CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents | gotcha | 10/15 |

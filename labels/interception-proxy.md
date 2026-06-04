@@ -1,2 +1,1 @@
-- GE-20260415-dfa8ba: @RegisterProvider on @RegisterRestClient not honoured by RestClientBuilder.newBuilder()
 - GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents

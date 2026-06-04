@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1254
+**Entries merged since last sweep:** 1255
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1072,6 +1072,7 @@
 - GE-20260604-f449db [Mechanical anchor comment: make future maintenance obligations traceable to the exact code location](jvm/GE-20260604-f449db.md)
 - GE-20260604-b561df [@ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible](jvm/GE-20260604-b561df.md)
 - GE-20260604-0bb3e7 [casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()](jvm/GE-20260604-0bb3e7.md)
+- GE-20260604-5bb2e7 [CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents](jvm/GE-20260604-5bb2e7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
