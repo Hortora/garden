@@ -1,2 +1,3 @@
 - GE-20260513-feea71: SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour
 - GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
+- GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools

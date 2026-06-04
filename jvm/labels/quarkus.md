@@ -6,3 +6,4 @@
 - GE-20260530-680285: CDI 4.1 Instance.handles() returns Iterable not Stream — use Arc's InjectableInstance.handlesStream()
 - GE-20260530-63f1cb: @EntityListeners @PrePersist callbacks don't fire in non-JPA (in-memory) repository implementations
 - GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
+- GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
