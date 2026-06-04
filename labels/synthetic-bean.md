@@ -1,0 +1,1 @@
+- GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem

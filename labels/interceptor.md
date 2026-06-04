@@ -2,3 +2,5 @@
 - GE-20260417-45f47f: Class-level @WrapBusinessError wraps all CDI callers of @Tool methods, not just the MCP server
 - GE-20260505-fc9770: ThreadLocal<Deque<T>> on @ApplicationScoped bean as CDI interceptor context — works in tests and scheduled jobs, cleans up automatically
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
+- GE-20260604-709d74: AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem
+- GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem

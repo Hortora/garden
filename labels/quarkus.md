@@ -432,3 +432,7 @@
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260604-d08c9f: @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean
 - GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
+- GE-20260604-3ae124: ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder
+- GE-20260604-709d74: AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem
+- GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
+- GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules

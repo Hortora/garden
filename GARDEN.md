@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1273
+**Entries merged since last sweep:** 1277
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1085,6 +1085,10 @@
 - GE-20260604-21b1fa [Mem0 /search scores are not comparable across separate calls](jvm/GE-20260604-21b1fa.md)
 - GE-20260604-cf25cd [InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null](jvm/GE-20260604-cf25cd.md)
 - GE-20260604-a6f008 [Multi-module extension: optional module types often live in the core module, not the feature module](jvm/GE-20260604-a6f008.md)
+- GE-20260604-3ae124 [ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder](jvm/GE-20260604-3ae124.md)
+- GE-20260604-709d74 [AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem](jvm/GE-20260604-709d74.md)
+- GE-20260604-9d91f9 [Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem](jvm/GE-20260604-9d91f9.md)
+- GE-20260604-76c3f9 [String DotNames for optional library annotations in Quarkus deployment modules](jvm/GE-20260604-76c3f9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

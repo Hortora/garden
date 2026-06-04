@@ -1,0 +1,1 @@
+- GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules

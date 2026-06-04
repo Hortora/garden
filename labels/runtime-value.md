@@ -1,0 +1,1 @@
+- GE-20260604-3ae124: ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder

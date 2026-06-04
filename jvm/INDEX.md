@@ -553,3 +553,7 @@
 | GE-20260604-21b1fa | Mem0 /search scores are not comparable across separate calls | gotcha | 11/15 |
 | GE-20260604-cf25cd | InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null | gotcha | 13/15 |
 | GE-20260604-a6f008 | Multi-module extension: optional module types often live in the core module, not the feature module | gotcha | 8/15 |
+| GE-20260604-3ae124 | ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder | gotcha | 11/15 |
+| GE-20260604-709d74 | AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem | gotcha | 9/15 |
+| GE-20260604-9d91f9 | Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem | technique | 13/15 |
+| GE-20260604-76c3f9 | String DotNames for optional library annotations in Quarkus deployment modules | convention | 8/15 |

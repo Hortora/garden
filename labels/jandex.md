@@ -15,3 +15,6 @@
 - GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
 - GE-20260601-7a3b38: @DefaultBean implementations invisible to CDI when their supertype JAR has no Jandex index
 - GE-20260601-848232: quarkus.arc.exclude-types silently does nothing for beans from Jandex-indexed JARs
+- GE-20260604-709d74: AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem
+- GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
+- GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
