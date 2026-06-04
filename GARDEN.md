@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1267
+**Entries merged since last sweep:** 1268
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1080,6 +1080,7 @@
 - GE-20260604-4298f9 [@InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths](jvm/GE-20260604-4298f9.md)
 - GE-20260604-96d82a [Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking](jvm/GE-20260604-96d82a.md)
 - GE-20260604-96d82a [Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking](jvm/GE-20260604-96d82a.md)
+- GE-20260604-d08c9f [@Transactional and @Tool can coexist on the same method in a Quarkus CDI bean](jvm/GE-20260604-d08c9f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
