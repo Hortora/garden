@@ -3,3 +3,4 @@
 - GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
 - GE-20260421-5817bb: Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill
 - GE-20260531-efe09b: OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params
+- GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM

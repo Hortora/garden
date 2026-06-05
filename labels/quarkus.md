@@ -438,3 +438,4 @@
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
 - GE-20260605-e91aa0: Quarkus @QuarkusTest without quarkus-maven-plugin hangs on resource-constrained CI — augmentation inside forked JVM
+- GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM

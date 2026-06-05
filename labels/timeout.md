@@ -1,2 +1,3 @@
 - GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
+- GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM

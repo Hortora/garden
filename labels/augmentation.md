@@ -16,3 +16,4 @@
 - GE-20260601-0eb1b6: Quarkus augmentation cache masks @DefaultBean CDI conflicts — only surfaces on clean builds or targeted test runs
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260605-e91aa0: Quarkus @QuarkusTest without quarkus-maven-plugin hangs on resource-constrained CI — augmentation inside forked JVM
+- GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM
