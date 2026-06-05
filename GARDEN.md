@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1318
+**Entries merged since last sweep:** 1319
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1124,6 +1124,7 @@
 - GE-20260605-58f57c [Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit](jvm/GE-20260605-58f57c.md)
 - GE-20260605-9e09d9 [InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context](jvm/GE-20260605-9e09d9.md)
 - GE-20260605-822b7d [OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint](jvm/GE-20260605-822b7d.md)
+- GE-20260605-e4d5c3 [Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system](jvm/GE-20260605-e4d5c3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

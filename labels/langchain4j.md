@@ -12,3 +12,4 @@
 - GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
 - GE-20260603-301b80: langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types
 - GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents
+- GE-20260605-e4d5c3: Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system
