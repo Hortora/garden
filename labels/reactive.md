@@ -48,3 +48,4 @@
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit
+- GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit
