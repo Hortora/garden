@@ -1,1 +1,2 @@
 - GE-20260530-5400f3: Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)
+- GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility

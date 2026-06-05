@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1289
+**Entries merged since last sweep:** 1294
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1099,6 +1099,11 @@
 - GE-20260605-fc9ae7 [Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM](jvm/GE-20260605-fc9ae7.md)
 - GE-20260605-494ed0 [ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires](jvm/GE-20260605-494ed0.md)
 - GE-20260605-73c9d6 [CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome](jvm/GE-20260605-73c9d6.md)
+- GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
+- GE-20260605-159a96 [H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns](jvm/GE-20260605-159a96.md)
+- GE-20260605-b0b14c [JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields](jvm/GE-20260605-b0b14c.md)
+- GE-20260605-b734b3 [SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert](jvm/GE-20260605-b734b3.md)
+- GE-20260605-5d0034 [JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it](jvm/GE-20260605-5d0034.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

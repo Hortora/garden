@@ -566,3 +566,8 @@
 | GE-20260605-fc9ae7 | Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM | undocumented | 8/15 |
 | GE-20260605-494ed0 | ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires | gotcha | 12/15 |
 | GE-20260605-73c9d6 | CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome | gotcha | 9/15 |
+| GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
+| GE-20260605-159a96 | H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns | gotcha | 11/15 |
+| GE-20260605-b0b14c | JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields | gotcha | 9/15 |
+| GE-20260605-b734b3 | SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert | technique | 10/15 |
+| GE-20260605-5d0034 | JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it | gotcha | 11/15 |

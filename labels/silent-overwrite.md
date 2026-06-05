@@ -1,1 +1,2 @@
 - GE-20260421-924fc7: Creating a Java class with the same name as an existing class in the same package silently overwrites it
+- GE-20260605-b0b14c: JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields
