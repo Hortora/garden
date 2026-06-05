@@ -1,2 +1,1 @@
-- GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
 - GE-20260605-822b7d: OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint
