@@ -437,3 +437,4 @@
 - GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
+- GE-20260605-e91aa0: Quarkus @QuarkusTest without quarkus-maven-plugin hangs on resource-constrained CI — augmentation inside forked JVM
