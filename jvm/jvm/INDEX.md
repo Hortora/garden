@@ -19,3 +19,6 @@
 | GE-20260531-22e747 | Adding a component to a Java record breaks every construction site — no compatible migration path | gotcha | 11/15 |
 | GE-20260530-1a7e84 | casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE) | gotcha | 9/15 |
 | GE-20260604-8b199c | Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools | gotcha | 10/15 |
+| GE-20260606-bc1b15 | SmallRye Config ${sys:property} single-colon is fallback-value syntax, not a system-property handler | gotcha | 13/15 |
+| GE-20260606-1c20a7 | @WithDefault expression + Path return type in @ConfigMapping: SmallRye resolves expression then converts to Path | undocumented | 11/15 |
+| GE-20260606-668cee | Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution | gotcha | 10/15 |

@@ -1,0 +1,1 @@
+- GE-20260606-1c20a7: @WithDefault expression + Path return type in @ConfigMapping: SmallRye resolves expression then converts to Path
