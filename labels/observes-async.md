@@ -4,3 +4,4 @@
 - GE-20260523-bd68ba: @ObservesAsync CDI handlers run without the caller's OTel span — traceId silently null on async thread
 - GE-20260529-baf565: @ObservesAsync observers are silently skipped when the event source uses Event.fire()
 - GE-20260531-ed2f7a: @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event
+- GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires

@@ -583,3 +583,4 @@
 | GE-20260605-4ed3bd | H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found | gotcha | 13/15 |
 | GE-20260605-059dd0 | Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race | gotcha | 12/15 |
 | GE-20260605-c91317 | Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests | technique | 11/15 |
+| GE-20260605-373190 | @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires | gotcha | 10/15 |

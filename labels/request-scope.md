@@ -1,1 +1,2 @@
 - GE-20260521-debce2: Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed
+- GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires

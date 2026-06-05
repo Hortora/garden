@@ -1,1 +1,2 @@
 - GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history
+- GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires

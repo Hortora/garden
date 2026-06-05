@@ -219,3 +219,4 @@
 - GE-20260605-16a8fc: WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
+- GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
