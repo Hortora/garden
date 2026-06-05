@@ -590,3 +590,4 @@
 | GE-20260605-9e09d9 | InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context | gotcha | 11/15 |
 | GE-20260605-822b7d | OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint | undocumented | 10/15 |
 | GE-20260605-e4d5c3 | Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system | gotcha | 10/15 |
+| GE-20260606-0718fd | @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI | technique | 8/15 |

@@ -445,3 +445,4 @@
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
 - GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
+- GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI

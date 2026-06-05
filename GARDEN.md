@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1319
+**Entries merged since last sweep:** 1320
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1125,6 +1125,7 @@
 - GE-20260605-9e09d9 [InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context](jvm/GE-20260605-9e09d9.md)
 - GE-20260605-822b7d [OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint](jvm/GE-20260605-822b7d.md)
 - GE-20260605-e4d5c3 [Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system](jvm/GE-20260605-e4d5c3.md)
+- GE-20260606-0718fd [@Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI](jvm/GE-20260606-0718fd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

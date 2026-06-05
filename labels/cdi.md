@@ -221,3 +221,4 @@
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
 - GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
 - GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context
+- GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI

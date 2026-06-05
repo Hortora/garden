@@ -1,3 +1,4 @@
 - GE-20260505-43a73b: Mockito `thenReturn(stream)` exhausts CDI Instance<T> mock on second providerFor() call
 - GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct
 - GE-20260422-3242bf: Use Instance<T> for optional CDI injection — resolves gracefully to null when no bean exists
+- GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI

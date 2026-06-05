@@ -1,0 +1,1 @@
+- GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI
