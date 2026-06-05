@@ -578,3 +578,4 @@
 | GE-20260605-0ffc19 | H2 MODE=PostgreSQL does not support SIMILAR TO in ALTER TABLE ADD CONSTRAINT CHECK — use REGEXP_LIKE instead | gotcha | 12/15 |
 | GE-20260605-29323a | Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes> | gotcha | 10/15 |
 | GE-20260605-ff8729 | Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode | technique | 9/15 |
+| GE-20260605-e42cc5 | @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure | gotcha | 11/15 |
