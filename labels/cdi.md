@@ -220,3 +220,4 @@
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
 - GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
+- GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context

@@ -3,3 +3,4 @@
 - GE-20260523-86ed13: casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points
 - GE-20260530-9cdfb5: MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback
 - GE-20260530-9b5bbe: Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding
+- GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context

@@ -1,0 +1,1 @@
+- GE-20260605-fa1a51: PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely

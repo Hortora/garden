@@ -24,3 +24,4 @@
 | GE-20260603-a944d1 | CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference | gotcha | 11/15 |
 | GE-20260604-97031b | Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed | gotcha | 9/15 |
 | GE-20260604-38e09e | casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING | undocumented | 10/15 |
+| GE-20260605-fa1a51 | PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely | gotcha | 12/15 |

@@ -1,1 +1,2 @@
 - GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns
+- GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context
