@@ -591,3 +591,4 @@
 | GE-20260605-822b7d | OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint | undocumented | 10/15 |
 | GE-20260605-e4d5c3 | Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system | gotcha | 10/15 |
 | GE-20260606-0718fd | @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI | technique | 8/15 |
+| GE-20260606-096df3 | LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring | technique | 11/15 |

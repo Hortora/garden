@@ -1,0 +1,1 @@
+- GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring

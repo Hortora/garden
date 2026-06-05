@@ -483,3 +483,4 @@
 | GE-20260605-f11f8f | git rm silently succeeds on empty directories — rm -rf required | gotcha | 8/15 |
 | GE-20260605-28eb88 | gh repo edit --visibility requires --accept-visibility-change-consequences flag | gotcha | 9/15 |
 | GE-20260605-51b347 | pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching | gotcha | 8/15 |
+| GE-20260606-7a29fb | REST Assured GPath `$.findAll {}` returns null (not []) when no elements match | gotcha | 10/15 |

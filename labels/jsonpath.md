@@ -1,0 +1,1 @@
+- GE-20260606-7a29fb: REST Assured GPath `$.findAll {}` returns null (not []) when no elements match

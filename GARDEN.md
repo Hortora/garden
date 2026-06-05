@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1320
+**Entries merged since last sweep:** 1322
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1126,6 +1126,7 @@
 - GE-20260605-822b7d [OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint](jvm/GE-20260605-822b7d.md)
 - GE-20260605-e4d5c3 [Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system](jvm/GE-20260605-e4d5c3.md)
 - GE-20260606-0718fd [@Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI](jvm/GE-20260606-0718fd.md)
+- GE-20260606-096df3 [LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring](jvm/GE-20260606-096df3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1647,6 +1648,7 @@
 - GE-20260605-f11f8f [git rm silently succeeds on empty directories — rm -rf required](tools/GE-20260605-f11f8f.md)
 - GE-20260605-28eb88 [gh repo edit --visibility requires --accept-visibility-change-consequences flag](tools/GE-20260605-28eb88.md)
 - GE-20260605-51b347 [pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching](tools/GE-20260605-51b347.md)
+- GE-20260606-7a29fb [REST Assured GPath `$.findAll {}` returns null (not []) when no elements match](tools/GE-20260606-7a29fb.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
