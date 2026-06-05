@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1295
+**Entries merged since last sweep:** 1296
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1623,6 +1623,7 @@
 - GE-20260604-3aed8c [GitHub repo transfer leaves old remote URL silently redirecting — git push succeeds with a notice, not an error](tools/GE-20260604-3aed8c.md)
 - GE-20260604-55a371 [git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base](tools/GE-20260604-55a371.md)
 - GE-20260605-d89e57 [Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync](tools/GE-20260605-d89e57.md)
+- GE-20260605-1f6896 [work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main](tools/GE-20260605-1f6896.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

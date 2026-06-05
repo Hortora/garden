@@ -13,3 +13,4 @@
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260604-eae751: Linearise a merge commit by cherry-picking post-merge commits onto the feature branch tip — zero conflicts guaranteed when trees are identical
 - GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
+- GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main

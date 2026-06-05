@@ -1,0 +1,1 @@
+- GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
