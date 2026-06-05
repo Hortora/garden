@@ -1,0 +1,1 @@
+- GE-20260605-b0b14c: JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields

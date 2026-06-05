@@ -571,3 +571,4 @@
 | GE-20260605-b0b14c | JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields | gotcha | 9/15 |
 | GE-20260605-b734b3 | SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert | technique | 10/15 |
 | GE-20260605-5d0034 | JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it | gotcha | 11/15 |
+| GE-20260605-16a8fc | WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix | gotcha | 10/15 |

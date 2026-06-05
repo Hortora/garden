@@ -1,0 +1,1 @@
+- GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
