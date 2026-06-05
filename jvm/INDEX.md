@@ -584,3 +584,5 @@
 | GE-20260605-059dd0 | Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race | gotcha | 12/15 |
 | GE-20260605-c91317 | Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests | technique | 11/15 |
 | GE-20260605-373190 | @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires | gotcha | 10/15 |
+| GE-20260605-e7c2e9 | Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard | gotcha | 12/15 |
+| GE-20260605-58f57c | Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit | technique | 12/15 |

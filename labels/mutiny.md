@@ -36,3 +36,4 @@
 - GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
+- GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit

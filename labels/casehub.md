@@ -34,3 +34,4 @@
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
 - GE-20260605-059dd0: Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race
 - GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests
+- GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard

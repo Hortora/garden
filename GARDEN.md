@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1310
+**Entries merged since last sweep:** 1312
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1118,6 +1118,8 @@
 - GE-20260605-059dd0 [Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race](jvm/GE-20260605-059dd0.md)
 - GE-20260605-c91317 [Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests](jvm/GE-20260605-c91317.md)
 - GE-20260605-373190 [@ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires](jvm/GE-20260605-373190.md)
+- GE-20260605-e7c2e9 [Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard](jvm/GE-20260605-e7c2e9.md)
+- GE-20260605-58f57c [Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit](jvm/GE-20260605-58f57c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

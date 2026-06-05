@@ -1,0 +1,1 @@
+- GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard

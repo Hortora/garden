@@ -2,3 +2,4 @@
 - GE-20260511-2b3d3e: Express trust-phase logic as methods on the routing policy value object, not the router
 - GE-20260529-d7b6f8: TrustBootstrapSource SPI is never invoked on a fresh deployment
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
+- GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard
