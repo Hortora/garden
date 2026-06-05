@@ -31,3 +31,6 @@
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
+- GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
+- GE-20260605-059dd0: Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race
+- GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests

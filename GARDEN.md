@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1306
+**Entries merged since last sweep:** 1309
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1114,6 +1114,9 @@
 - GE-20260605-ff8729 [Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode](jvm/GE-20260605-ff8729.md)
 - GE-20260605-e42cc5 [@Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure](jvm/GE-20260605-e42cc5.md)
 - GE-20260605-385d36 [@InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation](jvm/GE-20260605-385d36.md)
+- GE-20260605-4ed3bd [H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found](jvm/GE-20260605-4ed3bd.md)
+- GE-20260605-059dd0 [Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race](jvm/GE-20260605-059dd0.md)
+- GE-20260605-c91317 [Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests](jvm/GE-20260605-c91317.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
