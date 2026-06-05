@@ -7,3 +7,4 @@
 - GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260604-97031b: Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed
+- GE-20260605-494ed0: ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires
