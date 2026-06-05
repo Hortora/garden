@@ -1,0 +1,1 @@
+- GE-20260606-cd1c61: MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException

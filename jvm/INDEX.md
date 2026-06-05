@@ -594,3 +594,4 @@
 | GE-20260606-096df3 | LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring | technique | 11/15 |
 | GE-20260606-668cee | Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution | gotcha | 10/15 |
 | GE-20260606-0c9216 | @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail | gotcha | 9/15 |
+| GE-20260606-cd1c61 | MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException | gotcha | 10/15 |
