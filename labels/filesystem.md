@@ -1,0 +1,1 @@
+- GE-20260605-f11f8f: git rm silently succeeds on empty directories — rm -rf required

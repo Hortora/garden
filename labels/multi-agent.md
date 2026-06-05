@@ -8,3 +8,4 @@
 - GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
 - GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
+- GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session

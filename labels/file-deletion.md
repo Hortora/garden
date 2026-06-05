@@ -1,0 +1,1 @@
+- GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session

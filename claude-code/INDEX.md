@@ -16,3 +16,4 @@
 | GE-20260525-3fe619 | wc -l understates AI context file bloat — always measure with wc -c | gotcha | 8/15 |
 | GE-20260525-6c3a27 | gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json | gotcha | 10/15 |
 | GE-20260526-b28228 | Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's | gotcha | 10/15 |
+| GE-20260605-248ca7 | Design parallel agents as write-only — pass all deletions back to the parent session | technique | 9/15 |

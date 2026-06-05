@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1304
+**Entries merged since last sweep:** 1306
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -103,6 +103,7 @@
 - GE-20260525-6c3a27 [gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json](claude-code/GE-20260525-6c3a27.md)
 - GE-20260526-b28228 [Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's](claude-code/GE-20260526-b28228.md)
 - GE-20260601-c1a8f9 [Subagent worktree commits land on worktree branch, not on the session branch](claude-code/GE-20260601-c1a8f9.md)
+- GE-20260605-248ca7 [Design parallel agents as write-only — pass all deletions back to the parent session](claude-code/GE-20260605-248ca7.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -1632,6 +1633,7 @@
 - GE-20260604-55a371 [git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base](tools/GE-20260604-55a371.md)
 - GE-20260605-d89e57 [Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync](tools/GE-20260605-d89e57.md)
 - GE-20260605-1f6896 [work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main](tools/GE-20260605-1f6896.md)
+- GE-20260605-f11f8f [git rm silently succeeds on empty directories — rm -rf required](tools/GE-20260605-f11f8f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
