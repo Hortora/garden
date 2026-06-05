@@ -8,3 +8,4 @@
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
 - GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
+- GE-20260605-d89e57: Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync

@@ -1,2 +1,1 @@
-- GE-20260422-c0181c: garden_db_migrate.py leaves an empty GE-20260421-test999.md artifact after migration
 - GE-20260605-d89e57: Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync
