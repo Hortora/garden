@@ -11,3 +11,4 @@
 - GE-20260524-122018: Maven parent POM bootstrap in CI: project's own pom needs <repositories> to resolve the parent
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
+- GE-20260605-6aa860: GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration

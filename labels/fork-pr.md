@@ -1,0 +1,1 @@
+- GE-20260605-6aa860: GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration
