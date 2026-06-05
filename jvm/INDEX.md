@@ -575,3 +575,4 @@
 | GE-20260605-8b9118 | Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled | gotcha | 10/15 |
 | GE-20260605-2d7f7a | Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard | gotcha | 9/15 |
 | GE-20260605-9636fd | throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch | gotcha | 13/15 |
+| GE-20260605-0ffc19 | H2 MODE=PostgreSQL does not support SIMILAR TO in ALTER TABLE ADD CONSTRAINT CHECK — use REGEXP_LIKE instead | gotcha | 12/15 |
