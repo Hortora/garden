@@ -1536,7 +1536,6 @@
 - GE-20260522-e062ba [Reordering commits in `git rebase -i` todo causes intermediate tree divergence — only final HEAD diff is authoritative](tools/GE-20260522-e062ba.md)
 - GE-20260522-7159b4 [git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor](tools/GE-20260522-7159b4.md)
 - GE-20260522-5b1589 [git rebase -i with 'drop' on a merge commit exits 0 silently — rebase never runs](tools/GE-20260522-5b1589.md)
-- GE-20260522-b341ae [GitHub transparently redirects git push after repo transfer — old origin URL still works](tools/GE-20260522-b341ae.md)
 - GE-20260522-d6a1c9 [IntelliJ has three separate config files that must all be updated when a project repo is physically relocated](tools/GE-20260522-d6a1c9.md)
 - GE-20260522-f8c1c3 [Workflow state dotfiles invisible to bare ls — design/.meta appears missing](tools/GE-20260522-f8c1c3.md)
 - GE-20260522-76dc5b [Blog entries added to workspace main after branch creation are invisible from the epic branch](tools/GE-20260522-76dc5b.md)

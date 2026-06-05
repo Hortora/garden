@@ -1,0 +1,1 @@
+- GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
