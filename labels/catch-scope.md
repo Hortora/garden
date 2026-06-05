@@ -1,1 +1,2 @@
 - GE-20260517-11dd6b: IllegalArgumentException catch around UUID.fromString + downstream call swallows unrelated errors
+- GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch

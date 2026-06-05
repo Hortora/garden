@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1298
+**Entries merged since last sweep:** 1299
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1107,6 +1107,7 @@
 - GE-20260605-16a8fc [WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix](jvm/GE-20260605-16a8fc.md)
 - GE-20260605-8b9118 [Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled](jvm/GE-20260605-8b9118.md)
 - GE-20260605-2d7f7a [Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard](jvm/GE-20260605-2d7f7a.md)
+- GE-20260605-9636fd [throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch](jvm/GE-20260605-9636fd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -574,3 +574,4 @@
 | GE-20260605-16a8fc | WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix | gotcha | 10/15 |
 | GE-20260605-8b9118 | Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled | gotcha | 10/15 |
 | GE-20260605-2d7f7a | Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard | gotcha | 9/15 |
+| GE-20260605-9636fd | throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch | gotcha | 13/15 |

@@ -101,3 +101,4 @@
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
 - GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location
+- GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch

@@ -1,1 +1,2 @@
 - GE-20260417-28e1b8: URI.create() throws IllegalArgumentException on malformed URLs — urlparse() never does
+- GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch
