@@ -1,0 +1,1 @@
+- GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read

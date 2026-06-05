@@ -14,3 +14,4 @@
 - GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere
 - GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
 - GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled
+- GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read

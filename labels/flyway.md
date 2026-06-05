@@ -37,3 +37,4 @@
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
 - GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING
 - GE-20260605-0ffc19: H2 MODE=PostgreSQL does not support SIMILAR TO in ALTER TABLE ADD CONSTRAINT CHECK — use REGEXP_LIKE instead
+- GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read

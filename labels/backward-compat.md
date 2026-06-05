@@ -1,1 +1,2 @@
 - GE-20260414-937013: Add a non-@Tool overload to evolve an MCP @Tool method signature without breaking test call sites
+- GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read
