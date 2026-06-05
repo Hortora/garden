@@ -5,3 +5,4 @@
 - GE-20260505-6e554c: Populate GitHub Projects V2 cross-repo via GraphQL node IDs — `gh project item-add` is unreliable for bulk operations
 - GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
 - GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
+- GE-20260605-28eb88: gh repo edit --visibility requires --accept-visibility-change-consequences flag

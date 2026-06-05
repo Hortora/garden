@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1315
+**Entries merged since last sweep:** 1316
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1642,6 +1642,7 @@
 - GE-20260605-d89e57 [Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync](tools/GE-20260605-d89e57.md)
 - GE-20260605-1f6896 [work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main](tools/GE-20260605-1f6896.md)
 - GE-20260605-f11f8f [git rm silently succeeds on empty directories — rm -rf required](tools/GE-20260605-f11f8f.md)
+- GE-20260605-28eb88 [gh repo edit --visibility requires --accept-visibility-change-consequences flag](tools/GE-20260605-28eb88.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

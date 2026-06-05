@@ -4,3 +4,4 @@
 - GE-20260504-e61c56: gh repo fork creates <name>-1 when name already exists with no warning
 - GE-20260505-ea8485: `gh repo list --json isFork` returns `parent: null` for forks — field is unreliable for fork detection
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
+- GE-20260605-28eb88: gh repo edit --visibility requires --accept-visibility-change-consequences flag

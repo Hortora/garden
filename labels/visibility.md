@@ -1,3 +1,4 @@
 - GE-20260501-8320ae: GitHub org secret set with --org defaults to private repos — public repos silently get nothing
 - GE-20260501-9e8490: Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM
 - GE-20260531-18fa72: Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath
+- GE-20260605-28eb88: gh repo edit --visibility requires --accept-visibility-change-consequences flag

@@ -1,0 +1,1 @@
+- GE-20260605-28eb88: gh repo edit --visibility requires --accept-visibility-change-consequences flag

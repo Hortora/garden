@@ -481,3 +481,4 @@
 | GE-20260605-d89e57 | Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync | gotcha | 10/15 |
 | GE-20260605-1f6896 | work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main | gotcha | 12/15 |
 | GE-20260605-f11f8f | git rm silently succeeds on empty directories — rm -rf required | gotcha | 8/15 |
+| GE-20260605-28eb88 | gh repo edit --visibility requires --accept-visibility-change-consequences flag | gotcha | 9/15 |
