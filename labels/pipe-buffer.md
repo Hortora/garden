@@ -1,0 +1,1 @@
+- GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI

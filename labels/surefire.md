@@ -13,3 +13,4 @@
 - GE-20260523-5b90bf: Maven Surefire -Dtest=: '+' separator silently fails — error says 'No tests matching pattern'
 - GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
+- GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI

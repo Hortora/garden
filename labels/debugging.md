@@ -15,3 +15,4 @@
 - GE-20260501-93f9a8: Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
+- GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI

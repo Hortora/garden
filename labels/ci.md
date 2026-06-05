@@ -19,3 +19,4 @@
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI
