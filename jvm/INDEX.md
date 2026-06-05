@@ -562,3 +562,4 @@
 | GE-20260605-97cd1e | Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI | gotcha | 13/15 |
 | GE-20260605-e91aa0 | Quarkus @QuarkusTest without quarkus-maven-plugin hangs on resource-constrained CI — augmentation inside forked JVM | gotcha | 14/15 |
 | GE-20260605-6aa860 | GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration | gotcha | 10/15 |
+| GE-20260605-035a79 | Surefire reports artifact definitively shows which modules completed testing vs which hung | technique | 9/15 |

@@ -16,3 +16,4 @@
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
 - GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI
+- GE-20260605-035a79: Surefire reports artifact definitively shows which modules completed testing vs which hung

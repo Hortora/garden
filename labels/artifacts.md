@@ -1,0 +1,1 @@
+- GE-20260605-035a79: Surefire reports artifact definitively shows which modules completed testing vs which hung
