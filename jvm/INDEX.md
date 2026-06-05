@@ -592,3 +592,4 @@
 | GE-20260605-e4d5c3 | Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system | gotcha | 10/15 |
 | GE-20260606-0718fd | @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI | technique | 8/15 |
 | GE-20260606-096df3 | LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring | technique | 11/15 |
+| GE-20260606-668cee | Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution | gotcha | 10/15 |
