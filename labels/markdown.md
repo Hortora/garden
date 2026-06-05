@@ -9,3 +9,4 @@
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
 - GE-20260529-4518ac: Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
+- GE-20260605-51b347: pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching

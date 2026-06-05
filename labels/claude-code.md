@@ -45,3 +45,4 @@
 - GE-20260603-a4e92f: mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns
 - GE-20260603-cab7b9: Parallel agents with mandatory IntelliJ MCP tools perform semantically-grounded codebase audits that grep cannot
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
+- GE-20260605-51b347: pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching

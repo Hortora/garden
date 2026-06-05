@@ -277,3 +277,4 @@
 - GE-20260605-2d7f7a: Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
+- GE-20260605-51b347: pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching
