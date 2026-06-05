@@ -74,3 +74,4 @@
 - GE-20260605-b0b14c: JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields
 - GE-20260605-b734b3: SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert
 - GE-20260605-5d0034: JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it
+- GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode

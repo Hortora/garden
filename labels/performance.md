@@ -10,3 +10,4 @@
 - GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
 - GE-20260422-ae631f: Three.js object.visible = false keeps the object in the scene graph — traversal and frustum culling still run
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
+- GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode

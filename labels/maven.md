@@ -114,3 +114,4 @@
 - GE-20260603-a4e92f: mcp__intellij-index__ide_read_file rejects Maven repo JAR paths even in the format the tool itself returns
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
+- GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>

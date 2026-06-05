@@ -16,3 +16,4 @@
 - GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260605-494ed0: ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires
+- GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>

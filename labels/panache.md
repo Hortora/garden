@@ -60,3 +60,4 @@
 - GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260604-97031b: Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed
+- GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode

@@ -1,0 +1,1 @@
+- GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>
