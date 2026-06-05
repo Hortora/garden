@@ -1,0 +1,1 @@
+- GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled

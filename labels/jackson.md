@@ -9,3 +9,4 @@
 - GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
 - GE-20260602-2cff5e: Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type
 - GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
+- GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled

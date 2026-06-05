@@ -1,0 +1,1 @@
+- GE-20260605-2d7f7a: Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard

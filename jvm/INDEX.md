@@ -572,3 +572,5 @@
 | GE-20260605-b734b3 | SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert | technique | 10/15 |
 | GE-20260605-5d0034 | JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it | gotcha | 11/15 |
 | GE-20260605-16a8fc | WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix | gotcha | 10/15 |
+| GE-20260605-8b9118 | Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled | gotcha | 10/15 |
+| GE-20260605-2d7f7a | Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard | gotcha | 9/15 |

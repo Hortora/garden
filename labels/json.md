@@ -13,3 +13,4 @@
 - GE-20260528-6ebb38: SC2EGSet JSON replays emit an extra UnitBorn at loop 0 in some games — breaks strict initial unit count check
 - GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere
 - GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
+- GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled

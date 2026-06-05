@@ -4,3 +4,4 @@
 - GE-20260525-c01bb4: String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
 - GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null
+- GE-20260605-2d7f7a: Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard
