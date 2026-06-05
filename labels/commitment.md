@@ -3,3 +3,4 @@
 - GE-20260517-5de55b: MessageService.send() auto-opens qhorus Commitment when type=COMMAND and correlationId is non-null
 - GE-20260517-e10a0f: casehub-qhorus: after HANDOFF, findByCorrelationId returns the child OPEN commitment, not the parent DELEGATED
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
+- GE-20260605-73c9d6: CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome

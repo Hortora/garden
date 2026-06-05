@@ -273,3 +273,4 @@
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
 - GE-20260604-4298f9: @InjectMock in @QuarkusTest replaces CDI bean class-wide — unstubbed methods return null and silently trigger unexpected code paths
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
+- GE-20260605-73c9d6: CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome

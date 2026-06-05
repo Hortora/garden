@@ -1,1 +1,2 @@
 - GE-20260521-e39ad1: CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor
+- GE-20260605-73c9d6: CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome

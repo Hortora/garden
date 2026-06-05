@@ -19,3 +19,4 @@
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260605-494ed0: ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires
+- GE-20260605-73c9d6: CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome

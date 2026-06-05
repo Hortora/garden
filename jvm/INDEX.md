@@ -565,3 +565,4 @@
 | GE-20260605-035a79 | Surefire reports artifact definitively shows which modules completed testing vs which hung | technique | 9/15 |
 | GE-20260605-fc9ae7 | Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM | undocumented | 8/15 |
 | GE-20260605-494ed0 | ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires | gotcha | 12/15 |
+| GE-20260605-73c9d6 | CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome | gotcha | 9/15 |
