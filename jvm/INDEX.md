@@ -598,3 +598,5 @@
 | GE-20260606-e5f0ab | Migrate a stored JSON column format without Flyway by detecting format on read | technique | 11/15 |
 | GE-20260606-1954f5 | mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed | gotcha | 10/15 |
 | GE-20260606-527f94 | JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions | undocumented | 9/15 |
+| GE-20260606-1c0f7d | Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes | gotcha | 10/15 |
+| GE-20260606-1c0f7d | Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes | gotcha | 10/15 |

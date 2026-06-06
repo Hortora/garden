@@ -38,3 +38,5 @@
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
 - GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit
 - GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes

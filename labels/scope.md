@@ -2,3 +2,5 @@
 - GE-20260427-0e7508: Reactive scope evaluation (scopeGuard wrapping JoinRightInlet) loses left outer facts for 2-source rules
 - GE-20260421-bbc3a9: @PermuteParam inside @PermuteMethod silently skips expansion — inner variable not in scope
 - GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes

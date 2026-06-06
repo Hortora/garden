@@ -3,3 +3,5 @@
 - GE-20260525-55d8f6: Mutiny idiom for synchronous delegation: invoke(delegate::method).replaceWithVoid(), not call-then-return-voidItem
 - GE-20260526-3c8553: @WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes

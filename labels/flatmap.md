@@ -1,1 +1,3 @@
 - GE-20260523-80cc31: Synchronous exceptions thrown inside Mutiny flatMap suppliers are wrapped as failed Uni — works correctly including from Optional.ifPresent()
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes

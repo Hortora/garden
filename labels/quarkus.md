@@ -448,3 +448,5 @@
 - GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260606-0c9216: @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes

@@ -2,3 +2,5 @@
 - GE-20260505-b04e30: AssertJ: assertThat(() -> voidMethod()) won't compile — use assertThatCode() for void lambdas
 - GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules
 - GE-20260528-1e92db: Capture @ConfigProperty field as final local before anonymous-class capture in @PostConstruct
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
