@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1333
+**Entries merged since last sweep:** 1338
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1138,6 +1138,11 @@
 - GE-20260606-1c0f7d [Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes](jvm/GE-20260606-1c0f7d.md)
 - GE-20260606-e924c0 [Java can't unify Class<? extends Enum<? extends I>> with Class<T extends Enum<T> & I>](jvm/GE-20260606-e924c0.md)
 - GE-20260606-4c69a8 [Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations](jvm/GE-20260606-4c69a8.md)
+- GE-20260606-d3cd87 [@QuarkusMain(name) silently prevents command-mode invocation in native image](jvm/GE-20260606-d3cd87.md)
+- GE-20260606-7bf5dd [DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image](jvm/GE-20260606-7bf5dd.md)
+- GE-20260606-025601 [ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image](jvm/GE-20260606-025601.md)
+- GE-20260606-fc0556 [GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config](jvm/GE-20260606-fc0556.md)
+- GE-20260606-aab62a [DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module](jvm/GE-20260606-aab62a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

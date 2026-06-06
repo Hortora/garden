@@ -1,0 +1,1 @@
+- GE-20260606-d3cd87: @QuarkusMain(name) silently prevents command-mode invocation in native image

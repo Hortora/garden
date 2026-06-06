@@ -1,1 +1,6 @@
 - GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection
+- GE-20260606-d3cd87: @QuarkusMain(name) silently prevents command-mode invocation in native image
+- GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image
+- GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
+- GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
+- GE-20260606-aab62a: DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module

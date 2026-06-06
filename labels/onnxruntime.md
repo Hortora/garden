@@ -1,0 +1,2 @@
+- GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
+- GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config

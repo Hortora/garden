@@ -450,3 +450,4 @@
 - GE-20260606-0c9216: @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260606-d3cd87: @QuarkusMain(name) silently prevents command-mode invocation in native image

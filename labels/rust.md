@@ -1,0 +1,1 @@
+- GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image

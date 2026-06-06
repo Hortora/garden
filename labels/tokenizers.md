@@ -1,0 +1,2 @@
+- GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image
+- GE-20260606-aab62a: DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module

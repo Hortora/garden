@@ -2,3 +2,6 @@
 - GE-20260415-64bd1b: Use interp.set() to pass Java strings to JEP without Python string-literal escaping
 - GE-20260415-b218d7: Dedicated daemon thread + task queue for thread-affinite interpreters in multi-threaded JVM servers
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
+- GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image
+- GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
+- GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
