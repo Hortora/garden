@@ -115,3 +115,4 @@
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
 - GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>
+- GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed

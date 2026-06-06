@@ -1,2 +1,3 @@
 - GE-20260417-c01ea4: typeArgList() inside @PermuteDeclr type strings requires single-quoted style argument
 - GE-20260421-c37188: EvaluationContext.evaluate() always returns String — numeric macros silently break evaluateInt()
+- GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions

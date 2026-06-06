@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1326
+**Entries merged since last sweep:** 1328
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1131,6 +1131,8 @@
 - GE-20260606-0c9216 [@QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail](jvm/GE-20260606-0c9216.md)
 - GE-20260606-cd1c61 [MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException](jvm/GE-20260606-cd1c61.md)
 - GE-20260606-e5f0ab [Migrate a stored JSON column format without Flyway by detecting format on read](jvm/GE-20260606-e5f0ab.md)
+- GE-20260606-1954f5 [mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed](jvm/GE-20260606-1954f5.md)
+- GE-20260606-527f94 [JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions](jvm/GE-20260606-527f94.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

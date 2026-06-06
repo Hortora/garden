@@ -1,2 +1,3 @@
 - GE-20260511-5be2d2: Maven -rf resume uses stale .m2 jar from failed earlier module — causes impossible compilation errors
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
+- GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed

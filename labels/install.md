@@ -1,1 +1,2 @@
 - GE-20260417-a405a4: quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error
+- GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed

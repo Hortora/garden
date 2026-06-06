@@ -1,0 +1,1 @@
+- GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions

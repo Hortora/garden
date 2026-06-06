@@ -21,3 +21,4 @@
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
+- GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed

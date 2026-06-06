@@ -1,3 +1,4 @@
 - GE-20260525-c01bb4: String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument
 - GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
 - GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
+- GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions
