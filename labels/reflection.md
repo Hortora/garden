@@ -5,3 +5,4 @@
 - GE-20260512-a09bd3: Enforce blocking/reactive SPI method parity with a reflection test — silent drift causes downstream compile failures
 - GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection
 - GE-20260522-0d8d9e: JavaMethod.isSynthetic() does not exist in ArchUnit 1.4.1 — filter by PUBLIC modifier only
+- GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations

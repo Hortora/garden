@@ -5,3 +5,4 @@
 - GE-20260531-ac2489: quarkus-mcp-server @ToolArg is rejected on @ResourceTemplate methods — IllegalStateException at augmentation
 - GE-20260604-d08c9f: @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
+- GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations

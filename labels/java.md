@@ -102,3 +102,6 @@
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
 - GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location
 - GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch
+- GE-20260606-e924c0: Java can't unify Class<? extends Enum<? extends I>> with Class<T extends Enum<T> & I>
+- GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults

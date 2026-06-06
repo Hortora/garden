@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1330
+**Entries merged since last sweep:** 1333
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -224,6 +224,7 @@
 - GE-20260501-93f9a8 [Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs](java/GE-20260501-93f9a8.md)
 - GE-20260501-a9ea1a [SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep](java/GE-20260501-a9ea1a.md)
 - GE-20260529-8b17d1 [LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache](java/GE-20260529-8b17d1.md)
+- GE-20260420-c94e2a [Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults](java/GE-20260420-c94e2a.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
@@ -1135,6 +1136,8 @@
 - GE-20260606-527f94 [JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions](jvm/GE-20260606-527f94.md)
 - GE-20260606-1c0f7d [Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes](jvm/GE-20260606-1c0f7d.md)
 - GE-20260606-1c0f7d [Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes](jvm/GE-20260606-1c0f7d.md)
+- GE-20260606-e924c0 [Java can't unify Class<? extends Enum<? extends I>> with Class<T extends Enum<T> & I>](jvm/GE-20260606-e924c0.md)
+- GE-20260606-4c69a8 [Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations](jvm/GE-20260606-4c69a8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

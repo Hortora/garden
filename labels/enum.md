@@ -10,3 +10,6 @@
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
 - GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations
 - GE-20260605-73c9d6: CommitmentState.DECLINED not CANCELLED for DECLINE speech-act commitment outcome
+- GE-20260606-e924c0: Java can't unify Class<? extends Enum<? extends I>> with Class<T extends Enum<T> & I>
+- GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults

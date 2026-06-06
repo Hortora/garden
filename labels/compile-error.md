@@ -5,3 +5,4 @@
 - GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
 - GE-20260604-098217: serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage
+- GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults

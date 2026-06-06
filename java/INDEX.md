@@ -66,3 +66,4 @@
 | GE-20260501-93f9a8 | Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs | technique | 10/15 |
 | GE-20260501-a9ea1a | SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep | gotcha | 10/15 |
 | GE-20260529-8b17d1 | LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache | technique | 10/15 |
+| GE-20260420-c94e2a | Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults | gotcha | 9/15 |
