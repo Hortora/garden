@@ -1,2 +1,1 @@
-- GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context
 - GE-20260606-dc4293: InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim

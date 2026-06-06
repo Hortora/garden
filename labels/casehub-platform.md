@@ -4,3 +4,4 @@
 - GE-20260530-9cdfb5: MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback
 - GE-20260530-9b5bbe: Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding
 - GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context
+- GE-20260606-dc4293: InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim
