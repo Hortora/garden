@@ -1,0 +1,1 @@
+- GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it

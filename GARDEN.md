@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1339
+**Entries merged since last sweep:** 1340
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1144,6 +1144,7 @@
 - GE-20260606-fc0556 [GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config](jvm/GE-20260606-fc0556.md)
 - GE-20260606-aab62a [DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module](jvm/GE-20260606-aab62a.md)
 - GE-20260606-dc4293 [InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim](jvm/GE-20260606-dc4293.md)
+- GE-20260607-b6478d [casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it](jvm/GE-20260607-b6478d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

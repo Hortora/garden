@@ -608,3 +608,4 @@
 | GE-20260606-fc0556 | GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config | technique | 10/15 |
 | GE-20260606-aab62a | DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module | undocumented | 9/15 |
 | GE-20260606-dc4293 | InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim | gotcha | 9/15 |
+| GE-20260607-b6478d | casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it | gotcha | 15/15 |

@@ -30,3 +30,4 @@
 - GE-20260604-38e09e: casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING
 - GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null
 - GE-20260605-fa1a51: PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely
+- GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
