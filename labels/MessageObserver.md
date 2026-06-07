@@ -1,2 +1,3 @@
 - GE-20260529-bfa5d5: WatchdogAlertEvent carries no correlationId — observer must query by notificationChannel
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
+- GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f

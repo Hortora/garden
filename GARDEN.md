@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1349
+**Entries merged since last sweep:** 1350
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -82,6 +82,7 @@
 - GE-20260501-b12416 [MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries](casehub-qhorus/GE-20260501-b12416.md)
 - GE-20260508-492336 [casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup](casehub-qhorus/GE-20260508-492336.md)
 - GE-20260521-e39ad1 [CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor](casehub-qhorus/GE-20260521-e39ad1.md)
+- GE-20260607-d051f2 [MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f](casehub-qhorus/GE-20260607-d051f2.md)
 - GE-20260607-d051f2 [MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f](casehub-qhorus/GE-20260607-d051f2.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
