@@ -1,0 +1,1 @@
+- GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations

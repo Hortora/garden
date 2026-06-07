@@ -1,0 +1,1 @@
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error

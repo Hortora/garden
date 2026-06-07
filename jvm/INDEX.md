@@ -635,3 +635,9 @@
 | GE-20260607-b63e95 | @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws | technique | 10/15 |
 | GE-20260607-876d7e | JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture | gotcha | 11/15 |
 | GE-20260607-876d7e | JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture | gotcha | 11/15 |
+| GE-20260607-3747a1 | Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth | gotcha | 11/15 |
+| GE-20260607-1c0a05 | JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation | gotcha | 13/15 |
+| GE-20260607-f0c53e | ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error | gotcha | 13/15 |
+| GE-20260607-b6d999 | Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId | technique | 11/15 |
+| GE-20260607-067ace | Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA | technique | 12/15 |
+| GE-20260607-200500 | H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations | undocumented | 11/15 |

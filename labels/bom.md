@@ -1,2 +1,3 @@
 - GE-20260511-0b3fa2: Quarkus BOM manages mockito-junit-jupiter — explicit version pin silently shadows it
 - GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
+- GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth

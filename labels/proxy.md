@@ -7,3 +7,4 @@
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA

@@ -59,3 +59,4 @@
 - GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING
 - GE-20260605-b0b14c: JPA em.persist() on a managed entity is a no-op but field mutations are dirty-flushed — calling save() twice silently overwrites fields
 - GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode
+- GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation

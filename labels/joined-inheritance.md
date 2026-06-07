@@ -2,3 +2,4 @@
 - GE-20260420-86180e: em.merge() + em.remove() on JOINED inheritance entity throws OptimisticLockException from wrong EntityManager context
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
 - GE-20260605-5d0034: JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it
+- GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation

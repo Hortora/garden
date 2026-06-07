@@ -8,3 +8,6 @@
 - GE-20260530-01bcfe: JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()
 - GE-20260531-ed2f7a: @Transactional @ObservesAsync try/catch: caught exception enables outer TX commit — REQUIRES_NEW fallback also commits, double-recording the event
 - GE-20260602-9ae24a: @ObservesAsync REQUIRES_NEW write added to a listener causes intermittent findBySubjectId count failure in unrelated @QuarkusTest
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA
+- GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations

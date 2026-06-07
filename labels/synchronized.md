@@ -1,0 +1,1 @@
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA

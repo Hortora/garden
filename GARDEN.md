@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1381
+**Entries merged since last sweep:** 1387
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1182,6 +1182,12 @@
 - GE-20260607-b63e95 [@QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws](jvm/GE-20260607-b63e95.md)
 - GE-20260607-876d7e [JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture](jvm/GE-20260607-876d7e.md)
 - GE-20260607-876d7e [JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture](jvm/GE-20260607-876d7e.md)
+- GE-20260607-3747a1 [Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth](jvm/GE-20260607-3747a1.md)
+- GE-20260607-1c0a05 [JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation](jvm/GE-20260607-1c0a05.md)
+- GE-20260607-f0c53e [ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error](jvm/GE-20260607-f0c53e.md)
+- GE-20260607-b6d999 [Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId](jvm/GE-20260607-b6d999.md)
+- GE-20260607-067ace [Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA](jvm/GE-20260607-067ace.md)
+- GE-20260607-200500 [H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations](jvm/GE-20260607-200500.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

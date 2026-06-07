@@ -2,3 +2,4 @@
 - GE-20260429-603196: Quarkus/Narayana: OptimisticLockException from JTA commit is not catchable as jakarta.persistence.OptimisticLockException
 - GE-20260529-010101: @Transactional(REQUIRES_NEW) try-catch doesn't intercept commit-time exceptions — they escape as ArcUndeclaredThrowableException
 - GE-20260530-a14b49: Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error

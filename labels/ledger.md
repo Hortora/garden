@@ -14,3 +14,5 @@
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
+- GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation
+- GE-20260607-b6d999: Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId

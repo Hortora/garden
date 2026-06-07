@@ -25,3 +25,5 @@
 - GE-20260602-6941d6: Separate @ApplicationScoped @Transactional delegate controls commit timing — ensures writes are visible before outer method returns
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA

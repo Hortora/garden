@@ -231,3 +231,5 @@
 - GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
 - GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA

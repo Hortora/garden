@@ -19,3 +19,6 @@
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
 - GE-20260606-0c9216: @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail
 - GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch
+- GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
+- GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA
+- GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations

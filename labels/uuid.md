@@ -3,3 +3,4 @@
 - GE-20260420-58520c: Reactive PanacheRepository<E> takes one type arg; use PanacheRepositoryBase<E,Id> for non-Long primary keys
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
+- GE-20260607-b6d999: Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId
