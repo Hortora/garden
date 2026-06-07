@@ -4,3 +4,4 @@
 - GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
 - GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path
 - GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
+- GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()

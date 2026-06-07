@@ -1,2 +1,1 @@
-- GE-20260513-01e602: Use 'git show <commit>:path > target' to recover file content from any point in git history without checkout
 - GE-20260607-e27c23: DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure

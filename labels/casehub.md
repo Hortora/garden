@@ -35,3 +35,7 @@
 - GE-20260605-059dd0: Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race
 - GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests
 - GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard
+- GE-20260607-25a3fe: CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch
+- GE-20260607-e27c23: DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure
+- GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
+- GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()

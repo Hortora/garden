@@ -229,3 +229,4 @@
 | GE-20260424-6b88a0 | `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented | undocumented | 10/15 |
 | GE-20260415-884e48 | @Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException | gotcha | 12/15 |
 | GE-20260414-14d244 | quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution | undocumented | 11/15 |
+| GE-20260420-18fbd4 | casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test() | undocumented | 11/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1350
+**Entries merged since last sweep:** 1354
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -46,6 +46,9 @@
 - GE-20260604-97031b [Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed](casehub-engine/GE-20260604-97031b.md)
 - GE-20260604-38e09e [casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING](casehub-engine/GE-20260604-38e09e.md)
 - GE-20260605-fa1a51 [PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely](casehub-engine/GE-20260605-fa1a51.md)
+- GE-20260607-25a3fe [CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch](casehub-engine/GE-20260607-25a3fe.md)
+- GE-20260607-e27c23 [DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure](casehub-engine/GE-20260607-e27c23.md)
+- GE-20260607-609772 [CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED](casehub-engine/GE-20260607-609772.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -512,6 +515,7 @@
 - GE-20260424-6b88a0 [`quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented](quarkus/GE-20260424-6b88a0.md)
 - GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
 - GE-20260414-14d244 [quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution](quarkus/GE-20260414-14d244.md)
+- GE-20260420-18fbd4 [casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()](quarkus/GE-20260420-18fbd4.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

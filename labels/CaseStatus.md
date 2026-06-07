@@ -1,0 +1,1 @@
+- GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED

@@ -2,3 +2,4 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260505-da346d: @ApplicationScoped CDI beans are always-active in Quarkus — safe to call from any thread
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
+- GE-20260607-25a3fe: CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch

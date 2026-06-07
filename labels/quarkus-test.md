@@ -17,3 +17,5 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260605-494ed0: ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires
 - GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>
+- GE-20260607-e27c23: DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure
+- GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
