@@ -633,3 +633,4 @@
 | GE-20260607-d689c9 | Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead | gotcha | 12/15 |
 | GE-20260607-7d0aa8 | Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code | gotcha | 12/15 |
 | GE-20260607-b63e95 | @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws | technique | 10/15 |
+| GE-20260607-876d7e | JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture | gotcha | 11/15 |
