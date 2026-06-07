@@ -457,3 +457,4 @@
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
+- GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet

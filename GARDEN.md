@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1361
+**Entries merged since last sweep:** 1362
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1166,6 +1166,7 @@
 - GE-20260607-813a95 [ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern](jvm/GE-20260607-813a95.md)
 - GE-20260607-e0798c [CaseHub actorId format contains colons — cache key separator must use null char](jvm/GE-20260607-e0798c.md)
 - GE-20260607-3defda [Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern](jvm/GE-20260607-3defda.md)
+- GE-20260607-1ebb9c [@Transactional on @PostConstruct is silently ignored — Arc proxy not created yet](jvm/GE-20260607-1ebb9c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

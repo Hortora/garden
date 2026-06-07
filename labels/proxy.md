@@ -6,3 +6,4 @@
 - GE-20260522-99b6a0: @ApplicationScoped CDI proxy swallows field writes — use @Singleton for test doubles needing direct field access
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
 - GE-20260523-de55e8: @ApplicationScoped CDI proxy silently returns empty/null for direct field access — only method calls dispatch to the real bean
+- GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet

@@ -24,3 +24,4 @@
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
 - GE-20260604-d08c9f: @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean
+- GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
