@@ -13,3 +13,4 @@
 - GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
 - GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method
 - GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code
+- GE-20260607-b63e95: @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws

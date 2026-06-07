@@ -287,3 +287,4 @@
 - GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
 - GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
 - GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
+- GE-20260607-b63e95: @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws

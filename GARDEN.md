@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1378
+**Entries merged since last sweep:** 1379
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1179,6 +1179,7 @@
 - GE-20260607-9cef08 [Sequential try-catch for must-not-throw close() with multiple resources](jvm/GE-20260607-9cef08.md)
 - GE-20260607-d689c9 [Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead](jvm/GE-20260607-d689c9.md)
 - GE-20260607-7d0aa8 [Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code](jvm/GE-20260607-7d0aa8.md)
+- GE-20260607-b63e95 [@QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws](jvm/GE-20260607-b63e95.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

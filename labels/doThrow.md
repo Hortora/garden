@@ -1,1 +1,2 @@
 - GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
+- GE-20260607-b63e95: @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws
