@@ -1,0 +1,1 @@
+- GE-20260607-e0798c: CaseHub actorId format contains colons — cache key separator must use null char

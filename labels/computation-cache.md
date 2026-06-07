@@ -1,0 +1,1 @@
+- GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern

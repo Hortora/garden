@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1358
+**Entries merged since last sweep:** 1361
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1163,6 +1163,9 @@
 - GE-20260607-97e543 [WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal](jvm/GE-20260607-97e543.md)
 - GE-20260607-f2f604 [Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()](jvm/GE-20260607-f2f604.md)
 - GE-20260607-06ef99 [ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning](jvm/GE-20260607-06ef99.md)
+- GE-20260607-813a95 [ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern](jvm/GE-20260607-813a95.md)
+- GE-20260607-e0798c [CaseHub actorId format contains colons — cache key separator must use null char](jvm/GE-20260607-e0798c.md)
+- GE-20260607-3defda [Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern](jvm/GE-20260607-3defda.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

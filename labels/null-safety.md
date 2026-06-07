@@ -2,3 +2,4 @@
 - GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
 - GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
 - GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions
+- GE-20260607-813a95: ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern

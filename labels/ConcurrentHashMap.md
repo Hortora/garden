@@ -4,3 +4,4 @@
 - GE-20260522-6c22a3: ConcurrentHashMap.computeIfPresent returning null atomically removes the map entry — eliminates TOCTOU in prune-if-empty patterns
 - GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls
 - GE-20260602-6cfbdb: ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()
+- GE-20260607-813a95: ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern

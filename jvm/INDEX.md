@@ -620,3 +620,6 @@
 | GE-20260607-97e543 | WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal | technique | 11/15 |
 | GE-20260607-f2f604 | Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply() | technique | 10/15 |
 | GE-20260607-06ef99 | ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning | undocumented | 9/15 |
+| GE-20260607-813a95 | ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern | gotcha | 9/15 |
+| GE-20260607-e0798c | CaseHub actorId format contains colons — cache key separator must use null char | gotcha | 10/15 |
+| GE-20260607-3defda | Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern | technique | 9/15 |

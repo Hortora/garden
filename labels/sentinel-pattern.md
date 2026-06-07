@@ -1,0 +1,1 @@
+- GE-20260607-813a95: ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern
