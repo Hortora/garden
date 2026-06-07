@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1372
+**Entries merged since last sweep:** 1373
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1699,6 +1699,7 @@
 - GE-20260607-321429 [Declaring a migration complete while the old destination still exists causes silent continued writes](tools/GE-20260607-321429.md)
 - GE-20260601-2e31ae [Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively](tools/GE-20260601-2e31ae.md)
 - GE-20260520-7fb7a8 [Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites](tools/GE-20260520-7fb7a8.md)
+- GE-20260607-536227 [Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error](tools/GE-20260607-536227.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

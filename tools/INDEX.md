@@ -487,3 +487,4 @@
 | GE-20260607-321429 | Declaring a migration complete while the old destination still exists causes silent continued writes | gotcha | 10/15 |
 | GE-20260601-2e31ae | Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively | technique | 8/15 |
 | GE-20260520-7fb7a8 | Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites | gotcha | 10/15 |
+| GE-20260607-536227 | Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error | gotcha | 9/15 |
