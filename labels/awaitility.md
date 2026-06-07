@@ -9,3 +9,4 @@
 - GE-20260604-97031b: Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed
 - GE-20260605-494ed0: ChannelGateway.fanOut() delivers to backends on virtual threads — @QuarkusTest assertions fail before backend fires
 - GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts

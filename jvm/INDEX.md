@@ -647,3 +647,4 @@
 | GE-20260607-3b6711 | casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist | undocumented | 10/15 |
 | GE-20260607-326c7e | casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution | undocumented | 11/15 |
 | GE-20260607-285229 | casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores | breaking | 11/15 |
+| GE-20260515-ed10ee | Awaitility untilAsserted gives weaker guarantee than during for exact async event counts | gotcha | 13/15 |

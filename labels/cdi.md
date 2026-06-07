@@ -235,3 +235,4 @@
 - GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA
 - GE-20260607-c39651: Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points
 - GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
+- GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
