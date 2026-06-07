@@ -106,3 +106,4 @@
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
+- GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass

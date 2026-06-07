@@ -1,1 +1,2 @@
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
+- GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass

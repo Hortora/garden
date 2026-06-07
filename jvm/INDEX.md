@@ -625,3 +625,4 @@
 | GE-20260607-3defda | Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern | technique | 9/15 |
 | GE-20260607-1ebb9c | @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet | gotcha | 14/15 |
 | GE-20260607-3ded98 | ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass | gotcha | 9/15 |
+| GE-20260607-3ded98 | ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass | gotcha | 9/15 |
