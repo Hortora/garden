@@ -626,3 +626,5 @@
 | GE-20260607-1ebb9c | @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet | gotcha | 14/15 |
 | GE-20260607-3ded98 | ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass | gotcha | 9/15 |
 | GE-20260607-3ded98 | ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass | gotcha | 9/15 |
+| GE-20260607-bcb5d5 | validateOptional silently passes null map values — Map.copyOf then NPEs with no field context | gotcha | 9/15 |
+| GE-20260607-716b67 | Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data | gotcha | 10/15 |

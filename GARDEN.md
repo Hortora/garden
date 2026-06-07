@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1365
+**Entries merged since last sweep:** 1369
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1169,6 +1169,8 @@
 - GE-20260607-1ebb9c [@Transactional on @PostConstruct is silently ignored — Arc proxy not created yet](jvm/GE-20260607-1ebb9c.md)
 - GE-20260607-3ded98 [ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass](jvm/GE-20260607-3ded98.md)
 - GE-20260607-3ded98 [ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass](jvm/GE-20260607-3ded98.md)
+- GE-20260607-bcb5d5 [validateOptional silently passes null map values — Map.copyOf then NPEs with no field context](jvm/GE-20260607-bcb5d5.md)
+- GE-20260607-716b67 [Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data](jvm/GE-20260607-716b67.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1692,6 +1694,8 @@
 - GE-20260605-51b347 [pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching](tools/GE-20260605-51b347.md)
 - GE-20260606-7a29fb [REST Assured GPath `$.findAll {}` returns null (not []) when no elements match](tools/GE-20260606-7a29fb.md)
 - GE-20260607-321429 [Declaring a migration complete while the old destination still exists causes silent continued writes](tools/GE-20260607-321429.md)
+- GE-20260601-2e31ae [Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively](tools/GE-20260601-2e31ae.md)
+- GE-20260520-7fb7a8 [Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites](tools/GE-20260520-7fb7a8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

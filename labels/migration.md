@@ -27,3 +27,4 @@
 - GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
+- GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data

@@ -485,3 +485,5 @@
 | GE-20260605-51b347 | pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching | gotcha | 8/15 |
 | GE-20260606-7a29fb | REST Assured GPath `$.findAll {}` returns null (not []) when no elements match | gotcha | 10/15 |
 | GE-20260607-321429 | Declaring a migration complete while the old destination still exists causes silent continued writes | gotcha | 10/15 |
+| GE-20260601-2e31ae | Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively | technique | 8/15 |
+| GE-20260520-7fb7a8 | Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites | gotcha | 10/15 |

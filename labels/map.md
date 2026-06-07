@@ -3,3 +3,5 @@
 - GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference
 - GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null
 - GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
+- GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
+- GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data

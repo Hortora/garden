@@ -7,3 +7,4 @@
 - GE-20260511-044e40: git rebase: `reword` silently becomes `pick` in non-interactive sessions
 - GE-20260531-68222f: Use 'exec git commit --amend -F file' in git rebase -i todo to set commit messages non-interactively after fixup groups
 - GE-20260601-2e31ae: Use a shell script as GIT_SEQUENCE_EDITOR to write git rebase todo non-interactively when heredoc patterns are blocked
+- GE-20260601-2e31ae: Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively

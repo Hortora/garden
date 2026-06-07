@@ -13,3 +13,4 @@
 - GE-20260606-e924c0: Java can't unify Class<? extends Enum<? extends I>> with Class<T extends Enum<T> & I>
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
+- GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data

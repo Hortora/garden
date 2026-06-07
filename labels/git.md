@@ -147,3 +147,4 @@
 - GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
 - GE-20260605-f11f8f: git rm silently succeeds on empty directories — rm -rf required
+- GE-20260601-2e31ae: Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively
