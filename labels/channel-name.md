@@ -1,0 +1,1 @@
+- GE-20260607-a4d78a: ChannelSlugValidator rejects dot-notation channel names — use hyphens instead
