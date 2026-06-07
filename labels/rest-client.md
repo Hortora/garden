@@ -5,3 +5,4 @@
 - GE-20260526-286ac7: Use QuarkusTestResourceLifecycleManager to inject WireMock dynamic port before REST client configuration
 - GE-20260530-385dbb: @Provider @ApplicationScoped on ClientRequestFilter bypasses CDI injection in Quarkus @RegisterRestClient
 - GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
+- GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal

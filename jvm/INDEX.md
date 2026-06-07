@@ -617,3 +617,4 @@
 | GE-20260607-0bfc83 | Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch | gotcha | 14/15 |
 | GE-20260607-ad3d62 | ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator | gotcha | 13/15 |
 | GE-20260607-3611a2 | Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope) | gotcha | 12/15 |
+| GE-20260607-97e543 | WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal | technique | 11/15 |

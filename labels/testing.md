@@ -285,3 +285,4 @@
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260606-dc4293: InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim
 - GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
+- GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
