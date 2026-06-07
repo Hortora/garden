@@ -1,1 +1,2 @@
 - GE-20260528-936918: Response.Status.UNPROCESSABLE_ENTITY doesn't exist in Jakarta EE 9 JAX-RS — use raw integer 422
+- GE-20260607-c39651: Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points

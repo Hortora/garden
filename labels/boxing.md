@@ -1,0 +1,1 @@
+- GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null

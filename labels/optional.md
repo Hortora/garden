@@ -6,3 +6,4 @@
 - GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records
 - GE-20260531-a6bd23: SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead
 - GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null
+- GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null

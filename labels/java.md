@@ -111,3 +111,4 @@
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
 - GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE
 - GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
+- GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null

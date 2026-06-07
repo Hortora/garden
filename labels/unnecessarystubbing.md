@@ -1,2 +1,1 @@
-- GE-20260605-2d7f7a: Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard
 - GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()

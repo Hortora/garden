@@ -1,0 +1,2 @@
+- GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
+- GE-20260607-326c7e: casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution

@@ -1,1 +1,2 @@
 - GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled
+- GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()

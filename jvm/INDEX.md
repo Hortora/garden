@@ -641,3 +641,9 @@
 | GE-20260607-b6d999 | Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId | technique | 11/15 |
 | GE-20260607-067ace | Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA | technique | 12/15 |
 | GE-20260607-200500 | H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations | undocumented | 11/15 |
+| GE-20260607-3a83d8 | OptionalDouble.orElse(null) fails — primitive double cannot be null | gotcha | 9/15 |
+| GE-20260607-c39651 | Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points | gotcha | 9/15 |
+| GE-20260607-ab9f37 | Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient() | gotcha | 8/15 |
+| GE-20260607-3b6711 | casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist | undocumented | 10/15 |
+| GE-20260607-326c7e | casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution | undocumented | 11/15 |
+| GE-20260607-285229 | casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores | breaking | 11/15 |

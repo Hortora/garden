@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1387
+**Entries merged since last sweep:** 1393
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1188,6 +1188,12 @@
 - GE-20260607-b6d999 [Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId](jvm/GE-20260607-b6d999.md)
 - GE-20260607-067ace [Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA](jvm/GE-20260607-067ace.md)
 - GE-20260607-200500 [H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations](jvm/GE-20260607-200500.md)
+- GE-20260607-3a83d8 [OptionalDouble.orElse(null) fails — primitive double cannot be null](jvm/GE-20260607-3a83d8.md)
+- GE-20260607-c39651 [Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points](jvm/GE-20260607-c39651.md)
+- GE-20260607-ab9f37 [Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()](jvm/GE-20260607-ab9f37.md)
+- GE-20260607-3b6711 [casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist](jvm/GE-20260607-3b6711.md)
+- GE-20260607-326c7e [casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution](jvm/GE-20260607-326c7e.md)
+- GE-20260607-285229 [casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores](jvm/GE-20260607-285229.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

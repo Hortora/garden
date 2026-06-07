@@ -1,3 +1,4 @@
 - GE-20260424-a55003: Adding a field to a Java record breaks every positional constructor call silently until compile time
 - GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
+- GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores

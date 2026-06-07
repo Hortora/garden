@@ -1,1 +1,2 @@
 - GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
+- GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()

@@ -1,2 +1,3 @@
 - GE-20260429-101efe: H2 2.4.240 supports UNIQUE NULLS NOT DISTINCT — no sentinel value needed for nullable unique columns
 - GE-20260429-61810f: JPA findByActorIdAndTypeAndKey(nonGlobalType, null) silently queries GLOBAL rows
+- GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null

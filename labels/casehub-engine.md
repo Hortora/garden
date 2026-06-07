@@ -34,3 +34,6 @@
 - GE-20260607-245588: WorkerRetriesExhaustedEvent transitions CaseInstance to FAULTED — cannot reuse for PlanItem-only faults
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260607-66daf2: Re-fire WorkflowExecutionCompleted(plannedAction=null) from approval handler to reuse entire completion path
+- GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
+- GE-20260607-326c7e: casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution
+- GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores

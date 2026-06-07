@@ -28,3 +28,4 @@
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
+- GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores
