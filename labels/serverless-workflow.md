@@ -4,3 +4,4 @@
 - GE-20260414-5fc8e0: CNCF Serverless Workflow CallableTaskBuilder SPI — exact interface signatures (v7.13)
 - GE-20260414-14d244: quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
+- GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)

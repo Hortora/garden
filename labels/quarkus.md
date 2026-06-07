@@ -451,3 +451,5 @@
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-d3cd87: @QuarkusMain(name) silently prevents command-mode invocation in native image
+- GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
+- GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session

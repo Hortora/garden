@@ -31,3 +31,6 @@
 - GE-20260604-cf25cd: InMemoryCaseFile.get() uses Optional.of() — NPE when stored value is null
 - GE-20260605-fa1a51: PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely
 - GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
+- GE-20260607-245588: WorkerRetriesExhaustedEvent transitions CaseInstance to FAULTED — cannot reuse for PlanItem-only faults
+- GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
+- GE-20260607-66daf2: Re-fire WorkflowExecutionCompleted(plannedAction=null) from approval handler to reuse entire completion path

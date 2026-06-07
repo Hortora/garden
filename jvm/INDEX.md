@@ -609,3 +609,8 @@
 | GE-20260606-aab62a | DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module | undocumented | 9/15 |
 | GE-20260606-dc4293 | InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim | gotcha | 9/15 |
 | GE-20260607-b6478d | casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it | gotcha | 15/15 |
+| GE-20260607-cedf69 | @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct | gotcha | 12/15 |
+| GE-20260607-245588 | WorkerRetriesExhaustedEvent transitions CaseInstance to FAULTED — cannot reuse for PlanItem-only faults | gotcha | 11/15 |
+| GE-20260607-115619 | Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class) | gotcha | 13/15 |
+| GE-20260607-66daf2 | Re-fire WorkflowExecutionCompleted(plannedAction=null) from approval handler to reuse entire completion path | technique | 12/15 |
+| GE-20260607-4bb9a7 | Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session | technique | 10/15 |

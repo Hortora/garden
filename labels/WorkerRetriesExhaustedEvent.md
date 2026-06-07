@@ -1,0 +1,1 @@
+- GE-20260607-245588: WorkerRetriesExhaustedEvent transitions CaseInstance to FAULTED — cannot reuse for PlanItem-only faults

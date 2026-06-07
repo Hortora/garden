@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1340
+**Entries merged since last sweep:** 1346
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -82,6 +82,7 @@
 - GE-20260501-b12416 [MessageLedgerEntry.sequenceNumber is per-channel, not global — wrong ORDER BY for cross-channel queries](casehub-qhorus/GE-20260501-b12416.md)
 - GE-20260508-492336 [casehub-qhorus activates quarkus-hibernate-reactive unconditionally — fails with JDBC H2 at startup](casehub-qhorus/GE-20260508-492336.md)
 - GE-20260521-e39ad1 [CommitmentStore.findOpenByObligor(sender) finds nothing for COMMAND messages — sender is stored as requester, not obligor](casehub-qhorus/GE-20260521-e39ad1.md)
+- GE-20260607-d051f2 [MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f](casehub-qhorus/GE-20260607-d051f2.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
@@ -1145,6 +1146,11 @@
 - GE-20260606-aab62a [DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module](jvm/GE-20260606-aab62a.md)
 - GE-20260606-dc4293 [InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim](jvm/GE-20260606-dc4293.md)
 - GE-20260607-b6478d [casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it](jvm/GE-20260607-b6478d.md)
+- GE-20260607-cedf69 [@Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct](jvm/GE-20260607-cedf69.md)
+- GE-20260607-245588 [WorkerRetriesExhaustedEvent transitions CaseInstance to FAULTED — cannot reuse for PlanItem-only faults](jvm/GE-20260607-245588.md)
+- GE-20260607-115619 [Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)](jvm/GE-20260607-115619.md)
+- GE-20260607-66daf2 [Re-fire WorkflowExecutionCompleted(plannedAction=null) from approval handler to reuse entire completion path](jvm/GE-20260607-66daf2.md)
+- GE-20260607-4bb9a7 [Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session](jvm/GE-20260607-4bb9a7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
