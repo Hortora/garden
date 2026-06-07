@@ -1,3 +1,4 @@
 - GE-20260423-7c5214: Quarkus dev mode fails with ClassTooLargeException after large enum or switch growth
 - GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level
 - GE-20260601-ad3154: Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source
+- GE-20260607-d689c9: Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead

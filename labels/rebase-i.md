@@ -1,0 +1,1 @@
+- GE-20260607-536227: Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error

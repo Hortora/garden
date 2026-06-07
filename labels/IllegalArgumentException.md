@@ -1,1 +1,2 @@
 - GE-20260529-e32a4d: MessageDispatch.Builder.build() requires actorType — omitting it throws IllegalArgumentException
+- GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE

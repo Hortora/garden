@@ -10,3 +10,4 @@
 - GE-20260602-6cfbdb: ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch
+- GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources

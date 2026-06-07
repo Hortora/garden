@@ -1,0 +1,1 @@
+- GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state

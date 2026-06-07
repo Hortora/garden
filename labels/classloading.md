@@ -2,3 +2,4 @@
 - GE-20260423-8dfa90: mvn clean does not fix ClassNotFoundException after Quarkus dependency inner class moves
 - GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
+- GE-20260607-d689c9: Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead

@@ -109,3 +109,5 @@
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
+- GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE
+- GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources

@@ -1,1 +1,2 @@
 - GE-20260526-5a7d46: jakarta.ws.rs.core.Response does not implement AutoCloseable — try-with-resources fails to compile
+- GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources

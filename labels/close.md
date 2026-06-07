@@ -1,0 +1,1 @@
+- GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
