@@ -1,1 +1,2 @@
 - GE-20260523-53430a: Quarkus Arc resolves CDI cycles between @ApplicationScoped beans via client proxies — even with constructor injection
+- GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
