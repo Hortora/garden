@@ -14,3 +14,5 @@
 - GE-20260529-aa8445: GreenMailExtension has no public deliver() method — MimeMessage delivery requires SMTP or internal MailFolder.appendMessage()
 - GE-20260529-59d35a: GreenMailExtension.getGreenMail() is protected — inaccessible from test code without subclassing
 - GE-20260601-8ff52b: Surefire rerunFailingTestsCount + JUnit 5 assumeTrue — skip on retry does not override initial failure
+- GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
+- GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method

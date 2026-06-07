@@ -10,3 +10,5 @@
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning
+- GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
+- GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method

@@ -7,3 +7,6 @@
 | GE-20260522-f7db12 | Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed | technique | 13/15 |
 | GE-20260522-de5ee3 | BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit | technique | 10/15 |
 | GE-20260529-af0f2e | casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE | gotcha | 11/15 |
+| GE-20260607-fad749 | Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls | gotcha | 9/15 |
+| GE-20260607-432456 | Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method | gotcha | 8/15 |
+| GE-20260607-7033a1 | Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load | technique | 8/15 |

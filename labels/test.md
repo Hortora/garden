@@ -18,3 +18,5 @@
 - GE-20260601-3dbc80: quarkus.arc.exclude-types resolves @DefaultBean ambiguity between two Jandex-indexed framework JARs
 - GE-20260602-793302: Checkstyle AvoidStarImport applies to static imports — test assertion methods caught
 - GE-20260603-a944d1: CaseEngine.createAndSolve() returns pre-solve CaseFile — plugin-written keys absent from returned reference
+- GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
+- GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method
