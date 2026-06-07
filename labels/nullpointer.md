@@ -1,1 +1,2 @@
 - GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
+- GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code

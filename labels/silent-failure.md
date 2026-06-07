@@ -38,3 +38,4 @@
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
 - GE-20260605-f11f8f: git rm silently succeeds on empty directories — rm -rf required
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
+- GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code

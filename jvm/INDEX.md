@@ -631,3 +631,4 @@
 | GE-20260607-db04c6 | Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE | gotcha | 9/15 |
 | GE-20260607-9cef08 | Sequential try-catch for must-not-throw close() with multiple resources | technique | 9/15 |
 | GE-20260607-d689c9 | Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead | gotcha | 12/15 |
+| GE-20260607-7d0aa8 | Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code | gotcha | 12/15 |
