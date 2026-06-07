@@ -4,3 +4,4 @@
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
 - GE-20260603-83883c: JBoss LogManager handler chain reset during Quarkus test bootstrap — startup event logs not captured
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
+- GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture

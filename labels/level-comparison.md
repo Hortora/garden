@@ -1,1 +1,2 @@
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
+- GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture

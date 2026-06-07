@@ -461,3 +461,4 @@
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
 - GE-20260607-d689c9: Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
+- GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1380
+**Entries merged since last sweep:** 1381
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1180,6 +1180,7 @@
 - GE-20260607-d689c9 [Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead](jvm/GE-20260607-d689c9.md)
 - GE-20260607-7d0aa8 [Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code](jvm/GE-20260607-7d0aa8.md)
 - GE-20260607-b63e95 [@QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws](jvm/GE-20260607-b63e95.md)
+- GE-20260607-876d7e [JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture](jvm/GE-20260607-876d7e.md)
 - GE-20260607-876d7e [JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture](jvm/GE-20260607-876d7e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
