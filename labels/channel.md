@@ -2,3 +2,5 @@
 - GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
 - GE-20260517-f28d15: qhorus InboundNormaliser SPI is application-wide — domain-specific normaliser misclassifies messages on unrelated channels
 - GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
+- GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()
+- GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning

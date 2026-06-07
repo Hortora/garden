@@ -229,3 +229,4 @@
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260607-e27c23: DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure
 - GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
+- GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()

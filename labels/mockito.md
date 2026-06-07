@@ -9,3 +9,4 @@
 - GE-20260605-2d7f7a: Mockito thenAnswer lambda is invoked during when() stub registration — null invocation NPEs without null guard
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
+- GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning

@@ -618,3 +618,5 @@
 | GE-20260607-ad3d62 | ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator | gotcha | 13/15 |
 | GE-20260607-3611a2 | Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope) | gotcha | 12/15 |
 | GE-20260607-97e543 | WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal | technique | 11/15 |
+| GE-20260607-f2f604 | Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply() | technique | 10/15 |
+| GE-20260607-06ef99 | ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning | undocumented | 9/15 |

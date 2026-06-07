@@ -23,3 +23,5 @@
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-a4d78a: ChannelSlugValidator rejects dot-notation channel names — use hyphens instead
+- GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()
+- GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning
