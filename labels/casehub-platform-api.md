@@ -1,0 +1,1 @@
+- GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)

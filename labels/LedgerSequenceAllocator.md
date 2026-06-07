@@ -1,0 +1,1 @@
+- GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator

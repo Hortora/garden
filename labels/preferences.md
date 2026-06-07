@@ -1,3 +1,5 @@
 - GE-20260530-9cdfb5: MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback
 - GE-20260530-9b5bbe: Per-field PreferenceKey<T> pattern for YAML-backed structured config avoids opaque single-string encoding
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
+- GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
+- GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)

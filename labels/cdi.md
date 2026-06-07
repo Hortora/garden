@@ -226,3 +226,4 @@
 - GE-20260606-cd1c61: MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException
 - GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
 - GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
+- GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)

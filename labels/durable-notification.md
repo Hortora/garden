@@ -1,0 +1,1 @@
+- GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch

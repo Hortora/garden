@@ -1,1 +1,2 @@
 - GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
+- GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch

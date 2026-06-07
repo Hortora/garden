@@ -453,3 +453,6 @@
 - GE-20260606-d3cd87: @QuarkusMain(name) silently prevents command-mode invocation in native image
 - GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
 - GE-20260607-4bb9a7: Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
+- GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch
+- GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
+- GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
