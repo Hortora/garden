@@ -15,3 +15,4 @@
 - GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible
 - GE-20260602-7e604f: Advisory references in LLM-facing specs are silently skipped — only explicit file-list gates enforce loading
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
+- GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes

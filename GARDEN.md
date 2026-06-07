@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1362
+**Entries merged since last sweep:** 1363
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1689,6 +1689,7 @@
 - GE-20260605-28eb88 [gh repo edit --visibility requires --accept-visibility-change-consequences flag](tools/GE-20260605-28eb88.md)
 - GE-20260605-51b347 [pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching](tools/GE-20260605-51b347.md)
 - GE-20260606-7a29fb [REST Assured GPath `$.findAll {}` returns null (not []) when no elements match](tools/GE-20260606-7a29fb.md)
+- GE-20260607-321429 [Declaring a migration complete while the old destination still exists causes silent continued writes](tools/GE-20260607-321429.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
