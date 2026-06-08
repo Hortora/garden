@@ -1,0 +1,1 @@
+- GE-20260608-757be3: Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time
