@@ -293,3 +293,4 @@
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
+- GE-20260608-2c8739: CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest

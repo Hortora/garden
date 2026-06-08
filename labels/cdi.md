@@ -237,3 +237,4 @@
 - GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier
+- GE-20260608-2c8739: CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest
