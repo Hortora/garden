@@ -1,1 +1,2 @@
 - GE-20260414-f4f539: casehub-engine CaseHubReactor.startCase() no longer calls registerCaseDefinition() — definitions only register at startup
+- GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}

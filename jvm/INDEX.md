@@ -650,3 +650,4 @@
 | GE-20260515-ed10ee | Awaitility untilAsserted gives weaker guarantee than during for exact async event counts | gotcha | 13/15 |
 | GE-20260608-401287 | @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier | gotcha | 9/15 |
 | GE-20260608-fc4733 | AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement> | gotcha | 10/15 |
+| GE-20260608-a1daf1 | casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {} | gotcha | 11/15 |

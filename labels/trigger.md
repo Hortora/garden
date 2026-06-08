@@ -1,0 +1,1 @@
+- GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}

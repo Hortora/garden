@@ -10,3 +10,4 @@
 - GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
 - GE-20260605-059dd0: Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race
+- GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}
