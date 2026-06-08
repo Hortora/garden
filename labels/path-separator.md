@@ -1,2 +1,1 @@
-- GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE
 - GE-20260609-432b2f: ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac

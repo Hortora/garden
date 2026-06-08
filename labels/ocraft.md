@@ -1,2 +1,3 @@
 - GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants
 - GE-20260505-d71db6: ocraft ImageData.getData() returns byte[] directly — not ByteString
+- GE-20260609-432b2f: ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac
