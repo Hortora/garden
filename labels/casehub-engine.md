@@ -42,3 +42,4 @@
 - GE-20260608-cb442b: casehub-engine DefaultExpressionEngineRegistry.evaluate(null, ctx) returns true — null evaluator = unconditional fire
 - GE-20260608-1a56c3: ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal
 - GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}
+- GE-20260608-c1f27f: CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty

@@ -662,3 +662,4 @@
 | GE-20260608-2c8739 | CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest | gotcha | 11/15 |
 | GE-20260608-983041 | CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure | gotcha | 9/15 |
 | GE-20260608-e1eff5 | Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break | gotcha | 8/15 |
+| GE-20260608-c1f27f | CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty | gotcha | 11/15 |
