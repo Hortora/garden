@@ -651,3 +651,4 @@
 | GE-20260608-401287 | @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier | gotcha | 9/15 |
 | GE-20260608-fc4733 | AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement> | gotcha | 10/15 |
 | GE-20260608-a1daf1 | casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {} | gotcha | 11/15 |
+| GE-20260608-1a56c3 | ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal | gotcha | 12/15 |

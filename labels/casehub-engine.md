@@ -38,3 +38,4 @@
 - GE-20260607-326c7e: casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution
 - GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores
 - GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}
+- GE-20260608-1a56c3: ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal
