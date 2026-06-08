@@ -5,3 +5,4 @@
 - GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image
 - GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
 - GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
+- GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
