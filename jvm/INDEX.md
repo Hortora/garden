@@ -648,3 +648,4 @@
 | GE-20260607-326c7e | casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution | undocumented | 11/15 |
 | GE-20260607-285229 | casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores | breaking | 11/15 |
 | GE-20260515-ed10ee | Awaitility untilAsserted gives weaker guarantee than during for exact async event counts | gotcha | 13/15 |
+| GE-20260608-401287 | @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier | gotcha | 9/15 |

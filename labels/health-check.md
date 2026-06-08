@@ -1,2 +1,1 @@
-- GE-20260426-0915b7: Poll a semantically-meaningful ready signal, not just HTTP 200, for fast-starting services
 - GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier

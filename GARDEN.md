@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1394
+**Entries merged since last sweep:** 1395
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1195,6 +1195,7 @@
 - GE-20260607-326c7e [casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution](jvm/GE-20260607-326c7e.md)
 - GE-20260607-285229 [casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores](jvm/GE-20260607-285229.md)
 - GE-20260515-ed10ee [Awaitility untilAsserted gives weaker guarantee than during for exact async event counts](jvm/GE-20260515-ed10ee.md)
+- GE-20260608-401287 [@Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier](jvm/GE-20260608-401287.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

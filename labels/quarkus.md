@@ -463,3 +463,4 @@
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
 - GE-20260607-c39651: Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points
+- GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier
