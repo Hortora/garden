@@ -1,0 +1,1 @@
+- GE-20260609-2308ed: wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient

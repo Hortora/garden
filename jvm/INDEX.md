@@ -675,3 +675,4 @@
 | GE-20260608-c28c00 | Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival | undocumented | 12/15 |
 | GE-20260609-453804 | Making an enclosing class public does not promote its package-private members | gotcha | 10/15 |
 | GE-20260609-8f14bb | Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default | gotcha | 13/15 |
+| GE-20260609-2308ed | wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient | technique | 10/15 |
