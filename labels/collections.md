@@ -3,3 +3,4 @@
 - GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection
 - GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
+- GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>

@@ -1,1 +1,2 @@
 - GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference
+- GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>

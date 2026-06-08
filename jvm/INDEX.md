@@ -649,3 +649,4 @@
 | GE-20260607-285229 | casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores | breaking | 11/15 |
 | GE-20260515-ed10ee | Awaitility untilAsserted gives weaker guarantee than during for exact async event counts | gotcha | 13/15 |
 | GE-20260608-401287 | @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier | gotcha | 9/15 |
+| GE-20260608-fc4733 | AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement> | gotcha | 10/15 |
