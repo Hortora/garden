@@ -1,0 +1,1 @@
+- GE-20260609-453804: Making an enclosing class public does not promote its package-private members
