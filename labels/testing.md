@@ -292,3 +292,4 @@
 - GE-20260607-876d7e: JBoss LogManager Level.WARN is not java.util.logging.Level.WARNING — object identity comparison fails in Quarkus test log capture
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
+- GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties

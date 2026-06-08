@@ -465,3 +465,4 @@
 - GE-20260607-c39651: Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points
 - GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier
 - GE-20260608-bde9a4: RESTEasy Reactive: return CompletionStage<Response> to chain async engine calls without @Blocking
+- GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties

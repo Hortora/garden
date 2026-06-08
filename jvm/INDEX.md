@@ -656,3 +656,4 @@
 | GE-20260608-cb442b | casehub-engine DefaultExpressionEngineRegistry.evaluate(null, ctx) returns true — null evaluator = unconditional fire | undocumented | 10/15 |
 | GE-20260608-1a56c3 | ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal | gotcha | 12/15 |
 | GE-20260608-a1daf1 | casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {} | gotcha | 11/15 |
+| GE-20260601-b76fba | QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties | gotcha | 11/15 |

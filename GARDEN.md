@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1404
+**Entries merged since last sweep:** 1405
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1204,6 +1204,7 @@
 - GE-20260608-cb442b [casehub-engine DefaultExpressionEngineRegistry.evaluate(null, ctx) returns true — null evaluator = unconditional fire](jvm/GE-20260608-cb442b.md)
 - GE-20260608-1a56c3 [ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal](jvm/GE-20260608-1a56c3.md)
 - GE-20260608-a1daf1 [casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}](jvm/GE-20260608-a1daf1.md)
+- GE-20260601-b76fba [QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties](jvm/GE-20260601-b76fba.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
