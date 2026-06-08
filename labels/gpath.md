@@ -1,2 +1,3 @@
 - GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value
 - GE-20260606-7a29fb: REST Assured GPath `$.findAll {}` returns null (not []) when no elements match
+- GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null

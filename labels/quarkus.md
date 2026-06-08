@@ -469,3 +469,4 @@
 - GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()
 - GE-20260608-2c8739: CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest
 - GE-20260608-983041: CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure
+- GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null

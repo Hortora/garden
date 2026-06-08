@@ -3,3 +3,4 @@
 - GE-20260521-c04e27: Java Map/Set class fields declared without initializer silently NPE on first use
 - GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
+- GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null

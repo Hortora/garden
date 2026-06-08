@@ -1,0 +1,1 @@
+- GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null

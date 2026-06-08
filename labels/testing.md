@@ -296,3 +296,4 @@
 - GE-20260608-2c8739: CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest
 - GE-20260608-c1f27f: CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty
 - GE-20260608-8f6b5b: Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests
+- GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
