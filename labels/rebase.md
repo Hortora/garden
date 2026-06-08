@@ -47,3 +47,4 @@
 - GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
 - GE-20260601-2e31ae: Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively
 - GE-20260607-536227: Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error
+- GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
