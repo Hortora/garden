@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1411
+**Entries merged since last sweep:** 1412
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1211,6 +1211,7 @@
 - GE-20260608-983041 [CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure](jvm/GE-20260608-983041.md)
 - GE-20260608-e1eff5 [Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break](jvm/GE-20260608-e1eff5.md)
 - GE-20260608-c1f27f [CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty](jvm/GE-20260608-c1f27f.md)
+- GE-20260608-8f6b5b [Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests](jvm/GE-20260608-8f6b5b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
