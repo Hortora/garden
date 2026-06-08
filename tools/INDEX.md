@@ -489,3 +489,4 @@
 | GE-20260520-7fb7a8 | Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites | gotcha | 10/15 |
 | GE-20260607-536227 | Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error | gotcha | 9/15 |
 | GE-20260522-409183 | GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand | gotcha | 11/15 |
+| GE-20260608-cff231 | LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it | gotcha | 12/15 |

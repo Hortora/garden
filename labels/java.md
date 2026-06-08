@@ -112,3 +112,4 @@
 - GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE
 - GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
 - GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null
+- GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it

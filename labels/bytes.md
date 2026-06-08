@@ -1,0 +1,1 @@
+- GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it

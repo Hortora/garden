@@ -9,3 +9,4 @@
 - GE-20260505-c93a61: IntelliJ MCP session expires silently mid-session — tool calls return HTTP 404
 - GE-20260505-d13335: `gh project item-add --url` exits 0 with no output on both success and silent failure
 - GE-20260515-1f6274: `mcp__intellij__search_file` requires `q` parameter — not `globPattern` like `find_files_by_glob`
+- GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it
