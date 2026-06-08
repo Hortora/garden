@@ -3,3 +3,4 @@
 - GE-20260529-166347: @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest
 - GE-20260530-a14b49: Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE
 - GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
+- GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()

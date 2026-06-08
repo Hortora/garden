@@ -22,3 +22,4 @@
 - GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
 - GE-20260607-067ace: Lock-outside-transaction pattern for safe concurrent sequence assignment in CDI/JTA
 - GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations
+- GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()

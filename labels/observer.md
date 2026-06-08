@@ -11,3 +11,4 @@
 - GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
 - GE-20260605-16a8fc: WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix
 - GE-20260606-0c9216: @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail
+- GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()

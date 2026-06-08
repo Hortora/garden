@@ -658,3 +658,4 @@
 | GE-20260608-a1daf1 | casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {} | gotcha | 11/15 |
 | GE-20260601-b76fba | QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties | gotcha | 11/15 |
 | GE-20260608-564065 | @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader' | gotcha | 8/15 |
+| GE-20260608-038af4 | JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew() | gotcha | 9/15 |
