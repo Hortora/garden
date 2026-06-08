@@ -1,3 +1,5 @@
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260426-3e6b29: maven-deploy-plugin retryFailedDeploymentCount retries with zero delay — useless for GitHub Packages first-upload
 - GE-20260521-0e0122: @Transactional(REQUIRES_NEW) retry inside same bean is a dead retry — poisoned transaction cannot restart
+- GE-20260609-0b703b: SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection
+- GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry

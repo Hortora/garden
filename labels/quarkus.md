@@ -472,3 +472,4 @@
 - GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
 - GE-20260608-1cb2a4: @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs
 - GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
+- GE-20260609-12a3d7: ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x

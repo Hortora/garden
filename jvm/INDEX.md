@@ -677,3 +677,7 @@
 | GE-20260609-8f14bb | Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default | gotcha | 13/15 |
 | GE-20260609-2308ed | wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient | technique | 10/15 |
 | GE-20260609-432b2f | ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac | gotcha | 15/15 |
+| GE-20260609-12a3d7 | ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x | gotcha | 14/15 |
+| GE-20260609-0b703b | SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection | gotcha | 13/15 |
+| GE-20260609-6ae928 | ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry | gotcha | 12/15 |
+| GE-20260609-d24a97 | Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler | undocumented | 11/15 |

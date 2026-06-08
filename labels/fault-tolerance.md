@@ -1,3 +1,4 @@
 - GE-20260602-6cfbdb: ConcurrentHashMap.put() rejects null values — breaks fault-tolerance catch blocks that use e.getMessage()
 - GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
+- GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry

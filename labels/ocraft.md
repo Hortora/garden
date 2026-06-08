@@ -1,3 +1,6 @@
 - GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants
 - GE-20260505-d71db6: ocraft ImageData.getData() returns byte[] directly — not ByteString
 - GE-20260609-432b2f: ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac
+- GE-20260609-12a3d7: ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x
+- GE-20260609-0b703b: SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection
+- GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry

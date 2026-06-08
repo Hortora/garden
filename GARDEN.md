@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1426
+**Entries merged since last sweep:** 1430
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1225,6 +1225,10 @@
 - GE-20260609-8f14bb [Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default](jvm/GE-20260609-8f14bb.md)
 - GE-20260609-2308ed [wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient](jvm/GE-20260609-2308ed.md)
 - GE-20260609-432b2f [ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac](jvm/GE-20260609-432b2f.md)
+- GE-20260609-12a3d7 [ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x](jvm/GE-20260609-12a3d7.md)
+- GE-20260609-0b703b [SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection](jvm/GE-20260609-0b703b.md)
+- GE-20260609-6ae928 [ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry](jvm/GE-20260609-6ae928.md)
+- GE-20260609-d24a97 [Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler](jvm/GE-20260609-d24a97.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

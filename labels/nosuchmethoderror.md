@@ -1,3 +1,4 @@
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
 - GE-20260531-4e21c1: casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
+- GE-20260609-12a3d7: ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x

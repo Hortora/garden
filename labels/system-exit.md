@@ -1,2 +1,1 @@
-- GE-20260609-432b2f: ocraft getBaseBuildFromGameExePath() splits on Windows backslash separator on all platforms — returns null on Mac
 - GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry

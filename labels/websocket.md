@@ -1,3 +1,5 @@
 - GE-20260512-523f68: Quarkus dev mode hot-reload silently breaks WebSocket endpoint registration — full restart required
 - GE-20260422-b0c097: Quarkus game engine leaveGame() silently breaks WebSocket state delivery for late-connecting clients
 - GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
+- GE-20260609-0b703b: SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection
+- GE-20260609-d24a97: Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler
