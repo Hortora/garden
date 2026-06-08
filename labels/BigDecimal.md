@@ -1,0 +1,1 @@
+- GE-20260609-8f14bb: Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default

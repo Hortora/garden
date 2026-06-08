@@ -8,3 +8,4 @@
 - GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values
 - GE-20260604-b3afd6: Java record compact constructor as single invariant enforcement gate
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
+- GE-20260609-8f14bb: Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default

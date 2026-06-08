@@ -674,3 +674,4 @@
 | GE-20260608-5087c8 | @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post() | gotcha | 13/15 |
 | GE-20260608-c28c00 | Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival | undocumented | 12/15 |
 | GE-20260609-453804 | Making an enclosing class public does not promote its package-private members | gotcha | 10/15 |
+| GE-20260609-8f14bb | Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default | gotcha | 13/15 |

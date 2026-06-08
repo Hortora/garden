@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1423
+**Entries merged since last sweep:** 1424
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1222,6 +1222,7 @@
 - GE-20260608-5087c8 [@QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()](jvm/GE-20260608-5087c8.md)
 - GE-20260608-c28c00 [Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival](jvm/GE-20260608-c28c00.md)
 - GE-20260609-453804 [Making an enclosing class public does not promote its package-private members](jvm/GE-20260609-453804.md)
+- GE-20260609-8f14bb [Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default](jvm/GE-20260609-8f14bb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
