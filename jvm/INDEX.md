@@ -665,3 +665,4 @@
 | GE-20260608-c1f27f | CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty | gotcha | 11/15 |
 | GE-20260608-8f6b5b | Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests | technique | 10/15 |
 | GE-20260608-d223af | REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null | gotcha | 11/15 |
+| GE-20260608-4c8108 | AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces | technique | 11/15 |

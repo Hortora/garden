@@ -1,0 +1,1 @@
+- GE-20260608-4c8108: AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces

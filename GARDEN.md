@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1413
+**Entries merged since last sweep:** 1414
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1213,6 +1213,7 @@
 - GE-20260608-c1f27f [CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty](jvm/GE-20260608-c1f27f.md)
 - GE-20260608-8f6b5b [Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests](jvm/GE-20260608-8f6b5b.md)
 - GE-20260608-d223af [REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null](jvm/GE-20260608-d223af.md)
+- GE-20260608-4c8108 [AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces](jvm/GE-20260608-4c8108.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

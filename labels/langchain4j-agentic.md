@@ -1,1 +1,2 @@
 - GE-20260603-301b80: langchain4j-agentic DeclarativeUtil has a single CDI resolver hook for @ChatModelSupplier only — no equivalent for other supplier types
+- GE-20260608-4c8108: AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces
