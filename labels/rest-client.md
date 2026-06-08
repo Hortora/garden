@@ -7,3 +7,4 @@
 - GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
 - GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
 - GE-20260608-1cb2a4: @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs
+- GE-20260608-c44f9f: Per-entity REST calls preserve entityId attribution when the response type carries no entity key

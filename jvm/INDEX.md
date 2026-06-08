@@ -668,3 +668,6 @@
 | GE-20260608-4c8108 | AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces | technique | 11/15 |
 | GE-20260608-ff7e97 | langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first | undocumented | 9/15 |
 | GE-20260608-1cb2a4 | @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs | gotcha | 9/15 |
+| GE-20260608-c44f9f | Per-entity REST calls preserve entityId attribution when the response type carries no entity key | technique | 9/15 |
+| GE-20260608-4a1057 | Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist | undocumented | 9/15 |
+| GE-20260608-8e85f6 | Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it | undocumented | 8/15 |

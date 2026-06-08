@@ -1,0 +1,1 @@
+- GE-20260608-8e85f6: Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1417
+**Entries merged since last sweep:** 1420
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1216,6 +1216,9 @@
 - GE-20260608-4c8108 [AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces](jvm/GE-20260608-4c8108.md)
 - GE-20260608-ff7e97 [langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first](jvm/GE-20260608-ff7e97.md)
 - GE-20260608-1cb2a4 [@JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs](jvm/GE-20260608-1cb2a4.md)
+- GE-20260608-c44f9f [Per-entity REST calls preserve entityId attribution when the response type carries no entity key](jvm/GE-20260608-c44f9f.md)
+- GE-20260608-4a1057 [Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist](jvm/GE-20260608-4a1057.md)
+- GE-20260608-8e85f6 [Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it](jvm/GE-20260608-8e85f6.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

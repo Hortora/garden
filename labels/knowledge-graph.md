@@ -1,4 +1,2 @@
-- GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
-- GE-20260605-822b7d: OpenHAB GET /rest/items/{groupName} returns all member item states in one call — undocumented assembly endpoint
 - GE-20260608-4a1057: Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist
 - GE-20260608-8e85f6: Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it

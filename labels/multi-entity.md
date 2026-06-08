@@ -1,0 +1,1 @@
+- GE-20260608-c44f9f: Per-entity REST calls preserve entityId attribution when the response type carries no entity key

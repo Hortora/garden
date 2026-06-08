@@ -3,3 +3,4 @@
 - GE-20260423-3240d2: Panache delete() returns deleted row count — use it to collapse find-then-delete into one call
 - GE-20260501-bc4553: Probe delete permission with a nonexistent resource ID — 404 means authorised, 403 means denied
 - GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()
+- GE-20260608-4a1057: Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist
