@@ -660,3 +660,5 @@
 | GE-20260608-564065 | @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader' | gotcha | 8/15 |
 | GE-20260608-038af4 | JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew() | gotcha | 9/15 |
 | GE-20260608-2c8739 | CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest | gotcha | 11/15 |
+| GE-20260608-983041 | CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure | gotcha | 9/15 |
+| GE-20260608-e1eff5 | Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break | gotcha | 8/15 |

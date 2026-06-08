@@ -29,3 +29,4 @@
 - GE-20260601-cee623: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
 - GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI
+- GE-20260608-983041: CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure

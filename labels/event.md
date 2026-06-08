@@ -8,3 +8,4 @@
 - GE-20260530-c13942: CDI event observers in @QuarkusTest test classpath do not reliably receive synchronous Event.fire() from production code — use Mockito unit tests instead
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
+- GE-20260608-e1eff5: Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break

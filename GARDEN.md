@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1408
+**Entries merged since last sweep:** 1410
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1208,6 +1208,8 @@
 - GE-20260608-564065 [@QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'](jvm/GE-20260608-564065.md)
 - GE-20260608-038af4 [JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()](jvm/GE-20260608-038af4.md)
 - GE-20260608-2c8739 [CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest](jvm/GE-20260608-2c8739.md)
+- GE-20260608-983041 [CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure](jvm/GE-20260608-983041.md)
+- GE-20260608-e1eff5 [Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break](jvm/GE-20260608-e1eff5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,0 +1,1 @@
+- GE-20260608-983041: CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure

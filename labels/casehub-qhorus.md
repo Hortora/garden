@@ -26,3 +26,4 @@
 - GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()
 - GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning
 - GE-20260608-757be3: Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time
+- GE-20260608-e1eff5: Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break

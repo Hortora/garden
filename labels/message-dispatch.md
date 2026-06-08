@@ -1,0 +1,1 @@
+- GE-20260608-e1eff5: Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break
