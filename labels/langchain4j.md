@@ -14,3 +14,4 @@
 - GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents
 - GE-20260605-e4d5c3: Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
+- GE-20260608-ff7e97: langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first

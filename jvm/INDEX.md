@@ -666,3 +666,4 @@
 | GE-20260608-8f6b5b | Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests | technique | 10/15 |
 | GE-20260608-d223af | REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null | gotcha | 11/15 |
 | GE-20260608-4c8108 | AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces | technique | 11/15 |
+| GE-20260608-ff7e97 | langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first | undocumented | 9/15 |

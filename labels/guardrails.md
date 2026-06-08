@@ -1,1 +1,2 @@
 - GE-20260608-4c8108: AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces
+- GE-20260608-ff7e97: langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first
