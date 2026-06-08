@@ -671,3 +671,5 @@
 | GE-20260608-c44f9f | Per-entity REST calls preserve entityId attribution when the response type carries no entity key | technique | 9/15 |
 | GE-20260608-4a1057 | Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist | undocumented | 9/15 |
 | GE-20260608-8e85f6 | Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it | undocumented | 8/15 |
+| GE-20260608-5087c8 | @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post() | gotcha | 13/15 |
+| GE-20260608-c28c00 | Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival | undocumented | 12/15 |

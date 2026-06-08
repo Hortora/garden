@@ -471,3 +471,4 @@
 - GE-20260608-983041: CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure
 - GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
 - GE-20260608-1cb2a4: @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs
+- GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()

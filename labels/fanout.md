@@ -1,1 +1,2 @@
 - GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
+- GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()

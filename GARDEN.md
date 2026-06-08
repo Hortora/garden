@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1420
+**Entries merged since last sweep:** 1422
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1219,6 +1219,8 @@
 - GE-20260608-c44f9f [Per-entity REST calls preserve entityId attribution when the response type carries no entity key](jvm/GE-20260608-c44f9f.md)
 - GE-20260608-4a1057 [Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist](jvm/GE-20260608-4a1057.md)
 - GE-20260608-8e85f6 [Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it](jvm/GE-20260608-8e85f6.md)
+- GE-20260608-5087c8 [@QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()](jvm/GE-20260608-5087c8.md)
+- GE-20260608-c28c00 [Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival](jvm/GE-20260608-c28c00.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

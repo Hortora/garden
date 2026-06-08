@@ -1,3 +1,5 @@
 - GE-20260517-5879a9: ChannelGateway.receiveHumanMessage() passes correlationId=null — Commitment auto-state-machine never fires for human responses
 - GE-20260517-9181a6: Per-entity qhorus channels as correlation mechanism when receiveHumanMessage() loses correlationId
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
+- GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
+- GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival

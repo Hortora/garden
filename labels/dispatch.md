@@ -1,2 +1,3 @@
 - GE-20260526-fa0e3e: CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival

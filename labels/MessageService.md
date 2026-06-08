@@ -3,3 +3,4 @@
 - GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest — @InjectSpy required
 - GE-20260530-4387cb: casehub-qhorus MessageService methods using Panache static calls bypass InMemory store in @QuarkusTest
+- GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival

@@ -297,3 +297,4 @@
 - GE-20260608-c1f27f: CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty
 - GE-20260608-8f6b5b: Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests
 - GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
+- GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
