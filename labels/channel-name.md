@@ -1,1 +1,2 @@
 - GE-20260607-a4d78a: ChannelSlugValidator rejects dot-notation channel names — use hyphens instead
+- GE-20260607-a4d78a: ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail

@@ -28,3 +28,4 @@
 - GE-20260608-757be3: Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time
 - GE-20260608-e1eff5: Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break
 - GE-20260609-a5dcbc: Java Properties format for restart-safe struct persistence in Qhorus COMMAND message content
+- GE-20260607-a4d78a: ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail

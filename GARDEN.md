@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1473
+**Entries merged since last sweep:** 1474
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -93,6 +93,7 @@
 - GE-20260607-a4d78a [ChannelSlugValidator rejects dot-notation channel names — use hyphens instead](casehub-qhorus/GE-20260607-a4d78a.md)
 - GE-20260607-58c683 [Shared-list constructor injection for CDI-free unit tests where two stubs must share state](casehub-qhorus/GE-20260607-58c683.md)
 - GE-20260608-757be3 [Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time](casehub-qhorus/GE-20260608-757be3.md)
+- GE-20260607-a4d78a [ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail](casehub-qhorus/GE-20260607-a4d78a.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
