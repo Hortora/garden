@@ -302,3 +302,4 @@
 - GE-20260609-2308ed: wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient
 - GE-20260609-4d8cc4: assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent
 - GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest
+- GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
