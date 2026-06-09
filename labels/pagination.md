@@ -1,3 +1,4 @@
 - GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
 - GE-20260501-50a9f4: quarkus-mcp-server silently caps tools/list at 50 — tools beyond alphabetical position 50 simply don't appear
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
+- GE-20260609-2254cc: MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters

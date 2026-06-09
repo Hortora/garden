@@ -1,0 +1,1 @@
+- GE-20260609-2254cc: MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters

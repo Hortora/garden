@@ -694,3 +694,4 @@
 | GE-20260609-e53d82 | Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval | gotcha | 11/15 |
 | GE-20260609-a5dcbc | Java Properties format for restart-safe struct persistence in Qhorus COMMAND message content | technique | 10/15 |
 | GE-20260609-616994 | Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router | undocumented | 9/15 |
+| GE-20260609-2254cc | MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters | gotcha | 9/15 |
