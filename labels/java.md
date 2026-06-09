@@ -122,3 +122,4 @@
 - GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream
 - GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
+- GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
