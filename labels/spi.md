@@ -31,3 +31,5 @@
 - GE-20260607-db04c6: Objects.requireNonNull throws NPE — wrong exception for SPI contracts that specify IAE
 - GE-20260608-c44f9f: Per-entity REST calls preserve entityId attribution when the response type carries no entity key
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
+- GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
+- GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow

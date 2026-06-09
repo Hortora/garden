@@ -1,0 +1,1 @@
+- GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow

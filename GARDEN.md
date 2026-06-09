@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1468
+**Entries merged since last sweep:** 1473
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1263,6 +1263,11 @@
 - GE-20260609-878c41 [JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes](jvm/GE-20260609-878c41.md)
 - GE-20260609-f0d149 [ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size](jvm/GE-20260609-f0d149.md)
 - GE-20260609-f14f75 [SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols](jvm/GE-20260609-f14f75.md)
+- GE-20260609-a8aa64 [Fluent chain escape in decorator pattern — wrapper's build() override silently never fires](jvm/GE-20260609-a8aa64.md)
+- GE-20260609-4c6577 [Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map](jvm/GE-20260609-4c6577.md)
+- GE-20260609-49e48c [SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it](jvm/GE-20260609-49e48c.md)
+- GE-20260609-23438e [Upstream SPI wrapping for config override — intercept without bypassing declarative flow](jvm/GE-20260609-23438e.md)
+- GE-20260609-1ba140 [@Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems](jvm/GE-20260609-1ba140.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

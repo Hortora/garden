@@ -121,3 +121,4 @@
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
 - GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream
 - GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths
+- GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires

@@ -715,3 +715,8 @@
 | GE-20260609-878c41 | JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes | gotcha | 11/15 |
 | GE-20260609-f0d149 | ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size | undocumented | 10/15 |
 | GE-20260609-f14f75 | SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols | technique | 10/15 |
+| GE-20260609-a8aa64 | Fluent chain escape in decorator pattern — wrapper's build() override silently never fires | gotcha | 11/15 |
+| GE-20260609-4c6577 | Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map | gotcha | 9/15 |
+| GE-20260609-49e48c | SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it | gotcha | 8/15 |
+| GE-20260609-23438e | Upstream SPI wrapping for config override — intercept without bypassing declarative flow | technique | 10/15 |
+| GE-20260609-1ba140 | @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems | undocumented | 9/15 |

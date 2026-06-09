@@ -1,1 +1,2 @@
 - GE-20260522-3fce33: Fluent DSL builder using List.set() instead of List.add() silently discards all but the last chained call
+- GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires

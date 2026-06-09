@@ -16,3 +16,5 @@
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
 - GE-20260608-ff7e97: langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first
 - GE-20260609-2a92d9: langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1
+- GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
+- GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
