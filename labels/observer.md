@@ -12,3 +12,4 @@
 - GE-20260605-16a8fc: WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix
 - GE-20260606-0c9216: @QuarkusTest @Transactional test methods defer AFTER_SUCCESS CDI observers until after the test returns — assertions on observer side effects always fail
 - GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()
+- GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before

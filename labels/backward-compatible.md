@@ -1,0 +1,1 @@
+- GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe

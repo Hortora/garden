@@ -5,3 +5,4 @@
 - GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
 - GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
+- GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe

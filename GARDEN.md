@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1445
+**Entries merged since last sweep:** 1448
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1244,6 +1244,9 @@
 - GE-20260609-616994 [Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router](jvm/GE-20260609-616994.md)
 - GE-20260609-2254cc [MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters](jvm/GE-20260609-2254cc.md)
 - GE-20260609-e3878f [JUL Handler add/remove captures log output in pure-Java tests without test frameworks](jvm/GE-20260609-e3878f.md)
+- GE-20260609-02c68a [CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before](jvm/GE-20260609-02c68a.md)
+- GE-20260609-eee30f [Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe](jvm/GE-20260609-eee30f.md)
+- GE-20260609-d1feba [CDI qualifier annotations belong in the injection-point module, not the producer module](jvm/GE-20260609-d1feba.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -696,3 +696,6 @@
 | GE-20260609-616994 | Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router | undocumented | 9/15 |
 | GE-20260609-2254cc | MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters | gotcha | 9/15 |
 | GE-20260609-e3878f | JUL Handler add/remove captures log output in pure-Java tests without test frameworks | technique | 11/15 |
+| GE-20260609-02c68a | CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before | gotcha | 11/15 |
+| GE-20260609-eee30f | Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe | technique | 9/15 |
+| GE-20260609-d1feba | CDI qualifier annotations belong in the injection-point module, not the producer module | convention | 8/15 |

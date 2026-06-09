@@ -118,3 +118,4 @@
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
 - GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
+- GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe

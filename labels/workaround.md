@@ -2,3 +2,4 @@
 - GE-20260414-b12a99: Background subagent blocks on Bash leaves file edits uncommitted in worktree
 - GE-20260414-db76e9: `git worktree remove` fails after merge when worktree was used as subagent CWD
 - GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path
+- GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
