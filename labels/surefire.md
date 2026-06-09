@@ -19,3 +19,4 @@
 - GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM
 - GE-20260605-29323a: Maven Surefire -Dtest=ClassName injects test into ALL named executions — overrides execution-level <includes>
 - GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
+- GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug

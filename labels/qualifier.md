@@ -3,3 +3,4 @@
 - GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
 - GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
+- GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection

@@ -1,0 +1,1 @@
+- GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope

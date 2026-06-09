@@ -243,3 +243,6 @@
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
+- GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug
+- GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection
+- GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope

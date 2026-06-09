@@ -10,3 +10,4 @@
 - GE-20260605-059dd0: Merged OR YAML binding in casehub-engine dispatches same worker twice via async contextChange race
 - GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests
 - GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
+- GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope

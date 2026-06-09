@@ -476,3 +476,5 @@
 - GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
+- GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug
+- GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection

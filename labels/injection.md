@@ -14,3 +14,4 @@
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260607-c39651: Quarkus CDI: custom @Qualifier on a bean must also appear on direct type-safe injection points
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
+- GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection

@@ -699,3 +699,6 @@
 | GE-20260609-02c68a | CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before | gotcha | 11/15 |
 | GE-20260609-eee30f | Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe | technique | 9/15 |
 | GE-20260609-d1feba | CDI qualifier annotations belong in the injection-point module, not the producer module | convention | 8/15 |
+| GE-20260609-28e952 | Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug | gotcha | 12/15 |
+| GE-20260609-8d6961 | @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection | technique | 9/15 |
+| GE-20260531-446fea | Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope | technique | 11/15 |
