@@ -492,3 +492,4 @@
 | GE-20260608-cff231 | LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it | gotcha | 12/15 |
 | GE-20260609-3bb404 | Python regex \s* matches \n — table row parser merges separator row with next data row across newlines | gotcha | 9/15 |
 | GE-20260609-9184e2 | git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content | gotcha | 9/15 |
+| GE-20260603-7808c8 | ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation | technique | 11/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1453
+**Entries merged since last sweep:** 1454
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1780,6 +1780,7 @@
 - GE-20260608-cff231 [LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it](tools/GE-20260608-cff231.md)
 - GE-20260609-3bb404 [Python regex \s* matches \n — table row parser merges separator row with next data row across newlines](tools/GE-20260609-3bb404.md)
 - GE-20260609-9184e2 [git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content](tools/GE-20260609-9184e2.md)
+- GE-20260603-7808c8 [ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation](tools/GE-20260603-7808c8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -118,3 +118,4 @@
 - GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed
 - GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth
 - GE-20260609-2a92d9: langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1
+- GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
