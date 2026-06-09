@@ -21,3 +21,5 @@
 - GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
 - GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method
 - GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

@@ -251,3 +251,5 @@
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
 - GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

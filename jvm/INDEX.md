@@ -726,3 +726,5 @@
 | GE-20260609-086833 | quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately | gotcha | 9/15 |
 | GE-20260609-62a1a7 | H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation | gotcha | 11/15 |
 | GE-20260607-ad3d62 | ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator | gotcha | 13/15 |
+| GE-20260609-77a6f9 | casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads | gotcha | 13/15 |
+| GE-20260609-77a6f9 | casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads | gotcha | 13/15 |

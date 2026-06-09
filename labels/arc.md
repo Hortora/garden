@@ -53,3 +53,5 @@
 - GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

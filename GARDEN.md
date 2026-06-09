@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1481
+**Entries merged since last sweep:** 1483
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1275,6 +1275,8 @@
 - GE-20260609-086833 [quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately](jvm/GE-20260609-086833.md)
 - GE-20260609-62a1a7 [H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation](jvm/GE-20260609-62a1a7.md)
 - GE-20260607-ad3d62 [ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator](jvm/GE-20260607-ad3d62.md)
+- GE-20260609-77a6f9 [casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads](jvm/GE-20260609-77a6f9.md)
+- GE-20260609-77a6f9 [casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads](jvm/GE-20260609-77a6f9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

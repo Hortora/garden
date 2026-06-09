@@ -23,3 +23,5 @@
 - GE-20260602-bacaf2: Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
 - GE-20260518-6ed073: mvn install silently skips recompile of SNAPSHOT dependency when ~/.m2 JAR is stale
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

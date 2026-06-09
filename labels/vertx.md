@@ -19,3 +19,5 @@
 - GE-20260609-12a3d7: ocraft 0.4.21 has 5 broken Vert.x 4.x API calls — requires bytecode patching to run on Quarkus 3.x
 - GE-20260609-d24a97: Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler
 - GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
