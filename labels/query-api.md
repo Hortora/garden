@@ -1,0 +1,1 @@
+- GE-20260609-2abdfd: Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0

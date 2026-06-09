@@ -15,3 +15,4 @@
 - GE-20260605-e4d5c3: Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
 - GE-20260608-ff7e97: langchain4j OutputGuardrails maxRetries counts total attempts, not retries-after-first
+- GE-20260609-2a92d9: langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1

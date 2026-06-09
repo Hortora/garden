@@ -685,3 +685,8 @@
 | GE-20260609-4d8cc4 | assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent | gotcha | 8/15 |
 | GE-20260609-90b6e4 | OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains | gotcha | 11/15 |
 | GE-20260609-1134ae | Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest | technique | 12/15 |
+| GE-20260609-521cca | Qdrant Java client Filter type is Common.Filter not Points.Filter | gotcha | 9/15 |
+| GE-20260609-26ffa5 | @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution | gotcha | 10/15 |
+| GE-20260609-c1998e | Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf() | undocumented | 9/15 |
+| GE-20260609-2a92d9 | langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1 | gotcha | 8/15 |
+| GE-20260609-2abdfd | Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0 | gotcha | 9/15 |

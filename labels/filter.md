@@ -2,3 +2,4 @@
 - GE-20260526-fa0e3e: CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
 - GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
+- GE-20260609-521cca: Qdrant Java client Filter type is Common.Filter not Points.Filter

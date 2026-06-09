@@ -1,0 +1,1 @@
+- GE-20260609-521cca: Qdrant Java client Filter type is Common.Filter not Points.Filter

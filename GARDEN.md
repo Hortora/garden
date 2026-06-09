@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1434
+**Entries merged since last sweep:** 1439
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1233,6 +1233,11 @@
 - GE-20260609-4d8cc4 [assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent](jvm/GE-20260609-4d8cc4.md)
 - GE-20260609-90b6e4 [OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains](jvm/GE-20260609-90b6e4.md)
 - GE-20260609-1134ae [Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest](jvm/GE-20260609-1134ae.md)
+- GE-20260609-521cca [Qdrant Java client Filter type is Common.Filter not Points.Filter](jvm/GE-20260609-521cca.md)
+- GE-20260609-26ffa5 [@ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution](jvm/GE-20260609-26ffa5.md)
+- GE-20260609-c1998e [Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()](jvm/GE-20260609-c1998e.md)
+- GE-20260609-2a92d9 [langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1](jvm/GE-20260609-2a92d9.md)
+- GE-20260609-2abdfd [Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0](jvm/GE-20260609-2abdfd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

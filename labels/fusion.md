@@ -1,0 +1,1 @@
+- GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()

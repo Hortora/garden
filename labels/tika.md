@@ -1,0 +1,1 @@
+- GE-20260609-2a92d9: langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1

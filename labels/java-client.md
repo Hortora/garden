@@ -1,4 +1,3 @@
-- GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
 - GE-20260609-521cca: Qdrant Java client Filter type is Common.Filter not Points.Filter
 - GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()
 - GE-20260609-2abdfd: Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0

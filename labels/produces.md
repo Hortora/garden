@@ -1,0 +1,1 @@
+- GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
