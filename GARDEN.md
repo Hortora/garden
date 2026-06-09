@@ -875,7 +875,6 @@
 - GE-20260525-99837c [PostgreSQL UNIQUE constraint creates an implicit B-tree index usable for prefix scans — no separate CREATE INDEX needed](jvm/GE-20260525-99837c.md)
 - GE-20260526-fa0e3e [CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch](jvm/GE-20260526-fa0e3e.md)
 - GE-20260526-a5bbd2 [LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically](jvm/GE-20260526-a5bbd2.md)
-- GE-20260526-5247f2 [ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing](jvm/GE-20260526-5247f2.md)
 - GE-20260526-f8e3bf [MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs](jvm/GE-20260526-f8e3bf.md)
 - GE-20260526-3c8553 [@WithSession CDI interceptor swallows synchronous throws — failures propagate via Uni, not caller stack](jvm/GE-20260526-3c8553.md)
 - GE-20260526-399a43 [quarkus-rest (RESTEasy Reactive) + JDBC Panache requires @Blocking on resource classes — tests pass without it, production degrades silently](jvm/GE-20260526-399a43.md)

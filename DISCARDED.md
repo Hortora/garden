@@ -42,3 +42,4 @@
 | jvm/GE-20260424-a55003 | jvm/GE-20260531-22e747 | Adding Java record field breaks all call sites — same gotcha, 22e747 has higher score (11 vs 9) |
 | jvm/GE-20260602-bacaf2 | jvm/GE-20260517-0823c8 | Cross-repo Maven mvn install required between repos — same gotcha, 0823c8 has higher score (12 vs 9) |
 | tools/GE-20260522-b341ae | tools/GE-20260604-3aed8c | GitHub repo transfer silently redirecting push — same undocumented behavior/gotcha, 3aed8c has higher score (11 vs 9) |
+| jvm/GE-20260526-5247f2 | jvm/GE-20260609-9ee2ad | ChannelService.create() doesn't register in gateway — same gotcha, 9ee2ad has higher score (13 vs 10) |
