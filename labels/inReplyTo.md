@@ -1,1 +1,2 @@
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
+- GE-20260609-e53d82: Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval
