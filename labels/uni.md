@@ -5,3 +5,4 @@
 - GE-20260602-298736: Uni.createFrom().item(supplier) with null-returning lambda infers Uni<Object> — use .<Void>item(...) type witness
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260609-630b35: Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead

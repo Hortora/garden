@@ -40,3 +40,5 @@
 - GE-20260605-58f57c: Mutiny emitOn: guards and pre-computations must be placed before emitOn(workerPool) to avoid paying the compute cost when they short-circuit
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
+- GE-20260609-630b35: Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead
+- GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after

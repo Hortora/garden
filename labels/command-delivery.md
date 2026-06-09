@@ -1,2 +1,1 @@
-- GE-20260505-c8514a: @TestTransaction prevents cross-test message leakage when gateway inbound persists messages inside @QuarkusTest
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly

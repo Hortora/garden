@@ -13,3 +13,4 @@
 - GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation
 - GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
 - GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival
+- GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly

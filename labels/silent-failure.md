@@ -41,3 +41,4 @@
 - GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code
 - GE-20260608-757be3: Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time
 - GE-20260609-d93a6d: @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect
+- GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly

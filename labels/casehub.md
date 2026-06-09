@@ -40,3 +40,4 @@
 - GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
 - GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
 - GE-20260607-e0798c: CaseHub actorId format contains colons — cache key separator must use null char
+- GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly

@@ -707,3 +707,6 @@
 | GE-20260609-0bf5b9 | reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream | technique | 10/15 |
 | GE-20260609-75e00d | Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container | technique | 11/15 |
 | GE-20260609-7600aa | Fixing a shared resolution method misses non-focal rendering paths | gotcha | 9/15 |
+| GE-20260609-630b35 | Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead | gotcha | 9/15 |
+| GE-20260609-9ee2ad | Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly | gotcha | 13/15 |
+| GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |

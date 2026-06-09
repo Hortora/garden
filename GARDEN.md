@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1460
+**Entries merged since last sweep:** 1463
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1255,6 +1255,9 @@
 - GE-20260609-0bf5b9 [reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream](jvm/GE-20260609-0bf5b9.md)
 - GE-20260609-75e00d [Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container](jvm/GE-20260609-75e00d.md)
 - GE-20260609-7600aa [Fixing a shared resolution method misses non-focal rendering paths](jvm/GE-20260609-7600aa.md)
+- GE-20260609-630b35 [Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead](jvm/GE-20260609-630b35.md)
+- GE-20260609-9ee2ad [Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly](jvm/GE-20260609-9ee2ad.md)
+- GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

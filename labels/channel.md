@@ -4,3 +4,4 @@
 - GE-20260603-7ea359: Qhorus ChannelProjection<S> implementations need no CDI annotations — discovered by Qhorus via SPI at startup
 - GE-20260607-f2f604: Use MessageView.actorType() not sender string matching to classify actors in ChannelProjection.apply()
 - GE-20260607-06ef99: ProjectionResult manual construction is safe for full-scan overload despite Javadoc warning
+- GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly

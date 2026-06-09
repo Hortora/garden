@@ -481,3 +481,5 @@
 - GE-20260609-ef7dbe: Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly
 - GE-20260609-d93a6d: @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect
 - GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container
+- GE-20260609-630b35: Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead
+- GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
