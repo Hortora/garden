@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1454
+**Entries merged since last sweep:** 1455
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1250,6 +1250,7 @@
 - GE-20260609-28e952 [Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug](jvm/GE-20260609-28e952.md)
 - GE-20260609-8d6961 [@Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection](jvm/GE-20260609-8d6961.md)
 - GE-20260531-446fea [Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope](jvm/GE-20260531-446fea.md)
+- GE-20260609-ef7dbe [Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly](jvm/GE-20260609-ef7dbe.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

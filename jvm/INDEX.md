@@ -702,3 +702,4 @@
 | GE-20260609-28e952 | Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug | gotcha | 12/15 |
 | GE-20260609-8d6961 | @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection | technique | 9/15 |
 | GE-20260531-446fea | Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope | technique | 11/15 |
+| GE-20260609-ef7dbe | Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly | gotcha | 9/15 |
