@@ -1,0 +1,1 @@
+- GE-20260609-9184e2: git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content

@@ -150,3 +150,4 @@
 - GE-20260601-2e31ae: Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively
 - GE-20260607-536227: Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
+- GE-20260609-9184e2: git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content
