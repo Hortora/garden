@@ -486,3 +486,4 @@
 - GE-20260609-4c6577: Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map
 - GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
 - GE-20260609-1ba140: @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems
+- GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
