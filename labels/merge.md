@@ -10,3 +10,4 @@
 - GE-20260603-d7aa80: Mutiny Multi.createBy().merging() waits for ALL upstreams — wrong for wall-clock timeout
 - GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
 - GE-20260605-b734b3: SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert
+- GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation

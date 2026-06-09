@@ -487,3 +487,6 @@
 - GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
 - GE-20260609-1ba140: @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems
 - GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
+- GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation
+- GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator

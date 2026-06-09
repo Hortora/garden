@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1478
+**Entries merged since last sweep:** 1481
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -523,6 +523,7 @@
 - GE-20260415-884e48 [@Alternative @Priority(n) in CDI 4.0/Quarkus globally activates the alternative — causes AmbiguousResolutionException](quarkus/GE-20260415-884e48.md)
 - GE-20260414-14d244 [quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution](quarkus/GE-20260414-14d244.md)
 - GE-20260420-18fbd4 [casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()](quarkus/GE-20260420-18fbd4.md)
+- GE-20260417-c59817 [quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored](quarkus/GE-20260417-c59817.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -1272,6 +1273,8 @@
 - GE-20260609-49bd08 [Static Panache entity calls bypass injected store tenant filtering](jvm/GE-20260609-49bd08.md)
 - GE-20260609-a23a8b [TenantContextRunner must save/restore TenantHolder when CDI request context already active](jvm/GE-20260609-a23a8b.md)
 - GE-20260609-086833 [quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately](jvm/GE-20260609-086833.md)
+- GE-20260609-62a1a7 [H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation](jvm/GE-20260609-62a1a7.md)
+- GE-20260607-ad3d62 [ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator](jvm/GE-20260607-ad3d62.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
