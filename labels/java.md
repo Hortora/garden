@@ -116,3 +116,4 @@
 - GE-20260609-453804: Making an enclosing class public does not promote its package-private members
 - GE-20260609-8f14bb: Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
+- GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains

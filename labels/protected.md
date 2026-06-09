@@ -1,0 +1,1 @@
+- GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest

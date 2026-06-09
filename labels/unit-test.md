@@ -1,3 +1,4 @@
 - GE-20260424-318ef3: Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module
 - GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly
 - GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
+- GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest

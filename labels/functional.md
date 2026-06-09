@@ -1,2 +1,1 @@
-- GE-20260607-3a83d8: OptionalDouble.orElse(null) fails — primitive double cannot be null
 - GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
