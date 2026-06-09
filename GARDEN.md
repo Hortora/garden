@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1430
+**Entries merged since last sweep:** 1432
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1229,6 +1229,8 @@
 - GE-20260609-0b703b [SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection](jvm/GE-20260609-0b703b.md)
 - GE-20260609-6ae928 [ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry](jvm/GE-20260609-6ae928.md)
 - GE-20260609-d24a97 [Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler](jvm/GE-20260609-d24a97.md)
+- GE-20260609-9dc2f9 [Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields](jvm/GE-20260609-9dc2f9.md)
+- GE-20260609-4d8cc4 [assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent](jvm/GE-20260609-4d8cc4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

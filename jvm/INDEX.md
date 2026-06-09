@@ -681,3 +681,5 @@
 | GE-20260609-0b703b | SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection | gotcha | 13/15 |
 | GE-20260609-6ae928 | ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry | gotcha | 12/15 |
 | GE-20260609-d24a97 | Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler | undocumented | 11/15 |
+| GE-20260609-9dc2f9 | Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields | gotcha | 9/15 |
+| GE-20260609-4d8cc4 | assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent | gotcha | 8/15 |

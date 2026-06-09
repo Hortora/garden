@@ -115,3 +115,4 @@
 - GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it
 - GE-20260609-453804: Making an enclosing class public does not promote its package-private members
 - GE-20260609-8f14bb: Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default
+- GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields

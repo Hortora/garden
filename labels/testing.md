@@ -300,3 +300,4 @@
 - GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
 - GE-20260609-453804: Making an enclosing class public does not promote its package-private members
 - GE-20260609-2308ed: wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient
+- GE-20260609-4d8cc4: assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent

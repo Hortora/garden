@@ -15,3 +15,4 @@
 - GE-20260531-4354e3: JSON substring completeness check silently always-passes for JSON output formats
 - GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled
 - GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read
+- GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields

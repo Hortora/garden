@@ -17,3 +17,4 @@
 - GE-20260607-fad749: Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls
 - GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method
 - GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()
+- GE-20260609-4d8cc4: assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent

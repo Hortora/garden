@@ -1,3 +1,4 @@
 - GE-20260513-feea71: SC2 armour reduces shield damage as well as HP damage — asserting rawDamage is off by armour
 - GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
+- GE-20260609-4d8cc4: assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent
