@@ -7,3 +7,4 @@
 - GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
 - GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail
 - GE-20260531-050543: macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses
+- GE-20260609-3bb404: Python regex \s* matches \n — table row parser merges separator row with next data row across newlines
