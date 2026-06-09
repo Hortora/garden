@@ -9,3 +9,4 @@
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260608-e1eff5: Qhorus MessageDispatch.Builder.build() rejects .content() on EVENT messages — tests written before this rule silently break
+- GE-20260609-d93a6d: @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect

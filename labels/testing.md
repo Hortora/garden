@@ -304,3 +304,4 @@
 - GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
 - GE-20260609-ef7dbe: Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly
+- GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container

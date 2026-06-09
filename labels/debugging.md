@@ -18,3 +18,4 @@
 - GE-20260605-97cd1e: Surefire stdout pipe buffer fills on high-volume test output — masks actual hang location in CI
 - GE-20260605-035a79: Surefire reports artifact definitively shows which modules completed testing vs which hung
 - GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions
+- GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection

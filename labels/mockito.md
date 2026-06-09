@@ -15,3 +15,4 @@
 - GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code
 - GE-20260607-b63e95: @QuarkusTest @InjectSpy + doCallRealMethod().doThrow(): stub configuration order relative to clearInvocations determines which call throws
 - GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()
+- GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container

@@ -2,3 +2,4 @@
 - GE-20260603-fdc6d5: @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread
 - GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
+- GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container

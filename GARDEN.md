@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1455
+**Entries merged since last sweep:** 1459
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1251,6 +1251,9 @@
 - GE-20260609-8d6961 [@Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection](jvm/GE-20260609-8d6961.md)
 - GE-20260531-446fea [Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope](jvm/GE-20260531-446fea.md)
 - GE-20260609-ef7dbe [Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly](jvm/GE-20260609-ef7dbe.md)
+- GE-20260609-d93a6d [@ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect](jvm/GE-20260609-d93a6d.md)
+- GE-20260609-0bf5b9 [reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream](jvm/GE-20260609-0bf5b9.md)
+- GE-20260609-75e00d [Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container](jvm/GE-20260609-75e00d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1782,6 +1785,7 @@
 - GE-20260609-3bb404 [Python regex \s* matches \n — table row parser merges separator row with next data row across newlines](tools/GE-20260609-3bb404.md)
 - GE-20260609-9184e2 [git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content](tools/GE-20260609-9184e2.md)
 - GE-20260603-7808c8 [ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation](tools/GE-20260603-7808c8.md)
+- GE-20260609-496817 [SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection](tools/GE-20260609-496817.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

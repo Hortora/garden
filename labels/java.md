@@ -119,3 +119,4 @@
 - GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
+- GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream

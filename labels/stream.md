@@ -1,2 +1,1 @@
-- GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
 - GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream

@@ -1,3 +1,4 @@
 - GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks
 - GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records
 - GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it
+- GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection
