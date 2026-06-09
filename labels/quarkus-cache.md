@@ -1,0 +1,1 @@
+- GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants

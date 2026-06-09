@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1474
+**Entries merged since last sweep:** 1477
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1269,6 +1269,9 @@
 - GE-20260609-49e48c [SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it](jvm/GE-20260609-49e48c.md)
 - GE-20260609-23438e [Upstream SPI wrapping for config override — intercept without bypassing declarative flow](jvm/GE-20260609-23438e.md)
 - GE-20260609-1ba140 [@Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems](jvm/GE-20260609-1ba140.md)
+- GE-20260609-dac1a3 [@CacheResult cache key omits tenancyId — cached data leaks across tenants](jvm/GE-20260609-dac1a3.md)
+- GE-20260609-49bd08 [Static Panache entity calls bypass injected store tenant filtering](jvm/GE-20260609-49bd08.md)
+- GE-20260609-a23a8b [TenantContextRunner must save/restore TenantHolder when CDI request context already active](jvm/GE-20260609-a23a8b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

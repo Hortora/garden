@@ -1,0 +1,1 @@
+- GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active

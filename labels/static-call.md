@@ -1,0 +1,1 @@
+- GE-20260609-49bd08: Static Panache entity calls bypass injected store tenant filtering

@@ -720,3 +720,6 @@
 | GE-20260609-49e48c | SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it | gotcha | 8/15 |
 | GE-20260609-23438e | Upstream SPI wrapping for config override — intercept without bypassing declarative flow | technique | 10/15 |
 | GE-20260609-1ba140 | @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems | undocumented | 9/15 |
+| GE-20260609-dac1a3 | @CacheResult cache key omits tenancyId — cached data leaks across tenants | gotcha | 12/15 |
+| GE-20260609-49bd08 | Static Panache entity calls bypass injected store tenant filtering | gotcha | 12/15 |
+| GE-20260609-a23a8b | TenantContextRunner must save/restore TenantHolder when CDI request context already active | gotcha | 11/15 |

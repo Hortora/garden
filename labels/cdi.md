@@ -248,3 +248,4 @@
 - GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope
 - GE-20260609-d93a6d: @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect
 - GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container
+- GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active

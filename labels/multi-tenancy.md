@@ -1,2 +1,5 @@
 - GE-20260512-ea776c: Quarkus named persistence units silently skip schema generation — explicit config required per named PU
 - GE-20260604-851f40: Mem0 OSS REST API deviates from cloud docs in five critical ways
+- GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants
+- GE-20260609-49bd08: Static Panache entity calls bypass injected store tenant filtering
+- GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
