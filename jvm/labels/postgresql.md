@@ -1,0 +1,1 @@
+- GE-20260609-bc8704: H2 does not support partial (filtered) UNIQUE indexes even in MODE=PostgreSQL

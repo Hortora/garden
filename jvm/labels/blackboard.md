@@ -1,2 +1,3 @@
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
+- GE-20260609-ddd4b8: CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update

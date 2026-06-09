@@ -10,3 +10,4 @@
 - GE-20260606-bc1b15: SmallRye Config ${sys:property} single-colon is fallback-value syntax, not a system-property handler
 - GE-20260606-1c20a7: @WithDefault expression + Path return type in @ConfigMapping: SmallRye resolves expression then converts to Path
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
+- GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads

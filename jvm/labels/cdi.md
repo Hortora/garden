@@ -4,3 +4,5 @@
 - GE-20260530-680285: CDI 4.1 Instance.handles() returns Iterable not Stream — use Arc's InjectableInstance.handlesStream()
 - GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
 - GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope
+- GE-20260609-84290d: WorkItemLifecycleEvent has no workItem() method — use event.source() cast to WorkItem
+- GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads

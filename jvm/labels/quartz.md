@@ -1,1 +1,2 @@
 - GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope
+- GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads

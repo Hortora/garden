@@ -1,0 +1,1 @@
+- GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
