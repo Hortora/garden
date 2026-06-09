@@ -1,2 +1,1 @@
-- GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override
 - GE-20260610-583563: Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults

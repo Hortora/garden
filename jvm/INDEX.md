@@ -731,3 +731,4 @@
 | GE-20260609-18a0b1 | quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution | gotcha | 10/15 |
 | GE-20260609-bc9bab | ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put() | gotcha | 13/15 |
 | GE-20260609-0e178e | ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched | gotcha | 10/15 |
+| GE-20260610-583563 | Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults | technique | 9/15 |
