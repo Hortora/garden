@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1459
+**Entries merged since last sweep:** 1460
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1254,6 +1254,7 @@
 - GE-20260609-d93a6d [@ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect](jvm/GE-20260609-d93a6d.md)
 - GE-20260609-0bf5b9 [reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream](jvm/GE-20260609-0bf5b9.md)
 - GE-20260609-75e00d [Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container](jvm/GE-20260609-75e00d.md)
+- GE-20260609-7600aa [Fixing a shared resolution method misses non-focal rendering paths](jvm/GE-20260609-7600aa.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

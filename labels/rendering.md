@@ -1,3 +1,4 @@
 - GE-20260428-7cfeab: Three.js transparent plane with depthTest:true (default) is invisible when rendered below an opaque plane at the same position
 - GE-20260421-6d4f16: Three.js SpriteMaterial has depthWrite:false by default — fog planes render through sprites at low camera angles
 - GE-20260529-4518ac: Mermaid sequence diagrams silently break on semicolons, em dashes, Unicode arrows, and curly braces
+- GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths

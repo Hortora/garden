@@ -1,0 +1,1 @@
+- GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths

@@ -706,3 +706,4 @@
 | GE-20260609-d93a6d | @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect | gotcha | 12/15 |
 | GE-20260609-0bf5b9 | reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream | technique | 10/15 |
 | GE-20260609-75e00d | Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container | technique | 11/15 |
+| GE-20260609-7600aa | Fixing a shared resolution method misses non-focal rendering paths | gotcha | 9/15 |
