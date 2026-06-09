@@ -710,3 +710,8 @@
 | GE-20260609-630b35 | Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead | gotcha | 9/15 |
 | GE-20260609-9ee2ad | Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly | gotcha | 13/15 |
 | GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
+| GE-20260609-d6cabc | TCP probe in test server consumes ServerSocket.accept() before real WebSocket client connects | gotcha | 13/15 |
+| GE-20260609-54d3c7 | BufferedReader on raw ServerSocket reads ahead past HTTP headers into WebSocket frame data | gotcha | 12/15 |
+| GE-20260609-878c41 | JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes | gotcha | 11/15 |
+| GE-20260609-f0d149 | ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size | undocumented | 10/15 |
+| GE-20260609-f14f75 | SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols | technique | 10/15 |

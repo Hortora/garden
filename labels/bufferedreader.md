@@ -1,0 +1,1 @@
+- GE-20260609-54d3c7: BufferedReader on raw ServerSocket reads ahead past HTTP headers into WebSocket frame data

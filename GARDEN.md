@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1463
+**Entries merged since last sweep:** 1468
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1258,6 +1258,11 @@
 - GE-20260609-630b35 [Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead](jvm/GE-20260609-630b35.md)
 - GE-20260609-9ee2ad [Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly](jvm/GE-20260609-9ee2ad.md)
 - GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
+- GE-20260609-d6cabc [TCP probe in test server consumes ServerSocket.accept() before real WebSocket client connects](jvm/GE-20260609-d6cabc.md)
+- GE-20260609-54d3c7 [BufferedReader on raw ServerSocket reads ahead past HTTP headers into WebSocket frame data](jvm/GE-20260609-54d3c7.md)
+- GE-20260609-878c41 [JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes](jvm/GE-20260609-878c41.md)
+- GE-20260609-f0d149 [ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size](jvm/GE-20260609-f0d149.md)
+- GE-20260609-f14f75 [SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols](jvm/GE-20260609-f14f75.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

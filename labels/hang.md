@@ -1,0 +1,1 @@
+- GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes

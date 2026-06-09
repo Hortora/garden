@@ -1,0 +1,1 @@
+- GE-20260609-d6cabc: TCP probe in test server consumes ServerSocket.accept() before real WebSocket client connects

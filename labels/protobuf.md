@@ -1,1 +1,2 @@
 - GE-20260505-d71db6: ocraft ImageData.getData() returns byte[] directly — not ByteString
+- GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size

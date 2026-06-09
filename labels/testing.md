@@ -305,3 +305,6 @@
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
 - GE-20260609-ef7dbe: Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly
 - GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container
+- GE-20260609-d6cabc: TCP probe in test server consumes ServerSocket.accept() before real WebSocket client connects
+- GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes
+- GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size

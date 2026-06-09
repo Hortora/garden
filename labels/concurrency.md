@@ -20,3 +20,4 @@
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
 - GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep
 - GE-20260604-c1ce51: ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race
+- GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
