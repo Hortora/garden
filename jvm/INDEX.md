@@ -693,3 +693,4 @@
 | GE-20260609-58e5d9 | JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null | gotcha | 12/15 |
 | GE-20260609-e53d82 | Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval | gotcha | 11/15 |
 | GE-20260609-a5dcbc | Java Properties format for restart-safe struct persistence in Qhorus COMMAND message content | technique | 10/15 |
+| GE-20260609-616994 | Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router | undocumented | 9/15 |
