@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1487
+**Entries merged since last sweep:** 1488
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1281,6 +1281,7 @@
 - GE-20260609-bc9bab [ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()](jvm/GE-20260609-bc9bab.md)
 - GE-20260609-0e178e [ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched](jvm/GE-20260609-0e178e.md)
 - GE-20260610-583563 [Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults](jvm/GE-20260610-583563.md)
+- GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

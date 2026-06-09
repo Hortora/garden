@@ -732,3 +732,4 @@
 | GE-20260609-bc9bab | ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put() | gotcha | 13/15 |
 | GE-20260609-0e178e | ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched | gotcha | 10/15 |
 | GE-20260610-583563 | Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults | technique | 9/15 |
+| GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
