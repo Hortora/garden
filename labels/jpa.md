@@ -77,3 +77,4 @@
 - GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode
 - GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
+- GE-20260609-58e5d9: JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null

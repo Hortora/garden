@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1439
+**Entries merged since last sweep:** 1440
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1238,6 +1238,7 @@
 - GE-20260609-c1998e [Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()](jvm/GE-20260609-c1998e.md)
 - GE-20260609-2a92d9 [langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1](jvm/GE-20260609-2a92d9.md)
 - GE-20260609-2abdfd [Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0](jvm/GE-20260609-2abdfd.md)
+- GE-20260609-58e5d9 [JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null](jvm/GE-20260609-58e5d9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

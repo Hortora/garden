@@ -1,0 +1,1 @@
+- GE-20260609-58e5d9: JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null
