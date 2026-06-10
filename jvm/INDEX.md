@@ -734,3 +734,4 @@
 | GE-20260610-583563 | Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults | technique | 9/15 |
 | GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
 | GE-20260610-aef021 | Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false | gotcha | 10/15 |
+| GE-20260610-9f38b0 | JsonObject.getJsonObject() returns null for missing keys — no default overload | gotcha | 13/15 |
