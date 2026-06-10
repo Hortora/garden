@@ -747,3 +747,4 @@
 | GE-20260610-204ddb | Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2 | gotcha | 11/15 |
 | GE-20260610-f990b2 | @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately | gotcha | 10/15 |
 | GE-20260610-09f7bd | Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException | gotcha | 13/15 |
+| GE-20260610-99d39c | jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon | gotcha | 10/15 |

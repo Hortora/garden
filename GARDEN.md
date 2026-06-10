@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1505
+**Entries merged since last sweep:** 1506
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1297,6 +1297,7 @@
 - GE-20260610-204ddb [Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2](jvm/GE-20260610-204ddb.md)
 - GE-20260610-f990b2 [@Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately](jvm/GE-20260610-f990b2.md)
 - GE-20260610-09f7bd [Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException](jvm/GE-20260610-09f7bd.md)
+- GE-20260610-99d39c [jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon](jvm/GE-20260610-99d39c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

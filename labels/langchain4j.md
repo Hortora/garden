@@ -18,3 +18,4 @@
 - GE-20260609-2a92d9: langchain4j-document-parser-apache-tika artifact doesn't exist for LangChain4j 1.14.1
 - GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
 - GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
+- GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
