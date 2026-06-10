@@ -1,2 +1,1 @@
-- GE-20260525-6accc3: Electron ready-to-show handler missed if registered after await loadURL — IPC messages silently lost
 - GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently

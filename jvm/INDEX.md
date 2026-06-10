@@ -750,3 +750,4 @@
 | GE-20260610-99d39c | jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon | gotcha | 10/15 |
 | GE-20260610-1c73c1 | SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge | gotcha | 12/15 |
 | GE-20260610-c003ba | Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure | gotcha | 12/15 |
+| GE-20260610-6297ce | Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently | gotcha | 9/15 |

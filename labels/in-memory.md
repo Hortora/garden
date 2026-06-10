@@ -9,3 +9,4 @@
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
 - GE-20260606-dc4293: InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim
 - GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
+- GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently

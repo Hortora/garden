@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1511
+**Entries merged since last sweep:** 1512
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1300,6 +1300,7 @@
 - GE-20260610-99d39c [jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon](jvm/GE-20260610-99d39c.md)
 - GE-20260610-1c73c1 [SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge](jvm/GE-20260610-1c73c1.md)
 - GE-20260610-c003ba [Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure](jvm/GE-20260610-c003ba.md)
+- GE-20260610-6297ce [Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently](jvm/GE-20260610-6297ce.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

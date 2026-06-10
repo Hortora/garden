@@ -14,3 +14,4 @@
 - GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
 - GE-20260609-d93a6d: @ObservesAsync is a PARAMETER annotation — method-level placement silently has no effect
+- GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently
