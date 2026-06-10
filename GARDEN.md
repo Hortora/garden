@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1506
+**Entries merged since last sweep:** 1507
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1831,6 +1831,7 @@
 - GE-20260603-7808c8 [ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation](tools/GE-20260603-7808c8.md)
 - GE-20260609-496817 [SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection](tools/GE-20260609-496817.md)
 - GE-20260610-414ec2 [IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting](tools/GE-20260610-414ec2.md)
+- GE-20260501-c579bb [Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically](tools/GE-20260501-c579bb.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

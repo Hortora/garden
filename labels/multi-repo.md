@@ -18,3 +18,4 @@
 - GE-20260530-0178fd: Quarkus @QuarkusTest augmentation requires extension deployment JARs in ~/.m2 — mvn compile/test-compile is insufficient
 - GE-20260531-5137f7: mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class
 - GE-20260602-bacaf2: Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles
+- GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically

@@ -495,3 +495,4 @@
 | GE-20260603-7808c8 | ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation | technique | 11/15 |
 | GE-20260609-496817 | SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection | gotcha | 12/15 |
 | GE-20260610-414ec2 | IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting | gotcha | 9/15 |
+| GE-20260501-c579bb | Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically | technique | 11/15 |
