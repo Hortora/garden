@@ -1,0 +1,1 @@
+- GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
