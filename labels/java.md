@@ -128,3 +128,4 @@
 - GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased
 - GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
 - GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type
+- GE-20260610-09f7bd: Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException

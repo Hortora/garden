@@ -3,3 +3,4 @@
 - GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate
 - GE-20260522-676291: ResizeObserver triggers updateDiffMap without innerHTML reset — word-diff marks nest on each resize
 - GE-20260522-405c25: Process text nodes in reverse DOM order when splitting them for inline element injection
+- GE-20260610-09f7bd: Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException

@@ -1,0 +1,1 @@
+- GE-20260610-09f7bd: Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException
