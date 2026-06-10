@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1512
+**Entries merged since last sweep:** 1513
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1867,6 +1867,7 @@
 - GE-20260524-d643d9 [marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all](web/GE-20260524-d643d9.md)
 - GE-20260531-929107 [EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE](web/GE-20260531-929107.md)
 - GE-20260610-a923a0 [Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace](web/GE-20260610-a923a0.md)
+- GE-20260610-615a65 [JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them](web/GE-20260610-615a65.md)
 
 ---
 

@@ -1,0 +1,1 @@
+- GE-20260610-615a65: JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them
