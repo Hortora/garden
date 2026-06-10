@@ -499,3 +499,4 @@
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
 - GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry
+- GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2

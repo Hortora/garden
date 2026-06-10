@@ -1,0 +1,1 @@
+- GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2

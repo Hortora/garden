@@ -28,3 +28,4 @@
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
 - GE-20260508-3a77c5: Quarkus multi-module: mvn compile fails with NoSuchFileException when api/ submodule has no sources yet
 - GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed
+- GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2

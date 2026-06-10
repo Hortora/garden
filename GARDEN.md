@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1502
+**Entries merged since last sweep:** 1503
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1294,6 +1294,7 @@
 - GE-20260610-711f61 [Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access](jvm/GE-20260610-711f61.md)
 - GE-20260610-952c8d [Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems](jvm/GE-20260610-952c8d.md)
 - GE-20260610-f1982c [@ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry](jvm/GE-20260610-f1982c.md)
+- GE-20260610-204ddb [Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2](jvm/GE-20260610-204ddb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
