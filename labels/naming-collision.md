@@ -1,0 +1,1 @@
+- GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace

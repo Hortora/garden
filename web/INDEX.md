@@ -17,3 +17,4 @@
 | GE-20260524-b0a4d9 | marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs | gotcha | 13/15 |
 | GE-20260524-d643d9 | marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all | undocumented | 12/15 |
 | GE-20260531-929107 | EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE | gotcha | 12/15 |
+| GE-20260610-a923a0 | Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace | gotcha | 10/15 |

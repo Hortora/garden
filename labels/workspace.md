@@ -6,3 +6,4 @@
 - GE-20260526-b28228: Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
+- GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace

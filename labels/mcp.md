@@ -24,3 +24,4 @@
 - GE-20260604-d08c9f: @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
 - GE-20260606-cd1c61: MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException
+- GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
