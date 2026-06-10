@@ -8,3 +8,4 @@
 - GE-20260526-bfc589: REST Assured Instant equality fails intermittently — Jackson and Instant.toString() diverge on sub-second precision
 - GE-20260606-7a29fb: REST Assured GPath `$.findAll {}` returns null (not []) when no elements match
 - GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
+- GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems

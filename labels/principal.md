@@ -1,2 +1,1 @@
-- GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access

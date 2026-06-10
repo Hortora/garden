@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1498
+**Entries merged since last sweep:** 1501
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1290,6 +1290,9 @@
 - GE-20260610-98066a [Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates](jvm/GE-20260610-98066a.md)
 - GE-20260610-2c47fb [Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only](jvm/GE-20260610-2c47fb.md)
 - GE-20260610-3e094b [volatile boolean freeze flag — post-init immutability without a separate read-only type](jvm/GE-20260610-3e094b.md)
+- GE-20260610-e6929a [Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup](jvm/GE-20260610-e6929a.md)
+- GE-20260610-711f61 [Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access](jvm/GE-20260610-711f61.md)
+- GE-20260610-952c8d [Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems](jvm/GE-20260610-952c8d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

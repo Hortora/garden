@@ -495,3 +495,6 @@
 - GE-20260609-18a0b1: quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260610-7b4955: Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses
+- GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup
+- GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
+- GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems

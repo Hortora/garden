@@ -740,3 +740,6 @@
 | GE-20260610-98066a | Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates | gotcha | 11/15 |
 | GE-20260610-2c47fb | Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only | gotcha | 10/15 |
 | GE-20260610-3e094b | volatile boolean freeze flag — post-init immutability without a separate read-only type | technique | 9/15 |
+| GE-20260610-e6929a | Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup | gotcha | 14/15 |
+| GE-20260610-711f61 | Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access | technique | 12/15 |
+| GE-20260610-952c8d | Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems | technique | 10/15 |

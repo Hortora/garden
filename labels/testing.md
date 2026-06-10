@@ -309,3 +309,4 @@
 - GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260417-c59817: quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored
+- GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems

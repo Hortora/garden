@@ -1,0 +1,1 @@
+- GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup

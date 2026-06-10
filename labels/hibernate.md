@@ -62,3 +62,5 @@
 - GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation
 - GE-20260609-58e5d9: JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null
 - GE-20260609-ef7dbe: Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly
+- GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup
+- GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
