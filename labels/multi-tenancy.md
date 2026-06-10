@@ -3,3 +3,4 @@
 - GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants
 - GE-20260609-49bd08: Static Panache entity calls bypass injected store tenant filtering
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
+- GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry

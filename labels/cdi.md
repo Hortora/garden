@@ -254,3 +254,4 @@
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260609-18a0b1: quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution
+- GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry

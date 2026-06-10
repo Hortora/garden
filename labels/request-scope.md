@@ -1,3 +1,4 @@
 - GE-20260521-debce2: Test @RequestScoped CDI beans directly with @InjectMock + manual Arc request context — no HTTP layer needed
 - GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
+- GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry
