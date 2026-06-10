@@ -1,1 +1,2 @@
 - GE-20260415-5d762b: Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)
+- GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type

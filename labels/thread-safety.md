@@ -8,3 +8,5 @@
 - GE-20260529-d8156d: ConcurrentHashMap.computeIfAbsent blocks all same-bucket keys while mapping function runs — unusable for network calls
 - GE-20260602-047ac4: Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
+- GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
+- GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type

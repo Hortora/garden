@@ -21,3 +21,4 @@
 - GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260610-7b4955: Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses

@@ -1,0 +1,1 @@
+- GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type

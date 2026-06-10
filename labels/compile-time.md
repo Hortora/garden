@@ -1,0 +1,1 @@
+- GE-20260610-7b4955: Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses

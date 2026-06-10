@@ -735,3 +735,8 @@
 | GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
 | GE-20260610-aef021 | Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false | gotcha | 10/15 |
 | GE-20260610-9f38b0 | JsonObject.getJsonObject() returns null for missing keys — no default overload | gotcha | 13/15 |
+| GE-20260610-7b4955 | Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses | gotcha | 12/15 |
+| GE-20260610-2f5604 | Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased | gotcha | 11/15 |
+| GE-20260610-98066a | Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates | gotcha | 11/15 |
+| GE-20260610-2c47fb | Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only | gotcha | 10/15 |
+| GE-20260610-3e094b | volatile boolean freeze flag — post-init immutability without a separate read-only type | technique | 9/15 |

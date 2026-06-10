@@ -4,3 +4,4 @@
 - GE-20260529-8b17d1: LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache
 - GE-20260530-1ce875: Set.of().contains(null) throws NullPointerException — unlike HashSet which returns false
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
+- GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased

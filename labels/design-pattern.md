@@ -11,3 +11,4 @@
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
 - GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
+- GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type

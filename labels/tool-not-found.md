@@ -1,0 +1,1 @@
+- GE-20260610-eb673a: Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session

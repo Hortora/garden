@@ -1,1 +1,2 @@
 - GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently
+- GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased

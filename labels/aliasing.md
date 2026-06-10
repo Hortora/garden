@@ -1,2 +1,1 @@
-- GE-20260512-5bcc7b: Preserve subclass type in CaseContextImpl.snapshot() without accessing private deepCopy
 - GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased

@@ -22,3 +22,4 @@
 - GE-20260604-c1ce51: ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race
 - GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
+- GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates

@@ -125,3 +125,6 @@
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
 - GE-20260610-583563: Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults
 - GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
+- GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased
+- GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
+- GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type

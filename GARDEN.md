@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1492
+**Entries merged since last sweep:** 1498
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -117,6 +117,7 @@
 - GE-20260526-b28228 [Multi-repo Claude sessions load all ancestor CLAUDE.md files — parent Workspace declaration shadows the active session's](claude-code/GE-20260526-b28228.md)
 - GE-20260601-c1a8f9 [Subagent worktree commits land on worktree branch, not on the session branch](claude-code/GE-20260601-c1a8f9.md)
 - GE-20260605-248ca7 [Design parallel agents as write-only — pass all deletions back to the parent session](claude-code/GE-20260605-248ca7.md)
+- GE-20260610-eb673a [Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session](claude-code/GE-20260610-eb673a.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -1284,6 +1285,11 @@
 - GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 - GE-20260610-aef021 [Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false](jvm/GE-20260610-aef021.md)
 - GE-20260610-9f38b0 [JsonObject.getJsonObject() returns null for missing keys — no default overload](jvm/GE-20260610-9f38b0.md)
+- GE-20260610-7b4955 [Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses](jvm/GE-20260610-7b4955.md)
+- GE-20260610-2f5604 [Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased](jvm/GE-20260610-2f5604.md)
+- GE-20260610-98066a [Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates](jvm/GE-20260610-98066a.md)
+- GE-20260610-2c47fb [Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only](jvm/GE-20260610-2c47fb.md)
+- GE-20260610-3e094b [volatile boolean freeze flag — post-init immutability without a separate read-only type](jvm/GE-20260610-3e094b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

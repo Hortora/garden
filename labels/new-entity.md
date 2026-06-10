@@ -1,2 +1,1 @@
-- GE-20260609-2254cc: MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters
 - GE-20260610-2c47fb: Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only
