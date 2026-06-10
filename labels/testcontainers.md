@@ -8,3 +8,5 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests
 - GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run
+- GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
+- GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure

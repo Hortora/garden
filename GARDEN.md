@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1507
+**Entries merged since last sweep:** 1511
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1298,6 +1298,8 @@
 - GE-20260610-f990b2 [@Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately](jvm/GE-20260610-f990b2.md)
 - GE-20260610-09f7bd [Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException](jvm/GE-20260610-09f7bd.md)
 - GE-20260610-99d39c [jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon](jvm/GE-20260610-99d39c.md)
+- GE-20260610-1c73c1 [SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge](jvm/GE-20260610-1c73c1.md)
+- GE-20260610-c003ba [Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure](jvm/GE-20260610-c003ba.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1832,6 +1834,8 @@
 - GE-20260609-496817 [SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection](tools/GE-20260609-496817.md)
 - GE-20260610-414ec2 [IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting](tools/GE-20260610-414ec2.md)
 - GE-20260501-c579bb [Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically](tools/GE-20260501-c579bb.md)
+- GE-20260610-170b45 [git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content](tools/GE-20260610-170b45.md)
+- GE-20260610-7b4ff5 [Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable](tools/GE-20260610-7b4ff5.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

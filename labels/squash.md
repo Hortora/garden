@@ -26,3 +26,4 @@
 - GE-20260604-7e0560: git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked
 - GE-20260602-fd2a31: git rebase on backup/pre-squash-* base silently fails — commits already applied
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
+- GE-20260610-170b45: git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content

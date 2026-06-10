@@ -501,3 +501,4 @@
 - GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry
 - GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2
 - GE-20260610-f990b2: @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately
+- GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure

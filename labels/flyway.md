@@ -40,3 +40,4 @@
 - GE-20260606-e5f0ab: Migrate a stored JSON column format without Flyway by detecting format on read
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
 - GE-20260609-ef7dbe: Flyway NOT NULL + DEFAULT column not reflected in Hibernate drop-and-create — test fixtures must set the field explicitly
+- GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge

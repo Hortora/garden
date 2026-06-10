@@ -1,0 +1,1 @@
+- GE-20260610-7b4ff5: Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable

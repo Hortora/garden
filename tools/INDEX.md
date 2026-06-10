@@ -496,3 +496,5 @@
 | GE-20260609-496817 | SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection | gotcha | 12/15 |
 | GE-20260610-414ec2 | IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting | gotcha | 9/15 |
 | GE-20260501-c579bb | Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically | technique | 11/15 |
+| GE-20260610-170b45 | git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content | gotcha | 10/15 |
+| GE-20260610-7b4ff5 | Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable | technique | 9/15 |
