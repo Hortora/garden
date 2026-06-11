@@ -11,3 +11,4 @@
 - GE-20260606-1c20a7: @WithDefault expression + Path return type in @ConfigMapping: SmallRye resolves expression then converts to Path
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
+- GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource

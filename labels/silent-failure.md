@@ -44,3 +44,4 @@
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
 - GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
+- GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource

@@ -6,3 +6,4 @@
 - GE-20260531-446fea: Quartz job data map is the correct mechanism for threading execution context through job listeners without CDI request scope
 - GE-20260609-84290d: WorkItemLifecycleEvent has no workItem() method — use event.source() cast to WorkItem
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
+- GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource

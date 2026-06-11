@@ -4,3 +4,4 @@
 - GE-20260512-d0fa82: H2 + two Agroal datasources in one @Transactional method fails with 'Failed to enlist' — requires transactions=xa
 - GE-20260525-c942c0: @Transactional on a coordinator writing to two Quarkus datasources attempts XA — H2 rejects it with a misleading connection error
 - GE-20260528-fa4655: Quarkus FlywayConfigurationCustomizer without @FlywayDataSource applies to default datasource only — not all datasources
+- GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource

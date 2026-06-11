@@ -3,3 +3,4 @@
 - GE-20260530-c05d12: entityManager.persist() inside @PrePersist of a different entity is unsafe — JPA spec doesn't guarantee flush ordering
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
+- GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
