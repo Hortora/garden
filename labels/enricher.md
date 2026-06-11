@@ -1,3 +1,5 @@
 - GE-20260520-45312d: @QuarkusTest enricher tests pass silently when no signing key is configured — @InjectMock the provider
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong
+- GE-20260611-dedf69: Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies

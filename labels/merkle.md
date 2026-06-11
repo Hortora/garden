@@ -1,3 +1,4 @@
 - GE-20260531-d2ed26: LedgerEntryRepository.save() triggers full Merkle chain update — concurrent writes violate UQ_MERKLE_FRONTIER_SUBJECT_LEVEL
 - GE-20260531-1587fe: JpaLedgerMerkleFrontierRepository must be added to selected-alternatives alongside JpaLedgerEntryRepository for LedgerVerificationService to work in @QuarkusTest
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
+- GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage

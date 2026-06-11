@@ -752,3 +752,7 @@
 | GE-20260610-c003ba | Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure | gotcha | 12/15 |
 | GE-20260610-6297ce | Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently | gotcha | 9/15 |
 | GE-20260611-a42c0b | Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource | gotcha | 9/15 |
+| GE-20260521-977e3e | Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class) | undocumented | 11/15 |
+| GE-20260611-622b3f | CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong | gotcha | 9/15 |
+| GE-20260611-d34557 | JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage | gotcha | 11/15 |
+| GE-20260611-dedf69 | Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies | technique | 10/15 |

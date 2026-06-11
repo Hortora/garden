@@ -8,3 +8,4 @@
 - GE-20260601-33dd8e: @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives
 - GE-20260604-2f0889: @Alternative @Priority(N) stubs in @QuarkusTest appear in @All List<T> alongside the original bean — not as replacements
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
+- GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong

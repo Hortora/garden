@@ -503,3 +503,5 @@
 - GE-20260610-f990b2: @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
+- GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
+- GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong

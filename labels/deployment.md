@@ -11,3 +11,4 @@
 - GE-20260528-8e51f1: NativeImageResourcePatternsBuildItem constructor and includePatterns() are deprecated in Quarkus 3.x — use builder().includeGlob()
 - GE-20260529-6eccfe: Strict-on-write / lenient-on-read parse modes for deploying type constraints against existing data
 - GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure
+- GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
