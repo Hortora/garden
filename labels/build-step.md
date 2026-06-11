@@ -2,3 +2,4 @@
 - GE-20260528-8e51f1: NativeImageResourcePatternsBuildItem constructor and includePatterns() are deprecated in Quarkus 3.x — use builder().includeGlob()
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
 - GE-20260609-1ba140: @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems
+- GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase

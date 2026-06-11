@@ -18,3 +18,4 @@
 - GE-20260605-e91aa0: Quarkus @QuarkusTest without quarkus-maven-plugin hangs on resource-constrained CI — augmentation inside forked JVM
 - GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM
 - GE-20260608-983041: CDI @Alternative @Priority on a subclass of a framework-internal @ApplicationScoped bean causes Quarkus augmentation failure
+- GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase

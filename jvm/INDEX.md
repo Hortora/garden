@@ -756,3 +756,4 @@
 | GE-20260611-622b3f | CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong | gotcha | 9/15 |
 | GE-20260611-d34557 | JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage | gotcha | 11/15 |
 | GE-20260611-dedf69 | Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies | technique | 10/15 |
+| GE-20260612-171776 | Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase | gotcha | 9/15 |

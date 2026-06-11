@@ -7,3 +7,4 @@
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260604-b38ae2: Quarkus dual-path services: reactive path silently bypasses Java record compact constructor validation
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
+- GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase

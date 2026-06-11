@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1518
+**Entries merged since last sweep:** 1519
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1306,6 +1306,7 @@
 - GE-20260611-622b3f [CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong](jvm/GE-20260611-622b3f.md)
 - GE-20260611-d34557 [JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage](jvm/GE-20260611-d34557.md)
 - GE-20260611-dedf69 [Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies](jvm/GE-20260611-dedf69.md)
+- GE-20260612-171776 [Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase](jvm/GE-20260612-171776.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
