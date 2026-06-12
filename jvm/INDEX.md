@@ -774,3 +774,4 @@
 | GE-20260612-87d173 | ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value | gotcha | 8/15 |
 | GE-20260612-279b44 | CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination | gotcha | 14/15 |
 | GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
+| GE-20260612-889bd4 | Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead | technique | 10/15 |

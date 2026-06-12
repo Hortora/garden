@@ -1,1 +1,2 @@
 - GE-20260420-362475: Use IdentityHashMap when keying on JavaParser AST nodes that transformers will mutate
+- GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
