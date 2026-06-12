@@ -260,3 +260,5 @@
 - GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
 - GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong
+- GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results
+- GE-20260612-40ee33: quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling

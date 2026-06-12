@@ -510,3 +510,4 @@
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
 - GE-20260612-fa0894: Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap
+- GE-20260612-40ee33: quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling

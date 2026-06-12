@@ -5,3 +5,4 @@
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
 - GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
+- GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results

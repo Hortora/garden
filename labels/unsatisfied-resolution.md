@@ -1,1 +1,2 @@
 - GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug
+- GE-20260612-40ee33: quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling

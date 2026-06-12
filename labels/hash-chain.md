@@ -1,0 +1,1 @@
+- GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten

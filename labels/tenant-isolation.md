@@ -1,3 +1,5 @@
 - GE-20260605-9e09d9: InMemoryMemoryStore.assertTenant() fails silently in @ObservesAsync threads — no CurrentPrincipal in async CDI context
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
+- GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results
+- GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten

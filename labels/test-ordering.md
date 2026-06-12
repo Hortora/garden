@@ -1,0 +1,1 @@
+- GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results

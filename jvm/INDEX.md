@@ -761,3 +761,6 @@
 | GE-20260612-af3c19 | WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient | technique | 9/15 |
 | GE-20260610-99d39c | jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon | gotcha | 10/15 |
 | GE-20260612-fa0894 | Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap | gotcha | 14/15 |
+| GE-20260612-ce4271 | MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results | gotcha | 12/15 |
+| GE-20260612-40ee33 | quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling | gotcha | 10/15 |
+| GE-20260612-c24e9d | Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten | gotcha | 11/15 |
