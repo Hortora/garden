@@ -9,3 +9,4 @@
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
+- GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after

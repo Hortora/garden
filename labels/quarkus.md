@@ -514,3 +514,4 @@
 - GE-20260612-d335ce: @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery
 - GE-20260612-c3b611: SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
+- GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after

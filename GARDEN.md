@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1539
+**Entries merged since last sweep:** 1540
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1325,6 +1325,7 @@
 - GE-20260612-c3b611 [SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds](jvm/GE-20260612-c3b611.md)
 - GE-20260612-87d173 [ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value](jvm/GE-20260612-87d173.md)
 - GE-20260612-279b44 [CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination](jvm/GE-20260612-279b44.md)
+- GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
