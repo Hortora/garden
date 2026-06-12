@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1527
+**Entries merged since last sweep:** 1528
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -526,6 +526,7 @@
 - GE-20260414-14d244 [quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution](quarkus/GE-20260414-14d244.md)
 - GE-20260420-18fbd4 [casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()](quarkus/GE-20260420-18fbd4.md)
 - GE-20260417-c59817 [quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored](quarkus/GE-20260417-c59817.md)
+- GE-20260417-4a3c22 [Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization](quarkus/GE-20260417-4a3c22.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

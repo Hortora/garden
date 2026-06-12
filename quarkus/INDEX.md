@@ -231,3 +231,4 @@
 | GE-20260414-14d244 | quarkus-flow TaskExecutorFactory SPI — undocumented extension point for custom task execution | undocumented | 11/15 |
 | GE-20260420-18fbd4 | casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test() | undocumented | 11/15 |
 | GE-20260417-c59817 | quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored | undocumented | 12/15 |
+| GE-20260417-4a3c22 | Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization | gotcha | 10/15 |

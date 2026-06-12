@@ -312,3 +312,4 @@
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
 - GE-20260610-f990b2: @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
+- GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
