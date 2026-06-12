@@ -764,3 +764,4 @@
 | GE-20260612-ce4271 | MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results | gotcha | 12/15 |
 | GE-20260612-40ee33 | quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling | gotcha | 10/15 |
 | GE-20260612-c24e9d | Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten | gotcha | 11/15 |
+| GE-20260612-79d73b | Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures | technique | 9/15 |

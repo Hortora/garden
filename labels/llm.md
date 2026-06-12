@@ -4,3 +4,4 @@
 - GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
 - GE-20260602-9c056b: Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom
 - GE-20260602-258bf9: Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously
+- GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
