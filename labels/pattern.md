@@ -23,3 +23,4 @@
 - GE-20260414-007a93: Use a module-level configurable dict for scoring/bonus rules so strategy is data not code
 - GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
 - GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot
+- GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing

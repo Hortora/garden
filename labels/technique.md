@@ -15,3 +15,4 @@
 - GE-20260518-bee1b3: Virtual-thread offload + CDI self-injection: pattern for safe blocking JPA in a reactive pipeline
 - GE-20260531-de42ae: AI agent auto-commit: use a per-turn flag, not a per-tool-call stack
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
+- GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing

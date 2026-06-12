@@ -15,3 +15,4 @@
 - GE-0166: Dispatch parallel agents for exhaustive cross-codebase comparison
 - GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
+- GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing

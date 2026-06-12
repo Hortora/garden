@@ -18,3 +18,4 @@
 - GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
 - GE-20260605-e4d5c3: Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system
 - GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
+- GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing

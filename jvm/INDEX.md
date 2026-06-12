@@ -766,3 +766,4 @@
 | GE-20260612-c24e9d | Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten | gotcha | 11/15 |
 | GE-20260612-79d73b | Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures | technique | 9/15 |
 | GE-20260612-9ff1c6 | Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives | gotcha | 13/15 |
+| GE-20260612-bd3b4d | Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing | technique | 13/15 |
