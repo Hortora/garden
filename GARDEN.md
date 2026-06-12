@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1521
+**Entries merged since last sweep:** 1522
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1309,6 +1309,7 @@
 - GE-20260611-dedf69 [Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies](jvm/GE-20260611-dedf69.md)
 - GE-20260612-171776 [Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase](jvm/GE-20260612-171776.md)
 - GE-20260612-ed9ff0 [@ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup](jvm/GE-20260612-ed9ff0.md)
+- GE-20260612-af3c19 [WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient](jvm/GE-20260612-af3c19.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -758,3 +758,4 @@
 | GE-20260611-dedf69 | Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies | technique | 10/15 |
 | GE-20260612-171776 | Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase | gotcha | 9/15 |
 | GE-20260612-ed9ff0 | @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup | gotcha | 12/15 |
+| GE-20260612-af3c19 | WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient | technique | 9/15 |

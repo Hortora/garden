@@ -1,2 +1,1 @@
-- GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
