@@ -9,3 +9,4 @@
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
 - GE-20260612-de141c: casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields
 - GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten
+- GE-20260612-17c161: casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()

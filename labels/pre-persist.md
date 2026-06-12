@@ -1,2 +1,3 @@
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
+- GE-20260612-17c161: casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()
