@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1541
+**Entries merged since last sweep:** 1542
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1327,6 +1327,7 @@
 - GE-20260612-279b44 [CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination](jvm/GE-20260612-279b44.md)
 - GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 - GE-20260612-889bd4 [Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead](jvm/GE-20260612-889bd4.md)
+- GE-20260609-9ee2ad [Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly](jvm/GE-20260609-9ee2ad.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
