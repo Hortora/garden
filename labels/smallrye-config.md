@@ -5,3 +5,4 @@
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260609-4c6577: Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map
+- GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup

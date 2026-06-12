@@ -22,3 +22,4 @@
 - GE-20260531-a6bd23: SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead
 - GE-20260529-5a8158: Quarkus @ConfigMapping strict mode rejects @ConfigProperty keys under the same prefix from other CDI beans
 - GE-20260604-3ae124: ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder
+- GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
