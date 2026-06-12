@@ -765,3 +765,4 @@
 | GE-20260612-40ee33 | quarkus.scheduler.enabled=false removes the Scheduler CDI bean — use start-mode=halted for programmatic scheduling | gotcha | 10/15 |
 | GE-20260612-c24e9d | Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten | gotcha | 11/15 |
 | GE-20260612-79d73b | Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures | technique | 9/15 |
+| GE-20260612-9ff1c6 | Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives | gotcha | 13/15 |

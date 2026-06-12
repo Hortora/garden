@@ -44,3 +44,4 @@
 - GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}
 - GE-20260608-c1f27f: CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty
 - GE-20260608-8f6b5b: Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests
+- GE-20260612-9ff1c6: Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives

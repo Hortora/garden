@@ -42,3 +42,4 @@
 - GE-20260607-e0798c: CaseHub actorId format contains colons — cache key separator must use null char
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
+- GE-20260612-9ff1c6: Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives
