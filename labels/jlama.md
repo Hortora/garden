@@ -1,2 +1,3 @@
 - GE-20260423-878486: quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
+- GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
