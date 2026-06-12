@@ -18,3 +18,4 @@
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
+- GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution

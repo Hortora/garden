@@ -1,0 +1,1 @@
+- GE-20260612-cd10d7: JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't

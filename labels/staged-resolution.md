@@ -1,0 +1,1 @@
+- GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution

@@ -19,3 +19,4 @@
 | GE-20260531-929107 | EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE | gotcha | 12/15 |
 | GE-20260610-a923a0 | Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace | gotcha | 10/15 |
 | GE-20260610-615a65 | JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them | gotcha | 10/15 |
+| GE-20260612-cd10d7 | JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't | gotcha | 11/15 |

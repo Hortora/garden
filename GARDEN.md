@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1530
+**Entries merged since last sweep:** 1532
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1854,6 +1854,7 @@
 - GE-20260501-c579bb [Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically](tools/GE-20260501-c579bb.md)
 - GE-20260610-170b45 [git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content](tools/GE-20260610-170b45.md)
 - GE-20260610-7b4ff5 [Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable](tools/GE-20260610-7b4ff5.md)
+- GE-20260612-56fb3d [Parameterized discriminated union tree for staged type resolution](tools/GE-20260612-56fb3d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -1885,6 +1886,7 @@
 - GE-20260531-929107 [EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE](web/GE-20260531-929107.md)
 - GE-20260610-a923a0 [Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace](web/GE-20260610-a923a0.md)
 - GE-20260610-615a65 [JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them](web/GE-20260610-615a65.md)
+- GE-20260612-cd10d7 [JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't](web/GE-20260612-cd10d7.md)
 
 ---
 

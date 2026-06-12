@@ -498,3 +498,4 @@
 | GE-20260501-c579bb | Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically | technique | 11/15 |
 | GE-20260610-170b45 | git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content | gotcha | 10/15 |
 | GE-20260610-7b4ff5 | Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable | technique | 9/15 |
+| GE-20260612-56fb3d | Parameterized discriminated union tree for staged type resolution | technique | 11/15 |

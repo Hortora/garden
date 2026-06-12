@@ -1,3 +1,4 @@
 - GE-20260514-056bc5: Java 21 switch expression over enum gives compiler-enforced exhaustiveness for type dispatch
 - GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
 - GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records
+- GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution

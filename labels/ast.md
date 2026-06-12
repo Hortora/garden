@@ -1,2 +1,3 @@
 - GE-20260421-2df2ba: JavaParser ClassOrInterfaceDeclaration covers both classes AND interfaces
 - GE-20260417-64e848: JavaParser TYPE_USE annotation on qualified type names goes on scope type, not leaf
+- GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution
