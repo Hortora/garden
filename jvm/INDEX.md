@@ -777,3 +777,5 @@
 | GE-20260612-889bd4 | Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead | technique | 10/15 |
 | GE-20260609-9ee2ad | Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly | gotcha | 13/15 |
 | GE-20260612-8e925b | Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU | gotcha | 10/15 |
+| GE-20260612-4f9a47 | Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint | gotcha | 12/15 |
+| GE-20260612-c67513 | CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied | gotcha | 9/15 |

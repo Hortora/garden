@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1545
+**Entries merged since last sweep:** 1547
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1331,6 +1331,8 @@
 - GE-20260612-889bd4 [Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead](jvm/GE-20260612-889bd4.md)
 - GE-20260609-9ee2ad [Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly](jvm/GE-20260609-9ee2ad.md)
 - GE-20260612-8e925b [Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU](jvm/GE-20260612-8e925b.md)
+- GE-20260612-4f9a47 [Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint](jvm/GE-20260612-4f9a47.md)
+- GE-20260612-c67513 [CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied](jvm/GE-20260612-c67513.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

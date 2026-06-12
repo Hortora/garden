@@ -18,3 +18,4 @@
 - GE-20260602-fd91cb: jakarta.ws.rs.@Path conflicts with custom Path type in JAX-RS resources — must use fully qualified name
 - GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
 - GE-20260608-bde9a4: RESTEasy Reactive: return CompletionStage<Response> to chain async engine calls without @Blocking
+- GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint

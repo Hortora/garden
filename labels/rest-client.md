@@ -10,3 +10,4 @@
 - GE-20260608-c44f9f: Per-entity REST calls preserve entityId attribution when the response type carries no entity key
 - GE-20260610-9f38b0: JsonObject.getJsonObject() returns null for missing keys — no default overload
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
+- GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint
