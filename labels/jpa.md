@@ -82,3 +82,4 @@
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase
 - GE-20260612-17c161: casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()
+- GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set

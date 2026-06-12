@@ -1,1 +1,2 @@
 - GE-20260609-58e5d9: JPA JOINED inheritance: child entity redeclaring parent field shadows the parent mapping — setting child field leaves parent nullable=false column null
+- GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
