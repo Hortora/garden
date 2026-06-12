@@ -772,3 +772,4 @@
 | GE-20260612-d335ce | @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery | undocumented | 9/15 |
 | GE-20260612-c3b611 | SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds | undocumented | 9/15 |
 | GE-20260612-87d173 | ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value | gotcha | 8/15 |
+| GE-20260612-279b44 | CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination | gotcha | 14/15 |
