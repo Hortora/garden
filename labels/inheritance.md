@@ -7,3 +7,4 @@
 - GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
 - GE-20260529-166347: @TestTransaction at class level rolls back all inherited abstract test methods in @QuarkusTest
 - GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase
+- GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException

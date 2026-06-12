@@ -267,3 +267,4 @@
 - GE-20260612-b20b51: casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
 - GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
+- GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException

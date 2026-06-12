@@ -520,3 +520,4 @@
 - GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
 - GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
+- GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException

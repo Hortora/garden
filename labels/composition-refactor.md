@@ -1,0 +1,1 @@
+- GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException
