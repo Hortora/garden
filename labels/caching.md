@@ -3,3 +3,4 @@
 - GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
 - GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern
+- GE-20260612-f6362e: ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent

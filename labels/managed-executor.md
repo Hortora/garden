@@ -1,0 +1,1 @@
+- GE-20260612-d335ce: @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery

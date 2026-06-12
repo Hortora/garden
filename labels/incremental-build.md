@@ -2,3 +2,4 @@
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
 - GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run
 - GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar
+- GE-20260612-1100fe: mvn test -pl <child> passes while installed runtime jar hides a cross-module API break

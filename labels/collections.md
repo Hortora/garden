@@ -6,3 +6,4 @@
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
 - GE-20260610-2f5604: Recursive deep copy of Map<String,Object> stops at List values — nested maps inside lists are aliased
 - GE-20260610-09f7bd: Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException
+- GE-20260612-f6362e: ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent

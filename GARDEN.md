@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1533
+**Entries merged since last sweep:** 1537
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1319,6 +1319,10 @@
 - GE-20260612-79d73b [Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures](jvm/GE-20260612-79d73b.md)
 - GE-20260612-9ff1c6 [Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives](jvm/GE-20260612-9ff1c6.md)
 - GE-20260612-bd3b4d [Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing](jvm/GE-20260612-bd3b4d.md)
+- GE-20260612-1100fe [mvn test -pl <child> passes while installed runtime jar hides a cross-module API break](jvm/GE-20260612-1100fe.md)
+- GE-20260612-f6362e [ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent](jvm/GE-20260612-f6362e.md)
+- GE-20260612-d335ce [@InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery](jvm/GE-20260612-d335ce.md)
+- GE-20260612-c3b611 [SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds](jvm/GE-20260612-c3b611.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

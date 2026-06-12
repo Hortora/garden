@@ -1,0 +1,1 @@
+- GE-20260612-1100fe: mvn test -pl <child> passes while installed runtime jar hides a cross-module API break

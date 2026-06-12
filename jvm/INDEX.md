@@ -767,3 +767,7 @@
 | GE-20260612-79d73b | Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures | technique | 9/15 |
 | GE-20260612-9ff1c6 | Programmatic worker binding added to existing YamlCaseHub fires on the initial empty-context event — plan item goes RUNNING before full context arrives | gotcha | 13/15 |
 | GE-20260612-bd3b4d | Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing | technique | 13/15 |
+| GE-20260612-1100fe | mvn test -pl <child> passes while installed runtime jar hides a cross-module API break | gotcha | 10/15 |
+| GE-20260612-f6362e | ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent | gotcha | 9/15 |
+| GE-20260612-d335ce | @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery | undocumented | 9/15 |
+| GE-20260612-c3b611 | SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds | undocumented | 9/15 |
