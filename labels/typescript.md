@@ -1,2 +1,3 @@
 - GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration
 - GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()
+- GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required

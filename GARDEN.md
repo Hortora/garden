@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1549
+**Entries merged since last sweep:** 1550
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1904,6 +1904,7 @@
 - GE-20260610-a923a0 [Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace](web/GE-20260610-a923a0.md)
 - GE-20260610-615a65 [JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them](web/GE-20260610-615a65.md)
 - GE-20260612-cd10d7 [JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't](web/GE-20260612-cd10d7.md)
+- GE-20260612-d561ae [exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required](web/GE-20260612-d561ae.md)
 
 ---
 
