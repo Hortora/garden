@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1543
+**Entries merged since last sweep:** 1545
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -49,6 +49,7 @@
 - GE-20260607-25a3fe [CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch](casehub-engine/GE-20260607-25a3fe.md)
 - GE-20260607-e27c23 [DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure](casehub-engine/GE-20260607-e27c23.md)
 - GE-20260607-609772 [CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED](casehub-engine/GE-20260607-609772.md)
+- GE-20260612-b20b51 [casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit](casehub-engine/GE-20260612-b20b51.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -1329,6 +1330,7 @@
 - GE-20260609-78dc3a [Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after](jvm/GE-20260609-78dc3a.md)
 - GE-20260612-889bd4 [Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead](jvm/GE-20260612-889bd4.md)
 - GE-20260609-9ee2ad [Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly](jvm/GE-20260609-9ee2ad.md)
+- GE-20260612-8e925b [Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU](jvm/GE-20260612-8e925b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

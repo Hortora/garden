@@ -776,3 +776,4 @@
 | GE-20260609-78dc3a | Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after | technique | 12/15 |
 | GE-20260612-889bd4 | Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead | technique | 10/15 |
 | GE-20260609-9ee2ad | Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly | gotcha | 13/15 |
+| GE-20260612-8e925b | Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU | gotcha | 10/15 |

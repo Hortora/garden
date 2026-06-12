@@ -28,3 +28,4 @@
 | GE-20260607-25a3fe | CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch | undocumented | 12/15 |
 | GE-20260607-e27c23 | DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure | gotcha | 11/15 |
 | GE-20260607-609772 | CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED | gotcha | 12/15 |
+| GE-20260612-b20b51 | casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit | gotcha | 11/15 |
