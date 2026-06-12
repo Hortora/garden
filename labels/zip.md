@@ -1,2 +1,3 @@
 - GE-20260420-b9c06c: java.util.zip.ZipInputStream rejects BZip2-compressed ZIP entries with 'invalid compression method'
 - GE-20260420-500405: Inspect nested ZIP/JSON structure with a Python one-liner before writing any typed-language parsing code
+- GE-20260612-87d173: ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value

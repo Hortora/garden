@@ -6,3 +6,4 @@
 - GE-20260527-cad5ba: Place fireAsync() before internal dispatch to decouple delivery paths in @Transactional methods
 - GE-20260531-db10ab: SQLite TEXT timestamp ordering breaks with variable ISO-8601 fractional-second digits — Instant.toString() is not safe for lexicographic sort
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
+- GE-20260612-87d173: ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value

@@ -1,0 +1,1 @@
+- GE-20260612-87d173: ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value
