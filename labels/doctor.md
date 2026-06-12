@@ -1,0 +1,1 @@
+- GE-20260612-506191: Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge

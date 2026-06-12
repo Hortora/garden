@@ -3,3 +3,4 @@
 - GE-20260522-9cd6d5: casehub-work SlaBreachPolicy wiring calls Path.root() before platform publishes it — silent compile blocker
 - GE-20260522-a87fd7: Path.parent() returns null for single-segment paths — root scope silently excluded from ancestor walk
 - GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
+- GE-20260612-506191: Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge
