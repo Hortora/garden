@@ -266,3 +266,4 @@
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
 - GE-20260612-b20b51: casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
+- GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface

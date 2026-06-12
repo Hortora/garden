@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1547
+**Entries merged since last sweep:** 1549
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -529,6 +529,7 @@
 - GE-20260420-18fbd4 [casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()](quarkus/GE-20260420-18fbd4.md)
 - GE-20260417-c59817 [quarkus.arc.selected-alternatives in application.properties activates @Alternative beans in @QuarkusTest — beans.xml is ignored](quarkus/GE-20260417-c59817.md)
 - GE-20260417-4a3c22 [Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization](quarkus/GE-20260417-4a3c22.md)
+- GE-20260422-ebb91d [CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface](quarkus/GE-20260422-ebb91d.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -1333,6 +1334,7 @@
 - GE-20260612-8e925b [Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU](jvm/GE-20260612-8e925b.md)
 - GE-20260612-4f9a47 [Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint](jvm/GE-20260612-4f9a47.md)
 - GE-20260612-c67513 [CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied](jvm/GE-20260612-c67513.md)
+- GE-20260529-b994c2 [Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread](jvm/GE-20260529-b994c2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
