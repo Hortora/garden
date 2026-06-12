@@ -509,3 +509,4 @@
 - GE-20260612-de141c: casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
+- GE-20260612-fa0894: Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap

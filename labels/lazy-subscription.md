@@ -1,2 +1,1 @@
-- GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
 - GE-20260612-fa0894: Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap

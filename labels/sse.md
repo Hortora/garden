@@ -13,3 +13,4 @@
 - GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
 - GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
 - GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
+- GE-20260612-fa0894: Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap

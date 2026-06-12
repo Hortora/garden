@@ -43,3 +43,4 @@
 - GE-20260609-630b35: Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
+- GE-20260612-fa0894: Mutiny Multi.createFrom().emitter() is lazy — subscribe-first catch-up-then-live SSE pattern has a message gap
