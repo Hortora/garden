@@ -1,0 +1,1 @@
+- GE-20260613-1e5ba4: LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)

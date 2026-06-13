@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1560
+**Entries merged since last sweep:** 1561
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1344,6 +1344,7 @@
 - GE-20260613-718a57 [Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary](jvm/GE-20260613-718a57.md)
 - GE-20260613-3fa95a [Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash](jvm/GE-20260613-3fa95a.md)
 - GE-20260613-095ce5 [Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()](jvm/GE-20260613-095ce5.md)
+- GE-20260613-1e5ba4 [LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)](jvm/GE-20260613-1e5ba4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

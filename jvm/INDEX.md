@@ -788,3 +788,4 @@
 | GE-20260613-718a57 | Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary | technique | 10/15 |
 | GE-20260613-3fa95a | Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash | gotcha | 12/15 |
 | GE-20260613-095ce5 | Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault() | gotcha | 14/15 |
+| GE-20260613-1e5ba4 | LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int) | gotcha | 11/15 |

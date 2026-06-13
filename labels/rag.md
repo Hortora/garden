@@ -1,3 +1,4 @@
 - GE-20260525-58fcbf: Always-needed vs triggered: decision rule for AI context file curation
 - GE-20260605-e4d5c3: Standalone agentic agent invocation skips RAG pipeline — ContentRetriever.retrieve() never called outside agentic system
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
+- GE-20260613-1e5ba4: LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)
