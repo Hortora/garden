@@ -1,2 +1,1 @@
-- GE-20260416-39d854: Synthesised delegation methods need explicit `public` when overriding interface methods
 - GE-20260613-ba9e19: Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access
