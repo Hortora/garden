@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1553
+**Entries merged since last sweep:** 1554
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1338,6 +1338,7 @@
 - GE-20260529-b994c2 [Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread](jvm/GE-20260529-b994c2.md)
 - GE-20260612-1f4ed8 [JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set](jvm/GE-20260612-1f4ed8.md)
 - GE-20260613-3ff4bb [@DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException](jvm/GE-20260613-3ff4bb.md)
+- GE-20260613-8845fa [flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges](jvm/GE-20260613-8845fa.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
