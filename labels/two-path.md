@@ -1,1 +1,2 @@
 - GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash

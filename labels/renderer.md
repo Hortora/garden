@@ -3,3 +3,4 @@
 - GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
 - GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
 - GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
