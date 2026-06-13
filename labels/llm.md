@@ -5,3 +5,6 @@
 - GE-20260602-9c056b: Mode-first generation is the anti-slop fix — wrong mode is the root cause, banned words are a symptom
 - GE-20260602-258bf9: Label is the fact, body is the reasoning — resolves human scannability vs LLM precision tension simultaneously
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
+- GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
+- GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary

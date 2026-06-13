@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1555
+**Entries merged since last sweep:** 1558
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1339,6 +1339,9 @@
 - GE-20260612-1f4ed8 [JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set](jvm/GE-20260612-1f4ed8.md)
 - GE-20260613-3ff4bb [@DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException](jvm/GE-20260613-3ff4bb.md)
 - GE-20260613-8845fa [flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges](jvm/GE-20260613-8845fa.md)
+- GE-20260613-3fa95a [Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash](jvm/GE-20260613-3fa95a.md)
+- GE-20260613-53e590 [TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating](jvm/GE-20260613-53e590.md)
+- GE-20260613-718a57 [Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary](jvm/GE-20260613-718a57.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

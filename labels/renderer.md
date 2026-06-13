@@ -1,2 +1,5 @@
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
 - GE-20260609-4d8cc4: assertThat(content).doesNotContain("formatted-string") proves the old format is gone, not that the raw value is absent
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
+- GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
+- GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary

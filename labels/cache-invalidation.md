@@ -1,3 +1,6 @@
 - GE-20260525-c24dbe: Java records have deterministic toString() — use SHA-256(record.toString()) for cache-invalidation hashes
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
 - GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
+- GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
+- GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary

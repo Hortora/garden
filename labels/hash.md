@@ -1,2 +1,3 @@
 - GE-20260528-e9ed9f: LLM renderer cache key must hash all output-affecting context, not just LLM input fields
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
+- GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash

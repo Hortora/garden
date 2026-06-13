@@ -1,2 +1,3 @@
 - GE-20260528-e9564b: LangChain4j Anthropic: ResponseFormat.JSON without schema throws UnsupportedFeatureException — not a degradation
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
+- GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating

@@ -1,0 +1,1 @@
+- GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary

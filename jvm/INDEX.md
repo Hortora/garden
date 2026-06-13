@@ -783,3 +783,6 @@
 | GE-20260612-1f4ed8 | JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set | gotcha | 12/15 |
 | GE-20260613-3ff4bb | @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException | gotcha | 11/15 |
 | GE-20260613-8845fa | flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges | gotcha | 8/15 |
+| GE-20260613-3fa95a | Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash | gotcha | 12/15 |
+| GE-20260613-53e590 | TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating | gotcha | 10/15 |
+| GE-20260613-718a57 | Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary | technique | 10/15 |
