@@ -20,3 +20,4 @@
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
 - GE-20260609-18a0b1: quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution
 - GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2
+- GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()

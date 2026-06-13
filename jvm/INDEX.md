@@ -787,3 +787,4 @@
 | GE-20260613-53e590 | TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating | gotcha | 10/15 |
 | GE-20260613-718a57 | Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary | technique | 10/15 |
 | GE-20260613-3fa95a | Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash | gotcha | 12/15 |
+| GE-20260613-095ce5 | Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault() | gotcha | 14/15 |

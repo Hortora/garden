@@ -4,3 +4,4 @@
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
 - GE-20260608-4c8108: AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
+- GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()

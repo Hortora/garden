@@ -8,3 +8,4 @@
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
 - GE-20260610-7b4955: Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses
+- GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
