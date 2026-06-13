@@ -1,2 +1,3 @@
 - GE-20260417-3887be: Reset shared test counter immediately after a blocking startCase() call to minimise async contamination
 - GE-20260521-981f62: SC2 replay PlayerStats events fire every ~10 seconds, not every game tick — GT mineral readings are stale
+- GE-20260613-6527d0: ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit

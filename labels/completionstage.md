@@ -1,1 +1,2 @@
 - GE-20260608-bde9a4: RESTEasy Reactive: return CompletionStage<Response> to chain async engine calls without @Blocking
+- GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'

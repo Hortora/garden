@@ -789,3 +789,7 @@
 | GE-20260613-3fa95a | Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash | gotcha | 12/15 |
 | GE-20260613-095ce5 | Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault() | gotcha | 14/15 |
 | GE-20260613-1e5ba4 | LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int) | gotcha | 11/15 |
+| GE-20260613-9e0a5b | Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation | gotcha | 9/15 |
+| GE-20260613-c29bb8 | SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written' | gotcha | 8/15 |
+| GE-20260613-6527d0 | ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit | gotcha | 9/15 |
+| GE-20260613-a5983e | @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open | undocumented | 8/15 |

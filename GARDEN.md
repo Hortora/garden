@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1562
+**Entries merged since last sweep:** 1566
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1345,6 +1345,10 @@
 - GE-20260613-3fa95a [Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash](jvm/GE-20260613-3fa95a.md)
 - GE-20260613-095ce5 [Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()](jvm/GE-20260613-095ce5.md)
 - GE-20260613-1e5ba4 [LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)](jvm/GE-20260613-1e5ba4.md)
+- GE-20260613-9e0a5b [Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation](jvm/GE-20260613-9e0a5b.md)
+- GE-20260613-c29bb8 [SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'](jvm/GE-20260613-c29bb8.md)
+- GE-20260613-6527d0 [ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit](jvm/GE-20260613-6527d0.md)
+- GE-20260613-a5983e [@Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open](jvm/GE-20260613-a5983e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
