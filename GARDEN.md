@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1561
+**Entries merged since last sweep:** 1562
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1916,6 +1916,7 @@
 - GE-20260610-615a65 [JS Date.setUTCMonth overflows month-end dates; Java Calendar.add clamps them](web/GE-20260610-615a65.md)
 - GE-20260612-cd10d7 [JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't](web/GE-20260612-cd10d7.md)
 - GE-20260612-d561ae [exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required](web/GE-20260612-d561ae.md)
+- GE-20260613-899303 [JSONata v2 auto-unwraps single-element array results into flat values](web/GE-20260613-899303.md)
 
 ---
 

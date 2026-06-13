@@ -1,1 +1,2 @@
 - GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences
+- GE-20260613-899303: JSONata v2 auto-unwraps single-element array results into flat values

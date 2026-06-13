@@ -1,0 +1,1 @@
+- GE-20260613-899303: JSONata v2 auto-unwraps single-element array results into flat values
