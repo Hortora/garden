@@ -7,3 +7,4 @@
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
 - GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace
+- GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios

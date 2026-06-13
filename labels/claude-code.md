@@ -51,3 +51,4 @@
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
 - GE-20260610-eb673a: Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session
 - GE-20260612-506191: Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge
+- GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios

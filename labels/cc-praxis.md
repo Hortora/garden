@@ -10,3 +10,4 @@
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
 - GE-20260605-d89e57: Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
+- GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios

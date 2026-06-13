@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1554
+**Entries merged since last sweep:** 1555
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1876,6 +1876,7 @@
 - GE-20260610-170b45 [git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content](tools/GE-20260610-170b45.md)
 - GE-20260610-7b4ff5 [Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable](tools/GE-20260610-7b4ff5.md)
 - GE-20260612-56fb3d [Parameterized discriminated union tree for staged type resolution](tools/GE-20260612-56fb3d.md)
+- GE-20260529-182916 [project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios](tools/GE-20260529-182916.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
