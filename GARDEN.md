@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1567
+**Entries merged since last sweep:** 1572
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -50,6 +50,9 @@
 - GE-20260607-e27c23 [DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure](casehub-engine/GE-20260607-e27c23.md)
 - GE-20260607-609772 [CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED](casehub-engine/GE-20260607-609772.md)
 - GE-20260612-b20b51 [casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit](casehub-engine/GE-20260612-b20b51.md)
+- GE-20260613-25d1ce [casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested](casehub-engine/GE-20260613-25d1ce.md)
+- GE-20260613-29d3b5 [casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run](casehub-engine/GE-20260613-29d3b5.md)
+- GE-20260613-51de5b [DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe](casehub-engine/GE-20260613-51de5b.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -85,6 +88,7 @@
 - GE-20260531-46f8ab [casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything](casehub-ledger/GE-20260531-46f8ab.md)
 - GE-20260612-de141c [casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields](casehub-ledger/GE-20260612-de141c.md)
 - GE-20260612-17c161 [casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()](casehub-ledger/GE-20260612-17c161.md)
+- GE-20260531-46f8ab [casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything](casehub-ledger/GE-20260531-46f8ab.md)
 ### casehub-qhorus/
 - GE-20260414-23982b [check_messages excludes EVENT messages by design — tests expecting EVENTs always get fewer results than sent](casehub-qhorus/GE-20260414-23982b.md)
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
@@ -97,6 +101,7 @@
 - GE-20260607-58c683 [Shared-list constructor injection for CDI-free unit tests where two stubs must share state](casehub-qhorus/GE-20260607-58c683.md)
 - GE-20260608-757be3 [Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time](casehub-qhorus/GE-20260608-757be3.md)
 - GE-20260607-a4d78a [ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail](casehub-qhorus/GE-20260607-a4d78a.md)
+- GE-20260613-7b7ae1 [casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>](casehub-qhorus/GE-20260613-7b7ae1.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)

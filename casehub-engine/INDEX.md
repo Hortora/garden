@@ -29,3 +29,6 @@
 | GE-20260607-e27c23 | DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure | gotcha | 11/15 |
 | GE-20260607-609772 | CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED | gotcha | 12/15 |
 | GE-20260612-b20b51 | casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit | gotcha | 11/15 |
+| GE-20260613-25d1ce | casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested | gotcha | 12/15 |
+| GE-20260613-29d3b5 | casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run | gotcha | 11/15 |
+| GE-20260613-51de5b | DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe | technique | 9/15 |

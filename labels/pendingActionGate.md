@@ -1,0 +1,1 @@
+- GE-20260613-29d3b5: casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run

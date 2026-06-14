@@ -30,3 +30,4 @@
 - GE-20260609-a5dcbc: Java Properties format for restart-safe struct persistence in Qhorus COMMAND message content
 - GE-20260607-a4d78a: ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail
 - GE-20260609-0e178e: ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched
+- GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>

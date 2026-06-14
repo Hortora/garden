@@ -1,3 +1,4 @@
 - GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history
 - GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything
 - GE-20260608-4a1057: Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist
+- GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything
