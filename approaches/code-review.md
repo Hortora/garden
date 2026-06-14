@@ -27,9 +27,12 @@ Work through each category below. For every finding, assign a severity:
 
 | Severity | Meaning |
 |---|---|
-| 🔴 CRITICAL | Must be fixed before deploying. Blocks merge/commit. |
-| 🟡 WARNING | Should be addressed; advisory only, does not block. |
-| 🔵 NOTE | Minor observation or improvement suggestion. |
+| 🔴 CRITICAL | Must be fixed before committing. |
+| 🟡 WARNING | Must be fixed before committing. |
+| 🔵 NOTE | Must be fixed before committing. |
+
+All findings are fixed, not triaged. The severity indicates impact, not whether
+to act — every finding at every level is addressed before the review is complete.
 
 ### Step 3 — Present findings
 
@@ -48,15 +51,23 @@ After all findings, show summary:
 Review complete: X CRITICAL, Y WARNING, Z NOTES
 ```
 
-### Step 4 — Conclude
+### Step 4 — Fix all findings
 
-**If CRITICAL findings exist:**
-> "🔴 There are CRITICAL issues that must be resolved before deploying.
-> Fix them and re-run the review, or let me help you address them."
+Every finding — CRITICAL, WARNING, and NOTE — must be fixed before the review
+is complete. Apply the fixes directly, then re-run the relevant checks to verify.
 
-**If no CRITICAL findings:**
-> "✅ No critical issues found. [N warnings / notes listed above.]
-> Ready to proceed."
+**If any findings exist:**
+1. Fix every finding (apply code changes, not just flag them)
+2. Re-run the review on the changed files to verify the fixes
+3. Repeat until the review is clean
+
+**Deferral escape hatch:** If the fix itself is troublesome — risky, out of
+scope, or needs thorough investigation that would derail the current work —
+defer it as a GitHub issue rather than applying a hasty fix. The finding is
+still recorded; the fix is just not inline.
+
+**When the review is clean (zero findings, zero undeferred):**
+> "✅ Review clean — all findings fixed. Ready to commit."
 
 If an undecided possibility surfaced during the review that's not ready to act on, mention `/idea-log` as a parking option — don't invoke it automatically.
 
@@ -206,7 +217,7 @@ flowchart TD
 | Approving without understanding the change | Can't catch issues in code you don't understand | Read and understand before approving |
 | Focusing only on style/formatting | Misses critical safety and concurrency issues | Safety first, style last |
 | Accepting "I tested it manually" | Manual tests don't catch edge cases or regressions | Require automated tests for non-trivial changes |
-| Letting CRITICAL issues through | Critical issues cause production incidents | Never approve with unresolved CRITICAL findings |
+| Leaving any finding unfixed | Unfixed findings accumulate and rot | Fix every finding — CRITICAL, WARNING, and NOTE — before completing the review |
 | Over-focusing on performance in cold paths | Premature optimization adds complexity | Focus performance review on actual hot paths |
 
 ---
