@@ -43,3 +43,5 @@
 | jvm/GE-20260602-bacaf2 | jvm/GE-20260517-0823c8 | Cross-repo Maven mvn install required between repos — same gotcha, 0823c8 has higher score (12 vs 9) |
 | tools/GE-20260522-b341ae | tools/GE-20260604-3aed8c | GitHub repo transfer silently redirecting push — same undocumented behavior/gotcha, 3aed8c has higher score (11 vs 9) |
 | jvm/GE-20260526-5247f2 | jvm/GE-20260609-9ee2ad | ChannelService.create() doesn't register in gateway — same gotcha, 9ee2ad has higher score (13 vs 10) |
+| jvm/GE-20260613-9e0a5b | jvm/GE-20260601-fcf0d9 | Two @DefaultBean beans ambiguity — same gotcha, fcf0d9 has higher score (12 vs 9) |
+| jvm/GE-20260529-5a8158 | jvm/GE-20260612-ed9ff0 | @ConfigMapping strict mode rejects @ConfigProperty on owned prefix — same gotcha, ed9ff0 has higher score (12 vs 9) |
