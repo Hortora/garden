@@ -5,3 +5,4 @@
 - GE-20260608-4c8108: AnnotationsImpliesAiServiceBuildItem transitively enables guardrails, build-time validation, and unremovable marking on agent interfaces
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
 - GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
+- GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime

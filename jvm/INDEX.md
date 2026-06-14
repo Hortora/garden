@@ -799,3 +799,4 @@
 | GE-20260614-1ece0f | quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs | undocumented | 10/15 |
 | GE-20260614-337397 | quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback | gotcha | 12/15 |
 | GE-20260614-21317a | Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject | gotcha | 11/15 |
+| GE-20260614-efee3b | SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime | gotcha | 11/15 |

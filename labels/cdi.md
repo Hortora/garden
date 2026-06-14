@@ -271,3 +271,4 @@
 - GE-20260613-9e0a5b: Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime

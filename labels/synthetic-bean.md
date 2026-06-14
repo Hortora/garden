@@ -1,1 +1,2 @@
 - GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
+- GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime

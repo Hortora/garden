@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1578
+**Entries merged since last sweep:** 1579
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1361,6 +1361,7 @@
 - GE-20260614-1ece0f [quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs](jvm/GE-20260614-1ece0f.md)
 - GE-20260614-337397 [quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback](jvm/GE-20260614-337397.md)
 - GE-20260614-21317a [Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject](jvm/GE-20260614-21317a.md)
+- GE-20260614-efee3b [SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime](jvm/GE-20260614-efee3b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
