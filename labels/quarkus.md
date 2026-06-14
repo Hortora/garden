@@ -527,3 +527,6 @@
 - GE-20260613-6527d0: ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit
 - GE-20260613-a5983e: @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open
 - GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws
+- GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
+- GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
+- GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback

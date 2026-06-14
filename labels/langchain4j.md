@@ -22,3 +22,6 @@
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
 - GE-20260613-1e5ba4: LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)
+- GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
+- GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
+- GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback

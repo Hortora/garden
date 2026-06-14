@@ -795,3 +795,6 @@
 | GE-20260613-a5983e | @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open | undocumented | 8/15 |
 | GE-20260613-ba9e19 | Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access | gotcha | 9/15 |
 | GE-20260614-4ec509 | Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws | gotcha | 12/15 |
+| GE-20260614-94c366 | quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache | gotcha | 12/15 |
+| GE-20260614-1ece0f | quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs | undocumented | 10/15 |
+| GE-20260614-337397 | quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback | gotcha | 12/15 |

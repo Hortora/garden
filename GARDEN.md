@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1573
+**Entries merged since last sweep:** 1576
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1356,6 +1356,9 @@
 - GE-20260613-a5983e [@Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open](jvm/GE-20260613-a5983e.md)
 - GE-20260613-ba9e19 [Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access](jvm/GE-20260613-ba9e19.md)
 - GE-20260614-4ec509 [Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws](jvm/GE-20260614-4ec509.md)
+- GE-20260614-94c366 [quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache](jvm/GE-20260614-94c366.md)
+- GE-20260614-1ece0f [quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs](jvm/GE-20260614-1ece0f.md)
+- GE-20260614-337397 [quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback](jvm/GE-20260614-337397.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

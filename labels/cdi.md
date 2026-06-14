@@ -269,3 +269,4 @@
 - GE-20260422-ebb91d: CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface
 - GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException
 - GE-20260613-9e0a5b: Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation
+- GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback

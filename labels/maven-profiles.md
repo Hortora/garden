@@ -1,2 +1,3 @@
 - GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker
 - GE-20260421-efa107: Maven -Dexcludes does not suppress Quarkus @QuarkusTest class-loader failures — use Maven profiles instead
+- GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
