@@ -1,0 +1,1 @@
+- GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions

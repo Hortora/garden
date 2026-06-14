@@ -2,3 +2,8 @@
 - GE-20260515-cd1653: Testcontainers with Podman: set DOCKER_HOST to Podman socket — no docker binary needed
 - GE-20260416-5df109: `podman machine rm` permanently destroys the VM — it is not a stop command
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260614-669531: Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls
+- GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM
+- GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

@@ -8,3 +8,5 @@
 - GE-20260529-24cb03: ChannelService.findByName(String) and findById(UUID) exist for exact-match channel lookup
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
+- GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID
+- GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404

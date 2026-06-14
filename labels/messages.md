@@ -1,0 +1,1 @@
+- GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404

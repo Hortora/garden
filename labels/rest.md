@@ -5,3 +5,4 @@
 - GE-20260414-c18090: Quarkus 3.32+ automatically registers REST records, enums, and @Provider classes for native reflection
 - GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods
 - GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
+- GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404

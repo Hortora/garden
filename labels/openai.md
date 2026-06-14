@@ -1,0 +1,1 @@
+- GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID

@@ -1,0 +1,2 @@
+- GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM

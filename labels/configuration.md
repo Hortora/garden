@@ -10,3 +10,4 @@
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260522-d6a1c9: IntelliJ has three separate config files that must all be updated when a project repo is physically relocated
 - GE-20260529-7985ba: quarkus.flyway.migrate-at-start defaults to false — must be set explicitly in @QuarkusTest application.properties
+- GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID

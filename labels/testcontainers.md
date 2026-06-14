@@ -10,3 +10,8 @@
 - GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run
 - GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
+- GE-20260614-669531: Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls
+- GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM
+- GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

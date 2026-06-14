@@ -1,1 +1,2 @@
 - GE-20260523-06e8b6: Panache PanacheEntity.list(query) ignores query limit — loads all rows into heap before Java-side truncation
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM

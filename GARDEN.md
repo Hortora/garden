@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1580
+**Entries merged since last sweep:** 1587
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1363,6 +1363,9 @@
 - GE-20260614-21317a [Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject](jvm/GE-20260614-21317a.md)
 - GE-20260614-efee3b [SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime](jvm/GE-20260614-efee3b.md)
 - GE-20260614-b97659 [Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed](jvm/GE-20260614-b97659.md)
+- GE-20260614-669531 [Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls](jvm/GE-20260614-669531.md)
+- GE-20260614-92bd9e [Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions](jvm/GE-20260614-92bd9e.md)
+- GE-20260520-c0e5b4 [Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper](jvm/GE-20260520-c0e5b4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1901,6 +1904,10 @@
 - GE-20260610-7b4ff5 [Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable](tools/GE-20260610-7b4ff5.md)
 - GE-20260612-56fb3d [Parameterized discriminated union tree for staged type resolution](tools/GE-20260612-56fb3d.md)
 - GE-20260529-182916 [project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios](tools/GE-20260529-182916.md)
+- GE-20260614-1d2ccc [Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY](tools/GE-20260614-1d2ccc.md)
+- GE-20260614-bdce28 [Docker --internal network flag OOMKills Node.js containers in Podman applehv VM](tools/GE-20260614-bdce28.md)
+- GE-20260614-328420 [OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID](tools/GE-20260614-328420.md)
+- GE-20260614-8c0371 [OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404](tools/GE-20260614-8c0371.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

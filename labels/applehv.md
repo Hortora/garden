@@ -1,0 +1,2 @@
+- GE-20260614-669531: Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM

@@ -12,3 +12,7 @@
 - GE-20260517-1ad615: macOS keychain has GitHub credentials but git ignores them without credential.helper configured
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260531-050543: macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses
+- GE-20260614-669531: Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls
+- GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM
+- GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

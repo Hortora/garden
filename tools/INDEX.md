@@ -500,3 +500,7 @@
 | GE-20260610-7b4ff5 | Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable | technique | 9/15 |
 | GE-20260612-56fb3d | Parameterized discriminated union tree for staged type resolution | technique | 11/15 |
 | GE-20260529-182916 | project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios | gotcha | 9/15 |
+| GE-20260614-1d2ccc | Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY | gotcha | 12/15 |
+| GE-20260614-bdce28 | Docker --internal network flag OOMKills Node.js containers in Podman applehv VM | gotcha | 12/15 |
+| GE-20260614-328420 | OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID | undocumented | 11/15 |
+| GE-20260614-8c0371 | OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404 | undocumented | 13/15 |
