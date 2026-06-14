@@ -1,0 +1,1 @@
+- GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject

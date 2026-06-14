@@ -798,3 +798,4 @@
 | GE-20260614-94c366 | quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache | gotcha | 12/15 |
 | GE-20260614-1ece0f | quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs | undocumented | 10/15 |
 | GE-20260614-337397 | quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback | gotcha | 12/15 |
+| GE-20260614-21317a | Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject | gotcha | 11/15 |

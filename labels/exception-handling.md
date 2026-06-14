@@ -11,3 +11,4 @@
 - GE-20260603-f32ff2: @Transactional catch block cannot prevent TransactionalException from propagating to the caller
 - GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch
 - GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
+- GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
