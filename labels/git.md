@@ -152,3 +152,4 @@
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
 - GE-20260609-9184e2: git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content
 - GE-20260610-170b45: git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content
+- GE-20260614-052a39: git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead

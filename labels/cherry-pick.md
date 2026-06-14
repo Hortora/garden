@@ -15,3 +15,4 @@
 - GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
 - GE-20260610-170b45: git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content
+- GE-20260614-052a39: git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead
