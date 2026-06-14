@@ -806,3 +806,5 @@
 | GE-20260520-c0e5b4 | Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper | gotcha | 13/15 |
 | GE-20260614-b94048 | SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality | gotcha | 9/15 |
 | GE-20260614-d9a38f | Xenova HuggingFace ONNX exports return 401 even when source model is public | undocumented | 8/15 |
+| GE-20260614-eaa3e7 | @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest | gotcha | 11/15 |
+| GE-20260614-42f5ca | getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name | gotcha | 9/15 |

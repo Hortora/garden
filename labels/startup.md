@@ -13,3 +13,4 @@
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
 - GE-20260607-cedf69: @Startup @ApplicationScoped does not auto-invoke arbitrary methods — requires @PostConstruct
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
+- GE-20260614-eaa3e7: @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest
