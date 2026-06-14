@@ -315,3 +315,4 @@
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
 - GE-20260612-d335ce: @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not

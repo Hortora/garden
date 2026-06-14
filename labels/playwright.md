@@ -23,3 +23,4 @@
 - GE-20260525-5f6efe: Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium
 - GE-20260529-a2095c: quarkus-playwright shared BrowserContext + unclosed pages exhausts SSE connection pool by test 3
 - GE-20260531-b7c259: Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback
+- GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not

@@ -22,3 +22,4 @@
 | GE-20260612-cd10d7 | JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't | gotcha | 11/15 |
 | GE-20260612-d561ae | exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required | gotcha | 9/15 |
 | GE-20260613-899303 | JSONata v2 auto-unwraps single-element array results into flat values | gotcha | 11/15 |
+| GE-20260614-cd8e92 | Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not | gotcha | 13/15 |

@@ -1,0 +1,1 @@
+- GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not
