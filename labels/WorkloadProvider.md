@@ -1,2 +1,3 @@
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean

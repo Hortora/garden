@@ -5,3 +5,4 @@
 - GE-20260423-bcb5b7: quarkus-work-core registers both LeastLoadedStrategy and ClaimFirstStrategy as @ApplicationScoped CDI beans — injecting WorkerSelectionStrategy interface causes AmbiguousResolutionException
 - GE-20260423-fce720: quarkus-work-core FilterRule JPA entity requires a datasource — modules using in-memory persistence fail startup
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean

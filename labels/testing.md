@@ -314,3 +314,4 @@
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
 - GE-20260612-d335ce: @InjectMock ManagedExecutor works in @QuarkusTest — MicroProfile interface is fully replaceable via Quarkus mock machinery
+- GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
