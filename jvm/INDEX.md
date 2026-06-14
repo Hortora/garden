@@ -800,3 +800,4 @@
 | GE-20260614-337397 | quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback | gotcha | 12/15 |
 | GE-20260614-21317a | Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject | gotcha | 11/15 |
 | GE-20260614-efee3b | SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime | gotcha | 11/15 |
+| GE-20260614-b97659 | Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed | gotcha | 11/15 |
