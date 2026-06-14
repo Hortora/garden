@@ -1,1 +1,2 @@
 - GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not
+- GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter

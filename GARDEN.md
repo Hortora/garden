@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1593
+**Entries merged since last sweep:** 1594
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1945,6 +1945,7 @@
 - GE-20260612-d561ae [exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required](web/GE-20260612-d561ae.md)
 - GE-20260613-899303 [JSONata v2 auto-unwraps single-element array results into flat values](web/GE-20260613-899303.md)
 - GE-20260614-cd8e92 [Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not](web/GE-20260614-cd8e92.md)
+- GE-20260615-d356e6 [HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter](web/GE-20260615-d356e6.md)
 
 ---
 
