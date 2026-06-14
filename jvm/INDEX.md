@@ -804,3 +804,5 @@
 | GE-20260614-669531 | Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls | gotcha | 13/15 |
 | GE-20260614-92bd9e | Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions | technique | 10/15 |
 | GE-20260520-c0e5b4 | Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper | gotcha | 13/15 |
+| GE-20260614-b94048 | SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality | gotcha | 9/15 |
+| GE-20260614-d9a38f | Xenova HuggingFace ONNX exports return 401 even when source model is public | undocumented | 8/15 |

@@ -1,0 +1,2 @@
+- GE-20260614-b94048: SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality
+- GE-20260614-d9a38f: Xenova HuggingFace ONNX exports return 401 even when source model is public

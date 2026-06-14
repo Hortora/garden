@@ -3,3 +3,4 @@
 - GE-20260530-9a5474: gh auth token returns OAuth token lacking read:packages — Maven GitHub Packages silently fails
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
+- GE-20260614-d9a38f: Xenova HuggingFace ONNX exports return 401 even when source model is public

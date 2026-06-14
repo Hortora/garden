@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1588
+**Entries merged since last sweep:** 1590
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1366,6 +1366,8 @@
 - GE-20260614-669531 [Testcontainers custom networks on Podman macOS return 'Invalid Upgrade header' for host HTTP calls](jvm/GE-20260614-669531.md)
 - GE-20260614-92bd9e [Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions](jvm/GE-20260614-92bd9e.md)
 - GE-20260520-c0e5b4 [Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper](jvm/GE-20260520-c0e5b4.md)
+- GE-20260614-b94048 [SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality](jvm/GE-20260614-b94048.md)
+- GE-20260614-d9a38f [Xenova HuggingFace ONNX exports return 401 even when source model is public](jvm/GE-20260614-d9a38f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

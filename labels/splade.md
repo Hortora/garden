@@ -1,0 +1,1 @@
+- GE-20260614-b94048: SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality
