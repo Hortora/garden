@@ -794,3 +794,4 @@
 | GE-20260613-6527d0 | ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit | gotcha | 9/15 |
 | GE-20260613-a5983e | @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open | undocumented | 8/15 |
 | GE-20260613-ba9e19 | Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access | gotcha | 9/15 |
+| GE-20260614-4ec509 | Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws | gotcha | 12/15 |

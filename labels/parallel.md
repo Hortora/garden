@@ -3,3 +3,4 @@
 - GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
 - GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
+- GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws

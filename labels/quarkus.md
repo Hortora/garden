@@ -526,3 +526,4 @@
 - GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'
 - GE-20260613-6527d0: ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit
 - GE-20260613-a5983e: @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open
+- GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws
