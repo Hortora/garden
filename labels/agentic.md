@@ -20,3 +20,4 @@
 - GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
+- GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change

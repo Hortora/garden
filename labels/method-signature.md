@@ -1,2 +1,3 @@
 - GE-20260530-319607: Python balanced-paren parser for mass Java method signature migration — handles multi-line calls where sed and regex fail
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
+- GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
