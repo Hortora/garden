@@ -8,3 +8,4 @@
 | GE-20260612-de141c | casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields | gotcha | 10/15 |
 | GE-20260612-17c161 | casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save() | gotcha | 12/15 |
 | GE-20260531-46f8ab | casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything | undocumented | 8/15 |
+| GE-20260615-6d0ae3 | nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves | undocumented | 11/15 |

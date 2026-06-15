@@ -3,3 +3,4 @@
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten
+- GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves

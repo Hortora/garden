@@ -6,3 +6,4 @@
 - GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
+- GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves

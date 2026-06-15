@@ -1,0 +1,1 @@
+- GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves

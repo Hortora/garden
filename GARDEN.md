@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1606
+**Entries merged since last sweep:** 1607
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -90,6 +90,7 @@
 - GE-20260612-de141c [casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields](casehub-ledger/GE-20260612-de141c.md)
 - GE-20260612-17c161 [casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()](casehub-ledger/GE-20260612-17c161.md)
 - GE-20260531-46f8ab [casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything](casehub-ledger/GE-20260531-46f8ab.md)
+- GE-20260615-6d0ae3 [nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves](casehub-ledger/GE-20260615-6d0ae3.md)
 ### casehub-qhorus/
 - GE-20260414-23982b [check_messages excludes EVENT messages by design — tests expecting EVENTs always get fewer results than sent](casehub-qhorus/GE-20260414-23982b.md)
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
