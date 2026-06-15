@@ -8,3 +8,4 @@
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-87d173: ZIP content hash must be computed after all entries are appended — hash-before-final-entry silently produces wrong integrity value
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
+- GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans

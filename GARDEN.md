@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1599
+**Entries merged since last sweep:** 1600
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1371,6 +1371,7 @@
 - GE-20260615-6c4767 [Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails](jvm/GE-20260615-6c4767.md)
 - GE-20260615-0d2eda [langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist](jvm/GE-20260615-0d2eda.md)
 - GE-20260615-0d2eda [langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist](jvm/GE-20260615-0d2eda.md)
+- GE-20260615-d065bf [Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans](jvm/GE-20260615-d065bf.md)
 - GE-20260615-d065bf [Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans](jvm/GE-20260615-d065bf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
