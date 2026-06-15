@@ -6,3 +6,4 @@
 - GE-20260525-d5b5eb: JQ `to_entries | select(expr)` silently fails — select tests the whole array, not individual elements; use `to_entries[]` to iterate
 - GE-20260608-8f6b5b: Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
+- GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data

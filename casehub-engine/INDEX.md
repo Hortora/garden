@@ -32,3 +32,4 @@
 | GE-20260613-25d1ce | casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested | gotcha | 12/15 |
 | GE-20260613-29d3b5 | casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run | gotcha | 11/15 |
 | GE-20260613-51de5b | DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe | technique | 9/15 |
+| GE-20260615-35f52f | casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data | gotcha | 14/15 |

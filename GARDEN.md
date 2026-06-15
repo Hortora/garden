@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1600
+**Entries merged since last sweep:** 1601
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -53,6 +53,7 @@
 - GE-20260613-25d1ce [casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested](casehub-engine/GE-20260613-25d1ce.md)
 - GE-20260613-29d3b5 [casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run](casehub-engine/GE-20260613-29d3b5.md)
 - GE-20260613-51de5b [DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe](casehub-engine/GE-20260613-51de5b.md)
+- GE-20260615-35f52f [casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data](casehub-engine/GE-20260615-35f52f.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

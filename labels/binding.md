@@ -6,3 +6,4 @@
 - GE-20260608-1a56c3: ChoreographyLoopControl has no binding dedup — null-filter binding re-fires on every context change including exit signal
 - GE-20260608-a1daf1: casehub-engine YAML contextChange: bare null form causes UnsupportedOperationException — use empty map {}
 - GE-20260613-25d1ce: casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested
+- GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data

@@ -1,2 +1,1 @@
-- GE-20260514-e340ee: Evaluate a JQ template against an external map by constructing a temporary CaseContextImpl
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data

@@ -50,3 +50,4 @@
 - GE-20260613-29d3b5: casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run
 - GE-20260613-51de5b: DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
+- GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
