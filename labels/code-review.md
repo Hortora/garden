@@ -1,2 +1,3 @@
 - GE-20260429-c455e1: Agentic code review: Important findings silently dismissed by controller — user never sees them
 - GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths
+- GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push

@@ -49,3 +49,4 @@
 - GE-20260607-536227: Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
 - GE-20260610-170b45: git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content
+- GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push

@@ -505,3 +505,4 @@
 | GE-20260614-328420 | OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID | undocumented | 11/15 |
 | GE-20260614-8c0371 | OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404 | undocumented | 13/15 |
 | GE-20260614-052a39 | git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead | gotcha | 9/15 |
+| GE-20260615-9560b9 | Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push | technique | 11/15 |

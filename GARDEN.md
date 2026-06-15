@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1613
+**Entries merged since last sweep:** 1614
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1928,6 +1928,7 @@
 - GE-20260614-328420 [OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID](tools/GE-20260614-328420.md)
 - GE-20260614-8c0371 [OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404](tools/GE-20260614-8c0371.md)
 - GE-20260614-052a39 [git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead](tools/GE-20260614-052a39.md)
+- GE-20260615-9560b9 [Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push](tools/GE-20260615-9560b9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
