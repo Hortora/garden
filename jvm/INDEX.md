@@ -811,3 +811,4 @@
 | GE-20260615-6c4767 | Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails | gotcha | 10/15 |
 | GE-20260615-0d2eda | langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist | gotcha | 12/15 |
 | GE-20260615-0d2eda | langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist | gotcha | 12/15 |
+| GE-20260615-d065bf | Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans | gotcha | 11/15 |
