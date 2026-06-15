@@ -25,3 +25,4 @@
 | GE-20260423-e92da0 | IntelliJ 2023.2: testParameterInfo() absent — use MockCreateParameterInfoContext instead | undocumented | 9/15 |
 | GE-20260602-c6bfb7 | IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause | gotcha | 11/15 |
 | GE-20260604-a8ffaa | ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed | gotcha | 8/15 |
+| GE-20260614-3205f6 | Use ide_find_references at plan time to enumerate all callers before a method signature change | technique | 10/15 |

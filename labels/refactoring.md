@@ -16,3 +16,4 @@
 - GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
 - GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths
+- GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
