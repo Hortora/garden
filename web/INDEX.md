@@ -24,3 +24,4 @@
 | GE-20260613-899303 | JSONata v2 auto-unwraps single-element array results into flat values | gotcha | 11/15 |
 | GE-20260614-cd8e92 | Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not | gotcha | 13/15 |
 | GE-20260615-d356e6 | HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter | gotcha | 9/15 |
+| GE-20260615-8cd96f | TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion | technique | 10/15 |

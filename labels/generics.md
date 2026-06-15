@@ -20,3 +20,4 @@
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
 - GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution
 - GE-20260613-ba9e19: Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access
+- GE-20260615-8cd96f: TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion
