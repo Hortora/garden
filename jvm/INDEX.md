@@ -809,3 +809,4 @@
 | GE-20260614-eaa3e7 | @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest | gotcha | 11/15 |
 | GE-20260614-42f5ca | getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name | gotcha | 9/15 |
 | GE-20260615-6c4767 | Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails | gotcha | 10/15 |
+| GE-20260615-0d2eda | langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist | gotcha | 12/15 |
