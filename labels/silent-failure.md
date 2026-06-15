@@ -50,3 +50,5 @@
 - GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
 - GE-20260615-c234fc: @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed
+- GE-20260615-d008ea: EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS
+- GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY

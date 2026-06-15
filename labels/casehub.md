@@ -49,3 +49,6 @@
 - GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
 - GE-20260615-c5340d: Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work
+- GE-20260615-d008ea: EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS
+- GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY
+- GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations

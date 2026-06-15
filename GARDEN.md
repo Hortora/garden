@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1608
+**Entries merged since last sweep:** 1611
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1381,6 +1381,9 @@
 - GE-20260615-514e8b [casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures](jvm/GE-20260615-514e8b.md)
 - GE-20260615-83f6cb [Default interface method as bridge consolidator — combine two-step activation checks across many implementors](jvm/GE-20260615-83f6cb.md)
 - GE-20260615-537b99 [Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access](jvm/GE-20260615-537b99.md)
+- GE-20260615-d008ea [EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS](jvm/GE-20260615-d008ea.md)
+- GE-20260615-388a35 [EndpointCapability.RECEIVE is wrong for poll streams — use QUERY](jvm/GE-20260615-388a35.md)
+- GE-20260615-00ff7a [Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations](jvm/GE-20260615-00ff7a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

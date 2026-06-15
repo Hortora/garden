@@ -5,3 +5,4 @@
 - GE-20260508-a2b49e: Quarkus dev-mode live-reload scanner adds ~1.5s latency to HTTP requests after idle
 - GE-20260529-d57945: JAX-RS HttpHeaders.getRequestHeaders() preserves original case — must normalise to lower-case at the boundary for HTTP header lookup
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
+- GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY

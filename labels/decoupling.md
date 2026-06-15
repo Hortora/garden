@@ -1,0 +1,1 @@
+- GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations

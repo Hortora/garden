@@ -1,0 +1,1 @@
+- GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY

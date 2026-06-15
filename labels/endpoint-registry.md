@@ -1,0 +1,2 @@
+- GE-20260615-d008ea: EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS
+- GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY
