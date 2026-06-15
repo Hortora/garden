@@ -1,3 +1,4 @@
 - GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace
 - GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
 - GE-20260615-8cd96f: TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion
+- GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
