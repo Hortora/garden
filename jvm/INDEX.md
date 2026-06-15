@@ -813,3 +813,5 @@
 | GE-20260615-0d2eda | langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist | gotcha | 12/15 |
 | GE-20260615-d065bf | Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans | gotcha | 11/15 |
 | GE-20260615-d065bf | Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans | gotcha | 11/15 |
+| GE-20260615-c234fc | @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed | gotcha | 10/15 |
+| GE-20260615-c5340d | Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work | technique | 9/15 |
