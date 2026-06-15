@@ -1,2 +1,3 @@
 - GE-20260417-96accd: Maven multi-module cycle: adding a module as test-scope dep when it already depends on you
 - GE-20260523-60365e: Quarkus application module quarkus:build fails CDI validation even when all @QuarkusTests pass — test-scoped deps absent from production classpath
+- GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures

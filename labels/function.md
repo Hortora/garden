@@ -1,0 +1,1 @@
+- GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access

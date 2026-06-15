@@ -1,0 +1,1 @@
+- GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures

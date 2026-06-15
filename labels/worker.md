@@ -1,3 +1,4 @@
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
 - GE-20260525-f09688: CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
+- GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access

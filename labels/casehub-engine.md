@@ -52,3 +52,5 @@
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
 - GE-20260615-c5340d: Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work
+- GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures
+- GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access

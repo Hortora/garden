@@ -10,3 +10,4 @@
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
 - GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID
 - GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404
+- GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access

@@ -132,3 +132,4 @@
 - GE-20260612-f6362e: ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent
 - GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
+- GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors

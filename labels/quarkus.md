@@ -538,3 +538,4 @@
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260615-c234fc: @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed
+- GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures

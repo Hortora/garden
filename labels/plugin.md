@@ -2,3 +2,4 @@
 - GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration
 - GE-20260529-66bf53: OpenClaw allowConversationAccess:true missing — before_prompt_build handler registered but never fires
 - GE-20260529-71742a: OpenClaw plugin hooks registered in start() silently fail — registration must be synchronous in register()
+- GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors

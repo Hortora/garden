@@ -815,3 +815,6 @@
 | GE-20260615-d065bf | Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans | gotcha | 11/15 |
 | GE-20260615-c234fc | @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed | gotcha | 10/15 |
 | GE-20260615-c5340d | Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work | technique | 9/15 |
+| GE-20260615-514e8b | casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures | gotcha | 11/15 |
+| GE-20260615-83f6cb | Default interface method as bridge consolidator — combine two-step activation checks across many implementors | technique | 8/15 |
+| GE-20260615-537b99 | Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access | undocumented | 9/15 |
