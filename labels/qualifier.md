@@ -4,3 +4,4 @@
 - GE-20260608-401287: @Readiness annotation is both a MicroProfile Health classifier and a CDI qualifier — @Inject HealthCheck fails without the qualifier
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
 - GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection
+- GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails

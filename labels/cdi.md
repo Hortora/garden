@@ -273,3 +273,4 @@
 - GE-20260427-5d7c67: quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean
 - GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
+- GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails

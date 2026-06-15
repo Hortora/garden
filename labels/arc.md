@@ -58,3 +58,4 @@
 - GE-20260609-18a0b1: quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution
 - GE-20260613-9e0a5b: Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation
 - GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime
+- GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails

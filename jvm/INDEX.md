@@ -808,3 +808,4 @@
 | GE-20260614-d9a38f | Xenova HuggingFace ONNX exports return 401 even when source model is public | undocumented | 8/15 |
 | GE-20260614-eaa3e7 | @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest | gotcha | 11/15 |
 | GE-20260614-42f5ca | getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name | gotcha | 9/15 |
+| GE-20260615-6c4767 | Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails | gotcha | 10/15 |

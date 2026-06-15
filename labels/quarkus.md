@@ -534,3 +534,4 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260614-eaa3e7: @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
+- GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails
