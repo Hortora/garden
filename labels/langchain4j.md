@@ -26,3 +26,4 @@
 - GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
+- GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist

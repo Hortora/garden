@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1597
+**Entries merged since last sweep:** 1598
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1369,6 +1369,7 @@
 - GE-20260614-eaa3e7 [@BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest](jvm/GE-20260614-eaa3e7.md)
 - GE-20260614-42f5ca [getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name](jvm/GE-20260614-42f5ca.md)
 - GE-20260615-6c4767 [Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails](jvm/GE-20260615-6c4767.md)
+- GE-20260615-0d2eda [langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist](jvm/GE-20260615-0d2eda.md)
 - GE-20260615-0d2eda [langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist](jvm/GE-20260615-0d2eda.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
