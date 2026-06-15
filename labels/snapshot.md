@@ -28,3 +28,4 @@
 - GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
 - GE-20260610-7b4ff5: Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
+- GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs

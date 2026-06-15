@@ -16,3 +16,4 @@
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
+- GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit

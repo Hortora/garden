@@ -59,3 +59,4 @@
 - GE-20260613-9e0a5b: Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation
 - GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime
 - GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails
+- GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails

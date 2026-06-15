@@ -13,3 +13,4 @@
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
 - GE-20260605-6aa860: GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration
 - GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth
+- GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs

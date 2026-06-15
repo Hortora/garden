@@ -125,3 +125,4 @@
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
+- GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs

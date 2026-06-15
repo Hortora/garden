@@ -24,3 +24,5 @@
 - GE-20260605-6aa860: GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration
 - GE-20260605-035a79: Surefire reports artifact definitively shows which modules completed testing vs which hung
 - GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
+- GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
+- GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit

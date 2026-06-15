@@ -506,3 +506,5 @@
 | GE-20260614-8c0371 | OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404 | undocumented | 13/15 |
 | GE-20260614-052a39 | git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead | gotcha | 9/15 |
 | GE-20260615-9560b9 | Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push | technique | 11/15 |
+| GE-20260615-ffff65 | Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs | gotcha | 10/15 |
+| GE-20260601-60efe8 | gh workflow run — manually trigger a repo's CI without a dummy commit | technique | 8/15 |

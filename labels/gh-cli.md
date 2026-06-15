@@ -7,3 +7,4 @@
 - GE-20260601-53763c: gh run view --log-failed truncated by verbose framework logging — surefire XML is the reliable alternative
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260604-037c42: gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking
+- GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit

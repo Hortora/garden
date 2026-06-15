@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1614
+**Entries merged since last sweep:** 1617
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1385,6 +1385,7 @@
 - GE-20260615-388a35 [EndpointCapability.RECEIVE is wrong for poll streams — use QUERY](jvm/GE-20260615-388a35.md)
 - GE-20260615-00ff7a [Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations](jvm/GE-20260615-00ff7a.md)
 - GE-20260615-00ff7a [Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations](jvm/GE-20260615-00ff7a.md)
+- GE-20260531-70e07c [Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails](jvm/GE-20260531-70e07c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1929,6 +1930,8 @@
 - GE-20260614-8c0371 [OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404](tools/GE-20260614-8c0371.md)
 - GE-20260614-052a39 [git cherry-pick --no-commit produces conflicts when multiple commits touch the same file — use reset --soft instead](tools/GE-20260614-052a39.md)
 - GE-20260615-9560b9 [Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push](tools/GE-20260615-9560b9.md)
+- GE-20260615-ffff65 [Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs](tools/GE-20260615-ffff65.md)
+- GE-20260601-60efe8 [gh workflow run — manually trigger a repo's CI without a dummy commit](tools/GE-20260601-60efe8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -822,3 +822,4 @@
 | GE-20260615-388a35 | EndpointCapability.RECEIVE is wrong for poll streams — use QUERY | gotcha | 10/15 |
 | GE-20260615-00ff7a | Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations | technique | 12/15 |
 | GE-20260615-00ff7a | Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations | technique | 12/15 |
+| GE-20260531-70e07c | Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails | gotcha | 10/15 |

@@ -21,3 +21,4 @@
 - GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase
 - GE-20260612-de141c: casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields
 - GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
+- GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails

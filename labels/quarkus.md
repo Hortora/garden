@@ -541,3 +541,4 @@
 - GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
+- GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
