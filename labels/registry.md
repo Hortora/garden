@@ -2,3 +2,4 @@
 - GE-20260421-566d3d: CDI @Any Instance<T> + name() method builds a self-registering strategy registry with O(1) lookup and startup validation
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
+- GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations

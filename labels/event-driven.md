@@ -3,3 +3,4 @@
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
 - GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
+- GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
