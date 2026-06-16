@@ -17,3 +17,6 @@
 - GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts
+- GE-20260616-bb6aac: directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS
+- GE-20260616-bb45d5: Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var

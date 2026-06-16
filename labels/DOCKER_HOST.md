@@ -1,0 +1,1 @@
+- GE-20260616-bb45d5: Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var

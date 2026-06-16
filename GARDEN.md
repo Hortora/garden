@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1653
+**Entries merged since last sweep:** 1656
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1414,6 +1414,9 @@
 - GE-20260616-e15321 [JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource](jvm/GE-20260616-e15321.md)
 - GE-20260501-0586a4 [Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met](jvm/GE-20260501-0586a4.md)
 - GE-20260616-0175da [ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx](jvm/GE-20260616-0175da.md)
+- GE-20260616-fd338a [macOS FSEvents delivers catch-up events when DirectoryWatcher starts](jvm/GE-20260616-fd338a.md)
+- GE-20260616-bb6aac [directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS](jvm/GE-20260616-bb6aac.md)
+- GE-20260616-bb45d5 [Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var](jvm/GE-20260616-bb45d5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

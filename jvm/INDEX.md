@@ -849,3 +849,6 @@
 | GE-20260616-e15321 | JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource | gotcha | 9/15 |
 | GE-20260501-0586a4 | Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met | technique | 10/15 |
 | GE-20260616-0175da | ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx | gotcha | 11/15 |
+| GE-20260616-fd338a | macOS FSEvents delivers catch-up events when DirectoryWatcher starts | gotcha | 10/15 |
+| GE-20260616-bb6aac | directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS | gotcha | 8/15 |
+| GE-20260616-bb45d5 | Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var | gotcha | 9/15 |

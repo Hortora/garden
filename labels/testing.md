@@ -322,3 +322,4 @@
 - GE-20260616-240c04: ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
+- GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts

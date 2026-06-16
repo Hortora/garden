@@ -1,0 +1,1 @@
+- GE-20260616-bb6aac: directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS

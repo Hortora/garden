@@ -1,0 +1,1 @@
+- GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts

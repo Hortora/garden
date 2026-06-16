@@ -1,0 +1,2 @@
+- GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts
+- GE-20260616-bb6aac: directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS
