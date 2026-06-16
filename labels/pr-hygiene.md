@@ -1,1 +1,2 @@
 - GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push
+- GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push

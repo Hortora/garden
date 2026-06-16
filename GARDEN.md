@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1618
+**Entries merged since last sweep:** 1619
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1932,6 +1932,7 @@
 - GE-20260615-9560b9 [Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push](tools/GE-20260615-9560b9.md)
 - GE-20260615-ffff65 [Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs](tools/GE-20260615-ffff65.md)
 - GE-20260601-60efe8 [gh workflow run — manually trigger a repo's CI without a dummy commit](tools/GE-20260601-60efe8.md)
+- GE-20260615-9560b9 [Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push](tools/GE-20260615-9560b9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
