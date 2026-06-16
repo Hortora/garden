@@ -513,3 +513,4 @@
 | GE-20260616-fa89ff | GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD | gotcha | 10/15 |
 | GE-20260616-06385b | git log --all --diff-filter=A finds where a file was first added, across every branch | technique | 10/15 |
 | GE-20260616-90a867 | Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search | technique | 10/15 |
+| GE-20260601-8c9e4b | Stamp a git branch locked in a linked worktree using commit-tree + update-ref | technique | 10/15 |
