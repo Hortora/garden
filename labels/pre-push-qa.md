@@ -1,0 +1,1 @@
+- GE-20260615-9560b9: Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals
