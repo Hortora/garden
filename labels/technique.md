@@ -16,3 +16,4 @@
 - GE-20260531-de42ae: AI agent auto-commit: use a per-turn flag, not a per-tool-call stack
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
+- GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility

@@ -11,3 +11,4 @@
 - GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
 - GE-20260605-0ffc19: H2 MODE=PostgreSQL does not support SIMILAR TO in ALTER TABLE ADD CONSTRAINT CHECK — use REGEXP_LIKE instead
 - GE-20260612-8e925b: Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU
+- GE-20260616-aaf9b8: H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts

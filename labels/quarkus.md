@@ -547,3 +547,5 @@
 - GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
 - GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn
 - GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
+- GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
+- GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper

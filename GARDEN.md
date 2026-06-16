@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1626
+**Entries merged since last sweep:** 1629
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1391,6 +1391,9 @@
 - GE-20260616-a67eec [quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed](jvm/GE-20260616-a67eec.md)
 - GE-20260616-6f1743 [AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn](jvm/GE-20260616-6f1743.md)
 - GE-20260616-8b9da9 [Quarkus service classes don't inherit Logger — each class needs its own static Logger field](jvm/GE-20260616-8b9da9.md)
+- GE-20260616-aaf9b8 [H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts](jvm/GE-20260616-aaf9b8.md)
+- GE-20260616-e04575 [Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility](jvm/GE-20260616-e04575.md)
+- GE-20260520-c0e5b4 [Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper](jvm/GE-20260520-c0e5b4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,2 +1,1 @@
-- GE-20260513-3c1a03: @TestSecurity silently ignored on @QuarkusTest classes that never touch HTTP
 - GE-20260616-aaf9b8: H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts

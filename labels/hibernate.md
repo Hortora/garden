@@ -66,3 +66,4 @@
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
+- GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility

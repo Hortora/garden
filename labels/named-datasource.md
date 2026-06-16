@@ -3,3 +3,4 @@
 - GE-20260423-4aa1e0: JPA InheritanceType.JOINED forces all hierarchy entities into one persistence unit
 - GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
+- GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
