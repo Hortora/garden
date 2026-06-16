@@ -1,2 +1,3 @@
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
+- GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types

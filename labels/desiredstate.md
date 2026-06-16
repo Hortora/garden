@@ -1,0 +1,2 @@
+- GE-20260616-ed9481: CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query
+- GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime

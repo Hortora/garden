@@ -1,0 +1,1 @@
+- GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types

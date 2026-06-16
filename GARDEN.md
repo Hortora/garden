@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1647
+**Entries merged since last sweep:** 1650
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -54,6 +54,7 @@
 - GE-20260613-29d3b5 [casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run](casehub-engine/GE-20260613-29d3b5.md)
 - GE-20260613-51de5b [DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe](casehub-engine/GE-20260613-51de5b.md)
 - GE-20260615-35f52f [casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data](casehub-engine/GE-20260615-35f52f.md)
+- GE-20260616-ed9481 [CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query](casehub-engine/GE-20260616-ed9481.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -104,6 +105,7 @@
 - GE-20260608-757be3 [Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time](casehub-qhorus/GE-20260608-757be3.md)
 - GE-20260607-a4d78a [ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail](casehub-qhorus/GE-20260607-a4d78a.md)
 - GE-20260613-7b7ae1 [casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>](casehub-qhorus/GE-20260613-7b7ae1.md)
+- GE-20260616-8a07b1 [ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types](casehub-qhorus/GE-20260616-8a07b1.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
@@ -1999,6 +2001,8 @@
 - GE-20260615-d356e6 [HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter](web/GE-20260615-d356e6.md)
 - GE-20260615-8cd96f [TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion](web/GE-20260615-8cd96f.md)
 - GE-20260616-e268d7 [Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters](web/GE-20260616-e268d7.md)
+### casehub-desiredstate/
+- GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 
 ---
 

@@ -55,3 +55,4 @@
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260616-eb98d8: ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing
 - GE-20260616-240c04: ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty
+- GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime

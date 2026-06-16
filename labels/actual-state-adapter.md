@@ -1,0 +1,1 @@
+- GE-20260616-ed9481: CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query

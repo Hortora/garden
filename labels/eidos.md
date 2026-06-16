@@ -1,1 +1,2 @@
 - GE-20260523-fa7407: CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak
+- GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime

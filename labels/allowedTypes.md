@@ -1,2 +1,3 @@
 - GE-20260519-28967d: ChannelGateway.receiveHumanMessage() rejects messages whose type isn't in the channel's allowedTypes
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
+- GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types

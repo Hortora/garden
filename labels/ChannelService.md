@@ -1,3 +1,4 @@
 - GE-20260517-5b8e78: casehub-qhorus core services (MessageService, CommitmentService, ChannelService, ChannelGateway) are CDI-injectable despite only being documented as MCP tools
 - GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
+- GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types

@@ -13,3 +13,4 @@
 - GE-20260601-b9a489: Quarkus extension descriptor validation reads installed .m2 deployment JAR, not source pom — stale cache causes false 'missing dependencies' failure
 - GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
 - GE-20260612-de141c: casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields
+- GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime

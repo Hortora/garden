@@ -16,3 +16,4 @@
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly
 - GE-20260616-240c04: ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty
+- GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime

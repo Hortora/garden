@@ -22,3 +22,4 @@
 | casehub-work | casehub-work/INDEX.md |
 | scelight | scelight/INDEX.md |
 | web | web/INDEX.md |
+| casehub-desiredstate | casehub-desiredstate/INDEX.md |
