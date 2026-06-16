@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1652
+**Entries merged since last sweep:** 1653
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1413,6 +1413,7 @@
 - GE-20260616-101fc0 [casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually](jvm/GE-20260616-101fc0.md)
 - GE-20260616-e15321 [JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource](jvm/GE-20260616-e15321.md)
 - GE-20260501-0586a4 [Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met](jvm/GE-20260501-0586a4.md)
+- GE-20260616-0175da [ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx](jvm/GE-20260616-0175da.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

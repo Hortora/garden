@@ -848,3 +848,4 @@
 | GE-20260616-101fc0 | casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually | gotcha | 12/15 |
 | GE-20260616-e15321 | JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource | gotcha | 9/15 |
 | GE-20260501-0586a4 | Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met | technique | 10/15 |
+| GE-20260616-0175da | ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx | gotcha | 11/15 |
