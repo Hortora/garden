@@ -133,3 +133,4 @@
 - GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
 - GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors
+- GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display

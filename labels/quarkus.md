@@ -549,3 +549,4 @@
 - GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
+- GE-20260616-bb1a1b: @QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest

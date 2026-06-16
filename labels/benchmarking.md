@@ -1,0 +1,1 @@
+- GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display

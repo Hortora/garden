@@ -12,3 +12,4 @@
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
 - GE-20260605-ff8729: Panache PanacheEntityBase.persist(Iterable<T>) batch-persists in one Hibernate session flush — enables JDBC batch mode
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
+- GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display

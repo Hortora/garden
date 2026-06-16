@@ -831,3 +831,5 @@
 | GE-20260616-aaf9b8 | H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts | gotcha | 8/15 |
 | GE-20260616-e04575 | Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility | technique | 8/15 |
 | GE-20260520-c0e5b4 | Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper | gotcha | 13/15 |
+| GE-20260616-bb1a1b | @QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest | gotcha | 11/15 |
+| GE-20260616-bc7911 | Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display | technique | 9/15 |
