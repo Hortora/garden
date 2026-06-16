@@ -282,3 +282,5 @@
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
 - GE-20260616-d70e7e: quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved
+- GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
+- GE-20260616-17187e: casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository

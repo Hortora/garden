@@ -839,3 +839,10 @@
 | GE-20260616-de0e0c | DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE | undocumented | 11/15 |
 | GE-20260616-3d2605 | ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle | gotcha | 12/15 |
 | GE-20260616-780f2e | ImmutableDesiredStateGraph.withoutNode() destroys all dependency edges — RemoveNode + AddNode does not restore graph topology | gotcha | 12/15 |
+| GE-20260616-312ba1 | @WithSession (Quarkus Hibernate Reactive Panache) requires a Vert.x safe (duplicated) sub-context — worker pool threads fail even with a Vert.x context | gotcha | 13/15 |
+| GE-20260616-eb98d8 | ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing | gotcha | 10/15 |
+| GE-20260616-240c04 | ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty | gotcha | 11/15 |
+| GE-20260616-99484f | Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations | technique | 12/15 |
+| GE-20260616-036128 | casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes | gotcha | 12/15 |
+| GE-20260616-17187e | casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository | undocumented | 9/15 |
+| GE-20260616-101fc0 | casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually | gotcha | 12/15 |

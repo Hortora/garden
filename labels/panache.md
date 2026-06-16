@@ -67,3 +67,5 @@
 - GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
 - GE-20260613-51de5b: DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe
+- GE-20260616-312ba1: @WithSession (Quarkus Hibernate Reactive Panache) requires a Vert.x safe (duplicated) sub-context — worker pool threads fail even with a Vert.x context
+- GE-20260616-99484f: Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations

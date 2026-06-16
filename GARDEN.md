@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1638
+**Entries merged since last sweep:** 1646
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1402,6 +1402,13 @@
 - GE-20260616-de0e0c [DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE](jvm/GE-20260616-de0e0c.md)
 - GE-20260616-3d2605 [ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle](jvm/GE-20260616-3d2605.md)
 - GE-20260616-780f2e [ImmutableDesiredStateGraph.withoutNode() destroys all dependency edges — RemoveNode + AddNode does not restore graph topology](jvm/GE-20260616-780f2e.md)
+- GE-20260616-312ba1 [@WithSession (Quarkus Hibernate Reactive Panache) requires a Vert.x safe (duplicated) sub-context — worker pool threads fail even with a Vert.x context](jvm/GE-20260616-312ba1.md)
+- GE-20260616-eb98d8 [ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing](jvm/GE-20260616-eb98d8.md)
+- GE-20260616-240c04 [ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty](jvm/GE-20260616-240c04.md)
+- GE-20260616-99484f [Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations](jvm/GE-20260616-99484f.md)
+- GE-20260616-036128 [casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes](jvm/GE-20260616-036128.md)
+- GE-20260616-17187e [casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository](jvm/GE-20260616-17187e.md)
+- GE-20260616-101fc0 [casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually](jvm/GE-20260616-101fc0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1952,6 +1959,7 @@
 - GE-20260615-9560b9 [Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals](tools/GE-20260615-9560b9.md)
 - GE-20260616-fa89ff [GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD](tools/GE-20260616-fa89ff.md)
 - GE-20260616-06385b [git log --all --diff-filter=A finds where a file was first added, across every branch](tools/GE-20260616-06385b.md)
+- GE-20260616-90a867 [Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search](tools/GE-20260616-90a867.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

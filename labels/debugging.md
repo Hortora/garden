@@ -20,3 +20,4 @@
 - GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions
 - GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection
 - GE-20260615-c5340d: Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work
+- GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
