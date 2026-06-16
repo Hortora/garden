@@ -57,3 +57,4 @@
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
 - GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws
+- GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn

@@ -826,3 +826,5 @@
 | GE-20260616-d70e7e | quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved | gotcha | 12/15 |
 | GE-20260616-716524 | mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up | gotcha | 9/15 |
 | GE-20260616-a67eec | quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed | gotcha | 9/15 |
+| GE-20260616-6f1743 | AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn | technique | 10/15 |
+| GE-20260616-8b9da9 | Quarkus service classes don't inherit Logger — each class needs its own static Logger field | gotcha | 8/15 |

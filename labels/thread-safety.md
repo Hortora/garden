@@ -10,3 +10,4 @@
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
 - GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
 - GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type
+- GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn

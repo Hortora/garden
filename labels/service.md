@@ -1,0 +1,1 @@
+- GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field

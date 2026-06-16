@@ -1,1 +1,2 @@
 - GE-20260525-65a5c1: LOG.debugf on high-frequency CDI observer early-return paths floods logs and buries the events you care about
+- GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
