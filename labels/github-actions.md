@@ -27,3 +27,4 @@
 - GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth
 - GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260616-fa89ff: GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD

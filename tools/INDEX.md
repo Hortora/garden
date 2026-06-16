@@ -510,3 +510,4 @@
 | GE-20260601-60efe8 | gh workflow run — manually trigger a repo's CI without a dummy commit | technique | 8/15 |
 | GE-20260615-9560b9 | Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push | technique | 11/15 |
 | GE-20260615-9560b9 | Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals | technique | 11/15 |
+| GE-20260616-fa89ff | GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD | gotcha | 10/15 |

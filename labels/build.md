@@ -15,3 +15,4 @@
 - GE-20260531-5137f7: mvn install reports BUILD SUCCESS on wrong git branch — installed jar silently missing new class
 - GE-20260602-793302: Checkstyle AvoidStarImport applies to static imports — test assertion methods caught
 - GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
+- GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up

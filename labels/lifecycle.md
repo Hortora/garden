@@ -12,3 +12,4 @@
 - GE-20260526-e21a7c: JPA @PrePersist enrichers can be made idempotent by null-guarding existing field values
 - GE-20260605-16a8fc: WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix
 - GE-20260606-0718fd: @Any Instance<ConcreteType> + isUnsatisfied() for profile-conditional infrastructure in Quarkus CDI
+- GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up

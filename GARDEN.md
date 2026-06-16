@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1620
+**Entries merged since last sweep:** 1623
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1386,6 +1386,8 @@
 - GE-20260615-00ff7a [Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations](jvm/GE-20260615-00ff7a.md)
 - GE-20260615-00ff7a [Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations](jvm/GE-20260615-00ff7a.md)
 - GE-20260531-70e07c [Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails](jvm/GE-20260531-70e07c.md)
+- GE-20260616-d70e7e [quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved](jvm/GE-20260616-d70e7e.md)
+- GE-20260616-716524 [mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up](jvm/GE-20260616-716524.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -1934,6 +1936,7 @@
 - GE-20260601-60efe8 [gh workflow run — manually trigger a repo's CI without a dummy commit](tools/GE-20260601-60efe8.md)
 - GE-20260615-9560b9 [Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push](tools/GE-20260615-9560b9.md)
 - GE-20260615-9560b9 [Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals](tools/GE-20260615-9560b9.md)
+- GE-20260616-fa89ff [GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD](tools/GE-20260616-fa89ff.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
