@@ -544,3 +544,4 @@
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
 - GE-20260616-d70e7e: quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved
 - GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up
+- GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed

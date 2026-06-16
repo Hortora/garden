@@ -26,3 +26,4 @@
 - GE-20260606-cd1c61: MCP ToolProvider CDI bean collides with user ToolProvider — auto-wiring causes double-wire or AmbiguousResolutionException
 - GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
 - GE-20260610-eb673a: Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session
+- GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed

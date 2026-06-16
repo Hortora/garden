@@ -2,3 +2,4 @@
 - GE-20260414-fa6489: quarkus-mcp-server @ToolArg has 'required' and 'defaultValue' attributes — not in docs, only in bytecode
 - GE-20260420-eb0bcb: quarkus-mcp-server @Tool methods support Uni<T>, CompletionStage, and @NonBlocking
 - GE-20260604-d08c9f: @Transactional and @Tool can coexist on the same method in a Quarkus CDI bean
+- GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed

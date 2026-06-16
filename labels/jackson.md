@@ -15,3 +15,4 @@
 - GE-20260608-1cb2a4: @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
 - GE-20260613-25d1ce: casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested
+- GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
