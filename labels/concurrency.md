@@ -25,3 +25,4 @@
 - GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
 - GE-20260612-f6362e: ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
+- GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
