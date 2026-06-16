@@ -853,3 +853,5 @@
 | GE-20260616-bb6aac | directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS | gotcha | 8/15 |
 | GE-20260616-bb45d5 | Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var | gotcha | 9/15 |
 | GE-20260616-bdde66 | Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture | gotcha | 10/15 |
+| GE-20260617-9b21f8 | SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields | gotcha | 11/15 |
+| GE-20260617-36c6b5 | @Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests | technique | 11/15 |
