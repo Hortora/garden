@@ -1,0 +1,1 @@
+- GE-20260616-780f2e: ImmutableDesiredStateGraph.withoutNode() destroys all dependency edges — RemoveNode + AddNode does not restore graph topology

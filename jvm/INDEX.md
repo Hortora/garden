@@ -838,3 +838,4 @@
 | GE-20260616-57201e | Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation | technique | 10/15 |
 | GE-20260616-de0e0c | DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE | undocumented | 11/15 |
 | GE-20260616-3d2605 | ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle | gotcha | 12/15 |
+| GE-20260616-780f2e | ImmutableDesiredStateGraph.withoutNode() destroys all dependency edges — RemoveNode + AddNode does not restore graph topology | gotcha | 12/15 |
