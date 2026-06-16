@@ -1,1 +1,2 @@
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
+- GE-20260616-3d2605: ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle

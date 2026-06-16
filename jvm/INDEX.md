@@ -837,3 +837,4 @@
 | GE-20260616-028d43 | Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests | gotcha | 9/15 |
 | GE-20260616-57201e | Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation | technique | 10/15 |
 | GE-20260616-de0e0c | DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE | undocumented | 11/15 |
+| GE-20260616-3d2605 | ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle | gotcha | 12/15 |

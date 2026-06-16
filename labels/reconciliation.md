@@ -1,2 +1,1 @@
-- GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
 - GE-20260616-3d2605: ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle
