@@ -1,0 +1,1 @@
+- GE-20260616-06385b: git log --all --diff-filter=A finds where a file was first added, across every branch
