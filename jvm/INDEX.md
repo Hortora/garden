@@ -852,3 +852,4 @@
 | GE-20260616-fd338a | macOS FSEvents delivers catch-up events when DirectoryWatcher starts | gotcha | 10/15 |
 | GE-20260616-bb6aac | directory-watcher fileHashing(false) misclassifies DELETE as MODIFY on macOS | gotcha | 8/15 |
 | GE-20260616-bb45d5 | Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var | gotcha | 9/15 |
+| GE-20260616-bdde66 | Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture | gotcha | 10/15 |

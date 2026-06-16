@@ -1,2 +1,1 @@
-- GE-20260609-521cca: Qdrant Java client Filter type is Common.Filter not Points.Filter
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
