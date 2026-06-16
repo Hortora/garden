@@ -1,0 +1,1 @@
+- GE-20260616-028d43: Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests

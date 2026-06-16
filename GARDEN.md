@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1633
+**Entries merged since last sweep:** 1636
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1397,6 +1397,9 @@
 - GE-20260616-bb1a1b [@QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest](jvm/GE-20260616-bb1a1b.md)
 - GE-20260616-bc7911 [Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display](jvm/GE-20260616-bc7911.md)
 - GE-20260529-b994c2 [Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread](jvm/GE-20260529-b994c2.md)
+- GE-20260616-028d43 [Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests](jvm/GE-20260616-028d43.md)
+- GE-20260616-57201e [Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation](jvm/GE-20260616-57201e.md)
+- GE-20260616-de0e0c [DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE](jvm/GE-20260616-de0e0c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

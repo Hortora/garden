@@ -1,2 +1,1 @@
-- GE-20260603-fde412: claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder
 - GE-20260616-de0e0c: DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE

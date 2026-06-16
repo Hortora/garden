@@ -59,3 +59,5 @@
 - GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws
 - GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
+- GE-20260616-028d43: Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests
+- GE-20260616-de0e0c: DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE

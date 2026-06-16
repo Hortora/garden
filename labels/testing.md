@@ -318,3 +318,4 @@
 - GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not
 - GE-20260614-eaa3e7: @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest
 - GE-20260616-bb1a1b: @QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest
+- GE-20260616-028d43: Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests

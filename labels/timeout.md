@@ -2,3 +2,4 @@
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
 - GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM
 - GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
+- GE-20260616-de0e0c: DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE
