@@ -12,3 +12,4 @@
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
+- GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource

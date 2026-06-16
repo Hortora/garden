@@ -846,3 +846,4 @@
 | GE-20260616-036128 | casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes | gotcha | 12/15 |
 | GE-20260616-17187e | casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository | undocumented | 9/15 |
 | GE-20260616-101fc0 | casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually | gotcha | 12/15 |
+| GE-20260616-e15321 | JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource | gotcha | 9/15 |

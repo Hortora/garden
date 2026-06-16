@@ -136,3 +136,4 @@
 - GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
+- GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource

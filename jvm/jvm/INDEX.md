@@ -27,3 +27,4 @@
 | GE-20260609-bc8704 | H2 does not support partial (filtered) UNIQUE indexes even in MODE=PostgreSQL | gotcha | 11/15 |
 | GE-20260609-45bd4c | @ActivateRequestContext required on methods called from Quartz worker threads | gotcha | 10/15 |
 | GE-20260611-a42c0b | Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource | gotcha | 9/15 |
+| GE-20260616-e15321 | JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource | gotcha | 9/15 |

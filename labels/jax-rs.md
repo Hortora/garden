@@ -21,3 +21,4 @@
 - GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint
 - GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'
 - GE-20260613-a5983e: @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open
+- GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
