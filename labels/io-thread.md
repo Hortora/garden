@@ -6,3 +6,4 @@
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
 - GE-20260603-fdc6d5: @Startup @ApplicationScoped prevents blocking @PostConstruct from running on Vert.x IO thread
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
+- GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread

@@ -20,3 +20,4 @@
 - GE-20260604-96d82a: Reactive @Tool calling resolveChannel() blocks Vert.x I/O thread — @Blocking required even when method body looks non-blocking
 - GE-20260605-e42cc5: @Blocking on plain @ApplicationScoped bean method causes Quarkus test classloader failure
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
+- GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
