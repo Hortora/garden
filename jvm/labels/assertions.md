@@ -1,1 +1,2 @@
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
+- GE-20260616-848099: CFR subclause string assertions — contains("(c)(1)(i)") passes for "(c)(1)(ii)" (substring ambiguity)

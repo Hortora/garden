@@ -1,1 +1,2 @@
 - GE-20260521-9188c1: CasePlanModel YAML binding `when:` conditions are not evaluated at runtime — all contextChange bindings fire on every CONTEXT_CHANGED
+- GE-20260616-0b20d0: casehub-engine: context keys absent from YAML inputSchema are blackboard-only — capability agent never receives them

@@ -1,1 +1,2 @@
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
+- GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed

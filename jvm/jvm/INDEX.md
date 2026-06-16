@@ -28,3 +28,6 @@
 | GE-20260609-45bd4c | @ActivateRequestContext required on methods called from Quartz worker threads | gotcha | 10/15 |
 | GE-20260611-a42c0b | Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource | gotcha | 9/15 |
 | GE-20260616-e15321 | JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource | gotcha | 9/15 |
+| GE-20260616-848099 | CFR subclause string assertions — contains("(c)(1)(i)") passes for "(c)(1)(ii)" (substring ambiguity) | gotcha | 9/15 |
+| GE-20260616-ba2c72 | LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed | technique | 9/15 |
+| GE-20260616-0b20d0 | casehub-engine: context keys absent from YAML inputSchema are blackboard-only — capability agent never receives them | gotcha | 10/15 |

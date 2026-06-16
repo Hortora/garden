@@ -4,3 +4,4 @@
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
+- GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed
