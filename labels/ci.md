@@ -26,3 +26,4 @@
 - GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
 - GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork

@@ -28,3 +28,4 @@
 - GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260616-fa89ff: GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD
+- GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork

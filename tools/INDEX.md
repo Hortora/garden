@@ -515,3 +515,4 @@
 | GE-20260616-90a867 | Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search | technique | 10/15 |
 | GE-20260601-8c9e4b | Stamp a git branch locked in a linked worktree using commit-tree + update-ref | technique | 10/15 |
 | GE-20260617-f3ea4e | Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00 | gotcha | 14/15 |
+| GE-20260616-fa89ff | Fork model CI blind spots — org repo state is independent of your fork | gotcha | 10/15 |
