@@ -870,3 +870,4 @@
 | GE-20260617-d18081 | LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods | gotcha | 10/15 |
 | GE-20260617-54b75b | Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime | gotcha | 13/15 |
 | GE-20260609-77a6f9 | casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads | gotcha | 13/15 |
+| GE-20260617-6d8baf | QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs | gotcha | 8/15 |

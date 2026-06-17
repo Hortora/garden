@@ -7,3 +7,4 @@
 - GE-20260525-531f36: Google-style test method naming: subject_state with one underscore, lowerCamelCase components
 - GE-20260528-99941f: "Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA)
 - GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
+- GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs

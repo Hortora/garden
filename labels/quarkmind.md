@@ -1,1 +1,2 @@
 - GE-20260528-3b9ccb: Sc2ReplayShared.makeTag() uses r- prefix — breaks IEM10 JSON tag construction
+- GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
