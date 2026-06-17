@@ -1,2 +1,1 @@
-- GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter
 - GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error

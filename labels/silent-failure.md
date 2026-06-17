@@ -55,3 +55,4 @@
 - GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
 - GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
+- GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
