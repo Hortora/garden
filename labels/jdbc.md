@@ -7,3 +7,4 @@
 - GE-20260603-d67333: PostgreSQL SET LOCAL rejects JDBC bind parameters — string interpolation required
 - GE-20260616-aaf9b8: H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
+- GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
