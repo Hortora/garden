@@ -58,3 +58,4 @@
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
+- GE-20260617-127601: WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success

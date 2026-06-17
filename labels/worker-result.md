@@ -1,0 +1,1 @@
+- GE-20260617-127601: WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success
