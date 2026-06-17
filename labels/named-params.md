@@ -1,0 +1,1 @@
+- GE-20260617-54b75b: Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1677
+**Entries merged since last sweep:** 1678
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1436,6 +1436,7 @@
 - GE-20260617-92fdd9 [Compound type ID with embedded fallback for extensible polymorphic hierarchies](jvm/GE-20260617-92fdd9.md)
 - GE-20260617-6c1e8e [Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing](jvm/GE-20260617-6c1e8e.md)
 - GE-20260617-d18081 [LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods](jvm/GE-20260617-d18081.md)
+- GE-20260617-54b75b [Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime](jvm/GE-20260617-54b75b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
