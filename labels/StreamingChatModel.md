@@ -1,2 +1,1 @@
-- GE-20260417-246570: Map<String,Integer> passed where Map<String,Object> expected — compiles via diamond target-type inference
 - GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods

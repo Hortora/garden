@@ -867,3 +867,4 @@
 | GE-20260617-13de83 | context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss | gotcha | 11/15 |
 | GE-20260617-92fdd9 | Compound type ID with embedded fallback for extensible polymorphic hierarchies | technique | 10/15 |
 | GE-20260617-6c1e8e | Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing | technique | 9/15 |
+| GE-20260617-d18081 | LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods | gotcha | 10/15 |

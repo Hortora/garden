@@ -141,3 +141,4 @@
 - GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods

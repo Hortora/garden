@@ -27,3 +27,4 @@
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
+- GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods
