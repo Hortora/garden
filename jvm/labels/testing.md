@@ -7,3 +7,4 @@
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260616-848099: CFR subclause string assertions — contains("(c)(1)(i)") passes for "(c)(1)(ii)" (substring ambiguity)
 - GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed
+- GE-20260617-abe516: GlobalOpenTelemetry.getTracer() in static final field returns no-op tracer — library instrumentation must call lazily

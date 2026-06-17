@@ -31,3 +31,4 @@
 | GE-20260616-848099 | CFR subclause string assertions — contains("(c)(1)(i)") passes for "(c)(1)(ii)" (substring ambiguity) | gotcha | 9/15 |
 | GE-20260616-ba2c72 | LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed | technique | 9/15 |
 | GE-20260616-0b20d0 | casehub-engine: context keys absent from YAML inputSchema are blackboard-only — capability agent never receives them | gotcha | 10/15 |
+| GE-20260617-abe516 | GlobalOpenTelemetry.getTracer() in static final field returns no-op tracer — library instrumentation must call lazily | gotcha | 12/15 |

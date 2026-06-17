@@ -1,0 +1,1 @@
+- GE-20260617-abe516: GlobalOpenTelemetry.getTracer() in static final field returns no-op tracer — library instrumentation must call lazily
