@@ -1,0 +1,3 @@
+- GE-20260617-e3bedc: DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields
+- GE-20260617-13de83: context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss
+- GE-20260617-92fdd9: Compound type ID with embedded fallback for extensible polymorphic hierarchies

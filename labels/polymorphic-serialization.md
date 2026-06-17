@@ -1,0 +1,1 @@
+- GE-20260617-92fdd9: Compound type ID with embedded fallback for extensible polymorphic hierarchies

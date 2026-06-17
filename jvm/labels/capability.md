@@ -1,0 +1,1 @@
+- GE-20260616-0b20d0: casehub-engine: context keys absent from YAML inputSchema are blackboard-only — capability agent never receives them

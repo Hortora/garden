@@ -1,0 +1,1 @@
+- GE-20260616-848099: CFR subclause string assertions — contains("(c)(1)(i)") passes for "(c)(1)(ii)" (substring ambiguity)

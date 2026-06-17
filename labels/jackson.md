@@ -16,3 +16,7 @@
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
 - GE-20260613-25d1ce: casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested
 - GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
+- GE-20260617-e3bedc: DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields
+- GE-20260617-13de83: context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss
+- GE-20260617-92fdd9: Compound type ID with embedded fallback for extensible polymorphic hierarchies
+- GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing

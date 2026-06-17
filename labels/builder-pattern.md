@@ -1,2 +1,3 @@
 - GE-20260604-c1ce51: ThreadLocal<T> for passing state between ServiceLoader-cached SPI init() and build() — avoids instance-field race
 - GE-20260613-ba9e19: Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access
+- GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing

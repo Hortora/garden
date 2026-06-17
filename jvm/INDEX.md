@@ -863,3 +863,7 @@
 | GE-20260617-b5372b | Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch | gotcha | 12/15 |
 | GE-20260617-0fa804 | Reflection-based compat shim for Java binary method return type change across dependency versions | technique | 11/15 |
 | GE-20260617-0fa804 | Reflection-based compat shim for Java binary method return type change across dependency versions | technique | 11/15 |
+| GE-20260617-e3bedc | DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields | gotcha | 10/15 |
+| GE-20260617-13de83 | context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss | gotcha | 11/15 |
+| GE-20260617-92fdd9 | Compound type ID with embedded fallback for extensible polymorphic hierarchies | technique | 10/15 |
+| GE-20260617-6c1e8e | Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing | technique | 9/15 |

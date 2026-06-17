@@ -1,0 +1,1 @@
+- GE-20260617-13de83: context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss

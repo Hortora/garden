@@ -1,0 +1,1 @@
+- GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing

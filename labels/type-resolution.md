@@ -1,0 +1,1 @@
+- GE-20260617-e3bedc: DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields
