@@ -3,3 +3,4 @@
 - GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility
 - GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
 - GE-20260605-b734b3: SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert
+- GE-20260617-daa4cb: MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset

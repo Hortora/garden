@@ -1,0 +1,1 @@
+- GE-20260617-daa4cb: MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset

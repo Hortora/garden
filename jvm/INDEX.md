@@ -873,3 +873,4 @@
 | GE-20260617-6d8baf | QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs | gotcha | 8/15 |
 | GE-20260617-6b01c4 | H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts | gotcha | 12/15 |
 | GE-20260617-03c1a3 | H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING | undocumented | 12/15 |
+| GE-20260617-daa4cb | MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset | gotcha | 10/15 |
