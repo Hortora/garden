@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1668
+**Entries merged since last sweep:** 1671
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -545,6 +545,7 @@
 - GE-20260417-4a3c22 [Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization](quarkus/GE-20260417-4a3c22.md)
 - GE-20260422-ebb91d [CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface](quarkus/GE-20260422-ebb91d.md)
 - GE-20260427-5d7c67 [quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean](quarkus/GE-20260427-5d7c67.md)
+- GE-20260414-c2f74c [Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread](quarkus/GE-20260414-c2f74c.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -1427,6 +1428,8 @@
 - GE-20260617-b45911 [BlockingQueue.poll(timeout) as unified SSE keepalive, orphan detection, and max-duration primitive on virtual threads](jvm/GE-20260617-b45911.md)
 - GE-20260617-397d41 [quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client](jvm/GE-20260617-397d41.md)
 - GE-20260617-0c1498 [SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests](jvm/GE-20260617-0c1498.md)
+- GE-20260617-b5372b [Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch](jvm/GE-20260617-b5372b.md)
+- GE-20260617-0fa804 [Reflection-based compat shim for Java binary method return type change across dependency versions](jvm/GE-20260617-0fa804.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -128,3 +128,4 @@
 - GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
 - GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up
 - GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client
+- GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch

@@ -234,3 +234,4 @@
 | GE-20260417-4a3c22 | Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization | gotcha | 10/15 |
 | GE-20260422-ebb91d | CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface | gotcha | 10/15 |
 | GE-20260427-5d7c67 | quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean | gotcha | 11/15 |
+| GE-20260414-c2f74c | Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread | gotcha | 12/15 |

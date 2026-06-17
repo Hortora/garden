@@ -1,2 +1,1 @@
 - GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
-- GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread

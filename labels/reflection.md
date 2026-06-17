@@ -7,3 +7,4 @@
 - GE-20260522-0d8d9e: JavaMethod.isSynthetic() does not exist in ArchUnit 1.4.1 — filter by PUBLIC modifier only
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
+- GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions

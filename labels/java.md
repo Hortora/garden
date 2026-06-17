@@ -139,3 +139,4 @@
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
 - GE-20260617-68c9c5: Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false
 - GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid
+- GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions

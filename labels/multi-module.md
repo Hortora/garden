@@ -31,3 +31,4 @@
 - GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2
 - GE-20260612-1100fe: mvn test -pl <child> passes while installed runtime jar hides a cross-module API break
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
+- GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
