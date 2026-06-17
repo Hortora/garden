@@ -872,3 +872,4 @@
 | GE-20260609-77a6f9 | casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads | gotcha | 13/15 |
 | GE-20260617-6d8baf | QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs | gotcha | 8/15 |
 | GE-20260617-6b01c4 | H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts | gotcha | 12/15 |
+| GE-20260617-03c1a3 | H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING | undocumented | 12/15 |
