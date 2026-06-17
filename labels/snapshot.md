@@ -33,3 +33,4 @@
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

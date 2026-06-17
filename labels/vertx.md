@@ -27,3 +27,4 @@
 - GE-20260613-51de5b: DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

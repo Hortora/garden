@@ -61,3 +61,4 @@
 - GE-20260615-6c4767: Adding a custom CDI qualifier to @ApplicationScoped removes @Default — unqualified @Inject on the concrete type fails
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
 - GE-20260616-d70e7e: quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved
+- GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads

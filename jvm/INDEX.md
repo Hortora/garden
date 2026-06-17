@@ -869,3 +869,4 @@
 | GE-20260617-6c1e8e | Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing | technique | 9/15 |
 | GE-20260617-d18081 | LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods | gotcha | 10/15 |
 | GE-20260617-54b75b | Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime | gotcha | 13/15 |
+| GE-20260609-77a6f9 | casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads | gotcha | 13/15 |
