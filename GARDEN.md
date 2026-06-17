@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1671
+**Entries merged since last sweep:** 1672
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1429,6 +1429,7 @@
 - GE-20260617-397d41 [quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client](jvm/GE-20260617-397d41.md)
 - GE-20260617-0c1498 [SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests](jvm/GE-20260617-0c1498.md)
 - GE-20260617-b5372b [Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch](jvm/GE-20260617-b5372b.md)
+- GE-20260617-0fa804 [Reflection-based compat shim for Java binary method return type change across dependency versions](jvm/GE-20260617-0fa804.md)
 - GE-20260617-0fa804 [Reflection-based compat shim for Java binary method return type change across dependency versions](jvm/GE-20260617-0fa804.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)

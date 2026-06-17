@@ -8,3 +8,4 @@
 - GE-20260606-4c69a8: Local enum inside a static @Test method preserves @Retention(RUNTIME) annotations
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions

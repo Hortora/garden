@@ -32,3 +32,4 @@
 - GE-20260616-101fc0: casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions

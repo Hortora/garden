@@ -862,3 +862,4 @@
 | GE-20260617-0c1498 | SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests | technique | 8/15 |
 | GE-20260617-b5372b | Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch | gotcha | 12/15 |
 | GE-20260617-0fa804 | Reflection-based compat shim for Java binary method return type change across dependency versions | technique | 11/15 |
+| GE-20260617-0fa804 | Reflection-based compat shim for Java binary method return type change across dependency versions | technique | 11/15 |

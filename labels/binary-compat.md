@@ -1,1 +1,2 @@
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
