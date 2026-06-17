@@ -1,0 +1,1 @@
+- GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid

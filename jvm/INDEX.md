@@ -855,3 +855,8 @@
 | GE-20260616-bdde66 | Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture | gotcha | 10/15 |
 | GE-20260617-9b21f8 | SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields | gotcha | 11/15 |
 | GE-20260617-36c6b5 | @Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests | technique | 11/15 |
+| GE-20260617-cb0731 | RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec | gotcha | 11/15 |
+| GE-20260617-c2ceb3 | @Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop | gotcha | 11/15 |
+| GE-20260617-b45911 | BlockingQueue.poll(timeout) as unified SSE keepalive, orphan detection, and max-duration primitive on virtual threads | technique | 10/15 |
+| GE-20260617-397d41 | quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client | gotcha | 9/15 |
+| GE-20260617-0c1498 | SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests | technique | 8/15 |

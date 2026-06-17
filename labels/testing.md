@@ -324,3 +324,5 @@
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
 - GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
+- GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests

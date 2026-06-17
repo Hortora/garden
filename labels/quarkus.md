@@ -557,3 +557,7 @@
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
 - GE-20260617-9b21f8: SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields
 - GE-20260617-36c6b5: @Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests
+- GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
+- GE-20260617-c2ceb3: @Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop
+- GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client
+- GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests

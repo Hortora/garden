@@ -17,3 +17,9 @@
 - GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'
 - GE-20260613-6527d0: ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit
 - GE-20260613-a5983e: @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open
+- GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
+- GE-20260617-c2ceb3: @Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop
+- GE-20260617-b45911: BlockingQueue.poll(timeout) as unified SSE keepalive, orphan detection, and max-duration primitive on virtual threads
+- GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid
+- GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client
+- GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests

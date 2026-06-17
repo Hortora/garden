@@ -1,2 +1,5 @@
 - GE-20260424-883890: Quarkus JAX-RS duplicate endpoint error when an interrupted agent leaves a stale resource file
 - GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler
+- GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
+- GE-20260617-c2ceb3: @Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop
+- GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client

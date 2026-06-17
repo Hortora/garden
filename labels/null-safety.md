@@ -4,3 +4,4 @@
 - GE-20260606-527f94: JEXL silent(true) + null map value silently returns false — broken condition expressions produce identical symptom to false conditions
 - GE-20260607-813a95: ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
+- GE-20260617-68c9c5: Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false

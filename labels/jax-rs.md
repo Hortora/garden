@@ -22,3 +22,6 @@
 - GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'
 - GE-20260613-a5983e: @Transactional on a void JAX-RS SSE method commits when the method body returns — before the sink stays open
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
+- GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
+- GE-20260617-b45911: BlockingQueue.poll(timeout) as unified SSE keepalive, orphan detection, and max-duration primitive on virtual threads
+- GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests

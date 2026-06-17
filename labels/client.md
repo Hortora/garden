@@ -1,0 +1,1 @@
+- GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client

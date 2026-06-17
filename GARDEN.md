@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1659
+**Entries merged since last sweep:** 1666
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -253,6 +253,8 @@
 - GE-20260501-a9ea1a [SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep](java/GE-20260501-a9ea1a.md)
 - GE-20260529-8b17d1 [LinkedHashMap with accessOrder=true and removeEldestEntry is a zero-dependency LRU cache](java/GE-20260529-8b17d1.md)
 - GE-20260420-c94e2a [Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults](java/GE-20260420-c94e2a.md)
+- GE-20260617-68c9c5 [Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false](java/GE-20260617-68c9c5.md)
+- GE-20260617-ea8260 [TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid](java/GE-20260617-ea8260.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
@@ -1420,6 +1422,11 @@
 - GE-20260616-bdde66 [Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture](jvm/GE-20260616-bdde66.md)
 - GE-20260617-9b21f8 [SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields](jvm/GE-20260617-9b21f8.md)
 - GE-20260617-36c6b5 [@Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests](jvm/GE-20260617-36c6b5.md)
+- GE-20260617-cb0731 [RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec](jvm/GE-20260617-cb0731.md)
+- GE-20260617-c2ceb3 [@Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop](jvm/GE-20260617-c2ceb3.md)
+- GE-20260617-b45911 [BlockingQueue.poll(timeout) as unified SSE keepalive, orphan detection, and max-duration primitive on virtual threads](jvm/GE-20260617-b45911.md)
+- GE-20260617-397d41 [quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client](jvm/GE-20260617-397d41.md)
+- GE-20260617-0c1498 [SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests](jvm/GE-20260617-0c1498.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
