@@ -1,0 +1,1 @@
+- GE-20260617-cc0834: Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields

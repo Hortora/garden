@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1686
+**Entries merged since last sweep:** 1687
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2037,6 +2037,7 @@
 - GE-20260615-8cd96f [TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion](web/GE-20260615-8cd96f.md)
 - GE-20260616-e268d7 [Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters](web/GE-20260616-e268d7.md)
 - GE-20260617-0b0dba [renderComponent before addEventListener silently loses all connectedCallback events — no data, no error](web/GE-20260617-0b0dba.md)
+- GE-20260617-cc0834 [Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields](web/GE-20260617-cc0834.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 

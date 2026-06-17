@@ -27,3 +27,4 @@
 | GE-20260615-8cd96f | TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion | technique | 10/15 |
 | GE-20260616-e268d7 | Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters | gotcha | 10/15 |
 | GE-20260617-0b0dba | renderComponent before addEventListener silently loses all connectedCallback events — no data, no error | gotcha | 14/15 |
+| GE-20260617-cc0834 | Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields | gotcha | 10/15 |
