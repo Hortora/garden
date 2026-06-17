@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1666
+**Entries merged since last sweep:** 1667
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1979,6 +1979,7 @@
 - GE-20260616-06385b [git log --all --diff-filter=A finds where a file was first added, across every branch](tools/GE-20260616-06385b.md)
 - GE-20260616-90a867 [Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search](tools/GE-20260616-90a867.md)
 - GE-20260601-8c9e4b [Stamp a git branch locked in a linked worktree using commit-tree + update-ref](tools/GE-20260601-8c9e4b.md)
+- GE-20260617-f3ea4e [Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00](tools/GE-20260617-f3ea4e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,0 +1,1 @@
+- GE-20260617-f3ea4e: Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00
