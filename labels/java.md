@@ -142,3 +142,4 @@
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods
+- GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports

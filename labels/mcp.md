@@ -27,3 +27,4 @@
 - GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
 - GE-20260610-eb673a: Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session
 - GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
+- GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports

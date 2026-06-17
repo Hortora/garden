@@ -1,2 +1,3 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports

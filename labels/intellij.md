@@ -24,3 +24,4 @@
 - GE-20260601-265cdc: IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities
 - GE-20260602-c6bfb7: IntelliJ Index MCP plugin port 29170 connection-refused while IDEA is running — transient JVM pause
 - GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
+- GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports

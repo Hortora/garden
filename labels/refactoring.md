@@ -18,3 +18,4 @@
 - GE-20260609-7600aa: Fixing a shared resolution method misses non-focal rendering paths
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
+- GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports

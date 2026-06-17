@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1682
+**Entries merged since last sweep:** 1683
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1995,6 +1995,7 @@
 - GE-20260601-8c9e4b [Stamp a git branch locked in a linked worktree using commit-tree + update-ref](tools/GE-20260601-8c9e4b.md)
 - GE-20260617-f3ea4e [Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00](tools/GE-20260617-f3ea4e.md)
 - GE-20260616-fa89ff [Fork model CI blind spots — org repo state is independent of your fork](tools/GE-20260616-fa89ff.md)
+- GE-20260617-cbe0f1 [IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports](tools/GE-20260617-cbe0f1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
