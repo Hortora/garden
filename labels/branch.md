@@ -17,3 +17,4 @@
 - GE-20260522-cf54ad: `git branch --merged` silently misses squash-rebased branches — use `git log main --grep` to verify content
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260616-06385b: git log --all --diff-filter=A finds where a file was first added, across every branch
+- GE-20260618-a4032c: Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main

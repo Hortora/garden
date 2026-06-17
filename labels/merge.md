@@ -13,3 +13,4 @@
 - GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation
 - GE-20260616-aaf9b8: H2 MERGE USING subquery: column aliases matching PostgreSQL type names are parsed as type casts
 - GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
+- GE-20260618-a4032c: Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main

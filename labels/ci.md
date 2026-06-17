@@ -27,3 +27,4 @@
 - GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork
+- GE-20260618-a4032c: Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main

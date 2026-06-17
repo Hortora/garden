@@ -160,3 +160,4 @@
 - GE-20260616-06385b: git log --all --diff-filter=A finds where a file was first added, across every branch
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
 - GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork
+- GE-20260618-a4032c: Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main
