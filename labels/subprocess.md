@@ -3,3 +3,6 @@
 - GE-20260505-f60bab: MCP StdioServerParameters command='python3' spawns wrong interpreter in pyenv/venv — McpError: Connection closed
 - GE-20260603-b17e57: Scheduled subprocess closure for wall-clock timeout in subprocess-backed reactive streams
 - GE-20260603-fde412: claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder
+- GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json
+- GE-20260618-c4f95a: ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call
+- GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary

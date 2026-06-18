@@ -1,1 +1,2 @@
 - GE-20260530-9cdfb5: MapPreferences.get() returns null when key absent — PreferenceKey.defaultValue is never used as fallback
+- GE-20260618-03a482: ControlMessageParser.parse() returns null for unrecognised types — unguarded switch NPEs

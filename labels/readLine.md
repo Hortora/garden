@@ -1,0 +1,1 @@
+- GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary

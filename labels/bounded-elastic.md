@@ -1,2 +1,1 @@
-- GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
 - GE-20260618-c4f95a: ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call

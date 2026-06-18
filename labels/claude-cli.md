@@ -1,2 +1,3 @@
 - GE-0019: Generate realistic UI screenshots for blog posts using Playwright headless screenshots
 - GE-0171: Use claude `--mcp-config` + `--strict-mcp-config` to test MCP servers in isolation
+- GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json

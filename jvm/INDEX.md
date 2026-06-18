@@ -880,3 +880,7 @@
 | GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
 | GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
 | GE-20260618-0ed34c | H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist | gotcha | 13/15 |
+| GE-20260618-03a482 | ControlMessageParser.parse() returns null for unrecognised types — unguarded switch NPEs | gotcha | 11/15 |
+| GE-20260618-a0f1e0 | --verbose is required for incremental AssistantMessage streaming in --output-format stream-json | undocumented | 12/15 |
+| GE-20260618-c4f95a | ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call | gotcha | 13/15 |
+| GE-20260618-268aab | Use /bin/cat subprocess to test blocking readLine() loops without a real binary | technique | 10/15 |

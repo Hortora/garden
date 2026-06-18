@@ -1,1 +1,2 @@
 - GE-20260604-f449db: Mechanical anchor comment: make future maintenance obligations traceable to the exact code location
+- GE-20260618-03a482: ControlMessageParser.parse() returns null for unrecognised types — unguarded switch NPEs

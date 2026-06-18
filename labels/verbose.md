@@ -1,2 +1,1 @@
-- GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
 - GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json
