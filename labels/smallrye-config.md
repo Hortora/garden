@@ -7,3 +7,4 @@
 - GE-20260609-4c6577: Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260617-9b21f8: SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields
+- GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix

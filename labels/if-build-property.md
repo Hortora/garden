@@ -1,0 +1,1 @@
+- GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix

@@ -573,3 +573,4 @@
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
+- GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
