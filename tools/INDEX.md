@@ -518,3 +518,4 @@
 | GE-20260616-fa89ff | Fork model CI blind spots — org repo state is independent of your fork | gotcha | 10/15 |
 | GE-20260617-cbe0f1 | IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports | gotcha | 9/15 |
 | GE-20260618-a4032c | Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main | gotcha | 9/15 |
+| GE-20260618-5e2828 | GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path | gotcha | 10/15 |

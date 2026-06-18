@@ -1,0 +1,1 @@
+- GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path

@@ -3,3 +3,4 @@
 - GE-20260529-5a82f1: git rebase -i with partial plan silently drops branch commits beyond the listed range
 - GE-20260601-2e31ae: Use GIT_SEQUENCE_EDITOR with a pre-written todo file to run git rebase non-interactively
 - GE-20260607-536227: Manually written git rebase todo file with a wrong full-SHA character produces a cryptic 'cannot parse' error
+- GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path

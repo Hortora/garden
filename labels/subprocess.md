@@ -6,3 +6,4 @@
 - GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json
 - GE-20260618-c4f95a: ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
+- GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path

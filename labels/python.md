@@ -31,3 +31,4 @@
 - GE-20260609-3bb404: Python regex \s* matches \n — table row parser merges separator row with next data row across newlines
 - GE-20260610-7b4ff5: Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
+- GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path

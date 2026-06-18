@@ -52,3 +52,4 @@
 - GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push
 - GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push
 - GE-20260615-9560b9: Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals
+- GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path
