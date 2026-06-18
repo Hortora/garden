@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1724
+**Entries merged since last sweep:** 1725
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1471,6 +1471,7 @@
 - GE-20260518-069f64 [Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection](jvm/GE-20260518-069f64.md)
 - GE-20260618-d244e2 [Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL](jvm/GE-20260618-d244e2.md)
 - GE-20260618-f48e9b [Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException](jvm/GE-20260618-f48e9b.md)
+- GE-20260618-d81cef [Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores](jvm/GE-20260618-d81cef.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

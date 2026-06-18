@@ -901,3 +901,4 @@
 | GE-20260518-069f64 | Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection | gotcha | 12/15 |
 | GE-20260618-d244e2 | Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL | gotcha | 12/15 |
 | GE-20260618-f48e9b | Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException | gotcha | 13/15 |
+| GE-20260618-d81cef | Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores | gotcha | 12/15 |

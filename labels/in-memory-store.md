@@ -1,0 +1,1 @@
+- GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
