@@ -7,3 +7,4 @@
 - GE-20260609-84290d: WorkItemLifecycleEvent has no workItem() method — use event.source() cast to WorkItem
 - GE-20260609-45bd4c: @ActivateRequestContext required on methods called from Quartz worker threads
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
+- GE-20260618-976009: Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning

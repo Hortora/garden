@@ -1,1 +1,3 @@
 - GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
+- GE-20260618-976009: Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
