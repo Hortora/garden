@@ -338,3 +338,5 @@
 - GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)
 - GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
 - GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
+- GE-20260618-2bc371: OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client
+- GE-20260618-c5d2d8: JDK HttpServer as zero-dependency mock server for Quarkus REST client testing

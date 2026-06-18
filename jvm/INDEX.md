@@ -913,3 +913,5 @@
 | GE-20260618-397bf7 | CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch | gotcha | 11/15 |
 | GE-20260618-fe1853 | Float-to-double threshold comparison silently fails at boundary values | gotcha | 9/15 |
 | GE-20260618-d84391 | CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub | technique | 9/15 |
+| GE-20260618-2bc371 | OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client | gotcha | 13/15 |
+| GE-20260618-c5d2d8 | JDK HttpServer as zero-dependency mock server for Quarkus REST client testing | technique | 10/15 |

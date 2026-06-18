@@ -579,3 +579,5 @@
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
 - GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
+- GE-20260618-2bc371: OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client
+- GE-20260618-c5d2d8: JDK HttpServer as zero-dependency mock server for Quarkus REST client testing

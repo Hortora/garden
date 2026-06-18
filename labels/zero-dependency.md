@@ -1,0 +1,1 @@
+- GE-20260618-c5d2d8: JDK HttpServer as zero-dependency mock server for Quarkus REST client testing
