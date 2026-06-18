@@ -886,3 +886,4 @@
 | GE-20260618-268aab | Use /bin/cat subprocess to test blocking readLine() loops without a real binary | technique | 10/15 |
 | GE-20260618-451d25 | Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast | gotcha | 10/15 |
 | GE-20260618-fcb51b | Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts | gotcha | 11/15 |
+| GE-20260618-451d25 | Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast | gotcha | 10/15 |
