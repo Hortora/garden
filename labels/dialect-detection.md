@@ -1,0 +1,1 @@
+- GE-20260618-73a023: H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL

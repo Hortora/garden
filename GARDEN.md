@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1688
+**Entries merged since last sweep:** 1692
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1443,6 +1443,7 @@
 - GE-20260617-03c1a3 [H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING](jvm/GE-20260617-03c1a3.md)
 - GE-20260617-daa4cb [MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset](jvm/GE-20260617-daa4cb.md)
 - GE-20260617-127601 [WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success](jvm/GE-20260617-127601.md)
+- GE-20260618-73a023 [H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL](jvm/GE-20260618-73a023.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2039,6 +2040,9 @@
 - GE-20260616-e268d7 [Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters](web/GE-20260616-e268d7.md)
 - GE-20260617-0b0dba [renderComponent before addEventListener silently loses all connectedCallback events — no data, no error](web/GE-20260617-0b0dba.md)
 - GE-20260617-cc0834 [Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields](web/GE-20260617-cc0834.md)
+- GE-20260618-580486 [NavTree orphaned pages duplicate charts — filtering navTree members is insufficient](web/GE-20260618-580486.md)
+- GE-20260618-9ecfa7 [Prometheus JSONata preset: vector and matrix paths apply different label filtering](web/GE-20260618-9ecfa7.md)
+- GE-20260618-1bcafc [DashBuilder global.dataset.type is stored but never consumed by casehub runtime](web/GE-20260618-1bcafc.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 

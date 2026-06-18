@@ -875,3 +875,4 @@
 | GE-20260617-03c1a3 | H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING | undocumented | 12/15 |
 | GE-20260617-daa4cb | MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset | gotcha | 10/15 |
 | GE-20260617-127601 | WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success | gotcha | 11/15 |
+| GE-20260618-73a023 | H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL | gotcha | 13/15 |

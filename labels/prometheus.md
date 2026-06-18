@@ -1,3 +1,5 @@
 - GE-20260420-4b55e2: Micrometer Gauge beans need @Startup + public @Transactional methods — three interacting gotchas
 - GE-20260420-cb4c7a: Micrometer Gauge named with _total suffix silently absent from Prometheus output
 - GE-20260604-942686: Prometheus counter fires on both paths of a find-or-create method
+- GE-20260618-9ecfa7: Prometheus JSONata preset: vector and matrix paths apply different label filtering
+- GE-20260618-1bcafc: DashBuilder global.dataset.type is stored but never consumed by casehub runtime

@@ -1,2 +1,3 @@
 - GE-20260612-cd10d7: JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't
 - GE-20260613-899303: JSONata v2 auto-unwraps single-element array results into flat values
+- GE-20260618-9ecfa7: Prometheus JSONata preset: vector and matrix paths apply different label filtering

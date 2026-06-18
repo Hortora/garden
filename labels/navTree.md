@@ -1,0 +1,1 @@
+- GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient

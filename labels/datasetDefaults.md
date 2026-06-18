@@ -1,0 +1,1 @@
+- GE-20260618-1bcafc: DashBuilder global.dataset.type is stored but never consumed by casehub runtime

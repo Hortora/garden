@@ -1,1 +1,2 @@
 - GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences
+- GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient

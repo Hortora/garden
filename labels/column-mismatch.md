@@ -1,0 +1,1 @@
+- GE-20260618-9ecfa7: Prometheus JSONata preset: vector and matrix paths apply different label filtering

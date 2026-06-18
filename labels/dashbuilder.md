@@ -1,0 +1,2 @@
+- GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient
+- GE-20260618-1bcafc: DashBuilder global.dataset.type is stored but never consumed by casehub runtime

@@ -59,3 +59,6 @@
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
 - GE-20260617-127601: WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success
+- GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient
+- GE-20260618-9ecfa7: Prometheus JSONata preset: vector and matrix paths apply different label filtering
+- GE-20260618-1bcafc: DashBuilder global.dataset.type is stored but never consumed by casehub runtime
