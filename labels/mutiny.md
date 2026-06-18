@@ -56,3 +56,4 @@
 - GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException

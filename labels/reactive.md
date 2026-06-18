@@ -64,3 +64,4 @@
 - GE-20260616-312ba1: @WithSession (Quarkus Hibernate Reactive Panache) requires a Vert.x safe (duplicated) sub-context — worker pool threads fail even with a Vert.x context
 - GE-20260616-eb98d8: ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing
 - GE-20260616-99484f: Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations
+- GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
