@@ -887,3 +887,4 @@
 | GE-20260618-451d25 | Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast | gotcha | 10/15 |
 | GE-20260618-fcb51b | Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts | gotcha | 11/15 |
 | GE-20260618-451d25 | Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast | gotcha | 10/15 |
+| GE-20260618-a50133 | Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed | gotcha | 10/15 |
