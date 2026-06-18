@@ -1,1 +1,2 @@
 - GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility
+- GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility

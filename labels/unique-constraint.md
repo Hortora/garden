@@ -6,3 +6,4 @@
 - GE-20260605-5d0034: JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it
 - GE-20260607-1c0a05: JPA subclass JPQL query in LedgerEntryRepository silently hides domain entries from consuming apps — IDX_LEDGER_ENTRY_SUBJECT_SEQ violation
 - GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations
+- GE-20260618-174019: H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not

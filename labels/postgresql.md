@@ -16,3 +16,4 @@
 - GE-20260603-86f2a9: H2 2.4.x in MODE=PostgreSQL does not support INSERT ... ON CONFLICT DO NOTHING
 - GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility
 - GE-20260605-b734b3: SQL-standard MERGE INTO USING WHEN MATCHED/NOT MATCHED for portable H2 + PostgreSQL atomic upsert
+- GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility

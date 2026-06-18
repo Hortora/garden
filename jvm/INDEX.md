@@ -876,3 +876,5 @@
 | GE-20260617-daa4cb | MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset | gotcha | 10/15 |
 | GE-20260617-127601 | WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success | gotcha | 11/15 |
 | GE-20260618-73a023 | H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL | gotcha | 13/15 |
+| GE-20260618-174019 | H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not | gotcha | 11/15 |
+| GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
