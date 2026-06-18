@@ -1,3 +1,4 @@
 - GE-20260428-e75d4d: Run PostgreSQL Surefire execution first to force correct Quarkus augmentation in a dual-database test module
 - GE-20260428-fb8c51: CAST(date_trunc('day', field) AS LocalDate) in Hibernate 6 HQL forces a portable LocalDate return type
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
+- GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL

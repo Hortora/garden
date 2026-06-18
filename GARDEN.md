@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1720
+**Entries merged since last sweep:** 1721
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1467,6 +1467,7 @@
 - GE-20260618-5008f5 [@Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock](jvm/GE-20260618-5008f5.md)
 - GE-20260618-8526c8 [ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)](jvm/GE-20260618-8526c8.md)
 - GE-20260618-fe7c8e [WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute](jvm/GE-20260618-fe7c8e.md)
+- GE-20260618-d244e2 [Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL](jvm/GE-20260618-d244e2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

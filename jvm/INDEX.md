@@ -897,3 +897,4 @@
 | GE-20260618-5008f5 | @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock | technique | 12/15 |
 | GE-20260618-8526c8 | ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest) | technique | 9/15 |
 | GE-20260618-fe7c8e | WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute | undocumented | 10/15 |
+| GE-20260618-d244e2 | Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL | gotcha | 12/15 |
