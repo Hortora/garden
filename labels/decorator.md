@@ -1,1 +1,2 @@
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
+- GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub

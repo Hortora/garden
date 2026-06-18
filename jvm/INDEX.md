@@ -912,3 +912,4 @@
 | GE-20260618-11251a | byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding) | technique | 9/15 |
 | GE-20260618-397bf7 | CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch | gotcha | 11/15 |
 | GE-20260618-fe1853 | Float-to-double threshold comparison silently fails at boundary values | gotcha | 9/15 |
+| GE-20260618-d84391 | CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub | technique | 9/15 |

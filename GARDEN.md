@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1735
+**Entries merged since last sweep:** 1736
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1481,6 +1481,7 @@
 - GE-20260618-11251a [byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)](jvm/GE-20260618-11251a.md)
 - GE-20260618-397bf7 [CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch](jvm/GE-20260618-397bf7.md)
 - GE-20260618-fe1853 [Float-to-double threshold comparison silently fails at boundary values](jvm/GE-20260618-fe1853.md)
+- GE-20260618-d84391 [CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub](jvm/GE-20260618-d84391.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

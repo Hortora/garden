@@ -337,3 +337,4 @@
 - GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
 - GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)
 - GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
+- GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
