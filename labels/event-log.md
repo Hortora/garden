@@ -1,2 +1,3 @@
 - GE-20260429-a9bd85: CaseInstanceRepository.updateStateAndAppendEvent() already appends the EventLog — calling append() first duplicates the write
 - GE-20260525-f09688: CaseHubRuntime.eventLog() WORKER_EXECUTION_COMPLETED events do not carry workerName in metadata — use WORKER_SCHEDULED instead
+- GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode

@@ -4,3 +4,4 @@
 - GE-20260519-e193d2: Awaitility polling lambdas in @QuarkusTest have no JTA context — Panache reads throw ContextNotActiveException
 - GE-20260607-25a3fe: CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
+- GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key

@@ -86,3 +86,4 @@
 - GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves
 - GE-20260616-240c04: ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required
+- GE-20260618-3e5f2d: ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity

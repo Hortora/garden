@@ -1,3 +1,4 @@
 - GE-20260607-25a3fe: CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch
 - GE-20260607-e27c23: DefaultWorkerExecutionRecoveryService is a non-obvious CDI dependency of SignalReceivedEventHandler — excluding it causes deployment failure
 - GE-20260616-eb98d8: ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing
+- GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key

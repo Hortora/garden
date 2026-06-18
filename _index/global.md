@@ -23,3 +23,5 @@
 | scelight | scelight/INDEX.md |
 | web | web/INDEX.md |
 | casehub-desiredstate | casehub-desiredstate/INDEX.md |
+| jvm/casehub-engine | jvm/casehub-engine/INDEX.md |
+| jvm/casehub-ledger | jvm/casehub-ledger/INDEX.md |

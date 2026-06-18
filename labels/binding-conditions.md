@@ -1,1 +1,2 @@
 - GE-20260603-e98633: TaskDefinition.canActivate() default unconditionally returns true — entryCriteria() is ignored
+- GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key

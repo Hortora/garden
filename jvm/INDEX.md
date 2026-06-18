@@ -890,3 +890,4 @@
 | GE-20260618-a50133 | Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed | gotcha | 10/15 |
 | GE-20260618-af5596 | Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race | technique | 11/15 |
 | GE-20260618-303fa2 | QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution | gotcha | 11/15 |
+| GE-20260618-2f7442 | All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker | gotcha | 12/15 |

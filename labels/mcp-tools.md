@@ -1,2 +1,3 @@
 - GE-20260517-8d62e3: casehub-qhorus: tools.sendMessage("handoff") throws IllegalArgumentException when target is null
 - GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level
+- GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode

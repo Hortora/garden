@@ -56,3 +56,5 @@
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
 - GE-20260616-ed9481: CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query
 - GE-20260618-53a50a: casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()
+- GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode
+- GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key
