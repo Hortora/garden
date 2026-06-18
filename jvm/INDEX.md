@@ -910,3 +910,4 @@
 | GE-20260618-220afe | HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda | gotcha | 9/15 |
 | GE-20260618-11677d | @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient | gotcha | 8/15 |
 | GE-20260618-11251a | byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding) | technique | 9/15 |
+| GE-20260618-397bf7 | CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch | gotcha | 11/15 |

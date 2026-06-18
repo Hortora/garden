@@ -5,3 +5,4 @@
 - GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
+- GE-20260618-397bf7: CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch

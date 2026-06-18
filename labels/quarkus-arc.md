@@ -2,3 +2,4 @@
 - GE-20260519-eb8340: Instance<T>.handles() returns Iterable<? extends Instance.Handle<T>> — incompatible with Iterable<InstanceHandle<T>>
 - GE-20260615-c234fc: @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
+- GE-20260618-397bf7: CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch

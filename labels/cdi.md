@@ -292,3 +292,4 @@
 - GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
+- GE-20260618-397bf7: CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch

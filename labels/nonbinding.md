@@ -1,2 +1,1 @@
-- GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260618-397bf7: CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch
