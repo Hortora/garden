@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1707
+**Entries merged since last sweep:** 1708
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1458,6 +1458,7 @@
 - GE-20260618-451d25 [Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast](jvm/GE-20260618-451d25.md)
 - GE-20260618-a50133 [Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed](jvm/GE-20260618-a50133.md)
 - GE-20260618-af5596 [Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race](jvm/GE-20260618-af5596.md)
+- GE-20260618-303fa2 [QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution](jvm/GE-20260618-303fa2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -11,3 +11,4 @@
 - GE-20260613-29d3b5: casehub-engine ActionGateRejectedHandler/ActionGateExpiredHandler clear pendingActionGate before @ConsumeEvent application consumers run
 - GE-20260613-51de5b: DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
+- GE-20260618-303fa2: QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution
