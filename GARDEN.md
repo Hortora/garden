@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1694
+**Entries merged since last sweep:** 1695
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1445,6 +1445,7 @@
 - GE-20260617-127601 [WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success](jvm/GE-20260617-127601.md)
 - GE-20260618-73a023 [H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL](jvm/GE-20260618-73a023.md)
 - GE-20260618-174019 [H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not](jvm/GE-20260618-174019.md)
+- GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
 - GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
