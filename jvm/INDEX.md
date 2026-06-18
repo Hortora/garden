@@ -884,3 +884,5 @@
 | GE-20260618-a0f1e0 | --verbose is required for incremental AssistantMessage streaming in --output-format stream-json | undocumented | 12/15 |
 | GE-20260618-c4f95a | ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call | gotcha | 13/15 |
 | GE-20260618-268aab | Use /bin/cat subprocess to test blocking readLine() loops without a real binary | technique | 10/15 |
+| GE-20260618-451d25 | Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast | gotcha | 10/15 |
+| GE-20260618-fcb51b | Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts | gotcha | 11/15 |

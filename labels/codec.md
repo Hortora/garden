@@ -1,0 +1,1 @@
+- GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts

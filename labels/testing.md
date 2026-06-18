@@ -328,3 +328,4 @@
 - GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests
 - GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
+- GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts

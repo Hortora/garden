@@ -13,3 +13,4 @@
 - GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
+- GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts

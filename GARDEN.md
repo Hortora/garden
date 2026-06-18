@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1700
+**Entries merged since last sweep:** 1702
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1452,6 +1452,8 @@
 - GE-20260618-a0f1e0 [--verbose is required for incremental AssistantMessage streaming in --output-format stream-json](jvm/GE-20260618-a0f1e0.md)
 - GE-20260618-c4f95a [ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call](jvm/GE-20260618-c4f95a.md)
 - GE-20260618-268aab [Use /bin/cat subprocess to test blocking readLine() loops without a real binary](jvm/GE-20260618-268aab.md)
+- GE-20260618-451d25 [Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast](jvm/GE-20260618-451d25.md)
+- GE-20260618-fcb51b [Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts](jvm/GE-20260618-fcb51b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

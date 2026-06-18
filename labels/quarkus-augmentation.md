@@ -1,0 +1,1 @@
+- GE-20260618-451d25: Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast

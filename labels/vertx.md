@@ -28,3 +28,4 @@
 - GE-20260529-b994c2: Uni.createFrom().item(supplier) with emitOn() — supplier still runs on the subscription thread
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts

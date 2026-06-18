@@ -564,3 +564,4 @@
 - GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
 - GE-20260617-54b75b: Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
+- GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts
