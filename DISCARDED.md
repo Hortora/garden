@@ -45,3 +45,4 @@
 | jvm/GE-20260526-5247f2 | jvm/GE-20260609-9ee2ad | ChannelService.create() doesn't register in gateway — same gotcha, 9ee2ad has higher score (13 vs 10) |
 | jvm/GE-20260613-9e0a5b | jvm/GE-20260601-fcf0d9 | Two @DefaultBean beans ambiguity — same gotcha, fcf0d9 has higher score (12 vs 9) |
 | jvm/GE-20260529-5a8158 | jvm/GE-20260612-ed9ff0 | @ConfigMapping strict mode rejects @ConfigProperty on owned prefix — same gotcha, ed9ff0 has higher score (12 vs 9) |
+| jvm/GE-20260618-174019 | jvm/GE-20260617-6b01c4 | H2 MVStore MERGE INTO concurrent first-inserts race — same gotcha, 6b01c4 has higher score (12 vs 11) and is more complete (106 vs 47 lines) |

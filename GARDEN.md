@@ -1444,7 +1444,6 @@
 - GE-20260617-daa4cb [MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset](jvm/GE-20260617-daa4cb.md)
 - GE-20260617-127601 [WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success](jvm/GE-20260617-127601.md)
 - GE-20260618-73a023 [H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL](jvm/GE-20260618-73a023.md)
-- GE-20260618-174019 [H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not](jvm/GE-20260618-174019.md)
 - GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
 - GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
 - GE-20260618-0ed34c [H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist](jvm/GE-20260618-0ed34c.md)
