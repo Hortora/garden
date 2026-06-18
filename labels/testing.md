@@ -326,3 +326,4 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260617-cb0731: RESTEasy SseEventSource fires event handlers for SSE comment-only frames — violates SSE spec
 - GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests
+- GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist

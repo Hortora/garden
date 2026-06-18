@@ -1,1 +1,2 @@
 - GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
+- GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist

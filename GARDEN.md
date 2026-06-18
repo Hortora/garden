@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1695
+**Entries merged since last sweep:** 1696
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1447,6 +1447,7 @@
 - GE-20260618-174019 [H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not](jvm/GE-20260618-174019.md)
 - GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
 - GE-20260605-e202fd [H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility](jvm/GE-20260605-e202fd.md)
+- GE-20260618-0ed34c [H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist](jvm/GE-20260618-0ed34c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -67,3 +67,4 @@
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
+- GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist

@@ -9,3 +9,4 @@
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
 - GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
 - GE-20260618-73a023: H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL
+- GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist

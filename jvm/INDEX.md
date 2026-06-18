@@ -879,3 +879,4 @@
 | GE-20260618-174019 | H2 MVStore MERGE INTO lacks index-entry locking — concurrent first-inserts race; plain INSERT does not | gotcha | 11/15 |
 | GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
 | GE-20260605-e202fd | H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility | gotcha | 10/15 |
+| GE-20260618-0ed34c | H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist | gotcha | 13/15 |
