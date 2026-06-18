@@ -1,1 +1,2 @@
 - GE-20260415-53068a: RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException
+- GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values

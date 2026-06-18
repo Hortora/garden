@@ -1,2 +1,3 @@
 - GE-20260512-e3e525: OCC + policyTriggered flag for M-of-N threshold completion — prevents duplicate trigger under READ COMMITTED
 - GE-20260529-c6ff44: Math.abs(0.8 - 0.7) > 0.1 in Java IEEE 754 — exact decimal boundary tests fail silently
+- GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values

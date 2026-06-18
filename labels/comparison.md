@@ -1,0 +1,1 @@
+- GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values

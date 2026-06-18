@@ -1,2 +1,3 @@
 - GE-20260415-53068a: RestAssured deserialises JSON floats as Float not Double — (Double) cast throws ClassCastException
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
+- GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values
