@@ -31,3 +31,4 @@
 - GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores
 - GE-20260609-d24a97: Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler
 - GE-20260612-cd10d7: JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't
+- GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
