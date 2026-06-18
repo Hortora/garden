@@ -3,3 +3,4 @@
 - GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
+- GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x

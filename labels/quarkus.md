@@ -574,3 +574,7 @@
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
+- GE-20260618-9b08e4: quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka
+- GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
+- GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
+- GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)

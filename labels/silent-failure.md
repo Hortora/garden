@@ -56,3 +56,4 @@
 - GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
 - GE-20260616-0175da: ReactiveUtils.runOnSafeVertxContext silently no-ops with mock Vertx
 - GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
+- GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()

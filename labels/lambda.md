@@ -6,3 +6,4 @@
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
+- GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1727
+**Entries merged since last sweep:** 1733
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1474,6 +1474,12 @@
 - GE-20260618-d81cef [Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores](jvm/GE-20260618-d81cef.md)
 - GE-20260618-08cb96 [Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery](jvm/GE-20260618-08cb96.md)
 - GE-20260618-979c68 [@ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix](jvm/GE-20260618-979c68.md)
+- GE-20260618-9b08e4 [quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka](jvm/GE-20260618-9b08e4.md)
+- GE-20260618-2a7b8a [quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x](jvm/GE-20260618-2a7b8a.md)
+- GE-20260618-a677f1 [java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()](jvm/GE-20260618-a677f1.md)
+- GE-20260618-220afe [HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda](jvm/GE-20260618-220afe.md)
+- GE-20260618-11677d [@QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient](jvm/GE-20260618-11677d.md)
+- GE-20260618-11251a [byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)](jvm/GE-20260618-11251a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

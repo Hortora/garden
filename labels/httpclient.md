@@ -1,3 +1,5 @@
 - GE-20260417-2b12e1: Test HTTP-dependent methods by overriding package-private helpers in an inner subclass — no Mockito needed
 - GE-20260517-7471c7: Java HttpClient silently returns empty result for file:// URLs
 - GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes
+- GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()
+- GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda

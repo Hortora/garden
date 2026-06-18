@@ -129,3 +129,6 @@
 - GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up
 - GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
+- GE-20260618-9b08e4: quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka
+- GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
+- GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient

@@ -1,2 +1,1 @@
-- GE-20260615-d008ea: EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS
 - GE-20260618-9b08e4: quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka

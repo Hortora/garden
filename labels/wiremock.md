@@ -6,3 +6,4 @@
 - GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
 - GE-20260609-2308ed: wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
+- GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x

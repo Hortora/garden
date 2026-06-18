@@ -904,3 +904,9 @@
 | GE-20260618-d81cef | Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores | gotcha | 12/15 |
 | GE-20260618-08cb96 | Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery | gotcha | 11/15 |
 | GE-20260618-979c68 | @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix | gotcha | 9/15 |
+| GE-20260618-9b08e4 | quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka | gotcha | 9/15 |
+| GE-20260618-2a7b8a | quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x | gotcha | 9/15 |
+| GE-20260618-a677f1 | java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode() | gotcha | 10/15 |
+| GE-20260618-220afe | HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda | gotcha | 9/15 |
+| GE-20260618-11677d | @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient | gotcha | 8/15 |
+| GE-20260618-11251a | byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding) | technique | 9/15 |

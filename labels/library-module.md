@@ -1,1 +1,2 @@
 - GE-20260608-1cb2a4: @JsonFormat(shape=STRING) required on Instant fields in Quarkus library-module REST client DTOs
+- GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
