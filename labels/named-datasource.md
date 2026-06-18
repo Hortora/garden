@@ -4,3 +4,4 @@
 - GE-20260423-885412: Quarkus @PersistenceUnit injection does not use @Inject — adding it breaks CDI resolution
 - GE-20260529-18fc5f: Quarkus QuarkusTestProfile.getConfigProfile() REPLACES %test profile — production application.properties becomes active, Dev Services cannot inject URLs
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
+- GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery

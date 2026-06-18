@@ -572,3 +572,4 @@
 - GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
+- GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
