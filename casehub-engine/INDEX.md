@@ -34,3 +34,4 @@
 | GE-20260613-51de5b | DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe | technique | 9/15 |
 | GE-20260615-35f52f | casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data | gotcha | 14/15 |
 | GE-20260616-ed9481 | CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query | gotcha | 8/15 |
+| GE-20260618-53a50a | casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType() | undocumented | 9/15 |

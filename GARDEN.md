@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1708
+**Entries merged since last sweep:** 1709
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -55,6 +55,7 @@
 - GE-20260613-51de5b [DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe](casehub-engine/GE-20260613-51de5b.md)
 - GE-20260615-35f52f [casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data](casehub-engine/GE-20260615-35f52f.md)
 - GE-20260616-ed9481 [CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query](casehub-engine/GE-20260616-ed9481.md)
+- GE-20260618-53a50a [casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()](casehub-engine/GE-20260618-53a50a.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
