@@ -28,3 +28,6 @@
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
 - GE-20260615-0d2eda: langchain4j-embeddings uses independent versioning from main langchain4j — version 1.14.1 does not exist
 - GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods
+- GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
+- GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders
+- GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)

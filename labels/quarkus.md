@@ -567,3 +567,6 @@
 - GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required
 - GE-20260618-303fa2: QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution
+- GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
+- GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
+- GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock

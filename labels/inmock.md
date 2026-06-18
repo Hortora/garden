@@ -1,0 +1,1 @@
+- GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock

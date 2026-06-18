@@ -1,0 +1,1 @@
+- GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders

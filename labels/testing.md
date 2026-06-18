@@ -331,3 +331,8 @@
 - GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts
 - GE-20260618-303fa2: QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution
 - GE-20260618-53a50a: casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()
+- GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
+- GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
+- GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders
+- GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
+- GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)

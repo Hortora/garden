@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1714
+**Entries merged since last sweep:** 1720
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1461,6 +1461,12 @@
 - GE-20260618-af5596 [Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race](jvm/GE-20260618-af5596.md)
 - GE-20260618-303fa2 [QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution](jvm/GE-20260618-303fa2.md)
 - GE-20260618-2f7442 [All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker](jvm/GE-20260618-2f7442.md)
+- GE-20260618-248ce7 [Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()](jvm/GE-20260618-248ce7.md)
+- GE-20260618-c552c3 [@InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail](jvm/GE-20260618-c552c3.md)
+- GE-20260618-a7a383 [LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders](jvm/GE-20260618-a7a383.md)
+- GE-20260618-5008f5 [@Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock](jvm/GE-20260618-5008f5.md)
+- GE-20260618-8526c8 [ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)](jvm/GE-20260618-8526c8.md)
+- GE-20260618-fe7c8e [WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute](jvm/GE-20260618-fe7c8e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

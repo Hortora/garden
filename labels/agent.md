@@ -1,3 +1,5 @@
 - GE-20260422-3254e2: Project-local .claude/settings.json creates an isolated Claude Code agent context with pre-approved commands
 - GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
 - GE-20260604-5bb2e7: CircuitBreakerOpenException escapes AgentInvocationException wrapper in Quarkus langchain4j agents
+- GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
+- GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute

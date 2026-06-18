@@ -891,3 +891,9 @@
 | GE-20260618-af5596 | Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race | technique | 11/15 |
 | GE-20260618-303fa2 | QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution | gotcha | 11/15 |
 | GE-20260618-2f7442 | All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker | gotcha | 12/15 |
+| GE-20260618-248ce7 | Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment() | gotcha | 11/15 |
+| GE-20260618-c552c3 | @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail | gotcha | 13/15 |
+| GE-20260618-a7a383 | LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders | gotcha | 9/15 |
+| GE-20260618-5008f5 | @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock | technique | 12/15 |
+| GE-20260618-8526c8 | ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest) | technique | 9/15 |
+| GE-20260618-fe7c8e | WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute | undocumented | 10/15 |

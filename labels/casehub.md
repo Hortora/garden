@@ -62,3 +62,6 @@
 - GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient
 - GE-20260618-9ecfa7: Prometheus JSONata preset: vector and matrix paths apply different label filtering
 - GE-20260618-1bcafc: DashBuilder global.dataset.type is stored but never consumed by casehub runtime
+- GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
+- GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
+- GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute

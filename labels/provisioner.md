@@ -1,0 +1,1 @@
+- GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute

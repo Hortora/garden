@@ -2,3 +2,4 @@
 - GE-20260616-eb98d8: ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260617-127601: WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success
+- GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute

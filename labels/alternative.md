@@ -36,3 +36,4 @@
 - GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException
 - GE-20260616-d70e7e: quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved
 - GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
+- GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
