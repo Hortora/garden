@@ -35,3 +35,4 @@
 - GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently
 - GE-20260613-c29bb8: SseEventSink.send() is async — synchronous sink.close() immediately after throws 'Response already written'
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
+- GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race

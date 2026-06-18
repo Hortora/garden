@@ -9,3 +9,4 @@
 - GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary
 - GE-20260613-3fa95a: Two-path renderer: structural assembly reads source record directly, bypassing the LLM payload hash
 - GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
+- GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race

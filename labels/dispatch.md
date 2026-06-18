@@ -2,3 +2,4 @@
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
+- GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race

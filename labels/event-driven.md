@@ -4,3 +4,4 @@
 - GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
+- GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
