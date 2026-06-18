@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1704
+**Entries merged since last sweep:** 1705
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -255,6 +255,7 @@
 - GE-20260420-c94e2a [Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults](java/GE-20260420-c94e2a.md)
 - GE-20260617-68c9c5 [Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false](java/GE-20260617-68c9c5.md)
 - GE-20260617-ea8260 [TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid](java/GE-20260617-ea8260.md)
+- GE-20260421-cdfff1 [Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required](java/GE-20260421-cdfff1.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
