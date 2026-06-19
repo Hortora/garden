@@ -132,3 +132,4 @@
 - GE-20260618-9b08e4: quarkus-messaging-kafka — Quarkus 3.x artifact renamed from quarkus-smallrye-reactive-messaging-kafka
 - GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
+- GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT

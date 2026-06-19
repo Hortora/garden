@@ -919,3 +919,5 @@
 | GE-20260601-fcf0d9 | Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied | gotcha | 12/15 |
 | GE-20260619-fe34fc | Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime | gotcha | 12/15 |
 | GE-20260619-479b69 | Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails | gotcha | 10/15 |
+| GE-20260619-c99452 | Broken pipe on subprocess stdin when process exits before write completes | gotcha | 9/15 |
+| GE-20260619-f8b50c | Install engine module from specific git commit to match published SNAPSHOT | technique | 8/15 |

@@ -7,3 +7,4 @@
 - GE-20260618-c4f95a: ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
 - GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path
+- GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes

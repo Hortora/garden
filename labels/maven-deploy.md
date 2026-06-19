@@ -1,0 +1,1 @@
+- GE-20260619-31e6e4: GitHub Packages Maven registry does not follow repo name redirects

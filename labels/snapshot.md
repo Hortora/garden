@@ -35,3 +35,4 @@
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260618-a50133: Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed
+- GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT

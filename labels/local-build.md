@@ -1,0 +1,1 @@
+- GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT

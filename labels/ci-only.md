@@ -1,0 +1,1 @@
+- GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes

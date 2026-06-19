@@ -14,3 +14,4 @@
 - GE-20260504-ba71a8: GitHub Actions cache/restore + cache/save as separate v4 actions enables failure-aware state persistence
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
+- GE-20260619-31e6e4: GitHub Packages Maven registry does not follow repo name redirects
