@@ -133,3 +133,5 @@
 - GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
 - GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT
+- GE-20260619-103d3c: GitHub Packages Maven wildcard URL resolves across all org repos — one repository entry covers the entire org
+- GE-20260619-839671: Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup

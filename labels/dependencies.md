@@ -3,3 +3,5 @@
 - GE-20260420-f3e0a7: Use `jar tf` to verify a class exists in an installed Maven artifact before attempting a compile
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep
 - GE-20260617-397d41: quarkus-rest-client-reactive does not exist in Quarkus 3.x — correct artifact is quarkus-rest-client
+- GE-20260619-103d3c: GitHub Packages Maven wildcard URL resolves across all org repos — one repository entry covers the entire org
+- GE-20260619-839671: Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup

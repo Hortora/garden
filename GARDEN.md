@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1745
+**Entries merged since last sweep:** 1747
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2048,6 +2048,8 @@
 - GE-20260618-a4032c [Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main](tools/GE-20260618-a4032c.md)
 - GE-20260618-5e2828 [GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path](tools/GE-20260618-5e2828.md)
 - GE-20260619-31e6e4 [GitHub Packages Maven registry does not follow repo name redirects](tools/GE-20260619-31e6e4.md)
+- GE-20260619-103d3c [GitHub Packages Maven wildcard URL resolves across all org repos — one repository entry covers the entire org](tools/GE-20260619-103d3c.md)
+- GE-20260619-839671 [Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup](tools/GE-20260619-839671.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -520,3 +520,5 @@
 | GE-20260618-a4032c | Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main | gotcha | 9/15 |
 | GE-20260618-5e2828 | GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path | gotcha | 10/15 |
 | GE-20260619-31e6e4 | GitHub Packages Maven registry does not follow repo name redirects | gotcha | 11/15 |
+| GE-20260619-103d3c | GitHub Packages Maven wildcard URL resolves across all org repos — one repository entry covers the entire org | undocumented | 11/15 |
+| GE-20260619-839671 | Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup | technique | 10/15 |
