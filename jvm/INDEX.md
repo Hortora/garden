@@ -916,3 +916,4 @@
 | GE-20260618-2bc371 | OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client | gotcha | 13/15 |
 | GE-20260618-c5d2d8 | JDK HttpServer as zero-dependency mock server for Quarkus REST client testing | technique | 10/15 |
 | GE-20260601-fcf0d9 | Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied | gotcha | 12/15 |
+| GE-20260601-fcf0d9 | Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied | gotcha | 12/15 |
