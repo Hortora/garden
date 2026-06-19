@@ -4,3 +4,4 @@
 - GE-20260609-49bd08: Static Panache entity calls bypass injected store tenant filtering
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
 - GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry
+- GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails

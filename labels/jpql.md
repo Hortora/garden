@@ -10,3 +10,4 @@
 - GE-20260617-54b75b: Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime
 - GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL
 - GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL
+- GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
