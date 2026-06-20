@@ -145,3 +145,4 @@
 - GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports
 - GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
+- GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI

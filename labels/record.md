@@ -2,3 +2,4 @@
 - GE-20260525-8c0ba2: AtomicInteger refcount + record CTX re-application removes per-unit tracking for pub/sub adapter cleanup
 - GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
+- GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI

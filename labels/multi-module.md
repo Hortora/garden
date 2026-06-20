@@ -32,3 +32,4 @@
 - GE-20260612-1100fe: mvn test -pl <child> passes while installed runtime jar hides a cross-module API break
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
+- GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI

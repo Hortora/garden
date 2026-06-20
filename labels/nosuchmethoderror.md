@@ -5,3 +5,4 @@
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
