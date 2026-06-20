@@ -58,3 +58,4 @@
 - GE-20260618-53a50a: casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()
 - GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode
 - GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key
+- GE-20260621-8f3c3a: CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals

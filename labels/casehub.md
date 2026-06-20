@@ -65,3 +65,4 @@
 - GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
 - GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
 - GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute
+- GE-20260621-8f3c3a: CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals

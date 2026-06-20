@@ -1,2 +1,1 @@
-- GE-20260605-fa1a51: PlanItemCompletedEvent only fires for worker completions — context signals bypass it entirely
 - GE-20260621-8f3c3a: CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals
