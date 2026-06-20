@@ -1,0 +1,1 @@
+- GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost

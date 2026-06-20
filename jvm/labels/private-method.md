@@ -1,0 +1,1 @@
+- GE-20260618-976009: Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning

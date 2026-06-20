@@ -1,0 +1,1 @@
+- GE-20260618-b2e96b: Missing .outputSchema(".") on Capability builder silently discards Java-function worker output — case context never updated, goal never fires

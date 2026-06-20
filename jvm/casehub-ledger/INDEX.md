@@ -1,0 +1,1 @@
+| GE-20260618-3e5f2d | ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity | gotcha | 12/15 |
