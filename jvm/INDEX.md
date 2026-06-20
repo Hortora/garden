@@ -924,3 +924,4 @@
 | GE-20260620-29b8fc | Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests | gotcha | 11/15 |
 | GE-20260620-768950 | WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI | gotcha | 11/15 |
 | GE-20260620-04450c | waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests | technique | 9/15 |
+| GE-20260620-9d043b | CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum | gotcha | 12/15 |

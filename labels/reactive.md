@@ -66,3 +66,4 @@
 - GE-20260616-99484f: Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
+- GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum

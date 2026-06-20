@@ -1,3 +1,4 @@
 - GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring
 - GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks
 - GE-20260529-88b7b6: ChannelService.create() is not idempotent — use findByName() before create() for idempotent openChannel()
+- GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
