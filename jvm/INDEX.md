@@ -921,3 +921,4 @@
 | GE-20260619-479b69 | Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails | gotcha | 10/15 |
 | GE-20260619-c99452 | Broken pipe on subprocess stdin when process exits before write completes | gotcha | 9/15 |
 | GE-20260619-f8b50c | Install engine module from specific git commit to match published SNAPSHOT | technique | 8/15 |
+| GE-20260620-29b8fc | Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests | gotcha | 11/15 |

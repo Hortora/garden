@@ -583,3 +583,4 @@
 - GE-20260618-c5d2d8: JDK HttpServer as zero-dependency mock server for Quarkus REST client testing
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260620-29b8fc: Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests

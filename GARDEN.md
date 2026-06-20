@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1747
+**Entries merged since last sweep:** 1748
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1490,6 +1490,7 @@
 - GE-20260619-479b69 [Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails](jvm/GE-20260619-479b69.md)
 - GE-20260619-c99452 [Broken pipe on subprocess stdin when process exits before write completes](jvm/GE-20260619-c99452.md)
 - GE-20260619-f8b50c [Install engine module from specific git commit to match published SNAPSHOT](jvm/GE-20260619-f8b50c.md)
+- GE-20260620-29b8fc [Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests](jvm/GE-20260620-29b8fc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -17,3 +17,4 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260616-bb45d5: Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var
+- GE-20260620-29b8fc: Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests

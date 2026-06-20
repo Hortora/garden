@@ -1,0 +1,1 @@
+- GE-20260620-29b8fc: Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests

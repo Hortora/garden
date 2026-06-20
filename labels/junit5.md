@@ -21,3 +21,4 @@
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
 - GE-20260614-eaa3e7: @BeforeAll System.setProperty() arrives after @Startup @PostConstruct in @QuarkusTest
+- GE-20260620-29b8fc: Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests
