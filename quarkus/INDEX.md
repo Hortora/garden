@@ -235,3 +235,4 @@
 | GE-20260422-ebb91d | CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface | gotcha | 10/15 |
 | GE-20260427-5d7c67 | quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean | gotcha | 11/15 |
 | GE-20260414-c2f74c | Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread | gotcha | 12/15 |
+| GE-20260421-ac12d5 | Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny | technique | 10/15 |

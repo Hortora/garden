@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1748
+**Entries merged since last sweep:** 1749
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -549,6 +549,7 @@
 - GE-20260422-ebb91d [CDI AmbiguousResolutionException when multiple @ApplicationScoped beans implement the same SPI interface](quarkus/GE-20260422-ebb91d.md)
 - GE-20260427-5d7c67 [quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean](quarkus/GE-20260427-5d7c67.md)
 - GE-20260414-c2f74c [Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread](quarkus/GE-20260414-c2f74c.md)
+- GE-20260421-ac12d5 [Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny](quarkus/GE-20260421-ac12d5.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
