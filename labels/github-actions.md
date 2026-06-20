@@ -29,3 +29,4 @@
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260616-fa89ff: GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD
 - GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork
+- GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN

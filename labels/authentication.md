@@ -4,3 +4,4 @@
 - GE-20260530-b68c00: Maven caches GitHub Packages 401 failure in *.lastUpdated markers — fixing auth alone doesn't unblock resolution
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
 - GE-20260614-d9a38f: Xenova HuggingFace ONNX exports return 401 even when source model is public
+- GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN

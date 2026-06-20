@@ -31,3 +31,4 @@
 - GE-20260619-103d3c: GitHub Packages Maven wildcard URL resolves across all org repos — one repository entry covers the entire org
 - GE-20260619-839671: Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup
 - GE-20260620-768950: WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI
+- GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
