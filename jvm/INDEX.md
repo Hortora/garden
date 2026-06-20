@@ -922,3 +922,5 @@
 | GE-20260619-c99452 | Broken pipe on subprocess stdin when process exits before write completes | gotcha | 9/15 |
 | GE-20260619-f8b50c | Install engine module from specific git commit to match published SNAPSHOT | technique | 8/15 |
 | GE-20260620-29b8fc | Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests | gotcha | 11/15 |
+| GE-20260620-768950 | WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI | gotcha | 11/15 |
+| GE-20260620-04450c | waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests | technique | 9/15 |

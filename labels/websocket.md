@@ -7,3 +7,5 @@
 - GE-20260609-54d3c7: BufferedReader on raw ServerSocket reads ahead past HTTP headers into WebSocket frame data
 - GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes
 - GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
+- GE-20260620-768950: WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI
+- GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests

@@ -12,3 +12,4 @@
 - GE-20260613-51de5b: DB query over CaseInstanceCache for Vert.x @ConsumeEvent gate discrimination — race-free, restart-safe
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
 - GE-20260618-303fa2: QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution
+- GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
