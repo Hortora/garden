@@ -3,3 +3,4 @@
 - GE-20260427-987198: quarkus.arc.exclude-types suppresses CDI beans from library JARs without removing the JPA entity
 - GE-20260420-1ffdff: git rebase with 40+ commits onto diverged upstream cascades into unmanageable conflicts — use fresh branch + diff patch instead
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
+- GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged

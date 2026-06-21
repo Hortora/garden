@@ -1,1 +1,2 @@
 - GE-20260417-15f33f: AI session handover can describe committed work that was never committed
+- GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
