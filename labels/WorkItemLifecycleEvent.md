@@ -1,0 +1,1 @@
+- GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only

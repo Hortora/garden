@@ -15,3 +15,4 @@
 - GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
+- GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only

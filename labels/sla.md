@@ -6,3 +6,4 @@
 - GE-20260522-de5ee3: BreachDecision.Chained as a separate sealed type — keeps individual decisions pure and composition explicit
 - GE-20260528-c968e2: Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
+- GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only
