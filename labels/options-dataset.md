@@ -1,2 +1,1 @@
-- GE-20260613-899303: JSONata v2 auto-unwraps single-element array results into flat values
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline

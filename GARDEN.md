@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1761
+**Entries merged since last sweep:** 1765
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2107,6 +2107,10 @@
 - GE-20260621-710dfe [TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config](web/GE-20260621-710dfe.md)
 - GE-20260621-d5e7d4 [Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission](web/GE-20260621-d5e7d4.md)
 - GE-20260621-f9970f [tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements](web/GE-20260621-f9970f.md)
+- GE-20260621-d98bb2 [Prometheus text parser indexOf('}') breaks on URI path params containing curly braces](web/GE-20260621-d98bb2.md)
+- GE-20260621-fe3944 [Table filter event needs both row object and rowIndex — display index differs from dataset index](web/GE-20260621-fe3944.md)
+- GE-20260621-90ec54 [Record navigation silently fails with non-unique idColumn — filter matches multiple rows](web/GE-20260621-90ec54.md)
+- GE-20260621-f0563a [Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline](web/GE-20260621-f0563a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

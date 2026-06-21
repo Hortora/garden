@@ -8,3 +8,4 @@
 - GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled
 - GE-20260609-3bb404: Python regex \s* matches \n — table row parser merges separator row with next data row across newlines
 - GE-20260618-03a482: ControlMessageParser.parse() returns null for unrecognised types — unguarded switch NPEs
+- GE-20260621-d98bb2: Prometheus text parser indexOf('}') breaks on URI path params containing curly braces

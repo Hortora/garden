@@ -1,2 +1,1 @@
-- GE-20260604-942686: Prometheus counter fires on both paths of a find-or-create method
 - GE-20260621-d98bb2: Prometheus text parser indexOf('}') breaks on URI path params containing curly braces

@@ -34,3 +34,7 @@
 | GE-20260621-710dfe | TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config | gotcha | 10/15 |
 | GE-20260621-d5e7d4 | Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission | technique | 10/15 |
 | GE-20260621-f9970f | tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements | undocumented | 10/15 |
+| GE-20260621-d98bb2 | Prometheus text parser indexOf('}') breaks on URI path params containing curly braces | gotcha | 10/15 |
+| GE-20260621-fe3944 | Table filter event needs both row object and rowIndex — display index differs from dataset index | gotcha | 9/15 |
+| GE-20260621-90ec54 | Record navigation silently fails with non-unique idColumn — filter matches multiple rows | gotcha | 8/15 |
+| GE-20260621-f0563a | Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline | technique | 9/15 |

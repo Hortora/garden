@@ -5,3 +5,5 @@
 - GE-20260609-521cca: Qdrant Java client Filter type is Common.Filter not Points.Filter
 - GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream
 - GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup
+- GE-20260621-fe3944: Table filter event needs both row object and rowIndex — display index differs from dataset index
+- GE-20260621-90ec54: Record navigation silently fails with non-unique idColumn — filter matches multiple rows

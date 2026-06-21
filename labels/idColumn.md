@@ -1,0 +1,1 @@
+- GE-20260621-90ec54: Record navigation silently fails with non-unique idColumn — filter matches multiple rows

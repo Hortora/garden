@@ -13,3 +13,4 @@
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline

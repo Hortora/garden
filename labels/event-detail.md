@@ -1,0 +1,1 @@
+- GE-20260621-fe3944: Table filter event needs both row object and rowIndex — display index differs from dataset index

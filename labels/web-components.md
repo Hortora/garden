@@ -2,3 +2,5 @@
 - GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter
 - GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
 - GE-20260617-cc0834: Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields
+- GE-20260621-fe3944: Table filter event needs both row object and rowIndex — display index differs from dataset index
+- GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
