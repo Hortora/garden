@@ -31,3 +31,6 @@
 | GE-20260618-580486 | NavTree orphaned pages duplicate charts — filtering navTree members is insufficient | gotcha | 10/15 |
 | GE-20260618-9ecfa7 | Prometheus JSONata preset: vector and matrix paths apply different label filtering | gotcha | 8/15 |
 | GE-20260618-1bcafc | DashBuilder global.dataset.type is stored but never consumed by casehub runtime | undocumented | 9/15 |
+| GE-20260621-710dfe | TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config | gotcha | 10/15 |
+| GE-20260621-d5e7d4 | Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission | technique | 10/15 |
+| GE-20260621-f9970f | tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements | undocumented | 10/15 |

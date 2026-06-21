@@ -1,0 +1,1 @@
+- GE-20260621-d5e7d4: Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission

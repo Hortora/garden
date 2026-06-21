@@ -1,2 +1,3 @@
 - GE-20260506-25d851: Jekyll --incremental does not rebuild when layouts or includes change — only content files trigger rebuild
 - GE-20260506-3096d9: rustkyll serve does not support --incremental flag despite build supporting it
+- GE-20260621-d5e7d4: Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission

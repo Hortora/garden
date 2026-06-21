@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1755
+**Entries merged since last sweep:** 1758
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2101,6 +2101,9 @@
 - GE-20260618-580486 [NavTree orphaned pages duplicate charts — filtering navTree members is insufficient](web/GE-20260618-580486.md)
 - GE-20260618-9ecfa7 [Prometheus JSONata preset: vector and matrix paths apply different label filtering](web/GE-20260618-9ecfa7.md)
 - GE-20260618-1bcafc [DashBuilder global.dataset.type is stored but never consumed by casehub runtime](web/GE-20260618-1bcafc.md)
+- GE-20260621-710dfe [TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config](web/GE-20260621-710dfe.md)
+- GE-20260621-d5e7d4 [Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission](web/GE-20260621-d5e7d4.md)
+- GE-20260621-f9970f [tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements](web/GE-20260621-f9970f.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

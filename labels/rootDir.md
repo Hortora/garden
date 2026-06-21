@@ -1,0 +1,1 @@
+- GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config

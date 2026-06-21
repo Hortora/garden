@@ -1,0 +1,1 @@
+- GE-20260621-f9970f: tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements

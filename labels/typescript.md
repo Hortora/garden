@@ -4,3 +4,6 @@
 - GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter
 - GE-20260615-8cd96f: TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion
 - GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
+- GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
+- GE-20260621-d5e7d4: Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission
+- GE-20260621-f9970f: tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements
