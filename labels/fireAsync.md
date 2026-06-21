@@ -1,3 +1,4 @@
 - GE-20260529-e43076: Await CDI fireAsync() delivery in @ConsumeEvent reactive chain via Uni.createFrom().completionStage()
 - GE-20260531-e1ce47: CDI @Observes and @ObservesAsync are separate delivery channels — @Observes never receives fireAsync() events
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
+- GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters

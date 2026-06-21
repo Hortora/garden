@@ -930,3 +930,4 @@
 | GE-20260621-629712 | Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters | technique | 12/15 |
 | GE-20260621-cb4492 | drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead | gotcha | 9/15 |
 | GE-20260621-069194 | KieHelper removed from Drools 10 — no replacement utility class | gotcha | 8/15 |
+| GE-20260621-629712 | Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters | technique | 12/15 |

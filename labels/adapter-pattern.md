@@ -1,1 +1,2 @@
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
+- GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
