@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1767
+**Entries merged since last sweep:** 1768
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -78,6 +78,7 @@
 - GE-20260607-fad749 [Mockito strict: doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem for non-matching calls](casehub-work/GE-20260607-fad749.md)
 - GE-20260607-432456 [Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method](casehub-work/GE-20260607-432456.md)
 - GE-20260607-7033a1 [Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load](casehub-work/GE-20260607-7033a1.md)
+- GE-20260522-f7db12 [Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed](casehub-work/GE-20260522-f7db12.md)
 ### casehub-ledger/
 - GE-20260511-b6f903 [casehub-ledger required fields](casehub-ledger/GE-20260511-b6f903.md)
 - GE-20260420-b9259e [LedgerAttestation in quarkus-ledger is plain @Entity — Panache statics cause compile error](casehub-ledger/GE-20260420-b9259e.md)
