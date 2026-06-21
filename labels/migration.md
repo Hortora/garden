@@ -32,3 +32,4 @@
 - GE-20260609-d24a97: Vert.x 4.x rx-java2 binding WebSocket.writeBinaryMessage(Buffer) exists but core WebSocket version requires Handler
 - GE-20260612-cd10d7: JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
+- GE-20260621-069194: KieHelper removed from Drools 10 — no replacement utility class

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1760
+**Entries merged since last sweep:** 1761
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1499,6 +1499,7 @@
 - GE-20260621-8f3c3a [CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals](jvm/GE-20260621-8f3c3a.md)
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters](jvm/GE-20260621-629712.md)
 - GE-20260621-cb4492 [drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead](jvm/GE-20260621-cb4492.md)
+- GE-20260621-069194 [KieHelper removed from Drools 10 — no replacement utility class](jvm/GE-20260621-069194.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

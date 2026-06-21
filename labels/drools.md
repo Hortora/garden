@@ -6,3 +6,4 @@
 - GE-20260427-c94b12: Java erasure conflict at specific arity boundaries when adding ctx-optional filter overloads
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope
 - GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead
+- GE-20260621-069194: KieHelper removed from Drools 10 — no replacement utility class
