@@ -1,0 +1,1 @@
+- GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead

@@ -137,3 +137,4 @@
 - GE-20260619-839671: Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
+- GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead

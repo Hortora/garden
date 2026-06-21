@@ -928,3 +928,4 @@
 | GE-20260620-66bce6 | Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI | gotcha | 11/15 |
 | GE-20260621-8f3c3a | CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals | gotcha | 11/15 |
 | GE-20260621-629712 | Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters | technique | 12/15 |
+| GE-20260621-cb4492 | drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead | gotcha | 9/15 |
