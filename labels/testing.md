@@ -343,3 +343,4 @@
 - GE-20260620-29b8fc: Quarkus eagerly starts @QuarkusTestResource from @Disabled test classes — breaks other tests
 - GE-20260620-768950: WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI
 - GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
+- GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files

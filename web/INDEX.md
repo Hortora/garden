@@ -38,3 +38,4 @@
 | GE-20260621-fe3944 | Table filter event needs both row object and rowIndex — display index differs from dataset index | gotcha | 9/15 |
 | GE-20260621-90ec54 | Record navigation silently fails with non-unique idColumn — filter matches multiple rows | gotcha | 8/15 |
 | GE-20260621-f0563a | Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline | technique | 9/15 |
+| GE-20260622-549a11 | ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files | gotcha | 10/15 |

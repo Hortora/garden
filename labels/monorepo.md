@@ -3,3 +3,4 @@
 - GE-20260615-8cd96f: TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion
 - GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
 - GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
+- GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
