@@ -1,0 +1,1 @@
+- GE-20260622-e779f1: casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment

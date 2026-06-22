@@ -32,3 +32,4 @@
 - GE-20260609-0e178e: ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
 - GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types
+- GE-20260622-e779f1: casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment
