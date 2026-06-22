@@ -1,2 +1,1 @@
-- GE-20260602-286f16: Mutiny Infrastructure.getDefaultBlockingExecutor() does not exist — use getDefaultExecutor()
 - GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools

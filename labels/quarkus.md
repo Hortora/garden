@@ -591,3 +591,4 @@
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
+- GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools

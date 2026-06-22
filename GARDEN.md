@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1772
+**Entries merged since last sweep:** 1773
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1505,6 +1505,7 @@
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters](jvm/GE-20260621-629712.md)
 - GE-20260622-e779f1 [casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment](jvm/GE-20260622-e779f1.md)
 - GE-20260622-580d45 [quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server](jvm/GE-20260622-580d45.md)
+- GE-20260622-71d4de [Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools](jvm/GE-20260622-71d4de.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
