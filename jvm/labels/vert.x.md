@@ -1,1 +1,2 @@
 - GE-20260609-ddd4b8: CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update
+- GE-20260609-ddd4b8: CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update

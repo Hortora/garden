@@ -1,2 +1,3 @@
 - GE-20260609-ddd4b8: CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update
 - GE-20260616-0b20d0: casehub-engine: context keys absent from YAML inputSchema are blackboard-only — capability agent never receives them
+- GE-20260609-ddd4b8: CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update

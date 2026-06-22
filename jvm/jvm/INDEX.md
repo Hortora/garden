@@ -34,3 +34,4 @@
 | GE-20260617-abe516 | GlobalOpenTelemetry.getTracer() in static final field returns no-op tracer — library instrumentation must call lazily | gotcha | 12/15 |
 | GE-20260618-976009 | Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning | gotcha | 11/15 |
 | GE-20260517-e78ae8 | JPA entity returned from @Transactional method is detached — field mutations silently lost | gotcha | 13/15 |
+| GE-20260609-ddd4b8 | CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update | gotcha | 11/15 |
