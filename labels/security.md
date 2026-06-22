@@ -10,3 +10,4 @@
 - GE-20260604-917790: Single-pass StringBuilder loop handles all ASCII control chars and truncation simultaneously
 - GE-20260607-97e543: WireMock: omitting the happy-path stub makes the wrong exception type the pre-flight test signal
 - GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants
+- GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server

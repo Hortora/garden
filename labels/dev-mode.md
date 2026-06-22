@@ -4,3 +4,4 @@
 - GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy
 - GE-20260423-7c5214: Quarkus dev mode fails with ClassTooLargeException after large enum or switch growth
 - GE-20260508-a2b49e: Quarkus dev-mode live-reload scanner adds ~1.5s latency to HTTP requests after idle
+- GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server

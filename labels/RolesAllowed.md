@@ -1,2 +1,1 @@
-- GE-20260521-f50602: quarkus-oidc: discovery-disabled requires jwks-path or introspection-path
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server

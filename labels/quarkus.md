@@ -590,3 +590,4 @@
 - GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
+- GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
