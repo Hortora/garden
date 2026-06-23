@@ -2,3 +2,4 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports
 - GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import
+- GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import

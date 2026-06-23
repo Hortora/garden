@@ -7,3 +7,4 @@
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
+- GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import

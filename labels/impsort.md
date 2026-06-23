@@ -1,0 +1,1 @@
+- GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
