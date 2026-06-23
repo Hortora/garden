@@ -529,3 +529,4 @@
 | GE-20260623-d4c4f3 | lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD | gotcha | 10/15 |
 | GE-20260623-95e1e6 | Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/ | technique | 9/15 |
 | GE-20260623-5cc402 | Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB | gotcha | 9/15 |
+| GE-20260623-673dc8 | IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory | gotcha | 10/15 |
