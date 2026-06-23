@@ -70,3 +70,4 @@
 - GE-20260621-90ec54: Record navigation silently fails with non-unique idColumn — filter matches multiple rows
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
+- GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException

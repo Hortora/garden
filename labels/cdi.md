@@ -304,3 +304,4 @@
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
+- GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException

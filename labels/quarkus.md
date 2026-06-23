@@ -597,3 +597,4 @@
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260623-24ab25: %dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery
 - GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app
+- GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
