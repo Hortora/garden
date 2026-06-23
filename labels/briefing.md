@@ -1,0 +1,1 @@
+- GE-20260623-3ecb0f: AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation

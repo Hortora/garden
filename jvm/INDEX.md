@@ -944,3 +944,4 @@
 | GE-20260623-22f1f7 | casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException | gotcha | 11/15 |
 | GE-20260623-9c5d06 | Inferred lambda parameter type does not create a needed import — impsort rejects unused import | gotcha | 8/15 |
 | GE-20260623-eb19c0 | mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars | gotcha | 11/15 |
+| GE-20260623-3ecb0f | AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation | gotcha | 9/15 |
