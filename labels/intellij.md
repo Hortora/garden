@@ -26,3 +26,4 @@
 - GE-20260610-414ec2: IntelliJ MCP (intellij-index) requires .idea directory at project_path — monorepo subdirectories may need explicit targeting
 - GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports
 - GE-20260623-673dc8: IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory
+- GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import

@@ -29,3 +29,4 @@
 - GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
 - GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports
 - GE-20260623-673dc8: IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory
+- GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import

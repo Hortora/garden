@@ -1,1 +1,2 @@
 - GE-20260517-97d306: shell mv + git add <newdir>/ leaves original tracked files as unstaged deletions
+- GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import

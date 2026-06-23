@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1791
+**Entries merged since last sweep:** 1792
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2085,6 +2085,7 @@
 - GE-20260623-95e1e6 [Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/](tools/GE-20260623-95e1e6.md)
 - GE-20260623-5cc402 [Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB](tools/GE-20260623-5cc402.md)
 - GE-20260623-673dc8 [IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory](tools/GE-20260623-673dc8.md)
+- GE-20260623-b460d4 [ide_refactor_rename on an import statement renames the class globally, not the import](tools/GE-20260623-b460d4.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
