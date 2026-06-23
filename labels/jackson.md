@@ -20,3 +20,4 @@
 - GE-20260617-13de83: context.registerSubtypes() does not feed a custom @JsonTypeIdResolver — silent type fidelity loss
 - GE-20260617-92fdd9: Compound type ID with embedded fallback for extensible polymorphic hierarchies
 - GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing
+- GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer

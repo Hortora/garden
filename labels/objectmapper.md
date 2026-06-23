@@ -2,3 +2,4 @@
 - GE-20260505-48085a: static new ObjectMapper() silently fails to serialize Instant in Quarkus — use @Inject ObjectMapper
 - GE-20260605-8b9118: Jackson readValue() silently accepts trailing content unless FAIL_ON_TRAILING_TOKENS is enabled
 - GE-20260612-b20b51: casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit
+- GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer

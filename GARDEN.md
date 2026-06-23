@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1795
+**Entries merged since last sweep:** 1796
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1520,6 +1520,7 @@
 - GE-20260623-9c5d06 [Inferred lambda parameter type does not create a needed import — impsort rejects unused import](jvm/GE-20260623-9c5d06.md)
 - GE-20260623-eb19c0 [mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars](jvm/GE-20260623-eb19c0.md)
 - GE-20260623-3ecb0f [AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation](jvm/GE-20260623-3ecb0f.md)
+- GE-20260623-4072ce [jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer](jvm/GE-20260623-4072ce.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

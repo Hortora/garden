@@ -22,3 +22,4 @@
 - GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2
 - GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
+- GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer
