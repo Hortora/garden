@@ -1,2 +1,1 @@
-- GE-20260414-c12931: YAML frontmatter regex silently skips files with CRLF line endings
 - GE-20260623-aeda6f: CRLF test fixture files silently normalized by git — tests pass without the fix

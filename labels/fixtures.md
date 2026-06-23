@@ -1,1 +1,2 @@
 - GE-20260429-f17b24: Recency decay tests silently pass wrong assertion when attestation.occurredAt is null
+- GE-20260623-aeda6f: CRLF test fixture files silently normalized by git — tests pass without the fix
