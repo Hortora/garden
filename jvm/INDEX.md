@@ -936,3 +936,4 @@
 | GE-20260622-71d4de | Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools | gotcha | 10/15 |
 | GE-20260623-02d4f4 | CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry | gotcha | 9/15 |
 | GE-20260621-629712 | Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters | technique | 12/15 |
+| GE-20260621-629712 | Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters | technique | 12/15 |
