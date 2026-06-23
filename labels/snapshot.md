@@ -37,3 +37,4 @@
 - GE-20260618-a50133: Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed
 - GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
+- GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry

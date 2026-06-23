@@ -138,3 +138,4 @@
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
 - GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead
+- GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry

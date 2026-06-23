@@ -5,3 +5,4 @@
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
 - GE-20260614-d9a38f: Xenova HuggingFace ONNX exports return 401 even when source model is public
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
+- GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
