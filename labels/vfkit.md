@@ -1,0 +1,1 @@
+- GE-20260623-5cc402: Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB

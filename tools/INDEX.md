@@ -526,3 +526,6 @@
 | GE-20260621-8c93d7 | git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged | gotcha | 8/15 |
 | GE-20260623-e02ce2 | GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred | technique | 10/15 |
 | GE-20260623-aeda6f | CRLF test fixture files silently normalized by git — tests pass without the fix | gotcha | 10/15 |
+| GE-20260623-d4c4f3 | lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD | gotcha | 10/15 |
+| GE-20260623-95e1e6 | Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/ | technique | 9/15 |
+| GE-20260623-5cc402 | Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB | gotcha | 9/15 |

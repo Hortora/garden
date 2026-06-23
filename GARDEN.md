@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1786
+**Entries merged since last sweep:** 1789
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2080,6 +2080,9 @@
 - GE-20260621-8c93d7 [git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged](tools/GE-20260621-8c93d7.md)
 - GE-20260623-e02ce2 [GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred](tools/GE-20260623-e02ce2.md)
 - GE-20260623-aeda6f [CRLF test fixture files silently normalized by git — tests pass without the fix](tools/GE-20260623-aeda6f.md)
+- GE-20260623-d4c4f3 [lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD](tools/GE-20260623-d4c4f3.md)
+- GE-20260623-95e1e6 [Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/](tools/GE-20260623-95e1e6.md)
+- GE-20260623-5cc402 [Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB](tools/GE-20260623-5cc402.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

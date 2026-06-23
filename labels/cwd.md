@@ -2,3 +2,4 @@
 - GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls
 - GE-20260417-3b862c: jar xf without -C extracts to the current working directory, not a temp dir
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
+- GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD

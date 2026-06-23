@@ -1,1 +1,3 @@
 - GE-20260416-8fc4c5: Quarkus dev mode log file deleted while JVM holds it open — 161GB invisible disk usage, only visible via lsof
+- GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
+- GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/

@@ -1,1 +1,3 @@
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
+- GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
+- GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/
