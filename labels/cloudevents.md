@@ -1,3 +1,4 @@
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
+- GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters

@@ -41,3 +41,4 @@
 - GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 6 rules for CDI async adapters
+- GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
