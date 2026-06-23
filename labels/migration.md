@@ -33,3 +33,4 @@
 - GE-20260612-cd10d7: JSONata v2 evaluate(data, bindings) — bindings require $ prefix, data paths don't
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
 - GE-20260621-069194: KieHelper removed from Drools 10 — no replacement utility class
+- GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions

@@ -1,2 +1,1 @@
-- GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
