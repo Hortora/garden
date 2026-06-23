@@ -1,3 +1,4 @@
 - GE-20260601-b0eabf: ARC42STORIES.MD Key files class names may not exist in production — verify with find
 - GE-20260601-b0eabf: ARC42STORIES.MD Key files class names may not exist in production — verify with find
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
+- GE-20260623-e02ce2: GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred

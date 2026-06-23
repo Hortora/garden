@@ -1,0 +1,1 @@
+- GE-20260623-e02ce2: GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred
