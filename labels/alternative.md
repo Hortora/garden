@@ -37,3 +37,4 @@
 - GE-20260616-d70e7e: quarkus.arc.selected-alternatives silently accepts non-@Alternative beans, leaving CDI ambiguity unresolved
 - GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
 - GE-20260618-5008f5: @Alternative @Priority(10) CDI test bean avoids Quarkus CDI restart caused by @InjectMock
+- GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException

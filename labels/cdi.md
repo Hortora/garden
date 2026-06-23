@@ -302,3 +302,4 @@
 - GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
+- GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException

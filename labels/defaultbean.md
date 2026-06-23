@@ -25,3 +25,4 @@
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
+- GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException

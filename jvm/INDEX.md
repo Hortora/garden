@@ -937,3 +937,4 @@
 | GE-20260623-02d4f4 | CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry | gotcha | 9/15 |
 | GE-20260621-629712 | Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters | technique | 12/15 |
 | GE-20260621-629712 | Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters | technique | 12/15 |
+| GE-20260623-c651a1 | Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException | gotcha | 12/15 |

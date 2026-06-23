@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1778
+**Entries merged since last sweep:** 1779
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1509,6 +1509,7 @@
 - GE-20260623-02d4f4 [CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry](jvm/GE-20260623-02d4f4.md)
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters](jvm/GE-20260621-629712.md)
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters](jvm/GE-20260621-629712.md)
+- GE-20260623-c651a1 [Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException](jvm/GE-20260623-c651a1.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
