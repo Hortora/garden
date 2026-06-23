@@ -1,1 +1,2 @@
 - GE-20260622-e779f1: casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment
+- GE-20260623-ef0e7c: QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement

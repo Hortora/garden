@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1784
+**Entries merged since last sweep:** 1785
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -110,6 +110,7 @@
 - GE-20260607-a4d78a [ChannelSlugValidator: channel path segments must start with a letter and use only hyphens — dots and digit-leading UUIDs both fail](casehub-qhorus/GE-20260607-a4d78a.md)
 - GE-20260613-7b7ae1 [casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>](casehub-qhorus/GE-20260613-7b7ae1.md)
 - GE-20260616-8a07b1 [ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types](casehub-qhorus/GE-20260616-8a07b1.md)
+- GE-20260623-ef0e7c [QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement](casehub-qhorus/GE-20260623-ef0e7c.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)

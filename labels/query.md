@@ -5,3 +5,4 @@
 - GE-20260522-8df6a6: Panache MongoDB list() JPQL-style query string is unvalidated — use Filters.in() for $in queries
 - GE-20260530-5400f3: Hibernate 6 supports List<String> parameters in native SQL IN clauses via setParameter(name, Collection)
 - GE-20260610-2c47fb: Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only
+- GE-20260623-ef0e7c: QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement

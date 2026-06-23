@@ -1,1 +1,2 @@
 - GE-20260616-bb1a1b: @QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest
+- GE-20260623-ef0e7c: QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement
