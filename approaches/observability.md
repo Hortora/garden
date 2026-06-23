@@ -1,3 +1,12 @@
+---
+title: "Observability — Concepts"
+domain: approaches
+type: reference
+score: 10
+tags: [observability, logging, monitoring]
+submitted: "2026-05-29"
+---
+
 # Observability — Concepts
 
 **Domain tags:** `observability` `logging` `tracing` `metrics`  

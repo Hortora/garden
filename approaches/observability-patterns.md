@@ -1,3 +1,12 @@
+---
+title: "Observability — Implementation Patterns"
+domain: approaches
+type: reference
+score: 10
+tags: [observability, logging, metrics, tracing]
+submitted: "2026-05-29"
+---
+
 # Observability — Implementation Patterns
 
 **Domain tags:** `observability` `logging` `tracing` `metrics` `mdc` `opentelemetry`  

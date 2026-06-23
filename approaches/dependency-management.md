@@ -1,3 +1,12 @@
+---
+title: "Dependency Management — Principles"
+domain: approaches
+type: reference
+score: 10
+tags: [dependencies, maven, npm, pip, versioning]
+submitted: "2026-05-29"
+---
+
 # Dependency Management — Principles
 
 **Domain tags:** dependencies, bom, versioning, security, compatibility

@@ -1,3 +1,12 @@
+---
+title: "Security Audit — Principles"
+domain: approaches
+type: reference
+score: 10
+tags: [security, audit, owasp, vulnerabilities]
+submitted: "2026-05-29"
+---
+
 # Security Audit — Principles
 
 **Domain tags:** security, owasp, vulnerabilities, authentication, injection, access-control

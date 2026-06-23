@@ -1,3 +1,12 @@
+---
+title: "Testing — Principles"
+domain: approaches
+type: reference
+score: 10
+tags: [testing, tdd, coverage, unit-tests, integration-tests]
+submitted: "2026-05-29"
+---
+
 # Testing — Principles
 
 **Domain tags:** testing, tdd, coverage, unit-tests, integration-tests, e2e, property-testing, flakiness

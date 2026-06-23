@@ -1,3 +1,12 @@
+---
+title: "Code Review — Principles"
+domain: approaches
+type: reference
+score: 10
+tags: [code-review, review, quality]
+submitted: "2026-05-29"
+---
+
 # Code Review — Principles
 
 **Domain tags:** code-review, safety, concurrency, quality, testing
