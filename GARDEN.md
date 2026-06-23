@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1783
+**Entries merged since last sweep:** 1784
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2129,6 +2129,7 @@
 - GE-20260621-90ec54 [Record navigation silently fails with non-unique idColumn — filter matches multiple rows](web/GE-20260621-90ec54.md)
 - GE-20260621-f0563a [Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline](web/GE-20260621-f0563a.md)
 - GE-20260622-549a11 [ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files](web/GE-20260622-549a11.md)
+- GE-20260623-06914b [esbuild silently drops Web Component customElements.define() from bare side-effect imports](web/GE-20260623-06914b.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

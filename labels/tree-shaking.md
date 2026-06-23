@@ -1,0 +1,1 @@
+- GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
