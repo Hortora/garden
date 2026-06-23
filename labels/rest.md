@@ -7,3 +7,4 @@
 - GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
 - GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
+- GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app

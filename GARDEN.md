@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1779
+**Entries merged since last sweep:** 1782
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1510,6 +1510,9 @@
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters](jvm/GE-20260621-629712.md)
 - GE-20260621-629712 [Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters](jvm/GE-20260621-629712.md)
 - GE-20260623-c651a1 [Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException](jvm/GE-20260623-c651a1.md)
+- GE-20260623-22f1f7 [casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException](jvm/GE-20260623-22f1f7.md)
+- GE-20260623-24ab25 [%dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery](jvm/GE-20260623-24ab25.md)
+- GE-20260623-e9ac8d [Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app](jvm/GE-20260623-e9ac8d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

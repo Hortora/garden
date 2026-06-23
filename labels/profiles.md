@@ -7,3 +7,4 @@
 - GE-20260423-1593b7: Read a live JS variable from the Playwright page to make Java assertion thresholds profile-aware
 - GE-20260423-6e8f88: Profile-aware unit height in Three.js via a single JS variable updated in loadTerrain()
 - GE-20260523-20046c: %prod.quarkus.index-dependency limits JAR indexing to production augmentation — prevents @QuarkusTest CDI side-effects
+- GE-20260623-24ab25: %dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery

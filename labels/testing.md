@@ -345,3 +345,4 @@
 - GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
 - GE-20260623-aeda6f: CRLF test fixture files silently normalized by git — tests pass without the fix
+- GE-20260623-24ab25: %dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery

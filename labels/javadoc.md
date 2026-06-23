@@ -1,3 +1,4 @@
 - GE-20260512-552405: @ConfigMapping interface methods without Javadoc cause a compile error — not a runtime warning
 - GE-20260414-c87a14: @ConfigMapping in a Quarkus extension requires Javadoc on every method, including group accessors
 - GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong
+- GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException

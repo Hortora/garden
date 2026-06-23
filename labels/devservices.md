@@ -3,3 +3,4 @@
 - GE-20260601-08a351: quarkus-oidc-client on the classpath triggers Keycloak DevServices even when tests use static token auth
 - GE-20260603-1559a3: Quarkus Dev Services PostgreSQL creates a superuser — FORCE ROW LEVEL SECURITY is silently bypassed in integration tests
 - GE-20260603-4b1d1b: quarkus.datasource.devservices.init-script-path pre-creates PostgreSQL roles before tests run
+- GE-20260623-24ab25: %dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery

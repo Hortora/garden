@@ -594,3 +594,6 @@
 - GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
+- GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
+- GE-20260623-24ab25: %dev.quarkus.oidc.enabled=false does not apply in @QuarkusTest — tests use %test profile, OIDC starts and attempts discovery
+- GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app
