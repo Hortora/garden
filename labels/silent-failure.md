@@ -59,3 +59,4 @@
 - GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()
 - GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
+- GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars

@@ -38,3 +38,4 @@
 - GE-20260619-f8b50c: Install engine module from specific git commit to match published SNAPSHOT
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
+- GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars

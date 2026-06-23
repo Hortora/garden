@@ -19,3 +19,4 @@
 - GE-20260619-839671: Inline vendored source as CI fix for local-only forks — avoids GitHub repo + publish pipeline setup
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
+- GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1793
+**Entries merged since last sweep:** 1794
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1518,6 +1518,7 @@
 - GE-20260623-e9ac8d [Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app](jvm/GE-20260623-e9ac8d.md)
 - GE-20260623-22f1f7 [casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException](jvm/GE-20260623-22f1f7.md)
 - GE-20260623-9c5d06 [Inferred lambda parameter type does not create a needed import — impsort rejects unused import](jvm/GE-20260623-9c5d06.md)
+- GE-20260623-eb19c0 [mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars](jvm/GE-20260623-eb19c0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
