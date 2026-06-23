@@ -8,3 +8,4 @@
 | GE-20260613-7b7ae1 | casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType> | gotcha | 9/15 |
 | GE-20260616-8a07b1 | ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types | gotcha | 8/15 |
 | GE-20260623-ef0e7c | QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement | gotcha | 11/15 |
+| GE-20260623-92964b | RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState | undocumented | 12/15 |

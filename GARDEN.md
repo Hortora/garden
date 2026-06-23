@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1785
+**Entries merged since last sweep:** 1786
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -111,6 +111,7 @@
 - GE-20260613-7b7ae1 [casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>](casehub-qhorus/GE-20260613-7b7ae1.md)
 - GE-20260616-8a07b1 [ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types](casehub-qhorus/GE-20260616-8a07b1.md)
 - GE-20260623-ef0e7c [QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement](casehub-qhorus/GE-20260623-ef0e7c.md)
+- GE-20260623-92964b [RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState](casehub-qhorus/GE-20260623-92964b.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
