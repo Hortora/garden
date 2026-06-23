@@ -599,3 +599,7 @@
 - GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer
+- GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
+- GE-20260623-941ade: quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code
+- GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected
+- GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup

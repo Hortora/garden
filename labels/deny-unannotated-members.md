@@ -1,0 +1,1 @@
+- GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected

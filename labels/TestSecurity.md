@@ -1,0 +1,1 @@
+- GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup

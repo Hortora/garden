@@ -73,3 +73,4 @@
 - GE-20260617-54b75b: Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime
 - GE-20260617-daa4cb: MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset
 - GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
+- GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup

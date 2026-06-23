@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1796
+**Entries merged since last sweep:** 1800
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1521,6 +1521,10 @@
 - GE-20260623-eb19c0 [mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars](jvm/GE-20260623-eb19c0.md)
 - GE-20260623-3ecb0f [AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation](jvm/GE-20260623-3ecb0f.md)
 - GE-20260623-4072ce [jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer](jvm/GE-20260623-4072ce.md)
+- GE-20260623-4613f4 [quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members](jvm/GE-20260623-4613f4.md)
+- GE-20260623-941ade [quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code](jvm/GE-20260623-941ade.md)
+- GE-20260623-5b192f [DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected](jvm/GE-20260623-5b192f.md)
+- GE-20260623-18f8c0 [@TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup](jvm/GE-20260623-18f8c0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

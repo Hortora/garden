@@ -1,3 +1,4 @@
 - GE-20260427-452889: @TestTransaction + REQUIRES_NEW: @BeforeEach setup becomes invisible to test method — entity lookup silently fails
 - GE-20260607-432456: Mockito strict: @BeforeEach stub flagged UnnecessaryStubbingException when one test re-stubs the same method
 - GE-20260607-ab9f37: Mockito strict: UnnecessaryStubbingException from @BeforeEach shared stubs not consumed by all tests — fix with lenient()
+- GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup

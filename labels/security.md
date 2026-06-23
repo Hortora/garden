@@ -12,3 +12,6 @@
 - GE-20260609-dac1a3: @CacheResult cache key omits tenancyId — cached data leaks across tenants
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
 - GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app
+- GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
+- GE-20260623-941ade: quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code
+- GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected

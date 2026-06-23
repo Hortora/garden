@@ -946,3 +946,7 @@
 | GE-20260623-eb19c0 | mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars | gotcha | 11/15 |
 | GE-20260623-3ecb0f | AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation | gotcha | 9/15 |
 | GE-20260623-4072ce | jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer | gotcha | 11/15 |
+| GE-20260623-4613f4 | quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members | gotcha | 12/15 |
+| GE-20260623-941ade | quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code | gotcha | 12/15 |
+| GE-20260623-5b192f | DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected | technique | 9/15 |
+| GE-20260623-18f8c0 | @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup | technique | 9/15 |

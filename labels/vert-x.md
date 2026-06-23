@@ -1,0 +1,1 @@
+- GE-20260623-941ade: quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code
