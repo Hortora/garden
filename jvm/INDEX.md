@@ -953,3 +953,4 @@
 | GE-20260624-3324b6 | Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads | gotcha | 9/15 |
 | GE-20260624-0b931d | casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null | gotcha | 8/15 |
 | GE-20260624-c86d12 | casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics | gotcha | 9/15 |
+| GE-20260624-e3ffa7 | Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s | gotcha | 11/15 |

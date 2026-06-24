@@ -1,1 +1,2 @@
 - GE-20260517-0823c8: Cross-repo TDD: downstream repo compiles against installed JAR, not source — mvn install required between repos
+- GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s

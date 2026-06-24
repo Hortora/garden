@@ -1,1 +1,2 @@
 - GE-20260618-a4032c: Local files show the fix; CI fails with old code — fix commit only on feature branch, not merged to main
+- GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s

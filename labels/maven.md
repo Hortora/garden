@@ -141,3 +141,4 @@
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
 - GE-20260623-673dc8: IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
+- GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s

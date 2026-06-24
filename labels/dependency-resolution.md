@@ -2,3 +2,4 @@
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
 - GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
+- GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s
