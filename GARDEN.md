@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1800
+**Entries merged since last sweep:** 1803
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1525,6 +1525,9 @@
 - GE-20260623-941ade [quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code](jvm/GE-20260623-941ade.md)
 - GE-20260623-5b192f [DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected](jvm/GE-20260623-5b192f.md)
 - GE-20260623-18f8c0 [@TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup](jvm/GE-20260623-18f8c0.md)
+- GE-20260624-3324b6 [Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads](jvm/GE-20260624-3324b6.md)
+- GE-20260624-0b931d [casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null](jvm/GE-20260624-0b931d.md)
+- GE-20260624-c86d12 [casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics](jvm/GE-20260624-c86d12.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

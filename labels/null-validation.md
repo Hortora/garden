@@ -1,0 +1,1 @@
+- GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null

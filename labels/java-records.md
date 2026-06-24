@@ -5,3 +5,6 @@
 - GE-20260602-f2ca07: Pass rendered.content() not the eval case to a blind judge — prevents descriptor from leaking into LLM payload
 - GE-20260602-9eb73f: Java record toString() in REST response maps returns type representation, not value — silently corrupts output
 - GE-20260604-b38ae2: Quarkus dual-path services: reactive path silently bypasses Java record compact constructor validation
+- GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
+- GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
+- GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics

@@ -71,3 +71,6 @@
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
+- GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
+- GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
+- GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics

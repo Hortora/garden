@@ -34,3 +34,5 @@
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
 - GE-20260621-069194: KieHelper removed from Drools 10 — no replacement utility class
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
+- GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
+- GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics

@@ -950,3 +950,6 @@
 | GE-20260623-941ade | quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code | gotcha | 12/15 |
 | GE-20260623-5b192f | DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected | technique | 9/15 |
 | GE-20260623-18f8c0 | @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup | technique | 9/15 |
+| GE-20260624-3324b6 | Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads | gotcha | 9/15 |
+| GE-20260624-0b931d | casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null | gotcha | 8/15 |
+| GE-20260624-c86d12 | casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics | gotcha | 9/15 |

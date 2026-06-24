@@ -9,3 +9,4 @@
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
 - GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase
 - GE-20260623-3ecb0f: AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation
+- GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
