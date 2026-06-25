@@ -957,3 +957,4 @@
 | GE-20260625-891c48 | quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource | gotcha | 13/15 |
 | GE-20260625-97d014 | Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms | architectural | 10/15 |
 | GE-20260625-5287ac | WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry | gotcha | 12/15 |
+| GE-20260625-85a3aa | Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty | gotcha | 11/15 |

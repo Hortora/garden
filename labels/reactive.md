@@ -67,3 +67,4 @@
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
 - GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
+- GE-20260625-85a3aa: Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty

@@ -1,0 +1,1 @@
+- GE-20260625-85a3aa: Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty
