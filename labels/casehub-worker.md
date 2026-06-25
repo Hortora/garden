@@ -1,0 +1,1 @@
+- GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api

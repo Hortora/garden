@@ -36,3 +36,4 @@
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
 - GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
 - GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
+- GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
