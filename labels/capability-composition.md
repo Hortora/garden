@@ -1,0 +1,1 @@
+- GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms

@@ -1,1 +1,2 @@
 - GE-20260613-ba9e19: Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access
+- GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms

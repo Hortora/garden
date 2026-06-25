@@ -1,2 +1,3 @@
 - GE-20260422-3242bf: Use Instance<T> for optional CDI injection — resolves gracefully to null when no bean exists
 - GE-20260617-92fdd9: Compound type ID with embedded fallback for extensible polymorphic hierarchies
+- GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms
