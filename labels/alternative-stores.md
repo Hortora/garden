@@ -1,0 +1,1 @@
+- GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource

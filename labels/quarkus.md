@@ -603,3 +603,4 @@
 - GE-20260623-941ade: quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code
 - GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected
 - GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup
+- GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
