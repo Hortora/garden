@@ -1,0 +1,1 @@
+- GE-20260625-4a2d68: URLSearchParams.get() decodes percent-encoded characters before returning — custom encoding schemes with structural separators break

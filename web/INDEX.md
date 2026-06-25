@@ -41,3 +41,4 @@
 | GE-20260622-549a11 | ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files | gotcha | 10/15 |
 | GE-20260623-06914b | esbuild silently drops Web Component customElements.define() from bare side-effect imports | gotcha | 11/15 |
 | GE-20260625-fa01da | history.pushState() during popstate handler creates duplicate history entries — forward navigation breaks | gotcha | 10/15 |
+| GE-20260625-4a2d68 | URLSearchParams.get() decodes percent-encoded characters before returning — custom encoding schemes with structural separators break | gotcha | 9/15 |
