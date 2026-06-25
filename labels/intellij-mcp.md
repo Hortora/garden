@@ -7,3 +7,4 @@
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
 - GE-20260604-a8ffaa: ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed
 - GE-20260603-7808c8: ide_find_class with scope project_and_libraries navigates into Maven repo JARs and triggers on-demand decompilation
+- GE-20260625-6b49f5: IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs
