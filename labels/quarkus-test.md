@@ -26,3 +26,4 @@
 - GE-20260615-c5340d: Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
 - GE-20260618-11677d: @QuarkusTest in library modules needs quarkus-arc compile dep — generate-code goals alone are insufficient
+- GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity

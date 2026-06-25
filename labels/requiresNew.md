@@ -1,0 +1,1 @@
+- GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity
