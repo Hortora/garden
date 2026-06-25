@@ -75,3 +75,4 @@
 - GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
 - GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
 - GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry
+- GE-20260625-a6bc3b: ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers

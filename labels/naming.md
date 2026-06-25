@@ -8,3 +8,4 @@
 - GE-20260528-99941f: "Vertical slice" as a delivery planning term collides with Vertical Slice Architecture (VSA)
 - GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
+- GE-20260625-a6bc3b: ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers

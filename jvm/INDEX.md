@@ -961,3 +961,4 @@
 | GE-20260625-88c860 | casehub-iot DeviceEntity.capabilities() returns null values for Optional fields — Map.copyOf() throws NPE | gotcha | 10/15 |
 | GE-20260625-d09c57 | Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api | gotcha | 9/15 |
 | GE-20260625-83ed54 | @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes | gotcha | 11/15 |
+| GE-20260625-a6bc3b | ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers | gotcha | 12/15 |
