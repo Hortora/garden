@@ -1,0 +1,1 @@
+- GE-20260625-fa01da: history.pushState() during popstate handler creates duplicate history entries — forward navigation breaks
