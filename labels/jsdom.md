@@ -1,0 +1,1 @@
+- GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests

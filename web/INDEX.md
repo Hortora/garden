@@ -42,3 +42,4 @@
 | GE-20260623-06914b | esbuild silently drops Web Component customElements.define() from bare side-effect imports | gotcha | 11/15 |
 | GE-20260625-fa01da | history.pushState() during popstate handler creates duplicate history entries — forward navigation breaks | gotcha | 10/15 |
 | GE-20260625-4a2d68 | URLSearchParams.get() decodes percent-encoded characters before returning — custom encoding schemes with structural separators break | gotcha | 9/15 |
+| GE-20260625-2c2539 | JSDOM location.hash persists across vitest test cases — URL state leaks between tests | gotcha | 12/15 |

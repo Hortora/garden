@@ -10,3 +10,4 @@
 - GE-20260605-4ed3bd: H2 Merkle frontier constraint violation cascades @QuarkusTest suite — CaseDefinition not found
 - GE-20260605-c91317: Poll Layer6 status endpoint for 'completed' to drain Quartz jobs between @QuarkusTest investigation tests
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
+- GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
