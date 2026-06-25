@@ -27,3 +27,4 @@
 - GE-20260607-1ebb9c: @Transactional on @PostConstruct is silently ignored — Arc proxy not created yet
 - GE-20260617-c2ceb3: @Transactional on RESTEasy Reactive void SSE method is load-bearing for virtual-thread dispatch — removing it freezes the event loop
 - GE-20260518-069f64: Calling @Transactional method via `this` inside Mutiny lambda silently bypasses CDI proxy — use CDI self-injection
+- GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch

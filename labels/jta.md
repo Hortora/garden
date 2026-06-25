@@ -26,3 +26,4 @@
 - GE-20260609-62a1a7: H2 MERGE WHEN NOT MATCHED races under concurrent transactions — synchronized + separate REQUIRES_NEW CDI bean prevents PK violation
 - GE-20260610-f990b2: @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately
 - GE-20260613-6527d0: ChannelGateway.fanOut() fires backend.post() on a virtual thread INSIDE @Transactional — SSE/push events precede DB commit
+- GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch

@@ -1,2 +1,3 @@
 - GE-20260522-44bbf3: Uncaught RuntimeException in @Transactional loop rolls back all iterations — silent infinite retry on scheduled jobs
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
+- GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch
