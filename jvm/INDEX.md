@@ -958,3 +958,4 @@
 | GE-20260625-97d014 | Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms | architectural | 10/15 |
 | GE-20260625-5287ac | WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry | gotcha | 12/15 |
 | GE-20260625-85a3aa | Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty | gotcha | 11/15 |
+| GE-20260625-88c860 | casehub-iot DeviceEntity.capabilities() returns null values for Optional fields — Map.copyOf() throws NPE | gotcha | 10/15 |
