@@ -1,0 +1,1 @@
+- GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry

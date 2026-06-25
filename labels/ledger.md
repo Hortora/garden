@@ -19,3 +19,4 @@
 - GE-20260612-de141c: casehub-ledger LedgerProcessor build step requires domainContentBytes() on all LedgerEntry subclasses with @Column fields
 - GE-20260616-240c04: ReactiveMessageLedgerEntryRepository.findLatestByCorrelationId queries LedgerEntry.subjectId, not MessageLedgerEntry.channelId — seeds with only channelId set return silently empty
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
+- GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry

@@ -1,3 +1,4 @@
 - GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations
 - GE-20260616-036128: casehub-ledger JpaActorTrustScoreRepository is @Alternative — NoOpActorTrustScoreRepository silently swallows all trust score reads and writes
 - GE-20260616-17187e: casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository
+- GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry

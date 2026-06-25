@@ -1,1 +1,2 @@
 - GE-20260602-047ac4: Visitor/accumulator pattern for thread-safe multi-backend aggregation — typed methods replace shared response objects
+- GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1806
+**Entries merged since last sweep:** 1807
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1531,6 +1531,7 @@
 - GE-20260624-e3ffa7 [Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s](jvm/GE-20260624-e3ffa7.md)
 - GE-20260625-891c48 [quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource](jvm/GE-20260625-891c48.md)
 - GE-20260625-97d014 [Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms](jvm/GE-20260625-97d014.md)
+- GE-20260625-5287ac [WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry](jvm/GE-20260625-5287ac.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
