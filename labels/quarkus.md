@@ -604,3 +604,4 @@
 - GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected
 - GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
+- GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes

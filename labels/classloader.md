@@ -1,3 +1,4 @@
 - GE-20260428-a0240c: @Blocking on a JUnit @Test method causes classLoader=null and 0 tests run — no error
 - GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
+- GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes

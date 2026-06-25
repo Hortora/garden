@@ -960,3 +960,4 @@
 | GE-20260625-85a3aa | Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty | gotcha | 11/15 |
 | GE-20260625-88c860 | casehub-iot DeviceEntity.capabilities() returns null values for Optional fields — Map.copyOf() throws NPE | gotcha | 10/15 |
 | GE-20260625-d09c57 | Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api | gotcha | 9/15 |
+| GE-20260625-83ed54 | @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes | gotcha | 11/15 |
