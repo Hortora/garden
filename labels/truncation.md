@@ -1,0 +1,1 @@
+- GE-20260626-5074cf: CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0

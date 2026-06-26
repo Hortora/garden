@@ -976,3 +976,4 @@
 | GE-20260626-dd667c | @QuarkusMain on a library class hijacks every consuming application's entry point | gotcha | 13/15 |
 | GE-20260626-773613 | Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result | gotcha | 9/15 |
 | GE-20260626-15a2e1 | CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested | gotcha | 10/15 |
+| GE-20260626-5074cf | CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0 | gotcha | 9/15 |

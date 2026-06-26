@@ -1,2 +1,3 @@
 - GE-20260423-c8d8cb: ConcurrentHashMap.computeIfAbsent() + .add() is not atomic with concurrent remove() — futures can be permanently lost
 - GE-20260529-0b8284: Uni.createFrom().emitter() is wrong for one-shot callback bridging — use completionStage() + CompletableFuture.orTimeout()
+- GE-20260626-5074cf: CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0
