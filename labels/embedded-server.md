@@ -1,0 +1,1 @@
+- GE-20260626-9fba46: No pure Java IRC server library exists on Maven Central — embedded test server is the only path

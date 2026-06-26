@@ -143,3 +143,4 @@
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
 - GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s
 - GE-20260625-6b49f5: IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs
+- GE-20260626-9fba46: No pure Java IRC server library exists on Maven Central — embedded test server is the only path

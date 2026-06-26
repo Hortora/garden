@@ -1,1 +1,2 @@
 - GE-20260609-d6cabc: TCP probe in test server consumes ServerSocket.accept() before real WebSocket client connects
+- GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination

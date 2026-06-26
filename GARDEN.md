@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1822
+**Entries merged since last sweep:** 1825
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1543,6 +1543,9 @@
 - GE-20260625-aaf3d4 [QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity](jvm/GE-20260625-aaf3d4.md)
 - GE-20260626-aa69fa [JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch](jvm/GE-20260626-aa69fa.md)
 - GE-20260626-25963a [Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE](jvm/GE-20260626-25963a.md)
+- GE-20260626-9fba46 [No pure Java IRC server library exists on Maven Central — embedded test server is the only path](jvm/GE-20260626-9fba46.md)
+- GE-20260626-019b2d [CompletableFuture collector pattern for line-based protocol request/response coordination](jvm/GE-20260626-019b2d.md)
+- GE-20260626-323b4c [RFC 1459 AWAY has no passive notification — other clients only learn via RPL_AWAY on PRIVMSG or WHOIS](jvm/GE-20260626-323b4c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

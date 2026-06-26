@@ -1,2 +1,3 @@
 - GE-20260516-4e5919: Discovery test as permanent protocol constant coverage instrument
 - GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
+- GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination

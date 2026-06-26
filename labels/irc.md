@@ -1,0 +1,3 @@
+- GE-20260626-9fba46: No pure Java IRC server library exists on Maven Central — embedded test server is the only path
+- GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination
+- GE-20260626-323b4c: RFC 1459 AWAY has no passive notification — other clients only learn via RPL_AWAY on PRIVMSG or WHOIS

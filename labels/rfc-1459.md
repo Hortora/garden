@@ -1,0 +1,1 @@
+- GE-20260626-323b4c: RFC 1459 AWAY has no passive notification — other clients only learn via RPL_AWAY on PRIVMSG or WHOIS

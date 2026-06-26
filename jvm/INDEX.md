@@ -965,3 +965,6 @@
 | GE-20260625-aaf3d4 | QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity | gotcha | 12/15 |
 | GE-20260626-aa69fa | JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch | gotcha | 12/15 |
 | GE-20260626-25963a | Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE | gotcha | 11/15 |
+| GE-20260626-9fba46 | No pure Java IRC server library exists on Maven Central — embedded test server is the only path | gotcha | 9/15 |
+| GE-20260626-019b2d | CompletableFuture collector pattern for line-based protocol request/response coordination | technique | 10/15 |
+| GE-20260626-323b4c | RFC 1459 AWAY has no passive notification — other clients only learn via RPL_AWAY on PRIVMSG or WHOIS | gotcha | 9/15 |

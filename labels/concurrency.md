@@ -28,3 +28,4 @@
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
 - GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
 - GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist
+- GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination
