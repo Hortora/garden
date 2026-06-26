@@ -1,0 +1,1 @@
+- GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main

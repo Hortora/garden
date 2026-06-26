@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1819
+**Entries merged since last sweep:** 1822
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -56,6 +56,9 @@
 - GE-20260615-35f52f [casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data](casehub-engine/GE-20260615-35f52f.md)
 - GE-20260616-ed9481 [CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query](casehub-engine/GE-20260616-ed9481.md)
 - GE-20260618-53a50a [casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()](casehub-engine/GE-20260618-53a50a.md)
+- GE-20260626-4a4790 [casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs](casehub-engine/GE-20260626-4a4790.md)
+- GE-20260626-9ce1c9 [FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow](casehub-engine/GE-20260626-9ce1c9.md)
+- GE-20260626-2e4a0d [Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main](casehub-engine/GE-20260626-2e4a0d.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

@@ -59,3 +59,6 @@
 - GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode
 - GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key
 - GE-20260621-8f3c3a: CaseHub engine WritablePanelImpl shallow-copies initial context — Map.of() sub-maps throw UnsupportedOperationException on sub-path signals
+- GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs
+- GE-20260626-9ce1c9: FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow
+- GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main

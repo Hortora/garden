@@ -35,3 +35,6 @@
 | GE-20260615-35f52f | casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data | gotcha | 14/15 |
 | GE-20260616-ed9481 | CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query | gotcha | 8/15 |
 | GE-20260618-53a50a | casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType() | undocumented | 9/15 |
+| GE-20260626-4a4790 | casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs | gotcha | 12/15 |
+| GE-20260626-9ce1c9 | FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow | gotcha | 9/15 |
+| GE-20260626-2e4a0d | Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main | gotcha | 11/15 |

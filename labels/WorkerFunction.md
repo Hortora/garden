@@ -1,2 +1,1 @@
-- GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
 - GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs

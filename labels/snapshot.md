@@ -40,3 +40,5 @@
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
 - GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s
+- GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs
+- GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main

@@ -1,2 +1,1 @@
-- GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
 - GE-20260626-9ce1c9: FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow
