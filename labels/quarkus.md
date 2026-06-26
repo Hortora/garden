@@ -609,3 +609,6 @@
 - GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app
 - GE-20260626-c21b02: @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns
 - GE-20260626-dd667c: @QuarkusMain on a library class hijacks every consuming application's entry point
+- GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
+- GE-20260626-fce458: ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401
+- GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern

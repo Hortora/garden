@@ -310,3 +310,4 @@
 - GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app
 - GE-20260626-c21b02: @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns
 - GE-20260626-dd667c: @QuarkusMain on a library class hijacks every consuming application's entry point
+- GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern

@@ -977,3 +977,6 @@
 | GE-20260626-773613 | Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result | gotcha | 9/15 |
 | GE-20260626-15a2e1 | CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested | gotcha | 10/15 |
 | GE-20260626-5074cf | CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0 | gotcha | 9/15 |
+| GE-20260626-e0ecaf | SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure | gotcha | 13/15 |
+| GE-20260626-fce458 | ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401 | gotcha | 15/15 |
+| GE-20260626-c94109 | @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern | technique | 11/15 |

@@ -1,2 +1,1 @@
-- GE-20260415-20f08f: Playwright page.request() does not inherit page.setExtraHTTPHeaders()
 - GE-20260626-fce458: ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401

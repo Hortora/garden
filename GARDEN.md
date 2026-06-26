@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1834
+**Entries merged since last sweep:** 1837
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1555,6 +1555,9 @@
 - GE-20260626-773613 [Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result](jvm/GE-20260626-773613.md)
 - GE-20260626-15a2e1 [CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested](jvm/GE-20260626-15a2e1.md)
 - GE-20260626-5074cf [CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0](jvm/GE-20260626-5074cf.md)
+- GE-20260626-e0ecaf [SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure](jvm/GE-20260626-e0ecaf.md)
+- GE-20260626-fce458 [ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401](jvm/GE-20260626-fce458.md)
+- GE-20260626-c94109 [@LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern](jvm/GE-20260626-c94109.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
