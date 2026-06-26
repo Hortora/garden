@@ -9,3 +9,4 @@
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests

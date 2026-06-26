@@ -972,3 +972,4 @@
 | GE-20260626-a37306 | Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app | gotcha | 10/15 |
 | GE-20260626-0e976f | Test factory canned responses must match stub behavioral intent — not just field names | gotcha | 9/15 |
 | GE-20260626-c21b02 | @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns | gotcha | 12/15 |
+| GE-20260626-f0b274 | Guard record-field comparators with RecordComponent reflection count tests | technique | 9/15 |

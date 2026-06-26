@@ -148,3 +148,4 @@
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
 - GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
 - GE-20260626-25963a: Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE
+- GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests

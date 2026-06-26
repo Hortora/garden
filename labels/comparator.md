@@ -1,0 +1,1 @@
+- GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests

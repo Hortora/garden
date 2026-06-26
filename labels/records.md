@@ -10,3 +10,4 @@
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260609-8f14bb: Java records auto-generate scale-sensitive BigDecimal equality — 21 != 21.0 by default
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
+- GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests
