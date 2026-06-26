@@ -971,3 +971,4 @@
 | GE-20260624-3324b6 | Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads | gotcha | 9/15 |
 | GE-20260626-a37306 | Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app | gotcha | 10/15 |
 | GE-20260626-0e976f | Test factory canned responses must match stub behavioral intent — not just field names | gotcha | 9/15 |
+| GE-20260626-c21b02 | @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns | gotcha | 12/15 |
