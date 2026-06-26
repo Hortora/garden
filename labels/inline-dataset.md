@@ -1,0 +1,1 @@
+- GE-20260626-0ac274: casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates

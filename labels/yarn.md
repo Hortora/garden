@@ -1,1 +1,2 @@
 - GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace
+- GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them

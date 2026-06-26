@@ -4,3 +4,4 @@
 - GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
 - GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
+- GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them

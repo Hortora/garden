@@ -1,1 +1,2 @@
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope
+- GE-20260626-0ac274: casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates
