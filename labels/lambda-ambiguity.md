@@ -1,2 +1,3 @@
 - GE-20260427-5c5bab: @PermuteFilter is silently ignored on plain template methods — use single-clone @PermuteMethod to enable per-arity suppression
 - GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
+- GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads

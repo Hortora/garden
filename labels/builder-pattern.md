@@ -3,3 +3,4 @@
 - GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing
 - GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
 - GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms
+- GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads

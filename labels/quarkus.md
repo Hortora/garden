@@ -606,3 +606,4 @@
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
 - GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch
+- GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app

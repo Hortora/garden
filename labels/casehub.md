@@ -76,3 +76,6 @@
 - GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
 - GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry
 - GE-20260625-a6bc3b: ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers
+- GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
+- GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app
+- GE-20260626-0e976f: Test factory canned responses must match stub behavioral intent — not just field names

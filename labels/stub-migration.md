@@ -1,0 +1,1 @@
+- GE-20260626-0e976f: Test factory canned responses must match stub behavioral intent — not just field names

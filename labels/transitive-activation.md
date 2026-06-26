@@ -1,0 +1,1 @@
+- GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app

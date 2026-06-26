@@ -26,3 +26,4 @@
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException
+- GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app

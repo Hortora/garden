@@ -307,3 +307,4 @@
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer
 - GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms
+- GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app
