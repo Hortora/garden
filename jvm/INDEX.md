@@ -964,3 +964,4 @@
 | GE-20260625-a6bc3b | ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers | gotcha | 12/15 |
 | GE-20260625-aaf3d4 | QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity | gotcha | 12/15 |
 | GE-20260626-aa69fa | JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch | gotcha | 12/15 |
+| GE-20260626-25963a | Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE | gotcha | 11/15 |

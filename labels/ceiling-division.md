@@ -1,2 +1,1 @@
-- GE-20260609-e53d82: Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval
 - GE-20260626-25963a: Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE
