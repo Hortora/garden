@@ -2,3 +2,4 @@
 - GE-20260601-33dd8e: @Alternative @Priority(N) from external library JAR does not auto-win over @ApplicationScoped default in Quarkus ARC 3.x — needs selected-alternatives
 - GE-20260604-81a6a6: @DefaultBean @Unremovable required when injection point lives in a different Maven module
 - GE-20260613-9e0a5b: Two @DefaultBean implementations of the same CDI type cause ambiguity at Quarkus augmentation
+- GE-20260626-dd667c: @QuarkusMain on a library class hijacks every consuming application's entry point

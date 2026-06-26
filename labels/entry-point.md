@@ -1,0 +1,1 @@
+- GE-20260626-dd667c: @QuarkusMain on a library class hijacks every consuming application's entry point

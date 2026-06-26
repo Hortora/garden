@@ -2,3 +2,4 @@
 - GE-20260614-94c366: quarkus-langchain4j-ollama added via Maven test-scope profile requires mvn clean to invalidate augmentation cache
 - GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
+- GE-20260626-773613: Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result

@@ -31,3 +31,4 @@
 - GE-20260618-248ce7: Agent.build() bakes ChatModel once — @InjectMock on ChatModelProvider is silently ignored after first augment()
 - GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders
 - GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)
+- GE-20260626-773613: Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result

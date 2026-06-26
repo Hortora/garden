@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1830
+**Entries merged since last sweep:** 1833
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1551,6 +1551,9 @@
 - GE-20260626-0e976f [Test factory canned responses must match stub behavioral intent — not just field names](jvm/GE-20260626-0e976f.md)
 - GE-20260626-c21b02 [@DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns](jvm/GE-20260626-c21b02.md)
 - GE-20260626-f0b274 [Guard record-field comparators with RecordComponent reflection count tests](jvm/GE-20260626-f0b274.md)
+- GE-20260626-dd667c [@QuarkusMain on a library class hijacks every consuming application's entry point](jvm/GE-20260626-dd667c.md)
+- GE-20260626-773613 [Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result](jvm/GE-20260626-773613.md)
+- GE-20260626-15a2e1 [CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested](jvm/GE-20260626-15a2e1.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

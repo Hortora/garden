@@ -1,0 +1,1 @@
+- GE-20260626-773613: Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result

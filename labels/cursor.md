@@ -1,1 +1,2 @@
 - GE-20260609-0e178e: ProjectionResult.isEmpty() is cursor-based, not state-based — filtering projections produce isEmpty()==false even when no messages matched
+- GE-20260626-15a2e1: CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested

@@ -973,3 +973,6 @@
 | GE-20260626-0e976f | Test factory canned responses must match stub behavioral intent — not just field names | gotcha | 9/15 |
 | GE-20260626-c21b02 | @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns | gotcha | 12/15 |
 | GE-20260626-f0b274 | Guard record-field comparators with RecordComponent reflection count tests | technique | 9/15 |
+| GE-20260626-dd667c | @QuarkusMain on a library class hijacks every consuming application's entry point | gotcha | 13/15 |
+| GE-20260626-773613 | Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result | gotcha | 9/15 |
+| GE-20260626-15a2e1 | CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested | gotcha | 10/15 |

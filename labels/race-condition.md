@@ -13,3 +13,4 @@
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
 - GE-20260618-303fa2: QuarkusTest: CaseEngine worker thread updates CDI singletons after gameTick() returns — @BeforeEach clear races async plugin execution
 - GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
+- GE-20260626-15a2e1: CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested
