@@ -145,3 +145,4 @@
 - GE-20260625-6b49f5: IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs
 - GE-20260626-9fba46: No pure Java IRC server library exists on Maven Central — embedded test server is the only path
 - GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos
+- GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently

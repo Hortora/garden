@@ -534,3 +534,4 @@
 | GE-20260625-6b49f5 | IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs | technique | 10/15 |
 | GE-20260627-054768 | gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error | gotcha | 8/15 |
 | GE-20260627-907be8 | GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos | gotcha | 11/15 |
+| GE-20260627-9661a2 | GitHub Packages Maven visibility is repo-inherited — no API to change it independently | undocumented | 8/15 |

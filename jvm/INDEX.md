@@ -986,3 +986,4 @@
 | GE-20260609-f0d149 | ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size | undocumented | 10/15 |
 | GE-20260627-584787 | ocraft StartRaw.from() requires all 5 sub-fields — including StartRaw makes them all mandatory | gotcha | 10/15 |
 | GE-20260627-4712de | nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching | gotcha | 12/15 |
+| GE-20260627-47c1eb | @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem | gotcha | 10/15 |

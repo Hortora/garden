@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1851
+**Entries merged since last sweep:** 1853
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1567,6 +1567,7 @@
 - GE-20260609-f0d149 [ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size](jvm/GE-20260609-f0d149.md)
 - GE-20260627-584787 [ocraft StartRaw.from() requires all 5 sub-fields — including StartRaw makes them all mandatory](jvm/GE-20260627-584787.md)
 - GE-20260627-4712de [nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching](jvm/GE-20260627-4712de.md)
+- GE-20260627-47c1eb [@RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem](jvm/GE-20260627-47c1eb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2138,6 +2139,7 @@
 - GE-20260623-b460d4 [ide_refactor_rename on an import statement renames the class globally, not the import](tools/GE-20260623-b460d4.md)
 - GE-20260625-6b49f5 [IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs](tools/GE-20260625-6b49f5.md)
 - GE-20260627-907be8 [GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos](tools/GE-20260627-907be8.md)
+- GE-20260627-9661a2 [GitHub Packages Maven visibility is repo-inherited — no API to change it independently](tools/GE-20260627-9661a2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
