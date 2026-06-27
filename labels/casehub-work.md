@@ -16,3 +16,4 @@
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only
+- GE-20260627-8d321f: Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail

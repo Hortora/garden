@@ -4,3 +4,4 @@
 - GE-20260529-af0f2e: casehub-engine Grade 4/5 AE cases create two WorkItems — WorkItemLifecycleEvent fires twice for one AE
 - GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count
 - GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern
+- GE-20260627-8d321f: Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail

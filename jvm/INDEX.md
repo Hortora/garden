@@ -982,3 +982,4 @@
 | GE-20260626-c94109 | @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern | technique | 11/15 |
 | GE-20260627-8b0fb8 | Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries | undocumented | 9/15 |
 | GE-20260627-51e402 | @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely | gotcha | 13/15 |
+| GE-20260627-8d321f | Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail | gotcha | 11/15 |

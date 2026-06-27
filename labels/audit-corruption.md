@@ -1,0 +1,1 @@
+- GE-20260627-8d321f: Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail

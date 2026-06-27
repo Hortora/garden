@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1842
+**Entries merged since last sweep:** 1843
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1561,6 +1561,7 @@
 - GE-20260626-c94109 [@LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern](jvm/GE-20260626-c94109.md)
 - GE-20260627-8b0fb8 [Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries](jvm/GE-20260627-8b0fb8.md)
 - GE-20260627-51e402 [@Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely](jvm/GE-20260627-51e402.md)
+- GE-20260627-8d321f [Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail](jvm/GE-20260627-8d321f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
