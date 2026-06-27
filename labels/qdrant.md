@@ -3,3 +3,5 @@
 - GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()
 - GE-20260609-2abdfd: Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260627-fed7cf: ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback
+- GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries

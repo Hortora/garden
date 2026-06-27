@@ -27,3 +27,4 @@
 | GE-20260604-a8ffaa | ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed | gotcha | 8/15 |
 | GE-20260614-3205f6 | Use ide_find_references at plan time to enumerate all callers before a method signature change | technique | 10/15 |
 | GE-20260614-3205f6 | Use ide_find_references at plan time to enumerate all callers before a method signature change | technique | 10/15 |
+| GE-20260627-fed7cf | ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback | gotcha | 11/15 |

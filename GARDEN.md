@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1839
+**Entries merged since last sweep:** 1841
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -176,6 +176,7 @@
 - GE-20260604-a8ffaa [ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed](intellij-platform/GE-20260604-a8ffaa.md)
 - GE-20260614-3205f6 [Use ide_find_references at plan time to enumerate all callers before a method signature change](intellij-platform/GE-20260614-3205f6.md)
 - GE-20260614-3205f6 [Use ide_find_references at plan time to enumerate all callers before a method signature change](intellij-platform/GE-20260614-3205f6.md)
+- GE-20260627-fed7cf [ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback](intellij-platform/GE-20260627-fed7cf.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1558,6 +1559,7 @@
 - GE-20260626-e0ecaf [SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure](jvm/GE-20260626-e0ecaf.md)
 - GE-20260626-fce458 [ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401](jvm/GE-20260626-fce458.md)
 - GE-20260626-c94109 [@LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern](jvm/GE-20260626-c94109.md)
+- GE-20260627-8b0fb8 [Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries](jvm/GE-20260627-8b0fb8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

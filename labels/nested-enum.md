@@ -1,0 +1,1 @@
+- GE-20260627-fed7cf: ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback
