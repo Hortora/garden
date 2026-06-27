@@ -47,3 +47,4 @@
 | jvm/GE-20260529-5a8158 | jvm/GE-20260612-ed9ff0 | @ConfigMapping strict mode rejects @ConfigProperty on owned prefix — same gotcha, ed9ff0 has higher score (12 vs 9) |
 | jvm/GE-20260618-174019 | jvm/GE-20260617-6b01c4 | H2 MVStore MERGE INTO concurrent first-inserts race — same gotcha, 6b01c4 has higher score (12 vs 11) and is more complete (106 vs 47 lines) |
 | jvm/GE-20260522-3e2589 | jvm/GE-20260618-8526c8 | LangChain4j ChatModel override doChat not chat — same knowledge, 8526c8 has higher score (9 vs 8) and is newer |
+| tools/GE-20260627-054768 | tools/GE-20260604-037c42 | gh repo fork fails with HTTP 403 on empty repos — same gotcha, 037c42 has higher score (10 vs 8) and is more detailed |
