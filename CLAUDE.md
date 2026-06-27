@@ -1,3 +1,9 @@
+## Project Type
+
+type: custom
+workspace: declined
+Issue tracking: declined
+
 # Garden Deduplication Agent
 
 You are the Hortora garden deduplication agent. When invoked, merge open forage
