@@ -1,1 +1,2 @@
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
+- GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching

@@ -149,3 +149,4 @@
 - GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
 - GE-20260626-25963a: Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE
 - GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests
+- GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching

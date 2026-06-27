@@ -1,1 +1,2 @@
 - GE-20260626-773613: Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result
+- GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching
