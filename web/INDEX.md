@@ -45,3 +45,4 @@
 | GE-20260625-2c2539 | JSDOM location.hash persists across vitest test cases — URL state leaks between tests | gotcha | 12/15 |
 | GE-20260626-ec95a0 | npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them | gotcha | 12/15 |
 | GE-20260626-0ac274 | casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates | undocumented | 10/15 |
+| GE-20260627-9d0123 | Parser condition priority silently converts aggregates to keys when source matches group column | gotcha | 11/15 |

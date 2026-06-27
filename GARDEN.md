@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1843
+**Entries merged since last sweep:** 1844
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2189,6 +2189,7 @@
 - GE-20260625-2c2539 [JSDOM location.hash persists across vitest test cases — URL state leaks between tests](web/GE-20260625-2c2539.md)
 - GE-20260626-ec95a0 [npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them](web/GE-20260626-ec95a0.md)
 - GE-20260626-0ac274 [casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates](web/GE-20260626-0ac274.md)
+- GE-20260627-9d0123 [Parser condition priority silently converts aggregates to keys when source matches group column](web/GE-20260627-9d0123.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

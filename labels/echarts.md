@@ -1,0 +1,1 @@
+- GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column

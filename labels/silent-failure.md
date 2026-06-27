@@ -62,3 +62,4 @@
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
 - GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
 - GE-20260626-c21b02: @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns
+- GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
