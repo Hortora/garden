@@ -22,3 +22,4 @@
 - GE-20260609-0b703b: SC2 API mode accepts only one WebSocket connection at a time — ocraft's retry loop silently reuses a stale connection
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
+- GE-20260627-584787: ocraft StartRaw.from() requires all 5 sub-fields — including StartRaw makes them all mandatory

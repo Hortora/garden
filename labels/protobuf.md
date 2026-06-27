@@ -2,3 +2,4 @@
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260627-fed7cf: ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
+- GE-20260627-584787: ocraft StartRaw.from() requires all 5 sub-fields — including StartRaw makes them all mandatory
