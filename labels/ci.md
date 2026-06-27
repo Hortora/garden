@@ -33,3 +33,4 @@
 - GE-20260620-768950: WebSocket buildAsync().join() completes client-side before Quarkus @OnOpen fires — causes silent broadcast drop on slow CI
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
+- GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos

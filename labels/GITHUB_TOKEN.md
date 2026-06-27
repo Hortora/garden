@@ -1,0 +1,1 @@
+- GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos
