@@ -3,3 +3,4 @@
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
 - GE-20260610-f1982c: @ApplicationScoped outer bean required for ContextNotActiveException catch to be reachable — @RequestScoped proxy throws before method entry
 - GE-20260627-47c1eb: @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem
+- GE-20260627-f3476f: Arc.container().requestContext().isActive() for scope-safe CurrentPrincipal delegation in @ApplicationScoped beans

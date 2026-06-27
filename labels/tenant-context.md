@@ -1,1 +1,2 @@
 - GE-20260609-a23a8b: TenantContextRunner must save/restore TenantHolder when CDI request context already active
+- GE-20260627-f3476f: Arc.container().requestContext().isActive() for scope-safe CurrentPrincipal delegation in @ApplicationScoped beans
