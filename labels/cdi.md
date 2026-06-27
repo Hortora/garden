@@ -311,3 +311,4 @@
 - GE-20260626-c21b02: @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns
 - GE-20260626-dd667c: @QuarkusMain on a library class hijacks every consuming application's entry point
 - GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern
+- GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely

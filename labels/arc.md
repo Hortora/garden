@@ -67,3 +67,4 @@
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260623-22f1f7: casehub-qhorus QhorusInboundCurrentPrincipal Javadoc claims OidcCurrentPrincipal has @Priority(100) — it doesn't; two unqualified beans → AmbiguousResolutionException
 - GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern
+- GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely

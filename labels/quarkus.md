@@ -612,3 +612,4 @@
 - GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
 - GE-20260626-fce458: ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401
 - GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern
+- GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
