@@ -532,3 +532,4 @@
 | GE-20260623-673dc8 | IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory | gotcha | 10/15 |
 | GE-20260623-b460d4 | ide_refactor_rename on an import statement renames the class globally, not the import | gotcha | 10/15 |
 | GE-20260625-6b49f5 | IntelliJ MCP ide_read_file with qualifiedName reads dependency source directly from Maven JARs | technique | 10/15 |
+| GE-20260627-054768 | gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error | gotcha | 8/15 |
