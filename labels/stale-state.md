@@ -1,1 +1,2 @@
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
+- GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents

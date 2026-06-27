@@ -2,3 +2,4 @@
 - GE-20260420-374a25: Dispatch parallel implementation subagents within subagent-driven-development for disjoint tasks
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
+- GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents

@@ -20,3 +20,4 @@
 | GE-20260610-eb673a | Claude Code Agent tool sub-agents do not inherit MCP server connections from the parent session | gotcha | 11/15 |
 | GE-20260612-506191 | Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge | gotcha | 11/15 |
 | GE-20260623-ec9c80 | Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions | gotcha | 12/15 |
+| GE-20260627-5f208a | Stale SDD report files from previous sessions mislead fresh subagents | gotcha | 10/15 |

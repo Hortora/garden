@@ -1,0 +1,1 @@
+- GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents
