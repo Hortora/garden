@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1861
+**Entries merged since last sweep:** 1862
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1576,6 +1576,7 @@
 - GE-20260628-9159ce [Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation](jvm/GE-20260628-9159ce.md)
 - GE-20260628-75502d [Surefire retry errors mask the real root cause — retry runs show a different error than Run 1](jvm/GE-20260628-75502d.md)
 - GE-20260628-9159ce [Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation](jvm/GE-20260628-9159ce.md)
+- GE-20260628-3ea24f [Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget](jvm/GE-20260628-3ea24f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

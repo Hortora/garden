@@ -59,3 +59,4 @@
 - GE-20260618-f48e9b: Mutiny .ifNoItem().after().fail() throws io.smallrye.mutiny.TimeoutException, not java.util.concurrent.TimeoutException
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
 - GE-20260625-85a3aa: Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty
+- GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget

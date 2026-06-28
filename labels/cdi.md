@@ -317,3 +317,4 @@
 - GE-20260627-47c1eb: @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem
 - GE-20260627-f3476f: Arc.container().requestContext().isActive() for scope-safe CurrentPrincipal delegation in @ApplicationScoped beans
 - GE-20260628-ea2ac5: quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state
+- GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
