@@ -2,3 +2,4 @@
 - GE-20260427-68030c: Introduce a new interface class family to add overloads that would otherwise conflict via Java type erasure
 - GE-20260522-3e2589: LangChain4j ChatModel cannot be stubbed as a lambda — override doChat(ChatRequest) not chat(ChatRequest)
 - GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
+- GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored

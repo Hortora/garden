@@ -999,3 +999,4 @@
 | GE-20260628-c25bcb | QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context | gotcha | 11/15 |
 | GE-20260628-e19735 | Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent | undocumented | 10/15 |
 | GE-20260628-cabe4f | @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs | technique | 14/15 |
+| GE-20260628-f5c99f | Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored | gotcha | 11/15 |

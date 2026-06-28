@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1868
+**Entries merged since last sweep:** 1869
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1583,6 +1583,7 @@
 - GE-20260628-c25bcb [QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context](jvm/GE-20260628-c25bcb.md)
 - GE-20260628-e19735 [Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent](jvm/GE-20260628-e19735.md)
 - GE-20260628-cabe4f [@IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs](jvm/GE-20260628-cabe4f.md)
+- GE-20260628-f5c99f [Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored](jvm/GE-20260628-f5c99f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
