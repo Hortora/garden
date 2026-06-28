@@ -1,0 +1,1 @@
+- GE-20260628-bc10ae: SC2 protocol server emulation — GameInfo request arrives before JoinGame, race-dependent fields unconfigured

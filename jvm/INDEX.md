@@ -988,3 +988,6 @@
 | GE-20260627-4712de | nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching | gotcha | 12/15 |
 | GE-20260627-47c1eb | @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem | gotcha | 10/15 |
 | GE-20260627-f3476f | Arc.container().requestContext().isActive() for scope-safe CurrentPrincipal delegation in @ApplicationScoped beans | technique | 9/15 |
+| GE-20260628-bc10ae | SC2 protocol server emulation — GameInfo request arrives before JoinGame, race-dependent fields unconfigured | gotcha | 9/15 |
+| GE-20260628-a741a4 | Ocraft StartRaw.from() requires 8×1 placement grid minimum — 1×1 triggers integer division edge case | gotcha | 10/15 |
+| GE-20260628-9159ce | Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation | technique | 10/15 |

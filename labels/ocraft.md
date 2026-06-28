@@ -7,3 +7,6 @@
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260627-584787: ocraft StartRaw.from() requires all 5 sub-fields — including StartRaw makes them all mandatory
+- GE-20260628-bc10ae: SC2 protocol server emulation — GameInfo request arrives before JoinGame, race-dependent fields unconfigured
+- GE-20260628-a741a4: Ocraft StartRaw.from() requires 8×1 placement grid minimum — 1×1 triggers integer division edge case
+- GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
