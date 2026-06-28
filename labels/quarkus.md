@@ -615,3 +615,4 @@
 - GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
 - GE-20260627-47c1eb: @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem
 - GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
+- GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
