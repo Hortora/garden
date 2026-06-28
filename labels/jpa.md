@@ -93,3 +93,4 @@
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
 - GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails
 - GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity
+- GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link

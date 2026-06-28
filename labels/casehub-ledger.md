@@ -17,3 +17,4 @@
 - GE-20260616-101fc0: casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
 - GE-20260618-3e5f2d: ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity
+- GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link

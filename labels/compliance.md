@@ -1,2 +1,3 @@
 - GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history
 - GE-20260605-373190: @ObservesAsync observer cannot inject @RequestScoped beans — ContextNotActiveException before any business logic fires
+- GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link

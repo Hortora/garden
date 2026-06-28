@@ -10,3 +10,4 @@
 | GE-20260531-46f8ab | casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything | undocumented | 8/15 |
 | GE-20260615-6d0ae3 | nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves | undocumented | 11/15 |
 | GE-20260618-b940b2 | casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional | gotcha | 9/15 |
+| GE-20260628-6599e6 | casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link | gotcha | 10/15 |

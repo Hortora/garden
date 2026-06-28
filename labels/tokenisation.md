@@ -1,2 +1,3 @@
 - GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything
 - GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything
+- GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link
