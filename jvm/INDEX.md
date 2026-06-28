@@ -1000,3 +1000,6 @@
 | GE-20260628-e19735 | Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent | undocumented | 10/15 |
 | GE-20260628-cabe4f | @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs | technique | 14/15 |
 | GE-20260628-f5c99f | Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored | gotcha | 11/15 |
+| GE-20260628-04a38c | Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts | gotcha | 12/15 |
+| GE-20260628-f4177d | Quarkus getCredentialTransport() declaring Bearer transport conflicts with OIDC mechanism — breaks @TestSecurity and causes mechanism ambiguity | gotcha | 10/15 |
+| GE-20260628-919f9f | Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests | gotcha | 13/15 |

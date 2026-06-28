@@ -1,0 +1,1 @@
+- GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts

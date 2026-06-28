@@ -1,1 +1,2 @@
 - GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup
+- GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts

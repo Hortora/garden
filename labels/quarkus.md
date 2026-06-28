@@ -616,3 +616,6 @@
 - GE-20260627-47c1eb: @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem
 - GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
 - GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
+- GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts
+- GE-20260628-f4177d: Quarkus getCredentialTransport() declaring Bearer transport conflicts with OIDC mechanism — breaks @TestSecurity and causes mechanism ambiguity
+- GE-20260628-919f9f: Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests

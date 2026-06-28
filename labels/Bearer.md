@@ -1,0 +1,1 @@
+- GE-20260628-f4177d: Quarkus getCredentialTransport() declaring Bearer transport conflicts with OIDC mechanism — breaks @TestSecurity and causes mechanism ambiguity

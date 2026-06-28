@@ -15,3 +15,6 @@
 - GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
 - GE-20260623-941ade: quarkus.http.auth.permission.*.policy=deny on /* blocks ALL requests — @RolesAllowed becomes unreachable dead code
 - GE-20260623-5b192f: DenyUnannotatedPredicate only covers classes with at least one annotated method — new resource classes with zero annotations are not protected
+- GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts
+- GE-20260628-f4177d: Quarkus getCredentialTransport() declaring Bearer transport conflicts with OIDC mechanism — breaks @TestSecurity and causes mechanism ambiguity
+- GE-20260628-919f9f: Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests
