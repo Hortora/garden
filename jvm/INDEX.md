@@ -992,3 +992,4 @@
 | GE-20260628-a741a4 | Ocraft StartRaw.from() requires 8×1 placement grid minimum — 1×1 triggers integer division edge case | gotcha | 10/15 |
 | GE-20260628-9159ce | Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation | technique | 10/15 |
 | GE-20260628-75502d | Surefire retry errors mask the real root cause — retry runs show a different error than Run 1 | gotcha | 10/15 |
+| GE-20260628-9159ce | Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation | technique | 10/15 |
