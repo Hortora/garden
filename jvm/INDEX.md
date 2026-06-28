@@ -997,3 +997,4 @@
 | GE-20260628-1cdd26 | Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters | gotcha | 9/15 |
 | GE-20260628-e82f4b | JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption | gotcha | 8/15 |
 | GE-20260628-c25bcb | QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context | gotcha | 11/15 |
+| GE-20260628-e19735 | Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent | undocumented | 10/15 |
