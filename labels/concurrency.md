@@ -29,3 +29,4 @@
 - GE-20260617-6b01c4: H2 2.x MVStore MERGE INTO is not concurrent-safe for first-inserts
 - GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist
 - GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination
+- GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption

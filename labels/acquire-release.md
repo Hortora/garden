@@ -1,0 +1,1 @@
+- GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption

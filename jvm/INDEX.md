@@ -994,3 +994,5 @@
 | GE-20260628-75502d | Surefire retry errors mask the real root cause — retry runs show a different error than Run 1 | gotcha | 10/15 |
 | GE-20260628-9159ce | Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation | technique | 10/15 |
 | GE-20260628-3ea24f | Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget | gotcha | 11/15 |
+| GE-20260628-1cdd26 | Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters | gotcha | 9/15 |
+| GE-20260628-e82f4b | JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption | gotcha | 8/15 |

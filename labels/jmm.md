@@ -1,2 +1,3 @@
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
+- GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption

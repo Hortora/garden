@@ -1,1 +1,2 @@
 - GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid
+- GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters

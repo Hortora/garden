@@ -76,3 +76,4 @@
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
 - GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
 - GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails
+- GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters

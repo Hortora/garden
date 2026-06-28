@@ -20,3 +20,4 @@
 - GE-20260605-e202fd: H2 MODE=PostgreSQL rejects INSERT ON CONFLICT DO UPDATE RETURNING despite claiming PostgreSQL compatibility
 - GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL
 - GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL
+- GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters
