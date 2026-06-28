@@ -10,3 +10,4 @@
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
 - GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong
 - GE-20260623-c651a1: Removing @Alternative from one bean in a multi-implementation CDI chain silently changes resolution — no AmbiguousResolutionException
+- GE-20260628-ea2ac5: quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state

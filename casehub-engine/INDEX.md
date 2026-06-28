@@ -39,3 +39,4 @@
 | GE-20260626-9ce1c9 | FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow | gotcha | 9/15 |
 | GE-20260626-2e4a0d | Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main | gotcha | 11/15 |
 | GE-20260531-1e51d4 | casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore | gotcha | 10/15 |
+| GE-20260628-dbc656 | WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock | gotcha | 9/15 |

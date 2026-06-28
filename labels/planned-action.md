@@ -1,2 +1,1 @@
-- GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results
 - GE-20260628-dbc656: WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock

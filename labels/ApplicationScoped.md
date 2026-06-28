@@ -7,3 +7,4 @@
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260612-ce4271: MutableCurrentPrincipal @ApplicationScoped state leaks between @QuarkusTest classes — silent empty results
 - GE-20260612-c67513: CDI @Produces @ApplicationScoped fails for Java records — records are final and cannot be proxied
+- GE-20260628-ea2ac5: quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state

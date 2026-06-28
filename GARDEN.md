@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1857
+**Entries merged since last sweep:** 1860
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -60,6 +60,7 @@
 - GE-20260626-9ce1c9 [FlowWorkerFunction relocated twice across engine releases — io.casehub.api.model then io.casehub.engine.flow](casehub-engine/GE-20260626-9ce1c9.md)
 - GE-20260626-2e4a0d [Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main](casehub-engine/GE-20260626-2e4a0d.md)
 - GE-20260531-1e51d4 [casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore](casehub-engine/GE-20260531-1e51d4.md)
+- GE-20260628-dbc656 [WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock](casehub-engine/GE-20260628-dbc656.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -561,6 +562,7 @@
 - GE-20260427-5d7c67 [quarkus-work (full) brings JpaWorkloadProvider that clashes with any other WorkloadProvider bean](quarkus/GE-20260427-5d7c67.md)
 - GE-20260414-c2f74c [Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread](quarkus/GE-20260414-c2f74c.md)
 - GE-20260421-ac12d5 [Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny](quarkus/GE-20260421-ac12d5.md)
+- GE-20260628-ea2ac5 [quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state](quarkus/GE-20260628-ea2ac5.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -1572,6 +1574,7 @@
 - GE-20260628-bc10ae [SC2 protocol server emulation — GameInfo request arrives before JoinGame, race-dependent fields unconfigured](jvm/GE-20260628-bc10ae.md)
 - GE-20260628-a741a4 [Ocraft StartRaw.from() requires 8×1 placement grid minimum — 1×1 triggers integer division edge case](jvm/GE-20260628-a741a4.md)
 - GE-20260628-9159ce [Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation](jvm/GE-20260628-9159ce.md)
+- GE-20260628-75502d [Surefire retry errors mask the real root cause — retry runs show a different error than Run 1](jvm/GE-20260628-75502d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

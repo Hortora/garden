@@ -1,2 +1,3 @@
 - GE-20260428-9571b8: Bayesian Beta trust model may store confidence as a field but not use it in the update weight
 - GE-20260603-753526: Binary else on multi-value enum silently misclassifies — CREATED events produced FLAGGED attestations
+- GE-20260628-dbc656: WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock

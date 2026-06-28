@@ -1,0 +1,1 @@
+- GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1

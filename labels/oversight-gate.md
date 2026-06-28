@@ -1,1 +1,2 @@
 - GE-20260609-e53d82: Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval
+- GE-20260628-dbc656: WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock
