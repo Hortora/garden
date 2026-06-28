@@ -1,3 +1,4 @@
 - GE-20260528-f0a75c: @DefaultBean BlockingToReactiveBridge — wrap any blocking SPI as reactive, displaced by native async @Alternative
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
 - GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
+- GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context

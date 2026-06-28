@@ -3,3 +3,4 @@
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260617-127601: WorkerResult convenience factories erase outcome field — applyOutputSchema silently replaces Declined/Failed with Success
 - GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute
+- GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context

@@ -1,3 +1,4 @@
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival
+- GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context
