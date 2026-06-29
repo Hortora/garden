@@ -1,0 +1,1 @@
+- GE-20260630-7d7113: BM25 corpus isolation tests fail when test documents share common tokens with the query across corpuses

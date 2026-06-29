@@ -1,1 +1,2 @@
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
+- GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf

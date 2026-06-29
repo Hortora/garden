@@ -1,0 +1,1 @@
+- GE-20260630-647cff: CamelCase compound preservation in BM25 tokenization — exact identifier matches outrank partial via IDF

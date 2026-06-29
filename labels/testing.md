@@ -355,3 +355,4 @@
 - GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
+- GE-20260630-7d7113: BM25 corpus isolation tests fail when test documents share common tokens with the query across corpuses

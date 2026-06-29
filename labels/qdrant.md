@@ -8,3 +8,4 @@
 - GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement
 - GE-20260629-0a321f: Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
+- GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
