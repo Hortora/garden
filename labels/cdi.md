@@ -320,3 +320,4 @@
 - GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
 - GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
+- GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain

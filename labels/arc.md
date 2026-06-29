@@ -69,3 +69,4 @@
 - GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern
 - GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
 - GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
+- GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
