@@ -1,0 +1,1 @@
+- GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race

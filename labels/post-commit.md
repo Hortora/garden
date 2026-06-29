@@ -1,2 +1,3 @@
 - GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch
 - GE-20260608-038af4: JTA post-commit observer dispatch via TransactionSynchronizationRegistry silently skips @TestTransaction tests — use QuarkusTransaction.requiringNew()
+- GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race
