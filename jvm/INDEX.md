@@ -1011,3 +1011,4 @@
 | GE-20260629-63d619 | SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation | gotcha | 12/15 |
 | GE-20260629-b049bb | Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live | gotcha | 12/15 |
 | GE-20260629-0a321f | Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race | gotcha | 10/15 |
+| GE-20260629-500611 | H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID | gotcha | 11/15 |

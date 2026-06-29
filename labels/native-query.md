@@ -1,0 +1,1 @@
+- GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID

@@ -4,3 +4,4 @@
 - GE-20260522-567cc5: InMemoryChannelStore.put() auto-assigns UUID — test assertions against explicit channelUuid fail silently
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
 - GE-20260607-b6d999: Dedicated per-concern ledger subject isolates sequence timelines when multiple writers share a caseId
+- GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID

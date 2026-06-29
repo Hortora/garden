@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1889
+**Entries merged since last sweep:** 1890
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1599,6 +1599,7 @@
 - GE-20260629-63d619 [SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation](jvm/GE-20260629-63d619.md)
 - GE-20260629-b049bb [Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live](jvm/GE-20260629-b049bb.md)
 - GE-20260629-0a321f [Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race](jvm/GE-20260629-0a321f.md)
+- GE-20260629-500611 [H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID](jvm/GE-20260629-500611.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

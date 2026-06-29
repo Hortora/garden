@@ -1,1 +1,2 @@
 - GE-20260617-03c1a3: H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING
+- GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID
