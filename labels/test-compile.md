@@ -1,0 +1,1 @@
+- GE-20260629-5d23ca: Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden

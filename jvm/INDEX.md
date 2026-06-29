@@ -1014,3 +1014,4 @@
 | GE-20260629-500611 | H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID | gotcha | 11/15 |
 | GE-20260629-c6172a | JDK Corretto 22 WebSocket OpeningHandshake uses non-standard GUID — all connections to RFC-compliant servers fail | gotcha | 12/15 |
 | GE-20260629-74fc65 | Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities | gotcha | 8/15 |
+| GE-20260629-5d23ca | Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden | gotcha | 9/15 |

@@ -3,3 +3,4 @@
 - GE-20260524-e0aabf: Incremental CI: module missing from state-save step always rebuilds on next run
 - GE-20260526-43a51d: Maven incremental compile silently passes after changing a record's component count in an installed jar
 - GE-20260612-1100fe: mvn test -pl <child> passes while installed runtime jar hides a cross-module API break
+- GE-20260629-5d23ca: Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden
