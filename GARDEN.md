@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1896
+**Entries merged since last sweep:** 1897
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1605,6 +1605,7 @@
 - GE-20260629-5d23ca [Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden](jvm/GE-20260629-5d23ca.md)
 - GE-20260521-3e030b [mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale](jvm/GE-20260521-3e030b.md)
 - GE-20260629-d6deca [JPA test fixtures break silently when API migrates from direct object pass to store lookup](jvm/GE-20260629-d6deca.md)
+- GE-20260629-16e329 [hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+](jvm/GE-20260629-16e329.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,2 +1,1 @@
-- GE-20260529-709049: Java 21 sealed interface with nested records requires no explicit permits clause
 - GE-20260629-16e329: hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+
