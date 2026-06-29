@@ -164,3 +164,4 @@
 - GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
 - GE-20260623-aeda6f: CRLF test fixture files silently normalized by git — tests pass without the fix
+- GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes

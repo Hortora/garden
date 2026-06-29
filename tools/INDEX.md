@@ -536,3 +536,5 @@
 | GE-20260627-907be8 | GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos | gotcha | 11/15 |
 | GE-20260627-9661a2 | GitHub Packages Maven visibility is repo-inherited — no API to change it independently | undocumented | 8/15 |
 | GE-20260609-496817 | SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection | gotcha | 12/15 |
+| GE-20260629-7fdee3 | Empty GitHub repos cannot be forked — gh repo fork returns 403 | gotcha | 9/15 |
+| GE-20260629-3fa09c | git pull --rebase after rejected push silently drops commits when remote has overlapping changes | gotcha | 12/15 |

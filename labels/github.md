@@ -39,3 +39,4 @@
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260623-e02ce2: GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred
 - GE-20260627-054768: gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error
+- GE-20260629-7fdee3: Empty GitHub repos cannot be forked — gh repo fork returns 403

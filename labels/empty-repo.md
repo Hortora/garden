@@ -1,2 +1,3 @@
 - GE-20260604-037c42: gh repo fork fails with HTTP 403 on empty repositories — push first commit before forking
 - GE-20260627-054768: gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error
+- GE-20260629-7fdee3: Empty GitHub repos cannot be forked — gh repo fork returns 403

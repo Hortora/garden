@@ -18,3 +18,4 @@
 - GE-20260616-fa89ff: GitHub Actions repository_dispatch headSha is the upstream canonical HEAD, not the fork HEAD
 - GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork
 - GE-20260627-054768: gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error
+- GE-20260629-7fdee3: Empty GitHub repos cannot be forked — gh repo fork returns 403
