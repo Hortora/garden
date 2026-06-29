@@ -1,1 +1,2 @@
 - GE-20260530-fcc6c3: ConcurrentHashMap.putIfAbsent silently keeps stale TTL cache entries — need atomic conditional remove first
+- GE-20260629-7d2272: Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction

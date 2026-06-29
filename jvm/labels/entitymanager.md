@@ -1,1 +1,2 @@
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
+- GE-20260629-7d2272: Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction

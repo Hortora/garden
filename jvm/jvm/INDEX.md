@@ -35,3 +35,5 @@
 | GE-20260618-976009 | Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning | gotcha | 11/15 |
 | GE-20260517-e78ae8 | JPA entity returned from @Transactional method is detached — field mutations silently lost | gotcha | 13/15 |
 | GE-20260609-ddd4b8 | CaseHub.signal() is async (Vert.x event bus) — not a synchronous blackboard update | gotcha | 11/15 |
+| GE-20260629-ba73b8 | Hibernate @Version skips increment on unmodified entities — dirty-checking gate before OCC | gotcha | 11/15 |
+| GE-20260629-7d2272 | Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction | gotcha | 11/15 |

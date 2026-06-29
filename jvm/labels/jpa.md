@@ -6,3 +6,4 @@
 - GE-20260611-a42c0b: Quarkus JPA subclass @Inject EntityManager omits parent qualifier — silently uses wrong PU in multi-datasource
 - GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed
 - GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
+- GE-20260629-ba73b8: Hibernate @Version skips increment on unmodified entities — dirty-checking gate before OCC
