@@ -1,2 +1,1 @@
-- GE-20260618-c5d2d8: JDK HttpServer as zero-dependency mock server for Quarkus REST client testing
 - GE-20260629-c6172a: JDK Corretto 22 WebSocket OpeningHandshake uses non-standard GUID — all connections to RFC-compliant servers fail

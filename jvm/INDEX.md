@@ -1012,3 +1012,4 @@
 | GE-20260629-b049bb | Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live | gotcha | 12/15 |
 | GE-20260629-0a321f | Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race | gotcha | 10/15 |
 | GE-20260629-500611 | H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID | gotcha | 11/15 |
+| GE-20260629-c6172a | JDK Corretto 22 WebSocket OpeningHandshake uses non-standard GUID — all connections to RFC-compliant servers fail | gotcha | 12/15 |
