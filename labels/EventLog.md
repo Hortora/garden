@@ -1,2 +1,1 @@
-- GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
 - GE-20260629-670471: casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate
