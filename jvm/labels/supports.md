@@ -1,0 +1,1 @@
+- GE-20260629-7d2272: Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction

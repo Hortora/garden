@@ -1,0 +1,1 @@
+- GE-20260629-ba73b8: Hibernate @Version skips increment on unmodified entities — dirty-checking gate before OCC

@@ -1,0 +1,1 @@
+- GE-20260629-991c58: Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities

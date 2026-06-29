@@ -1,0 +1,1 @@
+- GE-20260629-17b961: OCC claim must be reset before rethrowing SituationConflictException — two-phase claim+save leaves permanent deadlock

@@ -7,3 +7,6 @@
 - GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed
 - GE-20260517-e78ae8: JPA entity returned from @Transactional method is detached — field mutations silently lost
 - GE-20260629-ba73b8: Hibernate @Version skips increment on unmodified entities — dirty-checking gate before OCC
+- GE-20260629-6928ab: Conditional UPDATE on a row that may not exist — JPQL UPDATE WHERE flag = false returns 0 rows, indistinguishable from 'already claimed'
+- GE-20260629-17b961: OCC claim must be reset before rethrowing SituationConflictException — two-phase claim+save leaves permanent deadlock
+- GE-20260629-991c58: Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities
