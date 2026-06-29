@@ -10,3 +10,4 @@
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
 - GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
 - GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty
+- GE-20260629-59c7e6: esbuild minifies TypeScript constants inside template literal html strings — fetch URLs silently 404

@@ -1018,3 +1018,6 @@
 | GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |
 | GE-20260629-d6deca | JPA test fixtures break silently when API migrates from direct object pass to store lookup | gotcha | 8/15 |
 | GE-20260629-16e329 | hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+ | gotcha | 10/15 |
+| GE-20260629-e6460e | quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead | gotcha | 12/15 |
+| GE-20260629-59c7e6 | esbuild minifies TypeScript constants inside template literal html strings — fetch URLs silently 404 | gotcha | 10/15 |
+| GE-20260629-6f1d64 | Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required | gotcha | 8/15 |

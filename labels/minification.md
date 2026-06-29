@@ -1,2 +1,1 @@
-- GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260629-59c7e6: esbuild minifies TypeScript constants inside template literal html strings — fetch URLs silently 404
