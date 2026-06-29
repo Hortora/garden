@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1878
+**Entries merged since last sweep:** 1879
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -61,6 +61,7 @@
 - GE-20260626-2e4a0d [Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main](casehub-engine/GE-20260626-2e4a0d.md)
 - GE-20260531-1e51d4 [casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore](casehub-engine/GE-20260531-1e51d4.md)
 - GE-20260628-dbc656 [WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock](casehub-engine/GE-20260628-dbc656.md)
+- GE-20260629-0d981d [Layer 9 shares AmlInvestigationOutcomeService with Layer 6 but produces no SAR outcomes — outcome is always null](casehub-engine/GE-20260629-0d981d.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
