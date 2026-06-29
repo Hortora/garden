@@ -95,3 +95,4 @@
 - GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity
 - GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link
 - GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID
+- GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup

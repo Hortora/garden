@@ -1,1 +1,2 @@
 - GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures
+- GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup

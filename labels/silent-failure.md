@@ -65,3 +65,4 @@
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
 - GE-20260627-47c1eb: @RequestScoped CDI bean silently fails in Quarkus @ConsumeEvent handlers — no error, no WorkItem
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
+- GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup
