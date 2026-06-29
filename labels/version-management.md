@@ -1,0 +1,1 @@
+- GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins

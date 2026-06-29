@@ -146,3 +146,4 @@
 - GE-20260626-9fba46: No pure Java IRC server library exists on Maven Central — embedded test server is the only path
 - GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
+- GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins
