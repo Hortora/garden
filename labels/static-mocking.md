@@ -1,0 +1,1 @@
+- GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
