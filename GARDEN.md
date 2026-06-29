@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1882
+**Entries merged since last sweep:** 1885
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1594,6 +1594,9 @@
 - GE-20260601-ad6203 [Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain](jvm/GE-20260601-ad6203.md)
 - GE-20260629-554db2 [Maven child dependencyManagement BOM re-import silently overrides parent's version pins](jvm/GE-20260629-554db2.md)
 - GE-20260629-59082a [InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible](jvm/GE-20260629-59082a.md)
+- GE-20260629-83784a [Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement](jvm/GE-20260629-83784a.md)
+- GE-20260629-10e3dc [HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them](jvm/GE-20260629-10e3dc.md)
+- GE-20260629-63d619 [SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation](jvm/GE-20260629-63d619.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

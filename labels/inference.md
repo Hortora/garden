@@ -1,3 +1,4 @@
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
 - GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
+- GE-20260629-10e3dc: HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them

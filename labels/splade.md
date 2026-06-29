@@ -1,1 +1,3 @@
 - GE-20260614-b94048: SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality
+- GE-20260629-10e3dc: HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them
+- GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation

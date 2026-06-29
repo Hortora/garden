@@ -1,0 +1,1 @@
+- GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation

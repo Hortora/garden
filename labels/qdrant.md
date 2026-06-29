@@ -5,3 +5,4 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260627-fed7cf: ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
+- GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement

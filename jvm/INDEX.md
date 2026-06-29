@@ -1006,3 +1006,6 @@
 | GE-20260601-ad6203 | Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain | gotcha | 10/15 |
 | GE-20260629-554db2 | Maven child dependencyManagement BOM re-import silently overrides parent's version pins | gotcha | 13/15 |
 | GE-20260629-59082a | InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible | gotcha | 10/15 |
+| GE-20260629-83784a | Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement | gotcha | 11/15 |
+| GE-20260629-10e3dc | HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them | gotcha | 10/15 |
+| GE-20260629-63d619 | SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation | gotcha | 12/15 |

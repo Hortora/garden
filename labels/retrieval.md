@@ -1,2 +1,4 @@
 - GE-20260606-096df3: LangChain4j EmbeddingSearchRequest.filter() pushes domain/metadata filters into Qdrant pre-scoring
 - GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching
+- GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement
+- GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation

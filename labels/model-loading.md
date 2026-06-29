@@ -1,0 +1,1 @@
+- GE-20260629-10e3dc: HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them

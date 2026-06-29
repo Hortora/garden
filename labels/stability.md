@@ -1,2 +1,3 @@
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
+- GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement

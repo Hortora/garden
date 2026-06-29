@@ -1,3 +1,4 @@
 - GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()
 - GE-20260609-2abdfd: Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
+- GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation
