@@ -1,3 +1,4 @@
 - GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter
 - GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
+- GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle

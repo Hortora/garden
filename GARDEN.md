@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1875
+**Entries merged since last sweep:** 1878
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -181,6 +181,7 @@
 - GE-20260614-3205f6 [Use ide_find_references at plan time to enumerate all callers before a method signature change](intellij-platform/GE-20260614-3205f6.md)
 - GE-20260614-3205f6 [Use ide_find_references at plan time to enumerate all callers before a method signature change](intellij-platform/GE-20260614-3205f6.md)
 - GE-20260627-fed7cf [ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback](intellij-platform/GE-20260627-fed7cf.md)
+- GE-20260629-0a3cb4 [IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty](intellij-platform/GE-20260629-0a3cb4.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -2220,6 +2221,8 @@
 - GE-20260626-ec95a0 [npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them](web/GE-20260626-ec95a0.md)
 - GE-20260626-0ac274 [casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates](web/GE-20260626-0ac274.md)
 - GE-20260627-9d0123 [Parser condition priority silently converts aggregates to keys when source matches group column](web/GE-20260627-9d0123.md)
+- GE-20260629-a9db51 [ECharts custom series api.value(N) returns 0 for out-of-range indices, not undefined](web/GE-20260629-a9db51.md)
+- GE-20260629-ebdb0a [import type does not trigger customElements.define() — Web Components missing from webpack bundle](web/GE-20260629-ebdb0a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

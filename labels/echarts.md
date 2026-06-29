@@ -1,1 +1,2 @@
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
+- GE-20260629-a9db51: ECharts custom series api.value(N) returns 0 for out-of-range indices, not undefined

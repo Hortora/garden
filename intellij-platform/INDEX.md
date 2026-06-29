@@ -28,3 +28,4 @@
 | GE-20260614-3205f6 | Use ide_find_references at plan time to enumerate all callers before a method signature change | technique | 10/15 |
 | GE-20260614-3205f6 | Use ide_find_references at plan time to enumerate all callers before a method signature change | technique | 10/15 |
 | GE-20260627-fed7cf | ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback | gotcha | 11/15 |
+| GE-20260629-0a3cb4 | IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty | gotcha | 10/15 |

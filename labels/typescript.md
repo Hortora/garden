@@ -8,3 +8,5 @@
 - GE-20260621-d5e7d4: Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission
 - GE-20260621-f9970f: tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
+- GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
+- GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty

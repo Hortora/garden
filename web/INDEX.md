@@ -46,3 +46,5 @@
 | GE-20260626-ec95a0 | npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them | gotcha | 12/15 |
 | GE-20260626-0ac274 | casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates | undocumented | 10/15 |
 | GE-20260627-9d0123 | Parser condition priority silently converts aggregates to keys when source matches group column | gotcha | 11/15 |
+| GE-20260629-a9db51 | ECharts custom series api.value(N) returns 0 for out-of-range indices, not undefined | gotcha | 10/15 |
+| GE-20260629-ebdb0a | import type does not trigger customElements.define() — Web Components missing from webpack bundle | gotcha | 11/15 |
