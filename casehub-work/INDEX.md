@@ -12,3 +12,4 @@
 | GE-20260607-7033a1 | Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load | technique | 8/15 |
 | GE-20260522-f7db12 | Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed | technique | 13/15 |
 | GE-20260622-71f4b9 | WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only | gotcha | 11/15 |
+| GE-20260629-45f4be | REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle | gotcha | 11/15 |

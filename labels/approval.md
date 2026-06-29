@@ -1,0 +1,1 @@
+- GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle

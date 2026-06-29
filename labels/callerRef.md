@@ -1,1 +1,2 @@
 - GE-20260629-0d981d: Layer 9 shares AmlInvestigationOutcomeService with Layer 6 but produces no SAR outcomes — outcome is always null
+- GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle

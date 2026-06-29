@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1880
+**Entries merged since last sweep:** 1881
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -86,6 +86,7 @@
 - GE-20260607-7033a1 [Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load](casehub-work/GE-20260607-7033a1.md)
 - GE-20260522-f7db12 [Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed](casehub-work/GE-20260522-f7db12.md)
 - GE-20260622-71f4b9 [WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only](casehub-work/GE-20260622-71f4b9.md)
+- GE-20260629-45f4be [REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle](casehub-work/GE-20260629-45f4be.md)
 ### casehub-ledger/
 - GE-20260511-b6f903 [casehub-ledger required fields](casehub-ledger/GE-20260511-b6f903.md)
 - GE-20260420-b9259e [LedgerAttestation in quarkus-ledger is plain @Entity — Panache statics cause compile error](casehub-ledger/GE-20260420-b9259e.md)
