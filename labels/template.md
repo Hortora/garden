@@ -2,3 +2,4 @@
 - GE-20260427-5413df: @PermuteReturn(when="i == N") generates a method only on a specific arity in a Permuplate template
 - GE-20260427-5c5bab: @PermuteFilter is silently ignored on plain template methods — use single-clone @PermuteMethod to enable per-arity suppression
 - GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
+- GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live

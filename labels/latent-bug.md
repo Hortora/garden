@@ -1,0 +1,1 @@
+- GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live

@@ -5,3 +5,4 @@
 - GE-20260607-813a95: ConcurrentHashMap.computeIfAbsent() null return from mapping function — use sentinel pattern
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
 - GE-20260617-68c9c5: Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false
+- GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live

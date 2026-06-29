@@ -150,3 +150,4 @@
 - GE-20260626-25963a: Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE
 - GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests
 - GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching
+- GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live
