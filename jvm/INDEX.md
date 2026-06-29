@@ -1010,3 +1010,4 @@
 | GE-20260629-10e3dc | HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them | gotcha | 10/15 |
 | GE-20260629-63d619 | SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation | gotcha | 12/15 |
 | GE-20260629-b049bb | Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live | gotcha | 12/15 |
+| GE-20260629-0a321f | Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race | gotcha | 10/15 |

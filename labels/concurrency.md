@@ -30,3 +30,4 @@
 - GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist
 - GE-20260626-019b2d: CompletableFuture collector pattern for line-based protocol request/response coordination
 - GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption
+- GE-20260629-0a321f: Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race

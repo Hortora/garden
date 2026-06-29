@@ -1,0 +1,1 @@
+- GE-20260629-0a321f: Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race
