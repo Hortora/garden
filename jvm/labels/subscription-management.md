@@ -1,0 +1,1 @@
+- GE-20260629-e8b16d: EventStreamBus.clear() drops subscriptions — silent pipeline death on lifecycle reset

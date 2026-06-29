@@ -40,3 +40,4 @@
 | GE-20260629-6928ab | Conditional UPDATE on a row that may not exist — JPQL UPDATE WHERE flag = false returns 0 rows, indistinguishable from 'already claimed' | gotcha | 11/15 |
 | GE-20260629-17b961 | OCC claim must be reset before rethrowing SituationConflictException — two-phase claim+save leaves permanent deadlock | gotcha | 10/15 |
 | GE-20260629-991c58 | Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities | technique | 10/15 |
+| GE-20260629-e8b16d | EventStreamBus.clear() drops subscriptions — silent pipeline death on lifecycle reset | gotcha | 12/15 |
