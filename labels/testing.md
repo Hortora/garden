@@ -352,3 +352,4 @@
 - GE-20260626-0e976f: Test factory canned responses must match stub behavioral intent — not just field names
 - GE-20260609-f0d149: ocraft ImageData.from() requires data ByteString with exact byte count — appears optional but throws if wrong size
 - GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts
+- GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible

@@ -1005,3 +1005,4 @@
 | GE-20260628-919f9f | Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests | gotcha | 13/15 |
 | GE-20260601-ad6203 | Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain | gotcha | 10/15 |
 | GE-20260629-554db2 | Maven child dependencyManagement BOM re-import silently overrides parent's version pins | gotcha | 13/15 |
+| GE-20260629-59082a | InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible | gotcha | 10/15 |

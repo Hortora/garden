@@ -6,3 +6,4 @@
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
+- GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
