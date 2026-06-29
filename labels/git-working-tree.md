@@ -1,1 +1,2 @@
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
+- GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree

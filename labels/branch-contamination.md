@@ -1,0 +1,1 @@
+- GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree

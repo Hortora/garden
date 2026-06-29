@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1891
+**Entries merged since last sweep:** 1892
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2176,6 +2176,7 @@
 - GE-20260609-496817 [SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection](tools/GE-20260609-496817.md)
 - GE-20260629-7fdee3 [Empty GitHub repos cannot be forked — gh repo fork returns 403](tools/GE-20260629-7fdee3.md)
 - GE-20260629-3fa09c [git pull --rebase after rejected push silently drops commits when remote has overlapping changes](tools/GE-20260629-3fa09c.md)
+- GE-20260629-ba6ff8 [Cross-repo subagent inherits stale branch from another session's working tree](tools/GE-20260629-ba6ff8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

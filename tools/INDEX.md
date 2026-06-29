@@ -538,3 +538,4 @@
 | GE-20260609-496817 | SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection | gotcha | 12/15 |
 | GE-20260629-7fdee3 | Empty GitHub repos cannot be forked — gh repo fork returns 403 | gotcha | 9/15 |
 | GE-20260629-3fa09c | git pull --rebase after rejected push silently drops commits when remote has overlapping changes | gotcha | 12/15 |
+| GE-20260629-ba6ff8 | Cross-repo subagent inherits stale branch from another session's working tree | gotcha | 11/15 |

@@ -2,3 +2,4 @@
 - GE-20260505-953bd7: Explore full ecosystem dependency graph before adding a cross-repo type dependency
 - GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
 - GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
+- GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree

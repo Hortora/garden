@@ -3,3 +3,4 @@
 - GE-20260529-774b14: Claude Code Agent dispatched without isolation:worktree can still create its own worktree internally
 - GE-20260623-ec9c80: Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions
 - GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents
+- GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree
