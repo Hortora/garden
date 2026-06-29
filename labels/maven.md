@@ -148,3 +148,4 @@
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
 - GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins
 - GE-20260629-5d23ca: Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden
+- GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale

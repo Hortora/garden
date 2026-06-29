@@ -1015,3 +1015,4 @@
 | GE-20260629-c6172a | JDK Corretto 22 WebSocket OpeningHandshake uses non-standard GUID — all connections to RFC-compliant servers fail | gotcha | 12/15 |
 | GE-20260629-74fc65 | Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities | gotcha | 8/15 |
 | GE-20260629-5d23ca | Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden | gotcha | 9/15 |
+| GE-20260521-3e030b | mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale | gotcha | 10/15 |
