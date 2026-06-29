@@ -535,3 +535,4 @@
 | GE-20260627-054768 | gh repo fork fails with HTTP 403 on empty GitHub repos — misleading permissions error | gotcha | 8/15 |
 | GE-20260627-907be8 | GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos | gotcha | 11/15 |
 | GE-20260627-9661a2 | GitHub Packages Maven visibility is repo-inherited — no API to change it independently | undocumented | 8/15 |
+| GE-20260609-496817 | SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection | gotcha | 12/15 |

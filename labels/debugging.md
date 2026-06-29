@@ -22,3 +22,4 @@
 - GE-20260615-c5340d: Reproduce engine bugs in the consumer app, not the engine — engine CI green does not mean consumer apps work
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
+- GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection

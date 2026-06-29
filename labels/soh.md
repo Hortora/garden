@@ -1,1 +1,2 @@
 - GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection
+- GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection
