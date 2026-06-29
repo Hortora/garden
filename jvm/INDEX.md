@@ -1023,3 +1023,4 @@
 | GE-20260629-6f1d64 | Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required | gotcha | 8/15 |
 | GE-20260629-bb1440 | Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race | technique | 10/15 |
 | GE-20260629-670471 | casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate | undocumented | 10/15 |
+| GE-20260629-31db3a | Mockito mocks don't inherit Java interface default methods | gotcha | 9/15 |

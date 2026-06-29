@@ -1,3 +1,4 @@
 - GE-20260513-b9df01: Prove a Java interface default method via anonymous implementation test — the compiler error is the RED state
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
 - GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors
+- GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods

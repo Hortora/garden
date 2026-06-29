@@ -20,3 +20,4 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
+- GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
