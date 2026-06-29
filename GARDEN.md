@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1901
+**Entries merged since last sweep:** 1902
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -568,6 +568,7 @@
 - GE-20260414-c2f74c [Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread](quarkus/GE-20260414-c2f74c.md)
 - GE-20260421-ac12d5 [Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny](quarkus/GE-20260421-ac12d5.md)
 - GE-20260628-ea2ac5 [quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state](quarkus/GE-20260628-ea2ac5.md)
+- GE-20260427-cc77a7 [WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast](quarkus/GE-20260427-cc77a7.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

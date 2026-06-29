@@ -15,3 +15,4 @@
 - GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up
 - GE-20260628-e19735: Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent
 - GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast

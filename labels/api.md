@@ -11,3 +11,4 @@
 - GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID
 - GE-20260614-8c0371: OpenClaw POST /api/sessions/main/messages does not exist — widely cited but returns 404
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast

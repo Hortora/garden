@@ -5,3 +5,4 @@
 - GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count
 - GE-20260607-3defda: Per-actor computation cache with event-driven invalidation — zero-staleness on-read pattern
 - GE-20260627-8d321f: Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail
+- GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
