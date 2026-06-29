@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1904
+**Entries merged since last sweep:** 1905
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1613,6 +1613,7 @@
 - GE-20260629-bb1440 [Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race](jvm/GE-20260629-bb1440.md)
 - GE-20260629-670471 [casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate](jvm/GE-20260629-670471.md)
 - GE-20260629-31db3a [Mockito mocks don't inherit Java interface default methods](jvm/GE-20260629-31db3a.md)
+- GE-20260629-114162 [Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf](jvm/GE-20260629-114162.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
