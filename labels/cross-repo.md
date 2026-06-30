@@ -3,3 +3,4 @@
 - GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
 - GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
 - GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree
+- GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1908
+**Entries merged since last sweep:** 1909
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1617,6 +1617,7 @@
 - GE-20260629-114162 [Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf](jvm/GE-20260629-114162.md)
 - GE-20260630-647cff [CamelCase compound preservation in BM25 tokenization — exact identifier matches outrank partial via IDF](jvm/GE-20260630-647cff.md)
 - GE-20260630-7d7113 [BM25 corpus isolation tests fail when test documents share common tokens with the query across corpuses](jvm/GE-20260630-7d7113.md)
+- GE-20260630-95eb64 [CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos](jvm/GE-20260630-95eb64.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

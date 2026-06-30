@@ -29,3 +29,4 @@
 - GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
+- GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos

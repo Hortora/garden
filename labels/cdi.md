@@ -323,3 +323,4 @@
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
 - GE-20260629-e6460e: quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead
+- GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos
