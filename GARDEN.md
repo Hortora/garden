@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1933
+**Entries merged since last sweep:** 1934
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1640,6 +1640,7 @@
 - GE-20260630-52827b [GitHub Packages 401 blocks Maven fallback to Central for third-party deps](jvm/GE-20260630-52827b.md)
 - GE-20260630-db5dce [BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation](jvm/GE-20260630-db5dce.md)
 - GE-20260630-73d3c2 [Java records with float[][] fields leak mutable state via auto-generated accessors](jvm/GE-20260630-73d3c2.md)
+- GE-20260630-1594e0 [JDK 15+ removed secp256k1 from SunEC — ECGenParameterSpec throws misleading InvalidAlgorithmParameterException](jvm/GE-20260630-1594e0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

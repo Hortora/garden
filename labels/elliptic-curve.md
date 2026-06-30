@@ -1,0 +1,1 @@
+- GE-20260630-1594e0: JDK 15+ removed secp256k1 from SunEC — ECGenParameterSpec throws misleading InvalidAlgorithmParameterException

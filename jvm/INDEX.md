@@ -1049,3 +1049,4 @@
 | GE-20260630-52827b | GitHub Packages 401 blocks Maven fallback to Central for third-party deps | gotcha | 10/15 |
 | GE-20260630-db5dce | BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation | gotcha | 10/15 |
 | GE-20260630-73d3c2 | Java records with float[][] fields leak mutable state via auto-generated accessors | gotcha | 10/15 |
+| GE-20260630-1594e0 | JDK 15+ removed secp256k1 from SunEC — ECGenParameterSpec throws misleading InvalidAlgorithmParameterException | gotcha | 9/15 |
