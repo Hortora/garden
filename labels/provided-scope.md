@@ -1,0 +1,1 @@
+- GE-20260630-6c2515: CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents

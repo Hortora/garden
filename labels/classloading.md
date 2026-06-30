@@ -3,3 +3,4 @@
 - GE-20260430-ef928c: Quarkus SRCFG00050 at test startup presents as ClassLoader failure, not config error
 - GE-20260514-8a6191: Quarkus Dev Services: 'Could not load class' is a misleading error when Docker not running
 - GE-20260607-d689c9: Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead
+- GE-20260630-6c2515: CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents
