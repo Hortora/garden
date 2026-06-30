@@ -1031,3 +1031,4 @@
 | GE-20260630-95eb64 | CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos | gotcha | 10/15 |
 | GE-20260630-9d8cbe | @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined | gotcha | 11/15 |
 | GE-20260630-6c2515 | CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents | gotcha | 9/15 |
+| GE-20260630-e18bed | BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads | gotcha | 15/15 |

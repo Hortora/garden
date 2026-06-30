@@ -1,3 +1,4 @@
 - GE-20260608-c44f9f: Per-entity REST calls preserve entityId attribution when the response type carries no entity key
 - GE-20260609-616994: Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router
 - GE-20260623-5cc402: Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB
+- GE-20260630-e18bed: BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads

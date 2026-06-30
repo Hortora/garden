@@ -3,3 +3,4 @@
 - GE-20260602-c38360: PanacheQuery.stream() does not exist in Quarkus Hibernate Reactive Panache
 - GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
 - GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json
+- GE-20260630-e18bed: BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads
