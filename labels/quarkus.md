@@ -624,3 +624,4 @@
 - GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
+- GE-20260630-bf0055: Quinoa 2.8.x requires explicit node-version property — startup fails without it

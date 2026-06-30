@@ -1,0 +1,1 @@
+- GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps

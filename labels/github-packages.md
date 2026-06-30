@@ -24,3 +24,4 @@
 - GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them
 - GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
+- GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps

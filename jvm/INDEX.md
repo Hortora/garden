@@ -1044,3 +1044,6 @@
 | GE-20260630-4aa4f9 | YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead | undocumented | 9/15 |
 | GE-20260630-989449 | Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...) | undocumented | 9/15 |
 | GE-20260630-815259 | Cross-repo SPI extends creates CDI bean displacement — standalone composition required | gotcha | 11/15 |
+| GE-20260630-d5cad9 | Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist | gotcha | 8/15 |
+| GE-20260630-bf0055 | Quinoa 2.8.x requires explicit node-version property — startup fails without it | undocumented | 8/15 |
+| GE-20260630-52827b | GitHub Packages 401 blocks Maven fallback to Central for third-party deps | gotcha | 10/15 |

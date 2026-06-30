@@ -3,3 +3,5 @@
 - GE-20260415-748447: Quarkiverse extension depending on a sibling quarkus-ledger library requires manual mvn install of that library first
 - GE-20260415-e5fa33: Quarkiverse extension-descriptor rejects deployment pom that depends on X-deployment unless runtime pom depends on X
 - GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled
+- GE-20260630-d5cad9: Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist
+- GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps

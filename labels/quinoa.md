@@ -1,0 +1,2 @@
+- GE-20260630-d5cad9: Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist
+- GE-20260630-bf0055: Quinoa 2.8.x requires explicit node-version property — startup fails without it

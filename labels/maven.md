@@ -152,3 +152,5 @@
 - GE-20260629-16e329: hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+
 - GE-20260629-6f1d64: Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
+- GE-20260630-d5cad9: Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist
+- GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps

@@ -1,1 +1,2 @@
 - GE-20260626-0ac274: casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates
+- GE-20260630-d5cad9: Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist
