@@ -17,3 +17,4 @@
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
 - GE-20260623-e02ce2: GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred
+- GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation

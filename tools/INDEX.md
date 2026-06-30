@@ -539,3 +539,4 @@
 | GE-20260629-7fdee3 | Empty GitHub repos cannot be forked — gh repo fork returns 403 | gotcha | 9/15 |
 | GE-20260629-3fa09c | git pull --rebase after rejected push silently drops commits when remote has overlapping changes | gotcha | 12/15 |
 | GE-20260629-ba6ff8 | Cross-repo subagent inherits stale branch from another session's working tree | gotcha | 11/15 |
+| GE-20260630-4ea132 | Sonnet subagents hallucinate sealed type variant names when writing documentation | gotcha | 11/15 |

@@ -1,0 +1,1 @@
+- GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
