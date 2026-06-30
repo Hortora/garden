@@ -1032,3 +1032,5 @@
 | GE-20260630-9d8cbe | @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined | gotcha | 11/15 |
 | GE-20260630-6c2515 | CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents | gotcha | 9/15 |
 | GE-20260630-e18bed | BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads | gotcha | 15/15 |
+| GE-20260630-676593 | Qdrant collection delete without cursor reset leaves engine unable to re-ingest | gotcha | 11/15 |
+| GE-20260630-a4fc8b | FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection | undocumented | 9/15 |

@@ -1,1 +1,2 @@
 - GE-20260626-15a2e1: CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested
+- GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest

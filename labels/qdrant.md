@@ -9,3 +9,4 @@
 - GE-20260629-0a321f: Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
+- GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest

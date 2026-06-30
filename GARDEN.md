@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1913
+**Entries merged since last sweep:** 1915
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1622,6 +1622,8 @@
 - GE-20260630-9d8cbe [@Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined](jvm/GE-20260630-9d8cbe.md)
 - GE-20260630-6c2515 [CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents](jvm/GE-20260630-6c2515.md)
 - GE-20260630-e18bed [BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads](jvm/GE-20260630-e18bed.md)
+- GE-20260630-676593 [Qdrant collection delete without cursor reset leaves engine unable to re-ingest](jvm/GE-20260630-676593.md)
+- GE-20260630-a4fc8b [FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection](jvm/GE-20260630-a4fc8b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

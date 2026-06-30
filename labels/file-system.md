@@ -1,0 +1,1 @@
+- GE-20260630-a4fc8b: FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection

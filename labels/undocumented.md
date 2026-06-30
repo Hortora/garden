@@ -5,3 +5,4 @@
 - GE-20260531-efe09b: OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params
 - GE-20260605-fc9ae7: Surefire forkedProcessTimeoutInSeconds does not cover Quarkus augmentation phase in forked JVM
 - GE-20260616-17187e: casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository
+- GE-20260630-a4fc8b: FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection

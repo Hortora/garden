@@ -67,3 +67,4 @@
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
 - GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
+- GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest
