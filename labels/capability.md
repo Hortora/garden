@@ -1,1 +1,2 @@
 - GE-20260613-25d1ce: casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested
+- GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)

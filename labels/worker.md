@@ -4,3 +4,4 @@
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
 - GE-20260618-fe7c8e: WorkerFunction.AgentExec and WorkerProvisioner are completely different engine execution paths — cannot substitute
 - GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
+- GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)

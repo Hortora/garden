@@ -1041,3 +1041,5 @@
 | GE-20260630-ff06bf | Wrapper interface pattern for testing concrete SDK clients without WireMock | technique | 9/15 |
 | GE-20260630-dd2a52 | Java 26 returns 'EdDSA' not 'Ed25519' from KeyPairGenerator.getInstance('Ed25519').generateKeyPair() | undocumented | 8/15 |
 | GE-20260630-69e447 | qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded | gotcha | 11/15 |
+| GE-20260630-4aa4f9 | YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead | undocumented | 9/15 |
+| GE-20260630-989449 | Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...) | undocumented | 9/15 |

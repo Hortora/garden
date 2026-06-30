@@ -43,3 +43,5 @@
 - GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs
 - GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
+- GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
+- GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)

@@ -3,3 +3,5 @@
 - GE-20260530-02ef50: Breaking API changes in multi-module Java projects require updating test files across ALL modules, not just the changed module
 - GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
+- GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
+- GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)

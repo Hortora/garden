@@ -1,0 +1,1 @@
+- GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead

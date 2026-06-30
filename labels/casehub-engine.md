@@ -65,3 +65,5 @@
 - GE-20260531-1e51d4: casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore
 - GE-20260629-670471: casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate
 - GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull
+- GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
+- GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)
