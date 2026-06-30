@@ -15,3 +15,4 @@
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
 - GE-20260618-976009: Quarkus ArC rejects @Transactional on private methods at augmentation time — DeploymentException with no runtime warning
 - GE-20260629-7d2272: Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction
+- GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined

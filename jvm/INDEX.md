@@ -1029,3 +1029,4 @@
 | GE-20260630-647cff | CamelCase compound preservation in BM25 tokenization — exact identifier matches outrank partial via IDF | technique | 9/15 |
 | GE-20260630-7d7113 | BM25 corpus isolation tests fail when test documents share common tokens with the query across corpuses | gotcha | 8/15 |
 | GE-20260630-95eb64 | CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos | gotcha | 10/15 |
+| GE-20260630-9d8cbe | @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined | gotcha | 11/15 |
