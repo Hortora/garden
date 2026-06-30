@@ -1047,3 +1047,5 @@
 | GE-20260630-d5cad9 | Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist | gotcha | 8/15 |
 | GE-20260630-bf0055 | Quinoa 2.8.x requires explicit node-version property — startup fails without it | undocumented | 8/15 |
 | GE-20260630-52827b | GitHub Packages 401 blocks Maven fallback to Central for third-party deps | gotcha | 10/15 |
+| GE-20260630-db5dce | BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation | gotcha | 10/15 |
+| GE-20260630-73d3c2 | Java records with float[][] fields leak mutable state via auto-generated accessors | gotcha | 10/15 |

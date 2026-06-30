@@ -3,3 +3,4 @@
 - GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement
 - GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation
 - GE-20260630-647cff: CamelCase compound preservation in BM25 tokenization — exact identifier matches outrank partial via IDF
+- GE-20260630-db5dce: BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation

@@ -1,2 +1,3 @@
 - GE-20260415-5d762b: Arrays.copyOf on boolean[][] only copies references — inner rows still shared (mutable aliasing)
 - GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type
+- GE-20260630-73d3c2: Java records with float[][] fields leak mutable state via auto-generated accessors
