@@ -1,0 +1,1 @@
+- GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull

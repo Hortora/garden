@@ -3,3 +3,4 @@
 - GE-20260603-fde412: claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder
 - GE-20260608-c1f27f: CaseDefinition.Builder populates def.getGoals() and setCompletion() independently — goal registration in one place leaves the other empty
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
+- GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull

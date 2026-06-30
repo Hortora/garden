@@ -64,3 +64,4 @@
 - GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main
 - GE-20260531-1e51d4: casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore
 - GE-20260629-670471: casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate
+- GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull

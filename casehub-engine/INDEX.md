@@ -41,3 +41,4 @@
 | GE-20260531-1e51d4 | casehub-engine-persistence-memory @Alternative beans need explicit selected-alternatives for SubCaseGroupRepository and PlanItemStore | gotcha | 10/15 |
 | GE-20260628-dbc656 | WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock | gotcha | 9/15 |
 | GE-20260629-0d981d | Layer 9 shares AmlInvestigationOutcomeService with Layer 6 but produces no SAR outcomes — outcome is always null | gotcha | 10/15 |
+| GE-20260630-8f5a87 | Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull | gotcha | 9/15 |
