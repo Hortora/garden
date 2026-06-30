@@ -1040,3 +1040,4 @@
 | GE-20260630-a1bc9a | Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning | gotcha | 9/15 |
 | GE-20260630-ff06bf | Wrapper interface pattern for testing concrete SDK clients without WireMock | technique | 9/15 |
 | GE-20260630-dd2a52 | Java 26 returns 'EdDSA' not 'Ed25519' from KeyPairGenerator.getInstance('Ed25519').generateKeyPair() | undocumented | 8/15 |
+| GE-20260630-69e447 | qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded | gotcha | 11/15 |
