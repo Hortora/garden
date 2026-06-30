@@ -5,3 +5,4 @@
 - GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree
 - GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
+- GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required

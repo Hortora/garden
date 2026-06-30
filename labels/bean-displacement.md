@@ -1,0 +1,1 @@
+- GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required

@@ -17,3 +17,4 @@
 - GE-20260609-d1feba: CDI qualifier annotations belong in the injection-point module, not the producer module
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
+- GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required

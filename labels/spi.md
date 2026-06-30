@@ -39,3 +39,4 @@
 - GE-20260625-a6bc3b: ReactiveWorkerProvisioner.provision() receives ALL capabilities, not the required set — SPI name misleads implementers
 - GE-20260628-e19735: Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
+- GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required

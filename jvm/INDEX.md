@@ -1043,3 +1043,4 @@
 | GE-20260630-69e447 | qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded | gotcha | 11/15 |
 | GE-20260630-4aa4f9 | YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead | undocumented | 9/15 |
 | GE-20260630-989449 | Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...) | undocumented | 9/15 |
+| GE-20260630-815259 | Cross-repo SPI extends creates CDI bean displacement — standalone composition required | gotcha | 11/15 |

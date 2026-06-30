@@ -623,3 +623,4 @@
 - GE-20260629-e6460e: quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead
 - GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
+- GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
