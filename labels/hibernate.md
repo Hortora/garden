@@ -78,3 +78,4 @@
 - GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails
 - GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters
 - GE-20260629-16e329: hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+
+- GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict

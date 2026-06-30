@@ -1,0 +1,1 @@
+- GE-20260630-773d44: Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window

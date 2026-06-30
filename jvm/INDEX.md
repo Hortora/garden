@@ -1034,3 +1034,5 @@
 | GE-20260630-e18bed | BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads | gotcha | 15/15 |
 | GE-20260630-676593 | Qdrant collection delete without cursor reset leaves engine unable to re-ingest | gotcha | 11/15 |
 | GE-20260630-a4fc8b | FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection | undocumented | 9/15 |
+| GE-20260630-773d44 | Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window | gotcha | 10/15 |
+| GE-20260630-e3275a | JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict | undocumented | 9/15 |

@@ -96,3 +96,5 @@
 - GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link
 - GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID
 - GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup
+- GE-20260630-773d44: Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window
+- GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
