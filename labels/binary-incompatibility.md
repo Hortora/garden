@@ -1,2 +1,3 @@
 - GE-20260531-4e21c1: casehub-engine SNAPSHOT binary incompatibility — CaseMetaModelRepository.findByKey and PlanItemSaveRequest constructor signature drift
 - GE-20260601-265cdc: IntelliJ background compilation silently installs fresh Maven SNAPSHOT JARs mid-session, causing unexpected binary incompatibilities
+- GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning

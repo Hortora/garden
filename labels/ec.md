@@ -1,0 +1,1 @@
+- GE-20260630-e9370e: DER SEQUENCE single-byte length encoding silently corrupts P-521 EC signatures

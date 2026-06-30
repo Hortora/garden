@@ -1,1 +1,2 @@
 - GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
+- GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock

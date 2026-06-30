@@ -1036,3 +1036,7 @@
 | GE-20260630-a4fc8b | FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection | undocumented | 9/15 |
 | GE-20260630-773d44 | Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window | gotcha | 10/15 |
 | GE-20260630-e3275a | JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict | undocumented | 9/15 |
+| GE-20260630-e9370e | DER SEQUENCE single-byte length encoding silently corrupts P-521 EC signatures | gotcha | 13/15 |
+| GE-20260630-a1bc9a | Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning | gotcha | 9/15 |
+| GE-20260630-ff06bf | Wrapper interface pattern for testing concrete SDK clients without WireMock | technique | 9/15 |
+| GE-20260630-dd2a52 | Java 26 returns 'EdDSA' not 'Ed25519' from KeyPairGenerator.getInstance('Ed25519').generateKeyPair() | undocumented | 8/15 |

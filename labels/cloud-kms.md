@@ -1,0 +1,1 @@
+- GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock

@@ -1,1 +1,2 @@
 - GE-20260414-4bd3cb: validate_links.py uses requests.get not requests.head — wrong mock target causes silently-passing tests
+- GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock

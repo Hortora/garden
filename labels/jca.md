@@ -1,1 +1,2 @@
 - GE-20260523-0ecc24: Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed
+- GE-20260630-dd2a52: Java 26 returns 'EdDSA' not 'Ed25519' from KeyPairGenerator.getInstance('Ed25519').generateKeyPair()

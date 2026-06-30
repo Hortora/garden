@@ -1,0 +1,1 @@
+- GE-20260630-dd2a52: Java 26 returns 'EdDSA' not 'Ed25519' from KeyPairGenerator.getInstance('Ed25519').generateKeyPair()

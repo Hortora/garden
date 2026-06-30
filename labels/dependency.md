@@ -4,3 +4,4 @@
 - GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
 - GE-20260615-c234fc: @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed
 - GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead
+- GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning

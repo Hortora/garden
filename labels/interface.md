@@ -7,3 +7,4 @@
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
 - GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors
+- GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock

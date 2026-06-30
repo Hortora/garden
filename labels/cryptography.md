@@ -1,2 +1,3 @@
 - GE-20260523-0ecc24: Detect JCA signing algorithm from raw X.509/PKCS8 key bytes via trial-load — no ASN.1 parsing needed
 - GE-20260611-dedf69: Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies
+- GE-20260630-e9370e: DER SEQUENCE single-byte length encoding silently corrupts P-521 EC signatures

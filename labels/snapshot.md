@@ -42,3 +42,4 @@
 - GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s
 - GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs
 - GE-20260626-2e4a0d: Engine main HEAD (37b2eea8) does not compile — installed engine jars are from issue-570 branch, not main
+- GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
