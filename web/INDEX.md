@@ -48,3 +48,4 @@
 | GE-20260627-9d0123 | Parser condition priority silently converts aggregates to keys when source matches group column | gotcha | 11/15 |
 | GE-20260629-a9db51 | ECharts custom series api.value(N) returns 0 for out-of-range indices, not undefined | gotcha | 10/15 |
 | GE-20260629-ebdb0a | import type does not trigger customElements.define() — Web Components missing from webpack bundle | gotcha | 11/15 |
+| GE-20260630-b8e2d8 | CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes | gotcha | 12/15 |

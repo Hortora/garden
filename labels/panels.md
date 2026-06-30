@@ -1,1 +1,2 @@
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
+- GE-20260630-b8e2d8: CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes
