@@ -540,3 +540,4 @@
 | GE-20260629-3fa09c | git pull --rebase after rejected push silently drops commits when remote has overlapping changes | gotcha | 12/15 |
 | GE-20260629-ba6ff8 | Cross-repo subagent inherits stale branch from another session's working tree | gotcha | 11/15 |
 | GE-20260630-4ea132 | Sonnet subagents hallucinate sealed type variant names when writing documentation | gotcha | 11/15 |
+| GE-20260701-f1c67f | IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos | gotcha | 9/15 |

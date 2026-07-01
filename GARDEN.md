@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1935
+**Entries merged since last sweep:** 1936
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2219,6 +2219,7 @@
 - GE-20260629-3fa09c [git pull --rebase after rejected push silently drops commits when remote has overlapping changes](tools/GE-20260629-3fa09c.md)
 - GE-20260629-ba6ff8 [Cross-repo subagent inherits stale branch from another session's working tree](tools/GE-20260629-ba6ff8.md)
 - GE-20260630-4ea132 [Sonnet subagents hallucinate sealed type variant names when writing documentation](tools/GE-20260630-4ea132.md)
+- GE-20260701-f1c67f [IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos](tools/GE-20260701-f1c67f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -28,3 +28,4 @@
 - GE-20260623-673dc8: IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory
 - GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import
 - GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty
+- GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
