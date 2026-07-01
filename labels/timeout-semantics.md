@@ -1,0 +1,1 @@
+- GE-20260701-fdf192: Retry loop wrapping policy exceptions destroys type information — timeout looks like retry exhaustion
