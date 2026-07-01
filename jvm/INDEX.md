@@ -1056,3 +1056,5 @@
 | GE-20260701-fec712 | ConcurrentHashMap get-check-put is not atomic — state machine transitions can race | gotcha | 8/15 |
 | GE-20260701-5b2584 | MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates | gotcha | 11/15 |
 | GE-20260701-82909e | ScheduledFuture map replacement requires synchronized cancel-clear-reschedule | gotcha | 9/15 |
+| GE-20260701-94b7ef | Provision/deprovision lifecycle gates must be symmetric — ungated side causes infinite fault cycles | gotcha | 13/15 |
+| GE-20260701-2edd4a | Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources | technique | 11/15 |

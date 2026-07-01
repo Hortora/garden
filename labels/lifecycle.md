@@ -16,3 +16,4 @@
 - GE-20260628-e19735: Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent
 - GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
+- GE-20260701-94b7ef: Provision/deprovision lifecycle gates must be symmetric — ungated side causes infinite fault cycles

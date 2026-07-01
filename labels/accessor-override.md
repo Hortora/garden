@@ -1,0 +1,1 @@
+- GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources

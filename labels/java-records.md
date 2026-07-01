@@ -10,3 +10,4 @@
 - GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
 - GE-20260624-3324b6: Worker.Builder.function(lambda) is ambiguous when Builder has both function(WorkerFunction) and function(Function) overloads
 - GE-20260630-73d3c2: Java records with float[][] fields leak mutable state via auto-generated accessors
+- GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
