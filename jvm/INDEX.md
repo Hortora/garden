@@ -1065,3 +1065,4 @@
 | GE-20260701-b84dd2 | Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends | gotcha | 10/15 |
 | GE-20260701-5c818b | AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time | gotcha | 8/15 |
 | GE-20260701-107e7b | Three-datasource Flyway layout isolates upstream modules with colliding version numbers | technique | 12/15 |
+| GE-20260701-f7e1d5 | BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference | gotcha | 11/15 |
