@@ -43,3 +43,4 @@
 - GE-20260610-1c73c1: SNAPSHOT library update silently adds DB dependency — tests pass on feature branch CI, fail on main after merge
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
 - GE-20260616-101fc0: casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually
+- GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
