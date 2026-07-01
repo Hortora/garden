@@ -1,1 +1,2 @@
 - GE-20260421-5817bb: Superpowers brainstorm server serves static files from the content dir at /files/<filename> — not documented in the skill
+- GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
