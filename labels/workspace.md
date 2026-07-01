@@ -9,3 +9,4 @@
 - GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace
 - GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
+- GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
