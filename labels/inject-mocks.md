@@ -1,0 +1,1 @@
+- GE-20260630-4b89c2: Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection
