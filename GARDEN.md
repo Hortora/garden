@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1948
+**Entries merged since last sweep:** 1949
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1653,6 +1653,7 @@
 - GE-20260701-ee19df [CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init](jvm/GE-20260701-ee19df.md)
 - GE-20260701-82fc11 [engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute()](jvm/GE-20260701-82fc11.md)
 - GE-20260701-a73f76 [quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest](jvm/GE-20260701-a73f76.md)
+- GE-20260701-b84dd2 [Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends](jvm/GE-20260701-b84dd2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

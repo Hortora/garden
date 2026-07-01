@@ -1062,3 +1062,4 @@
 | GE-20260701-ee19df | CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init | gotcha | 13/15 |
 | GE-20260701-82fc11 | engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute() | undocumented | 10/15 |
 | GE-20260701-a73f76 | quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest | gotcha | 11/15 |
+| GE-20260701-b84dd2 | Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends | gotcha | 10/15 |
