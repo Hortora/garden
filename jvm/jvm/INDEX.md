@@ -42,3 +42,4 @@
 | GE-20260629-991c58 | Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities | technique | 10/15 |
 | GE-20260629-e8b16d | EventStreamBus.clear() drops subscriptions — silent pipeline death on lifecycle reset | gotcha | 12/15 |
 | GE-20260630-9d8cbe | @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined | gotcha | 11/15 |
+| GE-20260701-82f303 | CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider | gotcha | 9/15 |

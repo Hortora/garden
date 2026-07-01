@@ -1,0 +1,1 @@
+- GE-20260701-82f303: CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider

@@ -1,2 +1,3 @@
 - GE-20260530-c3087c: Arc CDI proxy makes getClass().getAnnotation(Priority.class) return null — use InjectableBean.getPriority() instead
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
+- GE-20260701-82f303: CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider
