@@ -1,1 +1,2 @@
 - GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools
+- GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule

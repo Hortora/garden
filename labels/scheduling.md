@@ -1,2 +1,3 @@
 - GE-20260515-c272d2: Quartz job store: RAM store for stateless scheduling
 - GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch
+- GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule

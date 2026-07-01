@@ -1,0 +1,1 @@
+- GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule
