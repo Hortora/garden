@@ -1,0 +1,1 @@
+- GE-20260701-fe7a85: Light DOM innerHTML re-render silently destroys parent-wired event listeners

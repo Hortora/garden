@@ -6,3 +6,4 @@
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
+- GE-20260701-fe7a85: Light DOM innerHTML re-render silently destroys parent-wired event listeners
