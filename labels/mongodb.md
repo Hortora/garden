@@ -2,3 +2,4 @@
 - GE-20260522-483b67: Use a compound natural key string as @BsonId to eliminate the MongoDB unique index and get upsert-by-identity for free
 - GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
 - GE-20260617-daa4cb: MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset
+- GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates

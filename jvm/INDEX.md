@@ -1054,3 +1054,4 @@
 | GE-20260701-280819 | Slack conversations.list does not return num_members without explicit parameter | gotcha | 11/15 |
 | GE-20260701-c000c7 | Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config | gotcha | 12/15 |
 | GE-20260701-fec712 | ConcurrentHashMap get-check-put is not atomic — state machine transitions can race | gotcha | 8/15 |
+| GE-20260701-5b2584 | MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates | gotcha | 11/15 |

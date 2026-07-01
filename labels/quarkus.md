@@ -626,3 +626,4 @@
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
 - GE-20260630-bf0055: Quinoa 2.8.x requires explicit node-version property — startup fails without it
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
+- GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates

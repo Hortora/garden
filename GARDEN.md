@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1939
+**Entries merged since last sweep:** 1940
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1645,6 +1645,7 @@
 - GE-20260701-280819 [Slack conversations.list does not return num_members without explicit parameter](jvm/GE-20260701-280819.md)
 - GE-20260701-c000c7 [Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config](jvm/GE-20260701-c000c7.md)
 - GE-20260701-fec712 [ConcurrentHashMap get-check-put is not atomic — state machine transitions can race](jvm/GE-20260701-fec712.md)
+- GE-20260701-5b2584 [MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates](jvm/GE-20260701-5b2584.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

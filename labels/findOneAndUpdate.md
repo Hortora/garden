@@ -1,3 +1,4 @@
 - GE-20260617-daa4cb: MongoDB $setOnInsert and $inc on the same field in findOneAndUpdate — ambiguous behavior, use $inc alone with arithmetic offset
 - GE-20260618-451d25: Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast
 - GE-20260618-451d25: Panache MongoDB mongoCollection() returns PanacheMongoEntityBase at compile time — findOneAndUpdate needs downcast
+- GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates

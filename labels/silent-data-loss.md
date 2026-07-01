@@ -1,3 +1,4 @@
 - GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
 - GE-20260616-3d2605: ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
+- GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates

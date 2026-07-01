@@ -76,3 +76,4 @@
 - GE-20260623-18f8c0: @TestSecurity method-level annotation applies to entire test lifecycle including @BeforeEach — use direct Panache persistence for RBAC boundary test setup
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
 - GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup
+- GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates
