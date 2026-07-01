@@ -87,3 +87,4 @@
 - GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init
 - GE-20260701-82fc11: engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute()
 - GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
+- GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time

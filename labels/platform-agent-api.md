@@ -1,0 +1,1 @@
+- GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time

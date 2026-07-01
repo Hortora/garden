@@ -22,3 +22,4 @@
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
 - GE-20260630-4b89c2: Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection
+- GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time

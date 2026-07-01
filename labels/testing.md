@@ -359,3 +359,4 @@
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
 - GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
+- GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
