@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1936
+**Entries merged since last sweep:** 1937
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1642,6 +1642,7 @@
 - GE-20260630-73d3c2 [Java records with float[][] fields leak mutable state via auto-generated accessors](jvm/GE-20260630-73d3c2.md)
 - GE-20260630-1594e0 [JDK 15+ removed secp256k1 from SunEC — ECGenParameterSpec throws misleading InvalidAlgorithmParameterException](jvm/GE-20260630-1594e0.md)
 - GE-20260630-4b89c2 [Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection](jvm/GE-20260630-4b89c2.md)
+- GE-20260701-280819 [Slack conversations.list does not return num_members without explicit parameter](jvm/GE-20260701-280819.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
