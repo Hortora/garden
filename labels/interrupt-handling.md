@@ -1,0 +1,1 @@
+- GE-20260702-21be12: Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds

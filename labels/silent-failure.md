@@ -70,3 +70,4 @@
 - GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest
 - GE-20260630-b8e2d8: CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes
 - GE-20260701-280819: Slack conversations.list does not return num_members without explicit parameter
+- GE-20260702-21be12: Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds
