@@ -32,3 +32,4 @@
 - GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption
 - GE-20260629-0a321f: Qdrant createCollectionAsync is NOT idempotent but createPayloadIndexAsync IS — concurrent setup race
 - GE-20260630-773d44: Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window
+- GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race

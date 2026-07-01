@@ -1,3 +1,4 @@
 - GE-20260521-a0f5a6: HumanTaskScheduleHandler skips WorkItem creation — PlanningStrategyLoopControl pre-marks PlanItems RUNNING
 - GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch
 - GE-20260616-028d43: Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests
+- GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race

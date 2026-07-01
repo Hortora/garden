@@ -82,3 +82,4 @@
 - GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context
 - GE-20260628-e19735: Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent
 - GE-20260628-919f9f: Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests
+- GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race

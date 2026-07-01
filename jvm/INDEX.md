@@ -1053,3 +1053,4 @@
 | GE-20260630-4b89c2 | Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection | gotcha | 10/15 |
 | GE-20260701-280819 | Slack conversations.list does not return num_members without explicit parameter | gotcha | 11/15 |
 | GE-20260701-c000c7 | Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config | gotcha | 12/15 |
+| GE-20260701-fec712 | ConcurrentHashMap get-check-put is not atomic — state machine transitions can race | gotcha | 8/15 |
