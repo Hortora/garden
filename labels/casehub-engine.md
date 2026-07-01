@@ -67,3 +67,4 @@
 - GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull
 - GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
 - GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)
+- GE-20260701-82fc11: engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute()

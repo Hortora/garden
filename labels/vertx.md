@@ -31,3 +31,4 @@
 - GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts
 - GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
 - GE-20260618-2bc371: OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client
+- GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init

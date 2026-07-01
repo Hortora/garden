@@ -15,3 +15,4 @@
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
+- GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest

@@ -5,3 +5,4 @@
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260606-1c0f7d: Mutiny Uni chain: variable from outer flatMap is out of scope after the flatMap when stream type changes
 - GE-20260629-6f1d64: Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required
+- GE-20260701-4ee3fd: casehub-engine-persistence-memory must be compile scope in harness apps — test scope causes 33 CDI deployment failures

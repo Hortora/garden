@@ -358,3 +358,4 @@
 - GE-20260630-7d7113: BM25 corpus isolation tests fail when test documents share common tokens with the query across corpuses
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
+- GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
