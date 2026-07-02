@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1956
+**Entries merged since last sweep:** 1957
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2239,6 +2239,7 @@
 - GE-20260701-f1c67f [IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos](tools/GE-20260701-f1c67f.md)
 - GE-20260701-30e901 [IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module](tools/GE-20260701-30e901.md)
 - GE-20260702-7c79fe [IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index](tools/GE-20260702-7c79fe.md)
+- GE-20260702-74d065 [ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos](tools/GE-20260702-74d065.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

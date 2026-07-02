@@ -1,0 +1,1 @@
+- GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
