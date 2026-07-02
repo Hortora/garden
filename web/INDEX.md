@@ -51,3 +51,4 @@
 | GE-20260630-b8e2d8 | CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes | gotcha | 12/15 |
 | GE-20260701-fe7a85 | Light DOM innerHTML re-render silently destroys parent-wired event listeners | gotcha | 12/15 |
 | GE-20260702-29cf6c | Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415 | gotcha | 11/15 |
+| GE-20260702-b1f919 | Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent | gotcha | 11/15 |

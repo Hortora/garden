@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1959
+**Entries merged since last sweep:** 1960
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2304,6 +2304,7 @@
 - GE-20260630-b8e2d8 [CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes](web/GE-20260630-b8e2d8.md)
 - GE-20260701-fe7a85 [Light DOM innerHTML re-render silently destroys parent-wired event listeners](web/GE-20260701-fe7a85.md)
 - GE-20260702-29cf6c [Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415](web/GE-20260702-29cf6c.md)
+- GE-20260702-b1f919 [Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent](web/GE-20260702-b1f919.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

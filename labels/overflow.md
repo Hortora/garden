@@ -1,2 +1,3 @@
 - GE-20260617-ea8260: TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid
 - GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters
+- GE-20260702-b1f919: Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent
