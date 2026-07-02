@@ -3,3 +3,4 @@
 - GE-20260531-0f0688: Strengthen cache-eviction integration tests: change the stub, assert the new value — not just call count
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
+- GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415

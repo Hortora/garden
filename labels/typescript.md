@@ -12,3 +12,4 @@
 - GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty
 - GE-20260629-59c7e6: esbuild minifies TypeScript constants inside template literal html strings — fetch URLs silently 404
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
+- GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415

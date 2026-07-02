@@ -632,3 +632,4 @@
 - GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
 - GE-20260701-b84dd2: Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends
 - GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
+- GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
