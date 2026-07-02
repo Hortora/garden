@@ -1,0 +1,1 @@
+- GE-20260702-fc769a: Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote

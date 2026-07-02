@@ -544,3 +544,4 @@
 | GE-20260701-30e901 | IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module | gotcha | 9/15 |
 | GE-20260702-7c79fe | IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index | gotcha | 9/15 |
 | GE-20260702-74d065 | ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos | technique | 8/15 |
+| GE-20260702-fc769a | Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote | gotcha | 9/15 |

@@ -11,3 +11,4 @@
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
 - GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
 - GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index
+- GE-20260702-fc769a: Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote
