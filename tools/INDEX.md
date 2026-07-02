@@ -542,3 +542,4 @@
 | GE-20260630-4ea132 | Sonnet subagents hallucinate sealed type variant names when writing documentation | gotcha | 11/15 |
 | GE-20260701-f1c67f | IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos | gotcha | 9/15 |
 | GE-20260701-30e901 | IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module | gotcha | 9/15 |
+| GE-20260702-7c79fe | IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index | gotcha | 9/15 |

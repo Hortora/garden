@@ -30,3 +30,4 @@
 - GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
 - GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
+- GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index

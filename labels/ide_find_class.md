@@ -1,2 +1,3 @@
 - GE-20260511-3495de: ide_find_class MCP tool returns kind:CLASS for interfaces — use get_symbol_info to confirm
 - GE-20260604-a8ffaa: ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed
+- GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index

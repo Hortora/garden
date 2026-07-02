@@ -1,0 +1,1 @@
+- GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index

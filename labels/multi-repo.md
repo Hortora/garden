@@ -20,3 +20,4 @@
 - GE-20260602-bacaf2: Cross-repo Maven multi-module: modifying a SPI in repo A requires mvn install before repo B compiles
 - GE-20260501-c579bb: Chain CI/CD across repos using repository_dispatch — publish upstream, trigger downstream automatically
 - GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
+- GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index

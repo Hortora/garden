@@ -34,3 +34,4 @@
 - GE-20260630-91be72: IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
 - GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
+- GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index
