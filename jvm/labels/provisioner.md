@@ -1,0 +1,1 @@
+- GE-20260703-b2073a: TransitionPlanner orphan deprovision creates DesiredNode with private UnknownSpec — provisioners must infer entity type from NodeId
