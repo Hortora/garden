@@ -1,4 +1,2 @@
-- GE-20260626-15a2e1: CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested
-- GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest
 - GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race

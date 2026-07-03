@@ -3,3 +3,4 @@
 - GE-20260629-10e3dc: HuggingFace ONNX exports use original BERT input names (input_mask/segment_ids) — OnnxInferenceModel rejects them
 - GE-20260630-db5dce: BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation
 - GE-20260701-f7e1d5: BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference
+- GE-20260703-e0af92: torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning

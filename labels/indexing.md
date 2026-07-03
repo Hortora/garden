@@ -1,3 +1,4 @@
 - GE-20260604-a8ffaa: ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed
 - GE-20260629-0a3cb4: IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
+- GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant

@@ -5,3 +5,4 @@
 | GE-20260414-22e35f | Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing | gotcha | 12/15 |
 | GE-20260414-4bd3cb | validate_links.py uses requests.get not requests.head — wrong mock target causes silently-passing tests | undocumented | 9/15 |
 | GE-20260414-7fbf58 | Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert | gotcha | 13/15 |
+| GE-20260703-e0af92 | torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning | gotcha | 11/15 |

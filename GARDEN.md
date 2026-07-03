@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1962
+**Entries merged since last sweep:** 1965
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1661,6 +1661,8 @@
 - GE-20260702-21be12 [Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds](jvm/GE-20260702-21be12.md)
 - GE-20260703-885029 [Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently](jvm/GE-20260703-885029.md)
 - GE-20260703-885029 [Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently](jvm/GE-20260703-885029.md)
+- GE-20260703-eca34b [neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant](jvm/GE-20260703-eca34b.md)
+- GE-20260703-05f666 [neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race](jvm/GE-20260703-05f666.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2254,6 +2256,7 @@
 - GE-20260414-2a1cd1 [Regex-validated date strings still crash date.fromisoformat() on invalid calendar values](python/GE-20260414-2a1cd1.md)
 - GE-20260414-c12931 [YAML frontmatter regex silently skips files with CRLF line endings](python/GE-20260414-c12931.md)
 - GE-20260520-aa4a99 [Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH](python/GE-20260520-aa4a99.md)
+- GE-20260703-e0af92 [torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning](python/GE-20260703-e0af92.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

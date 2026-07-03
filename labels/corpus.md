@@ -1,0 +1,1 @@
+- GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race

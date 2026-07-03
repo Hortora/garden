@@ -73,3 +73,4 @@
 - GE-20260702-21be12: Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
+- GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant

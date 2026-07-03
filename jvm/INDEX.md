@@ -1070,3 +1070,5 @@
 | GE-20260702-21be12 | Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds | gotcha | 10/15 |
 | GE-20260703-885029 | Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently | gotcha | 9/15 |
 | GE-20260703-885029 | Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently | gotcha | 9/15 |
+| GE-20260703-eca34b | neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant | gotcha | 12/15 |
+| GE-20260703-05f666 | neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race | gotcha | 9/15 |
