@@ -11,3 +11,4 @@
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
 - GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
+- GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
