@@ -1077,3 +1077,4 @@
 | GE-20260703-e4a6b0 | Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth | gotcha | 11/15 |
 | GE-20260703-30313f | PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL | gotcha | 11/15 |
 | GE-20260703-39256d | Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything | undocumented | 10/15 |
+| GE-20260704-987f9c | DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512) | gotcha | 11/15 |

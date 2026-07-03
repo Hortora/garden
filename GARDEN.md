@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1971
+**Entries merged since last sweep:** 1972
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1668,6 +1668,7 @@
 - GE-20260703-e4a6b0 [Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth](jvm/GE-20260703-e4a6b0.md)
 - GE-20260703-30313f [PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL](jvm/GE-20260703-30313f.md)
 - GE-20260703-39256d [Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything](jvm/GE-20260703-39256d.md)
+- GE-20260704-987f9c [DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)](jvm/GE-20260704-987f9c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

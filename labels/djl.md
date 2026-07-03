@@ -1,3 +1,4 @@
 - GE-20260606-7bf5dd: DJL CharSpan JNI callback causes Rust panic with zero diagnostic in GraalVM native image
 - GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
 - GE-20260606-aab62a: DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module
+- GE-20260704-987f9c: DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)
