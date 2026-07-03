@@ -1074,3 +1074,4 @@
 | GE-20260703-05f666 | neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race | gotcha | 9/15 |
 | GE-20260703-adad41 | quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints | undocumented | 8/15 |
 | GE-20260703-8b71d9 | Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies | gotcha | 10/15 |
+| GE-20260703-e4a6b0 | Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth | gotcha | 11/15 |
