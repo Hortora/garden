@@ -1,0 +1,2 @@
+- GE-20260703-e32c1d: Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http
+- GE-20260703-adad41: quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints

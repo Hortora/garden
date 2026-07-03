@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1965
+**Entries merged since last sweep:** 1967
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1663,6 +1663,7 @@
 - GE-20260703-885029 [Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently](jvm/GE-20260703-885029.md)
 - GE-20260703-eca34b [neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant](jvm/GE-20260703-eca34b.md)
 - GE-20260703-05f666 [neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race](jvm/GE-20260703-05f666.md)
+- GE-20260703-adad41 [quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints](jvm/GE-20260703-adad41.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2245,6 +2246,7 @@
 - GE-20260702-7c79fe [IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index](tools/GE-20260702-7c79fe.md)
 - GE-20260702-74d065 [ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos](tools/GE-20260702-74d065.md)
 - GE-20260702-fc769a [Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote](tools/GE-20260702-fc769a.md)
+- GE-20260703-e32c1d [Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http](tools/GE-20260703-e32c1d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
