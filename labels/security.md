@@ -18,3 +18,4 @@
 - GE-20260628-04a38c: Quarkus auth-mechanism config overrides @TestSecurity — mechanism routes before test mechanism intercepts
 - GE-20260628-f4177d: Quarkus getCredentialTransport() declaring Bearer transport conflicts with OIDC mechanism — breaks @TestSecurity and causes mechanism ambiguity
 - GE-20260628-919f9f: Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests
+- GE-20260703-8b71d9: Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies

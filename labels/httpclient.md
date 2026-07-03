@@ -3,3 +3,4 @@
 - GE-20260609-878c41: JDK HttpClient.newWebSocketBuilder() silently hangs against plain HTTP/1.1 ServerSocket — HTTP/2 negotiation never completes
 - GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
+- GE-20260703-8b71d9: Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies

@@ -1073,3 +1073,4 @@
 | GE-20260703-eca34b | neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant | gotcha | 12/15 |
 | GE-20260703-05f666 | neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race | gotcha | 9/15 |
 | GE-20260703-adad41 | quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints | undocumented | 8/15 |
+| GE-20260703-8b71d9 | Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies | gotcha | 10/15 |

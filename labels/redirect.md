@@ -1,0 +1,1 @@
+- GE-20260703-8b71d9: Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies
