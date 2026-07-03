@@ -15,3 +15,4 @@
 - GE-20260620-04450c: waitForSession() barrier pattern — eliminate @OnOpen registration races in WebSocket integration tests
 - GE-20260626-15a2e1: CorpusIngestionService checkpointCursors overwrites failed-scan cursor — corpus appears fully indexed when nothing was ingested
 - GE-20260628-bc10ae: SC2 protocol server emulation — GameInfo request arrives before JoinGame, race-dependent fields unconfigured
+- GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL

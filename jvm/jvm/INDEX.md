@@ -44,3 +44,4 @@
 | GE-20260630-9d8cbe | @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined | gotcha | 11/15 |
 | GE-20260701-82f303 | CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider | gotcha | 9/15 |
 | GE-20260703-b2073a | TransitionPlanner orphan deprovision creates DesiredNode with private UnknownSpec — provisioners must infer entity type from NodeId | gotcha | 12/15 |
+| GE-20260703-30313f | PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL | gotcha | 11/15 |

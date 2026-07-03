@@ -1,1 +1,2 @@
 - GE-20260530-fcc6c3: ConcurrentHashMap.putIfAbsent silently keeps stale TTL cache entries — need atomic conditional remove first
+- GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL

@@ -1075,3 +1075,4 @@
 | GE-20260703-adad41 | quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints | undocumented | 8/15 |
 | GE-20260703-8b71d9 | Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies | gotcha | 10/15 |
 | GE-20260703-e4a6b0 | Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth | gotcha | 11/15 |
+| GE-20260703-30313f | PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL | gotcha | 11/15 |

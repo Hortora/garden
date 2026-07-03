@@ -1,2 +1,1 @@
-- GE-20260530-5a9f02: @ObservesAsync + @Transactional(REQUIRES_NEW) decouples audit persistence from the parent write transaction
 - GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL
