@@ -1068,3 +1068,4 @@
 | GE-20260701-f7e1d5 | BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference | gotcha | 11/15 |
 | GE-20260701-fdf192 | Retry loop wrapping policy exceptions destroys type information — timeout looks like retry exhaustion | gotcha | 11/15 |
 | GE-20260702-21be12 | Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds | gotcha | 10/15 |
+| GE-20260703-885029 | Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently | gotcha | 9/15 |

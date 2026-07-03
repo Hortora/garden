@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1960
+**Entries merged since last sweep:** 1961
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1659,6 +1659,7 @@
 - GE-20260701-f7e1d5 [BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference](jvm/GE-20260701-f7e1d5.md)
 - GE-20260701-fdf192 [Retry loop wrapping policy exceptions destroys type information — timeout looks like retry exhaustion](jvm/GE-20260701-fdf192.md)
 - GE-20260702-21be12 [Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds](jvm/GE-20260702-21be12.md)
+- GE-20260703-885029 [Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently](jvm/GE-20260703-885029.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

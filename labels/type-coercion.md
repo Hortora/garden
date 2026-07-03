@@ -1,1 +1,2 @@
 - GE-20260421-c37188: EvaluationContext.evaluate() always returns String — numeric macros silently break evaluateInt()
+- GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently

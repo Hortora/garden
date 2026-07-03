@@ -71,3 +71,4 @@
 - GE-20260630-b8e2d8: CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes
 - GE-20260701-280819: Slack conversations.list does not return num_members without explicit parameter
 - GE-20260702-21be12: Thread.sleep catch-and-continue on InterruptedException burns through retry attempts in microseconds
+- GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
