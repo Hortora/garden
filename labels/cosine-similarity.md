@@ -1,0 +1,1 @@
+- GE-20260703-39256d: Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything

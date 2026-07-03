@@ -3,3 +3,4 @@
 - GE-20260609-2abdfd: Qdrant Java client 1.9.x lacks Query API — prefetch + fusion requires client ≥1.10.0
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
+- GE-20260703-39256d: Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything

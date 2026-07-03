@@ -1,1 +1,2 @@
 - GE-20260609-616994: Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router
+- GE-20260703-39256d: Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything
