@@ -23,3 +23,4 @@
 - GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
 - GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/
 - GE-20260623-5cc402: Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB
+- GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing

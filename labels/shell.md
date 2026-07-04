@@ -14,3 +14,4 @@
 - GE-20260526-254c2c: Bash for loops with git commands inside eval fail with 'command not found: git'
 - GE-20260531-050543: macOS sed backreference substitution silently produces literal \1 when captured group contains quotes or parentheses
 - GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
+- GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing

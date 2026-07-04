@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1975
+**Entries merged since last sweep:** 1976
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2254,6 +2254,7 @@
 - GE-20260702-74d065 [ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos](tools/GE-20260702-74d065.md)
 - GE-20260702-fc769a [Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote](tools/GE-20260702-fc769a.md)
 - GE-20260703-e32c1d [Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http](tools/GE-20260703-e32c1d.md)
+- GE-20260704-99b8b0 [macOS /var/folders has two directory levels — single-glob rm silently matches nothing](tools/GE-20260704-99b8b0.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -546,3 +546,4 @@
 | GE-20260702-74d065 | ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos | technique | 8/15 |
 | GE-20260702-fc769a | Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote | gotcha | 9/15 |
 | GE-20260703-e32c1d | Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http | gotcha | 9/15 |
+| GE-20260704-99b8b0 | macOS /var/folders has two directory levels — single-glob rm silently matches nothing | gotcha | 8/15 |
