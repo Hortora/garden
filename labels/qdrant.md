@@ -14,3 +14,4 @@
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
 - GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant
 - GE-20260703-39256d: Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything
+- GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert

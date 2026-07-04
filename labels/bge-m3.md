@@ -1,2 +1,3 @@
 - GE-20260630-db5dce: BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation
 - GE-20260701-f7e1d5: BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference
+- GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert

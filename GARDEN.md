@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1974
+**Entries merged since last sweep:** 1975
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1670,6 +1670,7 @@
 - GE-20260703-39256d [Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything](jvm/GE-20260703-39256d.md)
 - GE-20260704-987f9c [DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)](jvm/GE-20260704-987f9c.md)
 - GE-20260704-d6aacc [Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces](jvm/GE-20260704-d6aacc.md)
+- GE-20260704-ba9911 [Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert](jvm/GE-20260704-ba9911.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

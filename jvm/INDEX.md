@@ -1079,3 +1079,4 @@
 | GE-20260703-39256d | Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything | undocumented | 10/15 |
 | GE-20260704-987f9c | DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512) | gotcha | 11/15 |
 | GE-20260704-d6aacc | Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces | gotcha | 13/15 |
+| GE-20260704-ba9911 | Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert | gotcha | 10/15 |
