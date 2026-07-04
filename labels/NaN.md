@@ -1,2 +1,3 @@
 - GE-20260529-37764f: OptionalDouble over double+NaN sentinel for absent numeric primitives in records
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
+- GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false

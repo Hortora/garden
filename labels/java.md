@@ -151,3 +151,4 @@
 - GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests
 - GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching
 - GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live
+- GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false

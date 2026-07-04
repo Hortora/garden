@@ -12,3 +12,4 @@
 - GE-20260624-c86d12: casehub-platform-api RetryPolicy(0, ...) throws IllegalArgumentException — use ExecutionPolicy.noRetry() for no-retry semantics
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
+- GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
