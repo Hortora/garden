@@ -1,0 +1,1 @@
+- GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax

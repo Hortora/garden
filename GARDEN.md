@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1977
+**Entries merged since last sweep:** 1978
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1672,6 +1672,7 @@
 - GE-20260704-d6aacc [Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces](jvm/GE-20260704-d6aacc.md)
 - GE-20260704-ba9911 [Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert](jvm/GE-20260704-ba9911.md)
 - GE-20260604-043617 [Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false](jvm/GE-20260604-043617.md)
+- GE-20260705-0d86bf [SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax](jvm/GE-20260705-0d86bf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

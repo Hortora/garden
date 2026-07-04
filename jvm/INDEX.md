@@ -1081,3 +1081,4 @@
 | GE-20260704-d6aacc | Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces | gotcha | 13/15 |
 | GE-20260704-ba9911 | Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert | gotcha | 10/15 |
 | GE-20260604-043617 | Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false | gotcha | 12/15 |
+| GE-20260705-0d86bf | SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax | undocumented | 9/15 |
