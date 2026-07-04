@@ -1,1 +1,2 @@
 - GE-20260626-c21b02: @DefaultBean silently suppressed by any Instance<T> peer — breaks multi-implementation SPI patterns
+- GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces

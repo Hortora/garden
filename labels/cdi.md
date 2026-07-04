@@ -332,3 +332,4 @@
 - GE-20260701-4ee3fd: casehub-engine-persistence-memory must be compile scope in harness apps — test scope causes 33 CDI deployment failures
 - GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race
+- GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces

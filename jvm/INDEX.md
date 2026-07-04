@@ -1078,3 +1078,4 @@
 | GE-20260703-30313f | PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL | gotcha | 11/15 |
 | GE-20260703-39256d | Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything | undocumented | 10/15 |
 | GE-20260704-987f9c | DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512) | gotcha | 11/15 |
+| GE-20260704-d6aacc | Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces | gotcha | 13/15 |

@@ -1,0 +1,1 @@
+- GE-20260704-73bebb: casehub-pages event op silently skips lastSeq tracking — since-based reconnection never fires
