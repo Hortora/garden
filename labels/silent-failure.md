@@ -77,3 +77,4 @@
 - GE-20260703-e4a6b0: Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth
 - GE-20260704-987f9c: DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)
 - GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing
+- GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text

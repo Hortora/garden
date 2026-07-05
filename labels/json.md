@@ -18,3 +18,4 @@
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
+- GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text

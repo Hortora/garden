@@ -1,0 +1,1 @@
+- GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
