@@ -1091,3 +1091,4 @@
 | GE-20260705-01788f | Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text | gotcha | 13/15 |
 | GE-20260705-b59012 | Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion | undocumented | 12/15 |
 | GE-20260705-002a78 | Alpha network FilterNode sharing leaks events across tenants in multi-tenant subscription systems | gotcha | 12/15 |
+| GE-20260705-fa70c8 | UUIDv7 clock regression after sequence wraparound breaks monotonicity silently | gotcha | 10/15 |

@@ -1,0 +1,1 @@
+- GE-20260705-fa70c8: UUIDv7 clock regression after sequence wraparound breaks monotonicity silently
