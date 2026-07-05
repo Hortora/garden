@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1983
+**Entries merged since last sweep:** 1984
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2259,6 +2259,7 @@
 - GE-20260703-e32c1d [Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http](tools/GE-20260703-e32c1d.md)
 - GE-20260704-99b8b0 [macOS /var/folders has two directory levels — single-glob rm silently matches nothing](tools/GE-20260704-99b8b0.md)
 - GE-20260705-e15dde [IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding](tools/GE-20260705-e15dde.md)
+- GE-20260705-e8fa3c [IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings](tools/GE-20260705-e8fa3c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
