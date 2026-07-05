@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1984
+**Entries merged since last sweep:** 1987
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1674,6 +1674,9 @@
 - GE-20260604-043617 [Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false](jvm/GE-20260604-043617.md)
 - GE-20260705-0d86bf [SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax](jvm/GE-20260705-0d86bf.md)
 - GE-20260704-294d67 [Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events](jvm/GE-20260704-294d67.md)
+- GE-20260705-2aa4c8 [H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields](jvm/GE-20260705-2aa4c8.md)
+- GE-20260705-8929cc [UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering](jvm/GE-20260705-8929cc.md)
+- GE-20260705-ab2230 [JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks](jvm/GE-20260705-ab2230.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

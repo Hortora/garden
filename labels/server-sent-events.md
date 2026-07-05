@@ -1,2 +1,3 @@
 - GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
 - GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE
+- GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks

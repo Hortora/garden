@@ -19,3 +19,4 @@
 - GE-20260414-c2f74c: Hibernate Reactive Panache calls throw 'No current Mutiny.Session found' when invoked directly from @QuarkusTest thread
 - GE-20260617-54b75b: Hibernate Reactive Panache repo.update() converts positional ?N params to named params based on field names — unbound at runtime
 - GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
+- GE-20260705-2aa4c8: H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields

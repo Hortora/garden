@@ -1083,3 +1083,6 @@
 | GE-20260604-043617 | Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false | gotcha | 12/15 |
 | GE-20260705-0d86bf | SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax | undocumented | 9/15 |
 | GE-20260704-294d67 | Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events | gotcha | 10/15 |
+| GE-20260705-2aa4c8 | H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields | gotcha | 11/15 |
+| GE-20260705-8929cc | UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering | technique | 10/15 |
+| GE-20260705-ab2230 | JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks | gotcha | 9/15 |

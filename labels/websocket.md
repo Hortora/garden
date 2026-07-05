@@ -12,3 +12,4 @@
 - GE-20260629-c6172a: JDK Corretto 22 WebSocket OpeningHandshake uses non-standard GUID — all connections to RFC-compliant servers fail
 - GE-20260703-e4a6b0: Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth
 - GE-20260704-73bebb: casehub-pages event op silently skips lastSeq tracking — since-based reconnection never fires
+- GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
