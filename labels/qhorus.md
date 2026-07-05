@@ -20,3 +20,4 @@
 - GE-20260623-ef0e7c: QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement
 - GE-20260623-92964b: RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
+- GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded

@@ -1093,3 +1093,4 @@
 | GE-20260705-002a78 | Alpha network FilterNode sharing leaks events across tenants in multi-tenant subscription systems | gotcha | 12/15 |
 | GE-20260705-fa70c8 | UUIDv7 clock regression after sequence wraparound breaks monotonicity silently | gotcha | 10/15 |
 | GE-20260705-a910c0 | JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass | gotcha | 15/15 |
+| GE-20260630-69e447 | qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded | gotcha | 11/15 |

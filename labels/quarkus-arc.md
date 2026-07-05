@@ -7,3 +7,4 @@
 - GE-20260627-f3476f: Arc.container().requestContext().isActive() for scope-safe CurrentPrincipal delegation in @ApplicationScoped beans
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces
+- GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
