@@ -99,3 +99,4 @@
 - GE-20260630-773d44: Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init
+- GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError

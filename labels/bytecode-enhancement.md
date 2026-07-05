@@ -2,3 +2,4 @@
 - GE-20260420-7d28fa: PanacheRepository<PlainEntity, UUID> listAll() throws implementationInjectionMissing at runtime when entity is plain @Entity
 - GE-20260523-fc1fe7: Quarkus bytecode enhancement changes @Entity public fields to protected in test classloader — direct access from non-subclass causes IllegalAccessError
 - GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
+- GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError

@@ -1,0 +1,1 @@
+- GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError
