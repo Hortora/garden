@@ -2,3 +2,4 @@
 - GE-20260610-e6929a: Hibernate 7 @Filter is not applied to EntityManager.find() / Panache findById() — SQL pre-compiled at startup
 - GE-20260610-711f61: Panache Active Record per-request tenant isolation via static entity helper when system-actor contexts need cross-tenant access
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
+- GE-20260705-002a78: Alpha network FilterNode sharing leaks events across tenants in multi-tenant subscription systems
