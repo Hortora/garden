@@ -68,3 +68,4 @@
 - GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
 - GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)
 - GE-20260701-82fc11: engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute()
+- GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events

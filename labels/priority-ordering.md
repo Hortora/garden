@@ -1,2 +1,1 @@
-- GE-20260529-d1397c: Observing ChannelInitialisedEvent gives Qhorus ChannelBackend free startup recovery
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events

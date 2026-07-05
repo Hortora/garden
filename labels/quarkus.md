@@ -636,3 +636,4 @@
 - GE-20260703-e32c1d: Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http
 - GE-20260703-adad41: quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints
 - GE-20260703-e4a6b0: Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth
+- GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
