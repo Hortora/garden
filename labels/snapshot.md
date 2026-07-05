@@ -45,3 +45,4 @@
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
 - GE-20260630-4aa4f9: YamlCaseHub.getDefinition() now final — use augment(CaseDefinition) override instead
 - GE-20260630-989449: Worker.Builder.capabilities(List<Capability>) removed — use capabilityName(String) or capabilityNames(String...)
+- GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break

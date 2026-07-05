@@ -4,3 +4,4 @@
 - GE-20260607-d689c9: Class shadowing in Quarkus extensions is unreliable — use BytecodeTransformerBuildItem with ASM visitorFunction instead
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
+- GE-20260706-1fc043: IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode

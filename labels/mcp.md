@@ -40,3 +40,4 @@
 - GE-20260703-adad41: quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints
 - GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
+- GE-20260706-1fc043: IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode

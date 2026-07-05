@@ -1,0 +1,1 @@
+- GE-20260706-1fc043: IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode

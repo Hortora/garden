@@ -34,3 +34,4 @@
 - GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
 - GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
+- GE-20260706-1fc043: IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode

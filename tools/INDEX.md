@@ -550,3 +550,4 @@
 | GE-20260705-e15dde | IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding | gotcha | 11/15 |
 | GE-20260705-e8fa3c | IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings | gotcha | 11/15 |
 | GE-20260705-381056 | sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk | gotcha | 12/15 |
+| GE-20260706-1fc043 | IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode | technique | 9/15 |

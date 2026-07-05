@@ -23,3 +23,4 @@
 - GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index
 - GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
 - GE-20260702-fc769a: Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote
+- GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break

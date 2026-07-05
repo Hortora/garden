@@ -1,0 +1,1 @@
+- GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break

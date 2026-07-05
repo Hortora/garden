@@ -158,3 +158,4 @@
 - GE-20260701-4ee3fd: casehub-engine-persistence-memory must be compile scope in harness apps — test scope causes 33 CDI deployment failures
 - GE-20260701-b84dd2: Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends
 - GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
+- GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break
