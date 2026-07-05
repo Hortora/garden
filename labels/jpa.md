@@ -100,3 +100,5 @@
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init
 - GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError
+- GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
+- GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass

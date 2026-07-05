@@ -78,3 +78,5 @@
 - GE-20260704-987f9c: DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)
 - GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing
 - GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
+- GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
+- GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass

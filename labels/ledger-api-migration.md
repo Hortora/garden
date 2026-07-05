@@ -1,0 +1,1 @@
+- GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
