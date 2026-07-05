@@ -1,1 +1,2 @@
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
+- GE-20260705-b59012: Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion
