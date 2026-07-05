@@ -1,3 +1,4 @@
 - GE-20260520-03f1a7: cc-praxis: hooks/check_project_setup.sh is the canonical source — not install-skills/SKILL.md
 - GE-20260520-836d5b: cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message
 - GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
+- GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk

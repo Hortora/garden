@@ -1,1 +1,2 @@
 - GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm
+- GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk

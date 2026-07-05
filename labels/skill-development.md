@@ -1,0 +1,1 @@
+- GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
