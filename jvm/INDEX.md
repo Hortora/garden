@@ -1086,3 +1086,4 @@
 | GE-20260705-2aa4c8 | H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields | gotcha | 11/15 |
 | GE-20260705-8929cc | UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering | technique | 10/15 |
 | GE-20260705-ab2230 | JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks | gotcha | 9/15 |
+| GE-20260705-385e87 | Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server | gotcha | 9/15 |

@@ -2,3 +2,4 @@
 - GE-20260630-bf0055: Quinoa 2.8.x requires explicit node-version property — startup fails without it
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
 - GE-20260701-b84dd2: Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends
+- GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server

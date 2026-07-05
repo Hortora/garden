@@ -637,3 +637,4 @@
 - GE-20260703-adad41: quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints
 - GE-20260703-e4a6b0: Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
+- GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server

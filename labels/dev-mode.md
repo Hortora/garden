@@ -6,3 +6,4 @@
 - GE-20260508-a2b49e: Quarkus dev-mode live-reload scanner adds ~1.5s latency to HTTP requests after idle
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
 - GE-20260629-e6460e: quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead
+- GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
