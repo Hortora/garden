@@ -89,3 +89,4 @@
 - GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
 - GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
+- GE-20260705-9a8478: AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout

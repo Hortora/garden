@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 1989
+**Entries merged since last sweep:** 1990
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2334,6 +2334,7 @@
 - GE-20260705-7c80f2 [Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update](web/GE-20260705-7c80f2.md)
 - GE-20260705-1cda0b [Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading](web/GE-20260705-1cda0b.md)
 - GE-20260705-557ee5 [REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error](web/GE-20260705-557ee5.md)
+- GE-20260705-9a8478 [AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout](web/GE-20260705-9a8478.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

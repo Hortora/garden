@@ -56,3 +56,4 @@
 | GE-20260705-7c80f2 | Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update | gotcha | 12/15 |
 | GE-20260705-1cda0b | Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading | gotcha | 10/15 |
 | GE-20260705-557ee5 | REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error | gotcha | 11/15 |
+| GE-20260705-9a8478 | AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout | undocumented | 8/15 |
