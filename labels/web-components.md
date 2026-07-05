@@ -7,3 +7,6 @@
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
 - GE-20260701-fe7a85: Light DOM innerHTML re-render silently destroys parent-wired event listeners
+- GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update
+- GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading
+- GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error

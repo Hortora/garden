@@ -3,3 +3,4 @@
 - GE-20260420-060bd6: escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
 - GE-20260529-22b91b: Use Date.parse() === 0 to detect Java Instant.EPOCH across Jackson precision variants
+- GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading

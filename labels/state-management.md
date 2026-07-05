@@ -1,3 +1,4 @@
 - GE-20260427-edbacd: Java test infrastructure: adding a new collection to a class requires clearing it in BOTH reset() and clearAll() — missing one causes @QuarkusTest state bleed
 - GE-20260513-e04f26: Store configuration on the runtime entity to eliminate a parallel callback registry
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
+- GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update

@@ -4,3 +4,4 @@
 - GE-20260608-8e85f6: Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it
 - GE-20260609-616994: Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
+- GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error

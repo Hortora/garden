@@ -1,2 +1,1 @@
-- GE-20260629-59c7e6: esbuild minifies TypeScript constants inside template literal html strings — fetch URLs silently 404
 - GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading

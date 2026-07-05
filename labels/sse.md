@@ -25,3 +25,4 @@
 - GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests
 - GE-20260703-e32c1d: Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http
 - GE-20260703-adad41: quarkus-mcp-server-http silently exposes both Streamable HTTP and SSE endpoints
+- GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
