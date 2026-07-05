@@ -1,0 +1,1 @@
+- GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding

@@ -333,3 +333,4 @@
 - GE-20260701-ee19df: CDI @PostConstruct JPA calls fail silently on Vert.x IO thread when engine's registerKnownDefinitions triggers lazy bean init
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race
 - GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces
+- GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding

@@ -21,3 +21,4 @@
 - GE-20260617-cbe0f1: IntelliJ ide_move_file MCP updates some references as FQN instead of adding imports
 - GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import
 - GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
+- GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding

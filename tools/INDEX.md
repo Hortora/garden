@@ -547,3 +547,4 @@
 | GE-20260702-fc769a | Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote | gotcha | 9/15 |
 | GE-20260703-e32c1d | Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http | gotcha | 9/15 |
 | GE-20260704-99b8b0 | macOS /var/folders has two directory levels — single-glob rm silently matches nothing | gotcha | 8/15 |
+| GE-20260705-e15dde | IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding | gotcha | 11/15 |
