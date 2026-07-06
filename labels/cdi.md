@@ -341,3 +341,4 @@
 - GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
 - GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
+- GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
