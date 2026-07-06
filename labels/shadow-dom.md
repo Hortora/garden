@@ -2,3 +2,4 @@
 - GE-20260615-d356e6: HTMLElement.dataset is reserved — Web Components cannot override it with a typed property setter
 - GE-20260617-cc0834: Shadow DOM keyboard event target is the host element — global shortcut guards miss inner editable fields
 - GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update
+- GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens

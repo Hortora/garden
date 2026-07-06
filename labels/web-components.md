@@ -10,3 +10,4 @@
 - GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update
 - GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
+- GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens

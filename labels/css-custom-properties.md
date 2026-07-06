@@ -1,0 +1,1 @@
+- GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
