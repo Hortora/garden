@@ -1,0 +1,1 @@
+- GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans

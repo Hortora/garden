@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2007
+**Entries merged since last sweep:** 2008
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1690,6 +1690,7 @@
 - GE-20260706-01fc22 [Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits](jvm/GE-20260706-01fc22.md)
 - GE-20260706-53a1bf [Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence](jvm/GE-20260706-53a1bf.md)
 - GE-20260706-2c6bba [casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation](jvm/GE-20260706-2c6bba.md)
+- GE-20260706-8488d8 [Quarkus Arc @Alternative does not suppress injection point validation of displaced beans](jvm/GE-20260706-8488d8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
