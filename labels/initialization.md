@@ -1,2 +1,3 @@
 - GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
+- GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
