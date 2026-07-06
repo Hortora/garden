@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2022
+**Entries merged since last sweep:** 2025
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2367,6 +2367,9 @@
 - GE-20260706-f2a9b2 [Map objects in postMessage appear to work but silently lose data across real iframe boundaries](web/GE-20260706-f2a9b2.md)
 - GE-20260706-9335b9 [Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens](web/GE-20260706-9335b9.md)
 - GE-20260706-2c7f2b [Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration](web/GE-20260706-2c7f2b.md)
+- GE-20260706-cad45e [Yarn 4 project-level .yarnrc.yml npmScopes overrides home-level entirely — no property merge](web/GE-20260706-cad45e.md)
+- GE-20260706-2ad2b1 [Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs](web/GE-20260706-2ad2b1.md)
+- GE-20260706-7d5f53 [Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth](web/GE-20260706-7d5f53.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

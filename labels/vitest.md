@@ -1,1 +1,2 @@
 - GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
+- GE-20260706-2ad2b1: Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs

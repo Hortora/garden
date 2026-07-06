@@ -1,0 +1,1 @@
+- GE-20260706-2ad2b1: Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs

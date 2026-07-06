@@ -27,3 +27,5 @@
 - GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
 - GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator
+- GE-20260706-cad45e: Yarn 4 project-level .yarnrc.yml npmScopes overrides home-level entirely — no property merge
+- GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
