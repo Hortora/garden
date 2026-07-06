@@ -41,3 +41,4 @@
 - GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
 - GE-20260628-ea2ac5: quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state
 - GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
+- GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence

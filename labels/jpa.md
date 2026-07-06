@@ -102,3 +102,4 @@
 - GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError
 - GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
+- GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence

@@ -13,3 +13,4 @@
 - GE-20260424-6b88a0: `quarkus.ledger.datasource` routes LedgerEntityManagerProducer to a named PU — not documented
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
+- GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence

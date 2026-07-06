@@ -336,3 +336,4 @@
 - GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
+- GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence

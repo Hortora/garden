@@ -10,3 +10,4 @@
 - GE-20260606-dc4293: InMemoryMemoryStore.query() uses full-substring match for question field — test data must contain entire question text verbatim
 - GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
 - GE-20260610-6297ce: Synchronous @Observes CDI bean silently clears in-memory state before @ObservesAsync observers can write, capping accumulation permanently
+- GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence
