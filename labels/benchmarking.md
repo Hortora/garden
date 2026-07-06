@@ -1,1 +1,2 @@
 - GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display
+- GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps

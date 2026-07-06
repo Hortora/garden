@@ -1,2 +1,3 @@
 - GE-20260426-1a8caf: git stash one-liner to baseline-check if a build failure pre-existed your change
 - GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level
+- GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps

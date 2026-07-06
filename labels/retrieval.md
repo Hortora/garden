@@ -5,3 +5,4 @@
 - GE-20260630-647cff: CamelCase compound preservation in BM25 tokenization — exact identifier matches outrank partial via IDF
 - GE-20260630-db5dce: BGE-M3 sparse post-processing differs from SPLADE — ReLU threshold, not log-saturation
 - GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert
+- GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps
