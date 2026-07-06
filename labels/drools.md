@@ -10,3 +10,4 @@
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
 - GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
+- GE-20260706-27365d: drools-reliability PersistenceStrategy.FULL is non-functional in Drools 10.1.0 — only STORES_ONLY works

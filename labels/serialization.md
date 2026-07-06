@@ -11,3 +11,4 @@
 - GE-20260609-a5dcbc: Java Properties format for restart-safe struct persistence in Qhorus COMMAND message content
 - GE-20260417-4a3c22: Worker lambda receives null for context fields added to inputSchema — keys may not survive event log serialization
 - GE-20260616-a67eec: quarkus-mcp-server @Tool methods return domain objects directly — @JsonInclude handles serialization; no Map construction needed
+- GE-20260706-27365d: drools-reliability PersistenceStrategy.FULL is non-functional in Drools 10.1.0 — only STORES_ONLY works

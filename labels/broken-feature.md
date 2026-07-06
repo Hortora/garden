@@ -1,0 +1,1 @@
+- GE-20260706-27365d: drools-reliability PersistenceStrategy.FULL is non-functional in Drools 10.1.0 — only STORES_ONLY works
