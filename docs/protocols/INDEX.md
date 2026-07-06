@@ -8,6 +8,7 @@ namespace groups protocols by technology domain.
 | Namespace | Scope | Description |
 |-----------|-------|-------------|
 | [casehub/](casehub/FOUNDATION-INDEX.md) | Platform | CaseHub platform-wide conventions — API taxonomy, routing strategies |
+| [universal/](universal/INDEX.md) | Universal | Technology-agnostic conventions — REST adapter modules, module structure |
 | [web/](web/INDEX.md) | Universal | Web Component and browser-side conventions — Lit reactivity, shadow DOM events |
 
 ## Adding a new protocol
