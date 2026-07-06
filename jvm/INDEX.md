@@ -1097,3 +1097,4 @@
 | GE-20260706-1f248b | Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break | gotcha | 10/15 |
 | GE-20260706-01fc22 | Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits | gotcha | 14/15 |
 | GE-20260706-53a1bf | Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence | gotcha | 12/15 |
+| GE-20260706-2c6bba | casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation | gotcha | 9/15 |

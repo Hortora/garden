@@ -362,3 +362,4 @@
 - GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
 - GE-20260705-2aa4c8: H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields
 - GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence
+- GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
