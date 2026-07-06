@@ -104,3 +104,4 @@
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
 - GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
+- GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
