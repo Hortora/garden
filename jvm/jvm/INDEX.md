@@ -47,3 +47,4 @@
 | GE-20260703-30313f | PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL | gotcha | 11/15 |
 | GE-20260706-270a16 | SDD controller must verify compilation before dispatching implementers on SNAPSHOT-dependent projects | technique | 9/15 |
 | GE-20260706-b2ef26 | casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity | gotcha | 14/15 |
+| GE-20260706-d3909b | Local SNAPSHOT masks unpublished upstream changes — CI fails with 'cannot find symbol' | gotcha | 10/15 |

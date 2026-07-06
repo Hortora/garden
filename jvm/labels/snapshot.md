@@ -1,2 +1,3 @@
 - GE-20260706-270a16: SDD controller must verify compilation before dispatching implementers on SNAPSHOT-dependent projects
 - GE-20260706-b2ef26: casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity
+- GE-20260706-d3909b: Local SNAPSHOT masks unpublished upstream changes — CI fails with 'cannot find symbol'

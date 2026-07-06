@@ -1,0 +1,1 @@
+- GE-20260706-d3909b: Local SNAPSHOT masks unpublished upstream changes — CI fails with 'cannot find symbol'
