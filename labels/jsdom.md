@@ -1,1 +1,2 @@
 - GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
+- GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size

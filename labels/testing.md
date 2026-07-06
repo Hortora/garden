@@ -367,3 +367,4 @@
 - GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
 - GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures
 - GE-20260706-2ad2b1: Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs
+- GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size

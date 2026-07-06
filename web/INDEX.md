@@ -64,3 +64,5 @@
 | GE-20260706-cad45e | Yarn 4 project-level .yarnrc.yml npmScopes overrides home-level entirely — no property merge | gotcha | 10/15 |
 | GE-20260706-2ad2b1 | Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs | gotcha | 8/15 |
 | GE-20260706-7d5f53 | Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth | undocumented | 8/15 |
+| GE-20260706-7bb555 | JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size | gotcha | 11/15 |
+| GE-20260706-dfef71 | CSS Grid column picker inside header grid takes its own column slot — misaligns header and body | gotcha | 9/15 |

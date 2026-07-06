@@ -1,0 +1,1 @@
+- GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size

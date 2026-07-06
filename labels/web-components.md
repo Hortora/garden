@@ -11,3 +11,5 @@
 - GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
+- GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
+- GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
