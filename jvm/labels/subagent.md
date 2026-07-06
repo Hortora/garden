@@ -1,0 +1,1 @@
+- GE-20260706-270a16: SDD controller must verify compilation before dispatching implementers on SNAPSHOT-dependent projects
