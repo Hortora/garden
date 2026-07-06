@@ -642,3 +642,4 @@
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
+- GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator

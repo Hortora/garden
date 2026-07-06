@@ -2,3 +2,4 @@
 - GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
 - GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
+- GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator

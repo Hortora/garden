@@ -1,1 +1,2 @@
 - GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs
+- GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
