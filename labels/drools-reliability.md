@@ -1,0 +1,1 @@
+- GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
