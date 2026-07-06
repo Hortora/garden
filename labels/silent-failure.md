@@ -84,3 +84,4 @@
 - GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null
 - GE-20260706-f2a9b2: Map objects in postMessage appear to work but silently lose data across real iframe boundaries
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
+- GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss

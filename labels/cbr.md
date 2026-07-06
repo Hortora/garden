@@ -1,1 +1,2 @@
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
+- GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss

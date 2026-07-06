@@ -5,3 +5,4 @@
 - GE-20260531-dd44a2: @Path("/") root resource captures all paths in Quarkus RESTEasy Reactive — specific endpoints return 404
 - GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction
 - GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard
+- GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss

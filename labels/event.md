@@ -14,3 +14,4 @@
 - GE-20260609-9ee2ad: Qhorus ChannelService.create() does not fire ChannelInitialisedEvent — callers must call gateway.initChannel() explicitly
 - GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
 - GE-20260630-4b89c2: Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection
+- GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
