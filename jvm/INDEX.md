@@ -1095,3 +1095,4 @@
 | GE-20260705-a910c0 | JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass | gotcha | 15/15 |
 | GE-20260630-69e447 | qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded | gotcha | 11/15 |
 | GE-20260706-1f248b | Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break | gotcha | 10/15 |
+| GE-20260706-01fc22 | Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits | gotcha | 14/15 |

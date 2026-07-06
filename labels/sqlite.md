@@ -5,3 +5,4 @@
 - GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
 - GE-20260531-df79cb: SQLite FTS5 content-table pattern — live full-text index maintained by triggers, ranked by built-in BM25 column
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
+- GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits

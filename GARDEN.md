@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2000
+**Entries merged since last sweep:** 2001
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1687,6 +1687,7 @@
 - GE-20260705-a910c0 [JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass](jvm/GE-20260705-a910c0.md)
 - GE-20260630-69e447 [qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded](jvm/GE-20260630-69e447.md)
 - GE-20260706-1f248b [Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break](jvm/GE-20260706-1f248b.md)
+- GE-20260706-01fc22 [Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits](jvm/GE-20260706-01fc22.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

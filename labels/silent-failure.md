@@ -80,3 +80,4 @@
 - GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
 - GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
+- GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
