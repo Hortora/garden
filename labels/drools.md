@@ -9,3 +9,4 @@
 - GE-20260621-069194: KieHelper removed from Drools 10 — no replacement utility class
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
+- GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
