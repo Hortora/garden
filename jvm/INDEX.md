@@ -1116,3 +1116,4 @@
 | GE-20260706-be2ef0 | SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it | gotcha | 9/15 |
 | GE-20260706-cbd6b2 | @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode | technique | 8/15 |
 | GE-20260706-261904 | Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips | gotcha | 10/15 |
+| GE-20260706-ab4bc8 | ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control | technique | 8/15 |

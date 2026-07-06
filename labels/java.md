@@ -153,3 +153,4 @@
 - GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
+- GE-20260706-ab4bc8: ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control
