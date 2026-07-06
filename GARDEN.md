@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2036
+**Entries merged since last sweep:** 2039
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1710,6 +1710,9 @@
 - GE-20260706-cbd6b2 [@IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode](jvm/GE-20260706-cbd6b2.md)
 - GE-20260706-261904 [Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips](jvm/GE-20260706-261904.md)
 - GE-20260706-ab4bc8 [ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control](jvm/GE-20260706-ab4bc8.md)
+- GE-20260707-160109 [CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy](jvm/GE-20260707-160109.md)
+- GE-20260707-5d6a9f [Quarkus test application.properties overrides production exclude-types — not additive](jvm/GE-20260707-5d6a9f.md)
+- GE-20260707-0bdba7 [fabric8 CRUD mock server does not support serverSideApply — use createOr fallback](jvm/GE-20260707-0bdba7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -368,3 +368,5 @@
 - GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures
 - GE-20260706-2ad2b1: Vitest vi.useFakeTimers() silently replaces vi.stubGlobal() browser API stubs
 - GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
+- GE-20260707-5d6a9f: Quarkus test application.properties overrides production exclude-types — not additive
+- GE-20260707-0bdba7: fabric8 CRUD mock server does not support serverSideApply — use createOr fallback

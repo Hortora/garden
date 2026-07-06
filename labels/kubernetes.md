@@ -1,0 +1,1 @@
+- GE-20260707-0bdba7: fabric8 CRUD mock server does not support serverSideApply — use createOr fallback

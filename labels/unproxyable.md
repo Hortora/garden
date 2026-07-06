@@ -1,0 +1,1 @@
+- GE-20260707-160109: CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy

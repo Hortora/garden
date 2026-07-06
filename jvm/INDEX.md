@@ -1117,3 +1117,6 @@
 | GE-20260706-cbd6b2 | @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode | technique | 8/15 |
 | GE-20260706-261904 | Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips | gotcha | 10/15 |
 | GE-20260706-ab4bc8 | ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control | technique | 8/15 |
+| GE-20260707-160109 | CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy | gotcha | 11/15 |
+| GE-20260707-5d6a9f | Quarkus test application.properties overrides production exclude-types — not additive | gotcha | 9/15 |
+| GE-20260707-0bdba7 | fabric8 CRUD mock server does not support serverSideApply — use createOr fallback | technique | 9/15 |
