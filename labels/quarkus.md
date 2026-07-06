@@ -643,3 +643,6 @@
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
 - GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
+- GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig
+- GE-20260706-be2ef0: SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it
+- GE-20260706-cbd6b2: @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode

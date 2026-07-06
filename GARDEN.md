@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2031
+**Entries merged since last sweep:** 2034
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1705,6 +1705,9 @@
 - GE-20260706-abaddc [Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs](jvm/GE-20260706-abaddc.md)
 - GE-20260706-a4d5b0 [Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans](jvm/GE-20260706-a4d5b0.md)
 - GE-20260706-cda843 [Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator](jvm/GE-20260706-cda843.md)
+- GE-20260706-fc6388 [Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig](jvm/GE-20260706-fc6388.md)
+- GE-20260706-be2ef0 [SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it](jvm/GE-20260706-be2ef0.md)
+- GE-20260706-cbd6b2 [@IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode](jvm/GE-20260706-cbd6b2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

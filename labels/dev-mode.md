@@ -7,3 +7,4 @@
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
 - GE-20260629-e6460e: quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead
 - GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
+- GE-20260706-cbd6b2: @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode

@@ -9,3 +9,4 @@
 - GE-20260617-9b21f8: SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
 - GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
+- GE-20260706-be2ef0: SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it

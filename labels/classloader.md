@@ -2,3 +2,4 @@
 - GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
+- GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig

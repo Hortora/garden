@@ -1,0 +1,1 @@
+- GE-20260706-cbd6b2: @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode
