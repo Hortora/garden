@@ -1,1 +1,2 @@
 - GE-20260609-9dc2f9: Java annotation attributes with default empty string return "" not null — null-checking helpers silently emit blank JSON fields
+- GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null

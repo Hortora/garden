@@ -1,0 +1,1 @@
+- GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null
