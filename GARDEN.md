@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2013
+**Entries merged since last sweep:** 2015
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1694,6 +1694,7 @@
 - GE-20260706-8488d8 [Quarkus Arc @Alternative does not suppress injection point validation of displaced beans](jvm/GE-20260706-8488d8.md)
 - GE-20260706-eb11a1 [Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead](jvm/GE-20260706-eb11a1.md)
 - GE-20260706-2ac0db [FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc](jvm/GE-20260706-2ac0db.md)
+- GE-20260706-b56877 [Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict](jvm/GE-20260706-b56877.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2358,6 +2359,7 @@
 - GE-20260706-b2804c [Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null](web/GE-20260706-b2804c.md)
 - GE-20260706-f2a9b2 [Map objects in postMessage appear to work but silently lose data across real iframe boundaries](web/GE-20260706-f2a9b2.md)
 - GE-20260706-9335b9 [Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens](web/GE-20260706-9335b9.md)
+- GE-20260706-2c7f2b [Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration](web/GE-20260706-2c7f2b.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

@@ -2,3 +2,4 @@
 - GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
+- GE-20260706-2c7f2b: Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration

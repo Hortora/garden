@@ -34,3 +34,4 @@
 - GE-20260630-773d44: Entity-based distributed lock removal after trigger is unsafe — GC pause creates duplicate-fire window
 - GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race
 - GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule
+- GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict

@@ -12,3 +12,4 @@
 - GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type
 - GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
+- GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict

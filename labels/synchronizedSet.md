@@ -1,0 +1,1 @@
+- GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict

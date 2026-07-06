@@ -1,1 +1,2 @@
 - GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not
+- GE-20260706-2c7f2b: Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration

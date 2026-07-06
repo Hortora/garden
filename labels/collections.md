@@ -9,3 +9,4 @@
 - GE-20260612-f6362e: ConcurrentHashMap.computeIfAbsent does not cache null — mapping function re-invoked on every call when absent
 - GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
 - GE-20260617-68c9c5: Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false
+- GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict

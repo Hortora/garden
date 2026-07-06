@@ -60,3 +60,4 @@
 | GE-20260706-b2804c | Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null | gotcha | 10/15 |
 | GE-20260706-f2a9b2 | Map objects in postMessage appear to work but silently lose data across real iframe boundaries | gotcha | 12/15 |
 | GE-20260706-9335b9 | Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens | gotcha | 11/15 |
+| GE-20260706-2c7f2b | Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration | gotcha | 10/15 |
