@@ -1109,3 +1109,4 @@
 | GE-20260706-27365d | drools-reliability PersistenceStrategy.FULL is non-functional in Drools 10.1.0 — only STORES_ONLY works | undocumented | 9/15 |
 | GE-20260706-0a5c4e | drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures | gotcha | 9/15 |
 | GE-20260706-16293f | Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path | gotcha | 10/15 |
+| GE-20260706-abaddc | Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs | gotcha | 12/15 |

@@ -10,3 +10,4 @@
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
 - GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc
+- GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs

@@ -31,3 +31,4 @@
 - GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
 - GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
+- GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs

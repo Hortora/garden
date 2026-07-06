@@ -1,0 +1,1 @@
+- GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs
