@@ -365,3 +365,4 @@
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
 - GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
+- GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures

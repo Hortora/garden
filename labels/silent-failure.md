@@ -88,3 +88,4 @@
 - GE-20260706-2c7f2b: Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
+- GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures

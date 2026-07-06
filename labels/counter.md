@@ -1,3 +1,4 @@
 - GE-20260420-cb4c7a: Micrometer Gauge named with _total suffix silently absent from Prometheus output
 - GE-20260604-942686: Prometheus counter fires on both paths of a find-or-create method
 - GE-20260605-159a96: H2 MERGE INTO KEY replaces the entire row on match — silently resets counter columns
+- GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures
