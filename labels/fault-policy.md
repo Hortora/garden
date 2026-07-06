@@ -1,1 +1,2 @@
 - GE-20260616-3d2605: ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle
+- GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc

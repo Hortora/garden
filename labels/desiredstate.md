@@ -1,3 +1,5 @@
 - GE-20260616-ed9481: CaseDefinitionRegistry.getCaseMetaModel() throws RuntimeException on not-found — no clean existence query
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260701-94b7ef: Provision/deprovision lifecycle gates must be symmetric — ungated side causes infinite fault cycles
+- GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
+- GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc

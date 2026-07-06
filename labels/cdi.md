@@ -338,3 +338,5 @@
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
+- GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
+- GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc

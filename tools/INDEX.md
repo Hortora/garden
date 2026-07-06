@@ -553,3 +553,4 @@
 | GE-20260706-1fc043 | IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode | technique | 9/15 |
 | GE-20260706-3cdc77 | ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous | gotcha | 12/15 |
 | GE-20260706-146e14 | Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps | gotcha | 11/15 |
+| GE-20260706-915505 | Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs | gotcha | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs

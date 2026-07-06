@@ -1,0 +1,1 @@
+- GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc

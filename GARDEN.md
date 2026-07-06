@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2009
+**Entries merged since last sweep:** 2012
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1691,6 +1691,8 @@
 - GE-20260706-53a1bf [Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence](jvm/GE-20260706-53a1bf.md)
 - GE-20260706-2c6bba [casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation](jvm/GE-20260706-2c6bba.md)
 - GE-20260706-8488d8 [Quarkus Arc @Alternative does not suppress injection point validation of displaced beans](jvm/GE-20260706-8488d8.md)
+- GE-20260706-eb11a1 [Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead](jvm/GE-20260706-eb11a1.md)
+- GE-20260706-2ac0db [FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc](jvm/GE-20260706-2ac0db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2281,6 +2283,7 @@
 - GE-20260706-1fc043 [IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode](tools/GE-20260706-1fc043.md)
 - GE-20260706-3cdc77 [ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous](tools/GE-20260706-3cdc77.md)
 - GE-20260706-146e14 [Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps](tools/GE-20260706-146e14.md)
+- GE-20260706-915505 [Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs](tools/GE-20260706-915505.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

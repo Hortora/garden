@@ -22,3 +22,4 @@
 - GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
+- GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs

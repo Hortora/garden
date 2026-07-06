@@ -8,3 +8,5 @@
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
+- GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
+- GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc

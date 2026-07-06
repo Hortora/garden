@@ -1099,3 +1099,5 @@
 | GE-20260706-53a1bf | Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence | gotcha | 12/15 |
 | GE-20260706-2c6bba | casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation | gotcha | 9/15 |
 | GE-20260706-8488d8 | Quarkus Arc @Alternative does not suppress injection point validation of displaced beans | gotcha | 9/15 |
+| GE-20260706-eb11a1 | Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead | gotcha | 11/15 |
+| GE-20260706-2ac0db | FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc | undocumented | 9/15 |
