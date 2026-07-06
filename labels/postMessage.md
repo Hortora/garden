@@ -1,0 +1,1 @@
+- GE-20260706-f2a9b2: Map objects in postMessage appear to work but silently lose data across real iframe boundaries

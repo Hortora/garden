@@ -58,3 +58,4 @@
 | GE-20260705-557ee5 | REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error | gotcha | 11/15 |
 | GE-20260705-9a8478 | AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout | undocumented | 8/15 |
 | GE-20260706-b2804c | Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null | gotcha | 10/15 |
+| GE-20260706-f2a9b2 | Map objects in postMessage appear to work but silently lose data across real iframe boundaries | gotcha | 12/15 |

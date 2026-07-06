@@ -6,3 +6,4 @@
 - GE-20260607-bcb5d5: validateOptional silently passes null map values — Map.copyOf then NPEs with no field context
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
 - GE-20260609-90b6e4: OptionalDouble has no filter() or mapToObj() — use Optional<Double> for functional chains
+- GE-20260706-f2a9b2: Map objects in postMessage appear to work but silently lose data across real iframe boundaries

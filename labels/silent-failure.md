@@ -82,3 +82,4 @@
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
 - GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
 - GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null
+- GE-20260706-f2a9b2: Map objects in postMessage appear to work but silently lose data across real iframe boundaries
