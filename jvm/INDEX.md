@@ -1102,3 +1102,4 @@
 | GE-20260706-eb11a1 | Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead | gotcha | 11/15 |
 | GE-20260706-2ac0db | FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc | undocumented | 9/15 |
 | GE-20260706-b56877 | Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict | gotcha | 10/15 |
+| GE-20260706-53e221 | Qhorus SNAPSHOT dependency drift — 'private access' errors are stale imports, not access violations | gotcha | 8/15 |

@@ -160,3 +160,4 @@
 - GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
 - GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
+- GE-20260706-53e221: Qhorus SNAPSHOT dependency drift — 'private access' errors are stale imports, not access violations
