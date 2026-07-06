@@ -10,3 +10,4 @@
 - GE-20260629-6928ab: Conditional UPDATE on a row that may not exist — JPQL UPDATE WHERE flag = false returns 0 rows, indistinguishable from 'already claimed'
 - GE-20260629-17b961: OCC claim must be reset before rethrowing SituationConflictException — two-phase claim+save leaves permanent deadlock
 - GE-20260629-991c58: Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities
+- GE-20260706-b2ef26: casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity

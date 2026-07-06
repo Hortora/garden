@@ -1,1 +1,2 @@
 - GE-20260706-270a16: SDD controller must verify compilation before dispatching implementers on SNAPSHOT-dependent projects
+- GE-20260706-b2ef26: casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity

@@ -161,3 +161,4 @@
 - GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
 - GE-20260706-53e221: Qhorus SNAPSHOT dependency drift — 'private access' errors are stale imports, not access violations
+- GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator

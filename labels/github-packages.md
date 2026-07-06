@@ -26,3 +26,4 @@
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
 - GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
+- GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator

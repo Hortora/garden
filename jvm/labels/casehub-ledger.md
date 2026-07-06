@@ -1,1 +1,2 @@
 - GE-20260616-ba2c72: LedgerEntry.compliance() accessible in @ExtendWith(MockitoExtension.class) unit tests — no JPA context needed
+- GE-20260706-b2ef26: casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity

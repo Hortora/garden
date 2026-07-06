@@ -1,0 +1,1 @@
+- GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator
