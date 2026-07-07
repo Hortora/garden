@@ -5,3 +5,4 @@
 - GE-20260530-a14b49: Narayana JTA: registerInterposedSynchronization throws on ROLLBACK_ONLY — 'state 1' is not STATUS_ACTIVE
 - GE-20260607-f0c53e: ARJUNA016053 RollbackException from @ObservesAsync REQUIRES_NEW propagates into Quartz worker transaction — surfaces as misleading 'entity not found' error
 - GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch
+- GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation

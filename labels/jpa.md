@@ -106,3 +106,4 @@
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260707-99de4f: casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry
+- GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation

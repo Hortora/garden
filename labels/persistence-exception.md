@@ -1,1 +1,2 @@
 - GE-20260521-998034: Multi-catch with exception subclass is a compile error — OptimisticLockException | PersistenceException is illegal
+- GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation
