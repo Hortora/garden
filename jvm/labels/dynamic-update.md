@@ -1,0 +1,1 @@
+- GE-20260707-76a6f4: @ObservesAsync concurrent entity updates lose writes without @DynamicUpdate

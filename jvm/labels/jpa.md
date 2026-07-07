@@ -11,3 +11,4 @@
 - GE-20260629-17b961: OCC claim must be reset before rethrowing SituationConflictException — two-phase claim+save leaves permanent deadlock
 - GE-20260629-991c58: Bifurcated claim path — claim-before-save for existing entities to preserve expiry timing, save-before-claim for new entities
 - GE-20260706-b2ef26: casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity
+- GE-20260707-76a6f4: @ObservesAsync concurrent entity updates lose writes without @DynamicUpdate
