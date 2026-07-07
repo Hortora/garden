@@ -6,3 +6,4 @@
 - GE-20260606-668cee: Mockito: stubbing a nested @ConfigMapping sub-interface method NPEs during setUp, not at test execution
 - GE-20260609-4c6577: Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
+- GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation

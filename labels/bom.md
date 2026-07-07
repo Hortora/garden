@@ -3,3 +3,4 @@
 - GE-20260607-3747a1: Maven Central 403 from GitHub Actions resolved by forcing BOM download before GitHub Packages auth
 - GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
 - GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins
+- GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation

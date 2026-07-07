@@ -6,3 +6,4 @@
 - GE-20260630-d5cad9: Quinoa convention template omits quarkus-quinoa extension version — 2.5.2 does not exist
 - GE-20260630-52827b: GitHub Packages 401 blocks Maven fallback to Central for third-party deps
 - GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig
+- GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation
