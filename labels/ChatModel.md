@@ -2,3 +2,4 @@
 - GE-20260525-fd4868: LangChain4j 1.x: ChatLanguageModel renamed to ChatModel; chat() replaced by doChat() as extension point
 - GE-20260617-d18081: LangChain4j 1.x: implementing both ChatModel and StreamingChatModel requires explicit overrides for all four shared default methods
 - GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)
+- GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation

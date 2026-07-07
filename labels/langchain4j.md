@@ -32,3 +32,4 @@
 - GE-20260618-a7a383: LangChain4J 1.14.1 AiMessage and ChatResponse cannot be Mockito-mocked — use real constructors/builders
 - GE-20260618-8526c8: ChatModel.doChat(ChatRequest) is the override point for test doubles — not chat(ChatRequest)
 - GE-20260626-773613: Ollama /api/embed returns 400 when input text exceeds model context length — no truncation, no partial result
+- GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation

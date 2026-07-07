@@ -1124,3 +1124,5 @@
 | GE-20260707-775e2b | Event-loop listener placement — must fire before early returns, not at cycle end | gotcha | 8/15 |
 | GE-20260707-58581e | Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs | technique | 9/15 |
 | GE-20260707-dda82d | Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation | gotcha | 9/15 |
+| GE-20260707-23d0ab | AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation | gotcha | 8/15 |
+| GE-20260707-4ea952 | AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access | technique | 9/15 |

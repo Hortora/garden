@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2046
+**Entries merged since last sweep:** 2048
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1719,6 +1719,8 @@
 - GE-20260707-775e2b [Event-loop listener placement — must fire before early returns, not at cycle end](jvm/GE-20260707-775e2b.md)
 - GE-20260707-58581e [Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs](jvm/GE-20260707-58581e.md)
 - GE-20260707-dda82d [Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation](jvm/GE-20260707-dda82d.md)
+- GE-20260707-23d0ab [AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation](jvm/GE-20260707-23d0ab.md)
+- GE-20260707-4ea952 [AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access](jvm/GE-20260707-4ea952.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

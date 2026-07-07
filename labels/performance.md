@@ -14,3 +14,4 @@
 - GE-20260607-7033a1: Panache: use getEntityManager().createQuery(..., UUID.class) for typed single-column projections instead of full entity load
 - GE-20260616-bc7911: Millisecond resolution is too coarse for sub-millisecond JVM benchmarks — use nanoseconds with µs display
 - GE-20260706-ab4bc8: ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control
+- GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access

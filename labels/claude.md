@@ -4,3 +4,5 @@
 - GE-20260603-fde412: claude-code-sdk AsyncSpec.claudePath(String) sets the claude binary path — undocumented on the builder
 - GE-20260617-f3ea4e: Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00
 - GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/
+- GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation
+- GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access

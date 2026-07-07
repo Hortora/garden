@@ -1,0 +1,1 @@
+- GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access

@@ -1,3 +1,2 @@
-- GE-20260523-1b6250: Build-order 'optionally' annotation does not register a cross-repo dep in the impact-analysis table
 - GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation
 - GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access
