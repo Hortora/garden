@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2059
+**Entries merged since last sweep:** 2060
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2324,6 +2324,7 @@
 - GE-20260707-a48ac6 [GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis](tools/GE-20260707-a48ac6.md)
 - GE-20260707-802a18 [GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis](tools/GE-20260707-802a18.md)
 - GE-20260707-a48ac6 [GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis](tools/GE-20260707-a48ac6.md)
+- GE-20260707-93a328 [ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results](tools/GE-20260707-93a328.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

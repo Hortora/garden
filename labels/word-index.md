@@ -1,0 +1,1 @@
+- GE-20260707-93a328: ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results
