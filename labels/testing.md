@@ -370,3 +370,4 @@
 - GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
 - GE-20260707-5d6a9f: Quarkus test application.properties overrides production exclude-types — not additive
 - GE-20260707-0bdba7: fabric8 CRUD mock server does not support serverSideApply — use createOr fallback
+- GE-20260707-5673c0: Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError

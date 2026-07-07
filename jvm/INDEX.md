@@ -1127,3 +1127,4 @@
 | GE-20260707-23d0ab | AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation | gotcha | 8/15 |
 | GE-20260707-4ea952 | AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access | technique | 9/15 |
 | GE-20260707-fc2b72 | Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation | gotcha | 9/15 |
+| GE-20260707-5673c0 | Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError | gotcha | 9/15 |
