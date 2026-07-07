@@ -50,3 +50,4 @@
 - GE-20260707-5673c0: Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError
 - GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
 - GE-20260707-802a18: GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis
+- GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis

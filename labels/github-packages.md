@@ -31,3 +31,4 @@
 - GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
 - GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
 - GE-20260707-802a18: GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis
+- GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
