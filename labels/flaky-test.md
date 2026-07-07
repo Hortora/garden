@@ -1,2 +1,3 @@
 - GE-20260527-714661: PostgreSQL LISTEN/NOTIFY @QuarkusTest: subscribe to unfiltered stream to confirm channel active before asserting on filtered results
 - GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes
+- GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
