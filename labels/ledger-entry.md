@@ -1,3 +1,4 @@
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: 7 required fields for LedgerEntryRepository.save() — none documented
 - GE-20260511-b6f903: casehub-ledger LedgerEntry subclass: required caller-set fields for LedgerEntryRepository.save() — none documented
 - GE-20260612-17c161: casehub-ledger LedgerProcessor build step blocks em.persist() on LedgerEntry subclasses — use LedgerEntryRepository.save()
+- GE-20260707-99de4f: casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry

@@ -9,3 +9,4 @@
 - GE-20260612-171776: Quarkus @Entity subclass validation needs ValidationPhaseBuildItem — JPA hierarchy not resolved at AdditionalBean phase
 - GE-20260613-3ff4bb: @DefaultBean extending @Alternative silently provides parent-type injection points — removing inheritance causes runtime UnsatisfiedResolutionException
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
+- GE-20260707-99de4f: casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry

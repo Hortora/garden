@@ -1123,3 +1123,4 @@
 | GE-20260707-f3bece | Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type | gotcha | 11/15 |
 | GE-20260707-775e2b | Event-loop listener placement — must fire before early returns, not at cycle end | gotcha | 8/15 |
 | GE-20260707-58581e | Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs | technique | 9/15 |
+| GE-20260707-dda82d | Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation | gotcha | 9/15 |

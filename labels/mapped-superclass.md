@@ -1,3 +1,4 @@
 - GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError
 - GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
+- GE-20260707-99de4f: casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry

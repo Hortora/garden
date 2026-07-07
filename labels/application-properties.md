@@ -2,3 +2,4 @@
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260521-a92d07: Quarkus extensions using application.properties for defaults ARE overridable — microprofile-config.properties is not
 - GE-20260522-ac6b1d: Removing a @ConfigMapping method — grep ALL application.properties including integration-tests/ or dead keys survive
+- GE-20260707-dda82d: Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation

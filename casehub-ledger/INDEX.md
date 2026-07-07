@@ -12,3 +12,4 @@
 | GE-20260618-b940b2 | casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional | gotcha | 9/15 |
 | GE-20260628-6599e6 | casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link | gotcha | 10/15 |
 | GE-20260705-2a5555 | LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure | gotcha | 13/15 |
+| GE-20260707-99de4f | casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry | gotcha | 12/15 |

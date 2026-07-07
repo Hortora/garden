@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2043
+**Entries merged since last sweep:** 2045
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -108,6 +108,7 @@
 - GE-20260618-b940b2 [casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional](casehub-ledger/GE-20260618-b940b2.md)
 - GE-20260628-6599e6 [casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link](casehub-ledger/GE-20260628-6599e6.md)
 - GE-20260705-2a5555 [LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure](casehub-ledger/GE-20260705-2a5555.md)
+- GE-20260707-99de4f [casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry](casehub-ledger/GE-20260707-99de4f.md)
 ### casehub-qhorus/
 - GE-20260414-23982b [check_messages excludes EVENT messages by design — tests expecting EVENTs always get fewer results than sent](casehub-qhorus/GE-20260414-23982b.md)
 - GE-20260501-11ce7f [MessageLedgerEntry.content is null for EVENT entries — LIKE content search silently returns nothing](casehub-qhorus/GE-20260501-11ce7f.md)
@@ -1717,6 +1718,7 @@
 - GE-20260707-f3bece [Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type](jvm/GE-20260707-f3bece.md)
 - GE-20260707-775e2b [Event-loop listener placement — must fire before early returns, not at cycle end](jvm/GE-20260707-775e2b.md)
 - GE-20260707-58581e [Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs](jvm/GE-20260707-58581e.md)
+- GE-20260707-dda82d [Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation](jvm/GE-20260707-dda82d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
