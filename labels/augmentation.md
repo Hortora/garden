@@ -28,3 +28,4 @@
 - GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos
 - GE-20260706-53a1bf: Quarkus augmentation demands datasource for extension-registered JPA entities even when in-memory CDI alternatives handle persistence
 - GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation
+- GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build

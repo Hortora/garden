@@ -651,3 +651,4 @@
 - GE-20260707-dda82d: Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation
 - GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
+- GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build

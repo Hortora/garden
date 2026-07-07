@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2057
+**Entries merged since last sweep:** 2058
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1727,6 +1727,7 @@
 - GE-20260707-50052f [Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation](jvm/GE-20260707-50052f.md)
 - GE-20260707-649b02 [Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation](jvm/GE-20260707-649b02.md)
 - GE-20260707-4e41c3 [Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it](jvm/GE-20260707-4e41c3.md)
+- GE-20260707-9b1b4d [mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build](jvm/GE-20260707-9b1b4d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

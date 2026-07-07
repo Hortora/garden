@@ -17,3 +17,4 @@
 - GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
+- GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build

@@ -1131,3 +1131,4 @@
 | GE-20260707-50052f | Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation | gotcha | 14/15 |
 | GE-20260707-649b02 | Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation | gotcha | 12/15 |
 | GE-20260707-4e41c3 | Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it | gotcha | 10/15 |
+| GE-20260707-9b1b4d | mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build | gotcha | 9/15 |
