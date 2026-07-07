@@ -1,2 +1,3 @@
 - GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations
 - GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation

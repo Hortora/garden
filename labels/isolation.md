@@ -5,3 +5,4 @@
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
 - GE-20260529-8e127e: @Transactional on @QuarkusTest methods commits data — use @TestTransaction for rollback isolation
 - GE-20260607-200500: H2 unique constraint check sees flushed-but-uncommitted rows from other transactions — causes phantom constraint violations
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation

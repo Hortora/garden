@@ -37,3 +37,4 @@
 - GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict
 - GE-20260706-ab4bc8: ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control
 - GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation

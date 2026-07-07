@@ -1,3 +1,4 @@
 - GE-20260513-176ca1: git mv fails with 'No such file or directory' when target directory doesn't exist — partially stages the deletion, data loss on follow-up git rm
 - GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
 - GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
+- GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
