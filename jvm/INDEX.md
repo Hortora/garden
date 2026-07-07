@@ -1133,3 +1133,4 @@
 | GE-20260707-4e41c3 | Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it | gotcha | 10/15 |
 | GE-20260707-9b1b4d | mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build | gotcha | 9/15 |
 | GE-20260707-ee0718 | eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence | gotcha | 8/15 |
+| GE-20260708-d53278 | Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion | technique | 11/15 |

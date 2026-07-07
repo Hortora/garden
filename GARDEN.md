@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2060
+**Entries merged since last sweep:** 2061
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1729,6 +1729,7 @@
 - GE-20260707-4e41c3 [Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it](jvm/GE-20260707-4e41c3.md)
 - GE-20260707-9b1b4d [mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build](jvm/GE-20260707-9b1b4d.md)
 - GE-20260707-ee0718 [eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence](jvm/GE-20260707-ee0718.md)
+- GE-20260708-d53278 [Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion](jvm/GE-20260708-d53278.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
