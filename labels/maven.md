@@ -163,3 +163,5 @@
 - GE-20260706-53e221: Qhorus SNAPSHOT dependency drift — 'private access' errors are stale imports, not access violations
 - GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
+- GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
+- GE-20260707-802a18: GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis

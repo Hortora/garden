@@ -1,0 +1,1 @@
+- GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis

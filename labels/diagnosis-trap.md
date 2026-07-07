@@ -1,0 +1,1 @@
+- GE-20260707-802a18: GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis

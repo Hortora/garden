@@ -555,3 +555,5 @@
 | GE-20260706-146e14 | Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps | gotcha | 11/15 |
 | GE-20260706-915505 | Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs | gotcha | 8/15 |
 | GE-20260706-5a5d0c | GitHub Packages REST API silently truncates org package listing — no pagination indicator | gotcha | 12/15 |
+| GE-20260707-a48ac6 | GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis | gotcha | 11/15 |
+| GE-20260707-802a18 | GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis | gotcha | 10/15 |

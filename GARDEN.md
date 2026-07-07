@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2051
+**Entries merged since last sweep:** 2053
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2316,6 +2316,8 @@
 - GE-20260706-146e14 [Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps](tools/GE-20260706-146e14.md)
 - GE-20260706-915505 [Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs](tools/GE-20260706-915505.md)
 - GE-20260706-5a5d0c [GitHub Packages REST API silently truncates org package listing — no pagination indicator](tools/GE-20260706-5a5d0c.md)
+- GE-20260707-a48ac6 [GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis](tools/GE-20260707-a48ac6.md)
+- GE-20260707-802a18 [GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis](tools/GE-20260707-802a18.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
