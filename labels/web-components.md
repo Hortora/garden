@@ -13,3 +13,4 @@
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
 - GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
+- GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface

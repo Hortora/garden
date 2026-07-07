@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2045
+**Entries merged since last sweep:** 2046
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2390,6 +2390,7 @@
 - GE-20260706-7d5f53 [Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth](web/GE-20260706-7d5f53.md)
 - GE-20260706-7bb555 [JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size](web/GE-20260706-7bb555.md)
 - GE-20260706-dfef71 [CSS Grid column picker inside header grid takes its own column slot — misaligns header and body](web/GE-20260706-dfef71.md)
+- GE-20260707-7fc8b4 [TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface](web/GE-20260707-7fc8b4.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
