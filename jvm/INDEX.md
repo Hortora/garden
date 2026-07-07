@@ -1121,3 +1121,5 @@
 | GE-20260707-5d6a9f | Quarkus test application.properties overrides production exclude-types — not additive | gotcha | 9/15 |
 | GE-20260707-0bdba7 | fabric8 CRUD mock server does not support serverSideApply — use createOr fallback | technique | 9/15 |
 | GE-20260707-f3bece | Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type | gotcha | 11/15 |
+| GE-20260707-775e2b | Event-loop listener placement — must fire before early returns, not at cycle end | gotcha | 8/15 |
+| GE-20260707-58581e | Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs | technique | 9/15 |

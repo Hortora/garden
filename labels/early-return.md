@@ -1,1 +1,2 @@
 - GE-20260514-36f3ef: Early-return overwrite branches must explicitly set every new entity field — the normal path won't run for them
+- GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end

@@ -1,0 +1,1 @@
+- GE-20260707-674928: ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references

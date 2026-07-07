@@ -2,3 +2,4 @@
 - GE-20260604-0bb3e7: casehub-qhorus ChannelService.delete() auto-closes all registered backends via ChannelGateway.cleanupForDeletion()
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
 - GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types
+- GE-20260707-674928: ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references

@@ -1,0 +1,1 @@
+- GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs

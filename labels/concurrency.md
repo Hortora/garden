@@ -36,3 +36,4 @@
 - GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule
 - GE-20260706-b56877: Collections.synchronizedSet() does NOT make compound operations atomic — explicit synchronized block required for add-then-evict
 - GE-20260706-ab4bc8: ConcurrentHashMap.compute() serializes per-key access — inner collection needs no concurrency control
+- GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs

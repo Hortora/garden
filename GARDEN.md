@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2040
+**Entries merged since last sweep:** 2043
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -124,6 +124,7 @@
 - GE-20260616-8a07b1 [ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types](casehub-qhorus/GE-20260616-8a07b1.md)
 - GE-20260623-ef0e7c [QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement](casehub-qhorus/GE-20260623-ef0e7c.md)
 - GE-20260623-92964b [RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState](casehub-qhorus/GE-20260623-92964b.md)
+- GE-20260707-674928 [ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references](casehub-qhorus/GE-20260707-674928.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)
@@ -1714,6 +1715,8 @@
 - GE-20260707-5d6a9f [Quarkus test application.properties overrides production exclude-types — not additive](jvm/GE-20260707-5d6a9f.md)
 - GE-20260707-0bdba7 [fabric8 CRUD mock server does not support serverSideApply — use createOr fallback](jvm/GE-20260707-0bdba7.md)
 - GE-20260707-f3bece [Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type](jvm/GE-20260707-f3bece.md)
+- GE-20260707-775e2b [Event-loop listener placement — must fire before early returns, not at cycle end](jvm/GE-20260707-775e2b.md)
+- GE-20260707-58581e [Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs](jvm/GE-20260707-58581e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

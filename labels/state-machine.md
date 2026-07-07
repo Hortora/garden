@@ -2,3 +2,4 @@
 - GE-20260607-0bfc83: Post-commit DELIVERED→FAILED regression when deviation ledger write is inside connector try-catch
 - GE-20260616-028d43: Mutiny Multi.createFrom().empty() completes synchronously on subscribe — no ACTIVE-state window in tests
 - GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race
+- GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs

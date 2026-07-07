@@ -1,1 +1,2 @@
 - GE-20260617-36c6b5: @Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests
+- GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end

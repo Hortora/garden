@@ -18,3 +18,4 @@
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
 - GE-20260701-94b7ef: Provision/deprovision lifecycle gates must be symmetric — ungated side causes infinite fault cycles
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
+- GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end
