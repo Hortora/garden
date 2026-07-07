@@ -1,0 +1,1 @@
+- GE-20260707-f3bece: Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type

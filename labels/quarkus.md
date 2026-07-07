@@ -647,3 +647,4 @@
 - GE-20260706-be2ef0: SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it
 - GE-20260706-cbd6b2: @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode
 - GE-20260707-5d6a9f: Quarkus test application.properties overrides production exclude-types — not additive
+- GE-20260707-f3bece: Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type

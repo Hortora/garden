@@ -1120,3 +1120,4 @@
 | GE-20260707-160109 | CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy | gotcha | 11/15 |
 | GE-20260707-5d6a9f | Quarkus test application.properties overrides production exclude-types — not additive | gotcha | 9/15 |
 | GE-20260707-0bdba7 | fabric8 CRUD mock server does not support serverSideApply — use createOr fallback | technique | 9/15 |
+| GE-20260707-f3bece | Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type | gotcha | 11/15 |

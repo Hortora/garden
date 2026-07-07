@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2039
+**Entries merged since last sweep:** 2040
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1713,6 +1713,7 @@
 - GE-20260707-160109 [CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy](jvm/GE-20260707-160109.md)
 - GE-20260707-5d6a9f [Quarkus test application.properties overrides production exclude-types — not additive](jvm/GE-20260707-5d6a9f.md)
 - GE-20260707-0bdba7 [fabric8 CRUD mock server does not support serverSideApply — use createOr fallback](jvm/GE-20260707-0bdba7.md)
+- GE-20260707-f3bece [Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type](jvm/GE-20260707-f3bece.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
