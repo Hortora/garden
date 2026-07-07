@@ -5,3 +5,4 @@
 - GE-20260601-cee623: QuarkusTestProfile.getEnabledAlternatives() replaces quarkus.arc.selected-alternatives — does not merge
 - GE-20260607-609772: CasehubEnabledProfile excludes CaseStatusChangedHandler — cases satisfy goals but never reach CaseStatus.COMPLETED
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
+- GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it

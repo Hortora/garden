@@ -7,3 +7,4 @@
 - GE-20260529-bc1eaa: TIMESTAMPTZ not recognised by H2 in MODE=PostgreSQL — use TIMESTAMP WITH TIME ZONE
 - GE-20260530-7426b7: Use a naturally-nullable column to distinguish failure modes instead of making a NOT NULL column nullable
 - GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
+- GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation

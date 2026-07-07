@@ -1129,3 +1129,5 @@
 | GE-20260707-fc2b72 | Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation | gotcha | 9/15 |
 | GE-20260707-5673c0 | Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError | gotcha | 9/15 |
 | GE-20260707-50052f | Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation | gotcha | 14/15 |
+| GE-20260707-649b02 | Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation | gotcha | 12/15 |
+| GE-20260707-4e41c3 | Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it | gotcha | 10/15 |

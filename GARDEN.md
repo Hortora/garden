@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2054
+**Entries merged since last sweep:** 2057
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -575,6 +575,7 @@
 - GE-20260421-ac12d5 [Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny](quarkus/GE-20260421-ac12d5.md)
 - GE-20260628-ea2ac5 [quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state](quarkus/GE-20260628-ea2ac5.md)
 - GE-20260427-cc77a7 [WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast](quarkus/GE-20260427-cc77a7.md)
+- GE-20260429-da95ec [Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus](quarkus/GE-20260429-da95ec.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -1724,6 +1725,8 @@
 - GE-20260707-fc2b72 [Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation](jvm/GE-20260707-fc2b72.md)
 - GE-20260707-5673c0 [Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError](jvm/GE-20260707-5673c0.md)
 - GE-20260707-50052f [Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation](jvm/GE-20260707-50052f.md)
+- GE-20260707-649b02 [Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation](jvm/GE-20260707-649b02.md)
+- GE-20260707-4e41c3 [Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it](jvm/GE-20260707-4e41c3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

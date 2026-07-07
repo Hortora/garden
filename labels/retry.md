@@ -5,3 +5,4 @@
 - GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry
 - GE-20260616-eb98d8: ProvisioningException from ReactiveWorkerProvisioner.provision() marks the binding 'remains eligible' — triggers a ~3s retry loop that starves signal processing
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus

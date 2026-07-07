@@ -1,2 +1,1 @@
-- GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
 - GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it

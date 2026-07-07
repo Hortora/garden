@@ -238,3 +238,4 @@
 | GE-20260421-ac12d5 | Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny | technique | 10/15 |
 | GE-20260628-ea2ac5 | quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state | gotcha | 9/15 |
 | GE-20260427-cc77a7 | WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast | undocumented | 11/15 |
+| GE-20260429-da95ec | Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus | technique | 12/15 |

@@ -39,3 +39,4 @@
 - GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
 - GE-20260629-d6deca: JPA test fixtures break silently when API migrates from direct object pass to store lookup
 - GE-20260630-8f5a87: Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull
+- GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation

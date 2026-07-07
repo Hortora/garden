@@ -24,3 +24,4 @@
 - GE-20260416-41a9cb: PixiJS Graphics loop over full grid size draws invisible off-screen tiles silently
 - GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
+- GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus

@@ -8,3 +8,4 @@
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
 - GE-20260601-b76fba: QuarkusTestResourceLifecycleManager.start() silently ignores build-time fixed properties
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
+- GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it

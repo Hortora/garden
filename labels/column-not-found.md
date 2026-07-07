@@ -1,0 +1,1 @@
+- GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation

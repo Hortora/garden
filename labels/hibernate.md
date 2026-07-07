@@ -80,3 +80,5 @@
 - GE-20260629-16e329: hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260705-7c0e86: Hibernate bytecode enhancement strips @Transient fields from @MappedSuperclass — subclass @Entity gets NoSuchFieldError
+- GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
+- GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it

@@ -44,3 +44,4 @@
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
 - GE-20260616-101fc0: casehub-ledger plain-SQL table ledger_subject_sequence gains tenancy_id column in SNAPSHOT — import-qhorus.sql DDL must be updated manually
 - GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
+- GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
