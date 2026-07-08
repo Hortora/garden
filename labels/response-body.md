@@ -1,0 +1,1 @@
+- GE-20260708-68c961: response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()
