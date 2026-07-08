@@ -1,1 +1,2 @@
 - GE-20260702-74d065: ide_open_workspace for Cross-Repo Pattern Scanning Across 20+ Maven Repos
+- GE-20260708-787b25: IntelliJ MCP ide_move_file silently times out on cross-project moves

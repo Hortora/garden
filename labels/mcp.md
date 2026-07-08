@@ -42,3 +42,4 @@
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
 - GE-20260706-1fc043: IntelliJ MCP ide_read_file with qualifiedName reads decompiled dependency bytecode
 - GE-20260707-93a328: ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results
+- GE-20260708-787b25: IntelliJ MCP ide_move_file silently times out on cross-project moves
