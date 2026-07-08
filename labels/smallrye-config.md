@@ -10,3 +10,4 @@
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
 - GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
 - GE-20260706-be2ef0: SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it
+- GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties

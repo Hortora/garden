@@ -1136,3 +1136,4 @@
 | GE-20260708-d53278 | Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion | technique | 11/15 |
 | GE-20260708-1ed5f9 | DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences | gotcha | 10/15 |
 | GE-20260708-9213d2 | Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication | gotcha | 9/15 |
+| GE-20260708-055d01 | @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties | gotcha | 13/15 |

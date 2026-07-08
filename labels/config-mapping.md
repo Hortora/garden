@@ -7,3 +7,4 @@
 - GE-20260609-4c6577: Separate @ConfigRoot at sub-prefix creates ghost entries in @WithParentName map
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
 - GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation
+- GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties

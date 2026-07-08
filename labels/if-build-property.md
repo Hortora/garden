@@ -1,1 +1,2 @@
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
+- GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties
