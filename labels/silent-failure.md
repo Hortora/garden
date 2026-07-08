@@ -93,3 +93,4 @@
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation
 - GE-20260707-5673c0: Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError
+- GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication

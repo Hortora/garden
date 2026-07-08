@@ -1,2 +1,3 @@
 - GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()
 - GE-20260705-b59012: Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion
+- GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication

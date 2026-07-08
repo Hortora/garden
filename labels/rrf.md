@@ -1,2 +1,3 @@
 - GE-20260609-c1998e: Qdrant QueryFactory.rrf(Rrf) vs fusion(Fusion.RRF) — configurable k only through rrf()
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
+- GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
