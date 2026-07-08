@@ -4,3 +4,4 @@
 - GE-20260701-b84dd2: Quinoa just-build=true still runs npm install and build — use Maven profile gating for optional frontends
 - GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
 - GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig
+- GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
