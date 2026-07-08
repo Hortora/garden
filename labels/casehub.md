@@ -91,3 +91,4 @@
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
 - GE-20260705-9a8478: AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
+- GE-20260708-1ed5f9: DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences

@@ -3,3 +3,4 @@
 - GE-20260603-5a5cc0: ConfigFilePreferenceProvider returns empty Preferences when YAML file is missing from classpath — no error
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
+- GE-20260708-1ed5f9: DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences
