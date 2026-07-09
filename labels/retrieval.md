@@ -7,3 +7,4 @@
 - GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert
 - GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
+- GE-20260709-19a59a: Excluding unscored entries from retrieval precision silently inflates precision for noisier methods

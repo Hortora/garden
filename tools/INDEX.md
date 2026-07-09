@@ -562,3 +562,4 @@
 | GE-20260708-787b25 | IntelliJ MCP ide_move_file silently times out on cross-project moves | gotcha | 9/15 |
 | GE-20260709-1d659b | Stale processes on a port serve wrong content — check Server response header before debugging the app | gotcha | 8/15 |
 | GE-20260709-0dd4e2 | IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml | gotcha | 9/15 |
+| GE-20260709-19a59a | Excluding unscored entries from retrieval precision silently inflates precision for noisier methods | gotcha | 12/15 |

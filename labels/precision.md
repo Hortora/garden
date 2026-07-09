@@ -1,2 +1,3 @@
 - GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values
 - GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps
+- GE-20260709-19a59a: Excluding unscored entries from retrieval precision silently inflates precision for noisier methods
