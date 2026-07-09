@@ -1142,3 +1142,4 @@
 | GE-20260709-063f66 | Qdrant updateCollection cannot add new sparse vectors to existing collections | gotcha | 13/15 |
 | GE-20260709-94d8d3 | Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert | gotcha | 10/15 |
 | GE-20260709-16094e | Mutiny onFailure/onTermination ordering silently loses OTel span errors when reversed | gotcha | 11/15 |
+| GE-20260709-520b0b | Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions | technique | 9/15 |
