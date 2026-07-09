@@ -1,0 +1,1 @@
+- GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections

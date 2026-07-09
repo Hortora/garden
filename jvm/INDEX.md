@@ -1139,3 +1139,5 @@
 | GE-20260708-055d01 | @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties | gotcha | 13/15 |
 | GE-20260708-4b4f09 | devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next | gotcha | 11/15 |
 | GE-20260709-137b8e | Peer Tier 1 API modules sharing utility code — extract a zero-dep Tier 1 utility module | convention | 8/15 |
+| GE-20260709-063f66 | Qdrant updateCollection cannot add new sparse vectors to existing collections | gotcha | 13/15 |
+| GE-20260709-94d8d3 | Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert | gotcha | 10/15 |

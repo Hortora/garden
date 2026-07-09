@@ -17,3 +17,5 @@
 - GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert
 - GE-20260705-b59012: Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
+- GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections
+- GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert

@@ -1,2 +1,3 @@
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
 - GE-20260629-114162: Qdrant Java client BM25 API underdocumented — VectorFactory.vector(Document) and Modifier.Idf
+- GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections

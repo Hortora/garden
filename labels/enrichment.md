@@ -1,0 +1,1 @@
+- GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert
