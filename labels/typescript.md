@@ -14,3 +14,4 @@
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
 - GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface
+- GE-20260709-0dd4e2: IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml

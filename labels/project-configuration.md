@@ -1,0 +1,1 @@
+- GE-20260709-0dd4e2: IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml

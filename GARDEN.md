@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2076
+**Entries merged since last sweep:** 2077
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2338,6 +2338,7 @@
 - GE-20260707-93a328 [ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results](tools/GE-20260707-93a328.md)
 - GE-20260708-787b25 [IntelliJ MCP ide_move_file silently times out on cross-project moves](tools/GE-20260708-787b25.md)
 - GE-20260709-1d659b [Stale processes on a port serve wrong content — check Server response header before debugging the app](tools/GE-20260709-1d659b.md)
+- GE-20260709-0dd4e2 [IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml](tools/GE-20260709-0dd4e2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
