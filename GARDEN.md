@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2078
+**Entries merged since last sweep:** 2079
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2343,6 +2343,7 @@
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
+- java-dsl-design [](/java-dsl-design.md)
 ### python/
 - GE-20260414-10b7c8 [validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path](python/GE-20260414-10b7c8.md)
 - GE-20260414-22e35f [Python Path.cwd() returns git worktree root, not main repo — scripts that use it to discover files find nothing](python/GE-20260414-22e35f.md)
