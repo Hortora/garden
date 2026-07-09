@@ -6,3 +6,4 @@
 - GE-20260602-73b303: Superpowers brainstorming skill hardcodes docs/superpowers/specs/ — CLAUDE.md routing override has no effect without explicit instruction
 - GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
+- GE-20260709-774697: Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision

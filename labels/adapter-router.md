@@ -1,2 +1,1 @@
-- GE-20260701-94b7ef: Provision/deprovision lifecycle gates must be symmetric — ungated side causes infinite fault cycles
 - GE-20260709-774697: Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision
