@@ -5,3 +5,4 @@
 - GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
 - GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them
+- GE-20260709-e611d2: Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod

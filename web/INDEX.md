@@ -68,3 +68,5 @@
 | GE-20260706-dfef71 | CSS Grid column picker inside header grid takes its own column slot — misaligns header and body | gotcha | 9/15 |
 | GE-20260707-7fc8b4 | TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface | gotcha | 10/15 |
 | GE-20260708-68c961 | response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch() | gotcha | 9/15 |
+| GE-20260709-2084c9 | Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent | gotcha | 8/15 |
+| GE-20260709-e611d2 | Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod | gotcha | 9/15 |

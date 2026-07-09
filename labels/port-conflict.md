@@ -1,1 +1,2 @@
 - GE-20260529-72f189: Greenmail fixed ports (ServerSetupTest.SMTP_IMAP) conflict when @QuarkusTestResource and @RegisterExtension both run in the same Maven test execution
+- GE-20260709-1d659b: Stale processes on a port serve wrong content — check Server response header before debugging the app

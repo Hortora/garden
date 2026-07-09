@@ -1,0 +1,1 @@
+- GE-20260709-1d659b: Stale processes on a port serve wrong content — check Server response header before debugging the app

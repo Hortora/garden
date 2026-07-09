@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2069
+**Entries merged since last sweep:** 2072
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2333,6 +2333,7 @@
 - GE-20260707-a48ac6 [GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis](tools/GE-20260707-a48ac6.md)
 - GE-20260707-93a328 [ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results](tools/GE-20260707-93a328.md)
 - GE-20260708-787b25 [IntelliJ MCP ide_move_file silently times out on cross-project moves](tools/GE-20260708-787b25.md)
+- GE-20260709-1d659b [Stale processes on a port serve wrong content — check Server response header before debugging the app](tools/GE-20260709-1d659b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2414,6 +2415,8 @@
 - GE-20260706-dfef71 [CSS Grid column picker inside header grid takes its own column slot — misaligns header and body](web/GE-20260706-dfef71.md)
 - GE-20260707-7fc8b4 [TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface](web/GE-20260707-7fc8b4.md)
 - GE-20260708-68c961 [response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()](web/GE-20260708-68c961.md)
+- GE-20260709-2084c9 [Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent](web/GE-20260709-2084c9.md)
+- GE-20260709-e611d2 [Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod](web/GE-20260709-e611d2.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

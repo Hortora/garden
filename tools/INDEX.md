@@ -560,3 +560,4 @@
 | GE-20260707-a48ac6 | GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis | gotcha | 11/15 |
 | GE-20260707-93a328 | ide_search_text Uses Word Index — Multi-Word Queries Silently Return Zero Results | gotcha | 8/15 |
 | GE-20260708-787b25 | IntelliJ MCP ide_move_file silently times out on cross-project moves | gotcha | 9/15 |
+| GE-20260709-1d659b | Stale processes on a port serve wrong content — check Server response header before debugging the app | gotcha | 8/15 |

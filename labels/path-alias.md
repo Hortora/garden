@@ -1,0 +1,1 @@
+- GE-20260709-e611d2: Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod
