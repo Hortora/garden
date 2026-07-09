@@ -1,2 +1,1 @@
-- GE-0034: Use a sparse pair log to avoid O(N²) re-comparison across a growing corpus
 - GE-20260709-137b8e: Peer Tier 1 API modules sharing utility code — extract a zero-dep Tier 1 utility module
