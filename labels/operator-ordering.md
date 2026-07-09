@@ -1,0 +1,1 @@
+- GE-20260709-16094e: Mutiny onFailure/onTermination ordering silently loses OTel span errors when reversed

@@ -70,3 +70,4 @@
 - GE-20260625-85a3aa: Uni.combine().all().unis(emptyList) throws IllegalArgumentException — blocking equivalent silently returns empty
 - GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
 - GE-20260707-dda82d: Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation
+- GE-20260709-16094e: Mutiny onFailure/onTermination ordering silently loses OTel span errors when reversed
