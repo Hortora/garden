@@ -1,0 +1,1 @@
+- GE-20260710-ddf617: IntelliJ MCP ide_search_text misses strings split across Java string concatenation
