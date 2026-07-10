@@ -1,1 +1,2 @@
 - GE-20260604-8b199c: Hardcoded MCP tool-count assertion breaks silently when embedded library adds new tools
+- GE-20260711-cbf9fe: IntelliJ MCP edit tools time out while navigation tools remain responsive

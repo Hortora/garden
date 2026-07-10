@@ -1,0 +1,1 @@
+- GE-20260710-86e8d3: H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()
