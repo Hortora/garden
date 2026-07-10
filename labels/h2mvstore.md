@@ -1,2 +1,1 @@
-- GE-20260609-bc8704: H2 does not support partial (filtered) UNIQUE indexes even in MODE=PostgreSQL
 - GE-20260710-86e8d3: H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()

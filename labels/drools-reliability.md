@@ -3,3 +3,4 @@
 - GE-20260706-d02c71: ReliableKieSession.dispose() removes persisted H2MVStore/Infinispan data — not just in-memory state
 - GE-20260706-27365d: drools-reliability PersistenceStrategy.FULL is non-functional in Drools 10.1.0 — only STORES_ONLY works
 - GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures
+- GE-20260710-86e8d3: H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()

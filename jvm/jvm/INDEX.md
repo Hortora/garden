@@ -49,3 +49,4 @@
 | GE-20260706-b2ef26 | casehub-ledger SNAPSHOT split: LedgerEntry → api @MappedSuperclass + JpaLedgerEntry runtime @Entity | gotcha | 14/15 |
 | GE-20260706-d3909b | Local SNAPSHOT masks unpublished upstream changes — CI fails with 'cannot find symbol' | gotcha | 10/15 |
 | GE-20260707-76a6f4 | @ObservesAsync concurrent entity updates lose writes without @DynamicUpdate | gotcha | 12/15 |
+| GE-20260710-86e8d3 | H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close() | gotcha | 9/15 |

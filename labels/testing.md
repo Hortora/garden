@@ -374,3 +374,4 @@
 - GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build
 - GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
 - GE-20260708-68c961: response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()
+- GE-20260710-86e8d3: H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()
