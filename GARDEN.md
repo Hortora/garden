@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2088
+**Entries merged since last sweep:** 2091
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2433,6 +2433,9 @@
 - GE-20260710-fe9f97 [globalThis.fetch override in SPA page components clobbers mock routing on navigation](web/GE-20260710-fe9f97.md)
 - GE-20260710-e663d5 [as never over as any for narrow TypeScript type assertions — satisfies constraint without widening](web/GE-20260710-e663d5.md)
 - GE-20260710-8f380d [TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type](web/GE-20260710-8f380d.md)
+- GE-20260710-335228 [Vite/Vitest object-format aliases silently miss regex-dependent deep imports](web/GE-20260710-335228.md)
+- GE-20260710-77483b [Two-cache-field pattern prevents precedence violation in multi-source Lit mixins](web/GE-20260710-77483b.md)
+- GE-20260710-e58db6 [TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch](web/GE-20260710-e58db6.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

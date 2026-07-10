@@ -74,3 +74,6 @@
 | GE-20260710-fe9f97 | globalThis.fetch override in SPA page components clobbers mock routing on navigation | gotcha | 9/15 |
 | GE-20260710-e663d5 | as never over as any for narrow TypeScript type assertions — satisfies constraint without widening | technique | 8/15 |
 | GE-20260710-8f380d | TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type | undocumented | 9/15 |
+| GE-20260710-335228 | Vite/Vitest object-format aliases silently miss regex-dependent deep imports | gotcha | 10/15 |
+| GE-20260710-77483b | Two-cache-field pattern prevents precedence violation in multi-source Lit mixins | technique | 10/15 |
+| GE-20260710-e58db6 | TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch | undocumented | 10/15 |

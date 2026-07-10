@@ -1,0 +1,1 @@
+- GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports

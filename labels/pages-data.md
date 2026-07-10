@@ -1,0 +1,2 @@
+- GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports
+- GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch

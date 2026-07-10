@@ -1,0 +1,1 @@
+- GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch

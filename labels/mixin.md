@@ -1,1 +1,2 @@
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
+- GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins

@@ -4,3 +4,4 @@
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
 - GE-20260710-136291: Lit css tagged template rejects raw strings — must use css`` result not backtick strings
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
+- GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
