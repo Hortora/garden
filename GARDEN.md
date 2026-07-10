@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2086
+**Entries merged since last sweep:** 2087
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2343,6 +2343,7 @@
 - GE-20260709-1d659b [Stale processes on a port serve wrong content — check Server response header before debugging the app](tools/GE-20260709-1d659b.md)
 - GE-20260709-0dd4e2 [IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml](tools/GE-20260709-0dd4e2.md)
 - GE-20260709-19a59a [Excluding unscored entries from retrieval precision silently inflates precision for noisier methods](tools/GE-20260709-19a59a.md)
+- GE-20260710-0b8c2a [ide_edit_member fails on top-level record declarations without class parameter](tools/GE-20260710-0b8c2a.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

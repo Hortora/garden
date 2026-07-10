@@ -24,3 +24,4 @@
 - GE-20260705-e15dde: IntelliJ ide_refactor_rename corrupts @Inject annotations when field declarations have whitespace alignment padding
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
 - GE-20260708-787b25: IntelliJ MCP ide_move_file silently times out on cross-project moves
+- GE-20260710-0b8c2a: ide_edit_member fails on top-level record declarations without class parameter

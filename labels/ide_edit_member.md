@@ -1,0 +1,1 @@
+- GE-20260710-0b8c2a: ide_edit_member fails on top-level record declarations without class parameter
