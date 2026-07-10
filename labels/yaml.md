@@ -15,3 +15,4 @@
 - GE-20260613-25d1ce: casehub-engine YAML Binding schema has no 'worker:' field — capability is a direct String property on Binding, not nested
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
 - GE-20260623-3ecb0f: AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation
+- GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name

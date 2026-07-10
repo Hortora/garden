@@ -1145,3 +1145,4 @@
 | GE-20260709-520b0b | Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions | technique | 9/15 |
 | GE-20260709-774697 | Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision | gotcha | 10/15 |
 | GE-20260710-86e8d3 | H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close() | gotcha | 9/15 |
+| GE-20260710-31b535 | jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name | gotcha | 12/15 |

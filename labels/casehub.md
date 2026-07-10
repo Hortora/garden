@@ -92,3 +92,4 @@
 - GE-20260705-9a8478: AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
 - GE-20260708-1ed5f9: DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences
+- GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
