@@ -2,3 +2,4 @@
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
 - GE-20260707-0bdba7: fabric8 CRUD mock server does not support serverSideApply — use createOr fallback
 - GE-20260708-68c961: response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()
+- GE-20260710-fe9f97: globalThis.fetch override in SPA page components clobbers mock routing on navigation

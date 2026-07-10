@@ -70,3 +70,7 @@
 | GE-20260708-68c961 | response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch() | gotcha | 9/15 |
 | GE-20260709-2084c9 | Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent | gotcha | 8/15 |
 | GE-20260709-e611d2 | Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod | gotcha | 9/15 |
+| GE-20260710-136291 | Lit css tagged template rejects raw strings — must use css`` result not backtick strings | gotcha | 9/15 |
+| GE-20260710-fe9f97 | globalThis.fetch override in SPA page components clobbers mock routing on navigation | gotcha | 9/15 |
+| GE-20260710-e663d5 | as never over as any for narrow TypeScript type assertions — satisfies constraint without widening | technique | 8/15 |
+| GE-20260710-8f380d | TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type | undocumented | 9/15 |

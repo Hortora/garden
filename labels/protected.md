@@ -1,2 +1,3 @@
 - GE-20260609-1134ae: Protected hook methods for unit-testing Panache Active Record calls without @QuarkusTest
 - GE-20260613-ba9e19: Generic bound on protected nested class causes cross-package compilation failure — error misdirects toward field access
+- GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type

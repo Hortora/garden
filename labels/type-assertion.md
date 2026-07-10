@@ -1,1 +1,2 @@
 - GE-20260615-8cd96f: TypeScript generic function re-export cannot widen constraint via declaration merging — use type assertion
+- GE-20260710-e663d5: as never over as any for narrow TypeScript type assertions — satisfies constraint without widening

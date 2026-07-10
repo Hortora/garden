@@ -1,1 +1,2 @@
 - GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface
+- GE-20260710-e663d5: as never over as any for narrow TypeScript type assertions — satisfies constraint without widening

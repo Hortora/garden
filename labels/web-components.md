@@ -14,3 +14,6 @@
 - GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
 - GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface
+- GE-20260710-136291: Lit css tagged template rejects raw strings — must use css`` result not backtick strings
+- GE-20260710-fe9f97: globalThis.fetch override in SPA page components clobbers mock routing on navigation
+- GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type

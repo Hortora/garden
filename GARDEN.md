@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2081
+**Entries merged since last sweep:** 2085
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2426,6 +2426,10 @@
 - GE-20260708-68c961 [response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()](web/GE-20260708-68c961.md)
 - GE-20260709-2084c9 [Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent](web/GE-20260709-2084c9.md)
 - GE-20260709-e611d2 [Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod](web/GE-20260709-e611d2.md)
+- GE-20260710-136291 [Lit css tagged template rejects raw strings — must use css`` result not backtick strings](web/GE-20260710-136291.md)
+- GE-20260710-fe9f97 [globalThis.fetch override in SPA page components clobbers mock routing on navigation](web/GE-20260710-fe9f97.md)
+- GE-20260710-e663d5 [as never over as any for narrow TypeScript type assertions — satisfies constraint without widening](web/GE-20260710-e663d5.md)
+- GE-20260710-8f380d [TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type](web/GE-20260710-8f380d.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

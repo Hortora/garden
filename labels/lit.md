@@ -2,3 +2,5 @@
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
 - GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
+- GE-20260710-136291: Lit css tagged template rejects raw strings — must use css`` result not backtick strings
+- GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type

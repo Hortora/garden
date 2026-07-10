@@ -15,3 +15,5 @@
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
 - GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface
 - GE-20260709-0dd4e2: IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml
+- GE-20260710-e663d5: as never over as any for narrow TypeScript type assertions — satisfies constraint without widening
+- GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
