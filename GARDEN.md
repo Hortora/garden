@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2096
+**Entries merged since last sweep:** 2097
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2441,6 +2441,7 @@
 - GE-20260710-335228 [Vite/Vitest object-format aliases silently miss regex-dependent deep imports](web/GE-20260710-335228.md)
 - GE-20260710-77483b [Two-cache-field pattern prevents precedence violation in multi-source Lit mixins](web/GE-20260710-77483b.md)
 - GE-20260710-e58db6 [TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch](web/GE-20260710-e58db6.md)
+- GE-20260711-5170ee [pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers](web/GE-20260711-5170ee.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

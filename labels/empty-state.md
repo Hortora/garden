@@ -1,0 +1,1 @@
+- GE-20260711-5170ee: pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers
