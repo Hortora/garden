@@ -655,3 +655,4 @@
 - GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
 - GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties
 - GE-20260709-520b0b: Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions
+- GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience

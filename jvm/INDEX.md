@@ -1147,3 +1147,4 @@
 | GE-20260710-86e8d3 | H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close() | gotcha | 9/15 |
 | GE-20260710-31b535 | jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name | gotcha | 12/15 |
 | GE-20260711-bf1d9a | Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+ | gotcha | 10/15 |
+| GE-20260711-265dfc | Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience | technique | 10/15 |

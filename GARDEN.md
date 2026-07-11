@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2094
+**Entries merged since last sweep:** 2095
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1745,6 +1745,7 @@
 - GE-20260710-86e8d3 [H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()](jvm/GE-20260710-86e8d3.md)
 - GE-20260710-31b535 [jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name](jvm/GE-20260710-31b535.md)
 - GE-20260711-bf1d9a [Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+](jvm/GE-20260711-bf1d9a.md)
+- GE-20260711-265dfc [Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience](jvm/GE-20260711-265dfc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
