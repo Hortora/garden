@@ -40,3 +40,4 @@
 - GE-20260709-0dd4e2: IntelliJ shows only External Libraries for TypeScript project opened via MCP — missing .iml/modules.xml
 - GE-20260710-0b8c2a: ide_edit_member fails on top-level record declarations without class parameter
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
+- GE-20260711-190f40: ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found
