@@ -11,3 +11,4 @@
 - GE-20260627-fed7cf: ide_find_class misses protobuf-generated nested enums in large JAR classes — use ide_find_symbol as fallback
 - GE-20260706-3cdc77: ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous
 - GE-20260710-ddf617: IntelliJ MCP ide_search_text misses strings split across Java string concatenation
+- GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records

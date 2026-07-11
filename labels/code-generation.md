@@ -4,3 +4,4 @@
 - GE-20260417-29c2e3: File-naming trick for top-level inline templates: name file after output class, template class differently
 - GE-20260417-a1f3e9: Maven plugin keepTemplate=true with inline=false writes template class to generated sources
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
+- GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
