@@ -565,3 +565,4 @@
 | GE-20260709-19a59a | Excluding unscored entries from retrieval precision silently inflates precision for noisier methods | gotcha | 12/15 |
 | GE-20260710-0b8c2a | ide_edit_member fails on top-level record declarations without class parameter | gotcha | 9/15 |
 | GE-20260710-0b8c2a | ide_edit_member with member=ClassName destroys file content — records and regular classes | gotcha | 9/15 |
+| GE-20260711-40e102 | Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites | technique | 9/15 |

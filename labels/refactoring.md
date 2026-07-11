@@ -26,3 +26,4 @@
 - GE-20260708-787b25: IntelliJ MCP ide_move_file silently times out on cross-project moves
 - GE-20260710-0b8c2a: ide_edit_member fails on top-level record declarations without class parameter
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
+- GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites

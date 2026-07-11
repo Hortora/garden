@@ -10,3 +10,4 @@
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
+- GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+

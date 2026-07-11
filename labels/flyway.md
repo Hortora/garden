@@ -46,3 +46,4 @@
 - GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
 - GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
 - GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
+- GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+

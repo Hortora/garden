@@ -21,3 +21,4 @@
 - GE-20260617-6d8baf: QuarkMind: PluginOutcomeAuditor (per-tick C3) and GameOutcomeRecorder (per-game C5) are distinct ledger paths — confusing them corrupts architecture docs
 - GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
+- GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+

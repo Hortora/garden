@@ -1,1 +1,2 @@
 - GE-20260501-0a33bf: Use a Python regex script to safely insert XML blocks into pom.xml files when the target section may not exist
+- GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites

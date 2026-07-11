@@ -21,3 +21,4 @@
 - GE-20260623-92964b: RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
+- GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
