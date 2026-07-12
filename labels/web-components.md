@@ -17,3 +17,4 @@
 - GE-20260710-136291: Lit css tagged template rejects raw strings — must use css`` result not backtick strings
 - GE-20260710-fe9f97: globalThis.fetch override in SPA page components clobbers mock routing on navigation
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
+- GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element

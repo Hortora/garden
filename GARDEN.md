@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2098
+**Entries merged since last sweep:** 2101
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2443,6 +2443,9 @@
 - GE-20260710-77483b [Two-cache-field pattern prevents precedence violation in multi-source Lit mixins](web/GE-20260710-77483b.md)
 - GE-20260710-e58db6 [TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch](web/GE-20260710-e58db6.md)
 - GE-20260711-5170ee [pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers](web/GE-20260711-5170ee.md)
+- GE-20260712-0b3483 [Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path](web/GE-20260712-0b3483.md)
+- GE-20260712-ab4f0a [esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds](web/GE-20260712-ab4f0a.md)
+- GE-20260712-f5b872 [CSS custom properties cascade through shadow DOM but theme class + style must be on the host element](web/GE-20260712-f5b872.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

@@ -1,2 +1,1 @@
-- GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element

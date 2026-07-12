@@ -1,3 +1,4 @@
 - GE-20260524-d75218: CDI @Alternative bypass for quarkus:build: non-@Alternative subclass in app module
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
 - GE-20260531-70e07c: Quarkus test-profile arc.exclude-types does not apply to production augmentation — mvn test passes, mvn install fails
+- GE-20260712-ab4f0a: esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds

@@ -78,3 +78,6 @@
 | GE-20260710-77483b | Two-cache-field pattern prevents precedence violation in multi-source Lit mixins | technique | 10/15 |
 | GE-20260710-e58db6 | TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch | undocumented | 10/15 |
 | GE-20260711-5170ee | pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers | gotcha | 8/15 |
+| GE-20260712-0b3483 | Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path | gotcha | 9/15 |
+| GE-20260712-ab4f0a | esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds | gotcha | 8/15 |
+| GE-20260712-f5b872 | CSS custom properties cascade through shadow DOM but theme class + style must be on the host element | technique | 8/15 |

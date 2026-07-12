@@ -1,3 +1,2 @@
-- GE-20260701-30e901: IntelliJ ide_move_file in workspace mode places files in wrong Maven module — nearest package match, not intended module
 - GE-20260712-0b3483: Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path
 - GE-20260712-ab4f0a: esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds
