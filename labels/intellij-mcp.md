@@ -12,3 +12,4 @@
 - GE-20260706-3cdc77: ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous
 - GE-20260710-ddf617: IntelliJ MCP ide_search_text misses strings split across Java string concatenation
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
+- GE-20260712-1a696a: IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content

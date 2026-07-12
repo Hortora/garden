@@ -567,3 +567,4 @@
 | GE-20260710-0b8c2a | ide_edit_member with member=ClassName destroys file content — records and regular classes | gotcha | 9/15 |
 | GE-20260711-40e102 | Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites | technique | 9/15 |
 | GE-20260711-190f40 | ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found | gotcha | 9/15 |
+| GE-20260712-1a696a | IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content | gotcha | 11/15 |

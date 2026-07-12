@@ -95,3 +95,4 @@
 - GE-20260707-5673c0: Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
 - GE-20260709-2084c9: Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent
+- GE-20260712-1a696a: IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content
