@@ -1,0 +1,1 @@
+- GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes

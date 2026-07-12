@@ -27,3 +27,4 @@
 - GE-20260710-0b8c2a: ide_edit_member fails on top-level record declarations without class parameter
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
 - GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites
+- GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes

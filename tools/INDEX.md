@@ -570,3 +570,4 @@
 | GE-20260712-1a696a | IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content | gotcha | 11/15 |
 | GE-20260712-f68752 | IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones | gotcha | 8/15 |
 | GE-20260712-b28cb0 | fabric8 CRUD mock server delivers Watch events on resource create/update/delete | technique | 8/15 |
+| GE-20260712-44faae | IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes | gotcha | 11/15 |
