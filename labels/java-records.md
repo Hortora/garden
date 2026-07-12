@@ -12,3 +12,4 @@
 - GE-20260630-73d3c2: Java records with float[][] fields leak mutable state via auto-generated accessors
 - GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
+- GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments

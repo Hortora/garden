@@ -28,3 +28,4 @@
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
 - GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites
 - GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes
+- GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments

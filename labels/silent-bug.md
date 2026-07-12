@@ -1,1 +1,2 @@
 - GE-20260601-6170a6: Java record: inserting a field in the middle shifts all subsequent positional arguments — callers compile but pass wrong values
+- GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments

@@ -4,3 +4,4 @@
 - GE-20260612-56fb3d: Parameterized discriminated union tree for staged type resolution
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
+- GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments
