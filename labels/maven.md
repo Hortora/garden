@@ -167,3 +167,4 @@
 - GE-20260707-802a18: GitHub Packages SNAPSHOT version updated_at is creation date, not last upload — misleads artifact staleness diagnosis
 - GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
 - GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build
+- GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven

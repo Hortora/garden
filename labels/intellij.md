@@ -42,3 +42,4 @@
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
 - GE-20260711-190f40: ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
+- GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
