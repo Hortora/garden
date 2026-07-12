@@ -573,3 +573,4 @@
 | GE-20260712-44faae | IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes | gotcha | 11/15 |
 | GE-20260712-1a82c4 | ide_edit_member with member=className silently truncates Java interface/class files | gotcha | 13/15 |
 | GE-20260712-4a8a3c | Java record field reorder with all-String types compiles silently with wrong positional arguments | gotcha | 12/15 |
+| GE-20260712-70d60c | JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor | gotcha | 9/15 |

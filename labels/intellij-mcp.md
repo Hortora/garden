@@ -15,3 +15,4 @@
 - GE-20260712-1a696a: IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content
 - GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes
 - GE-20260712-1a82c4: ide_edit_member with member=className silently truncates Java interface/class files
+- GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
