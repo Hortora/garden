@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2102
+**Entries merged since last sweep:** 2104
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2352,6 +2352,8 @@
 - GE-20260711-40e102 [Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites](tools/GE-20260711-40e102.md)
 - GE-20260711-190f40 [ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found](tools/GE-20260711-190f40.md)
 - GE-20260712-1a696a [IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content](tools/GE-20260712-1a696a.md)
+- GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
+- GE-20260712-b28cb0 [fabric8 CRUD mock server delivers Watch events on resource create/update/delete](tools/GE-20260712-b28cb0.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

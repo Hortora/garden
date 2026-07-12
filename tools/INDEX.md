@@ -568,3 +568,5 @@
 | GE-20260711-40e102 | Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites | technique | 9/15 |
 | GE-20260711-190f40 | ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found | gotcha | 9/15 |
 | GE-20260712-1a696a | IntelliJ Index MCP ide_replace_text_in_file duplicates entire file content | gotcha | 11/15 |
+| GE-20260712-f68752 | IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones | gotcha | 8/15 |
+| GE-20260712-b28cb0 | fabric8 CRUD mock server delivers Watch events on resource create/update/delete | technique | 8/15 |

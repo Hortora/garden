@@ -1,1 +1,2 @@
 - GE-20260707-0bdba7: fabric8 CRUD mock server does not support serverSideApply — use createOr fallback
+- GE-20260712-b28cb0: fabric8 CRUD mock server delivers Watch events on resource create/update/delete

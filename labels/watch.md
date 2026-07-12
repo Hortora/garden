@@ -1,0 +1,1 @@
+- GE-20260712-b28cb0: fabric8 CRUD mock server delivers Watch events on resource create/update/delete
