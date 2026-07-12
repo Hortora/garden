@@ -81,3 +81,4 @@
 | GE-20260712-0b3483 | Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path | gotcha | 9/15 |
 | GE-20260712-ab4f0a | esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds | gotcha | 8/15 |
 | GE-20260712-f5b872 | CSS custom properties cascade through shadow DOM but theme class + style must be on the host element | technique | 8/15 |
+| GE-20260712-7250c5 | DataSourceMixin extraction pipeline destroys non-tabular domain responses | gotcha | 11/15 |
