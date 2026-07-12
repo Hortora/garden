@@ -12,3 +12,4 @@
 - GE-20260605-9636fd: throw inside try-catch(SameException) is silently swallowed — the thrown exception is caught by its own catch
 - GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
+- GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design

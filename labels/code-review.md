@@ -3,3 +3,4 @@
 - GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push
 - GE-20260615-9560b9: Mandatory scope scan after rebase — git diff --name-only catches unrelated files before push
 - GE-20260615-9560b9: Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals
+- GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design

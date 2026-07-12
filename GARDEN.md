@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2110
+**Entries merged since last sweep:** 2111
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2359,6 +2359,7 @@
 - GE-20260712-4a8a3c [Java record field reorder with all-String types compiles silently with wrong positional arguments](tools/GE-20260712-4a8a3c.md)
 - GE-20260712-70d60c [JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor](tools/GE-20260712-70d60c.md)
 - GE-20260712-cc5b6c [ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals](tools/GE-20260712-cc5b6c.md)
+- GE-20260713-8ea659 [Cross-repo commit silently regresses prior session's deliberate exception handling design](tools/GE-20260713-8ea659.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

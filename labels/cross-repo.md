@@ -7,3 +7,4 @@
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
 - GE-20260712-cc5b6c: ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals
+- GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design

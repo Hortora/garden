@@ -575,3 +575,4 @@
 | GE-20260712-4a8a3c | Java record field reorder with all-String types compiles silently with wrong positional arguments | gotcha | 12/15 |
 | GE-20260712-70d60c | JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor | gotcha | 9/15 |
 | GE-20260712-cc5b6c | ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals | convention | 8/15 |
+| GE-20260713-8ea659 | Cross-repo commit silently regresses prior session's deliberate exception handling design | gotcha | 11/15 |

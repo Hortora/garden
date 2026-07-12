@@ -1,1 +1,2 @@
 - GE-20260501-66625a: git commit bundles other sessions' staged files — git add <file> does not limit what gets committed
+- GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design
