@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2105
+**Entries merged since last sweep:** 2106
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2355,6 +2355,7 @@
 - GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
 - GE-20260712-b28cb0 [fabric8 CRUD mock server delivers Watch events on resource create/update/delete](tools/GE-20260712-b28cb0.md)
 - GE-20260712-44faae [IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes](tools/GE-20260712-44faae.md)
+- GE-20260712-1a82c4 [ide_edit_member with member=className silently truncates Java interface/class files](tools/GE-20260712-1a82c4.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

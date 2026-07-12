@@ -1,0 +1,1 @@
+- GE-20260712-1a82c4: ide_edit_member with member=className silently truncates Java interface/class files
