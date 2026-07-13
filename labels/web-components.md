@@ -19,3 +19,4 @@
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
 - GE-20260713-777d8a: Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries
+- GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests

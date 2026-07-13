@@ -1,0 +1,1 @@
+- GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
