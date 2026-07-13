@@ -1,0 +1,1 @@
+- GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives

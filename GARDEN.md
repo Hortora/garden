@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2114
+**Entries merged since last sweep:** 2115
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2459,6 +2459,7 @@
 - GE-20260712-ab4f0a [esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds](web/GE-20260712-ab4f0a.md)
 - GE-20260712-f5b872 [CSS custom properties cascade through shadow DOM but theme class + style must be on the host element](web/GE-20260712-f5b872.md)
 - GE-20260712-7250c5 [DataSourceMixin extraction pipeline destroys non-tabular domain responses](web/GE-20260712-7250c5.md)
+- GE-20260713-b35869 [PointerEvent timeStamp near-zero in jsdom causes velocity false-positives](web/GE-20260713-b35869.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
