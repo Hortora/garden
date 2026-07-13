@@ -1152,3 +1152,4 @@
 | GE-20260713-b879b2 | H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields | gotcha | 12/15 |
 | GE-20260713-14473f | Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding | gotcha | 10/15 |
 | GE-20260713-14473f | Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding | gotcha | 10/15 |
+| GE-20260713-26f881 | MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results | gotcha | 11/15 |

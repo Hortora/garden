@@ -1,0 +1,1 @@
+- GE-20260713-26f881: MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results
