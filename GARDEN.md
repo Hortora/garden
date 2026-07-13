@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2117
+**Entries merged since last sweep:** 2118
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1749,6 +1749,7 @@
 - GE-20260711-265dfc [Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience](jvm/GE-20260711-265dfc.md)
 - GE-20260711-604219 [JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records](jvm/GE-20260711-604219.md)
 - GE-20260713-b879b2 [H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields](jvm/GE-20260713-b879b2.md)
+- GE-20260713-14473f [Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding](jvm/GE-20260713-14473f.md)
 - GE-20260713-14473f [Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding](jvm/GE-20260713-14473f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
