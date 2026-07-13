@@ -25,3 +25,4 @@
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
 - GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
+- GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double

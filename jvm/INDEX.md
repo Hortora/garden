@@ -1153,3 +1153,4 @@
 | GE-20260713-14473f | Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding | gotcha | 10/15 |
 | GE-20260713-14473f | Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding | gotcha | 10/15 |
 | GE-20260713-26f881 | MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results | gotcha | 11/15 |
+| GE-20260713-3c5fad | REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double | gotcha | 10/15 |

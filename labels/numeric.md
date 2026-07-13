@@ -1,0 +1,1 @@
+- GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double

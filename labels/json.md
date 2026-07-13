@@ -19,3 +19,4 @@
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
 - GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
+- GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
