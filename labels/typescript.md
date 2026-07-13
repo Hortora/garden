@@ -18,3 +18,4 @@
 - GE-20260710-e663d5: as never over as any for narrow TypeScript type assertions — satisfies constraint without widening
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
 - GE-20260711-190f40: ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found
+- GE-20260713-69afbe: IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript

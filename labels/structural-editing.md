@@ -1,0 +1,1 @@
+- GE-20260713-69afbe: IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript

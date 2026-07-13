@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2115
+**Entries merged since last sweep:** 2116
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -192,6 +192,7 @@
 - GE-20260629-0a3cb4 [IntelliJ Index MCP plugin does not index TypeScript projects — all search and reference tools return empty](intellij-platform/GE-20260629-0a3cb4.md)
 - GE-20260630-91be72 [IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated](intellij-platform/GE-20260630-91be72.md)
 - GE-20260710-ddf617 [IntelliJ MCP ide_search_text misses strings split across Java string concatenation](intellij-platform/GE-20260710-ddf617.md)
+- GE-20260713-69afbe [IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript](intellij-platform/GE-20260713-69afbe.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
