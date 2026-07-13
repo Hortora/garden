@@ -1,1 +1,2 @@
 - GE-20260420-39b211: SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary
+- GE-20260713-14473f: Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding
