@@ -52,3 +52,4 @@
 - GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks
 - GE-20260713-2d1cad: ide_replace_member duplicates method signature when content includes annotations
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
+- GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
