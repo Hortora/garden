@@ -84,3 +84,4 @@
 | GE-20260712-7250c5 | DataSourceMixin extraction pipeline destroys non-tabular domain responses | gotcha | 11/15 |
 | GE-20260713-b35869 | PointerEvent timeStamp near-zero in jsdom causes velocity false-positives | gotcha | 11/15 |
 | GE-20260713-9e6bf5 | jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests | gotcha | 11/15 |
+| GE-20260713-777d8a | Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries | gotcha | 8/15 |

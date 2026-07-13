@@ -1,0 +1,1 @@
+- GE-20260713-777d8a: Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries
