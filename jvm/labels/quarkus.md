@@ -17,3 +17,4 @@
 - GE-20260629-7d2272: Quarkus EntityManager returns stale cached entities with TxType.SUPPORTS and no ambient transaction
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
 - GE-20260701-82f303: CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider
+- GE-20260713-cecee5: @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver
