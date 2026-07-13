@@ -580,3 +580,4 @@
 | GE-20260713-905e2e | IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven | gotcha | 10/15 |
 | GE-20260713-cfba6d | IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks | gotcha | 11/15 |
 | GE-20260713-2d1cad | ide_replace_member duplicates method signature when content includes annotations | gotcha | 9/15 |
+| GE-20260713-2cfaaf | IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content | gotcha | 12/15 |

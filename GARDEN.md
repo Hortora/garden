@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2124
+**Entries merged since last sweep:** 2125
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2369,6 +2369,7 @@
 - GE-20260713-905e2e [IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven](tools/GE-20260713-905e2e.md)
 - GE-20260713-cfba6d [IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks](tools/GE-20260713-cfba6d.md)
 - GE-20260713-2d1cad [ide_replace_member duplicates method signature when content includes annotations](tools/GE-20260713-2d1cad.md)
+- GE-20260713-2cfaaf [IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content](tools/GE-20260713-2cfaaf.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
