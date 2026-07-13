@@ -577,3 +577,4 @@
 | GE-20260712-cc5b6c | ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals | convention | 8/15 |
 | GE-20260713-8ea659 | Cross-repo commit silently regresses prior session's deliberate exception handling design | gotcha | 11/15 |
 | GE-20260713-905e2e | IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven | gotcha | 10/15 |
+| GE-20260713-905e2e | IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven | gotcha | 10/15 |
