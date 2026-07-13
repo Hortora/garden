@@ -1,0 +1,1 @@
+- GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests

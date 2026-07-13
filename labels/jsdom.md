@@ -1,3 +1,4 @@
 - GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
 - GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
 - GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives
+- GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests
