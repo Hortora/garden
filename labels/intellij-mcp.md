@@ -16,3 +16,4 @@
 - GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes
 - GE-20260712-1a82c4: ide_edit_member with member=className silently truncates Java interface/class files
 - GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
+- GE-20260713-db0a2c: IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed

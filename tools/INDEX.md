@@ -581,3 +581,4 @@
 | GE-20260713-cfba6d | IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks | gotcha | 11/15 |
 | GE-20260713-2d1cad | ide_replace_member duplicates method signature when content includes annotations | gotcha | 9/15 |
 | GE-20260713-2cfaaf | IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content | gotcha | 12/15 |
+| GE-20260713-db0a2c | IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed | gotcha | 12/15 |

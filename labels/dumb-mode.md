@@ -1,2 +1,1 @@
-- GE-20260710-86e8d3: H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close()
 - GE-20260713-db0a2c: IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed

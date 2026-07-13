@@ -9,3 +9,4 @@
 - GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation
 - GE-20260708-787b25: IntelliJ MCP ide_move_file silently times out on cross-project moves
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
+- GE-20260713-db0a2c: IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed
