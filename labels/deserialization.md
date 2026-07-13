@@ -2,3 +2,4 @@
 - GE-20260602-2cff5e: Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type
 - GE-20260602-a4d290: new ObjectMapper(new YAMLFactory()) silently produces null record fields — findAndRegisterModules() required
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
+- GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields

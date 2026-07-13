@@ -24,3 +24,4 @@
 - GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
+- GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
