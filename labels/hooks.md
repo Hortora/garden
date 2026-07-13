@@ -12,3 +12,4 @@
 - GE-20260531-2f51fd: Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches
 - GE-20260531-efe09b: OpenClaw before_tool_call event payload includes toolName, agentId, sessionKey, toolCallId, params
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
+- GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks

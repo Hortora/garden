@@ -2,3 +2,4 @@
 - GE-20260710-0b8c2a: ide_edit_member with member=ClassName destroys file content — records and regular classes
 - GE-20260711-190f40: ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found
 - GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
+- GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks
