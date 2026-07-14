@@ -1,0 +1,1 @@
+- GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site

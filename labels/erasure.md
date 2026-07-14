@@ -6,3 +6,4 @@
 - GE-20260608-4a1057: Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist
 - GE-20260531-46f8ab: casehub.ledger.identity.tokenisation.enabled=true required in tests for LedgerErasureService.erase() to do anything
 - GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link
+- GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site
