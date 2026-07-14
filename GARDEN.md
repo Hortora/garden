@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2129
+**Entries merged since last sweep:** 2130
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1753,6 +1753,7 @@
 - GE-20260713-14473f [Multicodec LEB128 varint codes ≥ 0x80 require multi-byte encoding](jvm/GE-20260713-14473f.md)
 - GE-20260713-26f881 [MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results](jvm/GE-20260713-26f881.md)
 - GE-20260713-3c5fad [REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double](jvm/GE-20260713-3c5fad.md)
+- GE-20260714-439924 [Additive confidence penalties at game-loop frequency zero confidence in under 1 second](jvm/GE-20260714-439924.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

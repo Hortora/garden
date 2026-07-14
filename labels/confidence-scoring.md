@@ -1,0 +1,1 @@
+- GE-20260714-439924: Additive confidence penalties at game-loop frequency zero confidence in under 1 second
