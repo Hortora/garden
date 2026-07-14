@@ -32,3 +32,4 @@
 | GE-20260630-91be72 | IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated | gotcha | 12/15 |
 | GE-20260710-ddf617 | IntelliJ MCP ide_search_text misses strings split across Java string concatenation | gotcha | 9/15 |
 | GE-20260713-69afbe | IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript | gotcha | 10/15 |
+| GE-20260714-13b430 | ide_insert_member reformat=true silently removes static imports | gotcha | 11/15 |

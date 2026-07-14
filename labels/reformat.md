@@ -1,0 +1,1 @@
+- GE-20260714-13b430: ide_insert_member reformat=true silently removes static imports

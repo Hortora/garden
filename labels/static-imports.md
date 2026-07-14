@@ -1,1 +1,2 @@
 - GE-20260602-793302: Checkstyle AvoidStarImport applies to static imports — test assertion methods caught
+- GE-20260714-13b430: ide_insert_member reformat=true silently removes static imports
