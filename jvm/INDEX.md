@@ -1162,3 +1162,4 @@
 | GE-20260714-a7267a | Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes | gotcha | 10/15 |
 | GE-20260714-3418d2 | QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false | gotcha | 8/15 |
 | GE-20260512-0fe012 | CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits | gotcha | 12/15 |
+| GE-20260714-550161 | MVEL3 `contains` keyword shadows String.contains() — transpilation type error | gotcha | 11/15 |
