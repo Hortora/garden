@@ -5,3 +5,4 @@
 - GE-20260609-453804: Making an enclosing class public does not promote its package-private members
 - GE-20260609-bc9bab: ConcurrentHashMap.put() happens-before only covers future get() calls — not code that obtained the value reference before the put()
 - GE-20260627-9661a2: GitHub Packages Maven visibility is repo-inherited — no API to change it independently
+- GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting

@@ -35,3 +35,5 @@
 - GE-20260623-02d4f4: CI failure blamed on stale SNAPSHOT — actual cause is 401 on secondary Maven repository entry
 - GE-20260627-907be8: GitHub Packages Maven wildcard URL silently fails to resolve artifacts from private repos
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
+- GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
+- GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution

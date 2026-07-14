@@ -7,3 +7,4 @@
 - GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them
 - GE-20260709-e611d2: Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod
 - GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports
+- GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution

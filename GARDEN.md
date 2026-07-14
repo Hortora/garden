@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2140
+**Entries merged since last sweep:** 2143
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2385,6 +2385,9 @@
 - GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
 - GE-20260713-2cfaaf [IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content](tools/GE-20260713-2cfaaf.md)
 - GE-20260714-2b8973 [ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects](tools/GE-20260714-2b8973.md)
+- GE-20260714-4ba57a [GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting](tools/GE-20260714-4ba57a.md)
+- GE-20260714-00dfb0 [Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com](tools/GE-20260714-00dfb0.md)
+- GE-20260714-f54d2b [Conditional vitest aliases with existsSync for sibling repo resolution](tools/GE-20260714-f54d2b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

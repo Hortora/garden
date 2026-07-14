@@ -1,0 +1,1 @@
+- GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution

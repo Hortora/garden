@@ -2,3 +2,4 @@
 - GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them
 - GE-20260706-cad45e: Yarn 4 project-level .yarnrc.yml npmScopes overrides home-level entirely — no property merge
 - GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
+- GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
