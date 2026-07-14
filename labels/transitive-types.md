@@ -1,0 +1,1 @@
+- GE-20260714-a7267a: Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes

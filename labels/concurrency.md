@@ -39,3 +39,4 @@
 - GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
 - GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience
+- GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits

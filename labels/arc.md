@@ -74,3 +74,4 @@
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
 - GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
+- GE-20260714-a7267a: Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes

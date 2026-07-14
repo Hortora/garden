@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2137
+**Entries merged since last sweep:** 2140
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1760,6 +1760,9 @@
 - GE-20260714-e97b0a [@DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean](jvm/GE-20260714-e97b0a.md)
 - GE-20260714-aa950f [Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments](jvm/GE-20260714-aa950f.md)
 - GE-20260714-85bd9a [Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException](jvm/GE-20260714-85bd9a.md)
+- GE-20260714-a7267a [Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes](jvm/GE-20260714-a7267a.md)
+- GE-20260714-3418d2 [QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false](jvm/GE-20260714-3418d2.md)
+- GE-20260512-0fe012 [CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits](jvm/GE-20260512-0fe012.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

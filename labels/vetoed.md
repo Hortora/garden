@@ -1,0 +1,1 @@
+- GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false

@@ -22,3 +22,4 @@
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260630-69e447: qhorus persistence-memory module creates three-way CDI ambiguity — reactive wrappers must also be excluded
 - GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
+- GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false
