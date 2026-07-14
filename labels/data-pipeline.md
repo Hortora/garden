@@ -2,3 +2,4 @@
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
 - GE-20260711-5170ee: pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers
+- GE-20260714-b6ec65: Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch

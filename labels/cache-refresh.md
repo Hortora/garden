@@ -1,0 +1,1 @@
+- GE-20260714-b6ec65: Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch

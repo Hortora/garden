@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2145
+**Entries merged since last sweep:** 2146
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2490,6 +2490,7 @@
 - GE-20260713-777d8a [Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries](web/GE-20260713-777d8a.md)
 - GE-20260713-44a60b [jsdom never fires animationend — components using CSS animation callbacks hang in tests](web/GE-20260713-44a60b.md)
 - GE-20260714-cdd0f2 [tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning](web/GE-20260714-cdd0f2.md)
+- GE-20260714-b6ec65 [Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch](web/GE-20260714-b6ec65.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
