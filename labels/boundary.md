@@ -1,2 +1,3 @@
 - GE-20260427-5413df: @PermuteReturn(when="i == N") generates a method only on a specific arity in a Permuplate template
 - GE-20260529-c6ff44: Math.abs(0.8 - 0.7) > 0.1 in Java IEEE 754 — exact decimal boundary tests fail silently
+- GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries

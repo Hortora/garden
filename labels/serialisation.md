@@ -1,1 +1,2 @@
 - GE-20260517-62b9db: Empty HTML <article> element causes html.parser to repeat surrounding content on re-serialisation
+- GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries

@@ -70,3 +70,4 @@
 - GE-20260701-82fc11: engine#484 SequenceWorker does not exist — concept shipped as SequentialPlanningStrategy + WorkerRuntime.execute()
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
+- GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
