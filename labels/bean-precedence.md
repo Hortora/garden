@@ -1,0 +1,1 @@
+- GE-20260714-e97b0a: @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean

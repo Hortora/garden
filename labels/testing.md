@@ -381,3 +381,4 @@
 - GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
+- GE-20260714-e97b0a: @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean

@@ -1156,3 +1156,5 @@
 | GE-20260713-3c5fad | REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double | gotcha | 10/15 |
 | GE-20260714-439924 | Additive confidence penalties at game-loop frequency zero confidence in under 1 second | gotcha | 11/15 |
 | GE-20260714-ac8230 | Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries | technique | 9/15 |
+| GE-20260714-e97b0a | @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean | gotcha | 9/15 |
+| GE-20260714-aa950f | Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments | gotcha | 8/15 |

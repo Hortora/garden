@@ -657,3 +657,4 @@
 - GE-20260709-520b0b: Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions
 - GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
+- GE-20260714-e97b0a: @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean
