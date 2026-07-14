@@ -1,0 +1,1 @@
+- GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException

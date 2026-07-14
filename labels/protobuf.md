@@ -9,3 +9,4 @@
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
+- GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException

@@ -19,3 +19,4 @@
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
 - GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections
 - GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert
+- GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException

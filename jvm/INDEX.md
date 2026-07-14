@@ -1158,3 +1158,4 @@
 | GE-20260714-ac8230 | Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries | technique | 9/15 |
 | GE-20260714-e97b0a | @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean | gotcha | 9/15 |
 | GE-20260714-aa950f | Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments | gotcha | 8/15 |
+| GE-20260714-85bd9a | Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException | gotcha | 9/15 |
