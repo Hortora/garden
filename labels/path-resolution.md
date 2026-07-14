@@ -1,1 +1,2 @@
 - GE-20260521-fe44c0: work-end skill silently targets the wrong repos when invoked from a different workspace session
+- GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects

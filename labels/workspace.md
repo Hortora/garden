@@ -13,3 +13,4 @@
 - GE-20260702-7c79fe: IntelliJ MCP ide_find_class Returns Phantom Entries from Stale Workspace Index
 - GE-20260702-fc769a: Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote
 - GE-20260712-cc5b6c: ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals
+- GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
