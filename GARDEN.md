@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2128
+**Entries merged since last sweep:** 2129
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2373,6 +2373,7 @@
 - GE-20260713-2cfaaf [IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content](tools/GE-20260713-2cfaaf.md)
 - GE-20260713-db0a2c [IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed](tools/GE-20260713-db0a2c.md)
 - GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
+- GE-20260713-2cfaaf [IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content](tools/GE-20260713-2cfaaf.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

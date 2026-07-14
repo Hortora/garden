@@ -1,1 +1,2 @@
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
+- GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
