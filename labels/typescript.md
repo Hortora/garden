@@ -19,3 +19,4 @@
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
 - GE-20260711-190f40: ide_edit_member cannot find top-level exported TypeScript functions — returns member_not_found
 - GE-20260713-69afbe: IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript
+- GE-20260714-cdd0f2: tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning

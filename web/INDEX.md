@@ -86,3 +86,4 @@
 | GE-20260713-9e6bf5 | jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests | gotcha | 11/15 |
 | GE-20260713-777d8a | Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries | gotcha | 8/15 |
 | GE-20260713-44a60b | jsdom never fires animationend — components using CSS animation callbacks hang in tests | gotcha | 8/15 |
+| GE-20260714-cdd0f2 | tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning | gotcha | 13/15 |
