@@ -1,0 +1,1 @@
+- GE-20260713-cecee5: @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver
