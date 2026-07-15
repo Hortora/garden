@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2149
+**Entries merged since last sweep:** 2150
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1764,6 +1764,7 @@
 - GE-20260714-3418d2 [QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false](jvm/GE-20260714-3418d2.md)
 - GE-20260512-0fe012 [CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits](jvm/GE-20260512-0fe012.md)
 - GE-20260714-550161 [MVEL3 `contains` keyword shadows String.contains() — transpilation type error](jvm/GE-20260714-550161.md)
+- GE-20260715-01a695 [MVEL3 single-quoted strings fail with UnsolvedSymbolException](jvm/GE-20260715-01a695.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
