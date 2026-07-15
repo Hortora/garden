@@ -19,3 +19,4 @@
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
 - GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
+- GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
