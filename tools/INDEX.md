@@ -588,3 +588,4 @@
 | GE-20260714-4ba57a | GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting | gotcha | 12/15 |
 | GE-20260714-00dfb0 | Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com | undocumented | 9/15 |
 | GE-20260714-f54d2b | Conditional vitest aliases with existsSync for sibling repo resolution | technique | 8/15 |
+| GE-20260712-f68752 | IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones | gotcha | 13/15 |

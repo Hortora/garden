@@ -1,2 +1,3 @@
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
+- GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones

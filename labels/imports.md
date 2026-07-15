@@ -6,3 +6,4 @@
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260712-44faae: IntelliJ ide_move_file bulk moves leave stale intra-package imports between co-moved classes
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
+- GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
