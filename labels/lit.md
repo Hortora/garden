@@ -6,3 +6,4 @@
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
+- GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes

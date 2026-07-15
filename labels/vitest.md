@@ -3,3 +3,4 @@
 - GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution
+- GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach

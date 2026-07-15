@@ -1,2 +1,3 @@
 - GE-20260616-e268d7: Yarn workspace TypeScript monorepo — stale .d.ts silently drops new function parameters
 - GE-20260701-f1c67f: IntelliJ MCP Index Plugin Returns Empty Results for TypeScript in Yarn Workspace Monorepos
+- GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach

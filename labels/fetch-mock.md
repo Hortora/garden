@@ -1,0 +1,1 @@
+- GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes

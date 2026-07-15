@@ -1,1 +1,2 @@
 - GE-20260710-fe9f97: globalThis.fetch override in SPA page components clobbers mock routing on navigation
+- GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes

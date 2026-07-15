@@ -382,3 +382,5 @@
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
 - GE-20260714-e97b0a: @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean
+- GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach
+- GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes

@@ -20,3 +20,4 @@
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
 - GE-20260713-777d8a: Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
+- GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes

@@ -88,3 +88,5 @@
 | GE-20260713-44a60b | jsdom never fires animationend — components using CSS animation callbacks hang in tests | gotcha | 8/15 |
 | GE-20260714-cdd0f2 | tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning | gotcha | 13/15 |
 | GE-20260714-b6ec65 | Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch | gotcha | 11/15 |
+| GE-20260715-dad5e5 | vitest watch mode in package.json test script hangs yarn workspaces foreach | gotcha | 8/15 |
+| GE-20260715-86e5d6 | globalThis.fetch override in SPA example page poisons all subsequent routes | gotcha | 9/15 |
