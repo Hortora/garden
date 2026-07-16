@@ -5,3 +5,4 @@
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
 - GE-20260607-3ded98: ConcurrentHashMap.getOrDefault(key, List.of()) loses type parameter when value type is a parameterized List subclass
 - GE-20260714-aa950f: Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments
+- GE-20260716-960319: Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType

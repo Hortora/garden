@@ -1,0 +1,1 @@
+- GE-20260716-960319: Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType

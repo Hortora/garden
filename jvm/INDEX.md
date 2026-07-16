@@ -1165,3 +1165,4 @@
 | GE-20260714-550161 | MVEL3 `contains` keyword shadows String.contains() — transpilation type error | gotcha | 11/15 |
 | GE-20260715-01a695 | MVEL3 single-quoted strings fail with UnsolvedSymbolException | gotcha | 11/15 |
 | GE-20260716-f292d3 | Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect | gotcha | 11/15 |
+| GE-20260716-960319 | Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType | gotcha | 9/15 |

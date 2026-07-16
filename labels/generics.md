@@ -26,3 +26,4 @@
 - GE-20260630-4b89c2: Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection
 - GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site
 - GE-20260714-aa950f: Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments
+- GE-20260716-960319: Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType
