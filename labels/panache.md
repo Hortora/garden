@@ -79,3 +79,4 @@
 - GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates
 - GE-20260705-2aa4c8: H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
+- GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers

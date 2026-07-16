@@ -1167,3 +1167,4 @@
 | GE-20260716-f292d3 | Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect | gotcha | 11/15 |
 | GE-20260716-960319 | Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType | gotcha | 9/15 |
 | GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
+| GE-20260716-dac2e7 | EntityResolver pattern for unit-testing Panache Active Record CDI observers | technique | 9/15 |

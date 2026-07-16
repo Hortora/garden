@@ -661,3 +661,4 @@
 - GE-20260714-a7267a: Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes
 - GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false
 - GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers

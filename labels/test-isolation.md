@@ -13,3 +13,4 @@
 - GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
 - GE-20260707-674928: ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
+- GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers
