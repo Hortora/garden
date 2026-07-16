@@ -6,3 +6,4 @@
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
 - GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests
 - GE-20260713-777d8a: Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries
+- GE-20260716-424a17: Native <select> popup displaced in deeply nested shadow DOM with scrolled containers
