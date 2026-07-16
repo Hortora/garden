@@ -1,2 +1,3 @@
 - GE-20260618-d81cef: Hibernate dirty-check flushes PanacheEntity field writes inside Panache.withSession() — even for in-memory test stores
 - GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
+- GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data

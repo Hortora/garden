@@ -12,3 +12,4 @@
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
 - GE-20260625-2c2539: JSDOM location.hash persists across vitest test cases — URL state leaks between tests
 - GE-20260707-674928: ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references
+- GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
