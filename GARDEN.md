@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2163
+**Entries merged since last sweep:** 2164
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2508,6 +2508,7 @@
 - GE-20260612-d561ae [exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required](web/GE-20260612-d561ae.md)
 - GE-20260716-424a17 [Native <select> popup displaced in deeply nested shadow DOM with scrolled containers](web/GE-20260716-424a17.md)
 - GE-20260717-4618a1 [Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition](web/GE-20260717-4618a1.md)
+- GE-20260717-c99f50 [TypedRow passed as Lit property looks like a plain object but direct property access returns undefined](web/GE-20260717-c99f50.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

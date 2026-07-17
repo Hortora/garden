@@ -22,3 +22,4 @@
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes
 - GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition
+- GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined

@@ -1,2 +1,1 @@
-- GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
