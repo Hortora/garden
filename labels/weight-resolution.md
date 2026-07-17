@@ -1,2 +1,1 @@
-- GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire
 - GE-20260717-e2e95a: Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap

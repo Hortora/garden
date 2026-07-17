@@ -1169,3 +1169,4 @@
 | GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
 | GE-20260716-dac2e7 | EntityResolver pattern for unit-testing Panache Active Record CDI observers | technique | 9/15 |
 | GE-20260717-8f99a0 | Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException | gotcha | 11/15 |
+| GE-20260717-e2e95a | Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap | technique | 9/15 |
