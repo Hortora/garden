@@ -7,3 +7,4 @@
 - GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests
 - GE-20260713-777d8a: Shadow DOM document.activeElement returns host — focus comparisons silently fail across shadow boundaries
 - GE-20260716-424a17: Native <select> popup displaced in deeply nested shadow DOM with scrolled containers
+- GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition

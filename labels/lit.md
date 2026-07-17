@@ -8,3 +8,4 @@
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
 - GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes
 - GE-20260716-424a17: Native <select> popup displaced in deeply nested shadow DOM with scrolled containers
+- GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition

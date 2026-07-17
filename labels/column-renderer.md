@@ -1,0 +1,1 @@
+- GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition

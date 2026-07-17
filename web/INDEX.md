@@ -92,3 +92,4 @@
 | GE-20260715-86e5d6 | globalThis.fetch override in SPA example page poisons all subsequent routes | gotcha | 9/15 |
 | GE-20260612-d561ae | exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required | gotcha | 9/15 |
 | GE-20260716-424a17 | Native <select> popup displaced in deeply nested shadow DOM with scrolled containers | gotcha | 11/15 |
+| GE-20260717-4618a1 | Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition | gotcha | 11/15 |
