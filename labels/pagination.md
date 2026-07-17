@@ -4,3 +4,4 @@
 - GE-20260609-2254cc: MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
 - GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator
+- GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses

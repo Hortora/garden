@@ -1,1 +1,2 @@
 - GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses
+- GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses

@@ -95,3 +95,4 @@
 | GE-20260717-4618a1 | Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition | gotcha | 11/15 |
 | GE-20260717-c99f50 | TypedRow passed as Lit property looks like a plain object but direct property access returns undefined | gotcha | 9/15 |
 | GE-20260717-02208c | pages-ui-tokens generates --pages-{name}-{1..12} only — no -contrast suffix tokens | gotcha | 8/15 |
+| GE-20260712-7250c5 | DataSourceMixin extraction pipeline destroys non-tabular domain responses | gotcha | 11/15 |
