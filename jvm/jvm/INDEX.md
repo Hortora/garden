@@ -52,3 +52,4 @@
 | GE-20260710-86e8d3 | H2MVStore get() succeeds on a closed store (cached pages) but put() throws — read/write asymmetry after close() | gotcha | 9/15 |
 | GE-20260711-604219 | JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records | gotcha | 8/15 |
 | GE-20260713-cecee5 | @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver | gotcha | 11/15 |
+| GE-20260718-95e11e | CbrCaseMemoryStore.store() 6th parameter is caseType not scope — decompiled interface loses names, store succeeds but retrieveSimilar returns empty | gotcha | 11/15 |
