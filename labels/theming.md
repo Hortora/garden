@@ -1,1 +1,2 @@
 - GE-20260712-f5b872: CSS custom properties cascade through shadow DOM but theme class + style must be on the host element
+- GE-20260717-02208c: pages-ui-tokens generates --pages-{name}-{1..12} only — no -contrast suffix tokens
