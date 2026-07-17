@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2161
+**Entries merged since last sweep:** 2162
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -64,6 +64,7 @@
 - GE-20260629-0d981d [Layer 9 shares AmlInvestigationOutcomeService with Layer 6 but produces no SAR outcomes — outcome is always null](casehub-engine/GE-20260629-0d981d.md)
 - GE-20260630-8f5a87 [Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull](casehub-engine/GE-20260630-8f5a87.md)
 - GE-20260706-56a75c [WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss](casehub-engine/GE-20260706-56a75c.md)
+- GE-20260717-f7dc41 [CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation](casehub-engine/GE-20260717-f7dc41.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

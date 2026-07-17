@@ -1,2 +1,1 @@
-- GE-20260629-670471: casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate
 - GE-20260717-f7dc41: CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation

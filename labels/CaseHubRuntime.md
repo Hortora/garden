@@ -1,1 +1,2 @@
 - GE-20260526-2ee43b: New @ApplicationScoped engine bean injecting an excluded type surfaces as SmokeTest load failure
+- GE-20260717-f7dc41: CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation
