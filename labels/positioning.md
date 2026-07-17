@@ -1,1 +1,2 @@
 - GE-20260716-424a17: Native <select> popup displaced in deeply nested shadow DOM with scrolled containers
+- GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete

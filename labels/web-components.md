@@ -23,3 +23,4 @@
 - GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes
 - GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
+- GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete

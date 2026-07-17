@@ -97,3 +97,4 @@
 | GE-20260717-02208c | pages-ui-tokens generates --pages-{name}-{1..12} only — no -contrast suffix tokens | gotcha | 8/15 |
 | GE-20260712-7250c5 | DataSourceMixin extraction pipeline destroys non-tabular domain responses | gotcha | 11/15 |
 | GE-20260717-19540a | esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank | gotcha | 13/15 |
+| GE-20260717-6610cc | CSS positioning class defined but never applied — dead fallback looks complete | gotcha | 10/15 |

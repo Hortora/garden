@@ -1,0 +1,1 @@
+- GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete

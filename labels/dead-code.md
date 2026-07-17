@@ -1,2 +1,3 @@
 - GE-20260513-3f8e53: ide_find_references on an interface method confirms zero polymorphic callers — safe to remove
 - GE-20260523-7fcea7: ArchUnit JavaParameterizedType is guaranteed to have ≥1 type argument — isEmpty() guard is dead code
+- GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete
