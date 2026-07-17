@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2160
+**Entries merged since last sweep:** 2161
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -194,6 +194,7 @@
 - GE-20260710-ddf617 [IntelliJ MCP ide_search_text misses strings split across Java string concatenation](intellij-platform/GE-20260710-ddf617.md)
 - GE-20260713-69afbe [IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript](intellij-platform/GE-20260713-69afbe.md)
 - GE-20260714-13b430 [ide_insert_member reformat=true silently removes static imports](intellij-platform/GE-20260714-13b430.md)
+- GE-20260717-67af88 [ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings](intellij-platform/GE-20260717-67af88.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
