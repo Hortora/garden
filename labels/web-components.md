@@ -24,3 +24,4 @@
 - GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
 - GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete
+- GE-20260717-8e8a6b: Vanilla Web Component setter-triggered render ignores callbacks set after dataSet

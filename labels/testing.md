@@ -385,3 +385,4 @@
 - GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach
 - GE-20260715-86e5d6: globalThis.fetch override in SPA example page poisons all subsequent routes
 - GE-20260717-8f99a0: Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException
+- GE-20260717-8e8a6b: Vanilla Web Component setter-triggered render ignores callbacks set after dataSet

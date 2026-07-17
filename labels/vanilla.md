@@ -1,0 +1,1 @@
+- GE-20260717-8e8a6b: Vanilla Web Component setter-triggered render ignores callbacks set after dataSet
