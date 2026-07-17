@@ -13,3 +13,4 @@
 - GE-20260701-82f303: CompositeActorDIDProvider defeats instanceof checks — ClientProxy.unwrap() reveals the composite, not the concrete provider
 - GE-20260707-76a6f4: @ObservesAsync concurrent entity updates lose writes without @DynamicUpdate
 - GE-20260713-cecee5: @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver
+- GE-20260718-f7e5e6: CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch

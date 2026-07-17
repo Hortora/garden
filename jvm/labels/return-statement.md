@@ -1,0 +1,1 @@
+- GE-20260718-7f7adb: MVEL3 block expressions require explicit return — last expression is not a valid Java statement

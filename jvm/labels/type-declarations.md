@@ -1,0 +1,1 @@
+- GE-20260718-bb81b3: MVEL3 list() context requires position-indexed element type declarations — cannot use like Map context

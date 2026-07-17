@@ -1,0 +1,1 @@
+- GE-20260718-f7e5e6: CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch

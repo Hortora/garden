@@ -1,0 +1,2 @@
+- GE-20260718-02d3dd: MVEL3 pojo() mode fails with NPE — transpiler skips NameExpr rewriting when no .with() root is set
+- GE-20260718-7f7adb: MVEL3 block expressions require explicit return — last expression is not a valid Java statement

@@ -53,3 +53,7 @@
 | GE-20260711-604219 | JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records | gotcha | 8/15 |
 | GE-20260713-cecee5 | @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver | gotcha | 11/15 |
 | GE-20260718-95e11e | CbrCaseMemoryStore.store() 6th parameter is caseType not scope — decompiled interface loses names, store succeeds but retrieveSimilar returns empty | gotcha | 11/15 |
+| GE-20260718-02d3dd | MVEL3 pojo() mode fails with NPE — transpiler skips NameExpr rewriting when no .with() root is set | gotcha | 11/15 |
+| GE-20260718-7f7adb | MVEL3 block expressions require explicit return — last expression is not a valid Java statement | gotcha | 10/15 |
+| GE-20260718-bb81b3 | MVEL3 list() context requires position-indexed element type declarations — cannot use like Map context | undocumented | 9/15 |
+| GE-20260718-f7e5e6 | CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch | technique | 11/15 |
