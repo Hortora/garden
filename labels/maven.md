@@ -170,3 +170,4 @@
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy
+- GE-20260717-886249: IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync

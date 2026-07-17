@@ -21,3 +21,4 @@
 | GE-20260612-506191 | Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge | gotcha | 11/15 |
 | GE-20260623-ec9c80 | Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions | gotcha | 12/15 |
 | GE-20260627-5f208a | Stale SDD report files from previous sessions mislead fresh subagents | gotcha | 10/15 |
+| GE-20260717-886249 | IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync | gotcha | 9/15 |

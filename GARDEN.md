@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2170
+**Entries merged since last sweep:** 2171
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -154,6 +154,7 @@
 - GE-20260612-506191 [Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge](claude-code/GE-20260612-506191.md)
 - GE-20260623-ec9c80 [Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions](claude-code/GE-20260623-ec9c80.md)
 - GE-20260627-5f208a [Stale SDD report files from previous sessions mislead fresh subagents](claude-code/GE-20260627-5f208a.md)
+- GE-20260717-886249 [IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync](claude-code/GE-20260717-886249.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
