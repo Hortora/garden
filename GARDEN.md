@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2167
+**Entries merged since last sweep:** 2169
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2402,6 +2402,8 @@
 - GE-20260714-f54d2b [Conditional vitest aliases with existsSync for sibling repo resolution](tools/GE-20260714-f54d2b.md)
 - GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
 - GE-20260717-34ba5f [IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found](tools/GE-20260717-34ba5f.md)
+- GE-20260717-b31a92 [Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files](tools/GE-20260717-b31a92.md)
+- GE-20260717-074283 [GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy](tools/GE-20260717-074283.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

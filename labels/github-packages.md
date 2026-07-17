@@ -34,3 +34,4 @@
 - GE-20260707-a48ac6: GitHub Packages version API updated_at reflects creation date, not latest SNAPSHOT upload — leads to wrong stale-artifact diagnosis
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
 - GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
+- GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy

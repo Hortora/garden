@@ -4,3 +4,4 @@
 - GE-20260709-2084c9: Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent
 - GE-20260709-e611d2: Vite-only path aliases break esbuild production builds — re-exports from aliased packages fail silently in dev but hard-fail in prod
 - GE-20260712-ab4f0a: esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds
+- GE-20260717-b31a92: Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files

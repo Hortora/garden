@@ -169,3 +169,4 @@
 - GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
+- GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy

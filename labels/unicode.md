@@ -4,3 +4,4 @@
 - GE-20260511-9c3c13: Use `-F /tmp/msg.txt` not `-m "..."` for exec amends in non-interactive rebase — Unicode-safe and shell-escape-free
 - GE-20260530-e14065: U+061C (Arabic Letter Mark) is a BiDi control character but sits outside the C0/C1 ranges — standard control-char filters miss it
 - GE-20260608-cff231: LLM tool JSON parameter converts \u0001 to invisible SOH byte — text tools cannot match it
+- GE-20260717-b31a92: Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files

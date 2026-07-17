@@ -590,3 +590,5 @@
 | GE-20260714-f54d2b | Conditional vitest aliases with existsSync for sibling repo resolution | technique | 8/15 |
 | GE-20260712-f68752 | IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones | gotcha | 13/15 |
 | GE-20260717-34ba5f | IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found | gotcha | 10/15 |
+| GE-20260717-b31a92 | Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files | gotcha | 11/15 |
+| GE-20260717-074283 | GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy | gotcha | 9/15 |
