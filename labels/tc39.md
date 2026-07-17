@@ -1,0 +1,1 @@
+- GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank

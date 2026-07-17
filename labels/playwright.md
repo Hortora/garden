@@ -25,3 +25,4 @@
 - GE-20260531-b7c259: Three.js samplePixel() returns stale pixel after camera repositioning — renderer.render() required before readback
 - GE-20260614-cd8e92: Playwright CSS locators auto-pierce open Shadow DOM but page.evaluate() raw JS does not
 - GE-20260710-ddf617: IntelliJ MCP ide_search_text misses strings split across Java string concatenation
+- GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank

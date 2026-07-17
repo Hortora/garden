@@ -1,2 +1,3 @@
 - GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
 - GE-20260621-d5e7d4: Use emitDeclarationOnly with .typecheck outDir for incremental cross-package type checking without JS emission
+- GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank

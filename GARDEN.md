@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2169
+**Entries merged since last sweep:** 2170
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2514,6 +2514,7 @@
 - GE-20260717-c99f50 [TypedRow passed as Lit property looks like a plain object but direct property access returns undefined](web/GE-20260717-c99f50.md)
 - GE-20260717-02208c [pages-ui-tokens generates --pages-{name}-{1..12} only — no -contrast suffix tokens](web/GE-20260717-02208c.md)
 - GE-20260712-7250c5 [DataSourceMixin extraction pipeline destroys non-tabular domain responses](web/GE-20260712-7250c5.md)
+- GE-20260717-19540a [esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank](web/GE-20260717-19540a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
