@@ -14,3 +14,4 @@
 - GE-20260702-fc769a: Workspace repos use separate wsp-casehub-* GitHub repos — renaming the project fork breaks workspace remote
 - GE-20260712-cc5b6c: ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals
 - GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
+- GE-20260717-34ba5f: IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2164
+**Entries merged since last sweep:** 2165
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2401,6 +2401,7 @@
 - GE-20260714-00dfb0 [Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com](tools/GE-20260714-00dfb0.md)
 - GE-20260714-f54d2b [Conditional vitest aliases with existsSync for sibling repo resolution](tools/GE-20260714-f54d2b.md)
 - GE-20260712-f68752 [IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones](tools/GE-20260712-f68752.md)
+- GE-20260717-34ba5f [IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found](tools/GE-20260717-34ba5f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

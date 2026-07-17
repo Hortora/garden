@@ -20,3 +20,4 @@
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
 - GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end
 - GE-20260717-f7dc41: CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation
+- GE-20260717-34ba5f: IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found
