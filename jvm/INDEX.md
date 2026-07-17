@@ -1171,3 +1171,4 @@
 | GE-20260717-8f99a0 | Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException | gotcha | 11/15 |
 | GE-20260717-e2e95a | Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap | technique | 9/15 |
 | GE-20260717-1edd9b | CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends | technique | 9/15 |
+| GE-20260717-0489d1 | CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision | gotcha | 8/15 |
