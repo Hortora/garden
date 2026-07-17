@@ -1,0 +1,1 @@
+- GE-20260717-8f99a0: Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException

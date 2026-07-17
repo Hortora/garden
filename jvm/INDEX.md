@@ -1168,3 +1168,4 @@
 | GE-20260716-960319 | Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType | gotcha | 9/15 |
 | GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
 | GE-20260716-dac2e7 | EntityResolver pattern for unit-testing Panache Active Record CDI observers | technique | 9/15 |
+| GE-20260717-8f99a0 | Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException | gotcha | 11/15 |

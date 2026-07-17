@@ -31,3 +31,4 @@
 - GE-20260629-74fc65: Mockito mockStatic cannot intercept inherited static methods on Panache Active Record entities
 - GE-20260630-95eb64: CDI qualifier addition on a bean silently breaks all @Inject/@InjectMock sites in downstream repos
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
+- GE-20260717-8f99a0: Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException
