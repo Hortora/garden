@@ -40,3 +40,4 @@
 - GE-20260628-e19735: Engine never calls ReactiveWorkerProvisioner.terminate() — provisioner implementers must handle termination themselves via CaseLifecycleEvent
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
+- GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends

@@ -1,0 +1,1 @@
+- GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends

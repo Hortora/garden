@@ -1,1 +1,2 @@
 - GE-20260709-774697: Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision
+- GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends
