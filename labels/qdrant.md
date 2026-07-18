@@ -20,3 +20,4 @@
 - GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections
 - GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert
 - GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException
+- GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture

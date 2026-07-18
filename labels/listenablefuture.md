@@ -1,1 +1,2 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
