@@ -1,3 +1,2 @@
-- GE-20260713-cecee5: @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected

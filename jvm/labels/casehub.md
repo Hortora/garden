@@ -3,3 +3,5 @@
 - GE-20260521-9188c1: CasePlanModel YAML binding `when:` conditions are not evaluated at runtime — all contextChange bindings fire on every CONTEXT_CHANGED
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected

@@ -5,3 +5,5 @@
 - GE-20260617-abe516: GlobalOpenTelemetry.getTracer() in static final field returns no-op tracer — library instrumentation must call lazily
 - GE-20260629-e8b16d: EventStreamBus.clear() drops subscriptions — silent pipeline death on lifecycle reset
 - GE-20260718-95e11e: CbrCaseMemoryStore.store() 6th parameter is caseType not scope — decompiled interface loses names, store succeeds but retrieveSimilar returns empty
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected

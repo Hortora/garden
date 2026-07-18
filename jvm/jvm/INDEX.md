@@ -57,3 +57,5 @@
 | GE-20260718-7f7adb | MVEL3 block expressions require explicit return — last expression is not a valid Java statement | gotcha | 10/15 |
 | GE-20260718-bb81b3 | MVEL3 list() context requires position-indexed element type declarations — cannot use like Map context | undocumented | 9/15 |
 | GE-20260718-f7e5e6 | CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch | technique | 11/15 |
+| GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |
+| GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |

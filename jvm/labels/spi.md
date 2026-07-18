@@ -1,1 +1,3 @@
 - GE-20260531-8b1f4e: Maven cross-tenant SPI interface in wrong module tier causes unresolvable dependency direction
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected

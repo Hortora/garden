@@ -1,1 +1,3 @@
 - GE-20260519-b9719e: SmallRye Config throws NoSuchElementException for Map<String,String> @ConfigProperty when no keys match the prefix
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
