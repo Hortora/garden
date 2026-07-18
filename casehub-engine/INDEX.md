@@ -44,3 +44,4 @@
 | GE-20260630-8f5a87 | Worker.builder() without capabilityNames NPEs — compact constructor requireNonNull | gotcha | 9/15 |
 | GE-20260706-56a75c | WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss | gotcha | 13/15 |
 | GE-20260717-f7dc41 | CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation | gotcha | 11/15 |
+| GE-20260718-207fde | WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests | gotcha | 8/15 |

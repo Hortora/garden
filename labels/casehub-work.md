@@ -20,3 +20,4 @@
 - GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
 - GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle
 - GE-20260629-db82b4: WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution
+- GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests

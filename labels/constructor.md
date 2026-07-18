@@ -4,3 +4,4 @@
 - GE-20260604-4bfd2c: Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it
 - GE-20260706-3cdc77: ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous
 - GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
+- GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
