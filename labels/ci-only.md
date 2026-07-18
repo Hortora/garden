@@ -1,1 +1,2 @@
 - GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes
+- GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI

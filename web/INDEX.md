@@ -100,3 +100,4 @@
 | GE-20260717-6610cc | CSS positioning class defined but never applied — dead fallback looks complete | gotcha | 10/15 |
 | GE-20260717-8e8a6b | Vanilla Web Component setter-triggered render ignores callbacks set after dataSet | gotcha | 9/15 |
 | GE-20260718-b097b3 | Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't | gotcha | 14/15 |
+| GE-20260718-d22748 | Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI | gotcha | 11/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2184
+**Entries merged since last sweep:** 2185
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2529,6 +2529,7 @@
 - GE-20260717-6610cc [CSS positioning class defined but never applied — dead fallback looks complete](web/GE-20260717-6610cc.md)
 - GE-20260717-8e8a6b [Vanilla Web Component setter-triggered render ignores callbacks set after dataSet](web/GE-20260717-8e8a6b.md)
 - GE-20260718-b097b3 [Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't](web/GE-20260718-b097b3.md)
+- GE-20260718-d22748 [Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI](web/GE-20260718-d22748.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
