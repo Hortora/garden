@@ -1,0 +1,1 @@
+- GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest

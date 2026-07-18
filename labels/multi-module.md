@@ -36,3 +36,4 @@
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
 - GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
 - GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
+- GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest

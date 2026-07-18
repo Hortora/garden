@@ -663,3 +663,6 @@
 - GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
 - GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers
 - GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends
+- GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
+- GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
+- GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify

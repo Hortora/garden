@@ -3,3 +3,5 @@
 - GE-20260610-c003ba: Surefire 3.5.x rerunFailingTestsCount + Quarkus produces misleading 'ClassSelector [classLoader=null]' hiding real CDI boot failure
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
 - GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig
+- GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
+- GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3

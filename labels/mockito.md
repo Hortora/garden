@@ -23,3 +23,4 @@
 - GE-20260629-31db3a: Mockito mocks don't inherit Java interface default methods
 - GE-20260630-4b89c2: Mockito @InjectMocks silently nulls CDI Event<T> generic fields — NPE at fireAsync, not at injection
 - GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
+- GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify

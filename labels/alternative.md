@@ -45,3 +45,4 @@
 - GE-20260706-8488d8: Quarkus Arc @Alternative does not suppress injection point validation of displaced beans
 - GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs
 - GE-20260707-f3bece: Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type
+- GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify

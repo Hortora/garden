@@ -1172,3 +1172,6 @@
 | GE-20260717-e2e95a | Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap | technique | 9/15 |
 | GE-20260717-1edd9b | CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends | technique | 9/15 |
 | GE-20260717-0489d1 | CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision | gotcha | 8/15 |
+| GE-20260718-522120 | Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest | gotcha | 10/15 |
+| GE-20260718-483ed8 | Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3 | gotcha | 8/15 |
+| GE-20260718-aeeb7b | Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify | technique | 9/15 |

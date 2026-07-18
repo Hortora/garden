@@ -361,3 +361,5 @@
 - GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers
 - GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends
 - GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
+- GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
+- GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
