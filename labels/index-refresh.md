@@ -1,0 +1,1 @@
+- GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass

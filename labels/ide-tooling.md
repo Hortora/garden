@@ -1,3 +1,4 @@
 - GE-20260712-1a82c4: ide_edit_member with member=className silently truncates Java interface/class files
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
+- GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass

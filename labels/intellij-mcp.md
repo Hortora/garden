@@ -20,3 +20,4 @@
 - GE-20260714-13b430: ide_insert_member reformat=true silently removes static imports
 - GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
 - GE-20260717-886249: IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync
+- GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass

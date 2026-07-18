@@ -34,3 +34,4 @@
 | GE-20260713-69afbe | IntelliJ MCP structural editing (ide_edit_member, ide_replace_member, ide_insert_member) does not support TypeScript | gotcha | 10/15 |
 | GE-20260714-13b430 | ide_insert_member reformat=true silently removes static imports | gotcha | 11/15 |
 | GE-20260717-67af88 | ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings | gotcha | 10/15 |
+| GE-20260718-b07bf8 | ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass | gotcha | 11/15 |
