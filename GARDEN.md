@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2180
+**Entries merged since last sweep:** 2181
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1782,6 +1782,7 @@
 - GE-20260718-522120 [Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest](jvm/GE-20260718-522120.md)
 - GE-20260718-483ed8 [Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3](jvm/GE-20260718-483ed8.md)
 - GE-20260718-aeeb7b [Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify](jvm/GE-20260718-aeeb7b.md)
+- GE-20260718-052fbc [SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI](jvm/GE-20260718-052fbc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

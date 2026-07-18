@@ -2,3 +2,4 @@
 - GE-20260421-1192cd: Expose @ApplicationScoped parsing logic as static package-private methods for zero-overhead unit testing
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
 - GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers
+- GE-20260718-052fbc: SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI

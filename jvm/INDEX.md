@@ -1175,3 +1175,4 @@
 | GE-20260718-522120 | Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest | gotcha | 10/15 |
 | GE-20260718-483ed8 | Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3 | gotcha | 8/15 |
 | GE-20260718-aeeb7b | Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify | technique | 9/15 |
+| GE-20260718-052fbc | SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI | gotcha | 10/15 |

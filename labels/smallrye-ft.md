@@ -1,0 +1,1 @@
+- GE-20260718-052fbc: SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI
