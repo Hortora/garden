@@ -1,1 +1,2 @@
 - GE-20260522-6786c3: el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters
+- GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't

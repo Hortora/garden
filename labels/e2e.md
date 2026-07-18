@@ -1,3 +1,4 @@
 - GE-20260429-07114f: PlaywrightBase BASE_URL hardcoded to 8081 breaks Quarkus random-port E2E tests
 - GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves
 - GE-20260501-9e8490: Playwright 1.52: <option> elements inside <select> are never 'visible' — waitFor() with default state times out even when option is in the DOM
+- GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
