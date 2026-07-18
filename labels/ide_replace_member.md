@@ -1,2 +1,3 @@
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
 - GE-20260713-2d1cad: ide_replace_member duplicates method signature when content includes annotations
+- GE-20260718-c23bb5: ide_replace_member duplicates method signature — inserts new body inside existing declaration
