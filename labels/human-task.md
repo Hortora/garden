@@ -1,1 +1,2 @@
 - GE-20260414-10d4da: CNCF Serverless Workflow CallableTaskBuilder.accept(Class) cannot distinguish custom callable names
+- GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path

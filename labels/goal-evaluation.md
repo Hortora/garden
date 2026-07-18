@@ -1,2 +1,1 @@
-- GE-20260604-38e09e: casehub-engine does not transition case to CaseStatus.WAITING when humanTask binding fires — case stays RUNNING
 - GE-20260718-02199f: CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success

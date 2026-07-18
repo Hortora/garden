@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2182
+**Entries merged since last sweep:** 2184
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -66,6 +66,8 @@
 - GE-20260706-56a75c [WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss](casehub-engine/GE-20260706-56a75c.md)
 - GE-20260717-f7dc41 [CaseHubRuntime.startCase() with parentCaseId bypasses sub-case lifecycle — no EventLog, no group tracking, no completion propagation](casehub-engine/GE-20260717-f7dc41.md)
 - GE-20260718-207fde [WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests](casehub-engine/GE-20260718-207fde.md)
+- GE-20260718-02199f [CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success](casehub-engine/GE-20260718-02199f.md)
+- GE-20260718-9eb2c0 [humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path](casehub-engine/GE-20260718-9eb2c0.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
