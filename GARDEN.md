@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2195
+**Entries merged since last sweep:** 2196
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -293,6 +293,7 @@
 - GE-20260617-ea8260 [TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid](java/GE-20260617-ea8260.md)
 - GE-20260421-cdfff1 [Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required](java/GE-20260421-cdfff1.md)
 - GE-20260714-a2ae5d [Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site](java/GE-20260714-a2ae5d.md)
+- GE-20260421-cdfff1 [Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope](java/GE-20260421-cdfff1.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)

@@ -71,3 +71,4 @@
 | GE-20260617-ea8260 | TimeUnit.DAYS.toMillis(Long.MAX_VALUE) overflows to negative — use MILLISECONDS to avoid | gotcha | 9/15 |
 | GE-20260421-cdfff1 | Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required | gotcha | 10/15 |
 | GE-20260714-a2ae5d | Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site | technique | 10/15 |
+| GE-20260421-cdfff1 | Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope | gotcha | 10/15 |

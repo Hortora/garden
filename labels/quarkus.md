@@ -667,3 +667,4 @@
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
 - GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
 - GE-20260718-d18dc0: H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently
+- GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope
