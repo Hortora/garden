@@ -1,1 +1,2 @@
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
+- GE-20260719-4db710: CSS Grid single-container virtual scroll — native spanning without position hacks

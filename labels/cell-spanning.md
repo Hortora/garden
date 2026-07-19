@@ -1,2 +1,1 @@
-- GE-20260706-7bb555: JSDOM clientHeight is always 0 — virtual scroll tests pass with wrong window size
 - GE-20260719-4db710: CSS Grid single-container virtual scroll — native spanning without position hacks
