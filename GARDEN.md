@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2196
+**Entries merged since last sweep:** 2197
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1791,6 +1791,7 @@
 - GE-20260719-1309d7 [Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper](jvm/GE-20260719-1309d7.md)
 - GE-20260719-59b809 [RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback](jvm/GE-20260719-59b809.md)
 - GE-20260719-8fe9cb [Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine](jvm/GE-20260719-8fe9cb.md)
+- GE-20260719-f5ccc9 [@ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy](jvm/GE-20260719-f5ccc9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

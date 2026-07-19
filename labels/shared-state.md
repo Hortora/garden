@@ -1,1 +1,2 @@
 - GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
+- GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
