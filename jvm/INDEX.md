@@ -1178,3 +1178,4 @@
 | GE-20260718-052fbc | SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI | gotcha | 10/15 |
 | GE-20260616-bdde66 | Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture | gotcha | 10/15 |
 | GE-20260718-d18dc0 | H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently | gotcha | 13/15 |
+| GE-20260719-1309d7 | Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper | technique | 9/15 |

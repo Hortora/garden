@@ -5,3 +5,4 @@
 - GE-20260602-e7824c: Convert sealed interface to enum when all variants become stateless after refactoring
 - GE-20260629-5d23ca: Maven -pl incremental build skips test-compile on non-targeted submodules — sealed interface switch errors stay hidden
 - GE-20260716-960319: Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType
+- GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper

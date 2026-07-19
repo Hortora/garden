@@ -26,3 +26,4 @@
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
 - GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
+- GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
