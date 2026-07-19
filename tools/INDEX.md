@@ -592,3 +592,4 @@
 | GE-20260717-34ba5f | IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found | gotcha | 10/15 |
 | GE-20260717-b31a92 | Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files | gotcha | 11/15 |
 | GE-20260717-074283 | GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy | gotcha | 9/15 |
+| GE-20260719-152534 | IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin | gotcha | 9/15 |

@@ -22,3 +22,4 @@
 - GE-20260714-cdd0f2: tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
+- GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin

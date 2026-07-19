@@ -2,3 +2,4 @@
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
 - GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass
+- GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin
