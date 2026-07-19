@@ -5,3 +5,4 @@
 - GE-20260614-b94048: SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality
 - GE-20260706-146e14: Retrieval benchmark DOMAIN_ABSENCE diagnosis is usually wrong — verify with grep before assuming corpus gaps
 - GE-20260708-d53278: Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion
+- GE-20260719-59b809: RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback

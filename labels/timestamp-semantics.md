@@ -1,0 +1,1 @@
+- GE-20260719-59b809: RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback
