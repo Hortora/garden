@@ -1182,3 +1182,4 @@
 | GE-20260719-59b809 | RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback | gotcha | 11/15 |
 | GE-20260719-8fe9cb | Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine | gotcha | 10/15 |
 | GE-20260719-f5ccc9 | @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy | gotcha | 10/15 |
+| GE-20260719-4e2784 | @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results | gotcha | 11/15 |

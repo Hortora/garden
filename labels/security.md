@@ -21,3 +21,4 @@
 - GE-20260703-8b71d9: Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies
 - GE-20260703-e4a6b0: Quarkus WebSockets Next silently ignores JAX-RS ContainerRequestFilter — use HttpUpgradeCheck for WebSocket auth
 - GE-20260705-002a78: Alpha network FilterNode sharing leaks events across tenants in multi-tenant subscription systems
+- GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results

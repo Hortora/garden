@@ -14,3 +14,4 @@
 - GE-20260707-76a6f4: @ObservesAsync concurrent entity updates lose writes without @DynamicUpdate
 - GE-20260713-cecee5: @Singleton StrategyResolver causes StackOverflowError when NamedStrategy bean injects StrategyResolver
 - GE-20260718-f7e5e6: CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch
+- GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results

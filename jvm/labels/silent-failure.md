@@ -7,3 +7,4 @@
 - GE-20260718-95e11e: CbrCaseMemoryStore.store() 6th parameter is caseType not scope — decompiled interface loses names, store succeeds but retrieveSimilar returns empty
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results

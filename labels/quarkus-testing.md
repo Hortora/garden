@@ -1,0 +1,1 @@
+- GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results

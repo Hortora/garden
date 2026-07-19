@@ -365,3 +365,4 @@
 - GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
 - GE-20260718-02199f: CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
+- GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results

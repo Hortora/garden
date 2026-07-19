@@ -59,3 +59,4 @@
 | GE-20260718-f7e5e6 | CDI Event.select() removes @Default qualifier — prevents double-processing for typed event dispatch | technique | 11/15 |
 | GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |
 | GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |
+| GE-20260719-4e2784 | @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results | gotcha | 11/15 |
