@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2186
+**Entries merged since last sweep:** 2187
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1786,6 +1786,7 @@
 - GE-20260718-aeeb7b [Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify](jvm/GE-20260718-aeeb7b.md)
 - GE-20260718-052fbc [SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI](jvm/GE-20260718-052fbc.md)
 - GE-20260616-bdde66 [Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture](jvm/GE-20260616-bdde66.md)
+- GE-20260718-d18dc0 [H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently](jvm/GE-20260718-d18dc0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
