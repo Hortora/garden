@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2188
+**Entries merged since last sweep:** 2189
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2418,6 +2418,7 @@
 - GE-20260717-b31a92 [Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files](tools/GE-20260717-b31a92.md)
 - GE-20260717-074283 [GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy](tools/GE-20260717-074283.md)
 - GE-20260719-152534 [IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin](tools/GE-20260719-152534.md)
+- GE-20260719-6b534f [CLAUDE.md git remote labels can silently disagree with actual git config](tools/GE-20260719-6b534f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

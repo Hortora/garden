@@ -166,3 +166,4 @@
 - GE-20260623-aeda6f: CRLF test fixture files silently normalized by git — tests pass without the fix
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
 - GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
+- GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config

@@ -1,1 +1,2 @@
 - GE-20260524-c66b05: Tutorial layer dependency labels can silently point at the wrong milestone
+- GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config

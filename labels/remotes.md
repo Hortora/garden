@@ -1,0 +1,1 @@
+- GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config

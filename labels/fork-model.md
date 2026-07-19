@@ -1,1 +1,2 @@
 - GE-20260505-d434ea: Claude Code doc subagents commit to wrong branch in fork model and make false branch state claims
+- GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config
