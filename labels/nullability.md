@@ -1,0 +1,1 @@
+- GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine

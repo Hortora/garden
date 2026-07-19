@@ -35,3 +35,4 @@
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
 - GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
 - GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy
+- GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine

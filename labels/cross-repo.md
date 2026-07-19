@@ -8,3 +8,4 @@
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
 - GE-20260712-cc5b6c: ROADMAP.md workspace artifact — cross-repo phased delivery with foundation priority signals
 - GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design
+- GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
