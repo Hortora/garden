@@ -595,3 +595,5 @@
 | GE-20260719-152534 | IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin | gotcha | 9/15 |
 | GE-20260719-6b534f | CLAUDE.md git remote labels can silently disagree with actual git config | gotcha | 10/15 |
 | GE-20260719-8c18fa | SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy | undocumented | 10/15 |
+| GE-20260719-ded0f1 | IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+) | gotcha | 13/15 |
+| GE-20260719-2152c0 | IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default | gotcha | 12/15 |

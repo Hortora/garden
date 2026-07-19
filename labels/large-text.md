@@ -1,0 +1,1 @@
+- GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)

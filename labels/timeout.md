@@ -11,3 +11,4 @@
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
 - GE-20260713-db0a2c: IntelliJ MCP edit tools hang indefinitely during dumb/indexing mode — ide_replace_text_in_file may silently succeed
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
+- GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)

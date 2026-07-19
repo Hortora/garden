@@ -23,3 +23,5 @@
 - GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass
 - GE-20260718-c23bb5: ide_replace_member duplicates method signature — inserts new body inside existing declaration
 - GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin
+- GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)
+- GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
