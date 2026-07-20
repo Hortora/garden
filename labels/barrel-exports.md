@@ -1,2 +1,1 @@
-- GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups

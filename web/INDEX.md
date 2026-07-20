@@ -103,3 +103,4 @@
 | GE-20260718-d22748 | Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI | gotcha | 11/15 |
 | GE-20260719-4db710 | CSS Grid single-container virtual scroll — native spanning without position hacks | technique | 11/15 |
 | GE-20260720-9c817e | Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos | technique | 9/15 |
+| GE-20260720-96fab8 | Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups | gotcha | 11/15 |

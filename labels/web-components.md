@@ -26,3 +26,4 @@
 - GE-20260717-6610cc: CSS positioning class defined but never applied — dead fallback looks complete
 - GE-20260717-8e8a6b: Vanilla Web Component setter-triggered render ignores callbacks set after dataSet
 - GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
+- GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups

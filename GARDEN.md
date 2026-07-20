@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2204
+**Entries merged since last sweep:** 2205
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2549,6 +2549,7 @@
 - GE-20260718-d22748 [Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI](web/GE-20260718-d22748.md)
 - GE-20260719-4db710 [CSS Grid single-container virtual scroll — native spanning without position hacks](web/GE-20260719-4db710.md)
 - GE-20260720-9c817e [Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos](web/GE-20260720-9c817e.md)
+- GE-20260720-96fab8 [Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups](web/GE-20260720-96fab8.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
