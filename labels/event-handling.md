@@ -1,0 +1,1 @@
+- GE-20260720-ebe1cd: onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors

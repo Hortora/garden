@@ -1,1 +1,2 @@
 - GE-20260513-2239f6: Claude Code Edit tool refuses to write through symlink paths — use readlink -f first
+- GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist

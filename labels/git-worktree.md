@@ -1,1 +1,2 @@
 - GE-20260420-81d143: Maven targets main project instead of worktree when shell CWD resets between tool calls
+- GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist

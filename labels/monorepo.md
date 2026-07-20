@@ -11,3 +11,4 @@
 - GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
+- GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist

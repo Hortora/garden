@@ -106,3 +106,4 @@
 | GE-20260720-96fab8 | Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups | gotcha | 11/15 |
 | GE-20260720-a60eec | Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls | gotcha | 11/15 |
 | GE-20260720-80f6e1 | LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion | gotcha | 10/15 |
+| GE-20260720-ebe1cd | onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors | gotcha | 10/15 |

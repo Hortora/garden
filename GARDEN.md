@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2210
+**Entries merged since last sweep:** 2212
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2435,6 +2435,7 @@
 - GE-20260719-ded0f1 [IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)](tools/GE-20260719-ded0f1.md)
 - GE-20260719-2152c0 [IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default](tools/GE-20260719-2152c0.md)
 - GE-20260720-95f762 [Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp](tools/GE-20260720-95f762.md)
+- GE-20260720-3573ac [Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist](tools/GE-20260720-3573ac.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2555,6 +2556,7 @@
 - GE-20260720-96fab8 [Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups](web/GE-20260720-96fab8.md)
 - GE-20260720-a60eec [Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls](web/GE-20260720-a60eec.md)
 - GE-20260720-80f6e1 [LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion](web/GE-20260720-80f6e1.md)
+- GE-20260720-ebe1cd [onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors](web/GE-20260720-ebe1cd.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
