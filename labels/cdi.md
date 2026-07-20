@@ -366,3 +366,4 @@
 - GE-20260718-02199f: CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
+- GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain

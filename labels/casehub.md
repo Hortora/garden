@@ -96,3 +96,4 @@
 - GE-20260717-0489d1: CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision
 - GE-20260718-02199f: CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success
 - GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path
+- GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain

@@ -3,3 +3,4 @@
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
 - GE-20260717-0489d1: CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision
+- GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain

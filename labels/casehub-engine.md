@@ -71,3 +71,4 @@
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
 - GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
+- GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain
