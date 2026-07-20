@@ -1,2 +1,1 @@
-- GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
 - GE-20260720-b6d2a8: ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches

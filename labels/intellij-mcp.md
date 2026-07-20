@@ -25,3 +25,4 @@
 - GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin
 - GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)
 - GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
+- GE-20260720-b6d2a8: ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches
