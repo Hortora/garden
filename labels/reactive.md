@@ -74,3 +74,4 @@
 - GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false
 - GE-20260714-b6ec65: Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests

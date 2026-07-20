@@ -1,2 +1,3 @@
 - GE-20260501-b1874b: Test CDI @Inject fields in plain unit tests by making them package-private and setting directly
 - GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
+- GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests

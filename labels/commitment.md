@@ -7,3 +7,4 @@
 - GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival
 - GE-20260609-e53d82: Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval
 - GE-20260623-92964b: RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState
+- GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests
