@@ -1,0 +1,1 @@
+- GE-20260720-95f762: Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp

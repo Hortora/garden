@@ -597,3 +597,4 @@
 | GE-20260719-8c18fa | SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy | undocumented | 10/15 |
 | GE-20260719-ded0f1 | IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+) | gotcha | 13/15 |
 | GE-20260719-2152c0 | IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default | gotcha | 12/15 |
+| GE-20260720-95f762 | Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp | gotcha | 11/15 |

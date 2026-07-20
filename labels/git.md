@@ -167,3 +167,4 @@
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
 - GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
 - GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config
+- GE-20260720-95f762: Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp

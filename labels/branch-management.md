@@ -1,1 +1,2 @@
 - GE-20260521-340888: git branch --merged reports cherry-picked branches as NOT merged — SHA-based, not content-based
+- GE-20260720-95f762: Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp

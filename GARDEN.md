@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2199
+**Entries merged since last sweep:** 2200
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2428,6 +2428,7 @@
 - GE-20260719-8c18fa [SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy](tools/GE-20260719-8c18fa.md)
 - GE-20260719-ded0f1 [IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)](tools/GE-20260719-ded0f1.md)
 - GE-20260719-2152c0 [IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default](tools/GE-20260719-2152c0.md)
+- GE-20260720-95f762 [Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp](tools/GE-20260720-95f762.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
