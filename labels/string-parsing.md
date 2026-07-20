@@ -1,2 +1,3 @@
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
 - GE-20260518-d1e4b2: Python paren-counting scripts miscount Java constructor args containing JSON string literals with internal commas
+- GE-20260720-19bcb3: Automated parameter insertion in Java method calls fails silently when arguments contain commas inside string literals

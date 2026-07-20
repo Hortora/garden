@@ -3,3 +3,4 @@
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
 - GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites
 - GE-20260713-2d1cad: ide_replace_member duplicates method signature when content includes annotations
+- GE-20260720-19bcb3: Automated parameter insertion in Java method calls fails silently when arguments contain commas inside string literals
