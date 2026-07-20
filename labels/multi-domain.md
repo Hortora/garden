@@ -1,0 +1,1 @@
+- GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains

@@ -1,2 +1,3 @@
 - GE-20260609-2254cc: MemoryQuery default 20-item CHRONOLOGICAL limit silently truncates time-window post-filters
 - GE-20260610-2c47fb: Querying a store with a brand-new entity ID always returns empty — filter on existing IDs only
+- GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains

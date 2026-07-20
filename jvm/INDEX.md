@@ -1186,3 +1186,4 @@
 | GE-20260720-6ea915 | CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain | gotcha | 8/15 |
 | GE-20260720-082267 | File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events | gotcha | 8/15 |
 | GE-20260720-f1ce81 | Quinoa package-manager-install=true requires node-version — blocks startup without it | gotcha | 8/15 |
+| GE-20260720-b7a8b9 | CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains | gotcha | 10/15 |
