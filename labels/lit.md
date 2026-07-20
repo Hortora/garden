@@ -12,3 +12,5 @@
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
 - GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank
 - GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
+- GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
+- GE-20260720-80f6e1: LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion

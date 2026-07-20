@@ -4,3 +4,4 @@
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution
 - GE-20260715-dad5e5: vitest watch mode in package.json test script hangs yarn workspaces foreach
+- GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls

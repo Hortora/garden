@@ -104,3 +104,5 @@
 | GE-20260719-4db710 | CSS Grid single-container virtual scroll — native spanning without position hacks | technique | 11/15 |
 | GE-20260720-9c817e | Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos | technique | 9/15 |
 | GE-20260720-96fab8 | Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups | gotcha | 11/15 |
+| GE-20260720-a60eec | Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls | gotcha | 11/15 |
+| GE-20260720-80f6e1 | LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion | gotcha | 10/15 |

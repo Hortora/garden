@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2208
+**Entries merged since last sweep:** 2210
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2553,6 +2553,8 @@
 - GE-20260719-4db710 [CSS Grid single-container virtual scroll — native spanning without position hacks](web/GE-20260719-4db710.md)
 - GE-20260720-9c817e [Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos](web/GE-20260720-9c817e.md)
 - GE-20260720-96fab8 [Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups](web/GE-20260720-96fab8.md)
+- GE-20260720-a60eec [Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls](web/GE-20260720-a60eec.md)
+- GE-20260720-80f6e1 [LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion](web/GE-20260720-80f6e1.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

@@ -1,2 +1,1 @@
-- GE-20260617-0b0dba: renderComponent before addEventListener silently loses all connectedCallback events — no data, no error
 - GE-20260720-80f6e1: LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion
