@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2200
+**Entries merged since last sweep:** 2201
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1794,6 +1794,7 @@
 - GE-20260719-f5ccc9 [@ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy](jvm/GE-20260719-f5ccc9.md)
 - GE-20260719-4e2784 [@TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results](jvm/GE-20260719-4e2784.md)
 - GE-20260720-6ea915 [CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain](jvm/GE-20260720-6ea915.md)
+- GE-20260720-082267 [File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events](jvm/GE-20260720-082267.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

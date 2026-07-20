@@ -1,0 +1,1 @@
+- GE-20260720-082267: File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events

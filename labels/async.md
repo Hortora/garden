@@ -45,3 +45,4 @@
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
+- GE-20260720-082267: File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events
