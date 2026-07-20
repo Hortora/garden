@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2201
+**Entries merged since last sweep:** 2203
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1795,6 +1795,7 @@
 - GE-20260719-4e2784 [@TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results](jvm/GE-20260719-4e2784.md)
 - GE-20260720-6ea915 [CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain](jvm/GE-20260720-6ea915.md)
 - GE-20260720-082267 [File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events](jvm/GE-20260720-082267.md)
+- GE-20260720-f1ce81 [Quinoa package-manager-install=true requires node-version — blocks startup without it](jvm/GE-20260720-f1ce81.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2546,6 +2547,7 @@
 - GE-20260718-b097b3 [Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't](web/GE-20260718-b097b3.md)
 - GE-20260718-d22748 [Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI](web/GE-20260718-d22748.md)
 - GE-20260719-4db710 [CSS Grid single-container virtual scroll — native spanning without position hacks](web/GE-20260719-4db710.md)
+- GE-20260720-9c817e [Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos](web/GE-20260720-9c817e.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

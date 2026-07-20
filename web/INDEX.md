@@ -102,3 +102,4 @@
 | GE-20260718-b097b3 | Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't | gotcha | 14/15 |
 | GE-20260718-d22748 | Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI | gotcha | 11/15 |
 | GE-20260719-4db710 | CSS Grid single-container virtual scroll — native spanning without position hacks | technique | 11/15 |
+| GE-20260720-9c817e | Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos | technique | 9/15 |

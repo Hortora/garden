@@ -1,2 +1,3 @@
 - GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses
 - GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses
+- GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos

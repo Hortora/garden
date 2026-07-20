@@ -3,3 +3,4 @@
 - GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports
 - GE-20260712-0b3483: Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path
 - GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution
+- GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos

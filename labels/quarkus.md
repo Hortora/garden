@@ -669,3 +669,4 @@
 - GE-20260718-d18dc0: H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
+- GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it

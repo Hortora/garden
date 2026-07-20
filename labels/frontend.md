@@ -1,0 +1,1 @@
+- GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it

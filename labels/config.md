@@ -25,3 +25,4 @@
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260612-c3b611: SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds
 - GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
+- GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
