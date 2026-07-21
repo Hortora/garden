@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2218
+**Entries merged since last sweep:** 2219
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -68,6 +68,7 @@
 - GE-20260718-207fde [WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests](casehub-engine/GE-20260718-207fde.md)
 - GE-20260718-02199f [CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success](casehub-engine/GE-20260718-02199f.md)
 - GE-20260718-9eb2c0 [humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path](casehub-engine/GE-20260718-9eb2c0.md)
+- GE-20260721-076719 [casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects](casehub-engine/GE-20260721-076719.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

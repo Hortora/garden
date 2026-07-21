@@ -3,3 +3,4 @@
 - GE-20260522-e6eb70: Maven 'cannot access' compile error from peer-repo deleted class — no direct import
 - GE-20260630-6c2515: CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
+- GE-20260721-076719: casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects

@@ -1,0 +1,1 @@
+- GE-20260721-076719: casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects

@@ -172,3 +172,4 @@
 - GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy
 - GE-20260717-886249: IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync
 - GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
+- GE-20260721-076719: casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects

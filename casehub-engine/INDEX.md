@@ -47,3 +47,4 @@
 | GE-20260718-207fde | WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests | gotcha | 8/15 |
 | GE-20260718-02199f | CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success | gotcha | 8/15 |
 | GE-20260718-9eb2c0 | humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path | gotcha | 9/15 |
+| GE-20260721-076719 | casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects | gotcha | 8/15 |
