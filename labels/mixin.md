@@ -1,3 +1,4 @@
 - GE-20260710-8f380d: TypeScript mixin Constructor<> intersection cannot express protected — methods must be public in return type
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
+- GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()

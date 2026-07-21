@@ -3,3 +3,4 @@
 - GE-20260531-1ec900: Quarkus ARC registers non-CDI abstract class as @Dependent bean when it declares @Observes and implements a CDI SPI interface
 - GE-20260617-6c1e8e: Jackson tree copy as polymorphic copy mechanism — avoids builder type-slicing
 - GE-20260706-2c6bba: casehub-ledger JpaLedgerEntry is abstract — use PlainLedgerEntry for test entry creation
+- GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()

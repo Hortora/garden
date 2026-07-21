@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2217
+**Entries merged since last sweep:** 2218
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2562,6 +2562,7 @@
 - GE-20260720-80f6e1 [LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion](web/GE-20260720-80f6e1.md)
 - GE-20260720-ebe1cd [onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors](web/GE-20260720-ebe1cd.md)
 - GE-20260721-c8a94f [EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection](web/GE-20260721-c8a94f.md)
+- GE-20260721-f094e6 [TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()](web/GE-20260721-f094e6.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
