@@ -1,0 +1,2 @@
+- GE-20260721-4c9cdb: git diff two-dot vs merge-base — inflated branch triage results
+- GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main

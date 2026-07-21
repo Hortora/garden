@@ -599,3 +599,6 @@
 | GE-20260719-2152c0 | IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default | gotcha | 12/15 |
 | GE-20260720-95f762 | Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp | gotcha | 11/15 |
 | GE-20260720-3573ac | Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist | gotcha | 12/15 |
+| GE-20260721-4c9cdb | git diff two-dot vs merge-base — inflated branch triage results | gotcha | 10/15 |
+| GE-20260721-94263a | Squash-merge rewrites the SHA that branch-closed stamps point to | gotcha | 11/15 |
+| GE-20260721-8e75bc | Merge-base content audit — line-level verification that branch changes landed on main | technique | 10/15 |

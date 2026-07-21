@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2219
+**Entries merged since last sweep:** 2222
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2441,6 +2441,9 @@
 - GE-20260719-2152c0 [IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default](tools/GE-20260719-2152c0.md)
 - GE-20260720-95f762 [Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp](tools/GE-20260720-95f762.md)
 - GE-20260720-3573ac [Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist](tools/GE-20260720-3573ac.md)
+- GE-20260721-4c9cdb [git diff two-dot vs merge-base — inflated branch triage results](tools/GE-20260721-4c9cdb.md)
+- GE-20260721-94263a [Squash-merge rewrites the SHA that branch-closed stamps point to](tools/GE-20260721-94263a.md)
+- GE-20260721-8e75bc [Merge-base content audit — line-level verification that branch changes landed on main](tools/GE-20260721-8e75bc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

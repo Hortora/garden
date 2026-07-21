@@ -1,0 +1,1 @@
+- GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main

@@ -7,3 +7,4 @@
 - GE-20260524-ce0ad3: git diff --name-only main..branch counts main's newer files as missing from old branches
 - GE-20260524-b0a4d9: marked.js v9 paragraph tokens have rawLines=0 — annotateRendered silently skips all paragraphs
 - GE-20260521-cb1eea: git diff A...B (three-dot) shows branch's changes since divergence — not what's missing from main
+- GE-20260721-4c9cdb: git diff two-dot vs merge-base — inflated branch triage results

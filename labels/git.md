@@ -168,3 +168,6 @@
 - GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
 - GE-20260719-6b534f: CLAUDE.md git remote labels can silently disagree with actual git config
 - GE-20260720-95f762: Commits added to a branch after squash-to-main are silently orphaned by branch-closed stamp
+- GE-20260721-4c9cdb: git diff two-dot vs merge-base — inflated branch triage results
+- GE-20260721-94263a: Squash-merge rewrites the SHA that branch-closed stamps point to
+- GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main

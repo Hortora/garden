@@ -1,0 +1,1 @@
+- GE-20260721-94263a: Squash-merge rewrites the SHA that branch-closed stamps point to
