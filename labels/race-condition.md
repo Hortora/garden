@@ -18,3 +18,4 @@
 - GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL
 - GE-20260704-294d67: Engine WorkerRecoveryCoordinator fires at @Priority(22) — resolvers initialized at @Priority(2010) are empty during recovery, silently dropping events
 - GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
+- GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection

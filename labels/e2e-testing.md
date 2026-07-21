@@ -1,0 +1,1 @@
+- GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection

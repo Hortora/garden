@@ -15,3 +15,4 @@
 - GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
 - GE-20260720-80f6e1: LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion
 - GE-20260720-ebe1cd: onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors
+- GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection

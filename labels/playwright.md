@@ -27,3 +27,4 @@
 - GE-20260710-ddf617: IntelliJ MCP ide_search_text misses strings split across Java string concatenation
 - GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank
 - GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
+- GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
