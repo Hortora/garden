@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2214
+**Entries merged since last sweep:** 2215
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -203,6 +203,7 @@
 - GE-20260718-b07bf8 [ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass](intellij-platform/GE-20260718-b07bf8.md)
 - GE-20260718-c23bb5 [ide_replace_member duplicates method signature — inserts new body inside existing declaration](intellij-platform/GE-20260718-c23bb5.md)
 - GE-20260720-b6d2a8 [ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches](intellij-platform/GE-20260720-b6d2a8.md)
+- GE-20260721-435df9 [IntelliJ MCP ide_create_file times out on large content (80+ lines)](intellij-platform/GE-20260721-435df9.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
