@@ -72,3 +72,4 @@
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
 - GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
 - GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain
+- GE-20260721-4564db: CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically

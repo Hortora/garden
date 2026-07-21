@@ -1189,3 +1189,4 @@
 | GE-20260720-b7a8b9 | CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains | gotcha | 10/15 |
 | GE-20260720-19bcb3 | Automated parameter insertion in Java method calls fails silently when arguments contain commas inside string literals | gotcha | 8/15 |
 | GE-20260720-da57c7 | InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests | gotcha | 11/15 |
+| GE-20260721-4564db | CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically | gotcha | 9/15 |
