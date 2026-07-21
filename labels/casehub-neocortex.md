@@ -1,1 +1,2 @@
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
+- GE-20260721-621a64: CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only

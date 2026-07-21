@@ -1,2 +1,1 @@
-- GE-20260423-037747: quarkus.flyway.out-of-order=true required when Testcontainers DB is reused across runs with RYUK disabled
 - GE-20260721-621a64: CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only

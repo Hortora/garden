@@ -5,3 +5,4 @@
 - GE-20260717-0489d1: CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision
 - GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain
 - GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains
+- GE-20260721-621a64: CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only
