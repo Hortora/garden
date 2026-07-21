@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2216
+**Entries merged since last sweep:** 2217
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1803,6 +1803,7 @@
 - GE-20260720-da57c7 [InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests](jvm/GE-20260720-da57c7.md)
 - GE-20260721-4564db [CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically](jvm/GE-20260721-4564db.md)
 - GE-20260721-621a64 [CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only](jvm/GE-20260721-621a64.md)
+- GE-20260721-265fc3 [H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests](jvm/GE-20260721-265fc3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

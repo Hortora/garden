@@ -1,2 +1,1 @@
-- GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests

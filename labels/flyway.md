@@ -47,3 +47,4 @@
 - GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
 - GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
 - GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
+- GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
