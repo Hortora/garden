@@ -602,3 +602,4 @@
 | GE-20260721-4c9cdb | git diff two-dot vs merge-base — inflated branch triage results | gotcha | 10/15 |
 | GE-20260721-94263a | Squash-merge rewrites the SHA that branch-closed stamps point to | gotcha | 11/15 |
 | GE-20260721-8e75bc | Merge-base content audit — line-level verification that branch changes landed on main | technique | 10/15 |
+| GE-20260722-447c98 | IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing | gotcha | 9/15 |

@@ -13,3 +13,4 @@
 - GE-20260713-2cfaaf: IntelliJ MCP Write Tools Can Time Out Yet Still Apply — Retry Causes Duplicate Content
 - GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
+- GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
