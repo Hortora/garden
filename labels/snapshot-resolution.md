@@ -1,0 +1,1 @@
+- GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote

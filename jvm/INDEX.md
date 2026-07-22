@@ -1192,3 +1192,4 @@
 | GE-20260721-4564db | CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically | gotcha | 9/15 |
 | GE-20260721-621a64 | CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only | gotcha | 10/15 |
 | GE-20260721-265fc3 | H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests | gotcha | 11/15 |
+| GE-20260722-26770e | Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote | gotcha | 11/15 |

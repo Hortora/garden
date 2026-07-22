@@ -105,3 +105,4 @@
 - GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests
 - GE-20260720-b6d2a8: ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches
 - GE-20260721-4564db: CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically
+- GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
