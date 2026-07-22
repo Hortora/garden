@@ -2,3 +2,4 @@
 - GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
 - GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
 - GE-20260607-7d0aa8: Mockito when() stubs with N any() matchers silently fail to match an N+1-param overload — returns null, NPE attributed to production code
+- GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine

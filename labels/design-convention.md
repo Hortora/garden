@@ -1,0 +1,1 @@
+- GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine

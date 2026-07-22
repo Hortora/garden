@@ -13,3 +13,4 @@
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
+- GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores

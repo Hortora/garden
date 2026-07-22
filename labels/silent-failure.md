@@ -106,3 +106,4 @@
 - GE-20260720-b6d2a8: ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches
 - GE-20260721-4564db: CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
+- GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores

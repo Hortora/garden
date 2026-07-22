@@ -1,1 +1,2 @@
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
+- GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine

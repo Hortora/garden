@@ -1,0 +1,1 @@
+- GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores

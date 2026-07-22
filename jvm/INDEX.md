@@ -1193,3 +1193,5 @@
 | GE-20260721-621a64 | CBR CategoricalList schema change silently breaks feature storage — validator catches at query time only | gotcha | 10/15 |
 | GE-20260721-265fc3 | H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests | gotcha | 11/15 |
 | GE-20260722-26770e | Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote | gotcha | 11/15 |
+| GE-20260722-a9b61b | ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores | gotcha | 9/15 |
+| GE-20260722-cd222c | NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine | convention | 8/15 |

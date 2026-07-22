@@ -2,3 +2,5 @@
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race
 - GE-20260717-0489d1: CbrQuery.of() and CbrCaseMemoryStore.store() gained mandatory Path scope parameter — silent SNAPSHOT break with JAX-RS Path collision
 - GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains
+- GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores
+- GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine
