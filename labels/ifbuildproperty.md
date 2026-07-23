@@ -1,2 +1,3 @@
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
 - GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
+- GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050

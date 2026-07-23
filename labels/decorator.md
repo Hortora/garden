@@ -4,3 +4,4 @@
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
 - GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
+- GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain

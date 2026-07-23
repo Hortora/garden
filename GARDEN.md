@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2228
+**Entries merged since last sweep:** 2230
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1808,6 +1808,8 @@
 - GE-20260722-26770e [Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote](jvm/GE-20260722-26770e.md)
 - GE-20260722-a9b61b [ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores](jvm/GE-20260722-a9b61b.md)
 - GE-20260722-cd222c [NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine](jvm/GE-20260722-cd222c.md)
+- GE-20260723-e19b4a [CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain](jvm/GE-20260723-e19b4a.md)
+- GE-20260723-64e384 [SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050](jvm/GE-20260723-64e384.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

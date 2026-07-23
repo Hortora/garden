@@ -1,0 +1,1 @@
+- GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain

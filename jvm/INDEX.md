@@ -1195,3 +1195,5 @@
 | GE-20260722-26770e | Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote | gotcha | 11/15 |
 | GE-20260722-a9b61b | ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores | gotcha | 9/15 |
 | GE-20260722-cd222c | NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine | convention | 8/15 |
+| GE-20260723-e19b4a | CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain | gotcha | 9/15 |
+| GE-20260723-64e384 | SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050 | gotcha | 8/15 |

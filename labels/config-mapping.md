@@ -8,3 +8,4 @@
 - GE-20260618-979c68: @ConfigMapping strict validation rejects properties consumed only by @IfBuildProperty under the same prefix
 - GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation
 - GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties
+- GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050
