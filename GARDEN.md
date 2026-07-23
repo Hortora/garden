@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2231
+**Entries merged since last sweep:** 2232
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1811,6 +1811,7 @@
 - GE-20260722-cd222c [NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine](jvm/GE-20260722-cd222c.md)
 - GE-20260723-e19b4a [CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain](jvm/GE-20260723-e19b4a.md)
 - GE-20260723-64e384 [SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050](jvm/GE-20260723-64e384.md)
+- GE-20260723-5d8f51 [JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses](jvm/GE-20260723-5d8f51.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

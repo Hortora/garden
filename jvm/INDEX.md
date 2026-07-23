@@ -1197,3 +1197,4 @@
 | GE-20260722-cd222c | NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine | convention | 8/15 |
 | GE-20260723-e19b4a | CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain | gotcha | 9/15 |
 | GE-20260723-64e384 | SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050 | gotcha | 8/15 |
+| GE-20260723-5d8f51 | JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses | gotcha | 11/15 |
