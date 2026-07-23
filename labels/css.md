@@ -1,3 +1,4 @@
 - GE-20260506-01e78e: Playwright bounding_box() excludes CSS margins — margin-caused gaps invisible to bbox measurements
 - GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
 - GE-20260710-136291: Lit css tagged template rejects raw strings — must use css`` result not backtick strings
+- GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
