@@ -1198,3 +1198,4 @@
 | GE-20260723-e19b4a | CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain | gotcha | 9/15 |
 | GE-20260723-64e384 | SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050 | gotcha | 8/15 |
 | GE-20260723-5d8f51 | JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses | gotcha | 11/15 |
+| GE-20260723-912810 | ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads | technique | 8/15 |

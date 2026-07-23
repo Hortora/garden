@@ -673,3 +673,4 @@
 - GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests
 - GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain
 - GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050
+- GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads

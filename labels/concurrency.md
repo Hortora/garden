@@ -41,3 +41,4 @@
 - GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience
 - GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
 - GE-20260720-082267: File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events
+- GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads
