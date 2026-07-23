@@ -57,3 +57,4 @@
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260717-34ba5f: IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
+- GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk

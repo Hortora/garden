@@ -5,3 +5,4 @@
 - GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents
 - GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
+- GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk

@@ -5,3 +5,4 @@
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260614-4ec509: Mutiny Uni.join().all() has no partial-success mode — andCollectFailures still throws
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
+- GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk

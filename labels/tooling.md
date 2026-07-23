@@ -13,3 +13,4 @@
 - GE-20260613-8845fa: flyway_scan.py returns globally-safe V-number, not per-module — must cross-check FLYWAY.md for module ranges
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
+- GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
