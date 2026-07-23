@@ -27,3 +27,4 @@
 - GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
 - GE-20260720-b6d2a8: ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
+- GE-20260723-79f7b1: IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target

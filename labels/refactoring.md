@@ -31,3 +31,4 @@
 - GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments
 - GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)
 - GE-20260720-19bcb3: Automated parameter insertion in Java method calls fails silently when arguments contain commas inside string literals
+- GE-20260723-79f7b1: IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target

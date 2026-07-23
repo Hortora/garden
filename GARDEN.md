@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2227
+**Entries merged since last sweep:** 2228
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2448,6 +2448,7 @@
 - GE-20260721-94263a [Squash-merge rewrites the SHA that branch-closed stamps point to](tools/GE-20260721-94263a.md)
 - GE-20260721-8e75bc [Merge-base content audit — line-level verification that branch changes landed on main](tools/GE-20260721-8e75bc.md)
 - GE-20260722-447c98 [IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing](tools/GE-20260722-447c98.md)
+- GE-20260723-79f7b1 [IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target](tools/GE-20260723-79f7b1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
