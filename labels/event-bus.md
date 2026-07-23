@@ -7,3 +7,5 @@
 - GE-20260618-a50133: Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed
 - GE-20260629-670471: casehub-engine writes two CASE_FAULTED EventLog entries for non-goal-triggered faults — consumers must disambiguate
 - GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
+- GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
+- GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers

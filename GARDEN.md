@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2234
+**Entries merged since last sweep:** 2236
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1813,6 +1813,8 @@
 - GE-20260723-64e384 [SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050](jvm/GE-20260723-64e384.md)
 - GE-20260723-5d8f51 [JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses](jvm/GE-20260723-5d8f51.md)
 - GE-20260723-912810 [ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads](jvm/GE-20260723-912810.md)
+- GE-20260724-dc9748 [@RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent](jvm/GE-20260724-dc9748.md)
+- GE-20260724-7b07f5 [Replace event bus request-reply with direct injection for single-consumer blocking handlers](jvm/GE-20260724-7b07f5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

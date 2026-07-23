@@ -674,3 +674,5 @@
 - GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain
 - GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050
 - GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads
+- GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
+- GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers

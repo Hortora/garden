@@ -1,0 +1,2 @@
+- GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
+- GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers
