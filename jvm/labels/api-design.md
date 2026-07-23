@@ -1,2 +1,3 @@
 - GE-20260718-95e11e: CbrCaseMemoryStore.store() 6th parameter is caseType not scope — decompiled interface loses names, store succeeds but retrieveSimilar returns empty
 - GE-20260718-bb81b3: MVEL3 list() context requires position-indexed element type declarations — cannot use like Map context
+- GE-20260723-3c8b9c: Adding a leading parameter to a Java varargs factory creates a silent semantic change — no compile error

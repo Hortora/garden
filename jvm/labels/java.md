@@ -6,3 +6,4 @@
 - GE-20260531-935576: Python re.sub [^)]+ breaks on nested method calls during Java source migration
 - GE-20260531-22e747: Adding a component to a Java record breaks every construction site — no compatible migration path
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
+- GE-20260723-3c8b9c: Adding a leading parameter to a Java varargs factory creates a silent semantic change — no compile error

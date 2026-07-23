@@ -60,3 +60,4 @@
 | GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |
 | GE-20260718-2fb8eb | StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected | gotcha | 13/15 |
 | GE-20260719-4e2784 | @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results | gotcha | 11/15 |
+| GE-20260723-3c8b9c | Adding a leading parameter to a Java varargs factory creates a silent semantic change — no compile error | gotcha | 11/15 |
