@@ -1,1 +1,2 @@
 - GE-20260520-9807cd: git stash on feature branch: stash pop returns you to that branch — subsequent commits land on it, not main
+- GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree

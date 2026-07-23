@@ -1,0 +1,1 @@
+- GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree
