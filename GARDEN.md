@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2236
+**Entries merged since last sweep:** 2238
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1815,6 +1815,7 @@
 - GE-20260723-912810 [ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads](jvm/GE-20260723-912810.md)
 - GE-20260724-dc9748 [@RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent](jvm/GE-20260724-dc9748.md)
 - GE-20260724-7b07f5 [Replace event bus request-reply with direct injection for single-consumer blocking handlers](jvm/GE-20260724-7b07f5.md)
+- GE-20260724-115ce0 [Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive](jvm/GE-20260724-115ce0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2457,6 +2458,7 @@
 - GE-20260722-447c98 [IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing](tools/GE-20260722-447c98.md)
 - GE-20260723-79f7b1 [IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target](tools/GE-20260723-79f7b1.md)
 - GE-20260723-30060e [IntelliJ MCP edits from parallel subagents silently fail to flush to disk](tools/GE-20260723-30060e.md)
+- GE-20260724-c35265 [IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file](tools/GE-20260724-c35265.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

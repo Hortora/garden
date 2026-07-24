@@ -97,3 +97,4 @@
 - GE-20260718-02199f: CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success
 - GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path
 - GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain
+- GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive

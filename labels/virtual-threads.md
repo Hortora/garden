@@ -11,3 +11,4 @@
 - GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads
 - GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
 - GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers
+- GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive

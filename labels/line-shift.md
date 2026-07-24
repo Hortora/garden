@@ -1,2 +1,1 @@
-- GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree
 - GE-20260724-c35265: IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file

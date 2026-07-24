@@ -1,0 +1,1 @@
+- GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive

@@ -29,3 +29,4 @@
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
 - GE-20260723-79f7b1: IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target
 - GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree
+- GE-20260724-c35265: IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file

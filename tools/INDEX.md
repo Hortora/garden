@@ -605,3 +605,4 @@
 | GE-20260722-447c98 | IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing | gotcha | 9/15 |
 | GE-20260723-79f7b1 | IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target | gotcha | 8/15 |
 | GE-20260723-30060e | IntelliJ MCP edits from parallel subagents silently fail to flush to disk | gotcha | 11/15 |
+| GE-20260724-c35265 | IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file | gotcha | 9/15 |
