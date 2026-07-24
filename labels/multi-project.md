@@ -1,0 +1,1 @@
+- GE-20260724-04bc63: IntelliJ MCP ide_search_text returns cross-project results regardless of project_path

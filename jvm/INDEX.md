@@ -1205,3 +1205,4 @@
 | GE-20260724-ce18be | SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation | gotcha | 10/15 |
 | GE-20260724-b3e9a6 | WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed | gotcha | 11/15 |
 | GE-20260724-20ab99 | FaultPolicy consumer-facing utilities belong in desiredstate-api, not runtime — zero-dep test | technique | 9/15 |
+| GE-20260724-04bc63 | IntelliJ MCP ide_search_text returns cross-project results regardless of project_path | gotcha | 13/15 |

@@ -7,3 +7,4 @@
 - GE-20260629-6f1d64: Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required
 - GE-20260701-4ee3fd: casehub-engine-persistence-memory must be compile scope in harness apps — test scope causes 33 CDI deployment failures
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
+- GE-20260724-04bc63: IntelliJ MCP ide_search_text returns cross-project results regardless of project_path
