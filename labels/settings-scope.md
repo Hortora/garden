@@ -1,0 +1,1 @@
+- GE-20260724-ce18be: SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation

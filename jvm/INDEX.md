@@ -1202,3 +1202,6 @@
 | GE-20260724-dc9748 | @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent | gotcha | 14/15 |
 | GE-20260724-7b07f5 | Replace event bus request-reply with direct injection for single-consumer blocking handlers | technique | 11/15 |
 | GE-20260724-115ce0 | Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive | gotcha | 10/15 |
+| GE-20260724-ce18be | SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation | gotcha | 10/15 |
+| GE-20260724-b3e9a6 | WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed | gotcha | 11/15 |
+| GE-20260724-20ab99 | FaultPolicy consumer-facing utilities belong in desiredstate-api, not runtime — zero-dep test | technique | 9/15 |

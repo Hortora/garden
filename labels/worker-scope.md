@@ -1,0 +1,1 @@
+- GE-20260724-b3e9a6: WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed

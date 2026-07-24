@@ -4,3 +4,4 @@
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260607-3611a2: Preferences is not a CDI bean — inject PreferenceProvider and call .resolve(SettingsScope)
 - GE-20260708-1ed5f9: DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences
+- GE-20260724-ce18be: SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation

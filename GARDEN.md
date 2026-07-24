@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2239
+**Entries merged since last sweep:** 2242
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1817,6 +1817,9 @@
 - GE-20260724-dc9748 [@RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent](jvm/GE-20260724-dc9748.md)
 - GE-20260724-7b07f5 [Replace event bus request-reply with direct injection for single-consumer blocking handlers](jvm/GE-20260724-7b07f5.md)
 - GE-20260724-115ce0 [Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive](jvm/GE-20260724-115ce0.md)
+- GE-20260724-ce18be [SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation](jvm/GE-20260724-ce18be.md)
+- GE-20260724-b3e9a6 [WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed](jvm/GE-20260724-b3e9a6.md)
+- GE-20260724-20ab99 [FaultPolicy consumer-facing utilities belong in desiredstate-api, not runtime — zero-dep test](jvm/GE-20260724-20ab99.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

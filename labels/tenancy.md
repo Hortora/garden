@@ -7,3 +7,4 @@
 - GE-20260619-479b69: Static entity factory creates JPA child entities without multi-tenancy fields — NOT NULL INSERT fails
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
 - GE-20260629-59082a: InMemoryWorkItemStore.scan() filters by currentPrincipal.tenancyId() — explicit tenancyId on request makes WorkItems invisible
+- GE-20260724-ce18be: SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation

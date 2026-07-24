@@ -1,2 +1,3 @@
 - GE-20260625-d09c57: Worker migration requires three-module dependency split — worker-api + engine-flow + engine-api
 - GE-20260626-4a4790: casehub-worker WorkerFunction interface version coupled to engine branch — #543 vs #567 produce incompatible APIs
+- GE-20260724-b3e9a6: WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed

@@ -1,0 +1,1 @@
+- GE-20260724-20ab99: FaultPolicy consumer-facing utilities belong in desiredstate-api, not runtime — zero-dep test
