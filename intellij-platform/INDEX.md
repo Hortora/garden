@@ -39,3 +39,4 @@
 | GE-20260720-b6d2a8 | ide_replace_text_in_file silently returns 0 replacements when multi-line search text has whitespace mismatches | gotcha | 10/15 |
 | GE-20260721-435df9 | IntelliJ MCP ide_create_file times out on large content (80+ lines) | gotcha | 9/15 |
 | GE-20260723-fbbdb6 | IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree | gotcha | 8/15 |
+| GE-20260724-7ac683 | IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree | gotcha | 13/15 |
