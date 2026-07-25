@@ -110,3 +110,4 @@
 | GE-20260721-c8a94f | EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection | gotcha | 8/15 |
 | GE-20260721-f094e6 | TypeScript mixin rejects abstract class — Constructor<T> requires concrete new() | gotcha | 9/15 |
 | GE-20260723-09e6d9 | DOM structure tests pass while CSS layout is wrong — Web Component test gap | gotcha | 10/15 |
+| GE-20260725-174b2c | vitest mockResolvedValue reuses same Response object — body read fails on second fetch | gotcha | 8/15 |

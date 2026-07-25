@@ -2,3 +2,4 @@
 - GE-20260705-1cda0b: Empty string is a valid URL base but fails JavaScript truthiness checks — components silently skip data loading
 - GE-20260708-68c961: response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()
 - GE-20260710-fe9f97: globalThis.fetch override in SPA page components clobbers mock routing on navigation
+- GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch

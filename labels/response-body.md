@@ -1,1 +1,2 @@
 - GE-20260708-68c961: response.json().catch() fails when json property is undefined — synchronous TypeError bypasses .catch()
+- GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
