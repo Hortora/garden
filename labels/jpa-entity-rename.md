@@ -1,1 +1,2 @@
 - GE-20260630-91be72: IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated
+- GE-20260630-91be72: IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated
