@@ -1210,3 +1210,4 @@
 | GE-20260724-a0c794 | quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed | technique | 9/15 |
 | GE-20260725-05a85e | Shared algorithm contract widening — activating a previously-ignored parameter silently breaks callers | technique | 12/15 |
 | GE-20260725-7f599e | Fusion strategy properties derive authority signal integration mode — don't add a separate config axis | technique | 10/15 |
+| GE-20260725-a4aa6c | CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content | gotcha | 8/15 |
