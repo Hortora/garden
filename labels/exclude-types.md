@@ -16,3 +16,4 @@
 - GE-20260626-a37306: Library jar with @ApplicationScoped beans silently overrides @DefaultBean alternatives in consuming app
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260629-e6460e: quarkus.arc.selected-alternatives silently ignores %dev. profile overrides — use exclude-types instead
+- GE-20260724-a0c794: quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed
