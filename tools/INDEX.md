@@ -608,3 +608,4 @@
 | GE-20260724-c35265 | IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file | gotcha | 9/15 |
 | GE-20260725-cae3ad | Query/document expansion harms strong retrievers — don't expand when your baseline is already good | technique | 13/15 |
 | GE-20260713-905e2e | IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven | gotcha | 10/15 |
+| GE-20260725-9f2e4b | Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows | technique | 10/15 |

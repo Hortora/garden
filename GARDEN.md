@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2250
+**Entries merged since last sweep:** 2251
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2470,6 +2470,7 @@
 - GE-20260724-c35265 [IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file](tools/GE-20260724-c35265.md)
 - GE-20260725-cae3ad [Query/document expansion harms strong retrievers — don't expand when your baseline is already good](tools/GE-20260725-cae3ad.md)
 - GE-20260713-905e2e [IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven](tools/GE-20260713-905e2e.md)
+- GE-20260725-9f2e4b [Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows](tools/GE-20260725-9f2e4b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

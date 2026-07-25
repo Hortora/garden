@@ -9,3 +9,4 @@
 - GE-20260430-01fecd: Parallel agents with domain-split substitution tables for large-scale consistent project-wide renames
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
 - GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
+- GE-20260725-9f2e4b: Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows
