@@ -175,3 +175,4 @@
 - GE-20260721-076719: casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
+- GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven

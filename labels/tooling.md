@@ -14,3 +14,4 @@
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
+- GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven

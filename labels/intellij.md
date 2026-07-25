@@ -54,3 +54,4 @@
 - GE-20260717-34ba5f: IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
+- GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
