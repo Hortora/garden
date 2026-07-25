@@ -32,3 +32,4 @@
 - GE-20260724-c35265: IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file
 - GE-20260724-7ac683: IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree
 - GE-20260724-04bc63: IntelliJ MCP ide_search_text returns cross-project results regardless of project_path
+- GE-20260718-b07bf8: ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass
