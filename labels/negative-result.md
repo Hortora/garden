@@ -1,2 +1,1 @@
-- GE-20260504-9c9b01: Claude Code permission allowlist does not suppress the 'Contains expansion' shell safety prompt
 - GE-20260725-cae3ad: Query/document expansion harms strong retrievers — don't expand when your baseline is already good

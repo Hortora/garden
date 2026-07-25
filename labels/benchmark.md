@@ -1,3 +1,4 @@
 - GE-20260616-bb1a1b: @QuarkusTest benchmark silently loads MockEngine — EmulatedGame throughput invisible from GameLoopBenchmarkTest
 - GE-20260623-ef0e7c: QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement
 - GE-20260709-19a59a: Excluding unscored entries from retrieval precision silently inflates precision for noisier methods
+- GE-20260725-cae3ad: Query/document expansion harms strong retrievers — don't expand when your baseline is already good

@@ -1,1 +1,2 @@
 - GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access
+- GE-20260725-cae3ad: Query/document expansion harms strong retrievers — don't expand when your baseline is already good
