@@ -1,0 +1,1 @@
+- GE-20260725-05a85e: Shared algorithm contract widening — activating a previously-ignored parameter silently breaks callers

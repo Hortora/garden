@@ -1,0 +1,1 @@
+- GE-20260725-7f599e: Fusion strategy properties derive authority signal integration mode — don't add a separate config axis

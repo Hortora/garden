@@ -1,2 +1,3 @@
 - GE-20260504-cb6206: Split evaluation dimensions into purpose-specific tables to reveal candidate shape, not just rank
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
+- GE-20260725-7f599e: Fusion strategy properties derive authority signal integration mode — don't add a separate config axis

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2247
+**Entries merged since last sweep:** 2249
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1823,6 +1823,8 @@
 - GE-20260724-04bc63 [IntelliJ MCP ide_search_text returns cross-project results regardless of project_path](jvm/GE-20260724-04bc63.md)
 - GE-20260724-f93ae3 [Cross-repo SNAPSHOT removal breaks CDI silently in downstream apps](jvm/GE-20260724-f93ae3.md)
 - GE-20260724-a0c794 [quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed](jvm/GE-20260724-a0c794.md)
+- GE-20260725-05a85e [Shared algorithm contract widening — activating a previously-ignored parameter silently breaks callers](jvm/GE-20260725-05a85e.md)
+- GE-20260725-7f599e [Fusion strategy properties derive authority signal integration mode — don't add a separate config axis](jvm/GE-20260725-7f599e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
