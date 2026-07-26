@@ -1,2 +1,1 @@
-- GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol

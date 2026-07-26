@@ -1214,3 +1214,4 @@
 | GE-20260726-f2a554 | ONNX transformer batch size changes embedding output — padding/attention mask differences | gotcha | 12/15 |
 | GE-20260726-523784 | Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters | technique | 11/15 |
 | GE-20260726-bc40f9 | ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar | gotcha | 8/15 |
+| GE-20260726-7213f2 | Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol | gotcha | 12/15 |

@@ -2,3 +2,4 @@
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope
 - GE-20260717-8f99a0: Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException
 - GE-20260717-e2e95a: Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap
+- GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol

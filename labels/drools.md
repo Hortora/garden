@@ -14,3 +14,4 @@
 - GE-20260706-0a5c4e: drools-reliability session ID counter resets to 0 after TestableStorageManager.restart() — causes silent recovery failures
 - GE-20260717-8f99a0: Drools Rule Unit tests require @QuarkusTest — plain JUnit RuleUnitProvider throws UnsupportedOperationException
 - GE-20260717-e2e95a: Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap
+- GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
