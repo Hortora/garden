@@ -1,2 +1,3 @@
 - GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
 - GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers
+- GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()

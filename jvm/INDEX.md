@@ -1221,3 +1221,4 @@
 | GE-20260726-d74620 | Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops | gotcha | 9/15 |
 | GE-20260726-00e4df | Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure | gotcha | 8/15 |
 | GE-20260726-fd29f7 | Google API client library dependency convergence — don't declare transitive deps explicitly | gotcha | 8/15 |
+| GE-20260726-53f142 | ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize() | gotcha | 10/15 |
