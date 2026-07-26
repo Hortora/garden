@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2261
+**Entries merged since last sweep:** 2263
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1835,6 +1835,8 @@
 - GE-20260726-5c7a38 [ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently](jvm/GE-20260726-5c7a38.md)
 - GE-20260726-3c0da2 [COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null](jvm/GE-20260726-3c0da2.md)
 - GE-20260726-4b51ff [QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal](jvm/GE-20260726-4b51ff.md)
+- GE-20260726-d74620 [Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops](jvm/GE-20260726-d74620.md)
+- GE-20260726-00e4df [Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure](jvm/GE-20260726-00e4df.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

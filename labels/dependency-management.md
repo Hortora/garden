@@ -6,3 +6,4 @@
 - GE-20260618-2a7b8a: quarkus-camel-bom at root pom forces Jetty 12 across the entire build — breaks WireMock 3.x
 - GE-20260629-6f1d64: Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required
 - GE-20260709-137b8e: Peer Tier 1 API modules sharing utility code — extract a zero-dep Tier 1 utility module
+- GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops

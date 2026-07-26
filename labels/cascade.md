@@ -1,3 +1,4 @@
 - GE-20260428-096e90: JPA FK without CASCADE requires manual child deletion before parent deletion
 - GE-20260414-bd3f85: Deleting a Panache entity with a self-referencing FK throws `JdbcSQLIntegrityConstraintViolationException`
 - GE-20260526-a5bbd2: LedgerEntry.attach() sets supplement.ledgerEntry = this — bidirectional back-reference handled automatically
+- GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops

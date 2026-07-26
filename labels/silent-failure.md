@@ -110,3 +110,4 @@
 - GE-20260724-7ac683: IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
 - GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null
+- GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure

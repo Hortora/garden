@@ -396,3 +396,4 @@
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
 - GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
+- GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure

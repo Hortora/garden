@@ -1218,3 +1218,5 @@
 | GE-20260726-5c7a38 | ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently | gotcha | 11/15 |
 | GE-20260726-3c0da2 | COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null | gotcha | 9/15 |
 | GE-20260726-4b51ff | QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal | gotcha | 10/15 |
+| GE-20260726-d74620 | Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops | gotcha | 9/15 |
+| GE-20260726-00e4df | Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure | gotcha | 8/15 |
