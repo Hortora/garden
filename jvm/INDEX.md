@@ -1220,3 +1220,4 @@
 | GE-20260726-4b51ff | QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal | gotcha | 10/15 |
 | GE-20260726-d74620 | Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops | gotcha | 9/15 |
 | GE-20260726-00e4df | Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure | gotcha | 8/15 |
+| GE-20260726-fd29f7 | Google API client library dependency convergence — don't declare transitive deps explicitly | gotcha | 8/15 |
