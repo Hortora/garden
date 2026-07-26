@@ -109,3 +109,4 @@
 - GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores
 - GE-20260724-7ac683: IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
+- GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null

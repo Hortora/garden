@@ -109,3 +109,4 @@
 - GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation
 - GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope
+- GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently

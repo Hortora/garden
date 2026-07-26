@@ -33,3 +33,6 @@
 - GE-20260613-7b7ae1: casehub-qhorus ChannelService.create() removed 9-arg String allowedTypes overload — now requires ChannelCreateRequest with Set<MessageType>
 - GE-20260616-8a07b1: ChannelService.setTypeConstraints() normalizes null to Set.of() — lossy round-trip for empty allowed/denied types
 - GE-20260622-e779f1: casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment
+- GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently
+- GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null
+- GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal

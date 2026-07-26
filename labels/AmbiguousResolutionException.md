@@ -1,1 +1,2 @@
 - GE-20260423-bcb5b7: quarkus-work-core registers both LeastLoadedStrategy and ClaimFirstStrategy as @ApplicationScoped CDI beans — injecting WorkerSelectionStrategy interface causes AmbiguousResolutionException
+- GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal

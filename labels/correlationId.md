@@ -3,3 +3,4 @@
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
 - GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
 - GE-20260608-c28c00: Qhorus MessageService.dispatch(): STATUS without correlationId bypasses commitment state machine entirely — purely archival
+- GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null

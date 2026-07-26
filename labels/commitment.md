@@ -8,3 +8,4 @@
 - GE-20260609-e53d82: Oversight gate opens with commandMessageId=-1L when no COMMAND exists — agent commitment never closes on approval
 - GE-20260623-92964b: RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState
 - GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests
+- GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null

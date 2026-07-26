@@ -2,3 +2,4 @@
 - GE-20260529-d3d4b6: PLATFORM.md documents MessageDispatch.builder() as positional-args factory — actual API is no-arg builder with chained setters
 - GE-20260530-1a7e84: casehub-qhorus MessageDispatch.builder() requires inReplyTo + correlationId for response-type messages (DONE, DECLINE, RESPONSE, FAILURE)
 - GE-20260608-757be3: Qhorus MessageDispatch.artefactRefs silently rejects non-UUID content at dispatch time
+- GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null

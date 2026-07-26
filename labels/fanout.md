@@ -1,2 +1,3 @@
 - GE-20260526-5247f2: ChannelService.create() does not register the channel in ChannelGateway — fanOut() silently does nothing
 - GE-20260608-5087c8: @QuarkusTest @InjectSpy MessageService: COMMAND with correlationId does not trigger ChannelBackend.post()
+- GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently
