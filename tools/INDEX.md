@@ -609,3 +609,4 @@
 | GE-20260725-cae3ad | Query/document expansion harms strong retrievers — don't expand when your baseline is already good | technique | 13/15 |
 | GE-20260713-905e2e | IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven | gotcha | 10/15 |
 | GE-20260725-9f2e4b | Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows | technique | 10/15 |
+| GE-20260726-756909 | IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings | gotcha | 8/15 |
