@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2254
+**Entries merged since last sweep:** 2255
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1828,6 +1828,7 @@
 - GE-20260725-05a85e [Shared algorithm contract widening — activating a previously-ignored parameter silently breaks callers](jvm/GE-20260725-05a85e.md)
 - GE-20260725-7f599e [Fusion strategy properties derive authority signal integration mode — don't add a separate config axis](jvm/GE-20260725-7f599e.md)
 - GE-20260725-a4aa6c [CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content](jvm/GE-20260725-a4aa6c.md)
+- GE-20260726-f2a554 [ONNX transformer batch size changes embedding output — padding/attention mask differences](jvm/GE-20260726-f2a554.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

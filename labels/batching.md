@@ -1,1 +1,2 @@
 - GE-20260626-25963a: Integer.MAX_VALUE ceiling division overflow — (size + batchSize - 1) / batchSize goes negative when batchSize is MAX_VALUE
+- GE-20260726-f2a554: ONNX transformer batch size changes embedding output — padding/attention mask differences
