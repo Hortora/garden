@@ -679,3 +679,4 @@
 - GE-20260724-f93ae3: Cross-repo SNAPSHOT removal breaks CDI silently in downstream apps
 - GE-20260724-a0c794: quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
+- GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters

@@ -59,3 +59,4 @@
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260630-91be72: IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated
+- GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
