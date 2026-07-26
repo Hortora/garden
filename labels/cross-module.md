@@ -1,2 +1,3 @@
 - GE-20260531-18fa72: Package-private members in a JAR are accessible from the same package name in a different JAR on a flat classpath
 - GE-20260618-a50133: Upstream SNAPSHOT record deletion breaks downstream on different event bus addresses — type used as payload on addresses unrelated to the one removed
+- GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar

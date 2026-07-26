@@ -33,3 +33,4 @@
 - GE-20260724-7ac683: IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree
 - GE-20260724-04bc63: IntelliJ MCP ide_search_text returns cross-project results regardless of project_path
 - GE-20260718-b07bf8: ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass
+- GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar

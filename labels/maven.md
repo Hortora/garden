@@ -176,3 +176,4 @@
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
+- GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar
