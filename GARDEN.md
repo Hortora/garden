@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2265
+**Entries merged since last sweep:** 2266
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1838,6 +1838,7 @@
 - GE-20260726-d74620 [Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops](jvm/GE-20260726-d74620.md)
 - GE-20260726-00e4df [Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure](jvm/GE-20260726-00e4df.md)
 - GE-20260726-fd29f7 [Google API client library dependency convergence — don't declare transitive deps explicitly](jvm/GE-20260726-fd29f7.md)
+- GE-20260726-53f142 [ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()](jvm/GE-20260726-53f142.md)
 - GE-20260726-53f142 [ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()](jvm/GE-20260726-53f142.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
