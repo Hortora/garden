@@ -6,3 +6,4 @@
 - GE-20260629-ba6ff8: Cross-repo subagent inherits stale branch from another session's working tree
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
+- GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems

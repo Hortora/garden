@@ -1,0 +1,1 @@
+- GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
