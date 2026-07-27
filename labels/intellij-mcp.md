@@ -35,3 +35,4 @@
 - GE-20260718-b07bf8: ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass
 - GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar
 - GE-20260726-756909: IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings
+- GE-20260727-300281: IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout

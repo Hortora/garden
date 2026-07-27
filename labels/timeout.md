@@ -15,3 +15,4 @@
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
+- GE-20260727-300281: IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout

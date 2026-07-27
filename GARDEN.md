@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2271
+**Entries merged since last sweep:** 2272
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -210,6 +210,7 @@
 - GE-20260718-b07bf8 [ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass](intellij-platform/GE-20260718-b07bf8.md)
 - GE-20260630-91be72 [IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated](intellij-platform/GE-20260630-91be72.md)
 - GE-20260727-349cef [IntelliJ MCP ide_replace_member duplicates method signature inside the body](intellij-platform/GE-20260727-349cef.md)
+- GE-20260727-300281 [IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout](intellij-platform/GE-20260727-300281.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
