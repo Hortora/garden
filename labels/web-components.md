@@ -31,3 +31,4 @@
 - GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
+- GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }

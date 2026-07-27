@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2272
+**Entries merged since last sweep:** 2273
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2617,6 +2617,7 @@
 - GE-20260723-09e6d9 [DOM structure tests pass while CSS layout is wrong — Web Component test gap](web/GE-20260723-09e6d9.md)
 - GE-20260725-174b2c [vitest mockResolvedValue reuses same Response object — body read fails on second fetch](web/GE-20260725-174b2c.md)
 - GE-20260727-0e1c60 [Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration](web/GE-20260727-0e1c60.md)
+- GE-20260727-e642b2 [pages-table row-activate event carries { row, key }, not { index }](web/GE-20260727-e642b2.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

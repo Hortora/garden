@@ -1,0 +1,1 @@
+- GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }

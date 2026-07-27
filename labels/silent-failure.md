@@ -112,3 +112,4 @@
 - GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260727-300281: IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout
+- GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }
