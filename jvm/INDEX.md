@@ -1224,3 +1224,4 @@
 | GE-20260726-53f142 | ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize() | gotcha | 10/15 |
 | GE-20260726-53f142 | ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize() | gotcha | 10/15 |
 | GE-20260727-5c0561 | Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package | gotcha | 10/15 |
+| GE-20260727-492fd2 | SnakeYAML flow sequence [${param}] fails — ${ interpreted as flow mapping start | gotcha | 10/15 |
