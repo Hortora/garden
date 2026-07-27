@@ -30,3 +30,4 @@
 - GE-20260720-ebe1cd: onPagesEvent callback receives payload directly — treating it as a CustomEvent gives misleading undefined errors
 - GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
+- GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration

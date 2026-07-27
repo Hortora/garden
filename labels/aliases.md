@@ -1,2 +1,3 @@
 - GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
+- GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
