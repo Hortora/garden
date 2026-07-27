@@ -1223,3 +1223,4 @@
 | GE-20260726-fd29f7 | Google API client library dependency convergence — don't declare transitive deps explicitly | gotcha | 8/15 |
 | GE-20260726-53f142 | ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize() | gotcha | 10/15 |
 | GE-20260726-53f142 | ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize() | gotcha | 10/15 |
+| GE-20260727-5c0561 | Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package | gotcha | 10/15 |

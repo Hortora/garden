@@ -179,3 +179,4 @@
 - GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar
 - GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops
 - GE-20260726-fd29f7: Google API client library dependency convergence — don't declare transitive deps explicitly
+- GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package

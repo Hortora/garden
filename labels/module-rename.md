@@ -1,2 +1,3 @@
 - GE-20260512-0acffb: mvn validate verifies Maven reactor structure after directory renames without triggering compilation or IntelliJ cache
 - GE-20260512-40d282: IntelliJ build_project returns stale errors after Maven module directory renames until Maven is reimported
+- GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package

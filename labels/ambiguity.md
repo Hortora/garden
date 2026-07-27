@@ -1,2 +1,3 @@
 - GE-20260601-81be07: Resolve CDI ambiguity between two competing @DefaultBean implementations by introducing a concrete non-default bean
 - GE-20260609-8d6961: @Alternative @Qualifier on the bean class restricts CDI injection to qualifier-scoped points — prevents ambiguity with plain interface injection
+- GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package

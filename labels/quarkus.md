@@ -681,3 +681,4 @@
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
 - GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
+- GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package

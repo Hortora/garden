@@ -60,3 +60,4 @@
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260630-91be72: IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated
 - GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
+- GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body

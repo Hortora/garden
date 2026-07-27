@@ -55,3 +55,4 @@
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
+- GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body

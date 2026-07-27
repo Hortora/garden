@@ -1,0 +1,1 @@
+- GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package

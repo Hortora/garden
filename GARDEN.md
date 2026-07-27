@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2267
+**Entries merged since last sweep:** 2269
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -209,6 +209,7 @@
 - GE-20260724-7ac683 [IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree](intellij-platform/GE-20260724-7ac683.md)
 - GE-20260718-b07bf8 [ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass](intellij-platform/GE-20260718-b07bf8.md)
 - GE-20260630-91be72 [IntelliJ MCP ide_refactor_rename partial failure — file not renamed, same-package refs missed, JPQL strings incorrectly updated](intellij-platform/GE-20260630-91be72.md)
+- GE-20260727-349cef [IntelliJ MCP ide_replace_member duplicates method signature inside the body](intellij-platform/GE-20260727-349cef.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1840,6 +1841,7 @@
 - GE-20260726-fd29f7 [Google API client library dependency convergence — don't declare transitive deps explicitly](jvm/GE-20260726-fd29f7.md)
 - GE-20260726-53f142 [ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()](jvm/GE-20260726-53f142.md)
 - GE-20260726-53f142 [ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()](jvm/GE-20260726-53f142.md)
+- GE-20260727-5c0561 [Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package](jvm/GE-20260727-5c0561.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
