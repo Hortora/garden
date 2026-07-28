@@ -1,2 +1,3 @@
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
 - GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
+- GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init

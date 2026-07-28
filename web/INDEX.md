@@ -113,3 +113,4 @@
 | GE-20260725-174b2c | vitest mockResolvedValue reuses same Response object — body read fails on second fetch | gotcha | 8/15 |
 | GE-20260727-0e1c60 | Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration | gotcha | 11/15 |
 | GE-20260727-e642b2 | pages-table row-activate event carries { row, key }, not { index } | gotcha | 12/15 |
+| GE-20260728-6d585d | Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init | gotcha | 11/15 |

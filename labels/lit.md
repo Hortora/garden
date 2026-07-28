@@ -18,3 +18,4 @@
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
 - GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
+- GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init

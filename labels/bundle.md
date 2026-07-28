@@ -1,0 +1,1 @@
+- GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init

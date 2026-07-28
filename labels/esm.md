@@ -1,1 +1,2 @@
 - GE-20260709-2084c9: Vite dev + esbuild prod dual build: HTML must reference .ts source, not .js bundle — ESM script 404 is silent
+- GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init
