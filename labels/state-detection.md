@@ -1,0 +1,1 @@
+- GE-20260728-f0c9ec: Replace LLM skill routing with deterministic scripts when state detection is mechanical

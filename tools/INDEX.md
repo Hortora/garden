@@ -611,3 +611,4 @@
 | GE-20260725-9f2e4b | Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows | technique | 10/15 |
 | GE-20260726-756909 | IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings | gotcha | 8/15 |
 | GE-20260727-30c2a6 | Design review subagent before wiring catches structural bugs in new type systems | technique | 9/15 |
+| GE-20260728-f0c9ec | Replace LLM skill routing with deterministic scripts when state detection is mechanical | technique | 13/15 |
