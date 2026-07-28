@@ -1,0 +1,1 @@
+- GE-20260728-a53632: Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies
