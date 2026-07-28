@@ -10,3 +10,4 @@
 - GE-20260609-3bb404: Python regex \s* matches \n — table row parser merges separator row with next data row across newlines
 - GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
 - GE-20260717-b31a92: Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files
+- GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings

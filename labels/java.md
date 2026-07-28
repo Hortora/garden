@@ -157,3 +157,4 @@
 - GE-20260714-aa950f: Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments
 - GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException
 - GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
+- GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
