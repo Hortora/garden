@@ -17,3 +17,4 @@
 - GE-20260623-3ecb0f: AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
 - GE-20260727-492fd2: SnakeYAML flow sequence [${param}] fails — ${ interpreted as flow mapping start
+- GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry

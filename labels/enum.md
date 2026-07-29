@@ -16,3 +16,4 @@
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
 - GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
+- GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry

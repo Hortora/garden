@@ -1,0 +1,1 @@
+- GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry
