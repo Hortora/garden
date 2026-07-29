@@ -48,3 +48,12 @@
 | jvm/GE-20260618-174019 | jvm/GE-20260617-6b01c4 | H2 MVStore MERGE INTO concurrent first-inserts race — same gotcha, 6b01c4 has higher score (12 vs 11) and is more complete (106 vs 47 lines) |
 | jvm/GE-20260522-3e2589 | jvm/GE-20260618-8526c8 | LangChain4j ChatModel override doChat not chat — same knowledge, 8526c8 has higher score (9 vs 8) and is newer |
 | tools/GE-20260627-054768 | tools/GE-20260604-037c42 | gh repo fork fails with HTTP 403 on empty repos — same gotcha, 037c42 has higher score (10 vs 8) and is more detailed |
+| web/GE-20260710-fe9f97 | web/GE-20260715-86e5d6 | globalThis.fetch override in SPA — same gotcha, 86e5d6 is newer with constraints metadata |
+| tools/GE-20260707-802a18 | tools/GE-20260707-a48ac6 | GitHub Packages SNAPSHOT updated_at misleads — same gotcha, a48ac6 has higher score (11 vs 10) |
+| intellij-platform/GE-20260718-c23bb5 | intellij-platform/GE-20260727-349cef | ide_replace_member duplicates method signature — same gotcha, 349cef is newer |
+| jvm/GE-20260612-40ee33 | jvm/GE-20260701-a73f76 | scheduler.enabled=false removes Scheduler bean — same gotcha, a73f76 has higher score (11 vs 10) |
+| jvm/GE-20260714-a7267a | jvm/GE-20260704-d6aacc | Instance<SuperInterface> misses transitive subtypes — same gotcha, d6aacc has higher score (13 vs 10) |
+| jvm/GE-20260630-bf0055 | jvm/GE-20260720-f1ce81 | Quinoa package-manager-install requires node-version — same gotcha, f1ce81 is newer with metadata |
+| jvm/GE-20260723-64e384 | jvm/GE-20260618-979c68 | @ConfigMapping rejects @IfBuildProperty keys SRCFG00050 — same gotcha, 979c68 has higher score (9 vs 8) |
+| jvm/GE-20260629-6f1d64 | jvm/GE-20260524-baae14 | Maven parent scope inheritance — same gotcha, baae14 has higher score (9 vs 8) |
+| tools/GE-20260706-1fc043 | tools/GE-20260625-6b49f5 | ide_read_file qualifiedName reads dependency source — same technique, 6b49f5 has higher score (10 vs 9) |
