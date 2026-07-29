@@ -633,6 +633,8 @@
 - GE-20260516-2805b7 [Abstract superclasses indexed by Jandex are treated as CDI bean candidates and fail deployment](jvm/GE-20260516-2805b7.md)
 - GE-20260516-e137f6 [QuarkusTestProfile.getConfigOverrides() replaces %test.-prefixed config entirely for that profile](jvm/GE-20260516-e137f6.md)
 - GE-20260412-e51f12 [Varargs type-capture for type-safe DSL methods with full generic support](jvm/java-dsl-design.md)
+- GE-20260414-1063be [Panache active-record find() WHERE clause must use bare field names, not entity alias prefix](jvm/GE-20260414-1063be.md)
+- GE-20260415-3ce5f3 [quarkus-junit (wrong) vs quarkus-junit5 (correct) — compiles silently, fails at test runtime](jvm/GE-20260415-3ce5f3.md)
 - GE-20260421-28c521 [Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference](jvm/GE-20260421-28c521.md)
 - GE-20260511-2b3d3e [Express trust-phase logic as methods on the routing policy value object, not the router](jvm/GE-20260511-2b3d3e.md)
 - GE-20260521-6f257b [JAX-RS @QueryParam endpoint silently ignores JSON request body — body field name is irrelevant](jvm/GE-20260521-6f257b.md)
