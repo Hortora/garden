@@ -1,0 +1,1 @@
+- GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag

@@ -1,2 +1,3 @@
 - GE-20260517-da2a42: casehub-work IllegalStateExceptionMapper silently maps IllegalStateException to HTTP 409
 - GE-20260528-936918: Response.Status.UNPROCESSABLE_ENTITY doesn't exist in Jakarta EE 9 JAX-RS — use raw integer 422
+- GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors

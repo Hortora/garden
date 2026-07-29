@@ -99,3 +99,4 @@
 - GE-20260720-6ea915: CbrCaseRetainObserver fires on CbrConfig presence — duplicate CBR entries when app has custom retain
 - GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
+- GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys

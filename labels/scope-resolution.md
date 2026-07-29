@@ -1,0 +1,1 @@
+- GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys

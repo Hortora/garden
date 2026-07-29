@@ -1228,3 +1228,5 @@
 | GE-20260728-a53632 | Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies | technique | 9/15 |
 | GE-20260729-0c7c61 | Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry | gotcha | 9/15 |
 | GE-20260729-afefb6 | Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo | gotcha | 12/15 |
+| GE-20260729-66f060 | ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys | gotcha | 11/15 |
+| GE-20260729-392052 | ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors | gotcha | 9/15 |

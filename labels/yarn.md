@@ -4,3 +4,4 @@
 - GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
 - GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
+- GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag

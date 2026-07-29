@@ -27,3 +27,4 @@
 - GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
+- GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors

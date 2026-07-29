@@ -2,3 +2,4 @@
 - GE-20260529-636a36: JAX-RS @Provider exception mapper bypassed when exception extends a type caught by a generic resource handler
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
 - GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
+- GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors

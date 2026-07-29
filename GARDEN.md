@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2282
+**Entries merged since last sweep:** 2285
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1848,6 +1848,8 @@
 - GE-20260728-a53632 [Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies](jvm/GE-20260728-a53632.md)
 - GE-20260729-0c7c61 [Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry](jvm/GE-20260729-0c7c61.md)
 - GE-20260729-afefb6 [Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo](jvm/GE-20260729-afefb6.md)
+- GE-20260729-66f060 [ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys](jvm/GE-20260729-66f060.md)
+- GE-20260729-392052 [ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors](jvm/GE-20260729-392052.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2498,6 +2500,7 @@
 - GE-20260727-30c2a6 [Design review subagent before wiring catches structural bugs in new type systems](tools/GE-20260727-30c2a6.md)
 - GE-20260728-f0c9ec [Replace LLM skill routing with deterministic scripts when state detection is mechanical](tools/GE-20260728-f0c9ec.md)
 - GE-20260729-201b0b [Tests that validate wrong assumptions pass forever — fixture shape must match production, not code](tools/GE-20260729-201b0b.md)
+- GE-20260729-5c56d9 [Yarn 4 enforces immutable installs in CI even without --immutable flag](tools/GE-20260729-5c56d9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

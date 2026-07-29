@@ -115,3 +115,4 @@
 - GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }
 - GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
+- GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys

@@ -9,3 +9,4 @@
 - GE-20260618-11251a: byte[] + EventFormatProvider.deserialize() — correct CloudEvents deserialization in JAX-RS (not auto-binding)
 - GE-20260623-e9ac8d: Use @PermitAll (not unannotated) for intentionally public endpoints when adding a security framework to an existing app
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
+- GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors

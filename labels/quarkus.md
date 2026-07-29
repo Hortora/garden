@@ -682,3 +682,4 @@
 - GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
 - GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package
+- GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors
