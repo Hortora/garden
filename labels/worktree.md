@@ -8,3 +8,4 @@
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
+- GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo

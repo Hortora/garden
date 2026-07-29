@@ -180,3 +180,4 @@
 - GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops
 - GE-20260726-fd29f7: Google API client library dependency convergence — don't declare transitive deps explicitly
 - GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package
+- GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo

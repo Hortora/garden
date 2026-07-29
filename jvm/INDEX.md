@@ -1227,3 +1227,4 @@
 | GE-20260727-492fd2 | SnakeYAML flow sequence [${param}] fails — ${ interpreted as flow mapping start | gotcha | 10/15 |
 | GE-20260728-a53632 | Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies | technique | 9/15 |
 | GE-20260729-0c7c61 | Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry | gotcha | 9/15 |
+| GE-20260729-afefb6 | Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo | gotcha | 12/15 |

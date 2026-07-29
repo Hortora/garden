@@ -1,2 +1,1 @@
-- GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
 - GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo
