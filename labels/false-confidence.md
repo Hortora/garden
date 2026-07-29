@@ -1,2 +1,1 @@
-- GE-20260605-f11f8f: git rm silently succeeds on empty directories — rm -rf required
 - GE-20260729-201b0b: Tests that validate wrong assumptions pass forever — fixture shape must match production, not code

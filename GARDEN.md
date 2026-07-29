@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2280
+**Entries merged since last sweep:** 2281
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2497,6 +2497,7 @@
 - GE-20260726-756909 [IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings](tools/GE-20260726-756909.md)
 - GE-20260727-30c2a6 [Design review subagent before wiring catches structural bugs in new type systems](tools/GE-20260727-30c2a6.md)
 - GE-20260728-f0c9ec [Replace LLM skill routing with deterministic scripts when state detection is mechanical](tools/GE-20260728-f0c9ec.md)
+- GE-20260729-201b0b [Tests that validate wrong assumptions pass forever — fixture shape must match production, not code](tools/GE-20260729-201b0b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
