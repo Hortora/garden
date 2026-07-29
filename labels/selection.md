@@ -1,1 +1,2 @@
 - GE-20260529-a2681d: Scelight Delta.getRemoveMask() payload types are heterogeneous — ZeroIndices retains, Mask is BitArray, not Number
+- GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
