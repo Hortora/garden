@@ -5,3 +5,4 @@
 - GE-20260706-2c7f2b: Non-existent CSS custom property in a shorthand declaration silently invalidates the entire declaration
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
+- GE-20260729-f3f3a1: CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')

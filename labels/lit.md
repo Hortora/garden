@@ -20,3 +20,4 @@
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
 - GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
+- GE-20260729-f3f3a1: CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')
