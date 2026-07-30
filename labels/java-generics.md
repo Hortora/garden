@@ -1,0 +1,1 @@
+- GE-20260730-760270: Java generic return type defeats explicit cast for overload resolution

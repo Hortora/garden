@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2288
+**Entries merged since last sweep:** 2289
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1848,6 +1848,7 @@
 - GE-20260729-392052 [ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors](jvm/GE-20260729-392052.md)
 - GE-20260730-653783 [New eidos JPA stores silently break consumer apps using in-memory alternatives](jvm/GE-20260730-653783.md)
 - GE-20260730-d32015 [DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary](jvm/GE-20260730-d32015.md)
+- GE-20260730-760270 [Java generic return type defeats explicit cast for overload resolution](jvm/GE-20260730-760270.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
