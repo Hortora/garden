@@ -683,3 +683,4 @@
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
 - GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package
 - GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors
+- GE-20260730-d54a8f: CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths

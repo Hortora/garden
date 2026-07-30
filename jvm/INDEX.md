@@ -1233,3 +1233,4 @@
 | GE-20260730-653783 | New eidos JPA stores silently break consumer apps using in-memory alternatives | gotcha | 9/15 |
 | GE-20260730-d32015 | DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary | undocumented | 8/15 |
 | GE-20260730-760270 | Java generic return type defeats explicit cast for overload resolution | gotcha | 11/15 |
+| GE-20260730-d54a8f | CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths | gotcha | 11/15 |
