@@ -2,3 +2,4 @@
 - GE-20260415-0761e9: Floating-point boundary check with == speed is fragile — use a smaller arrival threshold
 - GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
 - GE-20260714-439924: Additive confidence penalties at game-loop frequency zero confidence in under 1 second
+- GE-20260730-6b36c7: SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision

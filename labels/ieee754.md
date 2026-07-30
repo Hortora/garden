@@ -2,3 +2,4 @@
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260618-fe1853: Float-to-double threshold comparison silently fails at boundary values
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
+- GE-20260730-6b36c7: SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision

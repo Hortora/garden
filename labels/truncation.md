@@ -1,2 +1,3 @@
 - GE-20260626-5074cf: CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0
 - GE-20260704-987f9c: DJL HuggingFaceTokenizer silently clamps maxLength to modelMaxLength default (512)
+- GE-20260730-6b36c7: SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision

@@ -1239,3 +1239,4 @@
 | GE-20260730-d761e5 | RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection | gotcha | 8/15 |
 | GE-20260730-64b381 | CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics | technique | 8/15 |
 | GE-20260730-71e232 | MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event | gotcha | 13/15 |
+| GE-20260730-6b36c7 | SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision | gotcha | 10/15 |
