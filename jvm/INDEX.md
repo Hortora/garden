@@ -1235,3 +1235,6 @@
 | GE-20260730-760270 | Java generic return type defeats explicit cast for overload resolution | gotcha | 11/15 |
 | GE-20260730-d54a8f | CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths | gotcha | 11/15 |
 | GE-20260730-2b86fd | InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally | gotcha | 10/15 |
+| GE-20260730-41c406 | casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error | gotcha | 10/15 |
+| GE-20260730-d761e5 | RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection | gotcha | 8/15 |
+| GE-20260730-64b381 | CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics | technique | 8/15 |

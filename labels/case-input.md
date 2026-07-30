@@ -1,0 +1,1 @@
+- GE-20260730-64b381: CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics

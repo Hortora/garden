@@ -117,3 +117,4 @@
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
 - GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys
 - GE-20260730-d32015: DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary
+- GE-20260730-41c406: casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error

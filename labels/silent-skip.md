@@ -1,1 +1,2 @@
 - GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
+- GE-20260730-d761e5: RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection

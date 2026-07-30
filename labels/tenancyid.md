@@ -1,0 +1,1 @@
+- GE-20260730-d761e5: RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection
