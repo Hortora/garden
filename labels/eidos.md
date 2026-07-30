@@ -1,2 +1,4 @@
 - GE-20260523-fa7407: CapabilityHealth probe SPI: ProbeContext.taskDomain ≠ capabilityTag — conflating them silently disables EpistemicallyWeak
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
+- GE-20260730-653783: New eidos JPA stores silently break consumer apps using in-memory alternatives
+- GE-20260730-d32015: DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary

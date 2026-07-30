@@ -1230,3 +1230,5 @@
 | GE-20260729-afefb6 | Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo | gotcha | 12/15 |
 | GE-20260729-66f060 | ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys | gotcha | 11/15 |
 | GE-20260729-392052 | ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors | gotcha | 9/15 |
+| GE-20260730-653783 | New eidos JPA stores silently break consumer apps using in-memory alternatives | gotcha | 9/15 |
+| GE-20260730-d32015 | DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary | undocumented | 8/15 |

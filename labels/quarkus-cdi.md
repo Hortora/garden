@@ -1,0 +1,1 @@
+- GE-20260730-653783: New eidos JPA stores silently break consumer apps using in-memory alternatives
