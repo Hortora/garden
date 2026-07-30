@@ -4,3 +4,4 @@
 - GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains
 - GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores
 - GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine
+- GE-20260730-2b86fd: InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally

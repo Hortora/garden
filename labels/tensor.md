@@ -1,0 +1,1 @@
+- GE-20260730-2b86fd: InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally

@@ -5,3 +5,4 @@
 - GE-20260615-c234fc: @DefaultBean in a module without quarkus-arc dependency is silently ignored — no-op bean never suppressed
 - GE-20260621-cb4492: drools-engine artifact does not exist at Drools 10.1.0 — use drools-model-codegen instead
 - GE-20260630-a1bc9a: Maven SNAPSHOT dependency breaks mid-branch — DIDResolver.resolve() signature changed without warning
+- GE-20260730-6ea2ad: torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+

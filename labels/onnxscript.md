@@ -1,0 +1,1 @@
+- GE-20260730-6ea2ad: torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+

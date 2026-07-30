@@ -1,1 +1,2 @@
 - GE-20260703-e0af92: torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning
+- GE-20260730-6ea2ad: torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+

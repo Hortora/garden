@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2290
+**Entries merged since last sweep:** 2292
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1850,6 +1850,7 @@
 - GE-20260730-d32015 [DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary](jvm/GE-20260730-d32015.md)
 - GE-20260730-760270 [Java generic return type defeats explicit cast for overload resolution](jvm/GE-20260730-760270.md)
 - GE-20260730-d54a8f [CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths](jvm/GE-20260730-d54a8f.md)
+- GE-20260730-2b86fd [InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally](jvm/GE-20260730-2b86fd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2512,6 +2513,7 @@
 - GE-20260414-c12931 [YAML frontmatter regex silently skips files with CRLF line endings](python/GE-20260414-c12931.md)
 - GE-20260520-aa4a99 [Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH](python/GE-20260520-aa4a99.md)
 - GE-20260703-e0af92 [torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning](python/GE-20260703-e0af92.md)
+- GE-20260730-6ea2ad [torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+](python/GE-20260730-6ea2ad.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)
