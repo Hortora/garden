@@ -1,0 +1,1 @@
+- GE-20260730-ae0fc4: Agent.builder().model(ModelType.ANTHROPIC).build() eagerly resolves ChatModel via ServiceLoader — fails at construction, not invocation

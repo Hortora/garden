@@ -1,2 +1,1 @@
-- GE-20260531-8b1f4e: Maven cross-tenant SPI interface in wrong module tier causes unresolvable dependency direction
 - GE-20260730-5b3fa1: ImplementationRoutingStrategy/RunAll() exists but is not used for binding-level worker dispatch — actual path is ComposableAgentRoutingStrategy

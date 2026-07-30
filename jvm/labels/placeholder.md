@@ -1,0 +1,1 @@
+- GE-20260730-1c878d: Worker.builder().noFunction() registers a worker visible to routing without requiring runtime dependencies

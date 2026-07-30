@@ -62,3 +62,6 @@
 | GE-20260719-4e2784 | @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results | gotcha | 11/15 |
 | GE-20260723-3c8b9c | Adding a leading parameter to a Java varargs factory creates a silent semantic change — no compile error | gotcha | 11/15 |
 | GE-20260727-492fd2 | SnakeYAML flow sequence [${param}] fails — ${ interpreted as flow mapping start | gotcha | 10/15 |
+| GE-20260730-ae0fc4 | Agent.builder().model(ModelType.ANTHROPIC).build() eagerly resolves ChatModel via ServiceLoader — fails at construction, not invocation | gotcha | 9/15 |
+| GE-20260730-5b3fa1 | ImplementationRoutingStrategy/RunAll() exists but is not used for binding-level worker dispatch — actual path is ComposableAgentRoutingStrategy | gotcha | 11/15 |
+| GE-20260730-1c878d | Worker.builder().noFunction() registers a worker visible to routing without requiring runtime dependencies | technique | 8/15 |

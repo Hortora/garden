@@ -5,3 +5,6 @@
 - GE-20260616-e15321: JAX-RS @Path annotation shadows io.casehub.platform.api.path.Path — cannot import both in a REST resource
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
 - GE-20260718-2fb8eb: StrategyResolver SPI silently uses no-op default when application config not set — CDI bean exists but is never selected
+- GE-20260730-ae0fc4: Agent.builder().model(ModelType.ANTHROPIC).build() eagerly resolves ChatModel via ServiceLoader — fails at construction, not invocation
+- GE-20260730-5b3fa1: ImplementationRoutingStrategy/RunAll() exists but is not used for binding-level worker dispatch — actual path is ComposableAgentRoutingStrategy
+- GE-20260730-1c878d: Worker.builder().noFunction() registers a worker visible to routing without requiring runtime dependencies

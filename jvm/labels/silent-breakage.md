@@ -1,0 +1,1 @@
+- GE-20260723-3c8b9c: Adding a leading parameter to a Java varargs factory creates a silent semantic change — no compile error
