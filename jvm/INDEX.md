@@ -1238,3 +1238,4 @@
 | GE-20260730-41c406 | casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error | gotcha | 10/15 |
 | GE-20260730-d761e5 | RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection | gotcha | 8/15 |
 | GE-20260730-64b381 | CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics | technique | 8/15 |
+| GE-20260730-71e232 | MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event | gotcha | 13/15 |

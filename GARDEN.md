@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2295
+**Entries merged since last sweep:** 2296
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1854,6 +1854,7 @@
 - GE-20260730-41c406 [casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error](jvm/GE-20260730-41c406.md)
 - GE-20260730-d761e5 [RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection](jvm/GE-20260730-d761e5.md)
 - GE-20260730-64b381 [CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics](jvm/GE-20260730-64b381.md)
+- GE-20260730-71e232 [MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event](jvm/GE-20260730-71e232.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
