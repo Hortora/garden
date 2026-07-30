@@ -10,3 +10,4 @@
 - GE-20260717-4618a1: Shadow DOM CSS scoping silently breaks callback-rendered content in web component composition
 - GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
+- GE-20260730-ec4b06: Native Popover API + CSS Anchor Positioning replaces JS popover stack in Lit shadow DOM

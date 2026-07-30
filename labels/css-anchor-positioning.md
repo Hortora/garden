@@ -1,0 +1,1 @@
+- GE-20260730-ec4b06: Native Popover API + CSS Anchor Positioning replaces JS popover stack in Lit shadow DOM

@@ -22,3 +22,4 @@
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
 - GE-20260729-f3f3a1: CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')
 - GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
+- GE-20260730-ec4b06: Native Popover API + CSS Anchor Positioning replaces JS popover stack in Lit shadow DOM
