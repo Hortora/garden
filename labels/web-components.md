@@ -33,3 +33,4 @@
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
 - GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
+- GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries

@@ -1,0 +1,1 @@
+- GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries

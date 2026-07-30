@@ -1,1 +1,2 @@
 - GE-20260413-c7dc5b: python-build-standalone Windows archive is .tar.gz not .zip — and has no shared/static discriminator
+- GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries

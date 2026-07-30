@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2300
+**Entries merged since last sweep:** 2301
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2638,6 +2638,7 @@
 - GE-20260728-6d585d [Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init](web/GE-20260728-6d585d.md)
 - GE-20260729-47f58b [pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting](web/GE-20260729-47f58b.md)
 - GE-20260729-f3f3a1 [CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')](web/GE-20260729-f3f3a1.md)
+- GE-20260730-d646b7 [Ship pre-built static assets alongside tree-shakeable ESM for web component libraries](web/GE-20260730-d646b7.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
