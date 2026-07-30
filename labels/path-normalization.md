@@ -1,0 +1,1 @@
+- GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite

@@ -614,3 +614,5 @@
 | GE-20260728-f0c9ec | Replace LLM skill routing with deterministic scripts when state detection is mechanical | technique | 13/15 |
 | GE-20260729-201b0b | Tests that validate wrong assumptions pass forever — fixture shape must match production, not code | gotcha | 10/15 |
 | GE-20260729-5c56d9 | Yarn 4 enforces immutable installs in CI even without --immutable flag | gotcha | 10/15 |
+| GE-20260730-37faf4 | git worktree shared refs block checkout — git clone --shared as zero-cost alternative | technique | 13/15 |
+| GE-20260730-e942d8 | macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite | gotcha | 11/15 |

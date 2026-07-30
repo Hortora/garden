@@ -1,2 +1,1 @@
-- GE-20260416-b57ee4: JavaParser NodeList.clone() returns raw Object — clone each element individually
 - GE-20260730-37faf4: git worktree shared refs block checkout — git clone --shared as zero-cost alternative

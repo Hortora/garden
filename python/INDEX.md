@@ -7,3 +7,4 @@
 | GE-20260414-7fbf58 | Python enum identity comparison silently returns False when module loaded twice via dual sys.path.insert | gotcha | 13/15 |
 | GE-20260703-e0af92 | torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning | gotcha | 11/15 |
 | GE-20260730-6ea2ad | torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+ | gotcha | 8/15 |
+| GE-20260730-2b2a0a | Path.exists() returns False for broken symlinks — use is_symlink() first | gotcha | 12/15 |

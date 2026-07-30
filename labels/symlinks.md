@@ -1,2 +1,4 @@
 - GE-20260513-2239f6: Claude Code Edit tool refuses to write through symlink paths — use readlink -f first
 - GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist
+- GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
+- GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite

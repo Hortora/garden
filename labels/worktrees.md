@@ -1,1 +1,2 @@
 - GE-20260428-1cc51a: Parallel agent dispatch with worktree isolation completes independent cross-repo tasks simultaneously
+- GE-20260730-37faf4: git worktree shared refs block checkout — git clone --shared as zero-cost alternative

@@ -24,3 +24,4 @@
 - GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/
 - GE-20260623-5cc402: Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB
 - GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing
+- GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite

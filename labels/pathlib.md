@@ -1,0 +1,1 @@
+- GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first

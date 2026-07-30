@@ -171,3 +171,4 @@
 - GE-20260721-4c9cdb: git diff two-dot vs merge-base — inflated branch triage results
 - GE-20260721-94263a: Squash-merge rewrites the SHA that branch-closed stamps point to
 - GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main
+- GE-20260730-37faf4: git worktree shared refs block checkout — git clone --shared as zero-cost alternative
