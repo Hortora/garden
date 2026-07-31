@@ -172,3 +172,5 @@
 - GE-20260721-94263a: Squash-merge rewrites the SHA that branch-closed stamps point to
 - GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main
 - GE-20260730-37faf4: git worktree shared refs block checkout — git clone --shared as zero-cost alternative
+- GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
+- GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo

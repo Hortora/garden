@@ -618,3 +618,5 @@
 | GE-20260730-e942d8 | macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite | gotcha | 11/15 |
 | GE-20260731-4d0718 | Compound silent failure — three independent error-handling shortcuts compose into silent data loss | gotcha | 12/15 |
 | GE-20260731-ab5ec4 | .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages | gotcha | 9/15 |
+| GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |
+| GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |

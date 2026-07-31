@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2307
+**Entries merged since last sweep:** 2309
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2512,6 +2512,8 @@
 - GE-20260730-e942d8 [macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite](tools/GE-20260730-e942d8.md)
 - GE-20260731-4d0718 [Compound silent failure — three independent error-handling shortcuts compose into silent data loss](tools/GE-20260731-4d0718.md)
 - GE-20260731-ab5ec4 [.mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages](tools/GE-20260731-ab5ec4.md)
+- GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
+- GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
