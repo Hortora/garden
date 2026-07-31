@@ -1,1 +1,2 @@
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
+- GE-20260731-4377d0: JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints
