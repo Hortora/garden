@@ -37,3 +37,4 @@
 - GE-20260726-756909: IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings
 - GE-20260727-300281: IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout
 - GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
+- GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces

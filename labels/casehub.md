@@ -100,3 +100,4 @@
 - GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys
+- GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out

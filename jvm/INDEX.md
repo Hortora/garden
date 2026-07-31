@@ -1243,3 +1243,4 @@
 | GE-20260731-4377d0 | JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints | gotcha | 10/15 |
 | GE-20260731-016352 | JPA @Transactional void method + non-transactional re-fetch returns stale entity state | gotcha | 9/15 |
 | GE-20260731-aaf952 | quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge | gotcha | 10/15 |
+| GE-20260731-235d71 | REINVOKED execution mode suppresses worker output — integration tests silently time out | gotcha | 9/15 |

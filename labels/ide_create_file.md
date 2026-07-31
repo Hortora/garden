@@ -3,3 +3,4 @@
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
+- GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces

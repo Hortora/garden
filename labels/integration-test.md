@@ -6,3 +6,4 @@
 - GE-20260617-0c1498: SseEventSource.reconnectingEvery(Long.MAX_VALUE, MILLISECONDS) — disable auto-reconnect in SSE integration tests
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260730-d761e5: RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection
+- GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out

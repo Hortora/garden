@@ -620,3 +620,4 @@
 | GE-20260731-ab5ec4 | .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages | gotcha | 9/15 |
 | GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |
 | GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |
+| GE-20260731-6e7df6 | IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces | gotcha | 9/15 |

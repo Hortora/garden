@@ -37,3 +37,4 @@
 - GE-20260701-107e7b: Three-datasource Flyway layout isolates upstream modules with colliding version numbers
 - GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
 - GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
+- GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces

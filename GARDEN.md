@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2309
+**Entries merged since last sweep:** 2311
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1859,6 +1859,7 @@
 - GE-20260731-4377d0 [JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints](jvm/GE-20260731-4377d0.md)
 - GE-20260731-016352 [JPA @Transactional void method + non-transactional re-fetch returns stale entity state](jvm/GE-20260731-016352.md)
 - GE-20260731-aaf952 [quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge](jvm/GE-20260731-aaf952.md)
+- GE-20260731-235d71 [REINVOKED execution mode suppresses worker output — integration tests silently time out](jvm/GE-20260731-235d71.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2514,6 +2515,7 @@
 - GE-20260731-ab5ec4 [.mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages](tools/GE-20260731-ab5ec4.md)
 - GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
 - GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
+- GE-20260731-6e7df6 [IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces](tools/GE-20260731-6e7df6.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

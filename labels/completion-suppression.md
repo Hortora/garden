@@ -1,0 +1,1 @@
+- GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out
