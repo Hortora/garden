@@ -616,3 +616,4 @@
 | GE-20260729-5c56d9 | Yarn 4 enforces immutable installs in CI even without --immutable flag | gotcha | 10/15 |
 | GE-20260730-37faf4 | git worktree shared refs block checkout — git clone --shared as zero-cost alternative | technique | 13/15 |
 | GE-20260730-e942d8 | macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite | gotcha | 11/15 |
+| GE-20260731-4d0718 | Compound silent failure — three independent error-handling shortcuts compose into silent data loss | gotcha | 12/15 |

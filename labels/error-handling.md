@@ -5,3 +5,4 @@
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
 - GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch
 - GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path
+- GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss

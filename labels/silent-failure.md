@@ -119,3 +119,4 @@
 - GE-20260730-d32015: DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary
 - GE-20260730-41c406: casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error
 - GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
+- GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss

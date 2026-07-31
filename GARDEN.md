@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2304
+**Entries merged since last sweep:** 2305
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2509,6 +2509,7 @@
 - GE-20260729-5c56d9 [Yarn 4 enforces immutable installs in CI even without --immutable flag](tools/GE-20260729-5c56d9.md)
 - GE-20260730-37faf4 [git worktree shared refs block checkout — git clone --shared as zero-cost alternative](tools/GE-20260730-37faf4.md)
 - GE-20260730-e942d8 [macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite](tools/GE-20260730-e942d8.md)
+- GE-20260731-4d0718 [Compound silent failure — three independent error-handling shortcuts compose into silent data loss](tools/GE-20260731-4d0718.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
