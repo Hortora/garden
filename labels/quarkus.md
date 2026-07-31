@@ -686,3 +686,4 @@
 - GE-20260730-d54a8f: CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths
 - GE-20260731-4377d0: JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints
 - GE-20260731-016352: JPA @Transactional void method + non-transactional re-fetch returns stale entity state
+- GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge

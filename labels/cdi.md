@@ -377,3 +377,4 @@
 - GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal
 - GE-20260727-5c0561: Maven module rename leaves stale CDI beans — AmbiguousResolutionException from old package
 - GE-20260730-d54a8f: CDI fireAsync().join() propagates @ObservesAsync exceptions — asymmetric failure between fire-and-forget and joined paths
+- GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge

@@ -1,2 +1,3 @@
 - GE-20260609-26ffa5: @ApplicationScoped POJO + @Produces for same type causes CDI ambiguous bean resolution
 - GE-20260618-397bf7: CDI @Nonbinding qualifier prevents multiple @Produces methods — must use InjectionPoint dispatch
+- GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge

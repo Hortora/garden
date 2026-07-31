@@ -398,3 +398,4 @@
 - GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260729-201b0b: Tests that validate wrong assumptions pass forever — fixture shape must match production, not code
+- GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge

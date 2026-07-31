@@ -36,3 +36,4 @@
 - GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
 - GE-20260717-074283: GitHub Packages 422 on Maven SNAPSHOT deploy — ghost package from failed prior run blocks re-deploy
 - GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
+- GE-20260731-ab5ec4: .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages

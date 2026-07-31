@@ -617,3 +617,4 @@
 | GE-20260730-37faf4 | git worktree shared refs block checkout — git clone --shared as zero-cost alternative | technique | 13/15 |
 | GE-20260730-e942d8 | macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite | gotcha | 11/15 |
 | GE-20260731-4d0718 | Compound silent failure — three independent error-handling shortcuts compose into silent data loss | gotcha | 12/15 |
+| GE-20260731-ab5ec4 | .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages | gotcha | 9/15 |
