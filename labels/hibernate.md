@@ -85,3 +85,4 @@
 - GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
 - GE-20260718-d18dc0: H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope
+- GE-20260731-016352: JPA @Transactional void method + non-transactional re-fetch returns stale entity state

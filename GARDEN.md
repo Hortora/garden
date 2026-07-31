@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2303
+**Entries merged since last sweep:** 2304
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1857,6 +1857,7 @@
 - GE-20260730-71e232 [MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event](jvm/GE-20260730-71e232.md)
 - GE-20260730-6b36c7 [SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision](jvm/GE-20260730-6b36c7.md)
 - GE-20260731-4377d0 [JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints](jvm/GE-20260731-4377d0.md)
+- GE-20260731-016352 [JPA @Transactional void method + non-transactional re-fetch returns stale entity state](jvm/GE-20260731-016352.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

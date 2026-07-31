@@ -1241,3 +1241,4 @@
 | GE-20260730-71e232 | MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event | gotcha | 13/15 |
 | GE-20260730-6b36c7 | SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision | gotcha | 10/15 |
 | GE-20260731-4377d0 | JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints | gotcha | 10/15 |
+| GE-20260731-016352 | JPA @Transactional void method + non-transactional re-fetch returns stale entity state | gotcha | 9/15 |
