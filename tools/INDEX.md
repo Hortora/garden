@@ -625,3 +625,4 @@
 | GE-20260801-dfadc9 | iterdir() with is_dir skip silently drops files in subdirectories | gotcha | 11/15 |
 | GE-20260801-836d85 | Post-push verification with git cat-file catches silent promotion failures | technique | 9/15 |
 | GE-20260801-e482fc | Separate skill sections create LLM bypass paths — merge mandatory gates into one section | gotcha | 10/15 |
+| GE-20260801-2ad082 | @safe decorator silently swallows signature mismatches when installed lib copy diverges from source | gotcha | 11/15 |

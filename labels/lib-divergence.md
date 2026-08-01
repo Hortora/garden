@@ -1,0 +1,1 @@
+- GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
