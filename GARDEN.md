@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2317
+**Entries merged since last sweep:** 2319
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1862,6 +1862,8 @@
 - GE-20260731-235d71 [REINVOKED execution mode suppresses worker output — integration tests silently time out](jvm/GE-20260731-235d71.md)
 - GE-20260801-1148df [SQLite in-memory databases create a new DB per getConnection() — tests see empty state](jvm/GE-20260801-1148df.md)
 - GE-20260801-8518b1 [SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements](jvm/GE-20260801-8518b1.md)
+- GE-20260801-bcff35 [Mockito-free LLM provider testing via TestAgentProvider inner class](jvm/GE-20260801-bcff35.md)
+- GE-20260801-0aee7e [casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern](jvm/GE-20260801-0aee7e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

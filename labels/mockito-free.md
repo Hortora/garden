@@ -1,0 +1,1 @@
+- GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class

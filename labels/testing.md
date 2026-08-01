@@ -400,3 +400,4 @@
 - GE-20260729-201b0b: Tests that validate wrong assumptions pass forever — fixture shape must match production, not code
 - GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge
 - GE-20260801-1148df: SQLite in-memory databases create a new DB per getConnection() — tests see empty state
+- GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class

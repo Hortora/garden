@@ -101,3 +101,4 @@
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys
 - GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out
+- GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern

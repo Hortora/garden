@@ -62,3 +62,5 @@
 - GE-20260628-3ea24f: Uni.createFrom().completionStage(() -> fireAsync(...)) couples Mutiny pipeline to CDI observer delivery — use .invoke() for fire-and-forget
 - GE-20260709-16094e: Mutiny onFailure/onTermination ordering silently loses OTel span errors when reversed
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class
+- GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern
