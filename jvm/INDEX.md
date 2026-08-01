@@ -1251,3 +1251,4 @@
 | GE-20260801-75857d | Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed | technique | 8/15 |
 | GE-20260801-a8ec17 | Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly | gotcha | 11/15 |
 | GE-20260801-3bee47 | Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently | gotcha | 12/15 |
+| GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
