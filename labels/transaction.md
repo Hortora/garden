@@ -34,3 +34,4 @@
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
 - GE-20260512-0fe012: CDI fireAsync() inside @Transactional dispatches immediately — observer can run before the triggering transaction commits
 - GE-20260721-4564db: CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically
+- GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently

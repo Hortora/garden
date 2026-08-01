@@ -1249,3 +1249,5 @@
 | GE-20260801-bcff35 | Mockito-free LLM provider testing via TestAgentProvider inner class | technique | 9/15 |
 | GE-20260801-0aee7e | casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern | undocumented | 9/15 |
 | GE-20260801-75857d | Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed | technique | 8/15 |
+| GE-20260801-a8ec17 | Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly | gotcha | 11/15 |
+| GE-20260801-3bee47 | Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently | gotcha | 12/15 |

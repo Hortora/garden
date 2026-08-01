@@ -183,3 +183,4 @@
 - GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo
 - GE-20260731-ab5ec4: .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages
 - GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces
+- GE-20260801-a8ec17: Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly

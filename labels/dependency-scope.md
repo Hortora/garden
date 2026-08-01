@@ -1,1 +1,2 @@
 - GE-20260529-b5723e: casehub-engine (full runtime) as compile dep causes 31+ CDI deployment failures in implementing module
+- GE-20260801-a8ec17: Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly
