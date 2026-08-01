@@ -1,0 +1,1 @@
+- GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures

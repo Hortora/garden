@@ -6,3 +6,4 @@
 - GE-20260524-4c1400: Verify browser-side JavaScript fixes in plain Node.js using diagnostic token data — no app launch needed
 - GE-20260602-1fb07b: Enumerate atomic facts before content migration — makes loss detectable, not just possible
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
+- GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures

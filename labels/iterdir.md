@@ -1,0 +1,1 @@
+- GE-20260801-dfadc9: iterdir() with is_dir skip silently drops files in subdirectories

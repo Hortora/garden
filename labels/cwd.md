@@ -3,3 +3,4 @@
 - GE-20260417-3b862c: jar xf without -C extracts to the current working directory, not a temp dir
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
 - GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
+- GE-20260801-8f01dd: shutil.move leaves ghost directories when a process has CWD anchored inside

@@ -621,3 +621,7 @@
 | GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |
 | GE-20260731-e74510 | IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo | gotcha | 10/15 |
 | GE-20260731-6e7df6 | IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces | gotcha | 9/15 |
+| GE-20260801-8f01dd | shutil.move leaves ghost directories when a process has CWD anchored inside | gotcha | 12/15 |
+| GE-20260801-dfadc9 | iterdir() with is_dir skip silently drops files in subdirectories | gotcha | 11/15 |
+| GE-20260801-836d85 | Post-push verification with git cat-file catches silent promotion failures | technique | 9/15 |
+| GE-20260801-e482fc | Separate skill sections create LLM bypass paths — merge mandatory gates into one section | gotcha | 10/15 |

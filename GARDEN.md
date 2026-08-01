@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2313
+**Entries merged since last sweep:** 2317
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2518,6 +2518,10 @@
 - GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
 - GE-20260731-e74510 [IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo](tools/GE-20260731-e74510.md)
 - GE-20260731-6e7df6 [IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces](tools/GE-20260731-6e7df6.md)
+- GE-20260801-8f01dd [shutil.move leaves ghost directories when a process has CWD anchored inside](tools/GE-20260801-8f01dd.md)
+- GE-20260801-dfadc9 [iterdir() with is_dir skip silently drops files in subdirectories](tools/GE-20260801-dfadc9.md)
+- GE-20260801-836d85 [Post-push verification with git cat-file catches silent promotion failures](tools/GE-20260801-836d85.md)
+- GE-20260801-e482fc [Separate skill sections create LLM bypass paths — merge mandatory gates into one section](tools/GE-20260801-e482fc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

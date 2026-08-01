@@ -55,3 +55,4 @@
 - GE-20260703-e32c1d: Claude Code MCP rejects type url — must use type sse with quarkus-mcp-server-http
 - GE-20260717-b31a92: Claude Code Edit tool silently converts ASCII quotes to Unicode smart quotes in JS/TS files
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
+- GE-20260801-e482fc: Separate skill sections create LLM bypass paths — merge mandatory gates into one section

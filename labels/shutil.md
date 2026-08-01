@@ -1,0 +1,1 @@
+- GE-20260801-8f01dd: shutil.move leaves ghost directories when a process has CWD anchored inside

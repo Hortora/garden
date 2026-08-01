@@ -1,0 +1,1 @@
+- GE-20260801-e482fc: Separate skill sections create LLM bypass paths — merge mandatory gates into one section
