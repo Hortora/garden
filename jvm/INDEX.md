@@ -1252,3 +1252,5 @@
 | GE-20260801-a8ec17 | Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly | gotcha | 11/15 |
 | GE-20260801-3bee47 | Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently | gotcha | 12/15 |
 | GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
+| GE-20260801-de318e | Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites | gotcha | 9/15 |
+| GE-20260801-aaa398 | FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases | gotcha | 8/15 |

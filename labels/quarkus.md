@@ -688,3 +688,4 @@
 - GE-20260731-016352: JPA @Transactional void method + non-transactional re-fetch returns stale entity state
 - GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge
 - GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class
+- GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites

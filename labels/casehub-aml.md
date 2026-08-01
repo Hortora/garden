@@ -1,1 +1,2 @@
 - GE-20260629-0d981d: Layer 9 shares AmlInvestigationOutcomeService with Layer 6 but produces no SAR outcomes — outcome is always null
+- GE-20260801-aaa398: FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases

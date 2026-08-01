@@ -1,0 +1,1 @@
+- GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites

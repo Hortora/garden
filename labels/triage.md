@@ -1,2 +1,3 @@
 - GE-20260721-4c9cdb: git diff two-dot vs merge-base — inflated branch triage results
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
+- GE-20260801-aaa398: FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases

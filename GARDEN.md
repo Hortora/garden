@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2324
+**Entries merged since last sweep:** 2326
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1868,6 +1868,8 @@
 - GE-20260801-a8ec17 [Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly](jvm/GE-20260801-a8ec17.md)
 - GE-20260801-3bee47 [Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently](jvm/GE-20260801-3bee47.md)
 - GE-20260716-986cd1 [InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data](jvm/GE-20260716-986cd1.md)
+- GE-20260801-de318e [Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites](jvm/GE-20260801-de318e.md)
+- GE-20260801-aaa398 [FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases](jvm/GE-20260801-aaa398.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -17,3 +17,4 @@
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
 - GE-20260701-a73f76: quarkus.scheduler.enabled=false breaks engine — use start-mode=halted for @QuarkusTest
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
+- GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
