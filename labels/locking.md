@@ -1,1 +1,2 @@
 - GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads
+- GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements

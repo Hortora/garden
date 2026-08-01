@@ -1244,3 +1244,5 @@
 | GE-20260731-016352 | JPA @Transactional void method + non-transactional re-fetch returns stale entity state | gotcha | 9/15 |
 | GE-20260731-aaf952 | quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge | gotcha | 10/15 |
 | GE-20260731-235d71 | REINVOKED execution mode suppresses worker output — integration tests silently time out | gotcha | 9/15 |
+| GE-20260801-1148df | SQLite in-memory databases create a new DB per getConnection() — tests see empty state | gotcha | 10/15 |
+| GE-20260801-8518b1 | SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements | gotcha | 10/15 |

@@ -11,3 +11,5 @@
 - GE-20260618-73a023: H2 JDBC getMetaData().getURL() drops connection properties — MODE=PostgreSQL not detectable from URL
 - GE-20260618-0ed34c: H2 LOCK_MODE=1 has no effect with MVStore — concurrent MERGE races persist
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
+- GE-20260801-1148df: SQLite in-memory databases create a new DB per getConnection() — tests see empty state
+- GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements

@@ -7,3 +7,5 @@
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
 - GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
 - GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite
+- GE-20260801-1148df: SQLite in-memory databases create a new DB per getConnection() — tests see empty state
+- GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements

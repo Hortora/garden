@@ -1,1 +1,2 @@
 - GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
+- GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements
