@@ -1,0 +1,1 @@
+- GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed

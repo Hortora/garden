@@ -29,3 +29,4 @@
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
 - GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors
 - GE-20260731-4377d0: JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints
+- GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed

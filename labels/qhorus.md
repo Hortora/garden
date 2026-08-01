@@ -24,3 +24,4 @@
 - GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
 - GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
+- GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed

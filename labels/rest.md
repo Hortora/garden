@@ -11,3 +11,4 @@
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
 - GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors
 - GE-20260731-4377d0: JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints
+- GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed

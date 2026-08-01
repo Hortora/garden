@@ -1248,3 +1248,4 @@
 | GE-20260801-8518b1 | SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements | gotcha | 10/15 |
 | GE-20260801-bcff35 | Mockito-free LLM provider testing via TestAgentProvider inner class | technique | 9/15 |
 | GE-20260801-0aee7e | casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern | undocumented | 9/15 |
+| GE-20260801-75857d | Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed | technique | 8/15 |
