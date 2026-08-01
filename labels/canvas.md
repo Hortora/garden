@@ -5,3 +5,4 @@
 - GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
 - GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
 - GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
+- GE-20260801-36b9fa: Cytoscape.js has no public API for custom canvas-drawn node shapes

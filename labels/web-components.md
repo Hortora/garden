@@ -34,3 +34,4 @@
 - GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }
 - GE-20260729-47f58b: pages-table selectedKeys silently ignored without selection attribute — no visual row highlighting
 - GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
+- GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components

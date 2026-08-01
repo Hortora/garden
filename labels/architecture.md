@@ -20,3 +20,4 @@
 - GE-20260630-815259: Cross-repo SPI extends creates CDI bean displacement — standalone composition required
 - GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
+- GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework

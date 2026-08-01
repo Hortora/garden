@@ -1,2 +1,1 @@
-- GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
 - GE-20260801-355ce5: CSS all:initial resets custom properties — design tokens must be explicitly re-declared

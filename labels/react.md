@@ -1,0 +1,1 @@
+- GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components

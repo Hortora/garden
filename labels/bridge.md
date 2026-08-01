@@ -2,3 +2,4 @@
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
 - GE-20260620-9d043b: CDI @Decorator double-application through blocking-to-reactive bridge — idempotency guard via domain enum
 - GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context
+- GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components

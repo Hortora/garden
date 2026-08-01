@@ -1,0 +1,1 @@
+- GE-20260801-36b9fa: Cytoscape.js has no public API for custom canvas-drawn node shapes

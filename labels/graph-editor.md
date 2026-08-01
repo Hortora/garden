@@ -1,0 +1,2 @@
+- GE-20260801-36b9fa: Cytoscape.js has no public API for custom canvas-drawn node shapes
+- GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework

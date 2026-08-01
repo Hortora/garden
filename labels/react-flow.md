@@ -1,0 +1,1 @@
+- GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
