@@ -1,3 +1,4 @@
 - GE-20260522-7159b4: git log --oneline in pre-push hooks silently breaks ^-anchored grep patterns — SHA prefix defeats the anchor
 - GE-20260531-2f51fd: Git pre-push hook asymmetric: empty stamp commits blocked on existing-upstream branches, silently pass on new-to-remote branches
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
+- GE-20260803-43adf7: Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap

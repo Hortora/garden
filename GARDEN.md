@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2349
+**Entries merged since last sweep:** 2350
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2547,6 +2547,7 @@
 - GE-20260802-a3c094 [source-dir parameter lets git-based functions work across independent repos via filesystem copy](tools/GE-20260802-a3c094.md)
 - GE-20260802-1d6cc3 [IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees](tools/GE-20260802-1d6cc3.md)
 - GE-20260802-d370aa [Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks](tools/GE-20260802-d370aa.md)
+- GE-20260803-43adf7 [Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap](tools/GE-20260803-43adf7.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

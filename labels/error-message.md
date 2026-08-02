@@ -1,2 +1,1 @@
-- GE-20260422-8d2613: Sentinel-guarded heredoc append for idempotent bash installer blocks
 - GE-20260803-43adf7: Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap

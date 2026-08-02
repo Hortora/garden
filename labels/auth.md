@@ -3,3 +3,4 @@
 - GE-20260706-cad45e: Yarn 4 project-level .yarnrc.yml npmScopes overrides home-level entirely — no property merge
 - GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
+- GE-20260803-43adf7: Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap

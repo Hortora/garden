@@ -630,3 +630,4 @@
 | GE-20260802-a3c094 | source-dir parameter lets git-based functions work across independent repos via filesystem copy | technique | 9/15 |
 | GE-20260802-1d6cc3 | IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees | gotcha | 9/15 |
 | GE-20260802-d370aa | Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks | gotcha | 8/15 |
+| GE-20260803-43adf7 | Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap | gotcha | 10/15 |

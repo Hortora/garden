@@ -1,1 +1,2 @@
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
+- GE-20260803-43adf7: Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap
