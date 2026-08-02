@@ -1,1 +1,2 @@
 - GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out
+- GE-20260802-40710e: WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics

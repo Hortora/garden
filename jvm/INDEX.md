@@ -1256,3 +1256,6 @@
 | GE-20260801-aaa398 | FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases | gotcha | 8/15 |
 | GE-20260802-2f52df | Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup | gotcha | 9/15 |
 | GE-20260802-7ad695 | Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart | gotcha | 8/15 |
+| GE-20260802-e7ee1c | MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs | gotcha | 9/15 |
+| GE-20260802-b53e57 | HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API | technique | 10/15 |
+| GE-20260802-40710e | WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics | undocumented | 12/15 |

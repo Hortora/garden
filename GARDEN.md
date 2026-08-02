@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2334
+**Entries merged since last sweep:** 2338
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1872,6 +1872,9 @@
 - GE-20260801-aaa398 [FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases](jvm/GE-20260801-aaa398.md)
 - GE-20260802-2f52df [Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup](jvm/GE-20260802-2f52df.md)
 - GE-20260802-7ad695 [Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart](jvm/GE-20260802-7ad695.md)
+- GE-20260802-e7ee1c [MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs](jvm/GE-20260802-e7ee1c.md)
+- GE-20260802-b53e57 [HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API](jvm/GE-20260802-b53e57.md)
+- GE-20260802-40710e [WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics](jvm/GE-20260802-40710e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2535,6 +2538,7 @@
 - GE-20260801-2ad082 [@safe decorator silently swallows signature mismatches when installed lib copy diverges from source](tools/GE-20260801-2ad082.md)
 - GE-20260802-f3b24b [Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms](tools/GE-20260802-f3b24b.md)
 - GE-20260802-a3c094 [source-dir parameter lets git-based functions work across independent repos via filesystem copy](tools/GE-20260802-a3c094.md)
+- GE-20260802-1d6cc3 [IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees](tools/GE-20260802-1d6cc3.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

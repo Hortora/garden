@@ -1,2 +1,3 @@
 - GE-20260724-b3e9a6: WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
+- GE-20260802-b53e57: HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API

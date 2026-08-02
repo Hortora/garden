@@ -12,3 +12,4 @@
 - GE-20260731-ab5ec4: .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
+- GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees

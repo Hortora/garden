@@ -1,0 +1,1 @@
+- GE-20260802-b53e57: HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API

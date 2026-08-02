@@ -403,3 +403,4 @@
 - GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class
 - GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
 - GE-20260801-aaa398: FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases
+- GE-20260802-e7ee1c: MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs

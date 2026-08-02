@@ -1,3 +1,4 @@
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
+- GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees

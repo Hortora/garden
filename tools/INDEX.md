@@ -628,3 +628,4 @@
 | GE-20260801-2ad082 | @safe decorator silently swallows signature mismatches when installed lib copy diverges from source | gotcha | 11/15 |
 | GE-20260802-f3b24b | Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms | gotcha | 12/15 |
 | GE-20260802-a3c094 | source-dir parameter lets git-based functions work across independent repos via filesystem copy | technique | 9/15 |
+| GE-20260802-1d6cc3 | IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees | gotcha | 9/15 |

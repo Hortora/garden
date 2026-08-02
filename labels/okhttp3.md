@@ -1,2 +1,1 @@
-- GE-20260618-2bc371: OkHttp MockWebServer silent timeout with Quarkus/Vert.x REST client
 - GE-20260802-e7ee1c: MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs

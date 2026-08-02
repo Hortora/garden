@@ -1,2 +1,3 @@
 - GE-20260418-b5775c: Playwright Java waitForFunction requires explicit null arg — passing options as second arg silently misbehaves
 - GE-20260618-dc2cb7: CaseEventLogRecord drops workerId — capability info only in metadata JsonNode
+- GE-20260802-e7ee1c: MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs

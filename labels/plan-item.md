@@ -1,0 +1,1 @@
+- GE-20260802-40710e: WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics
