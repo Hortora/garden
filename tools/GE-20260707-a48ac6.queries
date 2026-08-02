@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh api "/orgs/{org}/packages/maven/{package}/versions" --jq '.[0].updated_at'`
+`cannot find symbol: class LedgerEntry`
+`Maven cannot resolve artifact`

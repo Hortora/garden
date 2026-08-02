@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+terminal.paste vs ws.send
+xterm.js addon attach bracketed paste
+ws.send error no paste mode

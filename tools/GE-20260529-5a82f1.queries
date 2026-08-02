@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+rebase -i silent drop commits
+reword plan missing commits
+git log --oneline rebase drop

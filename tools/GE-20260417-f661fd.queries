@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+check 1 goap preconditions
+check 2 goal advancement effects
+action unreachable error message

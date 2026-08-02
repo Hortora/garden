@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+iframe.src assertion
+iframe src change after save
+playwright iframe caching

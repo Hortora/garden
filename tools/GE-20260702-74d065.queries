@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_open_workspace pom.xml
+ide_find_class workspace
+ide_search_text cross-repo

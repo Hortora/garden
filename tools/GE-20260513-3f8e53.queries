@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_find_references interface method polymorphic callers
+ide_find_references interface method zero callers
+ide_find_references interface method override removal

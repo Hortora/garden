@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`assert "automatically" not in skill_text` failing
+`pytest bold markers SKILL.md`
+`skill_text frontmatter match`

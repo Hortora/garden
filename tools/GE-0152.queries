@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+PIXI Sprite anchor issues with child masks
+PIXI Sprite mask visibility error
+PIXIJS 8 child mask clipping problem

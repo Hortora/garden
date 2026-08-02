@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git log --oneline` commit message
+`feat: add common register mistakes` file content
+`grep -n "section title" \u003cfilepath\u003e` verification

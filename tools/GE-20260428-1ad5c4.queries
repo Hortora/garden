@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.casehub:api:pom deploy 404
+github packages GITHUB_TOKEN write access
+maven deploy permissions fork

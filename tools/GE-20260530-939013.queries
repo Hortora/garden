@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+python scripts/claude-skill sync-local --all error messages
+claude-skill sync-local deleted skills not removed
+~/.claude/skills/ skill sync no delete flag

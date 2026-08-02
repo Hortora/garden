@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+tmux keyName lookup substring
+tmux sendKeys argument matching
+tmux Escape key name test

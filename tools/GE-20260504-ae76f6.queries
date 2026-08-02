@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show --stat \u003cmerge-sha\u003e
+git log --oneline \u003cbranch\u003e ^main
+allow_squash_merge=false

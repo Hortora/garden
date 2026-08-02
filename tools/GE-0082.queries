@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`\u003cb\u003eName \u003c/b\u003e(text)` conversion
+`stressed` flag html2text
+`handle_data()` whitespace stripping

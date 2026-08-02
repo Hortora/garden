@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+window.__test spriteCount
+window.__test sprite
+window.__test hudText

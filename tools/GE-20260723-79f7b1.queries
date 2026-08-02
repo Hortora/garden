@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+TableProps rename targetting pageSize instead of interface
+PagesTable rename targets adjacent property
+ide_refactor_rename TypeScript interface renaming error

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`curl -sI http://localhost:8090/ | grep -i "server"`
+`lsof -i :8090`
+`Server: SimpleHTTP/0.6 Python/3.14.5`

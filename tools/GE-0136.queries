@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`re.finditer(r'^\*\*ID:\*\*\s+(GE-\d{4})', content, re.MULTILINE)`
+`regex false positives markers fenced code blocks`
+`structured text validators ID GE-XXXX`

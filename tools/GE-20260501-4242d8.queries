@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+github actions publish guard pull_request
+github event_name != pull_request github actions
+maven deploy github actions trigger types

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git remote -v origin
+git remote get-url fork
+git remote get-url upstream

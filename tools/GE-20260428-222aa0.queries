@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test transitive dependencies SHA
+quarkus incremental build SHA comparison
+build-logs SHA replay script

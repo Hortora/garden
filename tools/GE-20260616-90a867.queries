@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Alternative` presence in JAR bytecode
+`Constant_Utf8` tag search in class file
+JAR string constant extraction method signatures

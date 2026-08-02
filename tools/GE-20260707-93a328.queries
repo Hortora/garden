@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ide_search_text` as any totalCount 0
+`grep -rn "as any"` TypeScript
+`as any` class names identifiers

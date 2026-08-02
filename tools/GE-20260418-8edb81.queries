@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+dev.tamboui.terminal.TestBackend
+NoClassDefFoundError tamboui-core
+test-fixtures dependency

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mvn install` `WorkItemLifecycleEvent fromWire` error
+GitHub Packages SNAPSHOT divergence
+casehub-work SNAPSHOT API version

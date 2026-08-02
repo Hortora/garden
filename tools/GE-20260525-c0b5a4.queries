@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+python3 subprocess git shell permission-prompt
+python3 git -C repo for loop trigger
+python3 install_hooks.py Claude Code analyser

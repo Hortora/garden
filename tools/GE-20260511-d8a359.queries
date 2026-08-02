@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git log upstream/main ^backup/pre-squash-main
+git merge-base --is-ancestor backup upstream
+ahead=$(git log --oneline upstream/main ^backup/pre-squash-main | wc -l | tr -d ' ')

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Concurrent sessions cannot corrupt garden state
+No entry enters the garden without passing validation
+Duplicate knowledge is eliminated in layers, not all at once

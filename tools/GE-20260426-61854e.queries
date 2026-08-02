@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh api orgs/MY-ORG/teams create \
+gh api orgs/MY-ORG/teams/developers/memberships/USERNAME \
+gh api orgs/MY-ORG/teams/developers/repos/MY-ORG/permission

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jar xf without -C
+jar xf error message
+CWD reset jar xf

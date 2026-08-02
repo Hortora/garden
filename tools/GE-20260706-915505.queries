@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Surefire forked JVM hang GitHub Packages 401
+Maven offline test run -o flag
+CDI wiring issues surefire fork

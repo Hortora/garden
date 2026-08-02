@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+window.__test async
+page.evaluate 'async () =\u003e'
+waitForFunction timeout

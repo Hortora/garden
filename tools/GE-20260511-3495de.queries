@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_find_class kind CLASS interface
+get_symbol_info symbol info
+mcp_intellij-index kind CLASS interface

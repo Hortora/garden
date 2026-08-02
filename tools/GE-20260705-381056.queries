@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git status --short ~/claude/hortora/soredium
+sync-local uncommitted changes
+uncommitted git log skills

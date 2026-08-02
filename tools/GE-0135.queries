@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+translate interface overloads
+resolved data return
+no mocking interface

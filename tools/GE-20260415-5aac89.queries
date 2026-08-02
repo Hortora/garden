@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`tile(x, y)` formula
+`canvasY = (VIEWPORT_H - y) * SCALE`
+`Graphics.rect()` top-left calculation

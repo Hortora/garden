@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh auth refresh` error
+`!` prefix oauth flow
+`--hostname required when not running interactively`

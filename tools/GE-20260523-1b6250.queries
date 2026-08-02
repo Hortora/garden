@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+casehub-eidos-api cross-repo dependency table
+impact-analysis optional annotation
+build-order 'optionally' propagation scans

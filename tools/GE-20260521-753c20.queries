@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git rebase --rebase-merges merge conflict CLAUDE.md
+git rebase squash merge replay conflict
+merge -C conflict after squash operation

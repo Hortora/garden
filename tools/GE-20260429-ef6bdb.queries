@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+git checkout \u003chash\u003e -- files
+regression triage files pre-existing

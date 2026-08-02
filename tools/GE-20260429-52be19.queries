@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git commit-tree amend message non-HEAD
+git commit-tree rebase interactive
+git commit-tree commit message hash

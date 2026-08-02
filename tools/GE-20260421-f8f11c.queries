@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git conflict resolving GARDEN.md
+squash PR merge conflict multiple commits
+reset branch before committing GARDEN.md

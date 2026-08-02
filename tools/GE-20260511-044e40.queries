@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`reword` command silently treated as `pick` during rebase
+`GIT_EDITOR` not set causes commit message to remain unchanged
+`exec git commit --amend` fix for silent reword behavior

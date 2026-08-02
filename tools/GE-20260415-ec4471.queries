@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh pr create failed GraphQL: Head sha can't be blank, Base sha can't be blank
+feat/feature-a push to upstream
+gh pr create --base main --head feat/feature-a repo error

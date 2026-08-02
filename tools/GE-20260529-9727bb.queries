@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+openclaw plugin registration
+agent.on before_prompt_build
+TypeScript plugin sdk vs python sdk

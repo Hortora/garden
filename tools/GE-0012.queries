@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show \u003chash\u003e:\u003cfilepath\u003e
+git diff \u003cbefore-hash\u003e \u003cafter-hash\u003e -- \u003cfilepath\u003e
+git log --oneline -- \u003cfilepath\u003e

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh issue create --label "platform" --repo casehubio/casehub-parent`
+`gh label create "platform,architecture" --repo casehubio/casehub-parent`
+`"could not add label: 'platform' not found" issue creation`

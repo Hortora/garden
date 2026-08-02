@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+CaseInstanceRepository rename produces InMemoryReactiveCaseInstanceRepositoryReactive
+intellij-index ide_refactor_rename substring propagation

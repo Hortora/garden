@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh api disable squash merge org repos
+gh api patch repos myorg rebase merge
+gh api org merge policy settings

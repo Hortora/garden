@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git diff patch apply
+git apply -- files api/src/main/java/LoopControl.java engine/src/main/java/ChoreographyLoopControl.java
+git diff upstream/main feat/big-branch -- casehub-blackboard/src/main/java/

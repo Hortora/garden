@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Read every Java class, interface, enum, method
+Synthesise two inventories for comparison
+Sealed interfaces with one permitted type

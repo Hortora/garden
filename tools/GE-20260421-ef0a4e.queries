@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`refactoring abstract base class test count`
+`test methods missing after contract extension`
+`InMemoryChannelStoreTest test method removal`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git mv` "No such file or directory"
+`git rm` data loss index
+partial staging git mv

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ctx.drawImage(webglCanvas, x, y, 1, 1, 0, 0, 1, 1)` returns black?
+WebGLRenderer preserveDrawingBuffer
+Three.js pixel sampling failure

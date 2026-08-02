@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_read_file qualifiedName io.casehub.platform.oidc.SecurityIdentityCurrentPrincipal
+javap class annotations
+ide_find_class scope project_and_libraries

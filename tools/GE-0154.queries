@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`#tabbar` CSS rule replacement deleting adjacent rules
+`.visible` class missing from find-and-replace
+`toggleLayout()` JS function not triggering CSS changes

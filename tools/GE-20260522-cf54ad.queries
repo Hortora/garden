@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git branch --merged squash-rebased branches
+git log main --grep feat/my-feature
+git log main --oneline --grep="feat: my feature title"

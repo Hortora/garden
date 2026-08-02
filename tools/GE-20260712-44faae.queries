@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ bulk move leaves stale intra-package imports
+"package X does not exist" after class move
+ide_optimize_imports fails after bulk file move

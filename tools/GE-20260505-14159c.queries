@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+validate_garden.py regex bold entries merged
+create_garden_md drift counter markdown
+dedupe-check error messages 0

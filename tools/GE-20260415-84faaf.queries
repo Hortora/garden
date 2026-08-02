@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`"fatal: cannot lock ref 'refs/heads/feat/foo/bar'"`
+`"Git branch naming conflict /"`
+`"branch refs/heads as file"`

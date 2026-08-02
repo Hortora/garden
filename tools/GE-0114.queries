@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`href="dir/"` local browsing
+`file://` directory listing
+`index.html` hrefs local test

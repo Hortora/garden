@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`wait_for_selector display:none`
+`page.wait_for_selector timeout`
+`state='visible'`

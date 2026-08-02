@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mcp__intellij__get_project_modules HTTP 404 session not found
+mcp__intellij-index ide_index_status session not found
+IntelliJ MCP session tied to IDE lifecycle

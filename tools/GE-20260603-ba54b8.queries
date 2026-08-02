@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+warning: previously applied commit 1bcdb2c
+git rebase skipped commits
+git rebase warning previously applied

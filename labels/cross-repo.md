@@ -10,3 +10,4 @@
 - GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design
 - GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
+- GE-20260802-a3c094: source-dir parameter lets git-based functions work across independent repos via filesystem copy

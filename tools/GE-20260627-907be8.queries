@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.casehub:casehub-worker-api jar not found github
+github packages maven wildcard repo visibility
+packages:write permission github packages private repo

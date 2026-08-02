@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+cherry-pick amend commit messages
+git cherry-pick --amend rewrite commit footer
+temp branch rewrite commit messages

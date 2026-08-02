@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+get(String key) returns false
+Boolean.TRUE.equals(null)
+onCooldown defaults to false

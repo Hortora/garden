@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+brainstorming skill spec path override
+specs YYYY-MM-DD-\u003ctopic\u003e-design.md CLAUDE.md
+routing override docs/superpowers/specs/

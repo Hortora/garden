@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+"wrapper exception 'All 3 attempts failed'"
+"null message fallback exception"
+"InterruptedPolicyException propagation regression"

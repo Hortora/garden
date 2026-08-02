@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`SC2 GAME_EVENTS unit tag decode`
+`rawTag \u003e\u003e 18 tagIndex`
+`getTargetUnit().getTag()`

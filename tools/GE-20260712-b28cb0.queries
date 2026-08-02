@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+fabric8 watch events deployment
+KubernetesCrudDispatcher Watch events
+EnableKubernetesMockClient crud true

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`JSON.stringify()` onclick double quote truncation
+`deleteProject()` handler empty click event
+`data-*` attributes HTML onclick attribute

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh api repos/OWNER/REPO/pages --method POST
+gh api repos/OWNER/REPO/environments/github-pages/deployment-branch-policies
+“Branch not allowed to deploy to github-pages”

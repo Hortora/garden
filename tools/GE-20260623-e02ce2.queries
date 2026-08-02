@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh issue view N --repo owner/repo --json state,stateReason
+git log --grep="#N"
+stateReason mapping

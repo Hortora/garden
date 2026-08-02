@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.casehub:parent:pom resolution error
+Maven error "Could not find artifact" GitHub Packages
+`maven.deploy.skip=true` deployment issue

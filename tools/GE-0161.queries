@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh project item-edit --field-id` GraphQL node ID
+`"Could not resolve to a node with the global id"` error
+`PVTSSF_lADO...` internal GraphQL ID

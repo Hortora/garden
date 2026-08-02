@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+workspace-init false-negative CLAUDE.md
+check_project_setup.sh CLAUDE.md "## Session Start"
+wksp symlink detection CLAUDE.md

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git log --oneline` SHA prefix grep
+`grep -E "^docs\(claude\):"` anchor issue
+`git log --format=%s` pre-push hook

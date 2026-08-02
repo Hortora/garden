@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+python zipfile evtTypeName
+python zipfile BZip2 outer ZIP
+python json trackerEvents evtTypeName

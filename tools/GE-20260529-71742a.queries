@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+api.on("before_prompt_build", (ctx) =\u003e /* uses telemetry */);
+register(api) synchronous

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mcp__intellij-index__ide_read_file` rejects `jar:///Users/.../.m2/repository` paths
+`mcp__intellij-index__ide_find_file` path format error
+`File not found` Maven repository JAR

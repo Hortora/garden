@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Gradle JavaVersion parse error Java 26`
+`JAVA_HOME Gradle 8.6`
+`Kotlin Gradle internal exception JAVA_HOME`

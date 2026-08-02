@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+`\r\n` might be interpreted differently by different tools).
+- **Use a test fixture with just `\n` endings** — doesn’t allow for proper Windows-style CRLF testing.

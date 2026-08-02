@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+PyYAML "unexpected end of stream" YAML frontmatter
+`content.split('---', 2)` YAML quoting
+YAML `---` in quoted string error

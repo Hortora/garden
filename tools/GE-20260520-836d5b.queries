@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+python3 sync-local --all -y hook update
+check_project_setup.sh overwrite error
+session-start hook status message

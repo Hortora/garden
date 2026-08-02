@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git branch --contains \u003cSHA\u003e returns nothing
+git cat-file -e \u003cSHA\u003e false positive
+squash-merge creates dangling SHAs

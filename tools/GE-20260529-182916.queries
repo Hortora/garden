@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+grep -q "Issue tracking.*enabled" CLAUDE.md
+{ [ -L "wksp" ] \u0026\u0026 [ -d "wksp" ]; }
+WORKSPACE_OK=no

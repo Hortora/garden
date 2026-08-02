@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the limit on `--log-failed` output from `gh run view`?
+How do verbose framework logs affect `gh run view` output?
+Where can I find structured test results instead of the full log?

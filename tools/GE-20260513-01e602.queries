@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show \u003ccommit\u003e:\u003cpath\u003e
+git mv recovery
+quarkus file restore

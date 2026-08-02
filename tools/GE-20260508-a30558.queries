@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git rm untracked files
+git rm -r silent exit
+git rm -r directory removal

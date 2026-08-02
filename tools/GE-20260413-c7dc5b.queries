@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+cpython tar.gz windows archive
+python-build-standalone shared static discriminator
+windows python archive 404 error

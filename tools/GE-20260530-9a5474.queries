@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh auth token` OAuth token missing `read:packages` scope
+`Maven 401 Unauthorized` GitHub Packages dependency resolution
+`~/.m2/settings.xml` GITHUB_TOKEN `gho_` token authentication

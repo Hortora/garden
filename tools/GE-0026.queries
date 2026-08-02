@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+S2Coordinator setup().create() error
+launchStarcraft() compile error
+ocraft S2Coordinator build() not found

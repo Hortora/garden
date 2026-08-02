@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git push` failing with "Pre-push: 1 commit(s) about to push"
+`core.hooksPath = .githooks` pre-push hook blocking commits
+empty stamp commit silently passing on new branches

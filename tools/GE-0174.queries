@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git filter-branch` staged changes error
+`Cannot rewrite branches` message-only rewrite
+`git filter-branch` index clean requirement

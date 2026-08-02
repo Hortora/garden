@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+agentId only cursor sessionKey
+agentId sessionKey reset cursor
+cursors Map agentId sessionKey

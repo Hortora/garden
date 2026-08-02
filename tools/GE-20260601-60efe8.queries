@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh workflow run ci.yml --repo casehubio/\u003crepo-name\u003e
+gh api repos/casehubio/\u003crepo\u003e/dispatches -f event_type=upstream-published
+workflow_dispatch: on triggers

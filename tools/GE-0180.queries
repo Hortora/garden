@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jest useFakeTimers hang
+setImmediate jest mock exit
+jest runAllImmediates fix

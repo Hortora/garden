@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_create_file timeout git worktree indexing
+ide_index_status "no .idea directory" error
+IntelliJ MCP timeout project open ready

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`assertThat` failing after `UnitType.ZEALOT` changes
+`SC2Data.damagePerAttack` and `SC2Data.armour` usage in tests
+`magic numbers` in assertions

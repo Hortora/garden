@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git worktree unlock old path ghost worktree
+git worktree prune remove non existent path
+git worktree list registered worktrees

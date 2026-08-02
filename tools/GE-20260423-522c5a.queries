@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+type enum value classification prompt
+@ToolArg description enum usage guide
+LLM enum classification tool parameter

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh api 'orgs/{org}/packages?package_type=maven'` pagination
+`org packages api truncation`
+`github packages per_page 100`

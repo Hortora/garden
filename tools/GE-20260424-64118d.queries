@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh repo transfer --yes flag
+gh api repo transfer no confirmation
+unknown flag --yes gh repo transfer

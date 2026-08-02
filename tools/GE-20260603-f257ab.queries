@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git squash rebase conflicting histories
+git log fork upstream commit history
+push to fork origin after git-squash

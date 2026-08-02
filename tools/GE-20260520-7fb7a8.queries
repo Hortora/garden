@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Path(garden_root)` → `garden_path` in a function with `garden_path = Path(garden_root) if garden_root else None` causes `UnboundLocalError`.
+replace_all corrupts variable definition when pattern matches definition and call sites.
+Edit tool success doesn't reveal runtime `UnboundLocalError` after `replace_all`.

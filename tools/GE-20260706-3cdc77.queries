@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide refactor rename constructor parameter
+ReadOnlyLayerException class rename
+constructor parameter ambiguity

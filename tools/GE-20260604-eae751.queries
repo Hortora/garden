@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git cherry-pick merge commit conflicts
+git diff parent2 merge-sha
+tree(feature-branch-tip) == tree(merge-commit)

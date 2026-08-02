@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh secret set --org visibility private
+gh secret set --org public repos empty string
+gh secret set --org errors token invalid

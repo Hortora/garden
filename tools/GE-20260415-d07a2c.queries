@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+TextContent parsing FastMCP list
+CallToolResult content TextContent
+mcp Python SDK list serialization

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`GIT_SEQUENCE_EDITOR "cp $PLAN"` error
+`mktemp cat \u003e heredoc rebase`
+`Claude Code acceptEdits git rebase`

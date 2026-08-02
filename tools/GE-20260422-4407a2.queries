@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Closes #N` commit auto-close github
+`gh issue list --repo owner/repo --state open`
+`main`/`master` direct push issue auto-close

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh pr create --title error message`
+`non-interactive gh pr create body`
+`--title --body gh pr create`

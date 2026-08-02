@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`GoapAction.isApplicable()` ignores WorldState keys not in the action's precondition map.
+`ATTACK` failing to declare `onCooldown: false` allows action firing despite WorldState.
+`GoapAction` checks for preconditions defined within the action itself.

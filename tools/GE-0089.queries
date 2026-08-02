@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+BeautifulSoup prettify whitespace
+Unicode WORD JOINER U+2060 marker
+re.sub inline element content

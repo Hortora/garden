@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`StringExpressionEvaluator` branch closed stamp
+branch-closed stamp orphaned commits
+git log \u003cSHA\u003e...branch --oneline

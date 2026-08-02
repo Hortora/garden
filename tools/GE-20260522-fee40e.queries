@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show branch:path
+git branch | tr -d '*'
+design/EPIC-CLOSED.md

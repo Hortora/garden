@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git config core.hooksPath` commit blocked
+`git hooksPath commit` error message
+`.githooks` hook installation timing

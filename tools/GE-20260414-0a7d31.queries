@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git commit --amend footer trailing newline
+git log --format '%B' newline stripping
+bash command substitution newline character

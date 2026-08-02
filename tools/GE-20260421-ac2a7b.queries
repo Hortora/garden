@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh run view --log-failed
+gh pr checks \u003cPR-number\u003e --repo \u003cowner/repo\u003e
+gh run view 24740863935 --repo \u003cowner/repo\u003e

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+rename class import java
+ide_refactor_rename import statement
+import io.casehub.api.spi.PlannedAction

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git log all added file
+git log all diff-filter A
+git show hash path to file

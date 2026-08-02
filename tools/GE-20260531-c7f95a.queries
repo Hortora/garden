@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git checkout 2\u003e/dev/null \u0026\u0026 git commit loop
+git commit --allow-empty stale branch
+worktree locked commit issue

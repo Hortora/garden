@@ -1,3 +1,4 @@
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
 - GE-20260801-dfadc9: iterdir() with is_dir skip silently drops files in subdirectories
 - GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures
+- GE-20260802-f3b24b: Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms

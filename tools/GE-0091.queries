@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+python validate_document.py corrupted table
+validate_document.py markdown table fenced code block error
+CRITICAL issues found markdown table validator

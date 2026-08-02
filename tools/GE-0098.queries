@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+capture-pane -p output whitespace
+capture-pane -p cursor misalignment
+tmux capture-pane -p blank lines padding

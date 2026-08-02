@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+garden agent log substring count
+pytest str count overlapping substrings
+count line occurrences test assertion

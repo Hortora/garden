@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SyntaxError sed trailing comment
+Python string literal parens comment
+`make_file` sed substitution

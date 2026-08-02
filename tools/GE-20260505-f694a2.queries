@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+sed inline header patch
+`sed` replace header number
+cross-repo file copy header update

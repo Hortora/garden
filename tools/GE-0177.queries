@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`http.get ECONNREFUSED 127.0.0.1`
+`HTTPServer IPv6 localhost`
+`macOS 14 health check fail`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh api error handler set -e
+printf command substitution set -e
+resp=$(gh api) exit code 1

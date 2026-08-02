@@ -121,3 +121,4 @@
 - GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
 - GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
+- GE-20260802-f3b24b: Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms

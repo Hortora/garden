@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`tmux attach-session` "not a terminal"
+`ProcessBuilder` PTY requirement
+`pipe-pane` FIFO connection

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_move_file Maven module incorrect
+ide_move_file nearest package match
+CaseMemoryStore.java import update

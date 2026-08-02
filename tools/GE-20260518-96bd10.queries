@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+get_file_text_by_path IntelliJ MCP stale content
+mcp read_file file content mismatch
+intellij vfs cache divergence compile errors

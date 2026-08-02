@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+vim ~/.claude/skills/hortora-skill/SKILL.md
+python3 scripts/claude-skill sync-local --all -y error
+claude skill sync overwrite

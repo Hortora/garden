@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+sed -i '' no match
+BSD sed vs GNU sed
+macOS sed empty file

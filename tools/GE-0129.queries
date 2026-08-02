@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+iframe.style.pointerEvents = 'none';
+pointer-events: none iframe
+mousemove event capture iframe

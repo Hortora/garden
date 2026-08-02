@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+DeclarativeUtil scope: "project_and_libraries"
+mcp__intellij-index__ide_find_definition Java dev.langchain4j.agentic.declarative.DeclarativeUtil
+io.casehub.ledger.memory.InMemoryLedgerEntryRepository fullElementPreview: true maxPreviewLines: 100

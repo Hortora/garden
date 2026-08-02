@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git branch --show-current
+cross-repo subagent commit issue
+subagent inherits stale branch

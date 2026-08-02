@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`sha256(pair.encode()).hexdigest()[:8]` primary key
+`INSERT OR IGNORE` duplicate key behavior
+truncated hash birthday collision probability

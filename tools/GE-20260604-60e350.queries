@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+Brief mode README explanation stripping
+What’s the root cause of per-capability explanation sections disappearing when using Brief mode on a README?

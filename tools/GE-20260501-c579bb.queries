@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh api repos/casehubio/$repo/dispatches -f event_type=upstream-published 2\u003e/dev/null
+repository_dispatch upstream trigger downstream
+engine -\u003e claudony workflow trigger

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ide_insert_member` timeout error
+`CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT` configuration
+duplicate content after `ide_create_file` timeout

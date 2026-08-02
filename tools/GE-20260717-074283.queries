@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+curl "https://maven.pkg.github.com/\u003corg\u003e/\u003crepo\u003e/io/casehub/\u003cartifact\u003e/0.2-SNAPSHOT/maven-metadata.xml"
+mvn deploy 422 error message
+github packages ghost package metadata

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git log A ^B error message
+git merge-base --is-ancestor main
+branch pointer stale rebase-merge

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh api repos/{owner}/{repo}/pages -X POST --field 'build_type=workflow'`
+`configure-pages action 404 error`
+`GitHub Pages workflow fails "Setup Pages"`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mv project folder invalidates shell cwd
+Bash tool cwd error after mv
+Read Write Edit Glob unaffected mv

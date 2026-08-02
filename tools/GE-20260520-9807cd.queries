@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git stash pop branch context
+stash pop commit land on feature
+git stash save branch name

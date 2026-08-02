@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+claude --mcp-config
+strict-mcp-config error message
+junit 5 mcp server test

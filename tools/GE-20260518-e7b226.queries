@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show epic-foo:design/JOURNAL.md
+git ls-tree -r --name-only epic-foo -- specs/
+git show epic-foo:EPIC-CLOSED.md 2\u003e/dev/null || echo "(absent)"

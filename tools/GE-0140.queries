@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git filter-branch --msg-filter` doubled footer error
+`filter-branch Cannot rewrite branches unstaged changes`
+`refs #6 footer duplicate`

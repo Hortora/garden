@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git filter-branch --msg-filter` `$GIT_COMMIT`
+`--msg-filter` case statement commit hashes
+`$GIT_COMMIT` rewrite specific commits

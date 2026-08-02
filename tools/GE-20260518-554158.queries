@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git add submodule mode 160000
+git status gitlink platform
+git add .gitmodules platform

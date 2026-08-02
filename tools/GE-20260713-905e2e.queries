@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ MCP ide_create_file VFS error Maven
+ide_create_file returns success but no disk file
+Maven cannot find symbol after ide_create_file

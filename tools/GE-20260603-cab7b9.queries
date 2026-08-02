@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_find_references scope: "project_and_libraries"
+ide_type_hierarchy
+mcp__intellij-index__ tools

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+window.__test terrainReady
+Playwright waitForFunction race
+threeReady vs terrainReady flag

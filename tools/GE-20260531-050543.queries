@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`sed backreference \1`
+`macOS sed capture group`
+`BSD sed vs GNU sed`

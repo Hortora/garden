@@ -1,0 +1,1 @@
+- GE-20260802-f3b24b: Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms

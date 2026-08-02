@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh issue create --title "First issue title" --label "enhancement" --repo "owner/repo"
+gh issue close 42 --repo "owner/repo"
+gh issue create --title "Second issue title" --label "enhancement" --repo "owner/repo"

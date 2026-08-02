@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh pr merge --delete-branch` closed PR
+`PR retargeting base branch after deletion`
+`GitHub silent close PR after branch delete`

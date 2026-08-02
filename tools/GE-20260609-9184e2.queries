@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git ls-tree --name-only conflict
+git log --name-only --diff-filter=A
+branch-unique content git ls-tree

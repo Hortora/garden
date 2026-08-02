@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`dy` attribute positioning in circular SVG textPath
+SVG textPath baseline relative to arc
+textPath `dy` inconsistent arc positioning

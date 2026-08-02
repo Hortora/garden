@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`replace` filters in Jekyll layouts to fix relative paths without touching source files
+{{ content | replace: 'src="images/', 'src="../images/' }}
+{{ content | replace: 'href="01', 'href="../01' }}

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+tmux display-message -t \u003csession\u003e -p "#{pane_activity}" returns empty string
+tmux 3.6a argument order -t before -p error
+#{pane_activity} client-side vs server-side format variable

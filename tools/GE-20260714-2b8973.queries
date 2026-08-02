@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ctx.py WORKSPACE naming two-repo
+HAS_META=no error project repo
+proj/ symlink naming convention

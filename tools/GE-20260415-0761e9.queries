@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`distance \u003e= 0.5` not arrived
+`Math.sqrt` floating-point rounding
+snap distance threshold 0.5

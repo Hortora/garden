@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`"quoted heredoc delimiter bash"`
+`"$AGENT_SH" variable expansion`
+`"HORTORA_GARDEN" runtime expansion`

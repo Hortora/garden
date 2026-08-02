@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Kramdown Setext h2 heading
+--- before blank line
+paragraph after `---` renders as heading

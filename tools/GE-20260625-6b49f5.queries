@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_read_file qualifiedName
+IntelliJ MCP read dependency source
+Maven JAR sources classpath

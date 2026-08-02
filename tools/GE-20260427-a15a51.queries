@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+worldToScreen y offset raycaster
+worldToScreen isometric view click offset
+THREE.Vector3 project y=0

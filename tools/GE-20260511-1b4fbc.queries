@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git squash no editor
+git rebase squash error message
+git squash concatenate commit messages

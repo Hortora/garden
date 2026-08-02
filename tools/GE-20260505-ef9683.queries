@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git log upstream/main..feature-branch
+git log main..branch
+git rebase --onto upstream/main

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`hexToRgba(0, 0.3)` → `TypeError: hex.slice is not a function`
+`window[fnName](pCtx, 32, 32, 0, tColor)`
+`.then()` chain swallowing `TypeError`

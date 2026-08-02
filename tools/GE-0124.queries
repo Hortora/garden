@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`settings.local.json` absolute paths
+`mv` doesn't update string references
+`~/claude/oldname/.claude/` directory appearance

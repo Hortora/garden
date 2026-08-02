@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+grep -c || echo 0 double line output
+git status grep -c non-empty check
+wc -l vs grep -c line count

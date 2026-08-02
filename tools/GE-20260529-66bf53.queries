@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`api.on("before_prompt_build", handler)` returns without error
+`hooks.allowConversationAccess: true` missing from openclaw.json
+`before_prompt_build` handler never fires

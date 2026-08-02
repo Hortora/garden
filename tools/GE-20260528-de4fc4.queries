@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh pr view --json mergeable,mergeStateStatus` DIRTY/CONFLICTING
+`git diff base...branch --name-only` clean diff
+"Pull request is not mergeable: the merge commit cannot be cleanly created."

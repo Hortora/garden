@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git restore --staged .` working tree revert
+`--staged` index restore working tree
+`git restore staged revert`

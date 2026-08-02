@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git commit -m "message" nothing to commit
+pre-commit hook absorb staged files
+git log --oneline -5 wrong commit message

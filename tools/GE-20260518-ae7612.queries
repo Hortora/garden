@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jar xf followed by javap CWD issue
+javap class signature stale file
+CWD reset between Claude Code Bash tool calls

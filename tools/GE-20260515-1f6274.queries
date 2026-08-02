@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mcp__intellij__search_file q parameter
+mcp__intellij__search_file globPattern error
+mcp__intellij__search_file query parameter

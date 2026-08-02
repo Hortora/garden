@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+typescript module resolution stale dist
+yarn workspace symlinks git worktree
+"@scope/pkg" no exported member "NewExport"

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git stash pop "$STASH_REF" || echo
+A \u0026\u0026 B || C shell pattern
+shell operator precedence \u0026\u0026 ||

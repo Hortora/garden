@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+before_tool_call event payload fields
+ToolCallEvent interface typescript
+casehub_escalate toolName

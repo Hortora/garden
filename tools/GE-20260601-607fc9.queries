@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git push pre-push hook blocked
+pre-push hook exit code 1
+git squash candidate detection

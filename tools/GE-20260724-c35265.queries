@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ MCP safe delete line number target error
+ide_refactor_safe_delete stale line numbers after deletion
+ReactiveConfig MerklePublishConfig deletion issue

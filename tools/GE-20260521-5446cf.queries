@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git show upstream/main:path/to/key/file.java
+git log --oneline upstream/main | grep -i "feature-keyword"
+upstream/main:path/to/key/file.java

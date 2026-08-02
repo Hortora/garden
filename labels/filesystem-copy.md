@@ -1,0 +1,1 @@
+- GE-20260802-a3c094: source-dir parameter lets git-based functions work across independent repos via filesystem copy

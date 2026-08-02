@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JetBrains Index ide_edit_member replacing entire class
+ide_edit_member class replacement SituationEvaluator
+constructor replacement ide_replace_text_in_file

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RuleBuilder output class naming
+PermuteMethod top-level classes
+Template suffix for inline templates

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java.util.ArrayList cannot find symbol error
+ide_optimize_imports remove unused imports
+new ArrayList\u003c\u003e() missing import

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Bresenham LOS tile-granular
+sub-tile sampling movement speed
+isWalkable() tile centre-to-centre crossing error

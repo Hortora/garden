@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mvn deploy artifact 404`
+`github packages phantom repository`
+`distributionManagement url casehubio`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mcp__intellij-index__ide_open_project(path: "/Users/mdproctor/claude/casehub/drafthouse/server")
+mcp__intellij-index__ide_find_class(query: "DebateSession", project_path: "/Users/mdproctor/claude/casehub/drafthouse/server")
+mcp__intellij-index__ide_open_project(path: "/Users/mdproctor/claude/casehub/drafthouse/server")

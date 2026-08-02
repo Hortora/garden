@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`podman machine rm --force`
+`podman machine stop`
+`podman ps connection error`

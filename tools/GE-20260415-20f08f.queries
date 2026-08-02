@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+page.request() 401 X-Api-Key
+page.setExtraHTTPHeaders inheritance
+APIRequestContext headers Playwright

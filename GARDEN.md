@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2330
+**Entries merged since last sweep:** 2332
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2531,6 +2531,8 @@
 - GE-20260801-836d85 [Post-push verification with git cat-file catches silent promotion failures](tools/GE-20260801-836d85.md)
 - GE-20260801-e482fc [Separate skill sections create LLM bypass paths — merge mandatory gates into one section](tools/GE-20260801-e482fc.md)
 - GE-20260801-2ad082 [@safe decorator silently swallows signature mismatches when installed lib copy diverges from source](tools/GE-20260801-2ad082.md)
+- GE-20260802-f3b24b [Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms](tools/GE-20260802-f3b24b.md)
+- GE-20260802-a3c094 [source-dir parameter lets git-based functions work across independent repos via filesystem copy](tools/GE-20260802-a3c094.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

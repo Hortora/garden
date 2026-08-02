@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What API endpoint returns citations for a Semantic Scholar paper?
+How to paginate citations from the Semantic Scholar API?
+What JSON fields are available in the citation data returned by the API?

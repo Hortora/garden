@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git reset --soft HEAD~1 commit amend no-edit
+git commit amend no-edit squash
+git reset soft HEAD~1 amend no-edit

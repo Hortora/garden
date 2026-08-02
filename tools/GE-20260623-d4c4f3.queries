@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+lsof -d cwd -Fn output all file descriptors
+lsof cwd file descriptor output macOS
+awk filter lsof cwd path

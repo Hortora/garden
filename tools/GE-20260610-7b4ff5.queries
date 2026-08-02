@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+javap -p TargetClass
+javap -classpath /tmp TargetClass
+find "method X cannot be applied to given types" javap

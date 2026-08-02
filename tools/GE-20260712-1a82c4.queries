@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+member: "PlanItemStore" class declaration truncated
+ide_edit_member class body removal
+JPS build masking class corruption

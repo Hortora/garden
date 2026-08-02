@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`zsh while read subshell variables`
+`while IFS= read -r x SUCCESS FAILED`
+`here string api call subshell`

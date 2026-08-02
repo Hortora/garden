@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What exists superpowers brainstorm server content dir
+How to serve static files via `/files/`
+Where is the server code for handling `/files/` requests

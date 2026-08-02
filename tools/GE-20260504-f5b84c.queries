@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git filter-repo invert-paths workspace files
+git filter-repo prune-empty mixed commits
+git filter-repo path-glob --invert-paths

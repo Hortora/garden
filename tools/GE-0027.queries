@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ocraft agent.debug()` NPE
+`S2Agent debug()` lifecycle
+`debugCreateUnit()` REST handler NPE

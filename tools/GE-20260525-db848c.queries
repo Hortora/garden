@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`hooks.json CLAUDE_PLUGIN_ROOT`
+`Claude Code plugin script paths`
+`command hooks.json`

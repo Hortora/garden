@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+actions/checkout ref SHA exit code 1
+actions/checkout fetch-depth 1 commit SHA
+shallow clone refspec matching

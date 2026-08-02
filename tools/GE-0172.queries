@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+claude subprocess keychain oauth
+anthropic api key tests skip
+enabledif environmentvariable claude

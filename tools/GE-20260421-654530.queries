@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`gh pr view --json mergeable "CONFLICTING"`
+`gh pr merge 405`
+`force push asynchronous mergeability`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+decide_fn callback
+validate_candidates
+stdin decide_fn

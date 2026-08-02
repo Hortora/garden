@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`observed_at indexed_at time-series backfill`
+`event created_at timestamp migration`
+`analytics query observed_at range`

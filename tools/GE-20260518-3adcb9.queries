@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git diff main..branch --name-status | grep "^A"
+git show main:"\u003cfile\u003e" \u0026\u003e/dev/null
+git merge-base main branch

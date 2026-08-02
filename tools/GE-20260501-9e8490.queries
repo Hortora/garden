@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`page.locator("#my-select option[value='foo']").waitFor()` timeout
+`Playwright option hidden`
+`waitFor visible timeout`

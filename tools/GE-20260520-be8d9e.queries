@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+git filter-repo --force origin/branch..HEAD
+git merge-base droolsvol2 HEAD
+git log --oneline origin/droolsvol2..HEAD

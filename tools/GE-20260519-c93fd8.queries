@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`git add -A` unexpectedly staging untracked files
+`git checkout \u003cbranch\u003e -- \u003cfiles\u003e` followed by `git add -A` causing commit
+`.claude/settings.local.json` silently added to commit

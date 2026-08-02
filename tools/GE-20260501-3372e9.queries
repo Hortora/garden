@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+javap io/your/org/TargetClass.class
+jandex.idx strings
+tool registration classpath
