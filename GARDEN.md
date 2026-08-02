@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2347
+**Entries merged since last sweep:** 2349
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -211,6 +211,7 @@
 - GE-20260727-349cef [IntelliJ MCP ide_replace_member duplicates method signature inside the body](intellij-platform/GE-20260727-349cef.md)
 - GE-20260727-300281 [IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout](intellij-platform/GE-20260727-300281.md)
 - GE-20260717-67af88 [ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings](intellij-platform/GE-20260717-67af88.md)
+- GE-20260802-d1b17d [IntelliJ MCP ide_replace_member nests duplicate method signature inside the body](intellij-platform/GE-20260802-d1b17d.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1880,6 +1881,7 @@
 - GE-20260802-9f1ff0 [QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires](jvm/GE-20260802-9f1ff0.md)
 - GE-20260802-fe795b [BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)](jvm/GE-20260802-fe795b.md)
 - GE-20260802-a6d1bf [Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present](jvm/GE-20260802-a6d1bf.md)
+- GE-20260802-44a85e [Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead](jvm/GE-20260802-44a85e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

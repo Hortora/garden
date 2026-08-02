@@ -45,3 +45,4 @@
 | GE-20260727-349cef | IntelliJ MCP ide_replace_member duplicates method signature inside the body | gotcha | 9/15 |
 | GE-20260727-300281 | IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout | gotcha | 11/15 |
 | GE-20260717-67af88 | ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings | gotcha | 10/15 |
+| GE-20260802-d1b17d | IntelliJ MCP ide_replace_member nests duplicate method signature inside the body | gotcha | 9/15 |

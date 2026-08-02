@@ -1264,3 +1264,4 @@
 | GE-20260802-9f1ff0 | QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires | gotcha | 12/15 |
 | GE-20260802-fe795b | BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText) | technique | 10/15 |
 | GE-20260802-a6d1bf | Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present | technique | 9/15 |
+| GE-20260802-44a85e | Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead | gotcha | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body

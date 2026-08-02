@@ -2,3 +2,4 @@
 - GE-20260713-2d1cad: ide_replace_member duplicates method signature when content includes annotations
 - GE-20260718-c23bb5: ide_replace_member duplicates method signature — inserts new body inside existing declaration
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
+- GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body

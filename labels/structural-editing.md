@@ -3,3 +3,4 @@
 - GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin
 - GE-20260724-c35265: IntelliJ MCP ide_refactor_safe_delete by line number targets wrong member after prior deletion in same file
 - GE-20260727-300281: IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout
+- GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body

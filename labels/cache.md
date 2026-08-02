@@ -11,3 +11,4 @@
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
+- GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead

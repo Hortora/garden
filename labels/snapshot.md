@@ -56,3 +56,4 @@
 - GE-20260724-a0c794: quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed
 - GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops
 - GE-20260731-ab5ec4: .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages
+- GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead

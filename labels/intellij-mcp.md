@@ -39,3 +39,4 @@
 - GE-20260717-67af88: ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings
 - GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces
 - GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees
+- GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body
