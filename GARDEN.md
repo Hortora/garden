@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2338
+**Entries merged since last sweep:** 2344
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1875,6 +1875,11 @@
 - GE-20260802-e7ee1c [MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs](jvm/GE-20260802-e7ee1c.md)
 - GE-20260802-b53e57 [HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API](jvm/GE-20260802-b53e57.md)
 - GE-20260802-40710e [WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics](jvm/GE-20260802-40710e.md)
+- GE-20260802-d58722 [Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot](jvm/GE-20260802-d58722.md)
+- GE-20260802-96444a [Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths](jvm/GE-20260802-96444a.md)
+- GE-20260802-9f1ff0 [QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires](jvm/GE-20260802-9f1ff0.md)
+- GE-20260802-fe795b [BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)](jvm/GE-20260802-fe795b.md)
+- GE-20260802-a6d1bf [Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present](jvm/GE-20260802-a6d1bf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2539,6 +2544,7 @@
 - GE-20260802-f3b24b [Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms](tools/GE-20260802-f3b24b.md)
 - GE-20260802-a3c094 [source-dir parameter lets git-based functions work across independent repos via filesystem copy](tools/GE-20260802-a3c094.md)
 - GE-20260802-1d6cc3 [IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees](tools/GE-20260802-1d6cc3.md)
+- GE-20260802-d370aa [Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks](tools/GE-20260802-d370aa.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

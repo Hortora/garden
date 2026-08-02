@@ -1,0 +1,1 @@
+- GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)

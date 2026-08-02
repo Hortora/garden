@@ -3,3 +3,5 @@
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
 - GE-20260629-63d619: SPLADE (MS MARCO) has zero Java domain vocabulary — expands ChatModel to hotel/beauty/renovation
 - GE-20260705-b59012: Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion
+- GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
+- GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present

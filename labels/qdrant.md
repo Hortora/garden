@@ -21,3 +21,8 @@
 - GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert
 - GE-20260714-85bd9a: Qdrant scrollAsync getResultList() returns unmodifiable protobuf list — sort() throws UnsupportedOperationException
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
+- GE-20260802-96444a: Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths
+- GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
+- GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
+- GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present

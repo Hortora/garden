@@ -1259,3 +1259,8 @@
 | GE-20260802-e7ee1c | MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs | gotcha | 9/15 |
 | GE-20260802-b53e57 | HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API | technique | 10/15 |
 | GE-20260802-40710e | WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics | undocumented | 12/15 |
+| GE-20260802-d58722 | Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot | gotcha | 11/15 |
+| GE-20260802-96444a | Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths | gotcha | 9/15 |
+| GE-20260802-9f1ff0 | QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires | gotcha | 12/15 |
+| GE-20260802-fe795b | BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText) | technique | 10/15 |
+| GE-20260802-a6d1bf | Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present | technique | 9/15 |

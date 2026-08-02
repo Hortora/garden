@@ -2,3 +2,5 @@
 - GE-20260630-676593: Qdrant collection delete without cursor reset leaves engine unable to re-ingest
 - GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race
+- GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
+- GE-20260802-96444a: Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths

@@ -25,3 +25,5 @@
 - GE-20260623-5cc402: Podman VM on macOS shows 14GB in Activity Monitor (VSZ) — actual physical RAM is ~1.2GB
 - GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing
 - GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite
+- GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
+- GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks

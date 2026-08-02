@@ -1,1 +1,2 @@
 - GE-20260708-d53278: Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion
+- GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present

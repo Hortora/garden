@@ -9,3 +9,4 @@
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
 - GE-20260709-19a59a: Excluding unscored entries from retrieval precision silently inflates precision for noisier methods
 - GE-20260725-cae3ad: Query/document expansion harms strong retrievers — don't expand when your baseline is already good
+- GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)

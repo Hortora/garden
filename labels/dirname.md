@@ -1,2 +1,1 @@
-- GE-20260520-aa4a99: Simulate missing Python package in subprocess-based tests via fake module on PYTHONPATH
 - GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks

@@ -35,3 +35,4 @@
 - GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites
 - GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks
 - GE-20260801-dfadc9: iterdir() with is_dir skip silently drops files in subdirectories
+- GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks

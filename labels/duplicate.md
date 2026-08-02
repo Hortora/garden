@@ -1,2 +1,3 @@
 - GE-20260426-f987a9: @PermuteDeclr(name=..., type=...) on a METHOD causes duplicate generation for all arities
 - GE-20260713-2d1cad: ide_replace_member duplicates method signature when content includes annotations
+- GE-20260802-96444a: Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths

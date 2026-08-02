@@ -1,0 +1,1 @@
+- GE-20260802-96444a: Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths

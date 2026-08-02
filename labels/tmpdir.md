@@ -1,1 +1,2 @@
 - GE-20260704-99b8b0: macOS /var/folders has two directory levels — single-glob rm silently matches nothing
+- GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
