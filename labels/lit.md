@@ -24,3 +24,4 @@
 - GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
 - GE-20260730-ec4b06: Native Popover API + CSS Anchor Positioning replaces JS popover stack in Lit shadow DOM
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
+- GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components

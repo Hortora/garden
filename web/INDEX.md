@@ -122,3 +122,6 @@
 | GE-20260801-bda7a8 | @xyflow/system is an internal utility layer, not a standalone rendering framework | gotcha | 9/15 |
 | GE-20260801-d3e4fe | React-in-Lit bridge pattern — mount React libraries inside Lit Web Components | technique | 10/15 |
 | GE-20260801-355ce5 | CSS all:initial resets custom properties — design tokens must be explicitly re-declared | gotcha | 9/15 |
+| GE-20260802-953404 | CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade | gotcha | 11/15 |
+| GE-20260802-19843a | React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable | gotcha | 8/15 |
+| GE-20260801-d3e4fe | React-in-Lit bridge pattern — mount React libraries inside Lit Web Components | technique | 10/15 |

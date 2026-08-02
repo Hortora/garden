@@ -1,2 +1,1 @@
-- GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
 - GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable

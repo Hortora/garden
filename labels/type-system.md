@@ -1,1 +1,2 @@
 - GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
+- GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable
