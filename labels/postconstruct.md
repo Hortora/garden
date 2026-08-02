@@ -7,3 +7,4 @@
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260615-d065bf: Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
+- GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup

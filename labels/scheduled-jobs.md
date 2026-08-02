@@ -1,0 +1,1 @@
+- GE-20260802-7ad695: Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart

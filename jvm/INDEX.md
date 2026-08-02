@@ -1254,3 +1254,5 @@
 | GE-20260716-986cd1 | InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data | gotcha | 10/15 |
 | GE-20260801-de318e | Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites | gotcha | 9/15 |
 | GE-20260801-aaa398 | FlagReason enum migration changes investigation flow — tests expecting gate WorkItems timeout on low-risk cases | gotcha | 8/15 |
+| GE-20260802-2f52df | Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup | gotcha | 9/15 |
+| GE-20260802-7ad695 | Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart | gotcha | 8/15 |
