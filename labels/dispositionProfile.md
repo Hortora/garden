@@ -1,0 +1,1 @@
+- GE-20260803-0a3c7d: Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level

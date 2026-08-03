@@ -2,3 +2,6 @@
 - GE-20260616-02d0a7: CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime
 - GE-20260730-653783: New eidos JPA stores silently break consumer apps using in-memory alternatives
 - GE-20260730-d32015: DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary
+- GE-20260803-c02ab3: ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction
+- GE-20260803-0a3c7d: Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level
+- GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor

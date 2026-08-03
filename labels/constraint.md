@@ -1,3 +1,4 @@
 - GE-20260414-278875: QuarkusTransaction.requiringNew() pattern for testing DB constraints that need independent commits
 - GE-20260414-7ce32b: @TestTransaction swallows unique-constraint violations — Hibernate never flushes within the test body
 - GE-20260605-0ffc19: H2 MODE=PostgreSQL does not support SIMILAR TO in ALTER TABLE ADD CONSTRAINT CHECK — use REGEXP_LIKE instead
+- GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor

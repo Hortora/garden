@@ -1272,3 +1272,6 @@
 | GE-20260803-3bfb42 | Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository | gotcha | 9/15 |
 | GE-20260803-2dd865 | LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy | undocumented | 8/15 |
 | GE-20260803-b9e2af | Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible | gotcha | 10/15 |
+| GE-20260803-c02ab3 | ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction | gotcha | 8/15 |
+| GE-20260803-0a3c7d | Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level | gotcha | 9/15 |
+| GE-20260803-63cb93 | AgentConstraint.visibility is required — NPE if omitted in YAML descriptor | gotcha | 8/15 |

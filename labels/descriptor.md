@@ -1,0 +1,1 @@
+- GE-20260803-c02ab3: ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction
