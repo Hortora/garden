@@ -1,0 +1,1 @@
+- GE-20260803-04c08f: epic_manager.status() safe_exit reports true mid-batch when a prior batch completed
