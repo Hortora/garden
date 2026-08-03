@@ -641,3 +641,5 @@
 | GE-20260803-d58949 | Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls | technique | 11/15 |
 | GE-20260521-b6a1a7 | git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main | gotcha | 10/15 |
 | GE-20260803-0c6c56 | IntelliJ MCP ide_change_signature fails silently on Java record constructors | gotcha | 9/15 |
+| GE-20260803-30dcbb | ide_create_file doubles module path when project_path targets a Maven submodule | gotcha | 9/15 |
+| GE-20260803-c93d62 | ide_change_signature threads new parameters through private call chains automatically | technique | 8/15 |

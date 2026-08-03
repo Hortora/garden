@@ -14,3 +14,4 @@
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
 - GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments
 - GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors
+- GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status

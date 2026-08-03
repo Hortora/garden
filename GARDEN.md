@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2380
+**Entries merged since last sweep:** 2383
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1895,6 +1895,7 @@
 - GE-20260803-c02ab3 [ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction](jvm/GE-20260803-c02ab3.md)
 - GE-20260803-0a3c7d [Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level](jvm/GE-20260803-0a3c7d.md)
 - GE-20260803-63cb93 [AgentConstraint.visibility is required — NPE if omitted in YAML descriptor](jvm/GE-20260803-63cb93.md)
+- GE-20260803-0954e5 [CDI event records in SPI package cannot import internal enum types — use String-typed status](jvm/GE-20260803-0954e5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2571,6 +2572,8 @@
 - GE-20260803-d58949 [Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls](tools/GE-20260803-d58949.md)
 - GE-20260521-b6a1a7 [git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main](tools/GE-20260521-b6a1a7.md)
 - GE-20260803-0c6c56 [IntelliJ MCP ide_change_signature fails silently on Java record constructors](tools/GE-20260803-0c6c56.md)
+- GE-20260803-30dcbb [ide_create_file doubles module path when project_path targets a Maven submodule](tools/GE-20260803-30dcbb.md)
+- GE-20260803-c93d62 [ide_change_signature threads new parameters through private call chains automatically](tools/GE-20260803-c93d62.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

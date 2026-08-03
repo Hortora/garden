@@ -1275,3 +1275,4 @@
 | GE-20260803-c02ab3 | ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction | gotcha | 8/15 |
 | GE-20260803-0a3c7d | Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level | gotcha | 9/15 |
 | GE-20260803-63cb93 | AgentConstraint.visibility is required — NPE if omitted in YAML descriptor | gotcha | 8/15 |
+| GE-20260803-0954e5 | CDI event records in SPI package cannot import internal enum types — use String-typed status | technique | 9/15 |

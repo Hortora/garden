@@ -7,3 +7,4 @@
 - GE-20260627-8d321f: Template WorkItem creation fires lifecycle events with stale field values — post-creation entity mutation corrupts the audit trail
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
+- GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status

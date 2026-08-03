@@ -1,0 +1,1 @@
+- GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status

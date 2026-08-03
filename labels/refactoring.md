@@ -36,3 +36,4 @@
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
 - GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement
 - GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors
+- GE-20260803-c93d62: ide_change_signature threads new parameters through private call chains automatically
