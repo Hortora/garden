@@ -1,0 +1,1 @@
+- GE-20260803-24339b: jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown

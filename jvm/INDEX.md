@@ -1267,3 +1267,5 @@
 | GE-20260802-44a85e | Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead | gotcha | 8/15 |
 | GE-20260803-0c691f | CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions | gotcha | 12/15 |
 | GE-20260803-85c4b7 | Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests | technique | 8/15 |
+| GE-20260803-b31d50 | BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece | gotcha | 10/15 |
+| GE-20260803-f9d8ae | Tokenization quality does not predict embedding retrieval precision — training objective dominates | gotcha | 12/15 |

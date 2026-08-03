@@ -1,3 +1,2 @@
-- GE-20260613-1e5ba4: LangChain4j EmbeddingModel does not implement TokenCountEstimator — use character-based DocumentSplitters.recursive(int, int)
 - GE-20260803-b31d50: BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece
 - GE-20260803-f9d8ae: Tokenization quality does not predict embedding retrieval precision — training objective dominates

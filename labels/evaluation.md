@@ -1,1 +1,3 @@
 - GE-20260504-cb6206: Split evaluation dimensions into purpose-specific tables to reveal candidate shape, not just rank
+- GE-20260803-f9d8ae: Tokenization quality does not predict embedding retrieval precision — training objective dominates
+- GE-20260803-027005: Batched ML model benchmarks with partial JSON saves to survive process timeouts

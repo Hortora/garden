@@ -7,3 +7,6 @@
 - GE-20260704-ba9911: Qdrant ColBERT multi-vector size limit — hard cap at 1,048,576 floats per point silently prevents upsert
 - GE-20260706-eb11a1: Embedding casehub-desiredstate + engine: exclude-types anti-pattern — provide @DefaultBean stubs instead
 - GE-20260707-160109: CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy
+- GE-20260803-b31d50: BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece
+- GE-20260803-f9d8ae: Tokenization quality does not predict embedding retrieval precision — training objective dominates
+- GE-20260803-24339b: jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown

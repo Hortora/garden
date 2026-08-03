@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2353
+**Entries merged since last sweep:** 2357
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1884,6 +1884,8 @@
 - GE-20260802-44a85e [Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead](jvm/GE-20260802-44a85e.md)
 - GE-20260803-0c691f [CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions](jvm/GE-20260803-0c691f.md)
 - GE-20260803-85c4b7 [Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests](jvm/GE-20260803-85c4b7.md)
+- GE-20260803-b31d50 [BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece](jvm/GE-20260803-b31d50.md)
+- GE-20260803-f9d8ae [Tokenization quality does not predict embedding retrieval precision — training objective dominates](jvm/GE-20260803-f9d8ae.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2551,6 +2553,8 @@
 - GE-20260802-d370aa [Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks](tools/GE-20260802-d370aa.md)
 - GE-20260803-43adf7 [Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap](tools/GE-20260803-43adf7.md)
 - GE-20260803-04c08f [epic_manager.status() safe_exit reports true mid-batch when a prior batch completed](tools/GE-20260803-04c08f.md)
+- GE-20260803-24339b [jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown](tools/GE-20260803-24339b.md)
+- GE-20260803-027005 [Batched ML model benchmarks with partial JSON saves to survive process timeouts](tools/GE-20260803-027005.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,0 +1,1 @@
+- GE-20260803-b31d50: BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece
