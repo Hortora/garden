@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2357
+**Entries merged since last sweep:** 2358
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2695,6 +2695,7 @@
 - GE-20260802-953404 [CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade](web/GE-20260802-953404.md)
 - GE-20260802-19843a [React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable](web/GE-20260802-19843a.md)
 - GE-20260801-d3e4fe [React-in-Lit bridge pattern — mount React libraries inside Lit Web Components](web/GE-20260801-d3e4fe.md)
+- GE-20260803-17fc03 [casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention](web/GE-20260803-17fc03.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

@@ -125,3 +125,4 @@
 | GE-20260802-953404 | CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade | gotcha | 11/15 |
 | GE-20260802-19843a | React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable | gotcha | 8/15 |
 | GE-20260801-d3e4fe | React-in-Lit bridge pattern — mount React libraries inside Lit Web Components | technique | 10/15 |
+| GE-20260803-17fc03 | casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention | gotcha | 8/15 |

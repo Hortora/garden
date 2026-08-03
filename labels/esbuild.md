@@ -9,3 +9,4 @@
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups
 - GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init
 - GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
+- GE-20260803-17fc03: casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention

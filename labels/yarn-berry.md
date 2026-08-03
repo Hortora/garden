@@ -1,0 +1,1 @@
+- GE-20260803-17fc03: casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention
