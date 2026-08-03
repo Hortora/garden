@@ -3,3 +3,4 @@
 - GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives
 - GE-20260713-9e6bf5: jsdom composedPath() does not cross Shadow DOM boundaries — click-outside detection fails in tests
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
+- GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API

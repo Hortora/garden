@@ -1,0 +1,1 @@
+- GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
