@@ -1,0 +1,1 @@
+- GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument

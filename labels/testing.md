@@ -406,3 +406,4 @@
 - GE-20260802-e7ee1c: MockWebServer3 vs OkHttp3 MockWebServer — same name, incompatible APIs
 - GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
 - GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests
+- GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument

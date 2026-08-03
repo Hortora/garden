@@ -131,3 +131,4 @@
 | GE-20260803-9ce4f2 | exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead | gotcha | 8/15 |
 | GE-20260803-498245 | json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes | gotcha | 9/15 |
 | GE-20260803-50ddbd | createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender | technique | 10/15 |
+| GE-20260803-cdec3c | happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument | gotcha | 8/15 |
