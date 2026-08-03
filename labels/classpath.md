@@ -28,3 +28,4 @@
 - GE-20260718-052fbc: SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
+- GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible

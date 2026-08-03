@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2376
+**Entries merged since last sweep:** 2377
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1891,6 +1891,7 @@
 - GE-20260803-f9d8ae [Tokenization quality does not predict embedding retrieval precision — training objective dominates](jvm/GE-20260803-f9d8ae.md)
 - GE-20260803-3bfb42 [Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository](jvm/GE-20260803-3bfb42.md)
 - GE-20260803-2dd865 [LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy](jvm/GE-20260803-2dd865.md)
+- GE-20260803-b9e2af [Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible](jvm/GE-20260803-b9e2af.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,2 +1,1 @@
-- GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository
 - GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible

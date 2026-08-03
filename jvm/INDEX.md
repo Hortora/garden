@@ -1271,3 +1271,4 @@
 | GE-20260803-f9d8ae | Tokenization quality does not predict embedding retrieval precision — training objective dominates | gotcha | 12/15 |
 | GE-20260803-3bfb42 | Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository | gotcha | 9/15 |
 | GE-20260803-2dd865 | LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy | undocumented | 8/15 |
+| GE-20260803-b9e2af | Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible | gotcha | 10/15 |

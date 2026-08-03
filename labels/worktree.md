@@ -15,3 +15,4 @@
 - GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees
 - GE-20260803-032978: Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE
 - GE-20260803-ec5c8a: Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern
+- GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible
