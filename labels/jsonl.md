@@ -1,0 +1,1 @@
+- GE-20260803-d58949: Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls
