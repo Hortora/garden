@@ -1,0 +1,1 @@
+- GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement

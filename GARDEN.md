@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2371
+**Entries merged since last sweep:** 2372
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2563,6 +2563,7 @@
 - GE-20260803-cc61b5 [IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context](tools/GE-20260803-cc61b5.md)
 - GE-20260803-756b3d [Yarn portal-resolved packages need manual dist copy — portal copies source not build output](tools/GE-20260803-756b3d.md)
 - GE-20260803-a1674d [yaml npm Document.deleteIn() silently succeeds on non-existent paths](tools/GE-20260803-a1674d.md)
+- GE-20260803-166db7 [ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement](tools/GE-20260803-166db7.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

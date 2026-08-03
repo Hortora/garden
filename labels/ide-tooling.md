@@ -4,3 +4,4 @@
 - GE-20260718-b07bf8: ide_optimize_imports does not add imports for symbols introduced by ide_replace_text_in_file in the same editing pass
 - GE-20260719-152534: IntelliJ MCP structural edit tools (ide_edit_member, ide_replace_member, ide_insert_member) only support Java and Kotlin
 - GE-20260718-b07bf8: ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass
+- GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement

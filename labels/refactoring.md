@@ -34,3 +34,4 @@
 - GE-20260723-79f7b1: IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target
 - GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
+- GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement

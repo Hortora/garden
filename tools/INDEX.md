@@ -637,3 +637,4 @@
 | GE-20260803-cc61b5 | IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context | gotcha | 8/15 |
 | GE-20260803-756b3d | Yarn portal-resolved packages need manual dist copy — portal copies source not build output | gotcha | 8/15 |
 | GE-20260803-a1674d | yaml npm Document.deleteIn() silently succeeds on non-existent paths | undocumented | 8/15 |
+| GE-20260803-166db7 | ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement | gotcha | 9/15 |
