@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2388
+**Entries merged since last sweep:** 2390
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1898,6 +1898,8 @@
 - GE-20260803-0954e5 [CDI event records in SPI package cannot import internal enum types — use String-typed status](jvm/GE-20260803-0954e5.md)
 - GE-20260803-e363e6 [ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access](jvm/GE-20260803-e363e6.md)
 - GE-20260804-d7ed92 [Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer](jvm/GE-20260804-d7ed92.md)
+- GE-20260804-8dbefe [Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars](jvm/GE-20260804-8dbefe.md)
+- GE-20260804-8b0fd6 [BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST](jvm/GE-20260804-8b0fd6.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

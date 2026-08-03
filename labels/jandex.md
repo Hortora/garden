@@ -24,3 +24,4 @@
 - GE-20260614-b97659: Java function workers silently never execute in @QuarkusTest — NoOpWorkerExecutionManager wins when casehub-engine-scheduler-quartz is not Jandex-indexed
 - GE-20260623-4072ce: jackson-databind alone causes @QuarkusTest class-loading failure in downstream modules — quarkus-jackson provides the CDI ObjectMapper producer
 - GE-20260706-cda843: Quarkus BuildTimeEnabledProcessor scans full combined Jandex index — @IfBuildProperty works on external JARs including @Decorator
+- GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars

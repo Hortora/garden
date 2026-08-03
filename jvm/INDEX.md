@@ -1278,3 +1278,5 @@
 | GE-20260803-0954e5 | CDI event records in SPI package cannot import internal enum types — use String-typed status | technique | 9/15 |
 | GE-20260803-e363e6 | ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access | gotcha | 13/15 |
 | GE-20260804-d7ed92 | Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer | undocumented | 9/15 |
+| GE-20260804-8dbefe | Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars | gotcha | 11/15 |
+| GE-20260804-8b0fd6 | BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST | technique | 9/15 |

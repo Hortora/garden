@@ -692,3 +692,5 @@
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
 - GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
+- GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

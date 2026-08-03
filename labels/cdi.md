@@ -382,3 +382,5 @@
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
 - GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests
+- GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

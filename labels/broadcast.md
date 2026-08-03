@@ -1,1 +1,2 @@
 - GE-20260512-6d0c2b: BroadcastProcessor.onNext() throws BackPressureFailure when no subscribers are registered
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

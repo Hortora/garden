@@ -59,3 +59,4 @@
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
 - GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository
 - GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible
+- GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars

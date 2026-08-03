@@ -28,3 +28,4 @@
 - GE-20260705-557ee5: REST response shape mismatch in SSE handler crashes filter pipeline — UI locks up with no visible error
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

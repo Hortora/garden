@@ -75,3 +75,4 @@
 - GE-20260714-b6ec65: Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260720-da57c7: InMemoryReactiveCommitmentStore.delegate missing @Inject — NPE in @QuarkusTest but works in plain unit tests
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

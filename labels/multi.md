@@ -4,3 +4,4 @@
 - GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
 - GE-20260531-6298f4: RESTEasy Reactive Multi<String> with text/event-stream auto-wraps each item as 'data: <string>\n\n'
 - GE-20260602-488fa9: Mutiny collect().in() takes BiConsumer (void mutation), not BiFunction — functional fold functions don't compose directly
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

@@ -64,3 +64,4 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260801-bcff35: Mockito-free LLM provider testing via TestAgentProvider inner class
 - GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern
+- GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST

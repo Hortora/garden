@@ -1,1 +1,2 @@
 - GE-20260610-204ddb: Stale core module jar breaks CDI resolution — symptom mimics missing @DefaultBean but root cause is outdated Jandex index in .m2
+- GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
