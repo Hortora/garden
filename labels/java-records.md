@@ -13,3 +13,4 @@
 - GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
 - GE-20260712-4a8a3c: Java record field reorder with all-String types compiles silently with wrong positional arguments
+- GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors

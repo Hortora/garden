@@ -640,3 +640,4 @@
 | GE-20260803-166db7 | ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement | gotcha | 9/15 |
 | GE-20260803-d58949 | Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls | technique | 11/15 |
 | GE-20260521-b6a1a7 | git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main | gotcha | 10/15 |
+| GE-20260803-0c6c56 | IntelliJ MCP ide_change_signature fails silently on Java record constructors | gotcha | 9/15 |
