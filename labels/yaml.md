@@ -19,3 +19,4 @@
 - GE-20260727-492fd2: SnakeYAML flow sequence [${param}] fails — ${ interpreted as flow mapping start
 - GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry
 - GE-20260729-66f060: ConfigFilePreferenceProvider scope paths must include tenancy prefix to match YAML keys
+- GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths

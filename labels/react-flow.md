@@ -1,2 +1,3 @@
 - GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
 - GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable
+- GE-20260803-50ddbd: createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender

@@ -123,3 +123,4 @@
 - GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
 - GE-20260802-f3b24b: Slot workspace promotion has three independent silent-skip bugs that produce identical symptoms
 - GE-20260803-ecb4d5: ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure
+- GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths

@@ -1,0 +1,1 @@
+- GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes

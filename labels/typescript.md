@@ -28,3 +28,4 @@
 - GE-20260723-79f7b1: IntelliJ MCP ide_refactor_rename targets wrong PSI element in TypeScript — renames adjacent symbol instead of intended target
 - GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable
 - GE-20260803-9ce4f2: exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead
+- GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes

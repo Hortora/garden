@@ -1,0 +1,1 @@
+- GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths

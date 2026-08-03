@@ -1,1 +1,2 @@
 - GE-20260803-a1ac7f: Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing
+- GE-20260803-50ddbd: createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender

@@ -12,3 +12,4 @@
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
 - GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist
+- GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output

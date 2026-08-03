@@ -5,3 +5,4 @@
 - GE-20260714-00dfb0: Yarn 4 npm publish ignores .yarnrc.yml npmScopes registry — defaults to yarnpkg.com
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
 - GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag
+- GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output

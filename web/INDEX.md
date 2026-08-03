@@ -129,3 +129,5 @@
 | GE-20260803-1f9860 | jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API | gotcha | 9/15 |
 | GE-20260803-a1ac7f | Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing | technique | 10/15 |
 | GE-20260803-9ce4f2 | exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead | gotcha | 8/15 |
+| GE-20260803-498245 | json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes | gotcha | 9/15 |
+| GE-20260803-50ddbd | createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender | technique | 10/15 |

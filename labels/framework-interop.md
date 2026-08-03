@@ -1,2 +1,3 @@
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
+- GE-20260803-50ddbd: createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender
