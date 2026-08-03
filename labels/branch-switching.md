@@ -1,0 +1,1 @@
+- GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches

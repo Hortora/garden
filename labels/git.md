@@ -178,3 +178,4 @@
 - GE-20260802-a3c094: source-dir parameter lets git-based functions work across independent repos via filesystem copy
 - GE-20260803-43adf7: Git pre-push hook failure produces identical error message to GitHub auth failure — misdiagnosis trap
 - GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
+- GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches

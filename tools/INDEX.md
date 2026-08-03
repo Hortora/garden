@@ -643,3 +643,5 @@
 | GE-20260803-0c6c56 | IntelliJ MCP ide_change_signature fails silently on Java record constructors | gotcha | 9/15 |
 | GE-20260803-30dcbb | ide_create_file doubles module path when project_path targets a Maven submodule | gotcha | 9/15 |
 | GE-20260803-c93d62 | ide_change_signature threads new parameters through private call chains automatically | technique | 8/15 |
+| GE-20260803-263c2c | Explicit state machine replaces multi-signal inference for lifecycle detection | technique | 10/15 |
+| GE-20260803-293dd2 | Three-phase transition protocol for state machines that switch branches | technique | 9/15 |

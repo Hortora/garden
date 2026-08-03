@@ -4,3 +4,5 @@
 - GE-20260701-fec712: ConcurrentHashMap get-check-put is not atomic — state machine transitions can race
 - GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs
 - GE-20260803-04c08f: epic_manager.status() safe_exit reports true mid-batch when a prior batch completed
+- GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
+- GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches

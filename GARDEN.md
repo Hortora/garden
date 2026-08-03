@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2383
+**Entries merged since last sweep:** 2385
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2574,6 +2574,8 @@
 - GE-20260803-0c6c56 [IntelliJ MCP ide_change_signature fails silently on Java record constructors](tools/GE-20260803-0c6c56.md)
 - GE-20260803-30dcbb [ide_create_file doubles module path when project_path targets a Maven submodule](tools/GE-20260803-30dcbb.md)
 - GE-20260803-c93d62 [ide_change_signature threads new parameters through private call chains automatically](tools/GE-20260803-c93d62.md)
+- GE-20260803-263c2c [Explicit state machine replaces multi-signal inference for lifecycle detection](tools/GE-20260803-263c2c.md)
+- GE-20260803-293dd2 [Three-phase transition protocol for state machines that switch branches](tools/GE-20260803-293dd2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

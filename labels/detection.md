@@ -1,0 +1,1 @@
+- GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection

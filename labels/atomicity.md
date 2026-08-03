@@ -2,3 +2,4 @@
 - GE-20260526-08e14c: JPQL atomic increment (UPDATE SET count = count + 1) is simpler than @Version OCC for single-counter atomicity
 - GE-20260603-dfcecc: Fail-open + @Transactional atomicity: extract write pair to a separate CDI bean
 - GE-20260610-98066a: Read-modify-write on thread-safe store is not atomic — concurrent writers lose updates
+- GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches
