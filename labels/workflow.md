@@ -18,3 +18,4 @@
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260725-9f2e4b: Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows
+- GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
