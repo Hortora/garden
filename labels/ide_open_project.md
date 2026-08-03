@@ -1,1 +1,2 @@
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
+- GE-20260803-cc61b5: IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context

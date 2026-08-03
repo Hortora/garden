@@ -58,3 +58,4 @@
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
+- GE-20260803-cc61b5: IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context

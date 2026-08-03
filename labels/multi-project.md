@@ -1,1 +1,2 @@
 - GE-20260724-04bc63: IntelliJ MCP ide_search_text returns cross-project results regardless of project_path
+- GE-20260803-cc61b5: IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context

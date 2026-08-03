@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2364
+**Entries merged since last sweep:** 2367
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2560,6 +2560,7 @@
 - GE-20260803-04c08f [epic_manager.status() safe_exit reports true mid-batch when a prior batch completed](tools/GE-20260803-04c08f.md)
 - GE-20260803-24339b [jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown](tools/GE-20260803-24339b.md)
 - GE-20260803-027005 [Batched ML model benchmarks with partial JSON saves to survive process timeouts](tools/GE-20260803-027005.md)
+- GE-20260803-cc61b5 [IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context](tools/GE-20260803-cc61b5.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2702,6 +2703,8 @@
 - GE-20260801-d3e4fe [React-in-Lit bridge pattern — mount React libraries inside Lit Web Components](web/GE-20260801-d3e4fe.md)
 - GE-20260803-17fc03 [casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention](web/GE-20260803-17fc03.md)
 - GE-20260803-1f9860 [jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API](web/GE-20260803-1f9860.md)
+- GE-20260803-a1ac7f [Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing](web/GE-20260803-a1ac7f.md)
+- GE-20260803-9ce4f2 [exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead](web/GE-20260803-9ce4f2.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

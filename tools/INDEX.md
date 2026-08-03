@@ -634,3 +634,4 @@
 | GE-20260803-04c08f | epic_manager.status() safe_exit reports true mid-batch when a prior batch completed | gotcha | 10/15 |
 | GE-20260803-24339b | jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown | gotcha | 9/15 |
 | GE-20260803-027005 | Batched ML model benchmarks with partial JSON saves to survive process timeouts | technique | 8/15 |
+| GE-20260803-cc61b5 | IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context | gotcha | 8/15 |

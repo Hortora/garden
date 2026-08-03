@@ -1,2 +1,3 @@
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
+- GE-20260803-9ce4f2: exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead

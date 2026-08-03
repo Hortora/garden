@@ -1,0 +1,1 @@
+- GE-20260803-a1ac7f: Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing

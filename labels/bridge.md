@@ -4,3 +4,4 @@
 - GE-20260628-c25bcb: QhorusMessageSignalBridge silently drops STATUS messages — only commitment-resolving types (RESPONSE/DONE/DECLINE/FAILURE) reach case context
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
+- GE-20260803-a1ac7f: Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing

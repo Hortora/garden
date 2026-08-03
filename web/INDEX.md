@@ -127,3 +127,5 @@
 | GE-20260801-d3e4fe | React-in-Lit bridge pattern — mount React libraries inside Lit Web Components | technique | 10/15 |
 | GE-20260803-17fc03 | casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention | gotcha | 8/15 |
 | GE-20260803-1f9860 | jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API | gotcha | 9/15 |
+| GE-20260803-a1ac7f | Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing | technique | 10/15 |
+| GE-20260803-9ce4f2 | exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead | gotcha | 8/15 |

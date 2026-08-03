@@ -1,0 +1,1 @@
+- GE-20260803-9ce4f2: exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead
