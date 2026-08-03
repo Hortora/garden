@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2359
+**Entries merged since last sweep:** 2364
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -159,6 +159,8 @@
 - GE-20260623-ec9c80 [Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions](claude-code/GE-20260623-ec9c80.md)
 - GE-20260627-5f208a [Stale SDD report files from previous sessions mislead fresh subagents](claude-code/GE-20260627-5f208a.md)
 - GE-20260717-886249 [IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync](claude-code/GE-20260717-886249.md)
+- GE-20260803-032978 [Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE](claude-code/GE-20260803-032978.md)
+- GE-20260803-ec5c8a [Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern](claude-code/GE-20260803-ec5c8a.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -212,6 +214,7 @@
 - GE-20260727-300281 [IntelliJ MCP ide_edit_member/ide_insert_member silently truncates files on timeout](intellij-platform/GE-20260727-300281.md)
 - GE-20260717-67af88 [ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings](intellij-platform/GE-20260717-67af88.md)
 - GE-20260802-d1b17d [IntelliJ MCP ide_replace_member nests duplicate method signature inside the body](intellij-platform/GE-20260802-d1b17d.md)
+- GE-20260803-ecb4d5 [ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1886,6 +1889,8 @@
 - GE-20260803-85c4b7 [Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests](jvm/GE-20260803-85c4b7.md)
 - GE-20260803-b31d50 [BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece](jvm/GE-20260803-b31d50.md)
 - GE-20260803-f9d8ae [Tokenization quality does not predict embedding retrieval precision — training objective dominates](jvm/GE-20260803-f9d8ae.md)
+- GE-20260803-3bfb42 [Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository](jvm/GE-20260803-3bfb42.md)
+- GE-20260803-2dd865 [LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy](jvm/GE-20260803-2dd865.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

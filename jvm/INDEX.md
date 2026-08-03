@@ -1269,3 +1269,5 @@
 | GE-20260803-85c4b7 | Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests | technique | 8/15 |
 | GE-20260803-b31d50 | BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece | gotcha | 10/15 |
 | GE-20260803-f9d8ae | Tokenization quality does not predict embedding retrieval precision — training objective dominates | gotcha | 12/15 |
+| GE-20260803-3bfb42 | Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository | gotcha | 9/15 |
+| GE-20260803-2dd865 | LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy | undocumented | 8/15 |

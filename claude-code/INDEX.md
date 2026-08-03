@@ -22,3 +22,5 @@
 | GE-20260623-ec9c80 | Subagent Read tool on deleted-but-tracked files silently recreates them — undoing working-tree deletions | gotcha | 12/15 |
 | GE-20260627-5f208a | Stale SDD report files from previous sessions mislead fresh subagents | gotcha | 10/15 |
 | GE-20260717-886249 | IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync | gotcha | 9/15 |
+| GE-20260803-032978 | Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE | gotcha | 9/15 |
+| GE-20260803-ec5c8a | Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern | technique | 10/15 |

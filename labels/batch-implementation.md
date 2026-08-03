@@ -1,0 +1,1 @@
+- GE-20260803-ec5c8a: Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern

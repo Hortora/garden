@@ -57,3 +57,4 @@
 - GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops
 - GE-20260731-ab5ec4: .mvn/maven.config with custom maven.repo.local in git worktrees causes misleading 401 errors from GitHub Packages
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
+- GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository

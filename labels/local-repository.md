@@ -1,2 +1,1 @@
-- GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
 - GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository

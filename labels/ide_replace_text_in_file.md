@@ -1,2 +1,3 @@
 - GE-20260719-ded0f1: IntelliJ MCP ide_replace_text_in_file hangs indefinitely on large replacement text (~2KB+)
 - GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
+- GE-20260803-ecb4d5: ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure

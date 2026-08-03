@@ -1,0 +1,1 @@
+- GE-20260803-032978: Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE
