@@ -1,1 +1,2 @@
 - GE-20260604-4bfd2c: Adding a package-private test constructor to a CDI field-injected bean removes the implicit no-arg — Weld cannot instantiate it
+- GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests

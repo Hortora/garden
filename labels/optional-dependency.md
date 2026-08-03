@@ -2,3 +2,4 @@
 - GE-20260420-daf5dc: quarkus-hibernate-reactive-panache as <optional>true</optional> dep still activates Hibernate Reactive extension in the module's own tests
 - GE-20260604-76c3f9: String DotNames for optional library annotations in Quarkus deployment modules
 - GE-20260709-520b0b: Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions
+- GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests

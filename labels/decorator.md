@@ -6,3 +6,4 @@
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
 - GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain
 - GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
+- GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests

@@ -1265,3 +1265,5 @@
 | GE-20260802-fe795b | BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText) | technique | 10/15 |
 | GE-20260802-a6d1bf | Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present | technique | 9/15 |
 | GE-20260802-44a85e | Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead | gotcha | 8/15 |
+| GE-20260803-0c691f | CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions | gotcha | 12/15 |
+| GE-20260803-85c4b7 | Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests | technique | 8/15 |

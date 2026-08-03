@@ -16,3 +16,4 @@
 - GE-20260621-f0563a: Proxy VizTarget pattern enables multiple dataset requests through single-dataset event pipeline
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
+- GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions

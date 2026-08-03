@@ -5,3 +5,4 @@
 - GE-20260607-3b6711: casehub-engine: ActionRiskClassifier implementations are auto-composed via @RiskClassifier CDI qualifier — multiple impls coexist
 - GE-20260627-51e402: @Alternative on a CDI bean silently suppresses all @DefaultBean beans of the same type — they vanish from the container entirely
 - GE-20260714-a7267a: Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes
+- GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
