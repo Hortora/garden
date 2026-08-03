@@ -7,3 +7,4 @@
 - GE-20260726-f2a554: ONNX transformer batch size changes embedding output — padding/attention mask differences
 - GE-20260730-2b86fd: InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally
 - GE-20260730-6ea2ad: torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+
+- GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access

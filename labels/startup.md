@@ -19,3 +19,4 @@
 - GE-20260617-9b21f8: SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
+- GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access

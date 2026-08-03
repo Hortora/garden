@@ -1,0 +1,1 @@
+- GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access
