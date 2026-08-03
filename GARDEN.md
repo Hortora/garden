@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2386
+**Entries merged since last sweep:** 2388
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1897,6 +1897,7 @@
 - GE-20260803-63cb93 [AgentConstraint.visibility is required — NPE if omitted in YAML descriptor](jvm/GE-20260803-63cb93.md)
 - GE-20260803-0954e5 [CDI event records in SPI package cannot import internal enum types — use String-typed status](jvm/GE-20260803-0954e5.md)
 - GE-20260803-e363e6 [ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access](jvm/GE-20260803-e363e6.md)
+- GE-20260804-d7ed92 [Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer](jvm/GE-20260804-d7ed92.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2577,6 +2578,7 @@
 - GE-20260803-c93d62 [ide_change_signature threads new parameters through private call chains automatically](tools/GE-20260803-c93d62.md)
 - GE-20260803-263c2c [Explicit state machine replaces multi-signal inference for lifecycle detection](tools/GE-20260803-263c2c.md)
 - GE-20260803-293dd2 [Three-phase transition protocol for state machines that switch branches](tools/GE-20260803-293dd2.md)
+- GE-20260804-2e5ca2 [Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect](tools/GE-20260804-2e5ca2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

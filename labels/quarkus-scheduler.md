@@ -1,1 +1,2 @@
 - GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access
+- GE-20260804-d7ed92: Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer

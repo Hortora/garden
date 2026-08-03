@@ -26,3 +26,4 @@
 - GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
 - GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
 - GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present
+- GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect

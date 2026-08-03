@@ -20,3 +20,4 @@
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
 - GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access
+- GE-20260804-d7ed92: Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer

@@ -645,3 +645,4 @@
 | GE-20260803-c93d62 | ide_change_signature threads new parameters through private call chains automatically | technique | 8/15 |
 | GE-20260803-263c2c | Explicit state machine replaces multi-signal inference for lifecycle detection | technique | 10/15 |
 | GE-20260803-293dd2 | Three-phase transition protocol for state machines that switch branches | technique | 9/15 |
+| GE-20260804-2e5ca2 | Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect | technique | 9/15 |

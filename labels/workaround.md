@@ -4,3 +4,4 @@
 - GE-20260415-84faaf: Git branch naming conflict: can't create a branch whose name is a prefix of an existing branch path
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
 - GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
+- GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect

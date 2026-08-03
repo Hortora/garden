@@ -1,0 +1,1 @@
+- GE-20260804-d7ed92: Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer
