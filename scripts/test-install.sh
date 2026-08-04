@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -uo pipefail
 
 # Repeatable installer test in a podman container.
 # Starts a systemd-enabled Linux container, installs prerequisites,
@@ -131,10 +131,10 @@ start_container() {
 }
 
 install_prerequisites() {
-    step "Installing JDK in container"
+    step "Installing JDK + Maven in container"
 
     # System packages (git, jq, curl, etc.) are in the base image.
-    # JDK installed separately because it's a large download we want to cache.
+    # JDK + Maven installed separately.
     podman exec "$CONTAINER_NAME" bash -c "
         if [ -d /opt/jdk-${JDK_VERSION} ]; then
             echo 'JDK already installed'
@@ -153,6 +153,14 @@ install_prerequisites() {
     ok "JDK ${JDK_VERSION} installed"
 
     podman exec "$CONTAINER_NAME" java -version 2>&1 | head -1
+
+    # Install Maven (grove and trellis don't have mvnw wrappers)
+    podman exec "$CONTAINER_NAME" bash -c '
+        if ! command -v mvn >/dev/null 2>&1; then
+            dnf install -y -q maven 2>&1 | tail -1
+        fi
+    '
+    ok "Maven installed"
 }
 
 clone_garden() {
@@ -244,8 +252,6 @@ verify() {
 }
 
 main() {
-    trap stop_model_server EXIT
-
     printf "\n${BOLD}Hortora Installer Test${NC}\n"
     if [ "$QUICK" = true ]; then
         printf "  Mode: quick (host models mounted, skips download)\n"

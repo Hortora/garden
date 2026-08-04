@@ -320,7 +320,7 @@ do_models() {
 
     ok "Source: $RELEASE_BASE_URL"
     local checksum_url="$RELEASE_BASE_URL/checksums.sha256"
-    if ! curl -fsSL --head "$checksum_url" >/dev/null 2>&1; then
+    if ! curl -fsSL "$checksum_url" -o /dev/null 2>&1; then
         warn "Model release assets not published yet on Hortora/engine"
         warn "Engine service will NOT be started until models are available"
         warn "Re-run this installer after models are published"
@@ -444,6 +444,17 @@ check_builds() {
     return 1
 }
 
+mvn_cmd() {
+    local dir="$1"
+    if [ -x "$dir/mvnw" ]; then
+        echo "$dir/mvnw"
+    elif command -v mvn >/dev/null 2>&1; then
+        echo "mvn"
+    else
+        echo ""
+    fi
+}
+
 do_builds() {
     step 6 "Building applications (~3-5 min each)"
 
@@ -457,12 +468,19 @@ do_builds() {
             continue
         fi
 
+        local mvn
+        mvn=$(mvn_cmd "$app_dir")
+        if [ -z "$mvn" ]; then
+            warn "$app: no mvnw or mvn found — install Maven and re-run"
+            continue
+        fi
+
         ok "$app: building (this may take a few minutes)..."
-        if (cd "$app_dir" && JAVA_HOME="$JAVA_HOME" ./mvnw package -DskipTests -q 2>&1); then
+        if (cd "$app_dir" && JAVA_HOME="$JAVA_HOME" "$mvn" package -DskipTests -q 2>&1); then
             ok "$app: build complete"
         else
             warn "$app: build failed — re-run installer to retry"
-            warn "  Debug: cd $app_dir && ./mvnw package -DskipTests"
+            warn "  Debug: cd $app_dir && $mvn package -DskipTests"
         fi
     done
 
@@ -473,12 +491,18 @@ do_builds() {
     if [ -f "$trellis_jar" ]; then
         ok "trellis sidecar: already built"
     else
-        ok "trellis sidecar: building..."
-        if (cd "$trellis_dir" && JAVA_HOME="$JAVA_HOME" ./mvnw -f sidecar/pom.xml package -DskipTests -q 2>&1); then
-            ok "trellis sidecar: build complete"
+        local mvn
+        mvn=$(mvn_cmd "$trellis_dir")
+        if [ -z "$mvn" ]; then
+            warn "trellis sidecar: no mvnw or mvn found — install Maven and re-run"
         else
-            warn "trellis sidecar: build failed — re-run installer to retry"
-            warn "  Debug: cd $trellis_dir && ./mvnw -f sidecar/pom.xml package -DskipTests"
+            ok "trellis sidecar: building..."
+            if (cd "$trellis_dir" && JAVA_HOME="$JAVA_HOME" "$mvn" -f sidecar/pom.xml package -DskipTests -q 2>&1); then
+                ok "trellis sidecar: build complete"
+            else
+                warn "trellis sidecar: build failed — re-run installer to retry"
+                warn "  Debug: cd $trellis_dir && $mvn -f sidecar/pom.xml package -DskipTests"
+            fi
         fi
     fi
 }
