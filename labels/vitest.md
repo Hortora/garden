@@ -7,3 +7,4 @@
 - GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
 - GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
 - GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
+- GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function

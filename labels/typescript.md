@@ -29,3 +29,4 @@
 - GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable
 - GE-20260803-9ce4f2: exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead
 - GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes
+- GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2390
+**Entries merged since last sweep:** 2391
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2728,6 +2728,7 @@
 - GE-20260803-498245 [json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes](web/GE-20260803-498245.md)
 - GE-20260803-50ddbd [createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender](web/GE-20260803-50ddbd.md)
 - GE-20260803-cdec3c [happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument](web/GE-20260803-cdec3c.md)
+- GE-20260804-d6b186 [Stale workspace:* dist hides missing exports — runtime undefined function](web/GE-20260804-d6b186.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

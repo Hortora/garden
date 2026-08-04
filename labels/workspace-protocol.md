@@ -1,1 +1,2 @@
 - GE-20260626-ec95a0: npm publish in Yarn 4 monorepo ships literal workspace:* deps — consumers can't resolve them
+- GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function

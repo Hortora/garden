@@ -1,1 +1,2 @@
 - GE-20260617-b5372b: Maven sub-module test run doesn't recompile siblings — stale bytecode causes NoSuchMethodError diagnosed as API mismatch
+- GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function
