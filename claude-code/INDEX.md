@@ -24,3 +24,5 @@
 | GE-20260717-886249 | IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync | gotcha | 9/15 |
 | GE-20260803-032978 | Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE | gotcha | 9/15 |
 | GE-20260803-ec5c8a | Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern | technique | 10/15 |
+| GE-20260804-caaf12 | IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines | gotcha | 10/15 |
+| GE-20260804-fe785f | IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin | gotcha | 8/15 |

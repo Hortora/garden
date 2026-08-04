@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2437
+**Entries merged since last sweep:** 2439
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -161,6 +161,8 @@
 - GE-20260717-886249 [IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync](claude-code/GE-20260717-886249.md)
 - GE-20260803-032978 [Worktree-isolated agents cannot use IntelliJ MCP — worktree is not open in the IDE](claude-code/GE-20260803-032978.md)
 - GE-20260803-ec5c8a [Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern](claude-code/GE-20260803-ec5c8a.md)
+- GE-20260804-caaf12 [IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines](claude-code/GE-20260804-caaf12.md)
+- GE-20260804-fe785f [IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin](claude-code/GE-20260804-fe785f.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

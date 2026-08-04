@@ -50,3 +50,5 @@
 - GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
+- GE-20260804-caaf12: IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines
+- GE-20260804-fe785f: IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin
