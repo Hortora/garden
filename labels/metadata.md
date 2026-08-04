@@ -2,3 +2,4 @@
 - GE-20260606-aab62a: DJL 0.36.0 ships partial native-image metadata — insufficient for tokenizers module
 - GE-20260608-8e85f6: Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it
 - GE-20260708-d53278: Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion
+- GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key

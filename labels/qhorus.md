@@ -25,3 +25,4 @@
 - GE-20260714-3418d2: QhorusDashboardService injects @Vetoed reactive services — CDI deployment fails with reactive=false
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
 - GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed
+- GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key

@@ -1,0 +1,1 @@
+- GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key
