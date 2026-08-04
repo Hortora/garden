@@ -1,0 +1,1 @@
+- GE-20260804-f22608: Place LLM worker factories in their domain package, not the advisory package

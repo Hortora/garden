@@ -104,3 +104,5 @@
 - GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern
 - GE-20260801-a8ec17: Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
+- GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
+- GE-20260804-f22608: Place LLM worker factories in their domain package, not the advisory package

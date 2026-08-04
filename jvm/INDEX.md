@@ -1288,3 +1288,5 @@
 | GE-20260804-7469da | Java-to-markdown doclet landscape — no working tool on JDK 21/22 | gotcha | 11/15 |
 | GE-20260804-c1cf5c | jmarkdoc source-only mode produces production-quality API docs | technique | 9/15 |
 | GE-20260804-09c7dc | jmarkdoc output lacks structured implements/extends sections | undocumented | 8/15 |
+| GE-20260804-0e79ba | Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation | technique | 9/15 |
+| GE-20260804-f22608 | Place LLM worker factories in their domain package, not the advisory package | convention | 8/15 |

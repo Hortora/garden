@@ -1,1 +1,3 @@
 - GE-20260622-e779f1: casehub-qhorus StoredMessageTypePolicy enforces COMMAND/QUERY only — all other types get advisory-only treatment
+- GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
+- GE-20260804-f22608: Place LLM worker factories in their domain package, not the advisory package

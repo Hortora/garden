@@ -8,3 +8,4 @@
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
 - GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status
+- GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation

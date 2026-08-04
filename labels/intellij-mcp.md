@@ -44,3 +44,4 @@
 - GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
 - GE-20260803-c93d62: ide_change_signature threads new parameters through private call chains automatically
+- GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked

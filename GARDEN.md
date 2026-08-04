@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2400
+**Entries merged since last sweep:** 2403
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -215,6 +215,7 @@
 - GE-20260717-67af88 [ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings](intellij-platform/GE-20260717-67af88.md)
 - GE-20260802-d1b17d [IntelliJ MCP ide_replace_member nests duplicate method signature inside the body](intellij-platform/GE-20260802-d1b17d.md)
 - GE-20260803-ecb4d5 [ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
+- GE-20260804-8e2e87 [IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked](intellij-platform/GE-20260804-8e2e87.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1908,6 +1909,8 @@
 - GE-20260804-7469da [Java-to-markdown doclet landscape — no working tool on JDK 21/22](jvm/GE-20260804-7469da.md)
 - GE-20260804-c1cf5c [jmarkdoc source-only mode produces production-quality API docs](jvm/GE-20260804-c1cf5c.md)
 - GE-20260804-09c7dc [jmarkdoc output lacks structured implements/extends sections](jvm/GE-20260804-09c7dc.md)
+- GE-20260804-0e79ba [Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation](jvm/GE-20260804-0e79ba.md)
+- GE-20260804-f22608 [Place LLM worker factories in their domain package, not the advisory package](jvm/GE-20260804-f22608.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

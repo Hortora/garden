@@ -47,3 +47,4 @@
 | GE-20260717-67af88 | ide_replace_text_in_file reduces \\ to \ in replacement text — breaks Java regex strings | gotcha | 10/15 |
 | GE-20260802-d1b17d | IntelliJ MCP ide_replace_member nests duplicate method signature inside the body | gotcha | 9/15 |
 | GE-20260803-ecb4d5 | ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure | gotcha | 9/15 |
+| GE-20260804-8e2e87 | IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked | gotcha | 10/15 |

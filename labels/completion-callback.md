@@ -1,0 +1,1 @@
+- GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
