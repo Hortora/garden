@@ -51,3 +51,4 @@
 | GE-20260804-e391e9 | ide_replace_text_in_file silently strips imports added before referencing code exists | gotcha | 8/15 |
 | GE-20260804-e391e9 | ide_replace_text_in_file silently strips imports added before referencing code exists | gotcha | 8/15 |
 | GE-20260804-c21841 | IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed | gotcha | 11/15 |
+| GE-20260804-777881 | ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source | gotcha | 10/15 |
