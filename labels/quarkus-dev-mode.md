@@ -1,1 +1,2 @@
 - GE-20260609-6ae928: ocraft S2Coordinator.tryDiscoverDefaultSettings() calls System.exit(0) on Mac — bypasses catch(Exception) and @Retry
+- GE-20260804-d378f3: Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app
