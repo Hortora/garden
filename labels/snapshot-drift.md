@@ -1,0 +1,1 @@
+- GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry

@@ -13,3 +13,4 @@
 - GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs
 - GE-20260707-160109: CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy
 - GE-20260707-5d6a9f: Quarkus test application.properties overrides production exclude-types — not additive
+- GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry

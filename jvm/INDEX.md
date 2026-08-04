@@ -1293,3 +1293,4 @@
 | GE-20260804-5ab31e | casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime | gotcha | 12/15 |
 | GE-20260804-13d434 | NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app | gotcha | 11/15 |
 | GE-20260804-0725e5 | Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize | gotcha | 10/15 |
+| GE-20260804-c8590c | casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry | gotcha | 9/15 |

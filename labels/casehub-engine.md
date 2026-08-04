@@ -76,3 +76,4 @@
 - GE-20260730-41c406: casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error
 - GE-20260730-64b381: CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics
 - GE-20260803-2dd865: LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy
+- GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
