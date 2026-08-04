@@ -1,0 +1,1 @@
+- GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure

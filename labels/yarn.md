@@ -7,3 +7,4 @@
 - GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag
 - GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output
 - GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function
+- GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure

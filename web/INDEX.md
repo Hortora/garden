@@ -133,3 +133,4 @@
 | GE-20260803-50ddbd | createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender | technique | 10/15 |
 | GE-20260803-cdec3c | happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument | gotcha | 8/15 |
 | GE-20260804-d6b186 | Stale workspace:* dist hides missing exports — runtime undefined function | gotcha | 9/15 |
+| GE-20260804-31bdba | Declared but uninstalled npm dependency — partial test suite masks total failure | gotcha | 8/15 |

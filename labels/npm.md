@@ -3,3 +3,4 @@
 - GE-20260706-7d5f53: Yarn 4 npm whoami returns 'No authentication configured' with valid GitHub Packages auth
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
+- GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure
