@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2415
+**Entries merged since last sweep:** 2416
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -219,6 +219,7 @@
 - GE-20260804-e391e9 [ide_replace_text_in_file silently strips imports added before referencing code exists](intellij-platform/GE-20260804-e391e9.md)
 - GE-20260804-e391e9 [ide_replace_text_in_file silently strips imports added before referencing code exists](intellij-platform/GE-20260804-e391e9.md)
 - GE-20260804-c21841 [IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed](intellij-platform/GE-20260804-c21841.md)
+- GE-20260804-777881 [ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source](intellij-platform/GE-20260804-777881.md)
 - GE-20260804-777881 [ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source](intellij-platform/GE-20260804-777881.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)

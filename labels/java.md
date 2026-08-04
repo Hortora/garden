@@ -161,3 +161,4 @@
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
+- GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source

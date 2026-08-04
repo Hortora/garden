@@ -1,2 +1,3 @@
 - GE-20260726-756909: IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
+- GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source

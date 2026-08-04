@@ -1,2 +1,3 @@
 - GE-20260524-d643d9: marked.lexer v9 distributes trailing newlines between token types — paragraphs get none, headings get all
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
+- GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
