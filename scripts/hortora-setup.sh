@@ -97,10 +97,19 @@ check_prerequisites() {
     HAS_NODE=false
     command -v node >/dev/null 2>&1 && HAS_NODE=true
 
+    HAS_YARN=false
+    command -v yarn >/dev/null 2>&1 && HAS_YARN=true
+
+    LOCALE_OK=false
+    if locale 2>/dev/null | grep -qiE 'utf-?8'; then
+        LOCALE_OK=true
+    fi
+
     local extras=""
     [ "$HAS_PYTHON3" = false ] && extras="${extras}, no python3"
     [ "$HAS_GH" = false ] && extras="${extras}, no gh"
-    [ "$HAS_NODE" = false ] && extras="${extras}, no node"
+    [ "$HAS_NODE" = false ] || [ "$HAS_YARN" = false ] && extras="${extras}, no node/yarn"
+    [ "$LOCALE_OK" = false ] && extras="${extras}, no UTF-8 locale"
     [ -n "$extras" ] && extras=" (optional missing:${extras#,})"
     scan ok "git, Java $java_ver, jq${extras}"
     return 0
@@ -141,11 +150,29 @@ do_prerequisites() {
     fi
 
     HAS_NODE=false
+    HAS_YARN=false
     if command -v node >/dev/null 2>&1; then
         HAS_NODE=true
         ok "node: $(node --version)"
+    fi
+    if command -v yarn >/dev/null 2>&1; then
+        HAS_YARN=true
+        ok "yarn: $(yarn --version 2>/dev/null)"
+    fi
+    if [ "$HAS_NODE" = false ] || [ "$HAS_YARN" = false ]; then
+        warn "node/yarn not found — grove and trellis won't build (frontend needs them)"
+        warn "  Install: brew install node && npm install -g yarn  (macOS)"
+        warn "  Install: dnf install nodejs && npm install -g yarn (Fedora)"
+    fi
+
+    LOCALE_OK=false
+    if locale 2>/dev/null | grep -qiE 'utf-?8'; then
+        LOCALE_OK=true
+        ok "locale: UTF-8"
     else
-        warn "node not found — trellis (soredium UI) won't be launchable"
+        warn "UTF-8 locale not detected — engine may fail on non-ASCII filenames"
+        warn "  Fix: export LANG=C.UTF-8  (or add to ~/.bashrc)"
+        warn "  The installer sets LANG=C.UTF-8 in service configs automatically."
     fi
 }
 
@@ -467,6 +494,13 @@ do_builds() {
             continue
         fi
 
+        # Grove has a Quinoa frontend that needs node/yarn
+        if [ "$app" = "grove" ] && { [ "$HAS_NODE" = false ] || [ "$HAS_YARN" = false ]; }; then
+            warn "$app: skipped — needs node and yarn for frontend build"
+            warn "  Install node/yarn, then re-run this installer"
+            continue
+        fi
+
         local mvn
         mvn=$(mvn_cmd "$app_dir")
         if [ -z "$mvn" ]; then
@@ -475,7 +509,7 @@ do_builds() {
         fi
 
         ok "$app: building (this may take a few minutes)..."
-        if (cd "$app_dir" && JAVA_HOME="$JAVA_HOME" "$mvn" package -DskipTests -q 2>&1); then
+        if (cd "$app_dir" && JAVA_HOME="$JAVA_HOME" LANG=C.UTF-8 "$mvn" package -DskipTests -q 2>&1); then
             ok "$app: build complete"
         else
             warn "$app: build failed — re-run installer to retry"
@@ -489,6 +523,9 @@ do_builds() {
 
     if [ -f "$trellis_jar" ]; then
         ok "trellis sidecar: already built"
+    elif [ "$HAS_NODE" = false ] || [ "$HAS_YARN" = false ]; then
+        warn "trellis sidecar: skipped — needs node and yarn for frontend build"
+        warn "  Install node/yarn, then re-run this installer"
     else
         local mvn
         mvn=$(mvn_cmd "$trellis_dir")
@@ -496,7 +533,7 @@ do_builds() {
             warn "trellis sidecar: no mvnw or mvn found — install Maven and re-run"
         else
             ok "trellis sidecar: building..."
-            if (cd "$trellis_dir" && JAVA_HOME="$JAVA_HOME" "$mvn" -f sidecar/pom.xml package -DskipTests -q 2>&1); then
+            if (cd "$trellis_dir" && JAVA_HOME="$JAVA_HOME" LANG=C.UTF-8 "$mvn" -f sidecar/pom.xml package -DskipTests -q 2>&1); then
                 ok "trellis sidecar: build complete"
             else
                 warn "trellis sidecar: build failed — re-run installer to retry"
@@ -631,6 +668,7 @@ do_launchd_services() {
     <dict>
         <key>JAVA_HOME</key><string>$JAVA_HOME</string>
         <key>HORTORA_HOME</key><string>$HORTORA_HOME</string>
+        <key>LANG</key><string>C.UTF-8</string>
     </dict>
     <key>KeepAlive</key><true/>
     <key>RunAtLoad</key><true/>
@@ -658,6 +696,7 @@ do_launchd_services() {
     <dict>
         <key>JAVA_HOME</key><string>$JAVA_HOME</string>
         <key>HORTORA_HOME</key><string>$HORTORA_HOME</string>
+        <key>LANG</key><string>C.UTF-8</string>
     </dict>
     <key>KeepAlive</key><true/>
     <key>RunAtLoad</key><true/>
@@ -712,6 +751,7 @@ Restart=always
 RestartSec=5
 Environment=JAVA_HOME=$JAVA_HOME
 Environment=HORTORA_HOME=$HORTORA_HOME
+Environment=LANG=C.UTF-8
 
 [Install]
 WantedBy=default.target
@@ -729,6 +769,7 @@ Type=oneshot
 ExecStart=$GARDEN_ROOT/scripts/hortora-update.sh
 Environment=JAVA_HOME=$JAVA_HOME
 Environment=HORTORA_HOME=$HORTORA_HOME
+Environment=LANG=C.UTF-8
 EOF
     fi
 

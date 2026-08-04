@@ -155,13 +155,14 @@ install_prerequisites() {
 
     podman exec "$CONTAINER_NAME" java -version 2>&1 | head -1
 
-    # Install Maven (grove and trellis don't have mvnw wrappers)
+    # Install Maven, Node.js, yarn, and set UTF-8 locale
     podman exec "$CONTAINER_NAME" bash -c '
-        if ! command -v mvn >/dev/null 2>&1; then
-            dnf install -y -q maven 2>&1 | tail -1
-        fi
+        dnf install -y -q maven nodejs 2>&1 | tail -1
+        npm install -g yarn 2>&1 | tail -1
+        echo "LANG=C.UTF-8" > /etc/locale.conf
+        export LANG=C.UTF-8
     '
-    ok "Maven installed"
+    ok "Maven, Node.js, yarn installed. Locale: C.UTF-8"
 }
 
 clone_garden() {
@@ -200,10 +201,12 @@ run_installer() {
     fi
     podman exec \
         -e "JAVA_HOME=/opt/jdk-${JDK_VERSION}" \
+        -e "LANG=C.UTF-8" \
         ${release_env:+-e "$release_env"} \
         "$CONTAINER_NAME" bash -c '
         export JAVA_HOME=/opt/jdk-'"${JDK_VERSION}"'
         export PATH="$JAVA_HOME/bin:$PATH"
+        export LANG=C.UTF-8
         ~/.hortora/garden/scripts/hortora-setup.sh --yes
     '
 }
