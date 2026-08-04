@@ -384,3 +384,4 @@
 - GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests
 - GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
 - GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST
+- GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app

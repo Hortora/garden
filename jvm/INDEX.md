@@ -1291,3 +1291,4 @@
 | GE-20260804-0e79ba | Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation | technique | 9/15 |
 | GE-20260804-f22608 | Place LLM worker factories in their domain package, not the advisory package | convention | 8/15 |
 | GE-20260804-5ab31e | casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime | gotcha | 12/15 |
+| GE-20260804-13d434 | NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app | gotcha | 11/15 |

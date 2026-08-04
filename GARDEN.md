@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2411
+**Entries merged since last sweep:** 2412
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1915,6 +1915,7 @@
 - GE-20260804-0e79ba [Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation](jvm/GE-20260804-0e79ba.md)
 - GE-20260804-f22608 [Place LLM worker factories in their domain package, not the advisory package](jvm/GE-20260804-f22608.md)
 - GE-20260804-5ab31e [casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime](jvm/GE-20260804-5ab31e.md)
+- GE-20260804-13d434 [NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app](jvm/GE-20260804-13d434.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

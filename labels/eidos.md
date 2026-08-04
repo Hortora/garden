@@ -6,3 +6,4 @@
 - GE-20260803-0a3c7d: Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level
 - GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor
 - GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
+- GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app

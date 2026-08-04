@@ -1,1 +1,2 @@
 - GE-20260614-337397: quarkus-langchain4j Ollama extension registers @Default ChatModel — clashes with @DefaultBean fallback
+- GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app
