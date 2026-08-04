@@ -211,6 +211,32 @@ run_installer() {
     '
 }
 
+start_services_manually() {
+    step "Starting services (container workaround — systemctl --user unavailable)"
+    podman exec -d -e LANG=C.UTF-8 "$CONTAINER_NAME" \
+        /root/.hortora/qdrant/qdrant --config-path /root/.hortora/qdrant/config.yaml
+    ok "Qdrant starting"
+    sleep 3
+
+    if [ -f "$(podman exec "$CONTAINER_NAME" ls /root/.hortora/engine/target/quarkus-app/quarkus-run.jar 2>/dev/null)" ] 2>/dev/null || \
+       podman exec "$CONTAINER_NAME" test -f /root/.hortora/engine/target/quarkus-app/quarkus-run.jar 2>/dev/null; then
+        podman exec -d -e JAVA_HOME=/opt/jdk-${JDK_VERSION} -e LANG=C.UTF-8 -e HORTORA_HOME=/root/.hortora \
+            "$CONTAINER_NAME" /opt/jdk-${JDK_VERSION}/bin/java -jar /root/.hortora/engine/target/quarkus-app/quarkus-run.jar
+        ok "Engine starting"
+    else
+        warn "Engine jar not found — skipping"
+    fi
+
+    if podman exec "$CONTAINER_NAME" test -f /root/.hortora/grove/target/quarkus-app/quarkus-run.jar 2>/dev/null; then
+        podman exec -d -e JAVA_HOME=/opt/jdk-${JDK_VERSION} -e LANG=C.UTF-8 -e HORTORA_HOME=/root/.hortora \
+            "$CONTAINER_NAME" /opt/jdk-${JDK_VERSION}/bin/java -jar /root/.hortora/grove/target/quarkus-app/quarkus-run.jar
+        ok "Grove starting"
+    else
+        warn "Grove jar not found — skipping"
+    fi
+    sleep 10
+}
+
 verify() {
     step "Verifying from host"
     local all_ok=true
@@ -272,6 +298,7 @@ main() {
     clone_garden
     setup_quick_models
     run_installer
+    start_services_manually
     verify
 }
 

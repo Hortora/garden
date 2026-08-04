@@ -420,7 +420,9 @@ do_models() {
     fi
 
     ok "Verifying checksums..."
-    if (cd "$models_dir" && shasum -a 256 -c checksums.sha256 >/dev/null 2>&1); then
+    local sha_cmd="sha256sum"
+    command -v sha256sum >/dev/null 2>&1 || sha_cmd="shasum -a 256"
+    if (cd "$models_dir" && $sha_cmd -c checksums.sha256 >/dev/null 2>&1); then
         MODELS_OK=true
         ok "All models verified"
     else
