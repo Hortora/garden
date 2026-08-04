@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2450
+**Entries merged since last sweep:** 2451
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -163,6 +163,7 @@
 - GE-20260803-ec5c8a [Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern](claude-code/GE-20260803-ec5c8a.md)
 - GE-20260804-caaf12 [IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines](claude-code/GE-20260804-caaf12.md)
 - GE-20260804-fe785f [IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin](claude-code/GE-20260804-fe785f.md)
+- GE-20260804-cf77dc [IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path](claude-code/GE-20260804-cf77dc.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
