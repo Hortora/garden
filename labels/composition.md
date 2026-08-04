@@ -2,3 +2,4 @@
 - GE-20260607-326c7e: casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution
 - GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
+- GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component

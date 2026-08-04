@@ -1,0 +1,1 @@
+- GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components

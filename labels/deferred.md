@@ -1,0 +1,1 @@
+- GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component

@@ -139,3 +139,7 @@
 | GE-20260804-96c692 | renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly | gotcha | 11/15 |
 | GE-20260804-64c599 | SSE EventSource sends message type, not named events — addEventListener misses them | gotcha | 10/15 |
 | GE-20260804-50d971 | pages-data-table paginated mode fills parent height — must wrap in constrained div | undocumented | 8/15 |
+| GE-20260804-a89d3b | pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts | gotcha | 9/15 |
+| GE-20260804-0959d2 | work-item-inbox has no compact mode — use list-pane for dock panels | gotcha | 8/15 |
+| GE-20260804-befd45 | Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component | technique | 11/15 |
+| GE-20260804-84ac70 | life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components | convention | 8/15 |

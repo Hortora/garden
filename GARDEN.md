@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2433
+**Entries merged since last sweep:** 2437
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2771,6 +2771,10 @@
 - GE-20260804-96c692 [renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly](web/GE-20260804-96c692.md)
 - GE-20260804-64c599 [SSE EventSource sends message type, not named events — addEventListener misses them](web/GE-20260804-64c599.md)
 - GE-20260804-50d971 [pages-data-table paginated mode fills parent height — must wrap in constrained div](web/GE-20260804-50d971.md)
+- GE-20260804-a89d3b [pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts](web/GE-20260804-a89d3b.md)
+- GE-20260804-0959d2 [work-item-inbox has no compact mode — use list-pane for dock panels](web/GE-20260804-0959d2.md)
+- GE-20260804-befd45 [Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component](web/GE-20260804-befd45.md)
+- GE-20260804-84ac70 [life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components](web/GE-20260804-84ac70.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

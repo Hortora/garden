@@ -1,1 +1,2 @@
 - GE-20260726-fd29f7: Google API client library dependency convergence — don't declare transitive deps explicitly
+- GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts

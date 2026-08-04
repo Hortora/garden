@@ -2,3 +2,4 @@
 - GE-20260712-7250c5: DataSourceMixin extraction pipeline destroys non-tabular domain responses
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
 - GE-20260729-f3f3a1: CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')
+- GE-20260804-0959d2: work-item-inbox has no compact mode — use list-pane for dock panels

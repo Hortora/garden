@@ -1,0 +1,1 @@
+- GE-20260804-0959d2: work-item-inbox has no compact mode — use list-pane for dock panels

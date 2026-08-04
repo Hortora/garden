@@ -1,0 +1,1 @@
+- GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
