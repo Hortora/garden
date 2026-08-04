@@ -2,3 +2,4 @@
 - GE-20260416-1a2d0e: Quarkus dev mode compiles at startup — mvn test after server start does not update the running app
 - GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy
 - GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
+- GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files

@@ -145,3 +145,5 @@
 | GE-20260804-84ac70 | life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components | convention | 8/15 |
 | GE-20260804-c15f1f | Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail | gotcha | 9/15 |
 | GE-20260804-24d409 | Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI | gotcha | 11/15 |
+| GE-20260804-52ba5f | SSE addEventListener for named events silently ignores unnamed server events — use onmessage | gotcha | 14/15 |
+| GE-20260804-149db1 | Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files | gotcha | 10/15 |

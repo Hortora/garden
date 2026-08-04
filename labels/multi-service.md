@@ -1,0 +1,1 @@
+- GE-20260804-d652bc: pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation

@@ -1,2 +1,3 @@
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
 - GE-20260607-d051f2: MessageObserver.onMessage() receives null content for EVENT type — MessageObserverDispatcher forces content=null per PP-20260508-90428f
+- GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage

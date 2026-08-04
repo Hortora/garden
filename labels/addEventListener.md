@@ -1,0 +1,1 @@
+- GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage

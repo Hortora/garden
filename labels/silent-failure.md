@@ -131,3 +131,4 @@
 - GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination
 - GE-20260804-caaf12: IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
+- GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage

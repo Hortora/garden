@@ -1,1 +1,2 @@
 - GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
+- GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files

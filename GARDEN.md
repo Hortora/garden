@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2446
+**Entries merged since last sweep:** 2450
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1934,6 +1934,7 @@
 - GE-20260804-5e5f8f [CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc](jvm/GE-20260804-5e5f8f.md)
 - GE-20260804-415b0d [qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing](jvm/GE-20260804-415b0d.md)
 - GE-20260804-188cd4 [Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException](jvm/GE-20260804-188cd4.md)
+- GE-20260804-09f69a [jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports](jvm/GE-20260804-09f69a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2624,6 +2625,7 @@
 - GE-20260804-09f3da [Workspace symlink pointing at wrong repo causes silent cross-repo context contamination](tools/GE-20260804-09f3da.md)
 - GE-20260804-3521be [Claude Code sets process title to version string — breaks tmux pane_current_command detection](tools/GE-20260804-3521be.md)
 - GE-20260804-1b28f5 [pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying](tools/GE-20260804-1b28f5.md)
+- GE-20260804-d652bc [pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation](tools/GE-20260804-d652bc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2784,6 +2786,8 @@
 - GE-20260804-84ac70 [life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components](web/GE-20260804-84ac70.md)
 - GE-20260804-c15f1f [Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail](web/GE-20260804-c15f1f.md)
 - GE-20260804-24d409 [Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI](web/GE-20260804-24d409.md)
+- GE-20260804-52ba5f [SSE addEventListener for named events silently ignores unnamed server events — use onmessage](web/GE-20260804-52ba5f.md)
+- GE-20260804-149db1 [Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files](web/GE-20260804-149db1.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

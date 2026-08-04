@@ -1,2 +1,3 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
+- GE-20260804-09f69a: jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports

@@ -30,3 +30,4 @@
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
 - GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST
 - GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them
+- GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage

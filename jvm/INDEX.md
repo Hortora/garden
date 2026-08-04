@@ -1306,3 +1306,4 @@
 | GE-20260804-5e5f8f | CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc | undocumented | 8/15 |
 | GE-20260804-415b0d | qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing | gotcha | 8/15 |
 | GE-20260804-188cd4 | Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException | gotcha | 8/15 |
+| GE-20260804-09f69a | jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports | gotcha | 10/15 |
