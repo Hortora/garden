@@ -1304,3 +1304,5 @@
 | GE-20260804-d97557 | @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles | gotcha | 11/15 |
 | GE-20260804-36d1ad | Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely | technique | 9/15 |
 | GE-20260804-5e5f8f | CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc | undocumented | 8/15 |
+| GE-20260804-415b0d | qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing | gotcha | 8/15 |
+| GE-20260804-188cd4 | Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException | gotcha | 8/15 |

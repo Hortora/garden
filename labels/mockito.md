@@ -25,3 +25,4 @@
 - GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
 - GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
+- GE-20260804-188cd4: Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException

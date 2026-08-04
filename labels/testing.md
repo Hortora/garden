@@ -409,3 +409,4 @@
 - GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument
 - GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
 - GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles
+- GE-20260804-188cd4: Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException

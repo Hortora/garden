@@ -1,0 +1,1 @@
+- GE-20260804-188cd4: Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException

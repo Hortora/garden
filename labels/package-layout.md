@@ -1,0 +1,1 @@
+- GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
