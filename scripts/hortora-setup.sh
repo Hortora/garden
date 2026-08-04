@@ -100,6 +100,9 @@ check_prerequisites() {
     HAS_YARN=false
     command -v yarn >/dev/null 2>&1 && HAS_YARN=true
 
+    HAS_CLAUDE=false
+    command -v claude >/dev/null 2>&1 && HAS_CLAUDE=true
+
     LOCALE_OK=false
     if locale 2>/dev/null | grep -qiE 'utf-?8'; then
         LOCALE_OK=true
@@ -108,6 +111,7 @@ check_prerequisites() {
     local extras=""
     [ "$HAS_PYTHON3" = false ] && extras="${extras}, no python3"
     [ "$HAS_GH" = false ] && extras="${extras}, no gh"
+    [ "$HAS_CLAUDE" = false ] && extras="${extras}, no claude"
     [ "$HAS_NODE" = false ] || [ "$HAS_YARN" = false ] && extras="${extras}, no node/yarn"
     [ "$LOCALE_OK" = false ] && extras="${extras}, no UTF-8 locale"
     [ -n "$extras" ] && extras=" (optional missing:${extras#,})"
@@ -163,6 +167,16 @@ do_prerequisites() {
         warn "node/yarn not found — grove and trellis won't build (frontend needs them)"
         warn "  Install: brew install node && npm install -g yarn  (macOS)"
         warn "  Install: dnf install nodejs && npm install -g yarn (Fedora)"
+    fi
+
+    HAS_CLAUDE=false
+    if command -v claude >/dev/null 2>&1; then
+        HAS_CLAUDE=true
+        ok "claude: installed"
+    else
+        warn "Claude Code not found — engine will not start without it"
+        warn "  Install: https://docs.anthropic.com/en/docs/claude-code/overview"
+        warn "  The engine's search and MCP require the claude CLI at startup."
     fi
 
     LOCALE_OK=false
@@ -650,6 +664,10 @@ do_launchd_services() {
         engine_load=false
         warn "Engine service installed but NOT started — models not available"
     fi
+    if [ "$HAS_CLAUDE" = false ]; then
+        engine_load=false
+        warn "Engine service installed but NOT started — claude CLI required (see Hortora/engine#84)"
+    fi
 
     local engine_dir
     engine_dir=$(resolve_path "$HORTORA_HOME/engine")
@@ -791,10 +809,11 @@ EOF
 
     systemctl --user daemon-reload 2>/dev/null
     systemctl --user enable --now io.hortora.qdrant 2>/dev/null || true
-    if [ "$MODELS_OK" = true ]; then
+    if [ "$MODELS_OK" = true ] && [ "$HAS_CLAUDE" = true ]; then
         systemctl --user enable --now io.hortora.engine 2>/dev/null || true
     else
-        warn "Engine service not enabled — models not available"
+        [ "$MODELS_OK" = false ] && warn "Engine service not enabled — models not available"
+        [ "$HAS_CLAUDE" = false ] && warn "Engine service not enabled — claude CLI required"
     fi
     systemctl --user enable --now io.hortora.grove 2>/dev/null || true
     systemctl --user enable --now io.hortora.update.timer 2>/dev/null || true
@@ -994,20 +1013,23 @@ summary() {
 
     printf "  Services:\n"
     check_port 6333 2 && ok "Qdrant   http://localhost:6333" || warn "Qdrant   not responding yet"
-    if [ "$MODELS_OK" = true ]; then
+    if [ "$MODELS_OK" = true ] && [ "$HAS_CLAUDE" = true ]; then
         check_port 8080 2 && ok "Engine   http://localhost:8080" || warn "Engine   starting up..."
     else
-        warn "Engine   not started (models not available yet)"
+        [ "$MODELS_OK" = false ] && warn "Engine   not started (models not available)"
+        [ "$HAS_CLAUDE" = false ] && warn "Engine   not started (claude CLI required)"
     fi
     check_port 8090 2 && ok "Grove    http://localhost:8090" || warn "Grove    starting up..."
 
     echo ""
-    if [ "$MODELS_OK" = true ]; then
+    if [ "$MODELS_OK" = true ] && [ "$HAS_CLAUDE" = true ]; then
         printf "  First-time indexing runs automatically (~60 min for full corpus).\n"
         printf "  Search improves as indexing progresses.\n"
     else
-        printf "  ${YELLOW}Next step:${NC} models are not yet published as GitHub Release assets.\n"
-        printf "  Once published, re-run this installer to download them and start the engine.\n"
+        printf "  ${YELLOW}Next steps to get the engine running:${NC}\n"
+        [ "$MODELS_OK" = false ] && printf "  • Models not yet available — re-run installer after they're published\n"
+        [ "$HAS_CLAUDE" = false ] && printf "  • Install Claude Code: https://docs.anthropic.com/en/docs/claude-code/overview\n"
+        printf "  Then re-run this installer.\n"
     fi
     echo ""
     printf "  Daily auto-update runs at 3am.\n"
