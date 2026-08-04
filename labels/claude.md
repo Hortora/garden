@@ -6,3 +6,4 @@
 - GE-20260623-95e1e6: Map running process PID to last-activity time via conversation file mtimes in ~/.claude/projects/
 - GE-20260707-23d0ab: AgentProviderChatModel uses langchain4j close-timeout (PT30S), not agent.claude.default-timeout — silent truncation
 - GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access
+- GE-20260804-face79: Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed

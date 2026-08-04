@@ -1,2 +1,3 @@
 - GE-20260420-05dca8: REST Assured hangs permanently on SSE endpoints — use java.net.http.HttpClient instead
 - GE-20260630-e18bed: BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads
+- GE-20260804-face79: Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed

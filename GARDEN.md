@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2416
+**Entries merged since last sweep:** 2419
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1920,6 +1920,8 @@
 - GE-20260804-13d434 [NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app](jvm/GE-20260804-13d434.md)
 - GE-20260804-0725e5 [Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize](jvm/GE-20260804-0725e5.md)
 - GE-20260804-c8590c [casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry](jvm/GE-20260804-c8590c.md)
+- GE-20260804-738e1a [CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation](jvm/GE-20260804-738e1a.md)
+- GE-20260804-face79 [Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed](jvm/GE-20260804-face79.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2603,6 +2605,7 @@
 - GE-20260804-2e5ca2 [Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect](tools/GE-20260804-2e5ca2.md)
 - GE-20260804-f694b3 [tmux new-session -c sets default-path but shell inherits parent process CWD](tools/GE-20260804-f694b3.md)
 - GE-20260804-961272 [capture-pane without -e strips ANSI — replayed terminal display garbles](tools/GE-20260804-961272.md)
+- GE-20260804-2cd3da [Split-model evaluation isolates judge bias from framework effectiveness](tools/GE-20260804-2cd3da.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

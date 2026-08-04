@@ -3,3 +3,4 @@
 - GE-20260615-514e8b: casehub-engine-blackboard as test-scope dep brings CDI beans with unsatisfied engine SPI deps — 34 deployment failures
 - GE-20260629-6f1d64: Maven parent POM dependencyManagement silently overrides child scope removal — explicit scope=compile required
 - GE-20260731-aaf952: quarkus.index-dependency does not discover CDI beans from test-scoped jars without Jandex index — use @Produces bridge
+- GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation

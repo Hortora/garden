@@ -1294,3 +1294,5 @@
 | GE-20260804-13d434 | NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app | gotcha | 11/15 |
 | GE-20260804-0725e5 | Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize | gotcha | 10/15 |
 | GE-20260804-c8590c | casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry | gotcha | 9/15 |
+| GE-20260804-738e1a | CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation | gotcha | 9/15 |
+| GE-20260804-face79 | Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed | technique | 10/15 |

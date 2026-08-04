@@ -1,0 +1,1 @@
+- GE-20260804-2cd3da: Split-model evaluation isolates judge bias from framework effectiveness
