@@ -272,15 +272,31 @@ check_models() {
     local all_ok=true status=""
 
     for model in bge-m3 reranker splade; do
-        if [ -f "$models_dir/$model/model.onnx" ] && [ -f "$models_dir/$model/tokenizer.json" ]; then
-            status="${status} ${model}:✓"
-        else
-            all_ok=false
-            if [ -f "$models_dir/$model/model.onnx" ]; then
-                local size
-                size=$(wc -c < "$models_dir/$model/model.onnx" 2>/dev/null | tr -d ' ')
-                status="${status} ${model}:partial"
+        local has_onnx=false has_tok=false
+        [ -f "$models_dir/$model/model.onnx" ] && has_onnx=true
+        [ -f "$models_dir/$model/tokenizer.json" ] && has_tok=true
+
+        # BGE-M3 also needs model.onnx.data
+        if [ "$model" = "bge-m3" ]; then
+            if [ "$has_onnx" = true ] && [ "$has_tok" = true ] && \
+               [ -f "$models_dir/$model/model.onnx.data" ]; then
+                status="${status} ${model}:✓"
             else
+                all_ok=false
+                # Check for partial split downloads
+                local parts
+                parts=$(ls "$models_dir/$model"/model.onnx.data.part-* 2>/dev/null | wc -l | tr -d ' ')
+                if [ "$parts" -gt 0 ]; then
+                    status="${status} ${model}:partial(${parts}/3 parts)"
+                else
+                    status="${status} ${model}:✗"
+                fi
+            fi
+        else
+            if [ "$has_onnx" = true ] && [ "$has_tok" = true ]; then
+                status="${status} ${model}:✓"
+            else
+                all_ok=false
                 status="${status} ${model}:✗"
             fi
         fi
@@ -313,12 +329,13 @@ do_models() {
 
     curl -fSL "$checksum_url" -o "$models_dir/checksums.sha256"
 
-    local model_assets
-    model_assets="bge-m3:model.onnx bge-m3:model.onnx.data bge-m3:tokenizer.json"
-    model_assets="$model_assets reranker:model.onnx reranker:tokenizer.json"
-    model_assets="$model_assets splade:model.onnx splade:tokenizer.json"
+    # Download simple assets (single files)
+    local simple_assets
+    simple_assets="bge-m3:model.onnx bge-m3:tokenizer.json"
+    simple_assets="$simple_assets reranker:model.onnx reranker:tokenizer.json"
+    simple_assets="$simple_assets splade:model.onnx splade:tokenizer.json"
 
-    for entry in $model_assets; do
+    for entry in $simple_assets; do
         local model="${entry%%:*}"
         local asset="${entry#*:}"
         local dest="$models_dir/$model/$asset"
@@ -337,6 +354,42 @@ do_models() {
             rm -f "$dest"
         fi
     done
+
+    # Download BGE-M3 model.onnx.data (split into 3 parts due to GitHub 2GB limit)
+    if [ ! -f "$models_dir/bge-m3/model.onnx.data" ]; then
+        mkdir -p "$models_dir/bge-m3"
+        ok "bge-m3/model.onnx.data: downloading 3 parts (~2.1GB total)..."
+
+        local all_parts_ok=true
+        for part in part-aa part-ab part-ac; do
+            local dest="$models_dir/bge-m3/model.onnx.data.${part}"
+            local url="$release_url/bge-m3-model.onnx.data.${part}"
+
+            if [ -f "$dest" ]; then
+                ok "  $part: already downloaded"
+                continue
+            fi
+
+            ok "  $part: downloading..."
+            if ! curl -fSL -C - --progress-bar "$url" -o "$dest" 2>&1; then
+                warn "  $part: download failed — will retry on next run"
+                rm -f "$dest"
+                all_parts_ok=false
+            fi
+        done
+
+        if [ "$all_parts_ok" = true ]; then
+            ok "  Reassembling model.onnx.data..."
+            cat "$models_dir/bge-m3"/model.onnx.data.part-* \
+                > "$models_dir/bge-m3/model.onnx.data"
+            rm -f "$models_dir/bge-m3"/model.onnx.data.part-*
+            ok "  Reassembled and cleaned up parts"
+        else
+            warn "  Some parts missing — reassembly skipped, will retry on next run"
+        fi
+    else
+        ok "bge-m3/model.onnx.data: already downloaded"
+    fi
 
     ok "Verifying checksums..."
     if (cd "$models_dir" && shasum -a 256 -c checksums.sha256 >/dev/null 2>&1); then
