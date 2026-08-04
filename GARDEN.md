@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2405
+**Entries merged since last sweep:** 2406
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -218,6 +218,7 @@
 - GE-20260804-8e2e87 [IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked](intellij-platform/GE-20260804-8e2e87.md)
 - GE-20260804-e391e9 [ide_replace_text_in_file silently strips imports added before referencing code exists](intellij-platform/GE-20260804-e391e9.md)
 - GE-20260804-e391e9 [ide_replace_text_in_file silently strips imports added before referencing code exists](intellij-platform/GE-20260804-e391e9.md)
+- GE-20260804-c21841 [IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed](intellij-platform/GE-20260804-c21841.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)

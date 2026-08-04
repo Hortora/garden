@@ -6,3 +6,4 @@
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
+- GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
