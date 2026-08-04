@@ -1,0 +1,1 @@
+- GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc

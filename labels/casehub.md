@@ -106,3 +106,4 @@
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
 - GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
 - GE-20260804-f22608: Place LLM worker factories in their domain package, not the advisory package
+- GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc

@@ -1,0 +1,2 @@
+- GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles
+- GE-20260804-36d1ad: Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely

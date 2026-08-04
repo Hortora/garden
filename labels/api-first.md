@@ -1,0 +1,1 @@
+- GE-20260804-36d1ad: Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely

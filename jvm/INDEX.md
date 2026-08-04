@@ -1301,3 +1301,6 @@
 | GE-20260804-d378f3 | Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app | gotcha | 9/15 |
 | GE-20260804-6076a3 | SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group | gotcha | 11/15 |
 | GE-20260804-6dc382 | pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal | gotcha | 9/15 |
+| GE-20260804-d97557 | @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles | gotcha | 11/15 |
+| GE-20260804-36d1ad | Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely | technique | 9/15 |
+| GE-20260804-5e5f8f | CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc | undocumented | 8/15 |

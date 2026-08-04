@@ -43,3 +43,4 @@
 - GE-20260717-1edd9b: CDI Instance<SPI> discovery for heterogeneous periodic cleanup across storage backends
 - GE-20260718-052fbc: SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI
 - GE-20260730-64b381: CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics
+- GE-20260804-36d1ad: Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely

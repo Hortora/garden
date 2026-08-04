@@ -1,0 +1,1 @@
+- GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles

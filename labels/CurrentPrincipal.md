@@ -1,2 +1,3 @@
 - GE-20260628-919f9f: Non-OIDC SecurityIdentity triggers MissingTenancyException from OidcCurrentPrincipal — production-only regression invisible to tests
 - GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal
+- GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc

@@ -1,2 +1,3 @@
 - GE-20260615-d008ea: EndpointPropertyKeys.URL does not apply to KAFKA — only HTTP, GRPC, MCP, CAMEL, QHORUS
 - GE-20260708-1ed5f9: DurationPreference implements MultiValuePreference — prefs.get(KEY) won't compile for single-value duration preferences
+- GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc

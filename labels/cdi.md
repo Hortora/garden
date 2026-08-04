@@ -387,3 +387,4 @@
 - GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app
 - GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
 - GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation
+- GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles
