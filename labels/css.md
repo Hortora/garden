@@ -5,3 +5,4 @@
 - GE-20260801-355ce5: CSS all:initial resets custom properties — design tokens must be explicitly re-declared
 - GE-20260802-953404: CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade
 - GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div
+- GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail

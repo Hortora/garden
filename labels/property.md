@@ -1,0 +1,1 @@
+- GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail

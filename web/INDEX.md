@@ -143,3 +143,4 @@
 | GE-20260804-0959d2 | work-item-inbox has no compact mode — use list-pane for dock panels | gotcha | 8/15 |
 | GE-20260804-befd45 | Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component | technique | 11/15 |
 | GE-20260804-84ac70 | life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components | convention | 8/15 |
+| GE-20260804-c15f1f | Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail | gotcha | 9/15 |

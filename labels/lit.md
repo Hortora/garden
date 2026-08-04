@@ -28,3 +28,4 @@
 - GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
 - GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
 - GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div
+- GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
