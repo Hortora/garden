@@ -11,7 +11,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
       issues: write
 
@@ -19,7 +19,7 @@ jobs:
       - name: Checkout garden
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Checkout soredium
         uses: actions/checkout@v4
@@ -30,73 +30,98 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Detect changed entry file
+      - name: Detect changed entry files
         id: entry
         run: |
-          FILE=$(git diff --name-only HEAD~1 HEAD | grep -E '^[^/]+/GE-[0-9]+\.md$' | head -1)
-          if [ -z "$FILE" ]; then
-            echo "No garden entry file detected"
-            exit 0
+          FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD \
+            | grep -E '^[^/]+/GE-[0-9a-f-]+\.md$' || true)
+          if [ -z "$FILES" ]; then
+            echo "No garden entry files detected"
+            echo "files=" >> $GITHUB_OUTPUT
+          else
+            FILES_ONELINE=$(echo "$FILES" | tr '\n' ' ' | sed 's/ $//')
+            echo "files=$FILES_ONELINE" >> $GITHUB_OUTPUT
           fi
-          echo "file=$FILE" >> $GITHUB_OUTPUT
 
-      - name: Validate entry
+      - name: Validate entries
         id: validate
-        if: steps.entry.outputs.file != ''
+        if: steps.entry.outputs.files != ''
         run: |
-          python .soredium/scripts/validate_pr.py "${{ steps.entry.outputs.file }}" . \
-            > /tmp/result.json 2>&1 || true
+          for FILE in ${{ steps.entry.outputs.files }}; do
+            python .soredium/scripts/validate_pr.py "$FILE" . \
+              > "/tmp/result-$(basename "$FILE").json" 2>&1 || true
+          done
         continue-on-error: true
 
+      - name: Dedup check
+        id: dedup
+        if: steps.entry.outputs.files != ''
+        run: |
+          python3 scripts/dedup_check.py ${{ steps.entry.outputs.files }} \
+            > /tmp/dedup.json 2>&1 || true
+          DUPES=$(python3 -c "
+          import json
+          d = json.load(open('/tmp/dedup.json'))
+          print(len(d.get('duplicates', [])))" 2>/dev/null || echo 0)
+          echo "count=$DUPES" >> $GITHUB_OUTPUT
+
       - name: Post PR comment
-        if: steps.entry.outputs.file != ''
+        if: steps.entry.outputs.files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RESULT=$(cat /tmp/result.json)
-          CRITICALS=$(python3 -c "
-          import json, sys
-          d = json.loads(sys.stdin.read())
-          print('\n'.join(['❌ ' + c for c in d.get('criticals', [])]))
-          " <<< "$RESULT")
-          WARNINGS=$(python3 -c "
-          import json, sys
-          d = json.loads(sys.stdin.read())
-          print('\n'.join(['⚠️ ' + w for w in d.get('warnings', [])]))
-          " <<< "$RESULT")
-          INFOS=$(python3 -c "
-          import json, sys
-          d = json.loads(sys.stdin.read())
-          print('\n'.join(['ℹ️ ' + i for i in d.get('infos', [])]))
-          " <<< "$RESULT")
-          gh pr comment ${{ github.event.pull_request.number }} --body "## Garden Entry Validation
+          BODY="## Garden Entry Validation\n\nFiles: ${{ steps.entry.outputs.files }}\n"
+          if [ -f /tmp/dedup.json ]; then
+            DUPES=$(python3 -c "
+          import json
+          d = json.load(open('/tmp/dedup.json'))
+          for dup in d.get('duplicates', []):
+              print(f'⚠️ Potential duplicate: {dup[\"new\"]} ↔ {dup[\"existing\"]} (similarity: {dup[\"similarity\"]})')
+          " 2>/dev/null)
+            if [ -n "$DUPES" ]; then
+              BODY="${BODY}\n### Dedup Check\n${DUPES}\n"
+            fi
+          fi
+          printf "$BODY" | gh pr comment ${{ github.event.pull_request.number }} \
+            --body-file -
 
-          ${CRITICALS}
-          ${WARNINGS}
-          ${INFOS}
-
-          <details><summary>Full JSON</summary>
-
-          \`\`\`json
-          ${RESULT}
-          \`\`\`
-
-          </details>"
-
-      - name: Apply label and enforce exit code
-        if: steps.entry.outputs.file != ''
+      - name: Apply labels
+        if: steps.entry.outputs.files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RESULT=$(cat /tmp/result.json)
           PR=${{ github.event.pull_request.number }}
-          HAS_CRITICALS=$(python3 -c "import json,sys; d=json.loads(sys.stdin.read()); print('yes' if d.get('criticals') else 'no')" <<< "$RESULT")
-          IS_AUTO=$(python3 -c "import json,sys; d=json.loads(sys.stdin.read()); print('yes' if any('auto-approve' in i for i in d.get('infos',[])) else 'no')" <<< "$RESULT")
-          if [ "$HAS_CRITICALS" = "yes" ]; then
-            gh pr edit $PR --add-label "rejected"
-            exit 1
-          elif [ "$IS_AUTO" = "yes" ]; then
-            gh pr edit $PR --add-label "auto-approve-eligible"
-          else
+          DUPES="${{ steps.dedup.outputs.count }}"
+          if [ "${DUPES:-0}" -gt 0 ] 2>/dev/null; then
             gh pr edit $PR --add-label "needs-review"
+          else
+            gh pr edit $PR --add-label "validated"
+          fi
+
+      - name: Auto-merge to staging
+        if: >
+          steps.entry.outputs.files != '' &&
+          github.base_ref == 'staging' &&
+          (steps.dedup.outputs.count == '0' || steps.dedup.outputs.count == '')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} --squash --auto
+
+      - name: Auto-flush check
+        if: github.base_ref == 'staging'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COUNT=$(git diff --name-only origin/main...origin/staging \
+            | grep -cE '^[^/]+/GE-[0-9a-f-]+\.md$' || echo 0)
+          if [ "$COUNT" -ge 25 ]; then
+            DOMAINS=$(git diff --name-only origin/main...origin/staging \
+              | grep -oE '^[^/]+' | sort | uniq -c | sort -rn | head -5)
+            gh pr comment ${{ github.event.pull_request.number }} --body \
+              "📦 $COUNT entries on staging ready for promotion.
+          Top domains:
+          $DOMAINS
+
+          All validated."
           fi

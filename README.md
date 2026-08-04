@@ -21,18 +21,29 @@ developer familiar with the technology would still have been surprised by this.
 
 ## Local Setup
 
-Clone once per machine to the canonical path:
+Clone once per machine, then run the installer:
 
 ```bash
 git clone git@github.com:Hortora/garden.git ~/.hortora/garden
+~/.hortora/garden/scripts/hortora-setup.sh
 ```
 
-Install the autonomous dedup agent (post-commit hook + CLAUDE.md + settings):
+The installer is resumable — if interrupted, re-run it to pick up where
+it left off. It shows what's already done and what's left before starting.
 
-```bash
-cd ~/.hortora/garden
-~/claude/hortora/soredium/scripts/garden-agent-install.sh
-```
+**What it sets up:**
+- Qdrant (native binary, no Docker)
+- Engine + Grove + Trellis (Quarkus apps, built from source)
+- ONNX models (~2.7GB download)
+- Launchd (macOS) or systemd (Linux) services
+- Claude Code skills and MCP server
+- Contributor post-commit hook
+
+**Prerequisites:** git, Java 25+, jq
+**Optional:** python3 (for skill sync), gh CLI (for PR creation), node (for trellis UI)
+
+After install, the engine indexes all garden entries (~60 min for full
+corpus). Daily auto-updates keep everything current.
 
 ---
 
