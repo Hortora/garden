@@ -29,3 +29,4 @@
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
 - GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
 - GE-20260730-41c406: casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error
+- GE-20260804-0725e5: Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize

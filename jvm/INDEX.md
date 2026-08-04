@@ -1292,3 +1292,4 @@
 | GE-20260804-f22608 | Place LLM worker factories in their domain package, not the advisory package | convention | 8/15 |
 | GE-20260804-5ab31e | casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime | gotcha | 12/15 |
 | GE-20260804-13d434 | NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app | gotcha | 11/15 |
+| GE-20260804-0725e5 | Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize | gotcha | 10/15 |
