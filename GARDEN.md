@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2445
+**Entries merged since last sweep:** 2446
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2783,6 +2783,7 @@
 - GE-20260804-befd45 [Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component](web/GE-20260804-befd45.md)
 - GE-20260804-84ac70 [life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components](web/GE-20260804-84ac70.md)
 - GE-20260804-c15f1f [Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail](web/GE-20260804-c15f1f.md)
+- GE-20260804-24d409 [Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI](web/GE-20260804-24d409.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

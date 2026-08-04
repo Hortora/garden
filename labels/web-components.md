@@ -40,3 +40,4 @@
 - GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
 - GE-20260803-50ddbd: createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender
 - GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
+- GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
