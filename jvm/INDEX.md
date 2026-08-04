@@ -1297,3 +1297,4 @@
 | GE-20260804-738e1a | CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation | gotcha | 9/15 |
 | GE-20260804-face79 | Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed | technique | 10/15 |
 | GE-20260804-3dd611 | Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging | technique | 9/15 |
+| GE-20260804-b4cb6a | ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash | gotcha | 11/15 |

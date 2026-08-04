@@ -12,3 +12,4 @@
 - GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
 - GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers
 - GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive
+- GE-20260804-b4cb6a: ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash

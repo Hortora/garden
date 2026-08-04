@@ -1,0 +1,1 @@
+- GE-20260804-b4cb6a: ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash
