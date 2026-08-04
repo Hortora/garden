@@ -99,9 +99,9 @@ start_container() {
 
     build_image
 
-    local volumes=""
+    local volumes="-v $HOME/.m2:/root/.m2"
     if [ "$QUICK" = true ]; then
-        volumes="-v $HOME/.hortora/models:/mnt/models:ro"
+        volumes="$volumes -v $HOME/.hortora/models:/mnt/models:ro"
         warn "Quick mode: mounting host models (skips 2.7GB download)"
     fi
 
@@ -114,6 +114,7 @@ start_container() {
         --tmpfs /tmp \
         --tmpfs /run \
         hortora-test-base
+    ok "Host ~/.m2 mounted (pre-built dependencies available)"
 
     # Wait for systemd to be ready
     local retries=0
@@ -194,9 +195,7 @@ run_installer() {
     step "Running hortora-setup.sh"
     local release_env=""
     if [ "$LOCAL_MODELS" = true ]; then
-        local host_ip
-        host_ip=$(podman inspect "$CONTAINER_NAME" --format '{{.NetworkSettings.Gateway}}')
-        release_env="HORTORA_RELEASE_URL=http://${host_ip}:${MODEL_SERVER_PORT}"
+        release_env="HORTORA_RELEASE_URL=http://host.containers.internal:${MODEL_SERVER_PORT}"
         ok "Model download URL: $release_env"
     fi
     podman exec \

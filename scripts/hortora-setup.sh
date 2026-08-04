@@ -445,11 +445,10 @@ check_builds() {
 }
 
 mvn_cmd() {
-    local dir="$1"
-    if [ -x "$dir/mvnw" ]; then
-        echo "$dir/mvnw"
-    elif command -v mvn >/dev/null 2>&1; then
+    if command -v mvn >/dev/null 2>&1; then
         echo "mvn"
+    elif [ -x "$1/mvnw" ]; then
+        echo "$1/mvnw"
     else
         echo ""
     fi
