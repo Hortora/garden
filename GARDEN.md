@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2392
+**Entries merged since last sweep:** 2396
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1900,6 +1900,10 @@
 - GE-20260804-d7ed92 [Quarkus @Scheduled(every=...) fires first invocation immediately at startup — delayed= required to defer](jvm/GE-20260804-d7ed92.md)
 - GE-20260804-8dbefe [Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars](jvm/GE-20260804-8dbefe.md)
 - GE-20260804-8b0fd6 [BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST](jvm/GE-20260804-8b0fd6.md)
+- GE-20260804-0e1509 [FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical](jvm/GE-20260804-0e1509.md)
+- GE-20260804-7bd9f4 [ScoredCbrCase constructor parameter order — cbrCase first, not caseId](jvm/GE-20260804-7bd9f4.md)
+- GE-20260804-eb75e0 [CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping](jvm/GE-20260804-eb75e0.md)
+- GE-20260804-565c2c [ActorTrustScoreRepository.findCapabilityDimension() — clean trust score lookup avoiding cross-PU EntityManager](jvm/GE-20260804-565c2c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

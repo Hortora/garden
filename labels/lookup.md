@@ -1,0 +1,1 @@
+- GE-20260804-565c2c: ActorTrustScoreRepository.findCapabilityDimension() — clean trust score lookup avoiding cross-PU EntityManager

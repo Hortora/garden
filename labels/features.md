@@ -1,0 +1,1 @@
+- GE-20260804-eb75e0: CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping

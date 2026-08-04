@@ -9,3 +9,6 @@
 - GE-20260722-a9b61b: ScoredCbrCase.score [-1,1] vs EnsemblePlan.ensembleConfidence [0,1] — silent pass, runtime IAE on negative scores
 - GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
+- GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
+- GE-20260804-7bd9f4: ScoredCbrCase constructor parameter order — cbrCase first, not caseId
+- GE-20260804-eb75e0: CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping

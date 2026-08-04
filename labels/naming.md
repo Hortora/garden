@@ -12,3 +12,4 @@
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
 - GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
+- GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
