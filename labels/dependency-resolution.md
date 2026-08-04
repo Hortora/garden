@@ -4,3 +4,4 @@
 - GE-20260623-eb19c0: mvn -U with GitHub Packages 401 silently corrupts local SNAPSHOT jars
 - GE-20260624-e3ffa7: Local mvn install from feature branch silently overrides published SNAPSHOT — mvn -U cannot restore when GitHub Packages 401s
 - GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure
+- GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime

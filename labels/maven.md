@@ -189,3 +189,4 @@
 - GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
 - GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked
+- GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
