@@ -6,6 +6,7 @@ HORTORA_HOME="$HOME/.hortora"
 GARDEN_ROOT="$HORTORA_HOME/garden"
 QDRANT_VERSION="1.14.0"
 ENGINE_RELEASE="v0.1.0"
+RELEASE_BASE_URL="${HORTORA_RELEASE_URL:-https://github.com/Hortora/engine/releases/download/${ENGINE_RELEASE}}"
 AUTO_YES=false
 TOTAL_STEPS=9
 MODELS_OK=false
@@ -72,7 +73,7 @@ check_prerequisites() {
     command -v java >/dev/null 2>&1 || { scan todo "java: not found"; return 1; }
 
     local java_ver
-    java_ver=$(java -version 2>&1 | head -1 | sed 's/.*"\([0-9]*\).*/\1/')
+    java_ver=$(java -version 2>&1 | grep -oE '"[0-9]+' | grep -oE '[0-9]+')
     [ "$java_ver" -ge 25 ] 2>/dev/null || {
         scan todo "java: version $java_ver (need 25+)"
         return 1
@@ -113,7 +114,7 @@ do_prerequisites() {
 
     command -v java >/dev/null 2>&1 || fail "Java 25+ is required — install from https://jdk.java.net/"
     local java_ver
-    java_ver=$(java -version 2>&1 | head -1 | sed 's/.*"\([0-9]*\).*/\1/')
+    java_ver=$(java -version 2>&1 | grep -oE '"[0-9]+' | grep -oE '[0-9]+')
     [ "$java_ver" -ge 25 ] 2>/dev/null || fail "Java 25+ required, found version $java_ver — upgrade from https://jdk.java.net/"
     if [ -z "$JAVA_HOME" ]; then
         JAVA_HOME=$(java -XshowSettings:properties 2>&1 | grep 'java.home' | awk '{print $3}')
@@ -314,11 +315,11 @@ check_models() {
 do_models() {
     step 5 "Downloading ONNX models (~2.7GB total)"
     local models_dir="$HORTORA_HOME/models"
-    local release_url="https://github.com/Hortora/engine/releases/download/${ENGINE_RELEASE}"
 
     mkdir -p "$models_dir"
 
-    local checksum_url="$release_url/checksums.sha256"
+    ok "Source: $RELEASE_BASE_URL"
+    local checksum_url="$RELEASE_BASE_URL/checksums.sha256"
     if ! curl -fsSL --head "$checksum_url" >/dev/null 2>&1; then
         warn "Model release assets not published yet on Hortora/engine"
         warn "Engine service will NOT be started until models are available"
@@ -339,7 +340,7 @@ do_models() {
         local model="${entry%%:*}"
         local asset="${entry#*:}"
         local dest="$models_dir/$model/$asset"
-        local url="$release_url/${model}-${asset}"
+        local url="$RELEASE_BASE_URL/${model}-${asset}"
 
         mkdir -p "$models_dir/$model"
 
@@ -363,7 +364,7 @@ do_models() {
         local all_parts_ok=true
         for part in part-aa part-ab part-ac; do
             local dest="$models_dir/bge-m3/model.onnx.data.${part}"
-            local url="$release_url/bge-m3-model.onnx.data.${part}"
+            local url="$RELEASE_BASE_URL/bge-m3-model.onnx.data.${part}"
 
             if [ -f "$dest" ]; then
                 ok "  $part: already downloaded"
