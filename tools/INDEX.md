@@ -649,3 +649,6 @@
 | GE-20260804-f694b3 | tmux new-session -c sets default-path but shell inherits parent process CWD | gotcha | 9/15 |
 | GE-20260804-961272 | capture-pane without -e strips ANSI — replayed terminal display garbles | gotcha | 10/15 |
 | GE-20260804-2cd3da | Split-model evaluation isolates judge bias from framework effectiveness | technique | 11/15 |
+| GE-20260804-5e2650 | Qdrant scroll API filter with wrong key/match nesting silently returns 0 results | gotcha | 13/15 |
+| GE-20260804-d5c610 | DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries | technique | 9/15 |
+| GE-20260804-d6d68f | Qdrant scroll API with_vector accepts array of named vector names for selective fetch | undocumented | 8/15 |

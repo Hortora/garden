@@ -27,3 +27,5 @@
 - GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
 - GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present
 - GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect
+- GE-20260804-5e2650: Qdrant scroll API filter with wrong key/match nesting silently returns 0 results
+- GE-20260804-d6d68f: Qdrant scroll API with_vector accepts array of named vector names for selective fetch

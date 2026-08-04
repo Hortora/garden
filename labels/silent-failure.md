@@ -126,3 +126,4 @@
 - GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
+- GE-20260804-5e2650: Qdrant scroll API filter with wrong key/match nesting silently returns 0 results

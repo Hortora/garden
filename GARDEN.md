@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2420
+**Entries merged since last sweep:** 2423
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2606,6 +2606,9 @@
 - GE-20260804-f694b3 [tmux new-session -c sets default-path but shell inherits parent process CWD](tools/GE-20260804-f694b3.md)
 - GE-20260804-961272 [capture-pane without -e strips ANSI — replayed terminal display garbles](tools/GE-20260804-961272.md)
 - GE-20260804-2cd3da [Split-model evaluation isolates judge bias from framework effectiveness](tools/GE-20260804-2cd3da.md)
+- GE-20260804-5e2650 [Qdrant scroll API filter with wrong key/match nesting silently returns 0 results](tools/GE-20260804-5e2650.md)
+- GE-20260804-d5c610 [DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries](tools/GE-20260804-d5c610.md)
+- GE-20260804-d6d68f [Qdrant scroll API with_vector accepts array of named vector names for selective fetch](tools/GE-20260804-d6d68f.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

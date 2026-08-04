@@ -1,3 +1,5 @@
 - GE-20260604-21b1fa: Mem0 /search scores are not comparable across separate calls
 - GE-20260627-4712de: nomic-embed-text treats Java class names and CDI annotations as generic tokens — keyword embedding search is catastrophically worse than substring matching
 - GE-20260629-83784a: Pipe-separated keyword embedding queries are unstable — 1.2% corpus growth causes 76% result set replacement
+- GE-20260804-5e2650: Qdrant scroll API filter with wrong key/match nesting silently returns 0 results
+- GE-20260804-d6d68f: Qdrant scroll API with_vector accepts array of named vector names for selective fetch

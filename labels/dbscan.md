@@ -1,0 +1,1 @@
+- GE-20260804-d5c610: DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries
