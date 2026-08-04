@@ -12,3 +12,4 @@
 - GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar
 - GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
+- GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists

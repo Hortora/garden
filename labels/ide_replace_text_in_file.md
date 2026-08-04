@@ -2,3 +2,4 @@
 - GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
 - GE-20260803-ecb4d5: ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
+- GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
