@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+TestSlackConnector sent field empty in tests
+CDI proxy swallows field writes
+arc$delegate proxy field access

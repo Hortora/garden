@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Response AutoCloseable compile error
+jakarta.ws.rs.core.Response try-with-resources
+Response close() not AutoCloseable

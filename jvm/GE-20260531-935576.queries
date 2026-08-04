@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+repository.findByUuid(instance.getUuid(, tenancyId))
+repository.findByUuid(instance.getUuid()
+repository.findByUuid(instance.getUuid())

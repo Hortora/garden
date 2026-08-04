@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CrossEncoderReranker` scores with `_crossEncoderScore` key
+`hasPrecomputedScores()` checks for distinct `stamp` vs `score` keys
+`isAlreadyReranked()` guard triggers if score key is present

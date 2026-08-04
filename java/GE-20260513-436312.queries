@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test exit code 0 fail
+tail -N exit code bash
+mvn test -q 2\u003e\u00261 error message

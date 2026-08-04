@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`UNIQUE NULLS NOT DISTINCT` constraint
+`H2 NULLS NOT DISTINCT`
+`H2 2.4.240 UNIQUE NULLS`

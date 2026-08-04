@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus formatter plugin validate error
+formatter-maven-plugin imsort-maven-plugin -Dno-format
+java home process-sources mvn test

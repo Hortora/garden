@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway migrate exception PostgreSQL double type
+H2 non-standard SQL types migration
+TINYINT DOUBLE PRECISION error

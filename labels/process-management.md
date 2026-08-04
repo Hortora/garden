@@ -1,0 +1,2 @@
+- GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
+- GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ArithmeticException long overflow Instant TIMESTAMP`
+`Hibernate timestamp conversion Instant MAX`
+`Instant.MAX toEpochMilli overflow`

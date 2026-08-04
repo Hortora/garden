@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+FooRepository is not abstract and does not override findByAttestorIdAndCapabilityTag
+Snapshots cause compile errors on implementing classes
+Maven SNAPSHOT dependency upgrade error

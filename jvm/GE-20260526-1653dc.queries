@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@All List\u003cT\u003e test injection without Instance\u003cT\u003e
+ArC populate connectors in test
+ConnectorService constructor List.of()

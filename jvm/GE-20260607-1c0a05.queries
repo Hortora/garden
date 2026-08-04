@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`LedgerEntryRepository` subclass JPQL query`
+`IDX_LEDGER_ENTRY_SUBJECT_SEQ violation`
+`AmlCaseOpenedLedgerEntry sequenceNumber=1`

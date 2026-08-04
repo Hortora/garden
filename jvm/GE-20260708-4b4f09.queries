@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus dev startup errors cascade
+quarkus dev first run h2 auto_server
+quarkus dev current principal bean conflict

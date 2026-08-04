@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@UniqueConstraint` correlationId violation
+`org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException`
+`JPA unique constraint`

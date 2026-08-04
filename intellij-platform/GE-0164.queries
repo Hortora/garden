@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Messages.showDialog()` headless test
+`BasePlatformTestCase` auto-select
+`ApplicationManager.isHeadlessEnvironment()`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test *IT.java
+mvn verify *IT.java
+mvn test -Dtest=IT*.java

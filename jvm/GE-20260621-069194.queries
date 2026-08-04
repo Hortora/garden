@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`org.kie.internal.utils.KieHelper` class not found
+KieHelper absence in Drools 10
+Drools 10 KieBase construction without KieHelper

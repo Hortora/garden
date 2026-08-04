@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is ExpressionEvaluator in casehub-engine?
+How do I evaluate a LambdaExpressionEvaluator?
+What error message occurs when calling `.evaluate()` on ExpressionEvaluator?

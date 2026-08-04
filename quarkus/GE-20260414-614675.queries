@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Optional\u003cString\u003e SmallRye Config
+Optional\u003cString\u003e @ConfigMapping
+Optional\u003cString\u003e ConfigValidationException

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+interp set() Java string
+interp exec() string literal escaping
+_sparge_root repoRootPath error

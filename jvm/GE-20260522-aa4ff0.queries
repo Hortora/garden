@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What ArchCondition API exposes check() method?
+How can ArchUnit access imported JavaClasses within a check()?
+Using ClassFileImporter, how can I capture JavaClasses in an outer scope?

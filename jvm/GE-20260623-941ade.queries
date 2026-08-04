@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus http permission deny all requests
+quarkus http auth permission policy deny /*
+@RolesAllowed annotation unreachable dead code

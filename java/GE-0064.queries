@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`\u003cpackaging\u003epom\u003c/packaging\u003e` error
+'packaging' with value 'jar' is invalid
+Maven aggregator pom modules

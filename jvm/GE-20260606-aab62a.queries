@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What native-image properties are required for the tokenizers module in DJL 0.36.0?
+ai.djl.huggingface.tokenizers.jni.CharSpan registration issues?
+Com.sun.jna.* classes missing from DJL native-image metadata

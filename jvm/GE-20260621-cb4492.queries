@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+org.drools:drools-engine artifact not found
+drools-engine 10.1.0 missing
+"Could not find artifact" drools-engine 10.1.0

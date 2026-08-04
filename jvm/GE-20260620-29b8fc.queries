@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+@QuarkusTestResource @Disabled test class resource lifecycle
+JUnit 5 @Disabled suppression Quarkus test resources

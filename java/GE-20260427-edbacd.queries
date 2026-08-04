@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+enemyBuildings.clear()
+clearAll() contains enemyBuildings.clear()
+reset() doesn't list enemyBuildings.clear()

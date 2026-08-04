@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java.util.logging Handler add remove
+java.util.logging logger Spy Mockito
+java.util.logging Level WARNING test

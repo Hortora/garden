@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+private void createSchema() ;' expected
+ide_replace_member duplicates method signature
+ide_edit_member fails PSI resolution

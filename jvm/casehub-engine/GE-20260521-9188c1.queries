@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CaseContextChangedEventHandler` filter evaluation
+`Binding.when` expression evaluation
+`JQExpressionEvaluator` contextChange bindings

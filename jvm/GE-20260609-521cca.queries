@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+import io.qdrant.client.grpc.Common.Filter error
+import io.qdrant.client.grpc.Points.Filter error
+import io.qdrant.client.grpc.Filter cannot resolve symbol

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+validate_examples.py template skipping
+{[^}]*} JSON pattern validation
+warning path JSON array format

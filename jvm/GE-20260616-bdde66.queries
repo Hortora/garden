@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ListenableFuture Qdrant Java client
+Guava Futures CompletableFuture mock
+QdrantClient upsertAsync

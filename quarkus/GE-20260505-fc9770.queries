@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ThreadLocal Deque CDI Interceptor
+ProvenanceContext stack cleanup
+ThreadLocal classloader leak

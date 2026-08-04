@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+BeautifulSoup get_text br tags
+BeautifulSoup get_text separator empty string
+BeautifulSoup get_text replace_with newline

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ThreadLocal null inside CompletableFuture supplyAsync
+ThreadLocal visibility ForkJoinPool
+Java ThreadLocal propagation async

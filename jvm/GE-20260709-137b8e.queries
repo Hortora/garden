@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+zero-dependency Tier 1 utility module
+`CbrQuery` dependency issues
+`ScoreFusion` extraction

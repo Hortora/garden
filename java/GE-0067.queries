@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+build/81009.dat null resource classpath
+src/main/resources directory exclusion
+Maven resource processing java files

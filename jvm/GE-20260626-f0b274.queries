@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+AgentDescriptor.class.getRecordComponents().length
+recordComponent reflection count tests
+comparator covers all descriptor components

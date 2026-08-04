@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mvn install -f -rf` compilation error
+`stale .m2 jar` dependency
+`interface expected here` error

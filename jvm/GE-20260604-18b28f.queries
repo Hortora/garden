@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+eval(!timingAttackIncoming \u0026\u0026 !enemyPosture.equals("ALL_IN"))
+accumulate(army count \u003e= 4)
+KieMemoryCompilerException lambda field scope

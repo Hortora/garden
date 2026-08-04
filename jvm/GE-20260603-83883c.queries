@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java logmanager handler chain reset quarkus test
+java.util.logging logger addHandler warning
+@QuarkusTestResource start handler empty

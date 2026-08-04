@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the effect of @Inherited missing on CDI proxy classes?
+How does reflection fail to read @Priority annotations on proxied beans?
+Why does sorting CDI beans by @Priority return Integer.MAX_VALUE?

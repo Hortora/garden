@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+EvalDimension applicableFor RenderFormat
+RenderFormat dimension enum
+Format-to-dimension mapping switch case

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus index-dependency ambiguous resolution exception
+jandex.idx double-scan CDI bean resolution
+META-INF/jandex.idx duplicate bean registration

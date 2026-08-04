@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ScopeGate1\u003cCTX, B\u003e.join(source) typeArgs`
+`@PermuteReturn typeArgs with T`
+`JavaParser parse error @PermuteTypeParam`

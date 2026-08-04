@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+waitForSession barrier pattern
+@OnOpen registration race WebSocket tests
+session registry empty session

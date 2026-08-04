@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the ConcurrentHashMap\u003cKey, CompletableFuture\u003cV\u003e\u003e used for in CDI async event tests?
+How do you safely await a CompletableFuture\u003cString\u003e in a test environment?
+What error messages might occur when using `future.get(30, TimeUnit.SECONDS)`?

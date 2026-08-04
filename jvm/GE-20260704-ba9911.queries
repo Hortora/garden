@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Qdrant ColBERT multi-vector size limit error
+`INVALID_ARGUMENT: vectors.[].data` size restriction
+BGE-M3 ColBERT dimension and upsert limit

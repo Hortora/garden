@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+dev.langchain4j:langchain4j-embeddings version 1.14.1
+langchain4j-embeddings Maven Central not found
+"Could not collect dependencies: Failed to read artifact descriptor" langchain4j-embeddings

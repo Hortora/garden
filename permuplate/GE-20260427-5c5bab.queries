@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+filter(NCtxPredicate2\u003cA,B\u003e)
+filter(Predicate2\u003cDS,B\u003e)

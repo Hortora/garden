@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+dev-mode live-reload filesystem scanner
+dev-mode latency HTTP requests
+live-reload scan source file changes

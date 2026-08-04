@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+em.merge return type
+EntityManager.merge detached entity
+merge return value stale data

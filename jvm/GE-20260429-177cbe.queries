@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Map.of get null npe
+Map.ofEntries get null npe
+Map.of() null key npe

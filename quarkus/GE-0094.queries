@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest` real beans side effects
+`@ApplicationScoped` iTerm2 terminal windows
+`mvn test` opens external system calls

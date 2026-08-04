@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@PermuteReturn className="void" when="false"`
+`PermuteReturn when="i == 2" Object return type`
+`InlineGenerator applyPermuteReturn return type check`

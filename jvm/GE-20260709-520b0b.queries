@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Instance\u003cT\u003e` with isResolvable()
+quarkus unsatisfied resolution exception tracer
+`isResolvable()` optional dependency

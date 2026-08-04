@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`casehub.rag.ingestion.cursor-dir` property
+`FileCursorStore` cursor path
+macOS `java.io.tmpdir` resolution

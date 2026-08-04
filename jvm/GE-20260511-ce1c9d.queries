@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+import com.example.domain.*
+import com.example.plugin.flow.*
+import com.example.domain.Bar

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+System.nanoTime milliseconds zero results
+nanoTime p95 microseconds display
+JVM benchmark precision error

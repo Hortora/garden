@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to wrap a lambda consumer to ctx-first in a reactive DSL?
+What is the effect of storeHead on Consumer2 in the context of ctx-optional overloads?
+Can raw Object storage bypass wrapping for predicates in this technique?

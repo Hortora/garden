@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java -jar app.jar -Dquarkus.http.port doesn't override config
+java -jar app.jar -Dremotecc.port=7778 no error message
+quarkus config expression precedence -jar

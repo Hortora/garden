@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+doThrow(X).when(mock).method(SPECIFIC_ARG) throws PotentialStubbingProblem
+lenient() doThrow
+Mockito strict mode PotentialStubbingProblem

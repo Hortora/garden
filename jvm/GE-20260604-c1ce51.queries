@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ThreadLocal\u003cT\u003e service loader SPI init build
+ThreadLocal\u003cT\u003e race instance-field ServiceLoader
+CallableTaskBuilder ThreadLocal configValue

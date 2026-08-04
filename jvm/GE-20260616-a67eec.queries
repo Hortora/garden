@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus mcp tool return domain object
+@JsonInclude return type response
+mcp tool method no map construction

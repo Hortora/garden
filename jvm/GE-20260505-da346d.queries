@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus @ApplicationScoped CDI beans ContextNotActiveException
+@ApplicationScoped CDI beans thread safety ocraft
+SC2BotAgent IntentQueue ContextNotActiveException

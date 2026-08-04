@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+REQUIRES_NEW transactional rollback
+REQUIRES_NEW exception propagation 500
+JTA rollback audit entry

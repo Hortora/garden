@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus http auth session encryption-key
+quarkus security webauthn encryption key
+encryption key quarkus http config item

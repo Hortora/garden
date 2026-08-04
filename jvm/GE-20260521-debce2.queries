@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to mock @RequestScoped CDI beans with @InjectMock?
+What is Arc.container().requestContext().activate()?
+How do I resolve a missing @RequestScoped bean injected via @InjectMock?

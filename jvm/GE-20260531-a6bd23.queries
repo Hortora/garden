@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus srcfg00040 empty string configmapping
+@WithDefault("") string converter error
+Optional\u003cString\u003e configmapping

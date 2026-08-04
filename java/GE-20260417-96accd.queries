@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`io.example:module-a` cyclic dependency error
+`mvn` reactor resolution cycle
+`test-scope` dependency conflict

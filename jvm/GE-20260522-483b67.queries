@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@BsonId compound natural key string`
+`PreferenceDocument persistOrUpdate upsert`
+`mongodb unique index scope namespace name`

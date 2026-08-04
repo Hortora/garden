@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ReactiveWorkerProvisioner provision() throws ProvisioningException
+binding remains eligible io.casehub.api.spi.ProvisioningException
+retry CONTEXT_CHANGED CaseContextChangedEvent Vert.x lock

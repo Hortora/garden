@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+QuantizationType enum visibility ide_find_class
+nested protobuf enums Qdrant client indexing
+ide_find_symbol fallback symbol index

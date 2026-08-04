@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus default datasource @DefaultEntityManager
+dual-PU persistence unit h2
+hibernate-orm packages config

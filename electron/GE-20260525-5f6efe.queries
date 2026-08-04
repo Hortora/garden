@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+waitForFunction hang Electron hidden window
+waitForFunction raf polling Chromium
+window show readyToShow timeout

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Jackson deserialize error "InvalidFormatException" enum key rename
+"SomeEnum.valueOf" throws after enum constant rename
+JSON column data serialization fails after renaming enum

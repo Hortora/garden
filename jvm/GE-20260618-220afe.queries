@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+HttpClient.send() InterruptedException
+forEach lambda Consumer\u003cT\u003e exception
+try catch InterruptedException swallow

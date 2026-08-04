@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`as never` vs `as any` TypeScript
+`as never` type assertion `--noUncheckedIndexedAccess`
+`as never` narrowing type assertion

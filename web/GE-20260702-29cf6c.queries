@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+HTTP 415 Unsupported Media Type cross-stack
+Quarkus @QuarkusTest vitest content-type mismatch
+Java REST endpoint TEXT_PLAIN TypeScript fetch

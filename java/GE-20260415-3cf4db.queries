@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RestAssured GPath array equality
+RestAssured GPath find int[]
+RestAssured GPath compare List\u003cint[]\u003e

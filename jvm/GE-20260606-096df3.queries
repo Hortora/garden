@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+LangChain4j EmbeddingSearchRequest filter Qdrant
+QdrantFilterConverter field condition
+IsEqualTo filter Qdrant gRPC

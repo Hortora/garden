@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest` application scope bean state persistence
+`AuthRateLimiterHttpTest` 429 error
+`@ApplicationScoped` test class shared instance

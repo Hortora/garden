@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`runCount.set(0)` after `join()`
+`async contamination` in `@QuarkusTest`
+`startCase()` blocking `toCompletableFuture().join()`

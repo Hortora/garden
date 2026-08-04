@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CREATE INDEX idx_schedule_next_fire ON work_item_schedule (next_fire_at) WHERE active = TRUE;
+`org.h2.jdbc.JdbcSQLSyntaxErrorException`
+H2 partial index support

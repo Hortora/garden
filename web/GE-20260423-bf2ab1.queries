@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+MeshLambertMaterial grey appearance blue-white DirectionalLight
+Material colour override DirectionalLight tint
+Diffuse shading light colour dominance

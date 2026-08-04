@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus @Scheduled return type void
+Quarkus scheduler CompletionStage error
+Quarkus scheduler int return type @Scheduled

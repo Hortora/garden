@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to fix “cannot find symbol” errors after using ide_replace_text_in_file?
+What is the root cause of ide_optimize_imports failing to add imports after text replacement?
+Why does ide_optimize_imports not sync with the IntelliJ VFS and PSI index?

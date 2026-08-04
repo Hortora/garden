@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+package-private constructor CDI Weld
+no-arg constructor field injection
+Weld instantiation error

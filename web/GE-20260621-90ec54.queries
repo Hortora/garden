@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Record navigation failing with duplicate idColumn
+Filter matching multiple rows in dataScope
+"Product" idColumn duplicates causing silent navigation failure

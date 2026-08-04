@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to patch Vert.x handlers using reflection?
+What is the workaround for Apple passkey rejection in Vert.x WebAuthn with CDI?
+Can I modify a private Map field in a Vert.x extension using Quarkus?

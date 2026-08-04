@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus smallrye reactive messaging kafka error
+quarkus artifact not found bom lookup
+quarkus messaging kafka dependency change

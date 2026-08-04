@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+options?.referenceDate is undefined
+Type 'Date | undefined' is not assignable to type 'Date'
+TS2412 getter setter undefined

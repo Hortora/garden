@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+QueryFactory rrf vs fusion RRF
+QueryFactory fusion RRF k constant
+RRF fusion builder or setFusion parameters

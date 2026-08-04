@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+e.content LIKE :pattern returns 0 results
+MessageLedgerEntry content is null for EVENT entries
+LedgerWriteService does not copy message content

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+LedgerEntryRepository save() unique constraint
+UQ_MERKLE_FRONTIER_SUBJECT_LEVEL exception
+async CDI observer Merkle chain update

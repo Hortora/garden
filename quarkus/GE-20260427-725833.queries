@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`String.contains("MARK-A") \u0026\u0026 String.contains("MARK-B")`
+`regex break-on-marker tmux`
+`printf newline MARK-A MARK-B`

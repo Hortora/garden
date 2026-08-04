@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the `data` field used for in SC2EGSet `Cmd` events?
+How can I determine if a `JsonNode` represents a training command using the `data: {None: null}` check?
+Is there any documentation for the `abilLink` and `abilCmdIndex` annotations within SC2EGSet `Cmd` events?

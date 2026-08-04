@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`NoSuchMethodError SomeClass.\u003cinit\u003e`
+`Maven SNAPSHOT local repo override`
+`Quarkus test classloader constructor mismatch`

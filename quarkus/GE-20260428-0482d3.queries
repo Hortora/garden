@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`db-kind`\u003epostgresql\u003c/quarkus.data.db.kind\u003e
+\u003c/systemPropertyVariables\u003e
+\u003c/configuration\u003e

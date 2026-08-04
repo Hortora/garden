@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`H2 unique constraint null select`
+`H2 requires new constraint violation`
+`H2 flushed but uncommitted rows`

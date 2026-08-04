@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Alternative CDI test bean for Quarkus
+TestMyChatModelProvider @InjectMock
+CDI alternative for test classes

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jakarta.ws.rs-api provided scope
+quarkus-rest jax-rs provider
+ParamConverterProvider quarkus

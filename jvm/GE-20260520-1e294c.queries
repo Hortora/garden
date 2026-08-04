@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the jsonschema2pojo ArrayList initialization behavior?
+How does Jackson handle absent array fields?
+Why does a `!= null` guard fail to prevent assertion errors?

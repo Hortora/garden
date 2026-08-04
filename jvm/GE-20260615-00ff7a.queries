@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the `EndpointRegistered` record?
+How do transport modules observe `@ObservesAsync T`?
+Can a provisioner directly import transport modules?

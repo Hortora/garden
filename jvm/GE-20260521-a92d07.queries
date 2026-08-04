@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus extension override application properties
+microprofile-config properties override quarkus
+SmallRye Config ordinal resolution conflict

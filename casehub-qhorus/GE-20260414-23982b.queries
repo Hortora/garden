@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`check_messages` exclude EVENTs
+`QhorusMcpTools.CheckResult assertEquals` failing
+`MessageService.pollAfter` message filtering

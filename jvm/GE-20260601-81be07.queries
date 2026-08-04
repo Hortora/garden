@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI ambiguous resolution @DefaultBean implementations
+CDI resolve AmbiguousResolutionException @DefaultBean
+concrete bean beats @DefaultBean CDI ambiguity

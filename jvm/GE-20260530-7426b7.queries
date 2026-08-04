@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+connectorId null observer-level failure
+nullable column notifiedAt
+FDA auditor query connector_id

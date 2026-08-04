@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Panache static methods alternative store zero results
+CDI @Alternative intercepting Panache static queries
+InMemory store test fails Panache listAll returns empty

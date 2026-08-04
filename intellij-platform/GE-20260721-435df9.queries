@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`intellij-index ide_create_file timeout`
+`MCP server no response`
+`ide_create_file timeout 300s`

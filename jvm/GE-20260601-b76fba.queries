@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus.flyway.locations build-time fixed property
+QuarkusTestResourceLifecycleManager start() runtime override
+QuarkusTestProfile getConfigOverrides per-profile build-time

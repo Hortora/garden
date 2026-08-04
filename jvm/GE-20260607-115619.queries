@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Worker.Builder.function() vs Serverless Workflow function
+`ClassCastException` after lambda migration
+function(lambda, Map.class)

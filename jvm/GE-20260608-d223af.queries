@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+$.findAll { it.domain == 'tools' } returns null
+not(empty()) passes on null
+hasSize(greaterThan(0)) for null response

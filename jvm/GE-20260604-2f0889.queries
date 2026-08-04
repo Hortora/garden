@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+@Alternative @Priority(1) stub in @All List\u003cT\u003e injection
+@QuarkusTest failing with duplicate connector id error

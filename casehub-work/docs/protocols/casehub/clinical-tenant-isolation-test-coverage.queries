@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+wrong-tenant 404 assertions
+bypass 200 assertions
+FixedCurrentPrincipal setTenancyId

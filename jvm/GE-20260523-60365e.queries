@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus build cdi validation failed
+unsatisfied dependency quarkus test-scoped deps
+CDI validation production classpath scope

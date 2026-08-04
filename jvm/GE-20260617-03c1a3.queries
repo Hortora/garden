@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ON CONFLICT DO NOTHING parse error
+H2 MODE=PostgreSQL ON CONFLICT
+INSERT ... ON CONFLICT (columns) DO NOTHING

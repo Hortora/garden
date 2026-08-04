@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RestAssured percent-encode colon in URL
+RestAssured JAX-RS route matching issue
+`urlEncodingEnabled(false)` RestAssured fix

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+bridge.initialise()
+bridge.serialise()
+Jackson round-trips during same-JVM transfers

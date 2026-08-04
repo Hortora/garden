@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`AbstractMethodError` occurs when the testing artifact doesn't implement the new interface method.
+"mvn -U" pulls newer SNAPSHOT metadata, but tests still fail with `AbstractMethodError`.
+`InMemoryFooStore` triggers `AbstractMethodError` when `findAll()` is invoked.

@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest` failure with Flyway version conflict
+Flyway classpath scanning causing migration collision

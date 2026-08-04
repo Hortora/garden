@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn install fails after mvn test succeeds
+quarkus:build DeploymentException reactive SPI
+@QuarkusTest CDI augmentation missing beans

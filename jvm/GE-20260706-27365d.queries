@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`PersistedSessionOption FULL serialization "ReliablePropagationList; no valid constructor"`
+`drools-reliability PersistenceStrategy FULL fails Drools 10.1.0`
+`STORES_ONLY vs FULL persistence strategy drools-reliability`

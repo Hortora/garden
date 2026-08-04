@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the impact of REQUIRES_NEW on @TestTransaction rollback?
+How does correlationId contamination occur in cross-channel queries?
+Why do ledger entries persist after a @TestTransaction rollback?

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus runtime configuration cannot be consumed in build steps
+quarkus anthropic processor error
+langchain4j anthropic runtime value

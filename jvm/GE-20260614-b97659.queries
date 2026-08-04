@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`SusarCriteriaEvaluator` never executes in `@QuarkusTest`
+`NoOpWorkerExecutionManager` wins when `casehub-engine-scheduler-quartz` is not Jandex-indexed
+`ProvisioningException` during worker submission

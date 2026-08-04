@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.casehub.work runtime filter Hibernate scan
+quarkus hibernate-orm filterRule not found
+casehub-work runtime filter package scanning

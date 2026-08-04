@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ClassSelector [className = 'io.example.MyQuarkusTest', classLoader = null] resolution failed`
+`CDI UnsatisfiedResolutionException @Default`
+`jakarta.enterprise.inject.UnsatisfiedResolutionException dumpstream`

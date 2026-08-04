@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+tsconfig.json rootDir extends
+rootDir relative to base config

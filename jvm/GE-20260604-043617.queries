@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Double.NaN range guard Java
+Double.NaN comparison IEEE 754
+NaN propagation in Java records

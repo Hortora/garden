@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is fireAsync().join() in QuarkusTest?
+How do I test @ObservesAsync CDI observers with @TestTransaction?
+Can I use an EntityManager with a @Transactional context for async observer testing?

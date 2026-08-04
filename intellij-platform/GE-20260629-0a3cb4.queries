@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_find_class TypeScript
+ide_file_structure language not supported
+"No Maven or Gradle build system found"

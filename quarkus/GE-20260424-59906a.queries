@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus CDI unsatisfied dependency @ApplicationScoped
+Jandex index missing in plain JAR module
+quarkus index-dependency bean scanning

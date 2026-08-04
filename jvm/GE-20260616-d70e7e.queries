@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus arc selected-alternatives ambiguous dependencies
+non @Alternative bean cdi ambiguity
+ARC build errors default beans

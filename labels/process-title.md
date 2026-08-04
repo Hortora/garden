@@ -1,0 +1,1 @@
+- GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection

@@ -1,0 +1,1 @@
+- GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div

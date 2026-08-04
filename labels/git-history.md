@@ -1,1 +1,2 @@
 - GE-20260504-b74000: Doltgres GDPR Art.17 erasure: row deletion leaves PII in git history
+- GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Transactional on @BeforeAll static methods in @QuarkusTest has no effect
+CDI interceptors cannot intercept static methods
+ContextNotActive exception with @Transactional

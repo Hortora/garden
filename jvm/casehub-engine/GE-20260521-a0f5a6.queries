@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+HumanTaskScheduleHandler skipping WorkItem creation PlanItem status
+PlanningStrategyLoopControl markRunning PlanItem status RUNNING
+WorkItemService create failure due to PlanItem status

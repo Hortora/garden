@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CDI Instance\u003cT\u003e` optional injection
+`ClassNotFoundException micrometer-core`
+`provided scope transitive dependents`

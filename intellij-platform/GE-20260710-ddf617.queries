@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+"IntelliJ search fails to find string literals within concatenated Java strings"
+"ide_search_text missing matches in Playwright test selectors"
+"Java string index tokenization and Playwright selector searching"

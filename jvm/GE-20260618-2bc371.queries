@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+OkHttp MockWebServer timeout Quarkus
+Quarkus REST client Vert.x timeout
+java.net.http.HttpClient MockWebServer compatibility

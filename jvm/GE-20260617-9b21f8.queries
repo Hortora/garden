@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SmallRye Config SRCFG00040 empty string property
+`io.smallrye.config.Converters$BuiltInConverter` null
+non-Optional\u003cString\u003e config property defaultValue

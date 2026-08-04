@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`$score` reference limitations in Qdrant Formula
+`Fusion` enum options for prefetch legs
+`Formula` DSL unable to access prefetch leg scores

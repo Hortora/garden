@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+grep -r "casehub.work.the-removed-key" . --include="*.properties"
+quarkus unknown-property warning @ConfigMapping
+integration-tests application.properties configuration

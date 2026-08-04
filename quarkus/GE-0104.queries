@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Authenticator setPublicKeyAlgorithm method does not exist
+publicKeyAlgorithm field persistence in WebAuthnUserProvider
+WebAuthnUserProvider credential JSON algorithm storage issue

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Path.parent() returns null single-segment path
+Path.parent() null root scope
+PreferenceProvider resolve scope null value

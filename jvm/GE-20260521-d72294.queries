@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`put(Channel channel)` signature error
+`Uni\u003cChannel\u003e` return type conflict
+`ChannelStore` and `ReactiveChannelStore` mismatch

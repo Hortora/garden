@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_replace_text_in_file whitespace mismatch
+ide_replace_text_in_file no replacements
+ide_replace_text_in_file byte-level matching

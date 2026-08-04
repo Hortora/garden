@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`globalThis.fetch` override in SPA components causes routing conflicts
+`window.fetch = this._mockFetch` in connectedCallback causes race condition
+`\u003c!DOCTYPE ...\u003e` error during SPA navigation

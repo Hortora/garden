@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ formatter removes @PersistenceUnit qualifier
+IntelliJ silently strips Quarkus PersistenceUnit annotation
+"Optimize Imports" causes IntelliJ to delete @PersistenceUnit

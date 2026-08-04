@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What went wrong with SituationConflictException after a two-phase claim?
+how to reset a claim in a transaction before rethrowing an exception?
+why does a stale claim from a failed save block re-claiming in a JVM environment?

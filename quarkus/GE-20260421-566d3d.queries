@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to register CDI `@Any Instance\u003cT\u003e` beans with a registry?
+What is the `name()` method used for in CDI strategy interfaces?
+Can I throw an `IllegalStateException` from a CDI registry bean?

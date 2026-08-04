@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+sha256(descriptorPayload) + ":" + sha256(contextPayload) + ":" + format
+different_context_produces_different_context_hash
+LLM renderer cache key

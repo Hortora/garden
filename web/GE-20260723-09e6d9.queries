@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+expect(el.shadowRoot!.querySelector('.toolbar')).toBeNull()
+expect(headerContainer.querySelector('.kebab-zone')).not.toBeNull()
+querySelector('.filter-bar-input') always visible

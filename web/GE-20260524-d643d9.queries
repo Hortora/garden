@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+marked.lexer raw field content
+marked.lexer paragraph token no trailing newline
+marked.lexer token lineStart c.lineStart

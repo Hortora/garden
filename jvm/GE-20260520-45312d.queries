@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@QuarkusTest enricher tests silent when no signing key configured
+@InjectMock AgentKeyProvider
+signingKeyRef mismatch tests fail

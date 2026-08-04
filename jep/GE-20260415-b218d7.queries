@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Task(String function, Object[] args, CompletableFuture\u003cString\u003e result) {}
+daemon thread LinkedBlockingQueue
+thread-affinite interpreter synchronization

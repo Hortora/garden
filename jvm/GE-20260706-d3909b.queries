@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`cannot find symbol` SNAPSHOT dependency
+"0.2-SNAPSHOT" Maven resolution registry-specific
+local `.m2` vs GitHub Packages dependency versions

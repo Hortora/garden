@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`armour` shield damage reduction
+`SC2Data.damagePerAttack` armour calculation
+`assertThat(unit.shields())` error message

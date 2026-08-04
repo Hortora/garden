@@ -137,3 +137,5 @@
 | GE-20260804-f4e13a | xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport | gotcha | 11/15 |
 | GE-20260804-4d9ce7 | Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js | technique | 10/15 |
 | GE-20260804-96c692 | renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly | gotcha | 11/15 |
+| GE-20260804-64c599 | SSE EventSource sends message type, not named events — addEventListener misses them | gotcha | 10/15 |
+| GE-20260804-50d971 | pages-data-table paginated mode fills parent height — must wrap in constrained div | undocumented | 8/15 |

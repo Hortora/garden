@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus permitall annotation
+quarkus security unannotated endpoints 401
+@PermitAll jax-rs security

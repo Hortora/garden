@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@CacheResult cache key omits tenancyId`
+`tenant-id cache key leak`
+`Quarkus cache key generator`

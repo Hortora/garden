@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus arc exclude-types full jar scan
+quarkus arc beans.xml missing
+cdi dependency errors exclude-types

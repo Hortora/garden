@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+GraalVM native-image JNI discovery agent
+Tracing agent for ONNX Runtime DJL native-image
+Reachability metadata JSON native image config

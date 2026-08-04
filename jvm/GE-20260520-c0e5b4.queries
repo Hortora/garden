@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+unix:///var/run/docker.sock
+DOCKER_HOST error Testcontainers
+podman machine start socket

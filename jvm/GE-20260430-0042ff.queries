@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+claudony package io.example.api.model does not exist
+GitHub Packages transitive SNAPSHOT resolution unreliable
+Maven Central vs GitHub Packages dependency resolution

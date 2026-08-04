@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+void BuildStep void error message
+@Produce ArtifactResultBuildItem class
+validationPhaseBuildItem ValidationErrorBuildItem

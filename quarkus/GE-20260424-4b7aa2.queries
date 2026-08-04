@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`SRCFG00050 ConfigValidationException`
+`@ConfigMapping prefix="foo"`
+`Jandex index-dependency config validation`

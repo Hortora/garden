@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+maven surefire groups report excludedgroups
+maven surefire combine self override
+junit 5 tag report profile

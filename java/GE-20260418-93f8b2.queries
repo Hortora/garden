@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+dev.tamboui:tamboui-tui duplicate dependency test scope compile scope
+duplicate groupId:artifactId dependency maven warning
+package does not exist compile scope override

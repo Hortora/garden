@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`.contains("(c)(1)(i)")` false positive
+`String.contains()` prefix ambiguity
+`rsle.compliance().map()` substring test

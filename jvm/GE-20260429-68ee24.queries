@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`join()` is not inherently blocking, but the context of `@ConsumeEvent` handlers running on the event loop thread creates the deadlock.
+`Uni\u003cVoid\u003e`
+`blocking = true`

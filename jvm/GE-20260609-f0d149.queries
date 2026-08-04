@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ImageData size validation error
+ImageData data ByteString size
+IllegalArgumentException image size mismatch

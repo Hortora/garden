@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+@IfBuildProfile bean missing after Quarkus package
+`quarkus` profile resolution issues

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JpaLedgerEntryRepository.save() subject_id concurrency
+nextSequenceNumber() row lock insert on conflict
+Merkle frontier update sequence allocation

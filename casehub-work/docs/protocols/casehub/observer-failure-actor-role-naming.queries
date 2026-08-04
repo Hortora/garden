@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+observer failure ledger entry naming
+actorRole format -observer-failed
+ClinicalActors.CLINICAL_SERVICE actorId

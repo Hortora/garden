@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+testing Electron process managers with `_pollFn`
+injectable `_pollFn` Jest mock factory
+`pythonExe` and `serverScript` constructor

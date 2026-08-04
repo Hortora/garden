@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Map\u003cString,Integer\u003e to Map\u003cString,Object\u003e conversion
+HashMap constructor accepts Map\u003c? extends K, ? extends V\u003e
+Diamond operator target-type inference HashMap\u003cString, Object\u003e

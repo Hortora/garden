@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`USING` subqueries are treated as type names.
+`org.h2.jdbc.JdbcSQLNonTransientException` related to type casts.
+`MERGE USING` subquery aliases parsed as type names.

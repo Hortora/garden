@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus mcp tool annotation not found
+public same-name method overload Jandex
+@Tool annotation scanning ambiguity

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus test augmentation missing deployment jar
+java.lang.IllegalArgumentException m2 repository jar
+mvn install quarkus extension deployment

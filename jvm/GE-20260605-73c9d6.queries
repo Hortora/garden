@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CommitmentState.DECLINED` enum
+`assertThat(c.state).isEqualTo(CommitmentState.CANCELLED)` error
+`MessageType.DECLINE` commitment state

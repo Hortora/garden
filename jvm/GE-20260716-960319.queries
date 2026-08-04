@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Map.of() type inference Record \u0026 SealedType
+Sealed interface subtypes Map.of()
+Map\u003cString, SealedType\u003e subtype error

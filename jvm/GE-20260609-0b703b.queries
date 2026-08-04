@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`io.netty.handler.codec.http.websocketx.WebSocketHandshakeException`
+`SC2 retry loop`
+`stale SC2 process`

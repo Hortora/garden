@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn dependency:resolve -U SNAPSHOT cascade
+Maven SNAPSHOT resolution all-or-nothing
+class-to-record conversion incompatible SNAPSHOTs

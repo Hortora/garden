@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Mockito @InjectMocks null Event\u003cT\u003e generic field
+Mockito @InjectMocks silent null injection Event\u003cCaseLifecycleEvent\u003e
+@InjectMocks fails to match @Mock Event\u003cCaseLifecycleEvent\u003e

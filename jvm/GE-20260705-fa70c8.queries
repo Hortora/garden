@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+timestampMs == state.lastTimestamp
+sequence wraparound UUIDv7
+UUIDv7 clock regression timestampMs

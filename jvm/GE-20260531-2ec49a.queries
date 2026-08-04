@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+folder.idle(false) blocks indefinitely
+folder.idle(boolean once) once=true returns after notification
+angus-mail idle mode explanation

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+LedgerLifecycleAdapter clears in-memory state during @Observes CDI events
+@ObservesAsync GameStopped observers cannot accumulate trust scores
+CDI 4.0 inline @Observes triggers state clearing issues

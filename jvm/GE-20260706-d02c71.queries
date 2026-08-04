@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ReliableKieSession dispose H2MVStore
+ReliableKieSession dispose Infinispan data
+dispose() KieSession persistent data loss

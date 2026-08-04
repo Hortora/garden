@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`switch (intent)`
+`permits clause`
+`error: the switch expression does not cover all possible input values`

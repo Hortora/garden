@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Yarn workspace TS2307 circular dependency`
+`Yarn hoisting CI error`
+`"@scope/higher-tier-package" import error`

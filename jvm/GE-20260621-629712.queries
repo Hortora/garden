@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ObjectMapper injected with `@ObservesAsync`?
+tenancyId sourced from event record, not CurrentPrincipal?
+fireAsync always uses `.exceptionally()` to handle CompletionStage exceptions?

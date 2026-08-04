@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CDI Event.fire()` exception propagation
+`Quarkus startup failure observer exception`
+`StartupEvent observer exception abort`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus CDI alternative bean scanning
+'@Alternative' bean selection test jar
+'quarkus.index-dependency' CDI scan

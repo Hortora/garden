@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+cdi inject package-private field test
+mockito mock @Inject field
+error message reflection cdi injection

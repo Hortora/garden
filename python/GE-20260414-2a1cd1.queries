@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`date.fromisoformat` ValueError calendar
+regex date validation error
+`\d{4}-\d{2}-\d{2}` ValueError

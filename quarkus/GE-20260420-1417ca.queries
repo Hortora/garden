@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+UserTransaction injection for cleanup after HTTP requests
+@TestTransaction rollback issues
+QuarkusTest afterEach cleanup with UserTransaction

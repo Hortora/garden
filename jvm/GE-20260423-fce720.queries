@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+FilterRule JPA entity datasource requirement
+quarkus-work-core Hibernate ORM Panache
+ConfigurationException datasource '\u003cdefault\u003e'

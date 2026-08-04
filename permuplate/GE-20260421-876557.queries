@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@PermuteVar` cross-product string-set arity axis
+`JEXL ternary macros` `className` interface generation
+`@PermuteDeclr` return type renaming

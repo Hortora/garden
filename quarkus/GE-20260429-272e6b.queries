@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the `test.url` MicroProfile Config property in Quarkus?
+How do I get the full server URL, including port, in a @QuarkusTest E2E test?
+Why does Quarkus set `test.url` and not `quarkus.http.port`?

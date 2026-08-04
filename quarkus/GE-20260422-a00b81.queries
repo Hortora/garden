@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`quarkus dev mode hot-reload file watcher`
+`mvn quarkus:dev health endpoint`
+`"curl http://localhost:8080/q/health/ready" status UP`

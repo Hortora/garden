@@ -652,3 +652,6 @@
 | GE-20260804-5e2650 | Qdrant scroll API filter with wrong key/match nesting silently returns 0 results | gotcha | 13/15 |
 | GE-20260804-d5c610 | DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries | technique | 9/15 |
 | GE-20260804-d6d68f | Qdrant scroll API with_vector accepts array of named vector names for selective fetch | undocumented | 8/15 |
+| GE-20260804-09f3da | Workspace symlink pointing at wrong repo causes silent cross-repo context contamination | gotcha | 11/15 |
+| GE-20260804-3521be | Claude Code sets process title to version string — breaks tmux pane_current_command detection | gotcha | 8/15 |
+| GE-20260804-1b28f5 | pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying | technique | 10/15 |

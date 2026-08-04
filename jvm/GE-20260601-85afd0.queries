@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh issue view N --repo casehubio/REPO 2\u003e\u00261 | head -3
+find /path/to/project -name "ClassName.java" 2\u003e/dev/null
+head -15 path/to/ClassName.java

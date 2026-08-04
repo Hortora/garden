@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ide_replace_text_in_file` incorrect repo
+`ide_open_project` misleading success
+`project_path` missing MCP calls

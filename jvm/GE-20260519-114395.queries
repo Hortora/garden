@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Inject CDI proxy for @ConsumeEvent/@ObservesAsync handlers
+@Transactional proxy for async handlers QuarkusTest
+CDI proxy workaround for silent observer methods

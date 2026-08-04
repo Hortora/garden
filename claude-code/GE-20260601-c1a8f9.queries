@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+worktree agent commit branch
+session branch cherry-pick
+worktree agent detached branch

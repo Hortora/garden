@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn quarkus:build stale target/classes
+mvn package skipTests CDI validation
+quarkus ARC validation stale resources

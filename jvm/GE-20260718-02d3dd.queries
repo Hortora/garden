@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`MVEL3 pojo NPE NameExpr`
+`MVEL pojo() mode with NPE`
+`evaluatorInfo withDeclaration void`

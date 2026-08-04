@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SC2EGSet userID filter playerID-1
+ToonPlayerDescMap userID vs playerID
+SC2EGSet game event userid userId mapping

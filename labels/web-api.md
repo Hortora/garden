@@ -1,0 +1,1 @@
+- GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them

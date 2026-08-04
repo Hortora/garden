@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_insert_member static imports assertThat
+ide_insert_member reformat true remove static imports
+ide_insert_member compile error assertThat

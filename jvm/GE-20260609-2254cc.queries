@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+MemoryQuery limit 20 chronological time window filter
+MemoryQuery entityId recentTimelineBreachCount
+MemoryQuery CHRONOLOGICAL time-window post-filter

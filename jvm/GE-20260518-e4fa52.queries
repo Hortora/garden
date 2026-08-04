@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RESTEasy BlockingOperationNotAllowedException await()
+RESTEasy Reactive blocking IO thread
+@Blocking annotation RESTEasy Reactive

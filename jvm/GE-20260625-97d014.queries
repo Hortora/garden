@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ChatPlatform builder SPI
+messaging interface degradation
+supports class capability

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 inline FK constraint naming
+Flyway DROP CONSTRAINT error
+"Constraint \"T_COL_FKEY\" not found"

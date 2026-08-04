@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+langchain4j close-timeout PT30S
+AgentProviderChatModel doChat timeout
+Claude CLI subprocess timeout

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`hashCode()` in SubClass cannot override `hashCode()` in ParentClass
+`protected` field hashcode update
+`updateHashCode()` method in subclasses

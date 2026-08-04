@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+isMimeType("text/plain") returns true on a new MimeMessage
+MimeMessage content type defaults to text/plain
+saveChanges() is required to commit MimeMessage content type

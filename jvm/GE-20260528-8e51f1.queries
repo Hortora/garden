@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus 3.x NativeImageResourcePatternsBuildItem deprecation
+NativeImageResourcePatternsBuildItem includeGlob()
+includePattern deprecation Quarkus

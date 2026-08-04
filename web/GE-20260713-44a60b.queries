@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jsdom animationend never fires
+css animation callback hang vitest jsdom
+getComputedStyle animationDuration 0s

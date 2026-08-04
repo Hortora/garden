@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+MutableCurrentPrincipal state leak between @QuarkusTest classes
+@ApplicationScoped bean persistence across test lifecycle
+Silent empty results tenant-scoped store queries

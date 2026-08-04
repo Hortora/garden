@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`InboundNormaliser` CDI bean misclassification
+ClinicalInboundNormaliser channel name check
+`ChannelGateway` InboundNormaliser injection pattern

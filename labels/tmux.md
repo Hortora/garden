@@ -2,3 +2,5 @@
 - GE-20260421-49a3ca: tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p
 - GE-20260804-f694b3: tmux new-session -c sets default-path but shell inherits parent process CWD
 - GE-20260804-961272: capture-pane without -e strips ANSI — replayed terminal display garbles
+- GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection
+- GE-20260804-1b28f5: pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying

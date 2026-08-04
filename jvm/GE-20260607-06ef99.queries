@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+new ProjectionResult\u003c\u003e(new ReviewState(Map.of(), List.of()), null)
+What is the undefined behaviour of manual ProjectionResult construction?
+How do I safely stub ProjectionService.project() with Mockito?

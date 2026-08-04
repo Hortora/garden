@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus optional module CDI beans not discovered
+`UnsatisfiedResolutionException` jandex index
+missing `META-INF/jandex.idx` in JAR

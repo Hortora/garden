@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`AnnotationException LedgerEntry supplements persistence unit`
+`Quarkus multi-PU prefix matching`
+`LedgerEntry subclass assignment error`

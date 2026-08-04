@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ImmutableRecord registry update
+@ApplicationScoped CDI snapshot
+CDI bean stale state error

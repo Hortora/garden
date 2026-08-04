@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ annotator highlighting JEXL
+doHighlighting() HighlightInfo filter
+Java string literals injected annotations

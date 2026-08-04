@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+runSubscriptionOn deadlock Quarkus worker pool
+Uni.createFrom item runSubscriptionOn
+blocking SPI reactive adapter

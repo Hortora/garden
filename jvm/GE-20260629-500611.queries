@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 native query UUID byte[] ClassCastException
+H2 MODE=PostgreSQL UUID column type
+native query result type mismatch UUID

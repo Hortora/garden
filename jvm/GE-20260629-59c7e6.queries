@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+esbuild template literal minification 404
+`${Mr}` fetch URL replacement
+TypeScript template literal UUID variable

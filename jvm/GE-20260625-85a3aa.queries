@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Uni.combine().all().unis(emptyList) throws IllegalArgumentException
+UniZip.unis(Iterable) validation
+Uni.combine().all().unis(emptyList) handles empty iterable

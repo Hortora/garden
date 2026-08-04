@@ -44,3 +44,4 @@
 - GE-20260723-912810: ConcurrentHashMap<String, ReentrantLock> replaces Vert.x shared data locks on virtual threads
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
+- GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal

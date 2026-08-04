@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test -pl runtime worktree
+mvn pom.xml worktree
+worktree pom.xml resolve

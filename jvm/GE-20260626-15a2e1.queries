@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CorpusIngestionService checkpointCursors overwrites failed-scan cursor
+`changesSince(cursor)` fails when no changes are present
+Qdrant collection empty after ingestion failure

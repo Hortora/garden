@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+how to extract generic type from serialized lambda
+SerializedLambda reflection return type
+method reference writeReplace method

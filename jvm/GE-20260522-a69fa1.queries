@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`String.matches()` anchors the full string — not a substring search
+`claude:analyst@v1` matches but `alice@example.com` does not
+`Pattern.matches()` vs. `String.matches()` behavior

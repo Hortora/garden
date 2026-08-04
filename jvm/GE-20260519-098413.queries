@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@ConfigRoot BUILD_TIME SRCFG00050`
+`@ConfigMapping casehub.ledger reactive.enabled`
+`Quarkus config validation error`

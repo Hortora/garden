@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+electron builder extraResources missing subdir
+electron builder python3 path problem
+electron builder packed path resource directory

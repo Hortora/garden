@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+collect().in() BiConsumer vs BiFunction
+multi.collect().in() compile error
+Mutiny collect() accumulator pattern

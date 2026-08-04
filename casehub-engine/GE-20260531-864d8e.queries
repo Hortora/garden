@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Observes` silently never fires for `WorkerDecisionEvent`
+`CDI observer @Observes not working with async events`
+`casehub-engine Event.fireAsync vs Event.fire`

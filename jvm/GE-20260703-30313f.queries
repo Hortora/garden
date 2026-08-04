@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+findOrCreate PersistenceException "current transaction is aborted"
+REQUIRES_NEW transactional rollback error
+H2 PostgreSQL unique constraint

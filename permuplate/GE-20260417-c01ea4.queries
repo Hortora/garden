@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@PermuteDeclr typeArgList single quotes`
+`typeArgList JEXL quotes`
+`Callable${i}\u003c${typeArgList(...)\u003e`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus arc exclude types replace main config
+quarkus ambiguous resolution exception config override
+smallrye config merge semantics application properties

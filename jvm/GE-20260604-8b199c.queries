@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`McpServerIntegrationTest` JSON path `result.tools.size()` mismatch
+`equalTo` assertion failing due to embedded library tool count
+`casehub-qhorus` tool registration error

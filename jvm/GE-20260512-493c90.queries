@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+WorkItemServiceIT.java 0 tests
+@QuarkusTest class naming convention
+maven-failsafe-plugin IT.java

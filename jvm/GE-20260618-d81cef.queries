@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+PanacheEntity dirty-check flush
+Hibernate session scope dirty tracker
+quarkus arc panache withSession

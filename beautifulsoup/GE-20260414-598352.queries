@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+BeautifulSoup get_text angle brackets
+`\u0026lt;` or `\u0026gt;` in get_text
+self-closing XML tag in get_text

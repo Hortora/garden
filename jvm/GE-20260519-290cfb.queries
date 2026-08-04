@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+persistence-memory testing in-memory impls
+@Alternative @Priority(1) in-memory persistence module
+workitemstore production use case in-memory

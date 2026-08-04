@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Optional.ifPresent() inside try/catch
+Optional.ifPresent() lambda exception propagation
+policy exceptions catch-block misattribution

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CaseHubRuntime eventLog workerName metadata
+WORKER_EXECUTION_COMPLETED workerId missing
+CaseEventLogRecord workerId field

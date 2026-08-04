@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`NoSuchFieldError JAVA_21 JavaParser`
+`mvn clean APT generated classes`
+`annotationProcessorPaths version mismatch`

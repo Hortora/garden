@@ -1,3 +1,4 @@
 - GE-20260505-2c199a: Quarkus SSE Multi<String> auto-wraps each item with "data:" prefix — return plain text, not pre-formatted frames
 - GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
+- GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+checkstyle AvoidStarImport rule

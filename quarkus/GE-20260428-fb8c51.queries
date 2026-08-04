@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CAST date_trunc LocalDate ClassCastException
+date_trunc HQL return type Hibernate 6
+LocalDate GROUP BY dialect dependent

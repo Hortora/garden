@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Java record constructor breaking change`
+`Record component signature change`
+`PlanItemRecord compile errors`

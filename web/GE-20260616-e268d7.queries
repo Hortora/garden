@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+createDataProviderFactory(fetchFn?)
+stale .d.ts silently drops parameter
+TypeScript resolves types from dist/*.d.ts

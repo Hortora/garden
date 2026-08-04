@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@QuarkusTest @Transactional test method observer failure
+CDI observer timing after transaction commit
+AFTER_SUCCESS observer assertions fail during test

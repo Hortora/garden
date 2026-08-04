@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+`@Transactional` rollback in-memory store
+JTA rollback divergent in-memory writes

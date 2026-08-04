@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ReplayValidationHarness` `IllegalStateException` Probe unit count
+`UnitBorn` loop 0 `EmulatedGame`
+`IEM10JsonSimulatedGameTest.initialStateHas12Probes()`

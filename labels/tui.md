@@ -1,1 +1,2 @@
 - GE-20260418-8edb81: Tamboui TestBackend is in tamboui-core:test-fixtures, not tamboui-tui:test-fixtures
+- GE-20260804-1b28f5: pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying

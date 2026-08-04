@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Worker.builder() NPE capabilityNames
+Worker compact constructor requireNonNull
+`NullPointerException` Worker capabilityNames

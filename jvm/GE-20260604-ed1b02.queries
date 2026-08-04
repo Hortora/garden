@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus-flow task executor thread pool
+Executors newCachedThreadPool MutinyException
+DefaultExecutorServiceFactory apply() blocking calls

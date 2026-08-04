@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Class\u003c? extends Enum\u003c? extends VocabularyTerm\u003e\u003e register
+Class\u003c? extends Enum\u003c? extends VocabularyTerm\u003e\u003e compile error
+Enum\u003cT\u003e \u0026 I type variable

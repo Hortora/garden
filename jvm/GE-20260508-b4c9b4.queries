@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus-rest validation silent
+quarkus-hibernate-validator missing
+"@Valid" not triggering quarkus

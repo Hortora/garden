@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+javap -verbose NamedQuery class file
+javap -verbose "LedgerAttestation" annotation
+grep "NamedQuery" JAR class file

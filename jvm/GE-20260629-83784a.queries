@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`DefaultBean|AmbiguousResolutionException|result set replacement`
+`nomic-embed-text cosine vector space`
+`pipe-separated Java class names embedding`

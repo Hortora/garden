@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+e.sequenceNumber ASC order by fails
+sequenceNumber per-channel cross-channel query
+messageId global sequence

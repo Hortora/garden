@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn -U dependency:resolve cannot resolve when GitHub Packages returns 401
+"CaseInstance not found or wrong tenant" error after mvn install from feature branch
+Maven _remote.repositories file overriding published SNAPSHOT

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`qrtz_triggers does not exist` error
+`QuarkusTest` module Quartz dependency
+`quartz.store-type` inheritance issue

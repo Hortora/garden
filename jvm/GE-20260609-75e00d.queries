@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+package-private test constructor + @PostConstruct null guard
+@PostConstruct null guard bean unit testing CDI
+CDI bean injection constructor parameter

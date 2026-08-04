@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test -pl runtime fails with NoClassDefFoundError
+mvn compile -pl api,runtime succeeds
+mvn test -pl \u003cmodule\u003e uses installed jars

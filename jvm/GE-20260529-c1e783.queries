@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+package-private constructor for CDI @Inject
+Consumer\u003cT\u003e vs Event\u003cT\u003e in CDI
+CDI constructor delegate to package-private test constructor

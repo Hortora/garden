@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+salience 205 rule firing
+Stalker unit shields-low conflicts
+mutually exclusive rule guard

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+fireAsync() after internal dispatch
+@Transactional event suppression
+rate-limit rejection CDI event

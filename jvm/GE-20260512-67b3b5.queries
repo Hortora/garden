@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Panache find() alias field names
+Panache find() empty result no exception
+find() alias-prefixed field names return empty

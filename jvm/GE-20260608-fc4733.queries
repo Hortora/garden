@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`assertThat(terms).doesNotContainAnyElementsOf(List\u003c? extends VocabularyTerm\u003e)`
+`AssertJ equals()`
+`VocabularyTerm value()`

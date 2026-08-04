@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`assertTrue(ex.getMessage().contains("my-channel"), "error should name the channel")`
+`@ApplicationScoped service bean keyed by UUID`
+`Rate limit exceeded for channel 'f96dd562-7627-4e63-a41b-b0baba1024b1'`

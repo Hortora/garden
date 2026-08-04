@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`AgentValidationException` briefing newline
+`AgentDescriptorValidator` `isBanned()` C0 control range
+`ClasspathYamlDescriptorRegistrar` YAML literal block scalar

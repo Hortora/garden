@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Exception in association of connection to existing transaction`
+`@Transactional XA H2`
+`Quarkus dual datasource transaction`

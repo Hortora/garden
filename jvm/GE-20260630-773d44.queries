@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+save(insert) ConstraintViolation
+claim(UPDATE WHERE false) fire() remove()
+lastTriggered timestamp locked=true

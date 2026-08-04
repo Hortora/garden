@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+package-private @Observes StartupEvent test
+channelService listAll Hibernate session
+@QuarkusTest transaction visibility issues

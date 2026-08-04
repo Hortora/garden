@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.quarkus.deployment.dev.devservices.GlobalDevServicesConfig$Enabled TypeNotPresentException
+Quarkus WireMock 1.4.1 compatibility Quarkus 3.32.2
+@QuarkusTest failed to load test class

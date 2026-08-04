@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gateway inbound persists messages inside @QuarkusTest
+messageService.send()
+@TestTransaction cross-test message leakage

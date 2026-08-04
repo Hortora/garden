@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Level.WARN == java.util.logging.Level.WARNING
+JBoss LogManager Level comparison
+object identity java.util.logging.Level

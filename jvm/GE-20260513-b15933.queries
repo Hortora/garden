@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@ObservesAsync` observer not invoked during @QuarkusTest
+`Event.fireAsync` completion stage discarded
+Inner-class @ApplicationScoped bean observer registration issue

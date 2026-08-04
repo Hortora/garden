@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`JSON capability name presence check`
+`A2A card format completeness issue`
+`JSON output substring check behavior`

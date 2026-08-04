@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+life/ namespace prefix
+domain-scoped Qhorus channels
+APPROVAL_PENDING Watchdog

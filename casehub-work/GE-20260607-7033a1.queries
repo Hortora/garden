@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+getEntityManager().createQuery(..., UUID.class) for single-column projections
+Panache query JPQL projection for IDs
+findEligibleIds list() materialises full entities

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SupervisorAgentService builder bypass SPI
+WorkflowAgentsBuilder agent config override
+AgenticServices buildSupervisorAgent maxAgentsInvocations

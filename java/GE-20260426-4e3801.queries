@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java -jar -D flags
+java -jar system properties arguments
+quarkus profile replay java -jar

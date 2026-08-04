@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`synchronized(key.intern())` causing global pool contention
+`String.intern()` contention in ConcurrentHashMap
+JVM global intern pool locking

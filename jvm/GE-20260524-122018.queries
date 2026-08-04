@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.example:parent-pom:pom missing
+Non-resolvable parent POM
+\u003crepositories\u003e section in pom.xml

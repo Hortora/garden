@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+name clash Predicate2\u003cB,PathContext\u003cT\u003e\u003e Predicate2\u003cPathContext\u003cT\u003e,B\u003e
+compile error generic type parameters flipped type args
+distinct interface class functional interface

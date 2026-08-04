@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 LOCK_MODE=1 MVStore race
+"JdbcSQLIntegrityConstraintViolationException" MERGE
+MVStore MVCC row-level locking

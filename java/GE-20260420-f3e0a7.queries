@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jar tf ~/.m2/repository/io/quarkiverse/ledger/quarkus-ledger/1.0.0-SNAPSHOT/quarkus-ledger-1.0.0-SNAPSHOT.jar | grep LedgerHashChain
+jar tf ~/.m2/repository/io/quarkiverse/ledger/quarkus-ledger/1.0.0-SNAPSHOT/quarkus-ledger-1.0.0-SNAPSHOT.jar | grep -i "observability\|supplement"
+jar tf ~/.m2/repository/com/example/my-lib/1.0/my-lib-1.0.jar | grep "^io/example/mypackage/"

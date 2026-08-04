@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus hibernate orm named persistence unit sql-load-script
+quarkus import sql default persistence unit
+hibernate orm named persistence unit table missing

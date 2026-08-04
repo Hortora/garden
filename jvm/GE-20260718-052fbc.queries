@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`NoClassDefFoundError io.smallrye.faulttolerance.api.SpiAccess$Holder`
+`SmallRye FT Guard create() JUnit test`
+`standalone SPI ServiceLoader`

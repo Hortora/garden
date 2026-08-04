@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SubCase builder groupID totalInGroup
+YAML case definition limitations
+MofN subcase ignore yaml mapper

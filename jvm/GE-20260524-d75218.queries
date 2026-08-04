@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is GE-20260524-2b587e?
+How do I bypass `@Alternative` beans in Quarkus builds?
+What happens when a non-`@Alternative` subclass is created in the app module?

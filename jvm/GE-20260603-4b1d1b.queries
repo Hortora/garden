@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus init-script role postgresql
+casehub_crosstenancy role creation
+ALTER DEFAULT PRIVILEGES testcontainers

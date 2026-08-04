@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CaseLedgerEntry.tenancyId null property exception
+LedgerEntry tenancyId shadow field
+JPA JOINED inheritance nullability conflict

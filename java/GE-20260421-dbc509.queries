@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+replaceAll "\\d+$" missing embedded arity
+replaceAll "\\d+" Join2First
+"\\d+" regex doesn't strip all digits

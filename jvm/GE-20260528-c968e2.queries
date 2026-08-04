@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Inject ExpiryLifecycleService into @QuarkusTest
+Exclude scheduler jobs from CDI in tests
+Test SLA breach without timing dependencies

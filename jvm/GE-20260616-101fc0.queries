@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+hibernate exception Column "TENANCY_ID" not found
+ledger_subject_sequence primary key subject_id tenancy_id
+import-qhorus.sql DDL update SNAPSHOT

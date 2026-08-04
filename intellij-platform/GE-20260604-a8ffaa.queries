@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_find_class empty FlowWorkerExecutor
+ide_find_class returns empty recently added module
+ide_find_class no error classes

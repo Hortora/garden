@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CustomEvents bubbles composed shadow DOM
+CustomEvents composed API event
+CustomEvents internal events leaking

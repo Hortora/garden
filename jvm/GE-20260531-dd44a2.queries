@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Path("/") root resource Quarkus 404
+RESTEasy Reactive path matching
+JAX-RS root resource template

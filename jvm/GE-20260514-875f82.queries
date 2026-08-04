@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+circular dependency testing module
+InMemoryFooStore compile error
+runtime src test InMemory stores

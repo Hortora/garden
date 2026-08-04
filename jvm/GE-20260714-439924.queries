@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+cumulative[arch] -= 0.3
+additive penalty confidence zero
+multiplicative dampening half-life

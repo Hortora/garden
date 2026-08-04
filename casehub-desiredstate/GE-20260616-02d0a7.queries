@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+AgentDescriptor creation without channel references
+ChannelCreateRequest without agent references
+CaseDefinition worker resolution via routing policies

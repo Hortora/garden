@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ai.djl.huggingface.tokenizers.jni.CharSpan JNI registration
+`Result::unwrap()` on `JavaException` Rust panic
+GraalVM native image CharSpan class registration

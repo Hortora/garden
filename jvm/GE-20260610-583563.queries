@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+AmlActionType reversible()
+RiskDecision.GateRequired scope()
+gate metadata derive from domain type

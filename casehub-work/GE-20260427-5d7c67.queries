@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`jakarta.enterprise.inject.AmbiguousResolutionException: Ambiguous dependencies` error
+`WorkloadProvider injection conflict`
+`quarkus-work JpaWorkloadProvider`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Quarkus Test profile configPanelHiddenInMockProfile`
+`@UnlessBuildProfile emulatedConfigResource`
+`HTTP 200 emulated profile QA endpoint`

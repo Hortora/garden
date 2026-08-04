@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 ON CONFLICT DO UPDATE RETURNING syntax error
+H2 MODE=PostgreSQL INSERT ON CONFLICT
+H2 PostgreSQL compatibility INSERT RETURNING

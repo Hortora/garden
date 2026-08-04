@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+WorkItemTemplate persist failing after store lookup
+"excludedUsers" null value after template migration
+JPA test fixture default values after API change

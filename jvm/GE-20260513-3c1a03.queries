@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@TestSecurity` ignored in `@QuarkusTest`
+`QuarkusTest annotation no effect`
+`CDI bean injection no security`

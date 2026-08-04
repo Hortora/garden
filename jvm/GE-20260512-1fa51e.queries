@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Scheduled interval without $ prefix silently uses literal string
+Quarkus scheduler error message
+MicroProfile Config property syntax `@Scheduled`

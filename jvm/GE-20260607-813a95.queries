@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+computeIfAbsent null return mapping function
+computeIfAbsent OpenJDK null return
+ConcurrentHashMap sentinel pattern null

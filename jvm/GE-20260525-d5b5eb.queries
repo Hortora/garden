@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+to_entries[] select(.value == true)
+to_entries | select(.value == true)
+to_entries | length \u003e= 2

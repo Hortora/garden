@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+List\u003cString\u003e IN clause Hibernate
+setParameter Collection native SQL
+entityIds IN (:entityIds)

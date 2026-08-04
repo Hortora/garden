@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+LitElement props setter double-fires request
+willUpdate double-fires after connectedCallback
+@property set causes double data requests

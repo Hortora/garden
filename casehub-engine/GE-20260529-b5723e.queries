@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CDI deployment failures casehub-engine`
+`quarkus unsatified dependency`
+`@ApplicationScoped bean dependency`

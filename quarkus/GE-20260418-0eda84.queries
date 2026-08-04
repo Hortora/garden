@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus HibernateGenerationStrategy enum
+Quarkus config validation error create-drop
+Quarkus test profile hibernate-orm schema generation

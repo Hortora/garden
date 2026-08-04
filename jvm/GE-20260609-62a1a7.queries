@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 MERGE NOT MATCHED constraint violation
+`org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException` MERGE
+REQUIRES_NEW transaction sequence counter

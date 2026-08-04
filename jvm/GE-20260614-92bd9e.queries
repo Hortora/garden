@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Testcontainers bind mount virtiofs Podman
+withCopyFileToContainer error /tmp no such file or directory
+classpathresourcemapping macOS arm64

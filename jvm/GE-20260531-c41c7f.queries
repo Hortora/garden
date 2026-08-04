@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Part.getContent()` throws UnsupportedDataTypeException
+`getInputStream()` throws UnsupportedDataTypeException binary MIME
+`jakarta.activation.DataContentHandler` throws

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+after_success observer
+transactional not_supported tx type
+cdi event phase

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How does PermuteMojo handle template composition ordering?
+What is a `@PermuteSource` annotation used for?
+Can an InlineGenerator find a class in memory using `parentCu`?

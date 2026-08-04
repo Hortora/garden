@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Maven `-pl \u003csubmodule\u003e` resolves dependencies from .m2 cache
+`mvn test -pl runtime` "cannot find symbol" errors
+sibling module dependency stale artifact

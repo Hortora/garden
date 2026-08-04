@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+readValue extra text
+FAIL_ON_TRAILING_TOKENS error
+JsonParseException trailing token

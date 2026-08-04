@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`DIDResolver.resolve() signature change`
+`Maven SNAPSHOT dependency breakage`
+`mvn dependency:resolve -U error`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Surefire forkedProcessTimeoutInSeconds Quarkus augmentation
+QuarkusTestExtension timeout fork process
+`forkedProcessTimeoutInSeconds` augmentation phase hang

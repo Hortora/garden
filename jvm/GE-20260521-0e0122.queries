@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Transactional(REQUIRES_NEW) retry PersistenceException`
+`"CDI proxy" JpaRoutingCursorStore`
+`"REQUIRES_NEW" transaction rollback-only`

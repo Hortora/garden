@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+session.getReference(CaseMetaModelEntity.class, instance.getCaseMetaModel().getId())
+Panache persist @ManyToOne TransientPropertyValueException
+session.getReference caseMetaModel id

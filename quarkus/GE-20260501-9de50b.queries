@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+QuarkusTest @BeforeEach clear @ObservesAsync flaky test
+@ObservesAsync events JUnit lifecycle clear error
+CDI thread pool event capture race condition

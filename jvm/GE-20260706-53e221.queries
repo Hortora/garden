@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mvn compile` "private access" errors
+stale imports record access
+`ide_find_class` project and libraries

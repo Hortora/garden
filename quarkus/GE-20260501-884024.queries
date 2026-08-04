@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Observes(during = AFTER_SUCCESS)` observer not called
+`TransactionPhase.AFTER_SUCCESS` observer skipped
+`UserTransaction` CDI observer transaction

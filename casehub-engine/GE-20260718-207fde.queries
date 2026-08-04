@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+WorkItemService constructor null config NPE
+WorkItemService constructor sla() null
+WorkItemService subclassing null dependency

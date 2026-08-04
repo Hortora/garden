@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Transactional(SUPPORTS)` JPA read thread error
+`JTA transaction blocked Vert.x IO thread`
+`quarkus blocking operation exception`

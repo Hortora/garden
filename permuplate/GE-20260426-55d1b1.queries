@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+ScopeGate1\u003cCTX, B, C\u003e type parameter error
+ScopeGate1 with @PermuteTypeParam empty range

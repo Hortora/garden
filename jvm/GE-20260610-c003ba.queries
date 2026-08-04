@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ClassSelector [className = 'io.example.MyQuarkusTest', classLoader = null'] error
+Quarkus CDI boot failure retry
+JUnit Platform ClassSelector resolution

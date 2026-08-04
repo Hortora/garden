@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway dependency table migration schema test
+Plain-Java Flyway schema test dependency tables
+@BeforeAll Flyway migration locations classpath

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`java.lang.RuntimeException "Unable to start HTTP server" TIME_WAIT port`
+`@QuarkusTest multiple classes Surefire port conflict`
+`quarkus.http.test-port=0 intermittent failure`

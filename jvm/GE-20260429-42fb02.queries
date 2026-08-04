@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Bayesian Beta trust score 0.5 no attestations`
+`Beta(1,1) trust score prior`
+`assertThat score.trustScore() isCloseTo 0.5`

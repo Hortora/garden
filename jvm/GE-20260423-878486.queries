@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus langchain4j jlama test bootstrap Unsupported value type ALL-UNNAMED
+quarkus langchain4j jlama test error java.lang.IllegalStateException
+quarkus langchain4j jlama dev-mode jvm-option enable-native-access

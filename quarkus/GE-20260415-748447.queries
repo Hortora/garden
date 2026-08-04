@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What causes "Could not find artifact" when using a Quarkiverse extension with a sibling ledger dependency?
+How do I manually install a sibling quarkus-ledger library before building a Quarkiverse extension?
+Why does Maven require a separate `mvn install` for a sibling Quarkiverse library dependency?

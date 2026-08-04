@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn compile -q suppresses error output
+mvn compile exit code 0 no error message
+mvn compile grep "error:" fails

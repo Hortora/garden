@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+eventBus publish fan-out
+eventBus send point-to-point
+@ConsumeEvent handler silent failure

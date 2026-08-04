@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus-bom:pom:3.32.2
+casehubio/aml 403 Forbidden
+dependencyManagement quarkus-bom version

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 PostgreSQL upsert syntax error
+H2 INSERT ON CONFLICT DO NOTHING
+H2 2.4x PostgreSQL compatibility limitations

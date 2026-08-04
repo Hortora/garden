@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java.sql.SQLException instanceof PSQLException PostgreSQL
+PSQLException extends SQLException PostgreSQL
+PostgreSQL constraint violation error message

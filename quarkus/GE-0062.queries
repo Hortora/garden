@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`HttpAuthenticationMechanism` injection resolution order
+`StartupEvent` observer firing timing
+`getKey()` returns Optional.empty during test requests

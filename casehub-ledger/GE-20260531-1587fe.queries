@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JpaLedgerMerkleFrontierRepository UnsatisfiedResolutionException
+JpaLedgerEntryRepository alternative selection
+quarkus.arc.selected-alternatives configuration

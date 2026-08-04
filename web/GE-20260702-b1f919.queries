@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+flex column overflow 100% height
+align-items stretch max-height issue
+slot content exceeding container size

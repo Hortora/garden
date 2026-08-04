@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+pregenerate canvas texture sprite variants
+sprite material swap direction selection
+canvas texture pregeneration animation

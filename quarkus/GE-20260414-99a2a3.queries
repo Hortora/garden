@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Field inject CDI Event null guard
+Field inject Event\u003cT\u003e CDI
+CDI field injection event null

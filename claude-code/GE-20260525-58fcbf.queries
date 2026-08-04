@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is the difference between always-needed and triggered context files?
+When should a CLAUDE.md entry be extracted to a separate file?
+What categories reliably pass the triggered test criteria?

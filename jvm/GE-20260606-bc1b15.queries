@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`${sys:user.home}` fallback
+`@ConfigMapping` Path default value
+SmallRye Config expression syntax

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+fluent chain escape loopagentdecorator
+decorator build() override never fires
+annotation value instead of config value

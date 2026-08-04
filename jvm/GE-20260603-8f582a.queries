@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+List.of() wildcard assignment error
+List\u003c? extends Foo\u003c?\u003e\u003e List of
+Stub return type wildcard compilation

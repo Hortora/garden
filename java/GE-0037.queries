@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Supplier\u003cInstant\u003e for testing time-dependent logic`
+`inject Instant in JUnit 5 tests`
+`lambda clock Supplier Instant`

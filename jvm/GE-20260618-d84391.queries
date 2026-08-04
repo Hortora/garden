@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI @Decorator constructor injection unit tests
+Event\u003cT\u003e stubbing in CDI tests
+CaseRetriever @Decorator test integration

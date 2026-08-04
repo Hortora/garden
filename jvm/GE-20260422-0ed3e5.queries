@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI container injection vs service-loader wiring
+@Inject Instance\u003cT\u003e vs ServiceLoader
+Injection-to-file ratio extension discovery

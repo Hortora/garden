@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`MERGE INTO USING WHEN MATCHED THEN UPDATE`
+`H2 rejects INSERT ON CONFLICT`
+`SQL standard MERGE upsert`

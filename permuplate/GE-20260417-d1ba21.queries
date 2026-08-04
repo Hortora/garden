@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+BiCallable duplicate type parameters
+PermuteTypeParam varName conflict
+Cross-product generation type parameter error

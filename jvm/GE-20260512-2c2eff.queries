@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway double type error PostgreSQL
+H2 accepts double PRECISION but PostgreSQL no
+PostgreSQL type aliases migration fail

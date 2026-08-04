@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Panache persist detached entity
+Panache withTransaction duplicate key constraint
+Panache merge entity id

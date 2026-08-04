@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+calibration timing constants command loop completion loop
+T_min T_max modal algorithm frequency counter

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway schema validation error 'missing table'
+Maven module order Hibernate validation
+Quarkus tests failing due to Flyway order

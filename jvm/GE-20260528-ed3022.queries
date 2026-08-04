@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus path location scanner empty result
+FlywayConfigurationCustomizer customize fluentconfiguration
+Table not found flyway processor build

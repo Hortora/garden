@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IllegalArgumentException UUID fromString findById
+IllegalArgumentException catch scope findById
+UUID IllegalArgumentException downstream call

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`"Channel not found: X"`
+`@TestTransaction REQUIRES_NEW entity lookup`
+`JTA transaction suspend resume EntityManager`

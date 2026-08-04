@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to inject @ConfigMapping into a @BuildStep
+What is the `IllegalStateException` when injecting @ConfigPhase config
+RuntimeValue\u003cT\u003e vs @BuildStep injection in Quarkus

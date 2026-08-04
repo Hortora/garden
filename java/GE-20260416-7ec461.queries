@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test -pl -Dtest=ClassName
+mvn test -am -Dtest=ClassName
+mvn test -Dtest=ClassName -pl

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+DeliveryCursorEntity file rename failure
+Same-package references not updated
+JPQL string literal renaming errors

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+qdrant updateCollection sparse vectors
+updateCollectionAsync sparse vector error
+sparse vectors config not existing

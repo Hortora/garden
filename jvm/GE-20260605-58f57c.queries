@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+guard inside lambda — pays emitOn overhead before checking guard
+if (shouldEscalate()) {
+return Uni.createFrom().item(AgentAssignment.escalate(...));

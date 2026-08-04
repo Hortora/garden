@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`CDI ObservesAsync REQUIRES_NEW RollbackException`
+`Quartz worker transaction ARJUNA016053`
+`"entity not found" error JTA transaction`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus.langchain4j.ollama.chat-model.format=json
+format: "json" ollama
+json format ollama error message

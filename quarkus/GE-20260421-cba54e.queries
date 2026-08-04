@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI StartupEvent mirror Python auto-activation
+@Observes StartupEvent active project initialisation
+Java equivalent of Python module load time initialisation

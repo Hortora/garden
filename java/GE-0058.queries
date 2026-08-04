@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`R\u003cA,B\u003e` compile silently
+`Java type erasure` stub methods
+`Path5\u003cWrongJoin, WrongTuple, ...\u003e` error

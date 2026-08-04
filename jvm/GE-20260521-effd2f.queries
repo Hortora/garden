@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway duplicate migration version error
+classpath recursive scan datasource
+db/migration qhorus migration subdirectory

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@UnlessBuildProfile("sc2")` causes "Unsatisfied dependency"
+`Unsatisfied dependency for type A and qualifiers [@Default]`
+`profile-based CDI exclusion`

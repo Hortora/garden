@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@LookupIfProperty` CDI bean activation
+`Instance\u003cDeviceProvider\u003e` provider iteration
+`inert-bean` pattern disable

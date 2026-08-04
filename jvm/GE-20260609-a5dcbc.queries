@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`java Properties serialize struct Qhorus COMMAND`
+`parse java Properties commandMessageId`
+`restart-safe struct persistence java`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus jandex library module
+jandex-maven-plugin classname
+CDI bean non-discovery jar

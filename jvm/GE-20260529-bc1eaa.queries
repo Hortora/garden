@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+TIMESTAMPTZ H2 error
+TIMESTAMP WITH TIME ZONE migration
+H2 MODE=PostgreSQL syntax error

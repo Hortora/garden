@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quartz cron expression 5 parts
+java.lang.IllegalStateException Unable to create Scheduler
+@Scheduled bean cron format error

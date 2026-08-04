@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+department source aggregate function
+columnGroup source department key
+parseGroupEntry source match

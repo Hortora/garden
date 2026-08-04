@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+should(haveSimpleNameStartingWith("Reactive").and().haveSimpleNameEndingWith("Service")) pass silently
+ArchUnit rule vacuously true zero matching classes
+classFileImporter package rename empty JavaClasses

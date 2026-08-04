@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JSONata auto-unwrap single-element array results
+JSONata array flattening behavior
+JSONata sequence unwrapping single element

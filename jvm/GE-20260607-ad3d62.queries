@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+LedgerSequenceAllocator not found in H2 tests
+`org.hibernate.exception.SQLGrammarException` table missing
+jpa drop-and-create ledger_subject_sequence issue

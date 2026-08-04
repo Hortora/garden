@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+"@casehubio/pages-component" esbuild alias resolution
+esbuild production build alias configuration
+Vite resolve alias vs esbuild module resolution

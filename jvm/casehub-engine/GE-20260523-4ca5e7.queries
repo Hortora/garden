@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`java.lang.IllegalStateException: Unable to create Scheduler`
+`casehub-work 5-field cron expression Quartz`
+`@Scheduled beans incompatible Quartz`

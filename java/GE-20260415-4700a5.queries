@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JAX-RS boolean query parameter parsing
+JAX-RS @QueryParam boolean rejects numeric values
+@DefaultValue boolean silent false flag

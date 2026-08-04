@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI proxy field access returns null
+@ApplicationScoped proxy silent field read
+CDI injection proxy returns empty collection

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+channelStore.delete(ch.id) violates foreign key
+messageStore.deleteAll(ch.id) fails silently
+fk_message_channel error at runtime

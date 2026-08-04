@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException
+@DefaultBean application scope
+Quarkus ARC ambiguous injection point

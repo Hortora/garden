@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+event bus request-reply
+@RunOnVirtualThread reply mechanism gap
+CDI injection single-consumer blocking handlers

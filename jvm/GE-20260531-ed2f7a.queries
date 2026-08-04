@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Transactional @ObservesAsync try/catch exception`
+`Narayana JTA requires_new fallback`
+`double-recording event ledger`

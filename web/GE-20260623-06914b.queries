@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+customElements.define() missing from esbuild bundle
+bare side-effect imports dropped by esbuild
+esbuild tree-shaking custom elements

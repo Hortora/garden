@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+replace('\r', ' ')
+sanitize StringBuilder
+ANSI escape sequences log injection

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+assertThat(() -\u003e voidMethod()) compile error
+assertThatCode() void lambda
+cannot infer type arguments assertThat

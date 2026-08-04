@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+UUID.fromString(name); throw new IllegalArgumentException("Channel name must not be UUID-shaped: '" + name + "'");
+catch (IllegalArgumentException ignored)
+throw inside try-catch(SameException)

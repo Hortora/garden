@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quinoa build target/quinoa/build
+Quinoa dev mode dist/ not served
+npm run build quarkus:dev error

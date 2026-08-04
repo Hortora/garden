@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+PanacheRepository entity plain @Entity error
+listAll implementationInjectionMissing UUID
+PlainEntity Id PanacheRepositoryBase

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JetBrains ide_replace_member Java records compact constructor
+ide_replace_member RecordName constructor error
+`ide_replace_member` stripping constructor declaration

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+renderComponent connectedCallback
+addEventListener casehub-data-request
+silent data request error

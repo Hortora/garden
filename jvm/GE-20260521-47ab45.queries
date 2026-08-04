@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway contract test sees test resources
+"expected 8 but was 9" classpath
+src/test/resources migration files

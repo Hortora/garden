@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@InjectMock` singleton scope error
+`jakarta.inject.Singleton scope mocking`
+`CDI normal scope mock`

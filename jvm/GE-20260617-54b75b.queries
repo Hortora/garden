@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Hibernate QueryParameterException :tenancyId`
+`Panache repo.update named params`
+`update() varargs named parameter bug`

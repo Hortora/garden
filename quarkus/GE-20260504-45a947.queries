@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus scheduler enabled false
+runComputation race H2
+@QuarkusTestProfile scheduler conflict

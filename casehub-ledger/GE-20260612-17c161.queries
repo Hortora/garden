@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`EntityManager.persist()` on `LedgerEntry` subclasses
+`LedgerEntryRepository.save()` sequence allocation
+`IllegalStateException` `em.persist()` bypass

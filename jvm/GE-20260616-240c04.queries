@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+subjectId = ?1 AND correlationId = ?2 AND tenancyId = ?3
+channelId column not referenced in JPQL
+messageType must be COMMAND or HANDOFF

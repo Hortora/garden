@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI delegate pattern reactive in-memory store
+Uni.createFrom().item() QuarkusTest
+InMemoryChannelStore put()

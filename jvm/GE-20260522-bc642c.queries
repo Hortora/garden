@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+ArrayList unsafe for @ObservesAsync test captures — @ObservesAsync dispatches on managed executor thread, not test thread
+CopyOnWriteArrayList for @ObservesAsync test doubles

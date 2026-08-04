@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest class resolution failure`
+`CDI ambiguous resolution exception`
+`ApplicationScoped no-op SPI beans`

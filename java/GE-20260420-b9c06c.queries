@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java zip invalid compression method
+java util zip bzip2 zip
+zip archive stream bzip2

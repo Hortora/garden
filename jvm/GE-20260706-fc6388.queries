@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quinoa ClassNotFoundException HttpBuildTimeConfig
+Quarkus 3.26 HttpBuildTimeConfig removal
+Quinoa 2.8.3 fix ClassNotFoundException

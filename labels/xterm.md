@@ -1,2 +1,3 @@
 - GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
 - GE-20260804-4d9ce7: Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js
+- GE-20260804-1b28f5: pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Event.fireAsync` return type
+`CompletionStage Event\u003cT\u003e`
+CDI `Event` type mismatch

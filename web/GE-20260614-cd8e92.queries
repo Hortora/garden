@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+page.locator("host-element \u003e\u003e\u003e #render-a")
+page.evaluate("document.getElementById('render-a')")
+shadowRoot.querySelector("#render-a")

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+gh issue view 330 --repo casehubio/engine | head -2
+gh issue view N --repo casehubio/REPO 2\u003e\u00261 | head -3
+LAYER-LOG.md vs ARC42STORIES.MD migration

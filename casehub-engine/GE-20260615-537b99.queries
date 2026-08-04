@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Worker constructor Function\u003cCaseContext,Map\u003e
+Worker builder Function\u003cMap,WorkerResult\u003e
+Worker inputSchema JQ expression

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus hibernate reactive panache fastboot error
+hibernate reactive persistence provider initialization
+@Alternative quarkus persistence unit registration

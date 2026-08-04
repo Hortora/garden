@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+plain mutable POJO serialization
+FAIL_ON_EMPTY_BEANS Jackson error
+`com.fasterxml.jackson.databind.exc.InvalidDefinitionException`

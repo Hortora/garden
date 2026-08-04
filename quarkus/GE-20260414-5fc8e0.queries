@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CallableTaskBuilder interface signatures
+accept(Class\u003c? extends TaskBase\u003e)
+workflowContext.definition().application().modelFactory()

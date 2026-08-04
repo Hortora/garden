@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ChannelGateway.fanOut()` asynchronous thread execution
+`@QuarkusTest` assertion timing issues
+`messageService.dispatch()` synchronous call

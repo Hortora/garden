@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`/q/webauthn/register` HTTP endpoint
+`WebAuthnRecorder.class` bytecode
+`404 route doesn't exist`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+case MyType x -\u003e
+default -\u003e null
+case null, default -\u003e

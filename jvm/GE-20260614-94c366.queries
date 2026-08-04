@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+mvn clean test -Peval,eval-ollama Unrecognized configuration key "quarkus.langchain4j.ollama.chat-model.model-name"
+Augmentation cache stale test-scope Ollama ChatModel

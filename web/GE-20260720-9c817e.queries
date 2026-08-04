@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Vite alias `@org/package-*` resolution
+Vite resolve alias sibling repo npm packages
+`file:` protocol references Vite dependency resolution

@@ -1,3 +1,4 @@
 - GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
 - GE-20260614-bdce28: Docker --internal network flag OOMKills Node.js containers in Podman applehv VM
 - GE-20260630-bf0055: Quinoa 2.8.x requires explicit node-version property — startup fails without it
+- GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection

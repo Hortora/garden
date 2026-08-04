@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus webauthn login-page 404
+`quarkus.webauthn.login-page` default login
+javap io/quarkus/security/webauthn/WebAuthnRunTimeConfig.class

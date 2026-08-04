@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ MCP ide_create_file VFS synchronization
+ide_find_class not finding new files
+Maven "Nothing to compile" after ide_create_file

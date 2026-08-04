@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn test in a child module skips dependent sibling modules
+mvn install from root resolves compile errors
+java.io.IOException: Unable to read from snapshot repository

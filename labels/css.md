@@ -4,3 +4,4 @@
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
 - GE-20260801-355ce5: CSS all:initial resets custom properties — design tokens must be explicitly re-declared
 - GE-20260802-953404: CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade
+- GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div

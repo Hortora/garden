@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Blocking rejected on @ApplicationScoped CDI bean methods returning Uni
+Uni return type from @ApplicationScoped CDI bean method
+ExecutionModelAnnotationsProcessor build error @Blocking

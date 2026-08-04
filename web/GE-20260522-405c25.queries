@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+reverse DOM order when splitting them for inline element injection
+What is the recommended order for processing text nodes during DOM manipulation?

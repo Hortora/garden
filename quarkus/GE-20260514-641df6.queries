@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@BeforeEach @Transactional QuarkusTest proxy
+QuarkusTest CDI proxy JUnit
+CDI proxy bypass @BeforeEach @Transactional

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus rest blocking exception
+quarkus test reactive thread check
+panache blocking resource class

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Path.cwd() worktree vs. main repo
+find_skills_root() failing with CLAUDE.md
+glob() returning 0 files in worktree

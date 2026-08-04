@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI validation failure TwilioSmsConnector
+ArC validation build time config property
+quarkus arc validation missing credentials

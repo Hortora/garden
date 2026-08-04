@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JSON response format without schema
+Anthropic UnsupportedFeatureException
+JSON schema requirement

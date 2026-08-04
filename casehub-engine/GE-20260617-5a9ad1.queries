@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CaseDefinition hashCode namespace name version
+CaseDefinition equals implementation
+CaseDefinition hash drift detection

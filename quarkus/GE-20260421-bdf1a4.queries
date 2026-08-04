@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RESTEasy Reactive wildcard route GET /
+RESTEasy Reactive @GET @Path("{path:.*}") root request
+Bare @GET not invoked RESTEasy Reactive

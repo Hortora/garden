@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+MessageQuery JPQL filtering issues
+MessageQuery topic() filtering problems
+JPA MessageQuery predicate synchronization

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+HttpClient newWebSocketBuilder buildAsync timeout
+HttpClient Version HTTP_2 preference
+HttpClient Version HTTP_1_1

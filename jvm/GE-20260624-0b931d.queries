@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Capability of("cap", null, null) throws NullPointerException
+record compact constructor validation null schemas
+empty-passthrough schemas instead of null

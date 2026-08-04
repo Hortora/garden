@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ide_search_text` project_path scope
+`ide_search_text` cross-project results
+`project_path` JSON-RPC IntelliJ search

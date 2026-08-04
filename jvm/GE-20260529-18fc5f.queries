@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus test profile datasource url
+quarkus test profile override
+quarkus test profile inactive bean

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Quarkus LinkageError MyServiceImpl port interface`
+`@QuarkusTest classloader constraint violation`
+`CDI proxy instantiation LinkageError`

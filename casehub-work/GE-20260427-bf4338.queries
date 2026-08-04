@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+WorkItemStatus EXPIRED isTerminal
+quarkus-work WorkItemLifecycleEvent status terminal
+javap -p -c WorkItemStatus

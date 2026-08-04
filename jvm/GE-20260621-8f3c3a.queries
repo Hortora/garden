@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`WritablePanelImpl` shallow copy `Map.of()` causes `UnsupportedOperationException`
+`initialContext.put("pr", prContext)` unmodifiable map issue
+`data.putAll()` shallow copy leads to `UnsupportedOperationException`

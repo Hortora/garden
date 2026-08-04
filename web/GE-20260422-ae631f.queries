@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+object.visible performance Three.js
+transparent Mesh renderOrder
+scene graph traversal culling

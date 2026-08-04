@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CaseEngine worker thread CDI singleton updates
+@BeforeEach clear races async plugin execution
+java.lang.AssertionError ThreatPosition Point2d

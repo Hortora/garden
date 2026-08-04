@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+wc -l CLAUDE.md
+byte check CLAUDE.md
+context window cost Claude

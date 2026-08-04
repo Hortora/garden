@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is undocumented about Reactive Quarkus service classes?
+How do Panache statics bypass CDI @Alternative in-memory stores?
+Why do messages written by sendMessage() not land in the InMemoryMessageStore?

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest` tests failing with `caseInstance.tenancyId=null`
+`ContextNotActiveException` on Vert.x threads
+`@DefaultBean` displacement by non-default bean

@@ -57,3 +57,4 @@
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260801-e482fc: Separate skill sections create LLM bypass paths — merge mandatory gates into one section
 - GE-20260803-d58949: Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls
+- GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection

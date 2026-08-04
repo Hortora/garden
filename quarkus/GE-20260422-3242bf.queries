@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Instance\u003cEmbeddingModel\u003e injection
+UnsatisfiedResolutionException CDI
+Instance\u003cT\u003e null resolution

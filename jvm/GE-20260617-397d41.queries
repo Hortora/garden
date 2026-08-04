@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus rest client reactive error
+quarkus rest client dependency resolution
+quarkus rest client server client mismatch

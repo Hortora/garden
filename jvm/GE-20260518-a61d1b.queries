@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@ConsumeEvent blocking=true @Transactional
+Quarkus JTA transaction interceptor
+MyHandler class

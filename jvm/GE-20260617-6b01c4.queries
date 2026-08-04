@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`MERGE INTO` concurrent insert violation
+`Unique index or primary key violation` H2 MVStore
+`EntityManager ConstraintViolationException` MERGE INTO

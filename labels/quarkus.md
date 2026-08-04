@@ -696,3 +696,4 @@
 - GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST
 - GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app
 - GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation
+- GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them

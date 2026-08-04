@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IntelliJ ide_refactor_rename rename only current overload
+rename_only_current relatedRenamingStrategy none
+overrideStrategy MCP tool schema

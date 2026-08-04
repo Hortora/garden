@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI @PostConstruct JPA blocking Vert.x
+Quarkus BlockingNotAllowedException
+registerKnownDefinitions lazy bean init

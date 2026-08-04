@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+sha256(record.toString())
+records toString()
+java records deterministic hash

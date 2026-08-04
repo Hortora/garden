@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus hibernate datasource runtime property
+hibernate orm processor configuration exception
+datasource active false build step

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+PlayerState clear() resets supply to zero silently
+EnemyBehavior train intent supply cost \u003e 0
+handleTrain rejects TrainIntent due to zero supply

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Hibernate ConstraintViolationException tenancy_id null
+Static entity factory JPA not-null insert
+LedgerMerkleTree tenancyId propagation

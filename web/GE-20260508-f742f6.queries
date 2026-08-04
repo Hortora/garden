@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`matrixWorld` update Three.js
+`raycaster intersectObjects` empty
+`unitHasTag` Map sync

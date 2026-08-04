@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+tsc --noEmit composite project error
+tsc --build --noEmit TS6310
+tsc emitDeclarationOnly monorepo

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`.outcome-badge` styles not applying in shadow DOM
+`static styles` scoping issue with callback-rendered content
+`display: inline-block` to resolve CSS scoping

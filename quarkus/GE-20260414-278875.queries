@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+QuarkusTransaction requiringNew() test
+QuarkusTransaction requiringNew() database constraints
+@TestTransaction rollback-only persistenceException

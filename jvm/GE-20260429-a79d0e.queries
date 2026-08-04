@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Alternative @Priority(1) quarkus arc`
+`quarkus arc selected-alternatives`
+`cdi alternative activation no config`

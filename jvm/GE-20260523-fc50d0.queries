@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How do ACL checks fail for external senders?
+Why do capability tags and role entries not match external senders?
+What is the unified lazy supplier used for in the AllowedWritersPolicy?

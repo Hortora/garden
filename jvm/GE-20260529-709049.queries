@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Java 21 sealed interface WebhookResult
+Java 21 nested records WebhookResult
+compiler error switch WebhookResult

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`SimpleCaseHubBeanTest` timeout
+`LedgerSequenceAllocator` CDI bean
+`MERGE INTO ledger_subject_sequence` error

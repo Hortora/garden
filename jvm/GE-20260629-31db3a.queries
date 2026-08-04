@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mockito mock inheritance default methods
+Mockito mocks subclass proxy boolean
+canExecute default method stubbing

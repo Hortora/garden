@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+EigenTrust 3-cycle convergence
+Pre-trusted distribution fallback row
+Dangling-node oscillation MAX_ITERATIONS

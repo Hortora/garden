@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`GITHUB_TOKEN packages:read fork PR`
+`mvn deploy 403 GITHUB_TOKEN`
+`GitHub Packages permission downgrade`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus test oidc connectivity error
+%dev.quarkus.oidc.enabled=false @QuarkusTest
+quarkus oidc discovery enabled false

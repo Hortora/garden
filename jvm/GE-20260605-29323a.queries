@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Maven Surefire -Dtest overrides execution includes
+Maven Surefire Dtest injection causes test execution failure
+JpaMemoryStoreTest runs in unexpected executions

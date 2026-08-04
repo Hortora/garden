@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+new RecordType(tenancyId, commandType)
+new RecordType(commandType, tenancyId)
+new RecordType(tenancyId, null)

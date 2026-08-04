@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+VectorFactory.vector(Document) self-hosted
+SparseVectorParams.setModifier(Modifier.Idf) BM25
+Document.setModel("qdrant/bm25") inference

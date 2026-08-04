@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ARC42STORIES.MD bootstrap`
+`LAYER-LOG.md source-of-truth`
+`CLAUDE.md redirect headers`

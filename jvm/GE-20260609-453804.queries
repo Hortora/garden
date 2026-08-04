@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`package-private member compile error`
+`enclosing class public access`
+`private field access cross package`

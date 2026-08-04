@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest NPE InMemoryReactiveCommitmentStore delegate`
+`missing @Inject ReactiveCommitmentStore`
+`NPE findByChannel UUID`

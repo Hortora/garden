@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI @Observes abstract base type subtypes
+CDI observer WorkLifecycleEvent event
+CDI observer assignability vs exact type

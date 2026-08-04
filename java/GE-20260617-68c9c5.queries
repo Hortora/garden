@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Set.of().contains(null) throws NullPointerException
+HashSet.contains(null) returns false
+Terminal States Set contains null

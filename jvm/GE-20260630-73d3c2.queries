@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Java records float[][] state mutation
+Immutable records unmodifiableMap float[][]
+record outputs accessor mutation

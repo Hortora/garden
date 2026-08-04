@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`RuntimeException Scope predicate invocation wrong number of arguments`
+`reflection predicate invoke ctx arity`
+`Predicate1 invoke arguments mismatch`

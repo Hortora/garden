@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Entity.find("ORDER BY field ASC") list() empty
+Panache find() WHERE clause fragment
+find() ORDER BY no WHERE clause

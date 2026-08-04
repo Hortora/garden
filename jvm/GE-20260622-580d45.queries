@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus security auth enabled-in-dev-mode false
+quarkus oidc enabled false
+@RolesAllowed enforcement dev mode

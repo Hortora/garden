@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus flyway migrate-at-start error
+@QuarkusTest hibernate schema validation
+quarkus flyway locations classpath

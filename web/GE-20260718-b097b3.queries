@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+panelShadow().locator("channel-feed").textContent()
+panelShadow().locator("channel-feed").innerText()
+channel-feed \u003e\u003e .content — finds individual content divs

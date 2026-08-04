@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`prev=${i-1}"` is defined and used
+in `@PermuteTypeParam(to="${prev}")`. The annotation compiles, but the generated class has
+far fewer type parameters than expected — silently truncated at 1 or 0.

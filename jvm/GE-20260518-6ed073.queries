@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mvn install NoSuchMethodError stale JAR
+mvn clean install skipTests constructor arity
+~/.m2 class file timestamp comparison

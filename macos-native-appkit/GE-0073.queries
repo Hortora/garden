@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+macOS key interception NSEvent
+BOOL flag mode-based key monitor
+slash mode AppKit key event handler

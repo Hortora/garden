@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ide_replace_text_in_file project_path git worktree
+ide_replace_text_in_file worktree project_path
+ide_replace_text_in_file silent edits git diff

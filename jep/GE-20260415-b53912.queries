@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+libpython3.12dylib import error
+PYTHONHOME missing CPython stdlib
+encodings module not found

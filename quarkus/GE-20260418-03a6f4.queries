@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is Instance\u003cT\u003e.select(NamedLiteral.of(name)).get() in CDI?
+How do I resolve a CDI bean by name at startup with `@PostConstruct`?
+What is the `UnsatisfiedResolutionException` error message and when does it occur in this pattern?

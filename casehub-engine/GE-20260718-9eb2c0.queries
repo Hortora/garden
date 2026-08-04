@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+NoSuchMethodError humanTask WorkItem creation
+Uncaught exception received by Vert.x
+rollback-human-escalation binding case RUNNING

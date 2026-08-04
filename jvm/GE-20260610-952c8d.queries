@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+child.tenantId != admin.tenantId()
+site.tenantId == trial.tenantId
+404 status code on admin access

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus quartz store-type ram
+quartz ram job store
+quartz jdbc store flyway migration

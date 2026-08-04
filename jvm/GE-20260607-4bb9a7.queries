@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+Await on specific caseId state, not shared static list, to prevent cross-test contamination in shared Quarkus CDI session
+What is the best way to await a classifier in Quarkus tests to avoid test contamination?

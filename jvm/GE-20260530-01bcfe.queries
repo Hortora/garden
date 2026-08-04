@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JPA @Column(nullable=false) NOT NULL constraint violation
+Hibernate action queue flush timing
+REQUIRES_NEW transaction commit not null exception

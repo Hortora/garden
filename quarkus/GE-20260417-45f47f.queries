@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ToolCallException` exception wrapping
+CDI interceptor `@WrapBusinessError`
+`@Tool` annotation and exception handling

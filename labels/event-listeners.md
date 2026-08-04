@@ -1,1 +1,2 @@
 - GE-20260701-fe7a85: Light DOM innerHTML re-render silently destroys parent-wired event listeners
+- GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them

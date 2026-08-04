@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+fn(Consumer2\u003cDS, A\u003e) compile error
+NCtxConsumer1\u003cA\u003e class name
+Consumer2\u003cA, DS\u003e erasure

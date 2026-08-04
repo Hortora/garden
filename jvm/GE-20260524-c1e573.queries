@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`quarkus.arc.exclude-types` ignores extension beans
+`DeploymentException` with excluded types
+`META-INF/quarkus-extension.properties` and bean discovery

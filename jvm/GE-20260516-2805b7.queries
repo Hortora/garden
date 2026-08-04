@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus arc cd deployment errors abstract class
+`@ApplicationScoped` bean candidate exclusion
+`quarkus.arc.exclude-types` test dependency indexing

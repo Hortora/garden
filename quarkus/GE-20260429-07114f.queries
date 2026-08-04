@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Playwright BASE_URL hardcoded to 8081
+`ERR_CONNECTION_REFUSED` Quarkus test port
+static final field initialization PlaywrightBase

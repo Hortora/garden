@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+BeautifulSoup html.parser AttributeError body next
+html.parser no body wrapper Tag object
+lxml html body wrapper fragment parsing

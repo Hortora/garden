@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@QuarkusTest connection refused default port`
+`quarkus property substitution test port`
+`self-referencing REST client port mapping`

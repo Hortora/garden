@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+eventBus.requestAndAwait()` with `eventBus.request()` and handle the `Uni\u003cVoid\u003e` manually.
+@ConsumeEvent(blocking = true) + String return type
+@ConsumeEvent(blocking = true) + void return type

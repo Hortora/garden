@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`EmulatedGame` `EnemyBehavior` `unitTargets`
+`stepToward` `Point2d` `remove`
+`distance` `freeze` `target`

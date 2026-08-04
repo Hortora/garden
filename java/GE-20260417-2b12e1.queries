@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+how to override package-private methods in a Java inner subclass
+how to mock HttpClient calls without Mockito
+what is a MockXxx class for testing HttpClient calls

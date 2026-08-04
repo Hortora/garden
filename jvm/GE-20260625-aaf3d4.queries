@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+QuarkusTransaction requiringNew stale trust score
+ambient CDI read JPA L1 cache
+TrustGateService currentScore incorrect read

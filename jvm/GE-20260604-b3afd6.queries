@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Java record invariant constraints`
+`ChannelCreateRequest IllegalArgumentException`
+`compact record constructor validation`

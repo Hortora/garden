@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+networknt json-schema-validator Jackson 3 Quarkus
+json-schema-validator 3.x classpath conflict
+JsonSchemaFactory VersionFlag V202012

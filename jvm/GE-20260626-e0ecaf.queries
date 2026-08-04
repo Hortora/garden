@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus.rest-client."homeassistant".url=${casehub.iot.homeassistant.url} NoSuchElementException
+Optional\u003cString\u003e url() ConfigMapping startup failure
+property expressions application.properties resolution

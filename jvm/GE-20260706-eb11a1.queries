@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+StubActualStateAdapter implementation for UnsatisfiedResolutionException
+@DefaultBean stubs for casehub-desiredstate SPIs
+quarkus.arc.exclude-types failing to resolve CDI injections

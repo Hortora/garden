@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus-mcp-server-http SSE endpoint
+mcp-server-http Streamable HTTP
+`/mcp/sse` response type

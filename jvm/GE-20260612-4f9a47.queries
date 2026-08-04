@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+RemoteGardenClient @Path("/search") class-level
+Quarkus REST client @Path conflict
+REST client interface no-op implementation

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Flyway baselineVersion "1" skipped migration
+baselineOnMigrate(true) no history table error
+"found non-empty schema with no history" Flyway

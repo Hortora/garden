@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JEXL silent(true) false condition `NullPointerException`
+JEXL strict(false) silent false evaluation
+JEXL expression null map returns false

@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+@TestSecurity(user = "setup", roles = {SPONSOR, INVESTIGATOR, COORDINATOR})
+// RestAssured POST /trials — expects 201 from class-level @TestSecurity

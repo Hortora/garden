@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Lit Set mutation in-place no re-render
+@property({ type: Object }) child component update
+statusFilter === Set does not trigger re-render

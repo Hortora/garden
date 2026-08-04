@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2427
+**Entries merged since last sweep:** 2433
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1926,6 +1926,7 @@
 - GE-20260804-b4cb6a [ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash](jvm/GE-20260804-b4cb6a.md)
 - GE-20260804-d378f3 [Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app](jvm/GE-20260804-d378f3.md)
 - GE-20260804-6076a3 [SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group](jvm/GE-20260804-6076a3.md)
+- GE-20260804-6dc382 [pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal](jvm/GE-20260804-6dc382.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2613,6 +2614,9 @@
 - GE-20260804-5e2650 [Qdrant scroll API filter with wrong key/match nesting silently returns 0 results](tools/GE-20260804-5e2650.md)
 - GE-20260804-d5c610 [DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries](tools/GE-20260804-d5c610.md)
 - GE-20260804-d6d68f [Qdrant scroll API with_vector accepts array of named vector names for selective fetch](tools/GE-20260804-d6d68f.md)
+- GE-20260804-09f3da [Workspace symlink pointing at wrong repo causes silent cross-repo context contamination](tools/GE-20260804-09f3da.md)
+- GE-20260804-3521be [Claude Code sets process title to version string — breaks tmux pane_current_command detection](tools/GE-20260804-3521be.md)
+- GE-20260804-1b28f5 [pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying](tools/GE-20260804-1b28f5.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2765,6 +2769,8 @@
 - GE-20260804-f4e13a [xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport](web/GE-20260804-f4e13a.md)
 - GE-20260804-4d9ce7 [Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js](web/GE-20260804-4d9ce7.md)
 - GE-20260804-96c692 [renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly](web/GE-20260804-96c692.md)
+- GE-20260804-64c599 [SSE EventSource sends message type, not named events — addEventListener misses them](web/GE-20260804-64c599.md)
+- GE-20260804-50d971 [pages-data-table paginated mode fills parent height — must wrap in constrained div](web/GE-20260804-50d971.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

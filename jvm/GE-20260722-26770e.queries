@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`mvn compile` stale SNAPSHOT jar
+`javap -v` wrong generic signatures
+`worktree-local repo resolve` maven-metadata.xml

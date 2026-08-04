@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Could not find artifact io.quarkiverse.quinoa:quarkus-quinoa:2.5.2
+quarkus-quinoa extension version missing
+casehubio @casehubio package version conflict

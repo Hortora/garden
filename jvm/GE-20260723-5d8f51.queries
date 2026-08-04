@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+`Instance\u003cMeterRegistry\u003e` parameter) {
+return new SituationDefinitionRegistry();

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus langchain4j core augmentation stalls without model provider
+quarkus test augmentation stalls compile scope langchain4j
+embeddingmodel instance isresolvable false error

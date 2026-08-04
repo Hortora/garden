@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+EndpointCapability.RECEIVE vs. QUERY
+`EndpointRegistry.discover` filtering by `EndpointCapability.RECEIVE`
+`EndpointDescriptor` with `EndpointCapability.RECEIVE` for poll targets

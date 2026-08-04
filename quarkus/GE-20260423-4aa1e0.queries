@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+"JPA JOINED inheritance persistence unit error"
+"Hibernate named PU missing entity"
+"@InheritanceType JOINED multiple libraries"

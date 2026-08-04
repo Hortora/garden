@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Lit updateComplete resolve before async buildOption Promise
+await el.updateComplete after setOption call
+chart mock calls not firing after updateComplete

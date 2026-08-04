@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+MyEntity status update no rows affected
+em.flush() JPQL bulk UPDATE no effect
+L1 cache persistence context discrepancy

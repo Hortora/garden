@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Response.ok(Uni\u003cList\u003cT\u003e\u003e) error
+Uni\u003cResponse\u003e vs Response serialization
+500 error Uni serialization

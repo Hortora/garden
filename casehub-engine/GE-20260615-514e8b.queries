@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+CDI deployment failures casehub-engine-blackboard
+quarkus test-scope unsatisfied dependency EventLogRepository
+CDI beans injecting SPI dependencies casehub-engine-blackboard

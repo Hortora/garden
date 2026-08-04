@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SRCFG00014 Quarkus config property error
+@ConfigProperty defaultValue "" empty string
+MicroProfile Config optional property

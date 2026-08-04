@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+reactive worker provisioner capabilities set
+provision context tasktype
+required capability set spi javadoc

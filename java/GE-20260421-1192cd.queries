@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+parse @ApplicationScoped service unit tests
+static package-private methods IngestService
+CDI fields null with static methods

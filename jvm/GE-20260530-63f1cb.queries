@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@PrePersist callbacks not firing`
+`in-memory repository JPA`
+`EntityManager not invoked`

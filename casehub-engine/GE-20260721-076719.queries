@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`casehub-platform-view` missing from BOM
+`SubjectViewOrchestrator` compilation error
+transitive resolution fails casehub-parent

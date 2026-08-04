@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+VARCHAR discriminator key nullity CHECK constraint
+multi-column CHECK constraint state machine
+unique NULLS not distinct actor_id capability_key dimension_key

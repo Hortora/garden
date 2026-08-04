@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`\u003cinput\u003e shadow DOM keyboard event target`
+`isEditable()` guard false
+`composed event retarget`

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus oidc discovery-disabled ConfigurationException
+quarkus oidc jwks-path introspection-path error
+quarkus oidc discovery-disabled requires jwks-path

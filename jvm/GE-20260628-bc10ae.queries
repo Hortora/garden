@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+buildGameInfo race-dependent fields
+GameInfo JoinGame playerRace
+SC2 protocol request ordering

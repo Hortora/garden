@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jsdom PointerEvent timeStamp near-zero velocity
+`Event.timeStamp` read-only getter
+velocity threshold jsdom

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`regex CRLF line endings`
+`YAML frontmatter regex skip`
+`re DOTALL line endings`

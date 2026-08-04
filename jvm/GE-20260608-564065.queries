@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`UnsatisfiedLinkError: Native Library already loaded in another classloader`
+@QuarkusTest + JUnit JNI tests
+native library classloader conflict

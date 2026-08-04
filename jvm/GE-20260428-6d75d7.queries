@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`MessageStore.countByChannel` return type
+`int` to `long` conversion Panache
+`Entity.count` return type

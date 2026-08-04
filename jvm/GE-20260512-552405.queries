@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@ConfigMapping interface methods without Javadoc cause compile error
+Quarkus config documentation processor Javadoc requirement
+annotation processing compile error @ConfigMapping

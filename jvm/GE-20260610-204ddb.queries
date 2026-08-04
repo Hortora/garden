@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Jandex index unsatisfied dependency`
+`quarkus arc jandex index stale`
+`CDI resolution missing @ApplicationScoped`

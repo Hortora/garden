@@ -128,3 +128,4 @@
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-5e2650: Qdrant scroll API filter with wrong key/match nesting silently returns 0 results
 - GE-20260804-b4cb6a: ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash
+- GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination

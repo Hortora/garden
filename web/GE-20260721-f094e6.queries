@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Constructor\u003cLitElement\u003e requires concrete new()`
+`PagesElement mixin TypeScript error`
+`TS2345 LitElement mixin`

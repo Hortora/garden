@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+target/test-classes duplicate-version errors
+Flyway migration version conflicts target
+Maven incremental build stale target classes

@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+@Alternative @Priority(1) inner beans QuarkusTest
+RecordingWorkerStatusListener reset

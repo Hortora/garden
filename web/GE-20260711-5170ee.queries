@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`sink.error({ message: "Extraction produced no data (empty array)", permanent: true })`
+`DataSetError("EMPTY_RESULT")`
+`extractDataSet throws EMPTY_RESULT`

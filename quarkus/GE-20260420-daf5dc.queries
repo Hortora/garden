@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus hibernate reactive panache test failure
+quarkus optional dep test error
+hibernate reactive datasource h2

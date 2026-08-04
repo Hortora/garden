@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus extension dependency verification error missing dependencies
+Quarkus deployment JAR stale cache error
+`quarkus-extension-maven-plugin` reads .m2 deployment JAR

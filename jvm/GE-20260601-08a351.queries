@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus oidc client devservices
+quarkus oidc client classpath keycloak
+instance oidcclient deployment error

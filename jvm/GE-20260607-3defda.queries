@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ComputedTrustScoreSource` cache invalidation
+`ConcurrentHashMap\u003cString, ComputedScores\u003e` zero-staleness
+`@Observes(during = TransactionPhase.AFTER_SUCCESS) AttestationRecordedEvent`

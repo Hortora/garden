@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How do Java records with `List\u003cT\u003e` fields maintain immutability?
+What is the root cause of a record's state being corrupted by a mutable list?
+What is the recommended fix for immutable `List\u003cT\u003e` fields in Java records?

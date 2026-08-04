@@ -1,2 +1,3 @@
 - GE-20260417-15f33f: AI session handover can describe committed work that was never committed
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
+- GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SyntheticBeanBuildItem getInjectedReference error
+SyntheticBeanBuildItem addInjectionPoint annotation
+SyntheticBeanBuildItem createWith runtime failure

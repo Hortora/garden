@@ -7,3 +7,4 @@
 - GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
 - GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches
 - GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging
+- GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal

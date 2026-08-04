@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus config validation exception empty string
+configmapping withdefault string error
+smallrye config optional string deploymentid

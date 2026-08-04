@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ChatMessage text() method
+UserMessage singleText()
+LangChain4j 1.x UserMessage compile error

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SubCaseGroupRepository alternative
+PlanItemStore alternative
+jakarta.enterprise.inject.spi.DeploymentException SubCaseGroupRepository

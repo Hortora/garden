@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`asJsonNode()` panel document
+`CONTEXT_CHANGED` events binding
+`CaseContextImpl` working path

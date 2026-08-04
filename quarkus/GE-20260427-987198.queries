@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus arc exclude types ambiguous resolution exception
+quarkus arc exclude types entity vs bean jpa
+quarkus arc exclude types unsatisfied resolution exception

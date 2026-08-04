@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`jakarta.ws.rs.core.Response WebApplicationException`
+`MicroProfile REST Client 5xx response`
+`Response.getStatus() / 100 not executed`

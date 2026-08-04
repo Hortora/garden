@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+delete episodic node cascade
+delete episode uuid error
+entity edge deletion graphiti

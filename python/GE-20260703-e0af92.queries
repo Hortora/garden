@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+torch.onnx.export TypeError external_data
+torch.onnx.export use_external_data_format error
+torch.onnx.export PyTorch 2.12 migration

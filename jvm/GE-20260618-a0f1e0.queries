@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+claude stream-json verbose output-format
+claude stream-json incremental streaming --verbose
+claude --output-format stream-json --verbose message streaming

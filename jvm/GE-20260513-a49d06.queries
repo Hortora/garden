@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Transactional  // active only when called directly via CDI proxy
+public WorkItem instantiate(WorkItemTemplate template, String titleOverride,
+String assigneeIdOverri

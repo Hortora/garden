@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+langchain4j document parser apache tika 1.14.1 error
+langchain4j document parser dependency resolution failure
+"Could not find artifact" langchain4j document parser

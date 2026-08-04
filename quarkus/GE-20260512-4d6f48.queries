@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`IllegalStateException Panache entity attached to multiple persistence units`
+`quarkus hibernate-orm packages qhorus entity conflict`
+`Panache proxy mechanism multiple persistence units`

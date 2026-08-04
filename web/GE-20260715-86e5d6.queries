@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Lit SPA hash-based routing fetch override
+globalThis fetch singleton SPA navigation
+fetch override disconnectedCallback SPA routes

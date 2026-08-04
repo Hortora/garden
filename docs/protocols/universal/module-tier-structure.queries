@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Tier 1 SPI interfaces
+Tier 2 core library dependencies
+JPA entities co-location error

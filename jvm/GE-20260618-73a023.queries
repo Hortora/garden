@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+jdbc:h2:mem:testdb mode postgresql detection
+getMetaData url connection properties
+hibernate agroal pooled connection metadata

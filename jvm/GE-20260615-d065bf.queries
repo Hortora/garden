@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Two @Startup @ApplicationScoped Quarkus beans have no guaranteed initialization order — @PostConstruct side effects are unreliable across beans
+Bean A's `@PostConstruct` sets a shared global (e.g. `Path.setDefaultParser()`)
+@ConfigProperty fields are always injected before @PostConstruct runs

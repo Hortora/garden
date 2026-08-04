@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+TrendEnrichment decorator overwriting multipliers
+Cross-encoder replacing input scores silently
+Reranking decorator discarding pre-applied decay factors

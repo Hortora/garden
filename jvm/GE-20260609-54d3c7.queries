@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+`BufferedReader` on raw ServerSocket reads ahead past HTTP headers
+`InvalidProtocolBufferException` WebSocket handshake

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@QuarkusTest method with Panache.withTransaction failing with "No current Vertx context"
+JUnit thread execution causes null Vertx context in Panache
+UniAsserter replacing await to avoid Vertx context issue

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`RESPONSE_FORMAT` hash changes without a corresponding `PROMPT_TEMPLATE` update as a potential caching issue.
+descriptorHash + ":" + contextHash + ":" + format.name() + ":" + TEMPLATE_HASH
+How does `TEMPLATE_HASH` impact LLM renderer caching?

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Raw PsiElement References in prepareRenaming() cause NullPointerException
+SmartPsiElementPointer fix for invalidating PsiElement references
+RenameWriteAction PSI invalidation and SmartPsiElementPointer

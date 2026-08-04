@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Event.fire()` not triggering observer
+`CDI observer injection failure`
+`QuarkusTest event observer`

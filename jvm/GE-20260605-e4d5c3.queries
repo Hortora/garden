@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+ContentRetriever retrieve() not called in standalone agentic invocation
+AgentBuilder contentRetriever injection fails
+langchain4j agent invocation RAG pipeline bypass

@@ -1,0 +1,1 @@
+- GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination

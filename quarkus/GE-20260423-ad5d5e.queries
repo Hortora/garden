@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`@Inject SC2Engine engine` resolves to different implementations per profile.
+`SimulatedGame` is still happily seeded but nobody reads it.
+`EmulatedEngine` broadcasts `EmulatedGame` — a separate object.

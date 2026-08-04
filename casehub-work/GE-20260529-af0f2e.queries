@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to observe `WorkItemLifecycleEvent` in casehub-engine?
+Why does `WorkItemLifecycleEvent` fire twice for Grade 4/5 AEs?
+What is `AdverseEventReportedEvent` and how does it differ from `WorkItemLifecycleEvent`?

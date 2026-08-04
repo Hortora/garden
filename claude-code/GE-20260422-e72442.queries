@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+claude --dangerously-skip-permissions settings.json
+settings.json permissions deny list
+agent permission prompt shell expansion

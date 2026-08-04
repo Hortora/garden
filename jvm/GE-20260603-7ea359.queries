@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What ChannelProjection\u003cS\u003e implementations need no CDI annotations?
+How does Qhorus discover ChannelProjection\u003cS\u003e implementations?
+Can a ChannelProjection\u003cS\u003e implementation live in a zero-dependency module?

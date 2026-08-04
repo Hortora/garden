@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+How to produce bare SSE frames from a Multi\u003cString\u003e?
+What is the difference between Multi\u003cString\u003e and Multi\u003cOutboundSseEvent\u003e for SSE?
+What annotation enables automatic text/event-stream wrapping of Multi\u003cString\u003e?

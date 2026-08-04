@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus em injection persistence unit
+quarkus persistence unit em annotated
+io.quarkus.hibernate.orm.PersistenceUnit injection

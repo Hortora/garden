@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SRCFG00050 quarkus configmapping
+@IfBuildProperty configmapping orphan error
+quarkus srcfg00050 enabled false

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Worker.Builder function(lambda) ambiguous`
+`java reference to function ambiguous WorkerFunction Function`
+`.function(input -\u003e WorkerResult.of(Map.of())) error`

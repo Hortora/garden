@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+tsc composite build no js files tsbuildinfo
+tsbuildinfo emitDeclarationOnly false
+tsc composite build exit code 0 no js

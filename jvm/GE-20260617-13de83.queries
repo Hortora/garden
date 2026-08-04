@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+context.registerSubtypes() custom @JsonTypeIdResolver
+Jackson TypeIdResolver silent type fidelity loss
+JsonTypeIdResolver CustomResolver class

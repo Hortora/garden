@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`Map.of` keys absent from JQ `inputSchema`
+`indReportingDeadline` null in capability agent
+`aeId` and `grade` missing from YAML `inputSchema`

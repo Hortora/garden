@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+quarkus flyway stale target classes
+mvn process-resources target classes migration
+"Table X not found" after git mv

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+how to add new parameter to @Tool method quarkus
+how to fix compile errors with @Tool method tests
+@ToolArg null value delegate Quarkus MCP

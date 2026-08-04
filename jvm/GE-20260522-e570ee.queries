@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@Startup @ApplicationScoped @PostConstruct MongoDB index
+Quarkus idempotent index creation pattern
+createIndex mongoCollection startup scope

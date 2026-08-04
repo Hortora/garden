@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+IllegalArgumentException CategoricalList field 'eventType' requires StringListVal
+CbrFeatureValidator validation query time
+schema evolution CBR CategoricalList

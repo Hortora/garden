@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`npm publish workspace:* error`
+`Yarn 4 workspace:* resolution`
+`npm publish monorepo no matching version`

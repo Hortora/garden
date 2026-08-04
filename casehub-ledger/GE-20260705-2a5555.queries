@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+io.casehub.ledger.api.model.LedgerAttestation @MappedSuperclass
+LedgerAttestation persistence errors JPA
+writeAttestation catch block WARN message

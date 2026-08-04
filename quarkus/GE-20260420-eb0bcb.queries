@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Uni\u003cT\u003e @Tool return types
+CompletionStage @Tool method support
+@NonBlocking @Tool method usage

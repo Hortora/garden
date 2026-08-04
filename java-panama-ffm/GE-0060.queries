@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+tput cols returns 0\r\n
+TERM environment variable absence
+Maven surefire test runner PTY subprocess

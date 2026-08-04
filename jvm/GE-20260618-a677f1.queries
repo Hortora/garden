@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java.net.http.HttpClient send 4xx
+HttpClient response statusCode()
+IOException HttpClient send()

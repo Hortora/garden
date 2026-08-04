@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+window.evaluate closure orig out of scope
+window._origFn window property
+ReferenceError orig is not defined

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+THREE.SpriteMaterial depthWrite false fog
+SpriteMaterial renderOrder fog
+SpriteMaterial alphaTest depthWrite

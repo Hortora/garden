@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+grep -r "OldClassName\|oldMethodName\|entityId()" --include="*.java" .
+grep -r "query\.entityId()\|new OldClass(" --include="*.java" .
+grep -r "OldClassName\|oldMethodName\|entityId()" --include="*.java" $(find . -path "*/src/test/*" -name "*.java" | xargs dirname | sort -u)

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`casehub.drafthouse.persistence.enabled` would not expect this issue.
+SmallRye Config validation rejects config keys under a prefix when not declared in the @ConfigMapping interface.
+`ConfigValidationException` occurs when @IfBuildProperty consumes a property also validated by @ConfigMapping with the same prefix.

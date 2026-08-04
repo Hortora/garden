@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+What exists but isn't documented
+Quarkus BuildTimeEnabledProcessor scans full combined Jandex index

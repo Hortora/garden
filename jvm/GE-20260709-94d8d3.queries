@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Qdrant scroll returns VectorOutput not Vector
+`VectorOutput` incompatible type for `PointStruct` upsert
+`HashMap\u003c\u003e` type inference error `VectorOutput` vs `Vector`

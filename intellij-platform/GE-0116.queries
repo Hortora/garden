@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`FileBasedIndexExtension` not populated after `addFileToProject()`
+`plugin.xml` extension registration failure
+`JavaPsiFacade.findClass()` synchronization issue

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Qhorus builder rejects EVENT messages with content
+MessageDispatch Builder IllegalArgumentException content
+Builder build() rejects .content() on EVENT messages

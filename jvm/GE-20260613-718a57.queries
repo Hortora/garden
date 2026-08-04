@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`descriptorNode buildLlmPayload stripNumericFields`
+`format-discriminated descriptor payload cache key`
+`A2A_CARD qualityHint latencyHintP50Ms`

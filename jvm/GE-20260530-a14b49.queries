@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+java "IllegalStateException" Syncs not allowed to be registered
+java "Narayana JTA" state 1
+@Transactional "registerInterposedSynchronization" rollback only

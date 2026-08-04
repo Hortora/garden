@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Mockito mockStatic cannot intercept inherited static methods
+`MissingMethodInvocationException` with `ExternalActor`
+Panache Active Record static methods `findByIdOptional`

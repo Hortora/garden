@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`WorkerOutcomeResolvedEvent` doesn't fire for success outcomes.
+`WorkflowExecutionCompletedHandler` doesn't publish events for successful workflow executions.
+`CaseContextChangedEvent` is published instead of `WorkerOutcomeResolvedEvent` on success.

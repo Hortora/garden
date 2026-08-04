@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+JQEvaluator CDI bean resolution failure
+casehub-engine classpath dependency
+quarkus.index-dependency JQEvaluator

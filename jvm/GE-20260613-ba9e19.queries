@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`DeviceEntity.Builder\u003c?, B\u003e` generic bound compilation error
+protected nested class in generic bound
+Builder access restriction cross-package compilation

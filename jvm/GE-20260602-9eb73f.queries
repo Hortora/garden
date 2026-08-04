@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Path[value=...] toString() Jackson JSON-B
+record toString() segments
+Java record serialization JSON

@@ -1,0 +1,3 @@
+# v:24d896 model=gemma3:4b count=3
+case PROBE\|case STALKER\|case MARINE -\u003e mapProtossAbility(type);
+case SIEGE_TANK -\u003e null;  // enemy type

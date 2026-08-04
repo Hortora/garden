@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`ChatModel` compiler error
+`doChat` extension point LangChain4j
+`ChatLanguageModel` not found 1.x

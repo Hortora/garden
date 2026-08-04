@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Hibernate insert all parent columns
+JpaLedgerEntry extends LedgerEntry error
+Inheritance and discriminator column mapping issues

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+on.contextChange.filter syntax for contextChange bindings
+CaseContextChangedEventHandler ignores when field
+WorkItem duplication due to contextChange bindings

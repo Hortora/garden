@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+REST Assured closeTo() Float error
+Jackson deserialize Double as Float
+`closeTo()` Hamcrest type mismatch

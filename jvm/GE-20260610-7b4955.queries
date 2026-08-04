@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@ConsumeEvent("casehub.context.changed.extracted")
+@ConsumeEvent("casehub.context.changed.inferences")
+Quarkus Arc @ConsumeEvent compile-time named Vert.x addresses

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+mockito-junit-jupiter version conflict quarkus bom
+quarkus bom shadow explicit version mockito-junit-jupiter
+mockito-junit-jupiter pom version pin quarkus

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+KeyFactory getInstance("Ed25519")
+KeyPairGenerator generateKeyPair Ed25519
+key.getAlgorithm() returns EdDSA

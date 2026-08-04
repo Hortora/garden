@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+H2 SIMILAR TO ALTER TABLE CHECK
+H2 PostgreSQL compatibility mode regex
+REGEXP_LIKE syntax error 42001

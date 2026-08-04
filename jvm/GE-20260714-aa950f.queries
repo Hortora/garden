@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+new DagDriver\u003c\u003e(plan, mode)` compiles but infers `R` as `Object` instead of the expected type
+new DagDriver\u003cT, R\u003e where `T` is inferrable from the constructor argument
+DagResult\u003cObject\u003e

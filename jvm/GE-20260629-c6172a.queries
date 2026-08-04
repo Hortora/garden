@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`java.net.http.WebSocket Sec-WebSocket-Accept GUID mismatch`
+`Corretto 22 WebSocket handshake failure`
+`java_net_http_OpeningHandshake SHA-1 validation`

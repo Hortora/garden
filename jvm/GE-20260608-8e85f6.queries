@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+EpisodicNode episode_metadata graphiti-core
+REST Message DTO episode_metadata
+graphiti_core nodes.py episode_metadata

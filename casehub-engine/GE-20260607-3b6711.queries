@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What beans annotated with `@RiskClassifier` are auto-composed?
+How does the engine handle multiple `ActionRiskClassifier` implementations?
+What happens if a `ActionRiskClassifier` throws an error?

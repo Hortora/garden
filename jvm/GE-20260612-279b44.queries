@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+@QuarkusTest ConditionTimeoutException failing tests
+YAML CaseHub registration with ConcurrentHashMap key collision
+JQ evaluator mismatch flat vs panels context expressions

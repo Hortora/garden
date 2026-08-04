@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+SmallRye Config NoSuchElementException Map\u003cString,String\u003e @ConfigProperty
+Optional Map\u003cString,String\u003e @ConfigProperty NoSuchElementException
+SmallRye Config multi-level prefix Optional\u003cMap\u003cString, String\u003e\u003e

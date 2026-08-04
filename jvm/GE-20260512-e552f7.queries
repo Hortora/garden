@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Quarkus @QuarkusTest application scoped bean state persistence
+@ApplicationScoped test state persistence across tests
+shared Quarkus application instance test failures

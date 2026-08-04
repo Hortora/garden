@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Slack conversations.list num_members
+conversations.list include_num_members
+Channel.memberCount null JSON

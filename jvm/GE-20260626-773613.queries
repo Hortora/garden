@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+Ollama 400 error "input length exceeds the context length"
+LangChain4j Quarkus Ollama embedAll ClientWebApplicationException
+embeddingModel num_ctx token context length

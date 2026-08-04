@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+What is CDI wiring latency when using `@QuarkusTest`?
+How does the `%test` profile affect `GameLoopBenchmarkTest`?
+Why is EmulatedGame throughput invisible from `@QuarkusTest` benchmarks?

@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+workitems_total Prometheus output
+Micrometer Gauge _total suffix
+Gauge named workitems.total

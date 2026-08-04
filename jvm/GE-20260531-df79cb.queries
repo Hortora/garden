@@ -1,0 +1,4 @@
+# v:24d896 model=gemma3:4b count=3
+`memory_fts MATCH`
+`fts5 content table triggers`
+`rank column BM25`
