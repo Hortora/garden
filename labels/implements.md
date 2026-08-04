@@ -1,1 +1,2 @@
 - GE-20260707-7fc8b4: TypeScript strict-mode setter contravariance blocks explicit implements even when class structurally satisfies interface
+- GE-20260804-09c7dc: jmarkdoc output lacks structured implements/extends sections

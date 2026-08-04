@@ -8,3 +8,4 @@
 - GE-20260719-59b809: RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
 - GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
+- GE-20260804-7469da: Java-to-markdown doclet landscape — no working tool on JDK 21/22

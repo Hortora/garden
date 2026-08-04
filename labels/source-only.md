@@ -1,0 +1,1 @@
+- GE-20260804-c1cf5c: jmarkdoc source-only mode produces production-quality API docs

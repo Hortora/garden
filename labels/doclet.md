@@ -1,0 +1,1 @@
+- GE-20260804-7469da: Java-to-markdown doclet landscape — no working tool on JDK 21/22

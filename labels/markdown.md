@@ -12,3 +12,5 @@
 - GE-20260605-51b347: pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching
 - GE-20260609-3bb404: Python regex \s* matches \n — table row parser merges separator row with next data row across newlines
 - GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios
+- GE-20260804-7469da: Java-to-markdown doclet landscape — no working tool on JDK 21/22
+- GE-20260804-c1cf5c: jmarkdoc source-only mode produces production-quality API docs

@@ -1,0 +1,1 @@
+- GE-20260804-09c7dc: jmarkdoc output lacks structured implements/extends sections

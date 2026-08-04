@@ -1285,3 +1285,6 @@
 | GE-20260804-eb75e0 | CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping | gotcha | 9/15 |
 | GE-20260804-565c2c | ActorTrustScoreRepository.findCapabilityDimension() — clean trust score lookup avoiding cross-PU EntityManager | technique | 8/15 |
 | GE-20260804-0e809e | Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key | technique | 12/15 |
+| GE-20260804-7469da | Java-to-markdown doclet landscape — no working tool on JDK 21/22 | gotcha | 11/15 |
+| GE-20260804-c1cf5c | jmarkdoc source-only mode produces production-quality API docs | technique | 9/15 |
+| GE-20260804-09c7dc | jmarkdoc output lacks structured implements/extends sections | undocumented | 8/15 |
