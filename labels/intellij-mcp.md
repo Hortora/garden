@@ -45,3 +45,4 @@
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
 - GE-20260803-c93d62: ide_change_signature threads new parameters through private call chains automatically
 - GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked
+- GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists

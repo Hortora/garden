@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2403
+**Entries merged since last sweep:** 2404
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -216,6 +216,7 @@
 - GE-20260802-d1b17d [IntelliJ MCP ide_replace_member nests duplicate method signature inside the body](intellij-platform/GE-20260802-d1b17d.md)
 - GE-20260803-ecb4d5 [ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
 - GE-20260804-8e2e87 [IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked](intellij-platform/GE-20260804-8e2e87.md)
+- GE-20260804-e391e9 [ide_replace_text_in_file silently strips imports added before referencing code exists](intellij-platform/GE-20260804-e391e9.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
