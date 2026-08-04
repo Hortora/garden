@@ -1,1 +1,2 @@
 - GE-20260626-c94109: @LookupIfProperty for conditional CDI bean activation via Instance<> — cleaner than inert-bean pattern
+- GE-20260804-6076a3: SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group

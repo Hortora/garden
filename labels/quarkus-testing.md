@@ -1,1 +1,2 @@
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
+- GE-20260804-6076a3: SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group

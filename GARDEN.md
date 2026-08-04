@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2426
+**Entries merged since last sweep:** 2427
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1925,6 +1925,7 @@
 - GE-20260804-3dd611 [Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging](jvm/GE-20260804-3dd611.md)
 - GE-20260804-b4cb6a [ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash](jvm/GE-20260804-b4cb6a.md)
 - GE-20260804-d378f3 [Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app](jvm/GE-20260804-d378f3.md)
+- GE-20260804-6076a3 [SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group](jvm/GE-20260804-6076a3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

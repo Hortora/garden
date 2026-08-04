@@ -6,3 +6,4 @@
 - GE-20260604-3ae124: ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
+- GE-20260804-6076a3: SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group

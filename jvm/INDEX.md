@@ -1299,3 +1299,4 @@
 | GE-20260804-3dd611 | Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging | technique | 9/15 |
 | GE-20260804-b4cb6a | ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash | gotcha | 11/15 |
 | GE-20260804-d378f3 | Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app | gotcha | 9/15 |
+| GE-20260804-6076a3 | SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group | gotcha | 11/15 |
