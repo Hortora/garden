@@ -1,0 +1,1 @@
+- GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging

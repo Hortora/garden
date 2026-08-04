@@ -1296,3 +1296,4 @@
 | GE-20260804-c8590c | casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry | gotcha | 9/15 |
 | GE-20260804-738e1a | CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation | gotcha | 9/15 |
 | GE-20260804-face79 | Vertex AI Claude via java.net.http.HttpClient — no LangChain4j extension needed | technique | 10/15 |
+| GE-20260804-3dd611 | Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging | technique | 9/15 |
