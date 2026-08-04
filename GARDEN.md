@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2419
+**Entries merged since last sweep:** 2420
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2757,6 +2757,7 @@
 - GE-20260804-31bdba [Declared but uninstalled npm dependency — partial test suite masks total failure](web/GE-20260804-31bdba.md)
 - GE-20260804-f4e13a [xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport](web/GE-20260804-f4e13a.md)
 - GE-20260804-4d9ce7 [Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js](web/GE-20260804-4d9ce7.md)
+- GE-20260804-96c692 [renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly](web/GE-20260804-96c692.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

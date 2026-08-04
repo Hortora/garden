@@ -136,3 +136,4 @@
 | GE-20260804-31bdba | Declared but uninstalled npm dependency — partial test suite masks total failure | gotcha | 8/15 |
 | GE-20260804-f4e13a | xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport | gotcha | 11/15 |
 | GE-20260804-4d9ce7 | Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js | technique | 10/15 |
+| GE-20260804-96c692 | renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly | gotcha | 11/15 |
