@@ -1,1 +1,2 @@
 - GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
+- GE-20260804-4d9ce7: Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js

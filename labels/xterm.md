@@ -1,3 +1,2 @@
-- GE-20260421-49a3ca: tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p
 - GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
 - GE-20260804-4d9ce7: Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js

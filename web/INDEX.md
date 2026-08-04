@@ -134,3 +134,5 @@
 | GE-20260803-cdec3c | happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument | gotcha | 8/15 |
 | GE-20260804-d6b186 | Stale workspace:* dist hides missing exports — runtime undefined function | gotcha | 9/15 |
 | GE-20260804-31bdba | Declared but uninstalled npm dependency — partial test suite masks total failure | gotcha | 8/15 |
+| GE-20260804-f4e13a | xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport | gotcha | 11/15 |
+| GE-20260804-4d9ce7 | Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js | technique | 10/15 |

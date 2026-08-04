@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2406
+**Entries merged since last sweep:** 2410
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2595,6 +2595,8 @@
 - GE-20260803-263c2c [Explicit state machine replaces multi-signal inference for lifecycle detection](tools/GE-20260803-263c2c.md)
 - GE-20260803-293dd2 [Three-phase transition protocol for state machines that switch branches](tools/GE-20260803-293dd2.md)
 - GE-20260804-2e5ca2 [Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect](tools/GE-20260804-2e5ca2.md)
+- GE-20260804-f694b3 [tmux new-session -c sets default-path but shell inherits parent process CWD](tools/GE-20260804-f694b3.md)
+- GE-20260804-961272 [capture-pane without -e strips ANSI — replayed terminal display garbles](tools/GE-20260804-961272.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2744,6 +2746,8 @@
 - GE-20260803-cdec3c [happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument](web/GE-20260803-cdec3c.md)
 - GE-20260804-d6b186 [Stale workspace:* dist hides missing exports — runtime undefined function](web/GE-20260804-d6b186.md)
 - GE-20260804-31bdba [Declared but uninstalled npm dependency — partial test suite masks total failure](web/GE-20260804-31bdba.md)
+- GE-20260804-f4e13a [xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport](web/GE-20260804-f4e13a.md)
+- GE-20260804-4d9ce7 [Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js](web/GE-20260804-4d9ce7.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

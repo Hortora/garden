@@ -1,1 +1,2 @@
 - GE-20260505-2718d5: Parallel bash tool calls share working directory — drift produces silent wrong-repo operations
+- GE-20260804-f694b3: tmux new-session -c sets default-path but shell inherits parent process CWD

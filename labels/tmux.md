@@ -1,2 +1,4 @@
 - GE-20260427-725833: WebSocket test break-on-marker fires on echoed shell command, not on actual output — regex required
 - GE-20260421-49a3ca: tmux #{pane_activity} is blank without an attached client — use #{window_activity}; display-message requires -t before -p
+- GE-20260804-f694b3: tmux new-session -c sets default-path but shell inherits parent process CWD
+- GE-20260804-961272: capture-pane without -e strips ANSI — replayed terminal display garbles

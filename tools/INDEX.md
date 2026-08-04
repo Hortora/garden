@@ -646,3 +646,5 @@
 | GE-20260803-263c2c | Explicit state machine replaces multi-signal inference for lifecycle detection | technique | 10/15 |
 | GE-20260803-293dd2 | Three-phase transition protocol for state machines that switch branches | technique | 9/15 |
 | GE-20260804-2e5ca2 | Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect | technique | 9/15 |
+| GE-20260804-f694b3 | tmux new-session -c sets default-path but shell inherits parent process CWD | gotcha | 9/15 |
+| GE-20260804-961272 | capture-pane without -e strips ANSI — replayed terminal display garbles | gotcha | 10/15 |

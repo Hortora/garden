@@ -26,3 +26,4 @@
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
+- GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport

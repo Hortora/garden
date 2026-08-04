@@ -1,0 +1,1 @@
+- GE-20260804-961272: capture-pane without -e strips ANSI — replayed terminal display garbles

@@ -12,3 +12,5 @@
 - GE-20260723-09e6d9: DOM structure tests pass while CSS layout is wrong — Web Component test gap
 - GE-20260730-ec4b06: Native Popover API + CSS Anchor Positioning replaces JS popover stack in Lit shadow DOM
 - GE-20260801-355ce5: CSS all:initial resets custom properties — design tokens must be explicitly re-declared
+- GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
+- GE-20260804-4d9ce7: Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js

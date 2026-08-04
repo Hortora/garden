@@ -1,2 +1,1 @@
-- GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes
 - GE-20260804-f694b3: tmux new-session -c sets default-path but shell inherits parent process CWD
