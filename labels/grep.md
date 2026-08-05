@@ -4,3 +4,4 @@
 - GE-20260529-182916: project-init fast-path grep silently misses bold-markdown formatted CLAUDE.md entries
 - GE-20260529-182916: project-init fast-path gives false negatives for two common workspace layouts
 - GE-20260529-182916: project-init fast-path gives false negatives for three bold-markdown and workspace layout scenarios
+- GE-20260529-182916: project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios

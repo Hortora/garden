@@ -656,3 +656,4 @@
 | GE-20260804-3521be | Claude Code sets process title to version string — breaks tmux pane_current_command detection | gotcha | 8/15 |
 | GE-20260804-1b28f5 | pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying | technique | 10/15 |
 | GE-20260804-d652bc | pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation | gotcha | 9/15 |
+| GE-20260529-182916 | project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios | gotcha | 9/15 |

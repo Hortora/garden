@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2455
+**Entries merged since last sweep:** 2456
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2631,6 +2631,7 @@
 - GE-20260804-3521be [Claude Code sets process title to version string — breaks tmux pane_current_command detection](tools/GE-20260804-3521be.md)
 - GE-20260804-1b28f5 [pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying](tools/GE-20260804-1b28f5.md)
 - GE-20260804-d652bc [pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation](tools/GE-20260804-d652bc.md)
+- GE-20260529-182916 [project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios](tools/GE-20260529-182916.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
