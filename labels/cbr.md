@@ -12,3 +12,4 @@
 - GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
 - GE-20260804-7bd9f4: ScoredCbrCase constructor parameter order — cbrCase first, not caseId
 - GE-20260804-eb75e0: CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping
+- GE-20260805-4336aa: InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path

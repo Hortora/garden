@@ -1,0 +1,1 @@
+- GE-20260805-22a224: Engine YAML goals not referenced in completion expression now fail at startup — silent-to-noisy SNAPSHOT break

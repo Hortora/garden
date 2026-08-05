@@ -11,3 +11,4 @@
 - GE-20260725-cae3ad: Query/document expansion harms strong retrievers — don't expand when your baseline is already good
 - GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
 - GE-20260803-f9d8ae: Tokenization quality does not predict embedding retrieval precision — training objective dominates
+- GE-20260805-4336aa: InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path

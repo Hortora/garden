@@ -1,0 +1,1 @@
+- GE-20260805-4336aa: InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path
