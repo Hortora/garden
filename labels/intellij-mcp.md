@@ -53,3 +53,4 @@
 - GE-20260804-caaf12: IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines
 - GE-20260804-fe785f: IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin
 - GE-20260804-cf77dc: IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path
+- GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk

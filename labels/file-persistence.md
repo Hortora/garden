@@ -1,0 +1,1 @@
+- GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk

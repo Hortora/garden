@@ -6,3 +6,4 @@
 - GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body
 - GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
 - GE-20260804-fe785f: IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin
+- GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
