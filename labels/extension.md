@@ -26,3 +26,4 @@
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
 - GE-20260609-1ba140: @Produce(ServiceStartBuildItem.class) forces execution of BuildSteps with unconsumed MultiBuildItems
 - GE-20260521-977e3e: Void @BuildStep in Quarkus extension is silently elided unless anchored with @Produce(ArtifactResultBuildItem.class)
+- GE-20260805-cbde22: quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors

@@ -388,3 +388,7 @@
 - GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
 - GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation
 - GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles
+- GE-20260805-340331: Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead
+- GE-20260805-a2aa1b: casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource
+- GE-20260805-cbde22: quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors
+- GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic

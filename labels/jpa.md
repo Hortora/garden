@@ -112,3 +112,4 @@
 - GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently
 - GE-20260730-653783: New eidos JPA stores silently break consumer apps using in-memory alternatives
 - GE-20260731-016352: JPA @Transactional void method + non-transactional re-fetch returns stale entity state
+- GE-20260805-a2aa1b: casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource

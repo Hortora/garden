@@ -13,3 +13,4 @@
 - GE-20260612-4f9a47: Quarkus REST client interface with @Path at class level silently registers as a server resource — shadows the real endpoint
 - GE-20260626-e0ecaf: SmallRye Config property expressions in application.properties resolve before @ConfigMapping — Optional<String> on the interface does NOT prevent startup failure
 - GE-20260626-fce458: ClientHeadersFactory silently ignored by RestClientBuilder.register() — requests go out without auth header, API returns 401
+- GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic

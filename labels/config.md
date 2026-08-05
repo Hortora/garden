@@ -26,3 +26,4 @@
 - GE-20260612-c3b611: SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds
 - GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
 - GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
+- GE-20260805-340331: Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead

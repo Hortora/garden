@@ -1313,3 +1313,7 @@
 | GE-20260805-ac9dfb | Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server | gotcha | 11/15 |
 | GE-20260805-89bc48 | Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles | technique | 9/15 |
 | GE-20260622-580d45 | quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server | technique | 12/15 |
+| GE-20260805-340331 | Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead | gotcha | 10/15 |
+| GE-20260805-a2aa1b | casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource | gotcha | 9/15 |
+| GE-20260805-cbde22 | quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors | gotcha | 10/15 |
+| GE-20260805-a28f5b | Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic | architectural | 11/15 |

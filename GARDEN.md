@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2467
+**Entries merged since last sweep:** 2471
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1943,6 +1943,10 @@
 - GE-20260805-ac9dfb [Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server](jvm/GE-20260805-ac9dfb.md)
 - GE-20260805-89bc48 [Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles](jvm/GE-20260805-89bc48.md)
 - GE-20260622-580d45 [quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server](jvm/GE-20260622-580d45.md)
+- GE-20260805-340331 [Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead](jvm/GE-20260805-340331.md)
+- GE-20260805-a2aa1b [casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource](jvm/GE-20260805-a2aa1b.md)
+- GE-20260805-cbde22 [quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors](jvm/GE-20260805-cbde22.md)
+- GE-20260805-a28f5b [Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic](jvm/GE-20260805-a28f5b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -5,3 +5,4 @@
 - GE-20260604-a6f008: Multi-module extension: optional module types often live in the core module, not the feature module
 - GE-20260706-16293f: Narrowing a Maven dependency from compile to test scope breaks sibling modules that relied on the transitive path
 - GE-20260709-137b8e: Peer Tier 1 API modules sharing utility code — extract a zero-dep Tier 1 utility module
+- GE-20260805-a2aa1b: casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource
