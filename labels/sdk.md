@@ -1,3 +1,4 @@
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
 - GE-20260602-f8c7db: claude-agent-sdk-java (spring-ai-community) is not published to Maven Central — JitPack required
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
+- GE-20260805-aa8a88: buildFlatGraph() synthetic container nodes cause false integrity mismatches

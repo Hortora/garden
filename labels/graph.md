@@ -1,0 +1,3 @@
+- GE-20260805-aa8a88: buildFlatGraph() synthetic container nodes cause false integrity mismatches
+- GE-20260805-d1044d: buildFlatGraph() nested try: subtask IDs omit /do/ path segment
+- GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode

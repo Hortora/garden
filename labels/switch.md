@@ -1,3 +1,4 @@
 - GE-20260415-fd3530: Replace parallel switch chains over the same key with a single lookup map using index constants
 - GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases
 - GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm
+- GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives

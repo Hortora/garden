@@ -1,0 +1,3 @@
+- GE-20260805-aa8a88: buildFlatGraph() synthetic container nodes cause false integrity mismatches
+- GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives
+- GE-20260805-d1044d: buildFlatGraph() nested try: subtask IDs omit /do/ path segment

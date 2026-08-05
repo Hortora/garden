@@ -1,1 +1,2 @@
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
+- GE-20260805-d1044d: buildFlatGraph() nested try: subtask IDs omit /do/ path segment

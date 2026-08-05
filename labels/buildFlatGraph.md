@@ -1,0 +1,1 @@
+- GE-20260805-aa8a88: buildFlatGraph() synthetic container nodes cause false integrity mismatches

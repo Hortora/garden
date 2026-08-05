@@ -1,1 +1,2 @@
 - GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths
+- GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode

@@ -17,3 +17,4 @@
 - GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init
 - GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
+- GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives

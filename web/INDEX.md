@@ -149,3 +149,7 @@
 | GE-20260804-149db1 | Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files | gotcha | 10/15 |
 | GE-20260805-e3211c | pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite | technique | 9/15 |
 | GE-20260805-0f01a5 | TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments | gotcha | 9/15 |
+| GE-20260805-aa8a88 | buildFlatGraph() synthetic container nodes cause false integrity mismatches | gotcha | 14/15 |
+| GE-20260805-4091ab | buildFlatGraph() throws unclear error on invalid SWF flow directives | gotcha | 12/15 |
+| GE-20260805-d1044d | buildFlatGraph() nested try: subtask IDs omit /do/ path segment | gotcha | 14/15 |
+| GE-20260805-bdbc53 | Dual-walk pattern for SDK-backed domain adapters with degraded mode | technique | 14/15 |

@@ -1,0 +1,1 @@
+- GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode

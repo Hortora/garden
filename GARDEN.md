@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2463
+**Entries merged since last sweep:** 2467
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2801,6 +2801,10 @@
 - GE-20260804-149db1 [Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files](web/GE-20260804-149db1.md)
 - GE-20260805-e3211c [pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite](web/GE-20260805-e3211c.md)
 - GE-20260805-0f01a5 [TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments](web/GE-20260805-0f01a5.md)
+- GE-20260805-aa8a88 [buildFlatGraph() synthetic container nodes cause false integrity mismatches](web/GE-20260805-aa8a88.md)
+- GE-20260805-4091ab [buildFlatGraph() throws unclear error on invalid SWF flow directives](web/GE-20260805-4091ab.md)
+- GE-20260805-d1044d [buildFlatGraph() nested try: subtask IDs omit /do/ path segment](web/GE-20260805-d1044d.md)
+- GE-20260805-bdbc53 [Dual-walk pattern for SDK-backed domain adapters with degraded mode](web/GE-20260805-bdbc53.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
