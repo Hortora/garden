@@ -2,3 +2,4 @@
 - GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
 - GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
+- GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator

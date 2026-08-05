@@ -191,3 +191,4 @@
 - GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked
 - GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
 - GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions
+- GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator

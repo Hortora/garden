@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2478
+**Entries merged since last sweep:** 2479
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2648,6 +2648,7 @@
 - GE-20260805-533d77 [Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation](tools/GE-20260805-533d77.md)
 - GE-20260805-834e72 [Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams](tools/GE-20260805-834e72.md)
 - GE-20260805-1afb83 [IntelliJ ide_edit_member reformats entire method body on replacement](tools/GE-20260805-1afb83.md)
+- GE-20260805-ffef3b [Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator](tools/GE-20260805-ffef3b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

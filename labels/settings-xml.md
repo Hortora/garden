@@ -1,2 +1,3 @@
 - GE-20260428-f94886: setup-java server-id only wires credentials for that exact repository id — different ids in pom get 401
 - GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository
+- GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator

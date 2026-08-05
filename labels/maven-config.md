@@ -1,0 +1,1 @@
+- GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator
