@@ -1310,3 +1310,6 @@
 | GE-20260805-7e81a3 | Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException | gotcha | 10/15 |
 | GE-20260805-4336aa | InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path | gotcha | 10/15 |
 | GE-20260805-22a224 | Engine YAML goals not referenced in completion expression now fail at startup — silent-to-noisy SNAPSHOT break | gotcha | 9/15 |
+| GE-20260805-ac9dfb | Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server | gotcha | 11/15 |
+| GE-20260805-89bc48 | Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles | technique | 9/15 |
+| GE-20260622-580d45 | quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server | technique | 12/15 |

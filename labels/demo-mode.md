@@ -1,0 +1,1 @@
+- GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles

@@ -147,3 +147,4 @@
 | GE-20260804-24d409 | Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI | gotcha | 11/15 |
 | GE-20260804-52ba5f | SSE addEventListener for named events silently ignores unnamed server events — use onmessage | gotcha | 14/15 |
 | GE-20260804-149db1 | Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files | gotcha | 10/15 |
+| GE-20260805-e3211c | pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite | technique | 9/15 |

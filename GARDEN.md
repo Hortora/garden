@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2456
+**Entries merged since last sweep:** 2460
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1940,6 +1940,9 @@
 - GE-20260805-7e81a3 [Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException](jvm/GE-20260805-7e81a3.md)
 - GE-20260805-4336aa [InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path](jvm/GE-20260805-4336aa.md)
 - GE-20260805-22a224 [Engine YAML goals not referenced in completion expression now fail at startup — silent-to-noisy SNAPSHOT break](jvm/GE-20260805-22a224.md)
+- GE-20260805-ac9dfb [Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server](jvm/GE-20260805-ac9dfb.md)
+- GE-20260805-89bc48 [Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles](jvm/GE-20260805-89bc48.md)
+- GE-20260622-580d45 [quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server](jvm/GE-20260622-580d45.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2794,6 +2797,7 @@
 - GE-20260804-24d409 [Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI](web/GE-20260804-24d409.md)
 - GE-20260804-52ba5f [SSE addEventListener for named events silently ignores unnamed server events — use onmessage](web/GE-20260804-52ba5f.md)
 - GE-20260804-149db1 [Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files](web/GE-20260804-149db1.md)
+- GE-20260805-e3211c [pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite](web/GE-20260805-e3211c.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

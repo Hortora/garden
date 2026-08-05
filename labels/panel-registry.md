@@ -1,2 +1,1 @@
-- GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
 - GE-20260805-e3211c: pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite

@@ -5,3 +5,4 @@
 - GE-20260714-f54d2b: Conditional vitest aliases with existsSync for sibling repo resolution
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups
+- GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server

@@ -1,1 +1,2 @@
 - GE-20260804-d378f3: Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app
+- GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server

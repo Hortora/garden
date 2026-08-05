@@ -30,3 +30,4 @@
 - GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div
 - GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
+- GE-20260805-e3211c: pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite

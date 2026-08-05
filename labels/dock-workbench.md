@@ -1,2 +1,3 @@
 - GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component
 - GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components
+- GE-20260805-e3211c: pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite

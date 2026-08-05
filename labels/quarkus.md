@@ -701,3 +701,6 @@
 - GE-20260804-36d1ad: Qhorus api module provides MessageDispatcher and ChannelReader SPIs — bridge modules can avoid runtime dependency entirely
 - GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files
 - GE-20260804-d652bc: pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation
+- GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
+- GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles
+- GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server

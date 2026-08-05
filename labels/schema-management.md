@@ -1,1 +1,2 @@
 - GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it
+- GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles

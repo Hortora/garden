@@ -9,3 +9,5 @@
 - GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
 - GE-20260706-cbd6b2: @IfBuildProfile dev bean provider for platform-supplied CDI beans in quarkus:dev mode
 - GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files
+- GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
+- GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server

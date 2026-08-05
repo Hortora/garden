@@ -27,3 +27,4 @@
 - GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
 - GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks
+- GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
