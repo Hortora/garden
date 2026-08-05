@@ -1,2 +1,1 @@
-- GE-20260422-458078: Spawn a research agent with targeted academic + standards queries to drive architecture decisions
 - GE-20260805-834e72: Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams

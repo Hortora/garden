@@ -66,3 +66,4 @@
 - GE-20260803-cc61b5: IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context
 - GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors
 - GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect
+- GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation

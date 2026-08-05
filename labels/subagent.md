@@ -7,3 +7,4 @@
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
+- GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation

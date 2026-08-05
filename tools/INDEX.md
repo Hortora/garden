@@ -657,3 +657,5 @@
 | GE-20260804-1b28f5 | pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying | technique | 10/15 |
 | GE-20260804-d652bc | pkill -f with broad JVM patterns kills unintended Quarkus services sharing the same invocation | gotcha | 9/15 |
 | GE-20260529-182916 | project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios | gotcha | 9/15 |
+| GE-20260805-533d77 | Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation | gotcha | 9/15 |
+| GE-20260805-834e72 | Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams | technique | 9/15 |

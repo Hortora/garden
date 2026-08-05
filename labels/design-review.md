@@ -1,1 +1,2 @@
 - GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
+- GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation

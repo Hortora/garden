@@ -21,3 +21,4 @@
 - GE-20260714-ac8230: Serialisation boundary rule — bridge.serialise() only at storage/wire boundaries
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
 - GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
+- GE-20260805-834e72: Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams
