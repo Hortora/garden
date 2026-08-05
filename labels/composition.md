@@ -4,3 +4,4 @@
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
 - GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
+- GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type

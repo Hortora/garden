@@ -1,0 +1,1 @@
+- GE-20260805-06bcb8: AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation

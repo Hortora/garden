@@ -34,3 +34,4 @@
 - GE-20260706-abaddc: Quarkus ARC @DefaultBean injection points resolve before @Alternative activation in external JARs
 - GE-20260714-e97b0a: @DefaultBean is superseded by any non-@DefaultBean in @QuarkusTest — test CDI default is not @DefaultBean
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
+- GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type

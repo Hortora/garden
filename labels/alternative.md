@@ -48,3 +48,4 @@
 - GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
 - GE-20260725-a4aa6c: CDI @Alternative replacing @PostConstruct-self-populating bean silently drops classpath-discovered content
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
+- GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type

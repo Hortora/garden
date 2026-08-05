@@ -1317,3 +1317,5 @@
 | GE-20260805-a2aa1b | casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource | gotcha | 9/15 |
 | GE-20260805-cbde22 | quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors | gotcha | 10/15 |
 | GE-20260805-a28f5b | Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic | architectural | 11/15 |
+| GE-20260805-06bcb8 | AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation | gotcha | 10/15 |
+| GE-20260805-98f040 | @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type | technique | 13/15 |

@@ -108,3 +108,4 @@
 - GE-20260804-f22608: Place LLM worker factories in their domain package, not the advisory package
 - GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc
 - GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry
+- GE-20260805-06bcb8: AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation
