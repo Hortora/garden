@@ -1,0 +1,1 @@
+- GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions

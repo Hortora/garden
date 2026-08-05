@@ -55,3 +55,4 @@
 - GE-20260804-cf77dc: IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path
 - GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
 - GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers
+- GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions

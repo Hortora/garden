@@ -55,3 +55,4 @@
 | GE-20260804-777881 | ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source | gotcha | 10/15 |
 | GE-20260805-912fa7 | IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk | gotcha | 15/15 |
 | GE-20260805-450be2 | ide_replace_text_in_file does substring matching — replaces inside longer identifiers | gotcha | 10/15 |
+| GE-20260805-792bab | IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions | gotcha | 11/15 |
