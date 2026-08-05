@@ -14,3 +14,4 @@
 | GE-20260622-71f4b9 | WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only | gotcha | 11/15 |
 | GE-20260629-45f4be | REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle | gotcha | 11/15 |
 | GE-20260629-db82b4 | WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution | undocumented | 10/15 |
+| GE-20260805-10e5dd | CaseQueueService.escalate() silently sets viewName to null on the target entry | undocumented | 8/15 |

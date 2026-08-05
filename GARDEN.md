@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2451
+**Entries merged since last sweep:** 2453
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -95,6 +95,7 @@
 - GE-20260622-71f4b9 [WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only](casehub-work/GE-20260622-71f4b9.md)
 - GE-20260629-45f4be [REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle](casehub-work/GE-20260629-45f4be.md)
 - GE-20260629-db82b4 [WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution](casehub-work/GE-20260629-db82b4.md)
+- GE-20260805-10e5dd [CaseQueueService.escalate() silently sets viewName to null on the target entry](casehub-work/GE-20260805-10e5dd.md)
 ### casehub-ledger/
 - GE-20260511-b6f903 [casehub-ledger required fields](casehub-ledger/GE-20260511-b6f903.md)
 - GE-20260420-b9259e [LedgerAttestation in quarkus-ledger is plain @Entity — Panache statics cause compile error](casehub-ledger/GE-20260420-b9259e.md)
@@ -1936,6 +1937,7 @@
 - GE-20260804-415b0d [qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing](jvm/GE-20260804-415b0d.md)
 - GE-20260804-188cd4 [Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException](jvm/GE-20260804-188cd4.md)
 - GE-20260804-09f69a [jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports](jvm/GE-20260804-09f69a.md)
+- GE-20260805-7e81a3 [Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException](jvm/GE-20260805-7e81a3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

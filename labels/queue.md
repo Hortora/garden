@@ -1,1 +1,2 @@
 - GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
+- GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry

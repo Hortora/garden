@@ -1307,3 +1307,4 @@
 | GE-20260804-415b0d | qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing | gotcha | 8/15 |
 | GE-20260804-188cd4 | Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException | gotcha | 8/15 |
 | GE-20260804-09f69a | jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports | gotcha | 10/15 |
+| GE-20260805-7e81a3 | Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException | gotcha | 10/15 |

@@ -1,0 +1,1 @@
+- GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry

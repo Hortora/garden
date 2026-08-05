@@ -1,0 +1,1 @@
+- GE-20260805-7e81a3: Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException
