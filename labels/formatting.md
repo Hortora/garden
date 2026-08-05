@@ -1,1 +1,2 @@
 - GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
+- GE-20260805-1afb83: IntelliJ ide_edit_member reformats entire method body on replacement

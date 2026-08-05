@@ -1,0 +1,1 @@
+- GE-20260805-6b1f56: Java Duration.ofDays normalizes to hours in ISO-8601 serialization

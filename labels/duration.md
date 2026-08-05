@@ -1,1 +1,2 @@
 - GE-20260626-5074cf: CompletableFuture.orTimeout() silently fires immediately when Duration.toSeconds() truncates sub-second values to 0
+- GE-20260805-6b1f56: Java Duration.ofDays normalizes to hours in ISO-8601 serialization

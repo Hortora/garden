@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2474
+**Entries merged since last sweep:** 2476
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1950,6 +1950,7 @@
 - GE-20260805-a28f5b [Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic](jvm/GE-20260805-a28f5b.md)
 - GE-20260805-06bcb8 [AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation](jvm/GE-20260805-06bcb8.md)
 - GE-20260805-98f040 [@ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type](jvm/GE-20260805-98f040.md)
+- GE-20260805-6b1f56 [Java Duration.ofDays normalizes to hours in ISO-8601 serialization](jvm/GE-20260805-6b1f56.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2644,6 +2645,7 @@
 - GE-20260529-182916 [project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios](tools/GE-20260529-182916.md)
 - GE-20260805-533d77 [Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation](tools/GE-20260805-533d77.md)
 - GE-20260805-834e72 [Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams](tools/GE-20260805-834e72.md)
+- GE-20260805-1afb83 [IntelliJ ide_edit_member reformats entire method body on replacement](tools/GE-20260805-1afb83.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

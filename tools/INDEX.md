@@ -659,3 +659,4 @@
 | GE-20260529-182916 | project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios | gotcha | 9/15 |
 | GE-20260805-533d77 | Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation | gotcha | 9/15 |
 | GE-20260805-834e72 | Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams | technique | 9/15 |
+| GE-20260805-1afb83 | IntelliJ ide_edit_member reformats entire method body on replacement | gotcha | 10/15 |

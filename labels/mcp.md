@@ -67,3 +67,4 @@
 - GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors
 - GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect
 - GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation
+- GE-20260805-1afb83: IntelliJ ide_edit_member reformats entire method body on replacement

@@ -1,0 +1,1 @@
+- GE-20260805-1afb83: IntelliJ ide_edit_member reformats entire method body on replacement
