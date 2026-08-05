@@ -1320,3 +1320,4 @@
 | GE-20260805-06bcb8 | AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation | gotcha | 10/15 |
 | GE-20260805-98f040 | @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type | technique | 13/15 |
 | GE-20260805-6b1f56 | Java Duration.ofDays normalizes to hours in ISO-8601 serialization | gotcha | 9/15 |
+| GE-20260805-865e14 | JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround | gotcha | 8/15 |

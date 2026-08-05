@@ -192,3 +192,5 @@
 - GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
 - GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions
 - GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator
+- GE-20260805-177cfa: Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot
+- GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins

@@ -411,3 +411,4 @@
 - GE-20260804-d97557: @QuarkusTest with two Quarkus extensions on classpath produces 77 CDI ambiguity errors — bridge modules need unit tests with recording doubles
 - GE-20260804-188cd4: Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException
 - GE-20260805-7e81a3: Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException
+- GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround

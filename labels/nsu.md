@@ -1,0 +1,1 @@
+- GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins

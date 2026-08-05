@@ -1,1 +1,2 @@
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
+- GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins

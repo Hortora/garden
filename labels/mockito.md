@@ -27,3 +27,4 @@
 - GE-20260616-bdde66: Qdrant Java client async methods return Guava ListenableFuture — not CompletableFuture
 - GE-20260804-188cd4: Mockito nested when() via helper method inside thenReturn() triggers UnfinishedStubbingException
 - GE-20260805-7e81a3: Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException
+- GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround

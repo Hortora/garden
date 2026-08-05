@@ -6,3 +6,4 @@
 - GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure
 - GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
 - GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions
+- GE-20260805-177cfa: Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot

@@ -1,3 +1,4 @@
 - GE-20260525-db848c: Claude Code plugin hooks/hooks.json supports ${CLAUDE_PLUGIN_ROOT} for portable hook script paths
 - GE-20260525-5cf881: OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin
 - GE-20260525-5cf881: OpenClaw pluggable context engine — kind:context-engine delegates full context assembly to a plugin
+- GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins

@@ -661,3 +661,5 @@
 | GE-20260805-834e72 | Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams | technique | 9/15 |
 | GE-20260805-1afb83 | IntelliJ ide_edit_member reformats entire method body on replacement | gotcha | 10/15 |
 | GE-20260805-ffef3b | Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator | gotcha | 12/15 |
+| GE-20260805-177cfa | Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot | gotcha | 12/15 |
+| GE-20260805-1644d6 | Maven -nsu not -o for slot builds — offline fails on uncached plugins | technique | 9/15 |

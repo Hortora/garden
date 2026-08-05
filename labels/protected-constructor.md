@@ -1,0 +1,1 @@
+- GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround
