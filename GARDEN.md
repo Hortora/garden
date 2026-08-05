@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2476
+**Entries merged since last sweep:** 2477
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -226,6 +226,7 @@
 - GE-20260804-777881 [ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source](intellij-platform/GE-20260804-777881.md)
 - GE-20260804-777881 [ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source](intellij-platform/GE-20260804-777881.md)
 - GE-20260805-912fa7 [IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk](intellij-platform/GE-20260805-912fa7.md)
+- GE-20260805-450be2 [ide_replace_text_in_file does substring matching — replaces inside longer identifiers](intellij-platform/GE-20260805-450be2.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)

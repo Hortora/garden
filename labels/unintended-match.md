@@ -1,1 +1,2 @@
 - GE-20260719-2152c0: IntelliJ MCP ide_replace_text_in_file matches and replaces ALL occurrences across the file by default
+- GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers

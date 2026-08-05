@@ -133,3 +133,4 @@
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
 - GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage
 - GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
+- GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers
