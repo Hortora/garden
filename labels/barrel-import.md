@@ -1,1 +1,2 @@
 - GE-20260729-f3f3a1: CommitmentStatePill double registration — blocks-ui-core and commitment-viz both define @customElement('commitment-state-pill')
+- GE-20260805-0f01a5: TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments

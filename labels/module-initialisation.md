@@ -1,0 +1,1 @@
+- GE-20260805-0f01a5: TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments

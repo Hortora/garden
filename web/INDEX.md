@@ -148,3 +148,4 @@
 | GE-20260804-52ba5f | SSE addEventListener for named events silently ignores unnamed server events — use onmessage | gotcha | 14/15 |
 | GE-20260804-149db1 | Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files | gotcha | 10/15 |
 | GE-20260805-e3211c | pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite | technique | 9/15 |
+| GE-20260805-0f01a5 | TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments | gotcha | 9/15 |
