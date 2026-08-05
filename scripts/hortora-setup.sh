@@ -4,7 +4,7 @@ set -euo pipefail
 # ── Globals ──────────────────────────────────────────────────────────
 HORTORA_HOME="$HOME/.hortora"
 GARDEN_ROOT="$HORTORA_HOME/garden"
-QDRANT_VERSION="1.14.0"
+QDRANT_VERSION="1.19.0"
 ENGINE_RELEASE="v0.1.0"
 RELEASE_BASE_URL="${HORTORA_RELEASE_URL:-https://github.com/Hortora/engine/releases/download/${ENGINE_RELEASE}}"
 AUTO_YES=false
