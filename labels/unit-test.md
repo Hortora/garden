@@ -6,3 +6,4 @@
 - GE-20260618-53a50a: casehub-core TaskDefinitionRegistry: safe to instantiate with new in unit tests — PoisonPillDetector is not used by register() or getForCaseType()
 - GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
 - GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
+- GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI

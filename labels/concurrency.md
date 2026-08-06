@@ -45,3 +45,4 @@
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
+- GE-20260806-218031: Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics

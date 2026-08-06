@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2486
+**Entries merged since last sweep:** 2488
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1954,6 +1954,8 @@
 - GE-20260805-98f040 [@ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type](jvm/GE-20260805-98f040.md)
 - GE-20260805-6b1f56 [Java Duration.ofDays normalizes to hours in ISO-8601 serialization](jvm/GE-20260805-6b1f56.md)
 - GE-20260805-865e14 [JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround](jvm/GE-20260805-865e14.md)
+- GE-20260806-218031 [Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics](jvm/GE-20260806-218031.md)
+- GE-20260806-d0a7b5 [SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI](jvm/GE-20260806-d0a7b5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

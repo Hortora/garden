@@ -1321,3 +1321,5 @@
 | GE-20260805-98f040 | @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type | technique | 13/15 |
 | GE-20260805-6b1f56 | Java Duration.ofDays normalizes to hours in ISO-8601 serialization | gotcha | 9/15 |
 | GE-20260805-865e14 | JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround | gotcha | 8/15 |
+| GE-20260806-218031 | Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics | gotcha | 9/15 |
+| GE-20260806-d0a7b5 | SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI | technique | 8/15 |

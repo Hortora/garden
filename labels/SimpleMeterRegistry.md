@@ -1,0 +1,1 @@
+- GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI

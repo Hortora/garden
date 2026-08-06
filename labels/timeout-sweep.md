@@ -1,0 +1,1 @@
+- GE-20260806-218031: Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics
