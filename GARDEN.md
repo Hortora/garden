@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2508
+**Entries merged since last sweep:** 2510
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2671,6 +2671,7 @@
 - GE-20260806-0edab1 [Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override](tools/GE-20260806-0edab1.md)
 - GE-20260806-c91577 [ClosureState priority ordering — worst state wins via max(), not min()](tools/GE-20260806-c91577.md)
 - GE-20260806-e9d1c2 [ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')](tools/GE-20260806-e9d1c2.md)
+- GE-20260806-60d8be [gitignore trailing-slash pattern silently fails to ignore symlinks to directories](tools/GE-20260806-60d8be.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2844,6 +2845,7 @@
 - GE-20260806-625f46 [Dockview v7 createTabComponent factory for custom tab hover behaviour](web/GE-20260806-625f46.md)
 - GE-20260806-10d369 [blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE](web/GE-20260806-10d369.md)
 - GE-20260806-1f881e [pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering](web/GE-20260806-1f881e.md)
+- GE-20260806-d34211 [TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes](web/GE-20260806-d34211.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

@@ -1,3 +1,4 @@
 - GE-20260621-710dfe: TypeScript rootDir in base tsconfig resolves relative to the base config directory, not the extending config
 - GE-20260621-f9970f: tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements
 - GE-20260714-cdd0f2: tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning
+- GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes

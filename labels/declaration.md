@@ -1,0 +1,1 @@
+- GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes

@@ -2,3 +2,4 @@
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
 - GE-20260721-f094e6: TypeScript mixin rejects abstract class — Constructor<T> requires concrete new()
+- GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes

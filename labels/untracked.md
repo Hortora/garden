@@ -1,1 +1,2 @@
 - GE-20260604-7e0560: git rebase aborts with 'untracked working tree files would be overwritten' when a replayed commit would create a file that exists untracked
+- GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories

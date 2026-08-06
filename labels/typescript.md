@@ -31,3 +31,4 @@
 - GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes
 - GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function
 - GE-20260804-fe785f: IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin
+- GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes

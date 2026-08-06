@@ -1,2 +1,3 @@
 - GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks
 - GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination
+- GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
