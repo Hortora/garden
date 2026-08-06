@@ -667,3 +667,5 @@
 | GE-20260806-0c1c81 | Extract pure functions from UI components for TDD — test logic independently, test wiring via component | technique | 9/15 |
 | GE-20260806-409764 | Raggable MCP — small tool surface with model-as-discovery for extensible control planes | technique | 11/15 |
 | GE-20260806-a9d2fd | Maven .mvn/maven.config -s path breaks when cwd differs from project root | gotcha | 9/15 |
+| GE-20260806-0edab1 | Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override | gotcha | 9/15 |
+| GE-20260806-c91577 | ClosureState priority ordering — worst state wins via max(), not min() | convention | 9/15 |

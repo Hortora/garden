@@ -60,3 +60,4 @@
 - GE-20260804-3521be: Claude Code sets process title to version string — breaks tmux pane_current_command detection
 - GE-20260529-182916: project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios
 - GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation
+- GE-20260806-0edab1: Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override

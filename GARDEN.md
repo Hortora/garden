@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2498
+**Entries merged since last sweep:** 2500
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2663,6 +2663,8 @@
 - GE-20260806-0c1c81 [Extract pure functions from UI components for TDD — test logic independently, test wiring via component](tools/GE-20260806-0c1c81.md)
 - GE-20260806-409764 [Raggable MCP — small tool surface with model-as-discovery for extensible control planes](tools/GE-20260806-409764.md)
 - GE-20260806-a9d2fd [Maven .mvn/maven.config -s path breaks when cwd differs from project root](tools/GE-20260806-a9d2fd.md)
+- GE-20260806-0edab1 [Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override](tools/GE-20260806-0edab1.md)
+- GE-20260806-c91577 [ClosureState priority ordering — worst state wins via max(), not min()](tools/GE-20260806-c91577.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

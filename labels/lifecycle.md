@@ -24,3 +24,5 @@
 - GE-20260720-80f6e1: LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion
 - GE-20260803-a1ac7f: Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing
 - GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
+- GE-20260806-0edab1: Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override
+- GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()

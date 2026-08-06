@@ -12,3 +12,4 @@
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
 - GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
+- GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()

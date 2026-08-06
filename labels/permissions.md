@@ -9,3 +9,4 @@
 - GE-20260525-6c3a27: gh issue close --comment with backtick-quoted text adds spurious bash permission entries to settings.local.json
 - GE-20260605-6aa860: GitHub Actions GITHUB_TOKEN for fork PRs gets packages:read regardless of workflow permissions declaration
 - GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
+- GE-20260806-0edab1: Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override
