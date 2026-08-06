@@ -671,3 +671,4 @@
 | GE-20260806-c91577 | ClosureState priority ordering — worst state wins via max(), not min() | convention | 9/15 |
 | GE-20260806-e9d1c2 | ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5') | gotcha | 10/15 |
 | GE-20260806-60d8be | gitignore trailing-slash pattern silently fails to ignore symlinks to directories | gotcha | 12/15 |
+| GE-20260806-f1e2c9 | git clone --shared silently drops gitignored build dependencies | gotcha | 11/15 |

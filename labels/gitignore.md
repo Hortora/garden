@@ -2,3 +2,4 @@
 - GE-20260415-8d619d: Bare .gitignore pattern matches all files with that name recursively, including deeply nested ones
 - GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
+- GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
