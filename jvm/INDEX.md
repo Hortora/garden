@@ -1330,3 +1330,6 @@
 | GE-20260806-e39b11 | Adding a permit to a Java sealed interface breaks switch expressions in unexpected files | gotcha | 8/15 |
 | GE-20260806-80defe | Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port | gotcha | 11/15 |
 | GE-20260806-5c7fbf | Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass | technique | 11/15 |
+| GE-20260806-93549d | Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans | gotcha | 13/15 |
+| GE-20260806-46f5e2 | CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored | gotcha | 13/15 |
+| GE-20260806-842ee0 | Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations | technique | 11/15 |

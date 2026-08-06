@@ -713,3 +713,6 @@
 - GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously
 - GE-20260806-80defe: Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port
 - GE-20260806-5c7fbf: Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass
+- GE-20260806-93549d: Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans
+- GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
+- GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations

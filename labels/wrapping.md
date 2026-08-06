@@ -1,3 +1,4 @@
 - GE-20260428-be6d8b: Wrap traversal variants at the DSL boundary — zero runtime changes for new collection types
 - GE-20260427-226217: Wrap at store time to add ctx-optional API variants without changing the fire path
 - GE-20260609-23438e: Upstream SPI wrapping for config override — intercept without bypassing declarative flow
+- GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations

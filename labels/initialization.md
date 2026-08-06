@@ -1,3 +1,5 @@
 - GE-20260522-e570ee: @Startup @ApplicationScoped + @PostConstruct is the correct pattern for idempotent MongoDB index creation in Quarkus
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
 - GE-20260706-7ac642: drools-reliability requires three factory initializations — only one is documented
+- GE-20260806-93549d: Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans
+- GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations

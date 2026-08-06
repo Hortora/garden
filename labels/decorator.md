@@ -7,3 +7,6 @@
 - GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain
 - GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
 - GE-20260803-85c4b7: Field injection for optional CDI decorator dependencies — keeps constructor stable for existing tests
+- GE-20260806-93549d: Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans
+- GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
+- GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2504
+**Entries merged since last sweep:** 2507
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1963,6 +1963,9 @@
 - GE-20260806-e39b11 [Adding a permit to a Java sealed interface breaks switch expressions in unexpected files](jvm/GE-20260806-e39b11.md)
 - GE-20260806-80defe [Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port](jvm/GE-20260806-80defe.md)
 - GE-20260806-5c7fbf [Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass](jvm/GE-20260806-5c7fbf.md)
+- GE-20260806-93549d [Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans](jvm/GE-20260806-93549d.md)
+- GE-20260806-46f5e2 [CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored](jvm/GE-20260806-46f5e2.md)
+- GE-20260806-842ee0 [Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations](jvm/GE-20260806-842ee0.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
