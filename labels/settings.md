@@ -2,3 +2,4 @@
 - GE-20260422-e72442: --dangerously-skip-permissions bypasses the entire Claude Code permission system, including the deny list
 - GE-20260612-506191: Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
+- GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space

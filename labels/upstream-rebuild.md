@@ -1,0 +1,1 @@
+- GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild

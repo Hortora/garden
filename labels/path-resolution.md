@@ -4,3 +4,4 @@
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
 - GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
+- GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space

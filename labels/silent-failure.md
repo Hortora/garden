@@ -137,3 +137,4 @@
 - GE-20260806-ed860d: IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot
 - GE-20260806-93549d: Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
+- GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space

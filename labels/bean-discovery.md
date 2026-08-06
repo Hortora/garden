@@ -7,3 +7,4 @@
 - GE-20260609-18a0b1: quarkus.index-dependency for a JAR that ships META-INF/jandex.idx double-scans it — breaks CDI bean resolution
 - GE-20260714-a7267a: Quarkus ArC Instance<NamedStrategy> does not discover beans implementing transitive subtypes
 - GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation
+- GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied

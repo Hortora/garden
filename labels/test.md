@@ -27,3 +27,4 @@
 - GE-20260609-77a6f9: casehub-work SNAPSHOT @RequestScoped CurrentPrincipal displaces @DefaultBean test mock — null tenancyId on Vert.x threads
 - GE-20260521-3e030b: mvn test-compile -pl runtime succeeds but test runtime fails with NoClassDefFoundError after moving types to api module — installed jar is stale
 - GE-20260707-dda82d: Quarkus test application.properties replaces selected-alternatives entirely — reactive in-memory repos need explicit activation
+- GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild

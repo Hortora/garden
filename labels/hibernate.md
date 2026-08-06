@@ -87,3 +87,4 @@
 - GE-20260421-cdfff1: Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope
 - GE-20260731-016352: JPA @Transactional void method + non-transactional re-fetch returns stale entity state
 - GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles
+- GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild

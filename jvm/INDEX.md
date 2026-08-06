@@ -1336,3 +1336,7 @@
 | GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
 | GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
 | GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
+| GE-20260806-846155 | Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space | gotcha | 10/15 |
+| GE-20260806-1a293f | Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback | gotcha | 10/15 |
+| GE-20260806-37eb4d | @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied | gotcha | 11/15 |
+| GE-20260806-7a4499 | JPA entity protected constructor breaks test instantiation after upstream rebuild | gotcha | 8/15 |

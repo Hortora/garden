@@ -5,3 +5,4 @@
 - GE-20260706-3cdc77: ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous
 - GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
 - GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
+- GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild

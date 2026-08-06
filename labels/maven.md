@@ -196,3 +196,5 @@
 - GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins
 - GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
+- GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
+- GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback

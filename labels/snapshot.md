@@ -62,3 +62,4 @@
 - GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
 - GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions
 - GE-20260805-177cfa: Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot
+- GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback

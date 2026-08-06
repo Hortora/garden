@@ -1,0 +1,1 @@
+- GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
