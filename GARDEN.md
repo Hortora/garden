@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2507
+**Entries merged since last sweep:** 2508
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2670,6 +2670,7 @@
 - GE-20260806-a9d2fd [Maven .mvn/maven.config -s path breaks when cwd differs from project root](tools/GE-20260806-a9d2fd.md)
 - GE-20260806-0edab1 [Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override](tools/GE-20260806-0edab1.md)
 - GE-20260806-c91577 [ClosureState priority ordering — worst state wins via max(), not min()](tools/GE-20260806-c91577.md)
+- GE-20260806-e9d1c2 [ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')](tools/GE-20260806-e9d1c2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

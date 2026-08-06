@@ -669,3 +669,4 @@
 | GE-20260806-a9d2fd | Maven .mvn/maven.config -s path breaks when cwd differs from project root | gotcha | 9/15 |
 | GE-20260806-0edab1 | Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override | gotcha | 9/15 |
 | GE-20260806-c91577 | ClosureState priority ordering — worst state wins via max(), not min() | convention | 9/15 |
+| GE-20260806-e9d1c2 | ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5') | gotcha | 10/15 |

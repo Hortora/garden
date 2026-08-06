@@ -1,0 +1,1 @@
+- GE-20260806-e9d1c2: ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')

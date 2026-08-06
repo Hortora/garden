@@ -1,3 +1,4 @@
 - GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible
 - GE-20260805-177cfa: Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot
 - GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins
+- GE-20260806-e9d1c2: ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')
