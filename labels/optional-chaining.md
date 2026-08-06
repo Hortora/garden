@@ -1,0 +1,1 @@
+- GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API

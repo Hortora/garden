@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2482
+**Entries merged since last sweep:** 2486
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2652,6 +2652,8 @@
 - GE-20260805-ffef3b [Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator](tools/GE-20260805-ffef3b.md)
 - GE-20260805-177cfa [Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot](tools/GE-20260805-177cfa.md)
 - GE-20260805-1644d6 [Maven -nsu not -o for slot builds — offline fails on uncached plugins](tools/GE-20260805-1644d6.md)
+- GE-20260806-ed860d [IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot](tools/GE-20260806-ed860d.md)
+- GE-20260806-0c1c81 [Extract pure functions from UI components for TDD — test logic independently, test wiring via component](tools/GE-20260806-0c1c81.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2820,6 +2822,8 @@
 - GE-20260805-4091ab [buildFlatGraph() throws unclear error on invalid SWF flow directives](web/GE-20260805-4091ab.md)
 - GE-20260805-d1044d [buildFlatGraph() nested try: subtask IDs omit /do/ path segment](web/GE-20260805-d1044d.md)
 - GE-20260805-bdbc53 [Dual-walk pattern for SDK-backed domain adapters with degraded mode](web/GE-20260805-bdbc53.md)
+- GE-20260806-82b68b [Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection](web/GE-20260806-82b68b.md)
+- GE-20260806-9c391c [Dockview vitest mock missing .panels property — optional chaining required for any unmocked API](web/GE-20260806-9c391c.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/

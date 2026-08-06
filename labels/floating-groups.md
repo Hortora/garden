@@ -1,0 +1,1 @@
+- GE-20260806-82b68b: Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection

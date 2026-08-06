@@ -1,0 +1,2 @@
+- GE-20260806-82b68b: Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection
+- GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
