@@ -1,0 +1,1 @@
+- GE-20260806-e39b11: Adding a permit to a Java sealed interface breaks switch expressions in unexpected files

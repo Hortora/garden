@@ -1327,3 +1327,4 @@
 | GE-20260806-9e8007 | RandomAccessFile tail-read must skip trailing newline before counting line boundaries | gotcha | 9/15 |
 | GE-20260806-871bfc | Compose the sink at the call site for tee-logging instead of modifying the relay | technique | 8/15 |
 | GE-20260806-0dadb3 | quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously | undocumented | 8/15 |
+| GE-20260806-e39b11 | Adding a permit to a Java sealed interface breaks switch expressions in unexpected files | gotcha | 8/15 |

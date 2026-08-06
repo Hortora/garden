@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2495
+**Entries merged since last sweep:** 2498
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1960,6 +1960,7 @@
 - GE-20260806-9e8007 [RandomAccessFile tail-read must skip trailing newline before counting line boundaries](jvm/GE-20260806-9e8007.md)
 - GE-20260806-871bfc [Compose the sink at the call site for tee-logging instead of modifying the relay](jvm/GE-20260806-871bfc.md)
 - GE-20260806-0dadb3 [quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously](jvm/GE-20260806-0dadb3.md)
+- GE-20260806-e39b11 [Adding a permit to a Java sealed interface breaks switch expressions in unexpected files](jvm/GE-20260806-e39b11.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2835,11 +2836,14 @@
 - GE-20260806-625f46 [Dockview v7 createTabComponent factory for custom tab hover behaviour](web/GE-20260806-625f46.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
+- GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
 ### jvm/casehub-engine/
 - GE-20260618-dc2cb7 [CaseEventLogRecord drops workerId — capability info only in metadata JsonNode](jvm/casehub-engine/GE-20260618-dc2cb7.md)
 - GE-20260618-0daed6 [CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key](jvm/casehub-engine/GE-20260618-0daed6.md)
 ### jvm/casehub-ledger/
 - GE-20260618-3e5f2d [ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity](jvm/casehub-ledger/GE-20260618-3e5f2d.md)
+### casehub-ras/
+- GE-20260806-55e158 [SituationRegistration accepts null correlationKeyExtractor — defaults to DefaultCorrelationKeyExtractor.INSTANCE](casehub-ras/GE-20260806-55e158.md)
 
 ---
 
