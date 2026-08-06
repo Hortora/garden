@@ -41,3 +41,4 @@
 - GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
+- GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope

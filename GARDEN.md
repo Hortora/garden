@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2512
+**Entries merged since last sweep:** 2513
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1966,6 +1966,7 @@
 - GE-20260806-93549d [Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans](jvm/GE-20260806-93549d.md)
 - GE-20260806-46f5e2 [CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored](jvm/GE-20260806-46f5e2.md)
 - GE-20260806-842ee0 [Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations](jvm/GE-20260806-842ee0.md)
+- GE-20260806-821a98 [@DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope](jvm/GE-20260806-821a98.md)
 - GE-20260806-821a98 [@DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope](jvm/GE-20260806-821a98.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
