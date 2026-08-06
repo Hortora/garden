@@ -665,3 +665,4 @@
 | GE-20260805-1644d6 | Maven -nsu not -o for slot builds — offline fails on uncached plugins | technique | 9/15 |
 | GE-20260806-ed860d | IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot | gotcha | 10/15 |
 | GE-20260806-0c1c81 | Extract pure functions from UI components for TDD — test logic independently, test wiring via component | technique | 9/15 |
+| GE-20260806-409764 | Raggable MCP — small tool surface with model-as-discovery for extensible control planes | technique | 11/15 |

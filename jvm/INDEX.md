@@ -1323,3 +1323,7 @@
 | GE-20260805-865e14 | JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround | gotcha | 8/15 |
 | GE-20260806-218031 | Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics | gotcha | 9/15 |
 | GE-20260806-d0a7b5 | SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI | technique | 8/15 |
+| GE-20260806-99b9bb | quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse | gotcha | 9/15 |
+| GE-20260806-9e8007 | RandomAccessFile tail-read must skip trailing newline before counting line boundaries | gotcha | 9/15 |
+| GE-20260806-871bfc | Compose the sink at the call site for tee-logging instead of modifying the relay | technique | 8/15 |
+| GE-20260806-0dadb3 | quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously | undocumented | 8/15 |

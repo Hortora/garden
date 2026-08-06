@@ -1,2 +1,1 @@
-- GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
 - GE-20260806-409764: Raggable MCP — small tool surface with model-as-discovery for extensible control planes

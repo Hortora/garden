@@ -6,3 +6,4 @@
 - GE-20260531-afc422: Name output format enums after structure (MARKDOWN, PROSE, JSON), not LLM provider
 - GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
 - GE-20260802-b53e57: HandlerResult pattern — engine-internal metadata channel separating protocol metadata from public WorkerResult API
+- GE-20260806-409764: Raggable MCP — small tool surface with model-as-discovery for extensible control planes

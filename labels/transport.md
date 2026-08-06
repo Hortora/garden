@@ -1,0 +1,1 @@
+- GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously

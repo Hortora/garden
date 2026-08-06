@@ -1,0 +1,1 @@
+- GE-20260806-9e8007: RandomAccessFile tail-read must skip trailing newline before counting line boundaries

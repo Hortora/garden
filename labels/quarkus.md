@@ -709,3 +709,5 @@
 - GE-20260805-cbde22: quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
 - GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type
+- GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
+- GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously

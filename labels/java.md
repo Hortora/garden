@@ -163,3 +163,5 @@
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
+- GE-20260806-9e8007: RandomAccessFile tail-read must skip trailing newline before counting line boundaries
+- GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay

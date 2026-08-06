@@ -7,3 +7,4 @@
 - GE-20260604-d8c0c1: Thread user JWT through quarkus-flow workflow input for authenticated downstream HTTP calls
 - GE-20260615-388a35: EndpointCapability.RECEIVE is wrong for poll streams — use QUERY
 - GE-20260618-a677f1: java.net.http.HttpClient.send() does NOT throw for 4xx/5xx — returns HttpResponse with statusCode()
+- GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously

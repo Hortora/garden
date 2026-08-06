@@ -8,3 +8,4 @@
 - GE-20260609-e3878f: JUL Handler add/remove captures log output in pure-Java tests without test frameworks
 - GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
 - GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
+- GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay

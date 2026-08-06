@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2488
+**Entries merged since last sweep:** 2493
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1956,6 +1956,10 @@
 - GE-20260805-865e14 [JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround](jvm/GE-20260805-865e14.md)
 - GE-20260806-218031 [Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics](jvm/GE-20260806-218031.md)
 - GE-20260806-d0a7b5 [SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI](jvm/GE-20260806-d0a7b5.md)
+- GE-20260806-99b9bb [quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse](jvm/GE-20260806-99b9bb.md)
+- GE-20260806-9e8007 [RandomAccessFile tail-read must skip trailing newline before counting line boundaries](jvm/GE-20260806-9e8007.md)
+- GE-20260806-871bfc [Compose the sink at the call site for tee-logging instead of modifying the relay](jvm/GE-20260806-871bfc.md)
+- GE-20260806-0dadb3 [quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously](jvm/GE-20260806-0dadb3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2656,6 +2660,7 @@
 - GE-20260805-1644d6 [Maven -nsu not -o for slot builds — offline fails on uncached plugins](tools/GE-20260805-1644d6.md)
 - GE-20260806-ed860d [IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot](tools/GE-20260806-ed860d.md)
 - GE-20260806-0c1c81 [Extract pure functions from UI components for TDD — test logic independently, test wiring via component](tools/GE-20260806-0c1c81.md)
+- GE-20260806-409764 [Raggable MCP — small tool surface with model-as-discovery for extensible control planes](tools/GE-20260806-409764.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

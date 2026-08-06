@@ -1,0 +1,1 @@
+- GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay
