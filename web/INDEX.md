@@ -155,3 +155,4 @@
 | GE-20260805-bdbc53 | Dual-walk pattern for SDK-backed domain adapters with degraded mode | technique | 14/15 |
 | GE-20260806-82b68b | Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection | undocumented | 8/15 |
 | GE-20260806-9c391c | Dockview vitest mock missing .panels property — optional chaining required for any unmocked API | gotcha | 8/15 |
+| GE-20260806-625f46 | Dockview v7 createTabComponent factory for custom tab hover behaviour | technique | 9/15 |

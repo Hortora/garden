@@ -1,0 +1,1 @@
+- GE-20260806-625f46: Dockview v7 createTabComponent factory for custom tab hover behaviour

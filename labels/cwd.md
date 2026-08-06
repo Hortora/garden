@@ -4,3 +4,4 @@
 - GE-20260512-a28ecc: Maven relative paths resolve to wrong worktree when shell cwd changes — use absolute paths
 - GE-20260623-d4c4f3: lsof -d cwd -Fn returns all file descriptors on macOS, not just the CWD
 - GE-20260801-8f01dd: shutil.move leaves ghost directories when a process has CWD anchored inside
+- GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root

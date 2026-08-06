@@ -195,3 +195,4 @@
 - GE-20260805-177cfa: Maven slot clones have their own .m2 — rebuilt SNAPSHOTs to ~/.m2 don't update the slot
 - GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins
 - GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
+- GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root

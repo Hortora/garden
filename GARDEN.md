@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2493
+**Entries merged since last sweep:** 2495
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2661,6 +2661,7 @@
 - GE-20260806-ed860d [IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot](tools/GE-20260806-ed860d.md)
 - GE-20260806-0c1c81 [Extract pure functions from UI components for TDD — test logic independently, test wiring via component](tools/GE-20260806-0c1c81.md)
 - GE-20260806-409764 [Raggable MCP — small tool surface with model-as-discovery for extensible control planes](tools/GE-20260806-409764.md)
+- GE-20260806-a9d2fd [Maven .mvn/maven.config -s path breaks when cwd differs from project root](tools/GE-20260806-a9d2fd.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2831,6 +2832,7 @@
 - GE-20260805-bdbc53 [Dual-walk pattern for SDK-backed domain adapters with degraded mode](web/GE-20260805-bdbc53.md)
 - GE-20260806-82b68b [Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection](web/GE-20260806-82b68b.md)
 - GE-20260806-9c391c [Dockview vitest mock missing .panels property — optional chaining required for any unmocked API](web/GE-20260806-9c391c.md)
+- GE-20260806-625f46 [Dockview v7 createTabComponent factory for custom tab hover behaviour](web/GE-20260806-625f46.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 ### jvm/casehub-engine/
