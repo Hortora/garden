@@ -1,3 +1,4 @@
 - GE-20260730-653783: New eidos JPA stores silently break consumer apps using in-memory alternatives
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
+- GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope

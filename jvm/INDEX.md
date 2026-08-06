@@ -1335,3 +1335,4 @@
 | GE-20260806-842ee0 | Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations | technique | 11/15 |
 | GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
 | GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
+| GE-20260806-821a98 | @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope | gotcha | 10/15 |
