@@ -1,0 +1,1 @@
+- GE-20260806-80defe: Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port

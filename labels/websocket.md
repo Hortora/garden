@@ -14,3 +14,4 @@
 - GE-20260704-73bebb: casehub-pages event op silently skips lastSeq tracking — since-based reconnection never fires
 - GE-20260705-ab2230: JAX-RS SseEventSink has no onClose/onError callback — emitter cleanup must be lazy via isClosed() checks
 - GE-20260804-1b28f5: pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying
+- GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE

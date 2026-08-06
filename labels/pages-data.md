@@ -2,3 +2,5 @@
 - GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch
 - GE-20260711-5170ee: pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
+- GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
+- GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering

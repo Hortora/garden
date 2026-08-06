@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2500
+**Entries merged since last sweep:** 2504
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1961,6 +1961,8 @@
 - GE-20260806-871bfc [Compose the sink at the call site for tee-logging instead of modifying the relay](jvm/GE-20260806-871bfc.md)
 - GE-20260806-0dadb3 [quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously](jvm/GE-20260806-0dadb3.md)
 - GE-20260806-e39b11 [Adding a permit to a Java sealed interface breaks switch expressions in unexpected files](jvm/GE-20260806-e39b11.md)
+- GE-20260806-80defe [Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port](jvm/GE-20260806-80defe.md)
+- GE-20260806-5c7fbf [Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass](jvm/GE-20260806-5c7fbf.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2836,6 +2838,8 @@
 - GE-20260806-82b68b [Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection](web/GE-20260806-82b68b.md)
 - GE-20260806-9c391c [Dockview vitest mock missing .panels property — optional chaining required for any unmocked API](web/GE-20260806-9c391c.md)
 - GE-20260806-625f46 [Dockview v7 createTabComponent factory for custom tab hover behaviour](web/GE-20260806-625f46.md)
+- GE-20260806-10d369 [blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE](web/GE-20260806-10d369.md)
+- GE-20260806-1f881e [pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering](web/GE-20260806-1f881e.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

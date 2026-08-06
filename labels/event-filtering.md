@@ -1,2 +1,1 @@
-- GE-20260531-929107: EventSource.addEventListener('named-event') silently drops all events when server sends unnamed SSE
 - GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering

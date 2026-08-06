@@ -1328,3 +1328,5 @@
 | GE-20260806-871bfc | Compose the sink at the call site for tee-logging instead of modifying the relay | technique | 8/15 |
 | GE-20260806-0dadb3 | quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously | undocumented | 8/15 |
 | GE-20260806-e39b11 | Adding a permit to a Java sealed interface breaks switch expressions in unexpected files | gotcha | 8/15 |
+| GE-20260806-80defe | Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port | gotcha | 11/15 |
+| GE-20260806-5c7fbf | Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass | technique | 11/15 |

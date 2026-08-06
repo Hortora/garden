@@ -23,3 +23,4 @@
 - GE-20260705-002a78: Alpha network FilterNode sharing leaks events across tenants in multi-tenant subscription systems
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
+- GE-20260806-5c7fbf: Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass

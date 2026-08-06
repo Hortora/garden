@@ -32,3 +32,5 @@
 - GE-20260804-64c599: SSE EventSource sends message type, not named events — addEventListener misses them
 - GE-20260804-52ba5f: SSE addEventListener for named events silently ignores unnamed server events — use onmessage
 - GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously
+- GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
+- GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering
