@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2521
+**Entries merged since last sweep:** 2522
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2867,6 +2867,8 @@
 - GE-20260618-3e5f2d [ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity](jvm/casehub-ledger/GE-20260618-3e5f2d.md)
 ### casehub-ras/
 - GE-20260806-55e158 [SituationRegistration accepts null correlationKeyExtractor — defaults to DefaultCorrelationKeyExtractor.INSTANCE](casehub-ras/GE-20260806-55e158.md)
+### data/
+- GE-20260807-956d1d [Redis Streams with seq-based explicit IDs — clean long mapping but XTRIM MINID is incompatible](data/GE-20260807-956d1d.md)
 
 ---
 

@@ -1,2 +1,1 @@
-- GE-20260420-dc3c2f: Separating observed_at from indexed_at makes time-series backfill free
 - GE-20260807-956d1d: Redis Streams with seq-based explicit IDs — clean long mapping but XTRIM MINID is incompatible
