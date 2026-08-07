@@ -1,1 +1,2 @@
 - GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID
+- GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly

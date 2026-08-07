@@ -180,3 +180,4 @@
 - GE-20260521-b6a1a7: git merge --ff-only brings branch-only workflow markers (.meta, EPIC-CLOSED.md) to main
 - GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session

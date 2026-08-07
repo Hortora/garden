@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2519
+**Entries merged since last sweep:** 2521
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1974,6 +1974,7 @@
 - GE-20260806-37eb4d [@DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied](jvm/GE-20260806-37eb4d.md)
 - GE-20260806-7a4499 [JPA entity protected constructor breaks test instantiation after upstream rebuild](jvm/GE-20260806-7a4499.md)
 - GE-20260807-9a4872 [Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time](jvm/GE-20260807-9a4872.md)
+- GE-20260807-66fe1b [Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly](jvm/GE-20260807-66fe1b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2681,6 +2682,7 @@
 - GE-20260806-e9d1c2 [ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')](tools/GE-20260806-e9d1c2.md)
 - GE-20260806-60d8be [gitignore trailing-slash pattern silently fails to ignore symlinks to directories](tools/GE-20260806-60d8be.md)
 - GE-20260806-f1e2c9 [git clone --shared silently drops gitignored build dependencies](tools/GE-20260806-f1e2c9.md)
+- GE-20260522-543863 [git checkout -b confirms success but repo silently reverts to main later in the same session](tools/GE-20260522-543863.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -26,3 +26,4 @@
 - GE-20260706-1f248b: Multi-repo SNAPSHOT dependency drift cascades — each fix pulls the next break
 - GE-20260726-d74620: Multi-repo SNAPSHOT update cascade — updating one dependency at a time creates compile-fix-compile loops
 - GE-20260804-cf77dc: IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path
+- GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session

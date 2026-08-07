@@ -22,3 +22,4 @@
 - GE-20260618-d244e2: Hibernate 6 JPQL arithmetic on MIN/MAX aggregates in HAVING is silently accepted by H2 but rejected by PostgreSQL
 - GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
+- GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly

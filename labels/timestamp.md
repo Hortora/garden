@@ -2,3 +2,4 @@
 - GE-20260628-1cdd26: Instant.MAX overflows Hibernate TIMESTAMP conversion — ArithmeticException in JPQL parameters
 - GE-20260705-2aa4c8: H2 reactive emulation (quarkiverse quarkus-reactive-h2-client) fails with Hibernate Reactive Panache on Instant/TIMESTAMP fields
 - GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
+- GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly

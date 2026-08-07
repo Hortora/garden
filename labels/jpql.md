@@ -13,3 +13,4 @@
 - GE-20260619-fe34fc: Hibernate named query gains a parameter in one repo — sibling repo call site silently unbound until runtime
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260713-26f881: MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results
+- GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly
