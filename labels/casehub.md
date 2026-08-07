@@ -109,3 +109,4 @@
 - GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc
 - GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry
 - GE-20260805-06bcb8: AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation
+- GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries

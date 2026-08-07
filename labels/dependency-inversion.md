@@ -1,2 +1,1 @@
-- GE-20260728-a53632: Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries

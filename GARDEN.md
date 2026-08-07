@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2522
+**Entries merged since last sweep:** 2523
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1975,6 +1975,7 @@
 - GE-20260806-7a4499 [JPA entity protected constructor breaks test instantiation after upstream rebuild](jvm/GE-20260806-7a4499.md)
 - GE-20260807-9a4872 [Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time](jvm/GE-20260807-9a4872.md)
 - GE-20260807-66fe1b [Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly](jvm/GE-20260807-66fe1b.md)
+- GE-20260807-6c45a4 [SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries](jvm/GE-20260807-6c45a4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

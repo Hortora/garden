@@ -398,3 +398,4 @@
 - GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations
 - GE-20260806-e9d1c2: ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
+- GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
