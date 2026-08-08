@@ -1,0 +1,1 @@
+- GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests

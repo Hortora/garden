@@ -159,3 +159,4 @@
 | GE-20260806-10d369 | blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE | gotcha | 9/15 |
 | GE-20260806-1f881e | pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering | undocumented | 9/15 |
 | GE-20260806-d34211 | TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes | gotcha | 11/15 |
+| GE-20260808-a59625 | pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens | gotcha | 12/15 |

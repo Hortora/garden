@@ -13,3 +13,4 @@
 - GE-20260501-0586a4: Awaitility during() asserts a count is stable — prevents false-pass when concurrent events arrive just after the condition is met
 - GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts
 - GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
+- GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests

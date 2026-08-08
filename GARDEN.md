@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2523
+**Entries merged since last sweep:** 2526
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1976,6 +1976,8 @@
 - GE-20260807-9a4872 [Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time](jvm/GE-20260807-9a4872.md)
 - GE-20260807-66fe1b [Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly](jvm/GE-20260807-66fe1b.md)
 - GE-20260807-6c45a4 [SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries](jvm/GE-20260807-6c45a4.md)
+- GE-20260808-394c0c [Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests](jvm/GE-20260808-394c0c.md)
+- GE-20260808-a37488 [Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests](jvm/GE-20260808-a37488.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2858,6 +2860,7 @@
 - GE-20260806-10d369 [blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE](web/GE-20260806-10d369.md)
 - GE-20260806-1f881e [pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering](web/GE-20260806-1f881e.md)
 - GE-20260806-d34211 [TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes](web/GE-20260806-d34211.md)
+- GE-20260808-a59625 [pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens](web/GE-20260808-a59625.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

@@ -19,3 +19,5 @@
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
 - GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
 - GE-20260802-7ad695: Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart
+- GE-20260808-394c0c: Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests
+- GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests

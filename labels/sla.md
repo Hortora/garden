@@ -7,3 +7,5 @@
 - GE-20260528-c968e2: Inject ExpiryLifecycleService directly in @QuarkusTest to test SLA breach without scheduler interference
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only
+- GE-20260808-394c0c: Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests
+- GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests

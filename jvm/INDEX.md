@@ -1343,3 +1343,5 @@
 | GE-20260807-9a4872 | Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time | gotcha | 10/15 |
 | GE-20260807-66fe1b | Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly | gotcha | 9/15 |
 | GE-20260807-6c45a4 | SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries | technique | 13/15 |
+| GE-20260808-394c0c | Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests | gotcha | 13/15 |
+| GE-20260808-a37488 | Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests | technique | 10/15 |

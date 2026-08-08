@@ -1,2 +1,3 @@
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
 - GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components
+- GE-20260808-a59625: pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens

@@ -1,0 +1,1 @@
+- GE-20260808-a59625: pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens
