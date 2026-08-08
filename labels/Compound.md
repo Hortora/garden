@@ -1,0 +1,1 @@
+- GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name

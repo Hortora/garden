@@ -1,0 +1,1 @@
+- GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails

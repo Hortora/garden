@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2531
+**Entries merged since last sweep:** 2534
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -69,6 +69,9 @@
 - GE-20260718-02199f [CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success](casehub-engine/GE-20260718-02199f.md)
 - GE-20260718-9eb2c0 [humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path](casehub-engine/GE-20260718-9eb2c0.md)
 - GE-20260721-076719 [casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects](casehub-engine/GE-20260721-076719.md)
+- GE-20260808-56e574 [CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all](casehub-engine/GE-20260808-56e574.md)
+- GE-20260808-94c14d [PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name](casehub-engine/GE-20260808-94c14d.md)
+- GE-20260808-47dc40 [CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails](casehub-engine/GE-20260808-47dc40.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)

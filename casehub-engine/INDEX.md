@@ -48,3 +48,6 @@
 | GE-20260718-02199f | CaseLifecycleEvent drops satisfiedGoalName/Kind at CDI boundary — failure-goal COMPLETED indistinguishable from success | gotcha | 8/15 |
 | GE-20260718-9eb2c0 | humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path | gotcha | 9/15 |
 | GE-20260721-076719 | casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects | gotcha | 8/15 |
+| GE-20260808-56e574 | CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all | gotcha | 10/15 |
+| GE-20260808-94c14d | PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name | gotcha | 9/15 |
+| GE-20260808-47dc40 | CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails | technique | 10/15 |

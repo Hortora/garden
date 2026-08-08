@@ -1,0 +1,1 @@
+- GE-20260808-56e574: CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all

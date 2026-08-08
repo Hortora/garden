@@ -77,3 +77,6 @@
 - GE-20260730-64b381: CaseInputContributor SPI overrides DefaultCaseTrigger auto-added fields — use putAll merge semantics
 - GE-20260803-2dd865: LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy
 - GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
+- GE-20260808-56e574: CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all
+- GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name
+- GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails

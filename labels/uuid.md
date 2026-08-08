@@ -7,3 +7,4 @@
 - GE-20260629-500611: H2 MODE=PostgreSQL returns UUID columns as byte[] in native queries — not java.util.UUID
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
 - GE-20260705-fa70c8: UUIDv7 clock regression after sequence wraparound breaks monotonicity silently
+- GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name
