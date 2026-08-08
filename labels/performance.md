@@ -17,3 +17,4 @@
 - GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access
 - GE-20260803-24339b: jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown
 - GE-20260804-d6d68f: Qdrant scroll API with_vector accepts array of named vector names for selective fetch
+- GE-20260808-769eef: Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first

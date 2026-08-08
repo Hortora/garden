@@ -1,0 +1,1 @@
+- GE-20260808-3a0b09: Tag synonym detection via vector similarity of entry sets without NLP

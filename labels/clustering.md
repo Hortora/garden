@@ -1,1 +1,2 @@
 - GE-20260804-d5c610: DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries
+- GE-20260808-769eef: Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first

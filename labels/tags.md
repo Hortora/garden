@@ -1,1 +1,2 @@
 - GE-20260516-3a27dc: Maven surefire profile without combine.self="override" silently skips tagged tests — Tests run: 0, BUILD SUCCESS
+- GE-20260808-3a0b09: Tag synonym detection via vector similarity of entry sets without NLP

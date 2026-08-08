@@ -1,1 +1,3 @@
 - GE-20260709-94d8d3: Qdrant scroll returns VectorOutput not Vector — cannot copy vectors into PointStruct for upsert
+- GE-20260808-769eef: Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first
+- GE-20260808-3a0b09: Tag synonym detection via vector similarity of entry sets without NLP

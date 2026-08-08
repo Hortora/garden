@@ -673,3 +673,5 @@
 | GE-20260806-60d8be | gitignore trailing-slash pattern silently fails to ignore symlinks to directories | gotcha | 12/15 |
 | GE-20260806-f1e2c9 | git clone --shared silently drops gitignored build dependencies | gotcha | 11/15 |
 | GE-20260522-543863 | git checkout -b confirms success but repo silently reverts to main later in the same session | gotcha | 12/15 |
+| GE-20260808-769eef | Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first | technique | 9/15 |
+| GE-20260808-3a0b09 | Tag synonym detection via vector similarity of entry sets without NLP | technique | 9/15 |

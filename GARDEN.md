@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2529
+**Entries merged since last sweep:** 2531
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2689,6 +2689,8 @@
 - GE-20260806-60d8be [gitignore trailing-slash pattern silently fails to ignore symlinks to directories](tools/GE-20260806-60d8be.md)
 - GE-20260806-f1e2c9 [git clone --shared silently drops gitignored build dependencies](tools/GE-20260806-f1e2c9.md)
 - GE-20260522-543863 [git checkout -b confirms success but repo silently reverts to main later in the same session](tools/GE-20260522-543863.md)
+- GE-20260808-769eef [Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first](tools/GE-20260808-769eef.md)
+- GE-20260808-3a0b09 [Tag synonym detection via vector similarity of entry sets without NLP](tools/GE-20260808-3a0b09.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,2 +1,4 @@
 - GE-20260703-39256d: Qdrant score_threshold=0.0 vs omitted — 0.0 excludes negative cosine, omission returns everything
 - GE-20260804-d5c610: DBSCAN clustering on pre-computed cosine distance matrices in Java without external libraries
+- GE-20260808-769eef: Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first
+- GE-20260808-3a0b09: Tag synonym detection via vector similarity of entry sets without NLP
