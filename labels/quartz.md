@@ -21,3 +21,4 @@
 - GE-20260802-7ad695: Quartz scheduled jobs cannot read in-memory CaseContext after JVM restart
 - GE-20260808-394c0c: Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests
 - GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests
+- GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean

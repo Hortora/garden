@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2526
+**Entries merged since last sweep:** 2529
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1978,6 +1978,9 @@
 - GE-20260807-6c45a4 [SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries](jvm/GE-20260807-6c45a4.md)
 - GE-20260808-394c0c [Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests](jvm/GE-20260808-394c0c.md)
 - GE-20260808-a37488 [Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests](jvm/GE-20260808-a37488.md)
+- GE-20260808-da5e6a [TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property](jvm/GE-20260808-da5e6a.md)
+- GE-20260808-76f17e [Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean](jvm/GE-20260808-76f17e.md)
+- GE-20260808-561e09 [Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification](jvm/GE-20260808-561e09.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

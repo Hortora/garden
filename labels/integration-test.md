@@ -7,3 +7,5 @@
 - GE-20260726-00e4df: Triage stub replacement silently breaks integration tests — timeout at gate creation, not assertion failure
 - GE-20260730-d761e5: RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection
 - GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out
+- GE-20260808-da5e6a: TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property
+- GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean

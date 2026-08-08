@@ -1345,3 +1345,6 @@
 | GE-20260807-6c45a4 | SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries | technique | 13/15 |
 | GE-20260808-394c0c | Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests | gotcha | 13/15 |
 | GE-20260808-a37488 | Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests | technique | 10/15 |
+| GE-20260808-da5e6a | TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property | gotcha | 10/15 |
+| GE-20260808-76f17e | Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean | gotcha | 8/15 |
+| GE-20260808-561e09 | Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification | technique | 12/15 |

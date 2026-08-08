@@ -82,3 +82,4 @@
 - GE-20260716-dac2e7: EntityResolver pattern for unit-testing Panache Active Record CDI observers
 - GE-20260718-d18dc0: H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
+- GE-20260808-da5e6a: TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property

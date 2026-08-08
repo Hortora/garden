@@ -20,3 +20,4 @@
 - GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal
 - GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
 - GE-20260805-cbde22: quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors
+- GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean

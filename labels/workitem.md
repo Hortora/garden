@@ -3,3 +3,4 @@
 - GE-20260604-97031b: Global WorkItem.find() in engine integration tests picks up WorkItems from other test cases — Awaitility timeout with wrong WorkItem completed
 - GE-20260629-45f4be: REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle
 - GE-20260629-db82b4: WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution
+- GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification

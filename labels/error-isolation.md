@@ -1,0 +1,1 @@
+- GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification
