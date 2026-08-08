@@ -675,3 +675,4 @@
 | GE-20260522-543863 | git checkout -b confirms success but repo silently reverts to main later in the same session | gotcha | 12/15 |
 | GE-20260808-769eef | Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first | technique | 9/15 |
 | GE-20260808-3a0b09 | Tag synonym detection via vector similarity of entry sets without NLP | technique | 9/15 |
+| GE-20260808-5713b7 | IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results | gotcha | 9/15 |

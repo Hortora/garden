@@ -12,3 +12,4 @@
 - GE-20260706-be2ef0: SmallRye SRCFG00050 is fatal in Quarkus 3.32 — orphan and @ConfigProperty properties both trigger it
 - GE-20260708-055d01: @IfBuildProperty disabling a bean's only consumer prevents its @ConfigMapping from registering — SRCFG00050 on all prefix properties
 - GE-20260804-6076a3: SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group
+- GE-20260808-0fa727: SmallRye Config ordinal override in library JAR for classpath-presence module subsumption

@@ -1,0 +1,1 @@
+- GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results

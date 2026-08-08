@@ -71,3 +71,4 @@
 - GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
 - GE-20260806-409764: Raggable MCP — small tool surface with model-as-discovery for extensible control planes
 - GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously
+- GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results

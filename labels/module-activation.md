@@ -1,0 +1,1 @@
+- GE-20260808-0fa727: SmallRye Config ordinal override in library JAR for classpath-presence module subsumption

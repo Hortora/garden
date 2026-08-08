@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2534
+**Entries merged since last sweep:** 2536
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1984,6 +1984,7 @@
 - GE-20260808-da5e6a [TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property](jvm/GE-20260808-da5e6a.md)
 - GE-20260808-76f17e [Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean](jvm/GE-20260808-76f17e.md)
 - GE-20260808-561e09 [Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification](jvm/GE-20260808-561e09.md)
+- GE-20260808-0fa727 [SmallRye Config ordinal override in library JAR for classpath-presence module subsumption](jvm/GE-20260808-0fa727.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2694,6 +2695,7 @@
 - GE-20260522-543863 [git checkout -b confirms success but repo silently reverts to main later in the same session](tools/GE-20260522-543863.md)
 - GE-20260808-769eef [Two-stage garden-wide vector clustering avoids O(n²) by clustering centroids first](tools/GE-20260808-769eef.md)
 - GE-20260808-3a0b09 [Tag synonym detection via vector similarity of entry sets without NLP](tools/GE-20260808-3a0b09.md)
+- GE-20260808-5713b7 [IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results](tools/GE-20260808-5713b7.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

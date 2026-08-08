@@ -198,3 +198,4 @@
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
+- GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results

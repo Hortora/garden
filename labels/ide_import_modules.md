@@ -1,1 +1,2 @@
 - GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked
+- GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results
