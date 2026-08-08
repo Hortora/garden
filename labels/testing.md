@@ -413,3 +413,4 @@
 - GE-20260805-7e81a3: Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException
 - GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround
 - GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI
+- GE-20260808-c29cdf: ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results
