@@ -11,3 +11,4 @@
 - GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure
 - GE-20260805-0f01a5: TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
+- GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence

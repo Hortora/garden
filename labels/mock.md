@@ -6,3 +6,4 @@
 - GE-20260712-b28cb0: fabric8 CRUD mock server delivers Watch events on resource create/update/delete
 - GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
+- GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence

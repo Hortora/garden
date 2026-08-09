@@ -1,0 +1,1 @@
+- GE-20260809-6bede4: Dockview overlay.toJSON() switches CSS anchoring after drag — top becomes undefined

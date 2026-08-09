@@ -1,2 +1,1 @@
-- GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument
 - GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence

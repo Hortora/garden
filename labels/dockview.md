@@ -1,3 +1,7 @@
 - GE-20260806-82b68b: Dockview v7 floating group DOM structure — .dv-resize-container outermost, .dv-floating-titlebar for chrome injection
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
 - GE-20260806-625f46: Dockview v7 createTabComponent factory for custom tab hover behaviour
+- GE-20260809-6bede4: Dockview overlay.toJSON() switches CSS anchoring after drag — top becomes undefined
+- GE-20260809-44b2a6: Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated
+- GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence
+- GE-20260809-6821a6: Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop

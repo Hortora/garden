@@ -160,3 +160,7 @@
 | GE-20260806-1f881e | pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering | undocumented | 9/15 |
 | GE-20260806-d34211 | TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes | gotcha | 11/15 |
 | GE-20260808-a59625 | pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens | gotcha | 12/15 |
+| GE-20260809-6bede4 | Dockview overlay.toJSON() switches CSS anchoring after drag — top becomes undefined | gotcha | 12/15 |
+| GE-20260809-44b2a6 | Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated | gotcha | 13/15 |
+| GE-20260809-f0c43a | happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence | gotcha | 12/15 |
+| GE-20260809-6821a6 | Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop | gotcha | 11/15 |

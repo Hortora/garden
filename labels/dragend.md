@@ -1,0 +1,1 @@
+- GE-20260809-6821a6: Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop
