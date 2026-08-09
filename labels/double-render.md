@@ -1,0 +1,1 @@
+- GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle

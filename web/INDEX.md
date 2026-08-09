@@ -166,3 +166,7 @@
 | GE-20260809-6821a6 | Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop | gotcha | 11/15 |
 | GE-20260809-24b35e | Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/ | gotcha | 9/15 |
 | GE-20260809-778096 | Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests | gotcha | 8/15 |
+| GE-20260809-2cbc61 | ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly | gotcha | 9/15 |
+| GE-20260809-f1c2c6 | Lit updated() with @state() triggers double render — D3 setup must wait for second cycle | gotcha | 8/15 |
+| GE-20260809-a11928 | D3 force simulation as layout companion for Lit Web Components | technique | 10/15 |
+| GE-20260809-a51226 | Relationship type registry follows status registry pattern — module-level Map, no deregistration | convention | 8/15 |

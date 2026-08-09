@@ -35,3 +35,5 @@
 - GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes
 - GE-20260809-44b2a6: Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated
 - GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests
+- GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle
+- GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components

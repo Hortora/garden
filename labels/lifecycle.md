@@ -26,3 +26,4 @@
 - GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
 - GE-20260806-0edab1: Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override
 - GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()
+- GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle

@@ -1,0 +1,1 @@
+- GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly

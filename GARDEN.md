@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2555
+**Entries merged since last sweep:** 2559
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2890,6 +2890,10 @@
 - GE-20260809-6821a6 [Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop](web/GE-20260809-6821a6.md)
 - GE-20260809-24b35e [Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/](web/GE-20260809-24b35e.md)
 - GE-20260809-778096 [Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests](web/GE-20260809-778096.md)
+- GE-20260809-2cbc61 [ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly](web/GE-20260809-2cbc61.md)
+- GE-20260809-f1c2c6 [Lit updated() with @state() triggers double render — D3 setup must wait for second cycle](web/GE-20260809-f1c2c6.md)
+- GE-20260809-a11928 [D3 force simulation as layout companion for Lit Web Components](web/GE-20260809-a11928.md)
+- GE-20260809-a51226 [Relationship type registry follows status registry pattern — module-level Map, no deregistration](web/GE-20260809-a51226.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

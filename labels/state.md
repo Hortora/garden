@@ -1,3 +1,4 @@
 - GE-20260512-e552f7: @ApplicationScoped bean state persists across @QuarkusTest classes — tests pass in isolation but fail in suite
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
 - GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests
+- GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle

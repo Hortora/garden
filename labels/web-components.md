@@ -42,3 +42,5 @@
 - GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
 - GE-20260805-e3211c: pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite
+- GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly
+- GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components

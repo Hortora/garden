@@ -1,0 +1,2 @@
+- GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle
+- GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components

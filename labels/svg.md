@@ -1,3 +1,5 @@
 - GE-0006: Use `>?<` as a safe sed target for SVG text-element replacement in CI
 - GE-20260524-2920b6: SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction
 - GE-20260524-2920b6: SVG orient=auto marker path must point right (+x direction) not in the arrow's visual direction
+- GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly
+- GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
