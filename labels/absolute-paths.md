@@ -1,2 +1,1 @@
-- GE-20260530-3cc195: String.format("%.4f") uses JVM default locale — use Locale.ROOT for canonical decimal formatting
 - GE-20260809-056ccb: File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus

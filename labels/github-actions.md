@@ -31,3 +31,4 @@
 - GE-20260616-fa89ff: Fork model CI blind spots — org repo state is independent of your fork
 - GE-20260620-29841a: GitHub Actions setup-java server-password is an env var name — every Maven step needs GITHUB_TOKEN
 - GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag
+- GE-20260809-903561: GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds

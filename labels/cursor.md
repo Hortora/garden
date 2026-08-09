@@ -5,3 +5,4 @@
 - GE-20260703-eca34b: neocortex CorpusIngestionService saves cursor on empty fullScan — stale cursor silently blocks re-indexing on fresh Qdrant
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
+- GE-20260809-056ccb: File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus

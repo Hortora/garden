@@ -20,3 +20,4 @@
 - GE-20260707-ee0718: eventBus.publish() fan-out delivers to @ConsumeEvent(blocking=true) consumers with no ordering guarantee — test event log queries return non-deterministic sequence
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
 - GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
+- GE-20260809-903561: GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds

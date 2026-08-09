@@ -15,3 +15,5 @@
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260525-2833e9: GitHub Actions dispatch chain does not mirror the dependency graph — always verify from workflow files
 - GE-20260619-31e6e4: GitHub Packages Maven registry does not follow repo name redirects
+- GE-20260809-056ccb: File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus
+- GE-20260809-903561: GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds

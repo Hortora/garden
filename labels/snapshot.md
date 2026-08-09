@@ -65,3 +65,4 @@
 - GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
 - GE-20260809-cb0fe3: Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
+- GE-20260809-056ccb: File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus
