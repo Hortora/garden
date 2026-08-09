@@ -1,1 +1,2 @@
 - GE-20260624-0b931d: casehub-worker-api Capability record rejects null inputSchema/outputSchema — old engine Capability allowed null
+- GE-20260809-fe93ef: PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor

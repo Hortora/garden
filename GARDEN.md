@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2543
+**Entries merged since last sweep:** 2544
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1988,6 +1988,7 @@
 - GE-20260808-c29cdf [ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results](jvm/GE-20260808-c29cdf.md)
 - GE-20260809-7e03f2 [withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations](jvm/GE-20260809-7e03f2.md)
 - GE-20260809-b35ea9 [Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking](jvm/GE-20260809-b35ea9.md)
+- GE-20260809-fe93ef [PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor](jvm/GE-20260809-fe93ef.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

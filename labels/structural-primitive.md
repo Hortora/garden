@@ -1,0 +1,1 @@
+- GE-20260809-fe93ef: PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor

@@ -1352,3 +1352,4 @@
 | GE-20260808-c29cdf | ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results | gotcha | 9/15 |
 | GE-20260809-7e03f2 | withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations | gotcha | 12/15 |
 | GE-20260809-b35ea9 | Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking | technique | 10/15 |
+| GE-20260809-fe93ef | PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor | gotcha | 9/15 |
