@@ -1,3 +1,4 @@
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260707-58581e: Double-CAS pattern for lock-free coordinated state transitions across two AtomicRefs
+- GE-20260809-7e03f2: withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations

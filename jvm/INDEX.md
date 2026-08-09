@@ -1350,3 +1350,5 @@
 | GE-20260808-561e09 | Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification | technique | 12/15 |
 | GE-20260808-0fa727 | SmallRye Config ordinal override in library JAR for classpath-presence module subsumption | technique | 10/15 |
 | GE-20260808-c29cdf | ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results | gotcha | 9/15 |
+| GE-20260809-7e03f2 | withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations | gotcha | 12/15 |
+| GE-20260809-b35ea9 | Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking | technique | 10/15 |

@@ -1,2 +1,4 @@
 - GE-20260616-3d2605: ReconciliationLoop CAS race silently drops fault mutations when multiple nodes fail in same cycle
 - GE-20260706-2ac0db: FaultPolicyEngine injects plain List<FaultPolicy> — needs CDI producer on Quarkus Arc
+- GE-20260809-7e03f2: withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations
+- GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking

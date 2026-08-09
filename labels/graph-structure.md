@@ -1,0 +1,1 @@
+- GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking

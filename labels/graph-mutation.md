@@ -1,1 +1,2 @@
 - GE-20260616-780f2e: ImmutableDesiredStateGraph.withoutNode() destroys all dependency edges — RemoveNode + AddNode does not restore graph topology
+- GE-20260809-7e03f2: withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations

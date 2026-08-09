@@ -1,2 +1,3 @@
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
+- GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking

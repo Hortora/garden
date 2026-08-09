@@ -1,1 +1,3 @@
 - GE-20260806-272a90: Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates
+- GE-20260809-7e03f2: withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations
+- GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking

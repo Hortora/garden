@@ -47,3 +47,4 @@
 - GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
 - GE-20260806-218031: Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics
 - GE-20260808-c29cdf: ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results
+- GE-20260809-7e03f2: withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations
