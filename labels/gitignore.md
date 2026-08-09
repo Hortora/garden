@@ -3,3 +3,4 @@
 - GE-20260427-b5ec7a: git add -A before .gitignore on a new repo commits target/ and binaries permanently
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
+- GE-20260809-96d41c: .gitignore trailing-slash patterns silently skip symlinks

@@ -23,3 +23,4 @@
 - GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
 - GE-20260805-834e72: Trace actual event flow through code to determine where new logic belongs — don't reason from architecture diagrams
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
+- GE-20260809-c952b1: Guest/host framework bridging — run one framework's driver inside another's handler SPI

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2567
+**Entries merged since last sweep:** 2569
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2709,6 +2709,8 @@
 - GE-20260808-5713b7 [IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results](tools/GE-20260808-5713b7.md)
 - GE-20260809-056ccb [File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus](tools/GE-20260809-056ccb.md)
 - GE-20260809-903561 [GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds](tools/GE-20260809-903561.md)
+- GE-20260809-96d41c [.gitignore trailing-slash patterns silently skip symlinks](tools/GE-20260809-96d41c.md)
+- GE-20260809-c952b1 [Guest/host framework bridging — run one framework's driver inside another's handler SPI](tools/GE-20260809-c952b1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

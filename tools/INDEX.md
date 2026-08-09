@@ -678,3 +678,5 @@
 | GE-20260808-5713b7 | IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results | gotcha | 9/15 |
 | GE-20260809-056ccb | File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus | gotcha | 10/15 |
 | GE-20260809-903561 | GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds | gotcha | 9/15 |
+| GE-20260809-96d41c | .gitignore trailing-slash patterns silently skip symlinks | gotcha | 13/15 |
+| GE-20260809-c952b1 | Guest/host framework bridging — run one framework's driver inside another's handler SPI | technique | 12/15 |

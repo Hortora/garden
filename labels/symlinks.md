@@ -2,3 +2,4 @@
 - GE-20260720-3573ac: Git worktree with yarn workspaces: workspace symlinks resolve to main repo, not worktree — TypeScript sees stale dist
 - GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
 - GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite
+- GE-20260809-96d41c: .gitignore trailing-slash patterns silently skip symlinks

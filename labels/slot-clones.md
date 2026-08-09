@@ -1,0 +1,1 @@
+- GE-20260809-96d41c: .gitignore trailing-slash patterns silently skip symlinks

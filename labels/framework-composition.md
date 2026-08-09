@@ -1,0 +1,1 @@
+- GE-20260809-c952b1: Guest/host framework bridging — run one framework's driver inside another's handler SPI
