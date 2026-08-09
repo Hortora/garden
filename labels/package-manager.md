@@ -1,0 +1,1 @@
+- GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers

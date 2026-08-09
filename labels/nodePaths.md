@@ -1,0 +1,1 @@
+- GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies

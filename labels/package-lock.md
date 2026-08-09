@@ -1,0 +1,1 @@
+- GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules

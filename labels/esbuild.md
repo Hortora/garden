@@ -10,3 +10,4 @@
 - GE-20260728-6d585d: Lit ESM bundles fail dynamic import in Node.js — createTreeWalker called at module init
 - GE-20260730-d646b7: Ship pre-built static assets alongside tree-shakeable ESM for web component libraries
 - GE-20260803-17fc03: casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention
+- GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies

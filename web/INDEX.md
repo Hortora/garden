@@ -178,3 +178,7 @@
 | GE-20260809-14d2f9 | Playwright visual TDD — getBoundingClientRect assertions for layout verification | technique | 11/15 |
 | GE-20260809-c32008 | Deferred dock panels need data-pages-display=flex for content stretching | undocumented | 10/15 |
 | GE-20260809-cfb423 | Zone naming convention: side-position for columns, position-side for bottom bar | convention | 8/15 |
+| GE-20260810-46121c | npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules | gotcha | 12/15 |
+| GE-20260810-33cc57 | Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers | gotcha | 9/15 |
+| GE-20260810-6309f5 | esbuild alias resolves package root but external sources need nodePaths to find their dependencies | gotcha | 9/15 |
+| GE-20260810-918a14 | npm ignores package.json resolutions field entirely — portal: links are Yarn-only | undocumented | 8/15 |

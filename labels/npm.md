@@ -4,3 +4,6 @@
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
 - GE-20260720-9c817e: Cross-repo Vite alias pattern for consuming unpublished npm packages from sibling repos
 - GE-20260804-31bdba: Declared but uninstalled npm dependency — partial test suite masks total failure
+- GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules
+- GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers
+- GE-20260810-918a14: npm ignores package.json resolutions field entirely — portal: links are Yarn-only

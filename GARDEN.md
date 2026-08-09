@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2575
+**Entries merged since last sweep:** 2579
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2910,6 +2910,10 @@
 - GE-20260809-14d2f9 [Playwright visual TDD — getBoundingClientRect assertions for layout verification](web/GE-20260809-14d2f9.md)
 - GE-20260809-c32008 [Deferred dock panels need data-pages-display=flex for content stretching](web/GE-20260809-c32008.md)
 - GE-20260809-cfb423 [Zone naming convention: side-position for columns, position-side for bottom bar](web/GE-20260809-cfb423.md)
+- GE-20260810-46121c [npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules](web/GE-20260810-46121c.md)
+- GE-20260810-33cc57 [Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers](web/GE-20260810-33cc57.md)
+- GE-20260810-6309f5 [esbuild alias resolves package root but external sources need nodePaths to find their dependencies](web/GE-20260810-6309f5.md)
+- GE-20260810-918a14 [npm ignores package.json resolutions field entirely — portal: links are Yarn-only](web/GE-20260810-918a14.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

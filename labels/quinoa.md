@@ -8,3 +8,4 @@
 - GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
 - GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files
 - GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
+- GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers

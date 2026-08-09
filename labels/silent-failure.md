@@ -139,3 +139,4 @@
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260808-da5e6a: TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property
+- GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules
