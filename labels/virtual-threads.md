@@ -14,3 +14,4 @@
 - GE-20260724-115ce0: Neocortex reactive-primary architecture reverses the cookbook deletion pattern — blocking wrappers delegate to reactive
 - GE-20260804-b4cb6a: ScenarioOrchestrator validates ALL world characters before active-characters filter — silent crash
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
+- GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2570
+**Entries merged since last sweep:** 2572
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1997,6 +1997,7 @@
 - GE-20260809-d6902c [Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber](jvm/GE-20260809-d6902c.md)
 - GE-20260809-396f9a [Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()](jvm/GE-20260809-396f9a.md)
 - GE-20260810-07a4ac [Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked](jvm/GE-20260810-07a4ac.md)
+- GE-20260810-ee9b0c [CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests](jvm/GE-20260810-ee9b0c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2712,6 +2713,7 @@
 - GE-20260809-903561 [GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds](tools/GE-20260809-903561.md)
 - GE-20260809-96d41c [.gitignore trailing-slash patterns silently skip symlinks](tools/GE-20260809-96d41c.md)
 - GE-20260809-c952b1 [Guest/host framework bridging — run one framework's driver inside another's handler SPI](tools/GE-20260809-c952b1.md)
+- GE-20260810-06aee1 [Decorating immutable Java records by reconstructing with all components](tools/GE-20260810-06aee1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

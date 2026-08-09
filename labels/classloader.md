@@ -5,3 +5,4 @@
 - GE-20260706-fc6388: Quinoa pre-3.26 versions fail on Quarkus 3.26+ with ClassNotFoundException HttpBuildTimeConfig
 - GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
+- GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests

@@ -680,3 +680,4 @@
 | GE-20260809-903561 | GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds | gotcha | 9/15 |
 | GE-20260809-96d41c | .gitignore trailing-slash patterns silently skip symlinks | gotcha | 13/15 |
 | GE-20260809-c952b1 | Guest/host framework bridging — run one framework's driver inside another's handler SPI | technique | 12/15 |
+| GE-20260810-06aee1 | Decorating immutable Java records by reconstructing with all components | technique | 8/15 |

@@ -1357,3 +1357,4 @@
 | GE-20260809-d6902c | Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber | gotcha | 9/15 |
 | GE-20260809-396f9a | Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush() | gotcha | 11/15 |
 | GE-20260810-07a4ac | Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked | gotcha | 12/15 |
+| GE-20260810-ee9b0c | CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests | gotcha | 10/15 |

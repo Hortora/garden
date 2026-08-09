@@ -723,3 +723,4 @@
 - GE-20260808-0fa727: SmallRye Config ordinal override in library JAR for classpath-presence module subsumption
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
+- GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests

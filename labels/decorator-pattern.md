@@ -1,2 +1,1 @@
-- GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag
 - GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components

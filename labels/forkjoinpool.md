@@ -1,0 +1,1 @@
+- GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests

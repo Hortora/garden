@@ -14,3 +14,4 @@
 - GE-20260604-043617: Double.NaN silently passes < 0.0 || > 1.0 range guard — IEEE 754 comparisons with NaN always return false
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
+- GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components
