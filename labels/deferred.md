@@ -1,1 +1,2 @@
 - GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component
+- GE-20260809-c32008: Deferred dock panels need data-pages-display=flex for content stretching

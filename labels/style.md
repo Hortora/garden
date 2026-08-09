@@ -1,0 +1,1 @@
+- GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names

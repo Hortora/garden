@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2559
+**Entries merged since last sweep:** 2567
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2894,6 +2894,14 @@
 - GE-20260809-f1c2c6 [Lit updated() with @state() triggers double render — D3 setup must wait for second cycle](web/GE-20260809-f1c2c6.md)
 - GE-20260809-a11928 [D3 force simulation as layout companion for Lit Web Components](web/GE-20260809-a11928.md)
 - GE-20260809-a51226 [Relationship type registry follows status registry pattern — module-level Map, no deregistration](web/GE-20260809-a51226.md)
+- GE-20260809-fd314e [restoreFromUrl hides shared slot — hides all panels, not just the closed one](web/GE-20260809-fd314e.md)
+- GE-20260809-ae2695 [style.setProperty uses CSS hyphenated names, not camelCase JS names](web/GE-20260809-ae2695.md)
+- GE-20260809-e37216 [IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea](web/GE-20260809-e37216.md)
+- GE-20260809-646d55 [Renderer slot containers break flex height chains — need explicit flex styling](web/GE-20260809-646d55.md)
+- GE-20260809-aee002 [resolveDockZone — middle vs bottom position maps to different zones](web/GE-20260809-aee002.md)
+- GE-20260809-14d2f9 [Playwright visual TDD — getBoundingClientRect assertions for layout verification](web/GE-20260809-14d2f9.md)
+- GE-20260809-c32008 [Deferred dock panels need data-pages-display=flex for content stretching](web/GE-20260809-c32008.md)
+- GE-20260809-cfb423 [Zone naming convention: side-position for columns, position-side for bottom bar](web/GE-20260809-cfb423.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

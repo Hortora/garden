@@ -1,0 +1,4 @@
+- GE-20260809-fd314e: restoreFromUrl hides shared slot — hides all panels, not just the closed one
+- GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
+- GE-20260809-c32008: Deferred dock panels need data-pages-display=flex for content stretching
+- GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar

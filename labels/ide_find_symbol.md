@@ -1,0 +1,1 @@
+- GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea

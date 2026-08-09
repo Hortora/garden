@@ -1,0 +1,1 @@
+- GE-20260809-fd314e: restoreFromUrl hides shared slot — hides all panels, not just the closed one

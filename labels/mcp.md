@@ -73,3 +73,4 @@
 - GE-20260806-0dadb3: quarkus-mcp-server-http 1.11.1 exposes both streamable HTTP and SSE transports simultaneously
 - GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results
 - GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead
+- GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea

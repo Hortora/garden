@@ -1,1 +1,2 @@
 - GE-20260702-b1f919: Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent
+- GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling

@@ -1,0 +1,2 @@
+- GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
+- GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar

@@ -1,3 +1,7 @@
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
 - GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components
 - GE-20260808-a59625: pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens
+- GE-20260809-fd314e: restoreFromUrl hides shared slot — hides all panels, not just the closed one
+- GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
+- GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
+- GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification

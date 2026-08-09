@@ -3,3 +3,4 @@
 - GE-20260522-405c25: Process text nodes in reverse DOM order when splitting them for inline element injection
 - GE-20260522-6786c3: el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters
 - GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument
+- GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names

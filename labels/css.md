@@ -6,3 +6,5 @@
 - GE-20260802-953404: CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade
 - GE-20260804-50d971: pages-data-table paginated mode fills parent height — must wrap in constrained div
 - GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
+- GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names
+- GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling

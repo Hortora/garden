@@ -13,3 +13,5 @@
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
 - GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
 - GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
+- GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
+- GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar

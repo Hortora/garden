@@ -5,3 +5,5 @@
 - GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
 - GE-20260809-cb0fe3: Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine
 - GE-20260809-10ce51: casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker
+- GE-20260809-fd314e: restoreFromUrl hides shared slot — hides all panels, not just the closed one
+- GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling

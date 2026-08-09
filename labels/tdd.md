@@ -7,3 +7,4 @@
 - GE-20260415-2af3bb: Assert derived values via the same source as the implementation — not hardcoded magic numbers
 - GE-20260601-aa7b04: TDD for constant renames — write a PASS test first to pin existing behaviour
 - GE-20260806-0c1c81: Extract pure functions from UI components for TDD — test logic independently, test wiring via component
+- GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification

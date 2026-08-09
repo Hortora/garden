@@ -1,0 +1,1 @@
+- GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification

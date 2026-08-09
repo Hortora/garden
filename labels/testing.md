@@ -415,3 +415,4 @@
 - GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI
 - GE-20260808-c29cdf: ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results
 - GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests
+- GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification

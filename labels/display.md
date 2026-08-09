@@ -1,0 +1,1 @@
+- GE-20260809-c32008: Deferred dock panels need data-pages-display=flex for content stretching

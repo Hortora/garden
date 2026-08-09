@@ -32,3 +32,4 @@
 - GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function
 - GE-20260804-fe785f: IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin
 - GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes
+- GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea

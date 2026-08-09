@@ -170,3 +170,11 @@
 | GE-20260809-f1c2c6 | Lit updated() with @state() triggers double render — D3 setup must wait for second cycle | gotcha | 8/15 |
 | GE-20260809-a11928 | D3 force simulation as layout companion for Lit Web Components | technique | 10/15 |
 | GE-20260809-a51226 | Relationship type registry follows status registry pattern — module-level Map, no deregistration | convention | 8/15 |
+| GE-20260809-fd314e | restoreFromUrl hides shared slot — hides all panels, not just the closed one | gotcha | 11/15 |
+| GE-20260809-ae2695 | style.setProperty uses CSS hyphenated names, not camelCase JS names | gotcha | 12/15 |
+| GE-20260809-e37216 | IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea | gotcha | 10/15 |
+| GE-20260809-646d55 | Renderer slot containers break flex height chains — need explicit flex styling | gotcha | 11/15 |
+| GE-20260809-aee002 | resolveDockZone — middle vs bottom position maps to different zones | gotcha | 9/15 |
+| GE-20260809-14d2f9 | Playwright visual TDD — getBoundingClientRect assertions for layout verification | technique | 11/15 |
+| GE-20260809-c32008 | Deferred dock panels need data-pages-display=flex for content stretching | undocumented | 10/15 |
+| GE-20260809-cfb423 | Zone naming convention: side-position for columns, position-side for bottom bar | convention | 8/15 |

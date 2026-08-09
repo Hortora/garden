@@ -1,2 +1,4 @@
 - GE-20260630-b8e2d8: CSS Grid fr tracks don't collapse on display:none — flex automatically redistributes
 - GE-20260702-b1f919: Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent
+- GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
+- GE-20260809-c32008: Deferred dock panels need data-pages-display=flex for content stretching
