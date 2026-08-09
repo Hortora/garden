@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2572
+**Entries merged since last sweep:** 2575
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2714,6 +2714,9 @@
 - GE-20260809-96d41c [.gitignore trailing-slash patterns silently skip symlinks](tools/GE-20260809-96d41c.md)
 - GE-20260809-c952b1 [Guest/host framework bridging — run one framework's driver inside another's handler SPI](tools/GE-20260809-c952b1.md)
 - GE-20260810-06aee1 [Decorating immutable Java records by reconstructing with all components](tools/GE-20260810-06aee1.md)
+- GE-20260810-d93e91 [re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching](tools/GE-20260810-d93e91.md)
+- GE-20260810-c45190 [Ordered dimensional reviews produce richer findings via cascading context](tools/GE-20260810-c45190.md)
+- GE-20260810-cc9129 [Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review](tools/GE-20260810-cc9129.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

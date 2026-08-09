@@ -1,2 +1,4 @@
 - GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
 - GE-20260805-533d77: Design review subagents (claude -p) cannot access parent session MCP connections — reviews stall on IntelliJ-dependent code navigation
+- GE-20260810-c45190: Ordered dimensional reviews produce richer findings via cascading context
+- GE-20260810-cc9129: Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review

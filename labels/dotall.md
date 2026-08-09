@@ -1,0 +1,1 @@
+- GE-20260810-d93e91: re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching

@@ -681,3 +681,6 @@
 | GE-20260809-96d41c | .gitignore trailing-slash patterns silently skip symlinks | gotcha | 13/15 |
 | GE-20260809-c952b1 | Guest/host framework bridging — run one framework's driver inside another's handler SPI | technique | 12/15 |
 | GE-20260810-06aee1 | Decorating immutable Java records by reconstructing with all components | technique | 8/15 |
+| GE-20260810-d93e91 | re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching | gotcha | 9/15 |
+| GE-20260810-c45190 | Ordered dimensional reviews produce richer findings via cascading context | technique | 10/15 |
+| GE-20260810-cc9129 | Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review | convention | 8/15 |
