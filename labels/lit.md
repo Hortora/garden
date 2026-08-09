@@ -34,3 +34,4 @@
 - GE-20260805-0f01a5: TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments
 - GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes
 - GE-20260809-44b2a6: Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated
+- GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests

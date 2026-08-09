@@ -64,3 +64,4 @@
 - GE-20260805-1afb83: IntelliJ ide_edit_member reformats entire method body on replacement
 - GE-20260806-e9d1c2: ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')
 - GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results
+- GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead

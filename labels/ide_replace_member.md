@@ -3,3 +3,4 @@
 - GE-20260718-c23bb5: ide_replace_member duplicates method signature — inserts new body inside existing declaration
 - GE-20260727-349cef: IntelliJ MCP ide_replace_member duplicates method signature inside the body
 - GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body
+- GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead

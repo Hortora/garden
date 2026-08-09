@@ -57,3 +57,5 @@
 - GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers
 - GE-20260805-792bab: IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions
 - GE-20260806-ed860d: IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot
+- GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
+- GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern

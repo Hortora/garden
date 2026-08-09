@@ -164,3 +164,5 @@
 | GE-20260809-44b2a6 | Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated | gotcha | 13/15 |
 | GE-20260809-f0c43a | happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence | gotcha | 12/15 |
 | GE-20260809-6821a6 | Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop | gotcha | 11/15 |
+| GE-20260809-24b35e | Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/ | gotcha | 9/15 |
+| GE-20260809-778096 | Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests | gotcha | 8/15 |

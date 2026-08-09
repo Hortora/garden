@@ -15,3 +15,4 @@
 - GE-20260610-f990b2: @Transactional(REQUIRES_NEW) on stores makes test fixture data invisible — tests must commit separately
 - GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL
 - GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification
+- GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()

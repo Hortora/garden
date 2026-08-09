@@ -199,3 +199,6 @@
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
 - GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results
+- GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
+- GE-20260809-cb0fe3: Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine
+- GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber

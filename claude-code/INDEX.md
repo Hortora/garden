@@ -27,3 +27,5 @@
 | GE-20260804-caaf12 | IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines | gotcha | 10/15 |
 | GE-20260804-fe785f | IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin | gotcha | 8/15 |
 | GE-20260804-cf77dc | IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path | gotcha | 8/15 |
+| GE-20260809-c99c70 | IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change | gotcha | 12/15 |
+| GE-20260809-9a1ac2 | IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern | gotcha | 8/15 |

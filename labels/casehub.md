@@ -111,3 +111,4 @@
 - GE-20260805-06bcb8: AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
 - GE-20260809-fe93ef: PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor
+- GE-20260809-10ce51: casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker

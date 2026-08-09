@@ -27,3 +27,4 @@
 - GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site
 - GE-20260714-aa950f: Java diamond inference fails when second type parameter has no constructor source — must use explicit type arguments
 - GE-20260716-960319: Map.of() type inference fails with sealed interface subtypes — infers Record & SealedType instead of SealedType
+- GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern

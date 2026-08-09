@@ -2,3 +2,4 @@
 - GE-20260423-442a71: IntelliJ flat-PSI annotator: element.getParent() != file guard is always false
 - GE-20260423-af487b: IntelliJ MultiHostInjector: multiple addPlace() in one session concatenates content
 - GE-20260604-a8ffaa: ide_find_class returns empty silently for classes in recently-added modules not yet PSI-indexed
+- GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change

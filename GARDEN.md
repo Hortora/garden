@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2544
+**Entries merged since last sweep:** 2553
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -72,6 +72,7 @@
 - GE-20260808-56e574 [CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all](casehub-engine/GE-20260808-56e574.md)
 - GE-20260808-94c14d [PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name](casehub-engine/GE-20260808-94c14d.md)
 - GE-20260808-47dc40 [CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails](casehub-engine/GE-20260808-47dc40.md)
+- GE-20260809-10ce51 [casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker](casehub-engine/GE-20260809-10ce51.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -168,6 +169,8 @@
 - GE-20260804-caaf12 [IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines](claude-code/GE-20260804-caaf12.md)
 - GE-20260804-fe785f [IntelliJ MCP ide_insert_member does not support TypeScript — only Java and Kotlin](claude-code/GE-20260804-fe785f.md)
 - GE-20260804-cf77dc [IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path](claude-code/GE-20260804-cf77dc.md)
+- GE-20260809-c99c70 [IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change](claude-code/GE-20260809-c99c70.md)
+- GE-20260809-9a1ac2 [IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern](claude-code/GE-20260809-9a1ac2.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -231,6 +234,7 @@
 - GE-20260805-912fa7 [IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk](intellij-platform/GE-20260805-912fa7.md)
 - GE-20260805-450be2 [ide_replace_text_in_file does substring matching — replaces inside longer identifiers](intellij-platform/GE-20260805-450be2.md)
 - GE-20260805-792bab [IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions](intellij-platform/GE-20260805-792bab.md)
+- GE-20260809-914ad1 [ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead](intellij-platform/GE-20260809-914ad1.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -1989,6 +1993,9 @@
 - GE-20260809-7e03f2 [withDependency strictness breaks CAS retry loop when fault policies return AddDependency mutations](jvm/GE-20260809-7e03f2.md)
 - GE-20260809-b35ea9 [Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking](jvm/GE-20260809-b35ea9.md)
 - GE-20260809-fe93ef [PlanItemDefinition.Primitive requireNonNull(executor) rejects null but structural children never use executor](jvm/GE-20260809-fe93ef.md)
+- GE-20260809-cb0fe3 [Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine](jvm/GE-20260809-cb0fe3.md)
+- GE-20260809-d6902c [Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber](jvm/GE-20260809-d6902c.md)
+- GE-20260809-396f9a [Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()](jvm/GE-20260809-396f9a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2879,6 +2886,8 @@
 - GE-20260809-44b2a6 [Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated](web/GE-20260809-44b2a6.md)
 - GE-20260809-f0c43a [happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence](web/GE-20260809-f0c43a.md)
 - GE-20260809-6821a6 [Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop](web/GE-20260809-6821a6.md)
+- GE-20260809-24b35e [Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/](web/GE-20260809-24b35e.md)
+- GE-20260809-778096 [Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests](web/GE-20260809-778096.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

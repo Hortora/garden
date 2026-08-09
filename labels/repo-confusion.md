@@ -1,0 +1,1 @@
+- GE-20260809-10ce51: casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker

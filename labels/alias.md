@@ -1,3 +1,4 @@
 - GE-20260710-335228: Vite/Vitest object-format aliases silently miss regex-dependent deep imports
 - GE-20260712-0b3483: Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path
 - GE-20260712-ab4f0a: esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds
+- GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/

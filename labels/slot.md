@@ -3,3 +3,5 @@
 - GE-20260805-1644d6: Maven -nsu not -o for slot builds — offline fails on uncached plugins
 - GE-20260806-e9d1c2: ide_optimize_imports removes valid wildcard imports in slot-cloned projects (IntelliJ language level '5')
 - GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
+- GE-20260809-cb0fe3: Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine
+- GE-20260809-10ce51: casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker

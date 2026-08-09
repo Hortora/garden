@@ -8,3 +8,4 @@
 - GE-20260601-ad3154: Parse JVM class bytecode constant pool with Python to extract string constants from a JAR without source
 - GE-20260610-7b4ff5: Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
+- GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
