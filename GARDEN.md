@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2569
+**Entries merged since last sweep:** 2570
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1996,6 +1996,7 @@
 - GE-20260809-cb0fe3 [Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine](jvm/GE-20260809-cb0fe3.md)
 - GE-20260809-d6902c [Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber](jvm/GE-20260809-d6902c.md)
 - GE-20260809-396f9a [Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()](jvm/GE-20260809-396f9a.md)
+- GE-20260810-07a4ac [Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked](jvm/GE-20260810-07a4ac.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

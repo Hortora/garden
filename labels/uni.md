@@ -8,3 +8,4 @@
 - GE-20260609-630b35: Uni.createFrom().runnable() does not exist in Mutiny — use Uni.createFrom().<Void>item(Supplier) instead
 - GE-20260616-6f1743: AtomicReference to capture values across Mutiny Uni chain when chain switches threads via runSubscriptionOn
 - GE-20260421-ac12d5: Uni.join().all(list).andFailFast() — ordered parallel reactive collection in Mutiny
+- GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
