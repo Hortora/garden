@@ -1362,3 +1362,9 @@
 | GE-20260810-9264db | LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation | gotcha | 9/15 |
 | GE-20260810-fbf04a | Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking | gotcha | 12/15 |
 | GE-20260810-2ae244 | SequentialRouting stale AtomicInteger index across multiple OrchestratedDriver executions | gotcha | 12/15 |
+| GE-20260810-793376 | BreachDecision.Chained is atomic same-event fallback — thenOnBreach with Extend infinite-loops | gotcha | 11/15 |
+| GE-20260810-724b82 | SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement | gotcha | 9/15 |
+| GE-20260810-cfb71a | HumanTaskScheduleHandler ignored resolvedScope — scopeExpression had no effect on WorkItem scope | gotcha | 10/15 |
+| GE-20260810-49ac78 | PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED | gotcha | 10/15 |
+| GE-20260810-4bccad | Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains | technique | 9/15 |
+| GE-20260810-878d00 | Scope path encoding for metadata propagation to SlaBreachContext | technique | 8/15 |

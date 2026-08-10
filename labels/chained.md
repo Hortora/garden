@@ -1,2 +1,1 @@
-- GE-20260421-cd3f95: CDI @Observes lifecycle events re-enter the observer recursively when actions fire new events
 - GE-20260810-793376: BreachDecision.Chained is atomic same-event fallback — thenOnBreach with Extend infinite-loops

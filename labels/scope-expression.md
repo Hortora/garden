@@ -1,0 +1,1 @@
+- GE-20260810-cfb71a: HumanTaskScheduleHandler ignored resolvedScope — scopeExpression had no effect on WorkItem scope

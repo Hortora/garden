@@ -1,0 +1,1 @@
+- GE-20260810-724b82: SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement

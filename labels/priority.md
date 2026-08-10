@@ -13,3 +13,4 @@
 - GE-20260628-ea2ac5: quarkus.arc.selected-alternatives default priority 1 creates tie with @Priority(1) subclass beans — two @ApplicationScoped instances with separate state
 - GE-20260628-cabe4f: @IfBuildProfile + @Alternative + @Priority resolves CDI without selected-alternatives in indexed JARs
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
+- GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext

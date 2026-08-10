@@ -400,3 +400,4 @@
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
 - GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean
+- GE-20260810-724b82: SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement

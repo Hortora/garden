@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2588
+**Entries merged since last sweep:** 2594
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2002,6 +2002,12 @@
 - GE-20260810-9264db [LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation](jvm/GE-20260810-9264db.md)
 - GE-20260810-fbf04a [Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking](jvm/GE-20260810-fbf04a.md)
 - GE-20260810-2ae244 [SequentialRouting stale AtomicInteger index across multiple OrchestratedDriver executions](jvm/GE-20260810-2ae244.md)
+- GE-20260810-793376 [BreachDecision.Chained is atomic same-event fallback — thenOnBreach with Extend infinite-loops](jvm/GE-20260810-793376.md)
+- GE-20260810-724b82 [SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement](jvm/GE-20260810-724b82.md)
+- GE-20260810-cfb71a [HumanTaskScheduleHandler ignored resolvedScope — scopeExpression had no effect on WorkItem scope](jvm/GE-20260810-cfb71a.md)
+- GE-20260810-49ac78 [PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED](jvm/GE-20260810-49ac78.md)
+- GE-20260810-4bccad [Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains](jvm/GE-20260810-4bccad.md)
+- GE-20260810-878d00 [Scope path encoding for metadata propagation to SlaBreachContext](jvm/GE-20260810-878d00.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

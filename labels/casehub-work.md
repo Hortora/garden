@@ -22,3 +22,9 @@
 - GE-20260629-db82b4: WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution
 - GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
 - GE-20260805-a2aa1b: casehub-work SPI (WorkItemStore) co-located with JPA entities in runtime module — consumers inherit 80+ CDI beans and a mandatory datasource
+- GE-20260810-793376: BreachDecision.Chained is atomic same-event fallback — thenOnBreach with Extend infinite-loops
+- GE-20260810-724b82: SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement
+- GE-20260810-cfb71a: HumanTaskScheduleHandler ignored resolvedScope — scopeExpression had no effect on WorkItem scope
+- GE-20260810-49ac78: PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED
+- GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains
+- GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext

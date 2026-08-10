@@ -4,3 +4,4 @@
 - GE-20260708-d53278: Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion
 - GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
+- GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext

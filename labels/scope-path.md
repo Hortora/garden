@@ -1,1 +1,2 @@
 - GE-20260805-4336aa: InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path
+- GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext

@@ -1,2 +1,1 @@
-- GE-20260802-40710e: WorkerResult.completed() vs WorkerResult.of() — lifecycle scope completion semantics
 - GE-20260810-49ac78: PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED

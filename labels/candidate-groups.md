@@ -1,1 +1,2 @@
 - GE-20260607-326c7e: casehub-engine: GateRequired with fewer candidateGroups is MORE restrictive in classifier chain resolution
+- GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains

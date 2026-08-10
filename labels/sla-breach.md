@@ -1,0 +1,4 @@
+- GE-20260810-793376: BreachDecision.Chained is atomic same-event fallback — thenOnBreach with Extend infinite-loops
+- GE-20260810-724b82: SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement
+- GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains
+- GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext

@@ -5,3 +5,4 @@
 - GE-20260622-71f4b9: WorkItemLifecycleEvent.detail() is always null for ESCALATED — Exhausted(reason) goes to audit log only
 - GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry
 - GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking
+- GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains
