@@ -66,3 +66,4 @@
 - GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern
 - GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
+- GE-20260810-f5f01d: Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads

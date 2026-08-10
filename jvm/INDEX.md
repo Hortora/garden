@@ -1368,3 +1368,6 @@
 | GE-20260810-49ac78 | PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED | gotcha | 10/15 |
 | GE-20260810-4bccad | Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains | technique | 9/15 |
 | GE-20260810-878d00 | Scope path encoding for metadata propagation to SlaBreachContext | technique | 8/15 |
+| GE-20260810-1bd017 | Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT | gotcha | 11/15 |
+| GE-20260810-f5f01d | Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads | technique | 9/15 |
+| GE-20260810-804c58 | CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath | undocumented | 8/15 |

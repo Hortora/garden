@@ -1,1 +1,2 @@
 - GE-20260707-4ea952: AgentProvider.openSession() for persistent HyDE — 5x faster than per-call invoke(), must serialize access
+- GE-20260810-f5f01d: Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads

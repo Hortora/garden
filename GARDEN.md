@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2596
+**Entries merged since last sweep:** 2599
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2008,6 +2008,9 @@
 - GE-20260810-49ac78 [PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED](jvm/GE-20260810-49ac78.md)
 - GE-20260810-4bccad [Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains](jvm/GE-20260810-4bccad.md)
 - GE-20260810-878d00 [Scope path encoding for metadata propagation to SlaBreachContext](jvm/GE-20260810-878d00.md)
+- GE-20260810-1bd017 [Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT](jvm/GE-20260810-1bd017.md)
+- GE-20260810-f5f01d [Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads](jvm/GE-20260810-f5f01d.md)
+- GE-20260810-804c58 [CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath](jvm/GE-20260810-804c58.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
