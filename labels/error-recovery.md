@@ -1,0 +1,1 @@
+- GE-20260810-e5badc: TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently

@@ -3,3 +3,4 @@
 - GE-20260628-dbc656: WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock
 - GE-20260705-2a5555: LedgerAttestation @MappedSuperclass vs @Entity — silent persist failure
 - GE-20260805-06bcb8: AmlCaseProfileLedgerEntry.outcome stores triage decision — SAR regulatory verdict is on LedgerAttestation
+- GE-20260810-e5badc: TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently

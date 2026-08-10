@@ -1,0 +1,1 @@
+- GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags

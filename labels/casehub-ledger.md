@@ -19,3 +19,4 @@
 - GE-20260618-3e5f2d: ErasureReceiptLedgerEntry entity name collision when foundation and application both define the same JPA entity
 - GE-20260628-6599e6: casehub-ledger: actor-scoped erasure receipt queries return empty after GDPR erase — tokenisation severs the link
 - GE-20260707-99de4f: casehub-ledger LedgerEntry api/runtime split — consumer subclasses must extend JpaLedgerEntry, not LedgerEntry
+- GE-20260810-e5badc: TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently

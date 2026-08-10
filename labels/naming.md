@@ -15,3 +15,4 @@
 - GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
 - GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
 - GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar
+- GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags

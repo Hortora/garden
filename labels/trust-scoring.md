@@ -3,3 +3,4 @@
 - GE-20260616-17187e: casehub-ledger TrustGateService delegates via TrustScoreSource SPI — not directly to ActorTrustScoreRepository
 - GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry
 - GE-20260625-aaf3d4: QuarkusTransaction.requiringNew() write + ambient CDI read = stale trust score — JPA L1 cache serves old entity
+- GE-20260810-e5badc: TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently
