@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2621
+**Entries merged since last sweep:** 2622
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2018,6 +2018,7 @@
 - GE-20260810-3f2f73 [Override a broad ExceptionMapper by registering a more-specific generic type](jvm/GE-20260810-3f2f73.md)
 - GE-20260810-b53fd8 [Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required](jvm/GE-20260810-b53fd8.md)
 - GE-20260810-ea14ce [Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI](jvm/GE-20260810-ea14ce.md)
+- GE-20260810-c69a19 [Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>](jvm/GE-20260810-c69a19.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -2,3 +2,4 @@
 - GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces
 - GE-20260709-520b0b: Instance<T> with isResolvable() for truly optional CDI dependencies in Quarkus extensions
 - GE-20260810-ea14ce: Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI
+- GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>

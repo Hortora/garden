@@ -730,3 +730,4 @@
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
 - GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
 - GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type
+- GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>
