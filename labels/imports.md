@@ -13,3 +13,4 @@
 - GE-20260802-1d6cc3: IntelliJ ide_optimize_imports silently skips newly created classes in unsynced worktrees
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
+- GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds

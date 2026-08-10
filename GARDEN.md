@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2636
+**Entries merged since last sweep:** 2637
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -171,6 +171,7 @@
 - GE-20260804-cf77dc [IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path](claude-code/GE-20260804-cf77dc.md)
 - GE-20260809-c99c70 [IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change](claude-code/GE-20260809-c99c70.md)
 - GE-20260809-9a1ac2 [IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern](claude-code/GE-20260809-9a1ac2.md)
+- GE-20260810-1e1d47 [IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds](claude-code/GE-20260810-1e1d47.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

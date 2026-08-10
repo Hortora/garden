@@ -7,3 +7,4 @@
 - GE-20260604-098217: serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage
 - GE-20260420-c94e2a: Java switch expressions on enum without default break compile when new enum values are added — even if other switches have defaults
 - GE-20260618-b940b2: casehub-ledger: ActorIdentityProvider moved to ledger-api jar; tokeniseForQuery return type changed to Optional
+- GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds

@@ -1,1 +1,2 @@
 - GE-20260714-13b430: ide_insert_member reformat=true silently removes static imports
+- GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds

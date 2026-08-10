@@ -59,3 +59,4 @@
 - GE-20260806-ed860d: IntelliJ MCP ide_replace_text_in_file silently edits wrong clone when project_path points to main repo instead of slot
 - GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
 - GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern
+- GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds
