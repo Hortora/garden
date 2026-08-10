@@ -1,1 +1,2 @@
 - GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently
+- GE-20260810-8bc960: ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop

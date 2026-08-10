@@ -1371,3 +1371,4 @@
 | GE-20260810-1bd017 | Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT | gotcha | 11/15 |
 | GE-20260810-f5f01d | Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads | technique | 9/15 |
 | GE-20260810-804c58 | CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath | undocumented | 8/15 |
+| GE-20260810-8bc960 | ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop | gotcha | 10/15 |
