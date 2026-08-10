@@ -1,2 +1,1 @@
-- GE-20260704-d6aacc: Quarkus ARC Instance<SuperInterface> does not discover beans implementing sub-interfaces
 - GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required

@@ -403,3 +403,4 @@
 - GE-20260810-724b82: SlaBreachPolicy selection is config-driven via StrategyResolver, not CDI displacement
 - GE-20260810-804c58: CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
+- GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required
