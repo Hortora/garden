@@ -143,3 +143,4 @@
 - GE-20260810-2ae244: SequentialRouting stale AtomicInteger index across multiple OrchestratedDriver executions
 - GE-20260810-71deb5: Claude Code Write tool silently loses content when linter reverts file between write and verification
 - GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead
+- GE-20260810-696ea3: ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table

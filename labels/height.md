@@ -1,3 +1,5 @@
 - GE-20260702-b1f919: Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent
 - GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
 - GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space
+- GE-20260810-81d356: CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally
+- GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height

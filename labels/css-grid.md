@@ -2,3 +2,4 @@
 - GE-20260706-dfef71: CSS Grid column picker inside header grid takes its own column slot — misaligns header and body
 - GE-20260719-4db710: CSS Grid single-container virtual scroll — native spanning without position hacks
 - GE-20260808-a59625: pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens
+- GE-20260810-81d356: CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally

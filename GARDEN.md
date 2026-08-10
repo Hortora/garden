@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2626
+**Entries merged since last sweep:** 2630
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2960,6 +2960,10 @@
 - GE-20260810-5f4dbe [Yarn resolutions field in package.json is silently ignored by npm — use overrides instead](web/GE-20260810-5f4dbe.md)
 - GE-20260810-c90963 [npx --prefix sets module resolution path but does NOT change working directory](web/GE-20260810-c90963.md)
 - GE-20260810-9ba5de [Conditional vite aliases with fs.existsSync() for multi-environment compatibility](web/GE-20260810-9ba5de.md)
+- GE-20260810-81d356 [CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally](web/GE-20260810-81d356.md)
+- GE-20260810-8df51b [LitElement custom elements default to display:inline — silently ignores height and min-height](web/GE-20260810-8df51b.md)
+- GE-20260810-696ea3 [ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table](web/GE-20260810-696ea3.md)
+- GE-20260810-f7b20c [ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle](web/GE-20260810-f7b20c.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

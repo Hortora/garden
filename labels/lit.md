@@ -38,3 +38,4 @@
 - GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle
 - GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
 - GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
+- GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height

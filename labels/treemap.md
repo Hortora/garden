@@ -1,0 +1,1 @@
+- GE-20260810-f7b20c: ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle

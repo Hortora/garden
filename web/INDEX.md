@@ -195,3 +195,7 @@
 | GE-20260810-5f4dbe | Yarn resolutions field in package.json is silently ignored by npm — use overrides instead | gotcha | 10/15 |
 | GE-20260810-c90963 | npx --prefix sets module resolution path but does NOT change working directory | gotcha | 9/15 |
 | GE-20260810-9ba5de | Conditional vite aliases with fs.existsSync() for multi-environment compatibility | technique | 9/15 |
+| GE-20260810-81d356 | CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally | gotcha | 10/15 |
+| GE-20260810-8df51b | LitElement custom elements default to display:inline — silently ignores height and min-height | gotcha | 9/15 |
+| GE-20260810-696ea3 | ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table | technique | 9/15 |
+| GE-20260810-f7b20c | ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle | gotcha | 8/15 |

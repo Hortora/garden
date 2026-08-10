@@ -15,3 +15,4 @@
 - GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
 - GE-20260804-4d9ce7: Document-level mousedown bypasses nested shadow DOM focus barrier for xterm.js
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
+- GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height

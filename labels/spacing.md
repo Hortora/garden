@@ -1,0 +1,1 @@
+- GE-20260810-81d356: CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally

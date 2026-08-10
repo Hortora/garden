@@ -5,3 +5,4 @@
 - GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
 - GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
 - GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification
+- GE-20260810-81d356: CSS grid grid-auto-rows minmax(min-content, 1fr) with height:100% stretches ALL rows equally

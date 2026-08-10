@@ -1,1 +1,2 @@
 - GE-20260809-c32008: Deferred dock panels need data-pages-display=flex for content stretching
+- GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height

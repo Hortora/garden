@@ -1,0 +1,1 @@
+- GE-20260810-696ea3: ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table

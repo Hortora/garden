@@ -1,3 +1,5 @@
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
 - GE-20260629-a9db51: ECharts custom series api.value(N) returns 0 for out-of-range indices, not undefined
 - GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
+- GE-20260810-696ea3: ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table
+- GE-20260810-f7b20c: ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle
