@@ -1,0 +1,1 @@
+- GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation

@@ -5,3 +5,4 @@
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260804-caaf12: IntelliJ MCP ide_replace_text_in_file treats \n in replaceText as literal backslash-n, not newlines
 - GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers
+- GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls

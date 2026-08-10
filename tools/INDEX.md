@@ -684,3 +684,4 @@
 | GE-20260810-d93e91 | re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching | gotcha | 9/15 |
 | GE-20260810-c45190 | Ordered dimensional reviews produce richer findings via cascading context | technique | 10/15 |
 | GE-20260810-cc9129 | Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review | convention | 8/15 |
+| GE-20260810-47908e | Broad text replacement on closing-paren patterns hits unrelated method calls | gotcha | 8/15 |

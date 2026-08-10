@@ -1,0 +1,1 @@
+- GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls

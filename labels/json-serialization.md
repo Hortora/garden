@@ -1,1 +1,2 @@
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
+- GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation

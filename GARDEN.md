@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2579
+**Entries merged since last sweep:** 2582
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -1998,6 +1998,8 @@
 - GE-20260809-396f9a [Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()](jvm/GE-20260809-396f9a.md)
 - GE-20260810-07a4ac [Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked](jvm/GE-20260810-07a4ac.md)
 - GE-20260810-ee9b0c [CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests](jvm/GE-20260810-ee9b0c.md)
+- GE-20260810-31134a [casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate](jvm/GE-20260810-31134a.md)
+- GE-20260810-9264db [LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation](jvm/GE-20260810-9264db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2717,6 +2719,7 @@
 - GE-20260810-d93e91 [re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching](tools/GE-20260810-d93e91.md)
 - GE-20260810-c45190 [Ordered dimensional reviews produce richer findings via cascading context](tools/GE-20260810-c45190.md)
 - GE-20260810-cc9129 [Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review](tools/GE-20260810-cc9129.md)
+- GE-20260810-47908e [Broad text replacement on closing-paren patterns hits unrelated method calls](tools/GE-20260810-47908e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

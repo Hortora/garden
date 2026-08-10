@@ -5,3 +5,4 @@
 - GE-20260804-0959d2: work-item-inbox has no compact mode — use list-pane for dock panels
 - GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
 - GE-20260809-a51226: Relationship type registry follows status registry pattern — module-level Map, no deregistration
+- GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation

@@ -1358,3 +1358,5 @@
 | GE-20260809-396f9a | Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush() | gotcha | 11/15 |
 | GE-20260810-07a4ac | Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked | gotcha | 12/15 |
 | GE-20260810-ee9b0c | CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests | gotcha | 10/15 |
+| GE-20260810-31134a | casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate | gotcha | 9/15 |
+| GE-20260810-9264db | LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation | gotcha | 9/15 |
