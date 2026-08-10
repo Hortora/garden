@@ -692,3 +692,4 @@
 | GE-20260810-829129 | Git rebase silently drops child branch commits after parent branch is squash-merged to main | gotcha | 12/15 |
 | GE-20260810-a60036 | Gitignore trailing-slash patterns don't match symlinks to directories | gotcha | 9/15 |
 | GE-20260810-99bf75 | Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found | gotcha | 8/15 |
+| GE-0137 | `git push` to a non-bare repo is rejected when the target branch is checked out | gotcha | 12/15 |
