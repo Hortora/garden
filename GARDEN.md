@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2594
+**Entries merged since last sweep:** 2596
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2728,6 +2728,8 @@
 - GE-20260810-c45190 [Ordered dimensional reviews produce richer findings via cascading context](tools/GE-20260810-c45190.md)
 - GE-20260810-cc9129 [Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review](tools/GE-20260810-cc9129.md)
 - GE-20260810-47908e [Broad text replacement on closing-paren patterns hits unrelated method calls](tools/GE-20260810-47908e.md)
+- GE-20260810-71deb5 [Claude Code Write tool silently loses content when linter reverts file between write and verification](tools/GE-20260810-71deb5.md)
+- GE-20260810-3fc4fe [Lifecycle self-transition pattern for observability-only events](tools/GE-20260810-3fc4fe.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

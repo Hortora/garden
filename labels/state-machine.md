@@ -9,3 +9,4 @@
 - GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging
 - GE-20260804-6dc382: pauseAgent poll race — set PAUSED state before treeKill to prevent agent removal
 - GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()
+- GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events

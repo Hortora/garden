@@ -28,3 +28,4 @@
 - GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()
 - GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle
 - GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
+- GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events

@@ -685,3 +685,5 @@
 | GE-20260810-c45190 | Ordered dimensional reviews produce richer findings via cascading context | technique | 10/15 |
 | GE-20260810-cc9129 | Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review | convention | 8/15 |
 | GE-20260810-47908e | Broad text replacement on closing-paren patterns hits unrelated method calls | gotcha | 8/15 |
+| GE-20260810-71deb5 | Claude Code Write tool silently loses content when linter reverts file between write and verification | gotcha | 9/15 |
+| GE-20260810-3fc4fe | Lifecycle self-transition pattern for observability-only events | technique | 8/15 |

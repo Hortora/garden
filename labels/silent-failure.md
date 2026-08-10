@@ -141,3 +141,4 @@
 - GE-20260808-da5e6a: TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property
 - GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules
 - GE-20260810-2ae244: SequentialRouting stale AtomicInteger index across multiple OrchestratedDriver executions
+- GE-20260810-71deb5: Claude Code Write tool silently loses content when linter reverts file between write and verification

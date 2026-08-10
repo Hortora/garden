@@ -1,0 +1,1 @@
+- GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events

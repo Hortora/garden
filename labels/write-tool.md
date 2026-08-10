@@ -1,0 +1,1 @@
+- GE-20260810-71deb5: Claude Code Write tool silently loses content when linter reverts file between write and verification
