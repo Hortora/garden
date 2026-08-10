@@ -1,0 +1,1 @@
+- GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types

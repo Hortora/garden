@@ -1372,3 +1372,5 @@
 | GE-20260810-f5f01d | Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads | technique | 9/15 |
 | GE-20260810-804c58 | CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath | undocumented | 8/15 |
 | GE-20260810-8bc960 | ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop | gotcha | 10/15 |
+| GE-20260810-0391c8 | H2 dual-datasource @Transactional requires explicit XA enlistment | gotcha | 14/15 |
+| GE-20260810-907918 | casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types | gotcha | 13/15 |

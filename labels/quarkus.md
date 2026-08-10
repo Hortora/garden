@@ -726,3 +726,5 @@
 - GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests
 - GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
+- GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment
+- GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types

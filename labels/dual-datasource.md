@@ -1,0 +1,1 @@
+- GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment

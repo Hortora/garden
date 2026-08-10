@@ -115,3 +115,4 @@
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
 - GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation
 - GE-20260810-804c58: CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath
+- GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types

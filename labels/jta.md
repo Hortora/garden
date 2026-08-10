@@ -30,3 +30,4 @@
 - GE-20260629-bb1440: Post-commit consumer signaling via TSR prevents READ COMMITTED visibility race
 - GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
+- GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment
