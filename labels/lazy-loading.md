@@ -1,1 +1,2 @@
 - GE-20260522-259812: Pass a plain record (not JPA entities) across REQUIRES_NEW boundary to eliminate LazyInitializationException
+- GE-20260810-2bf7bc: Engine/backend split for third-party UI library integration

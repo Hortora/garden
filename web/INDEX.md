@@ -186,3 +186,4 @@
 | GE-20260810-8f3127 | Lit @state on parent survives child unmount/remount — ghost selection state when switching views | gotcha | 9/15 |
 | GE-20260810-0393bf | Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently | technique | 9/15 |
 | GE-20260810-9fff4b | Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op | convention | 8/15 |
+| GE-20260810-07c717 | TypeScript readonly interface spread loses required properties | gotcha | 8/15 |

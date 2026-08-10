@@ -1,0 +1,1 @@
+- GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families

@@ -1,1 +1,2 @@
 - GE-20260803-9ce4f2: exactOptionalPropertyTypes rejects parentId: undefined — use conditional spread instead
+- GE-20260810-07c717: TypeScript readonly interface spread loses required properties

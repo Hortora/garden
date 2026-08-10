@@ -3,3 +3,4 @@
 - GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
 - GE-20260730-e942d8: macOS /tmp → /private/tmp symlink causes path lookup failures in SQLite
 - GE-20260809-96d41c: .gitignore trailing-slash patterns silently skip symlinks
+- GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families

@@ -1,1 +1,2 @@
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
+- GE-20260810-2bf7bc: Engine/backend split for third-party UI library integration

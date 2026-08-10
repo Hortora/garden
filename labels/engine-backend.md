@@ -1,0 +1,1 @@
+- GE-20260810-2bf7bc: Engine/backend split for third-party UI library integration

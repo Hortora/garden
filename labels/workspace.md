@@ -19,3 +19,4 @@
 - GE-20260804-cf77dc: IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path
 - GE-20260529-182916: project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families

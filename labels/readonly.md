@@ -1,0 +1,1 @@
+- GE-20260810-07c717: TypeScript readonly interface spread loses required properties
