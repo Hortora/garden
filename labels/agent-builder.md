@@ -1,0 +1,1 @@
+- GE-20260810-b1da3b: Agent.builder() structured JSON output as tool-calling alternative

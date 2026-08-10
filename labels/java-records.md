@@ -17,3 +17,4 @@
 - GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status
 - GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
+- GE-20260810-502dec: Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify

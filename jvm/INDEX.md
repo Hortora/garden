@@ -1379,3 +1379,6 @@
 | GE-20260810-b53fd8 | Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required | gotcha | 12/15 |
 | GE-20260810-ea14ce | Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI | gotcha | 10/15 |
 | GE-20260810-c69a19 | Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T> | gotcha | 12/15 |
+| GE-20260810-502dec | Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify | gotcha | 11/15 |
+| GE-20260810-fc95fc | YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests | gotcha | 9/15 |
+| GE-20260810-b1da3b | Agent.builder() structured JSON output as tool-calling alternative | technique | 10/15 |

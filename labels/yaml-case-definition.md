@@ -1,0 +1,2 @@
+- GE-20260810-502dec: Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify
+- GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests

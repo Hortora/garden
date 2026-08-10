@@ -116,3 +116,6 @@
 - GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation
 - GE-20260810-804c58: CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
+- GE-20260810-502dec: Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify
+- GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests
+- GE-20260810-b1da3b: Agent.builder() structured JSON output as tool-calling alternative
