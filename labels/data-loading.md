@@ -1,0 +1,1 @@
+- GE-20260810-0393bf: Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently

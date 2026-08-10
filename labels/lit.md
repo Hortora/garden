@@ -37,3 +37,4 @@
 - GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests
 - GE-20260809-f1c2c6: Lit updated() with @state() triggers double render — D3 setup must wait for second cycle
 - GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
+- GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views

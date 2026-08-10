@@ -2,3 +2,4 @@
 - GE-20260513-e04f26: Store configuration on the runtime entity to eliminate a parallel callback registry
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
 - GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update
+- GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views

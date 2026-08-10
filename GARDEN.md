@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2584
+**Entries merged since last sweep:** 2587
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2919,6 +2919,9 @@
 - GE-20260810-6309f5 [esbuild alias resolves package root but external sources need nodePaths to find their dependencies](web/GE-20260810-6309f5.md)
 - GE-20260810-918a14 [npm ignores package.json resolutions field entirely — portal: links are Yarn-only](web/GE-20260810-918a14.md)
 - GE-20260810-cfc53d [casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API](web/GE-20260810-cfc53d.md)
+- GE-20260810-8f3127 [Lit @state on parent survives child unmount/remount — ghost selection state when switching views](web/GE-20260810-8f3127.md)
+- GE-20260810-0393bf [Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently](web/GE-20260810-0393bf.md)
+- GE-20260810-9fff4b [Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op](web/GE-20260810-9fff4b.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

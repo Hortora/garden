@@ -1,0 +1,1 @@
+- GE-20260810-9fff4b: Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op

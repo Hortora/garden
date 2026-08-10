@@ -183,3 +183,6 @@
 | GE-20260810-6309f5 | esbuild alias resolves package root but external sources need nodePaths to find their dependencies | gotcha | 9/15 |
 | GE-20260810-918a14 | npm ignores package.json resolutions field entirely — portal: links are Yarn-only | undocumented | 8/15 |
 | GE-20260810-cfc53d | casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API | undocumented | 8/15 |
+| GE-20260810-8f3127 | Lit @state on parent survives child unmount/remount — ghost selection state when switching views | gotcha | 9/15 |
+| GE-20260810-0393bf | Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently | technique | 9/15 |
+| GE-20260810-9fff4b | Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op | convention | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
