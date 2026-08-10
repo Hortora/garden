@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2587
+**Entries merged since last sweep:** 2588
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2001,6 +2001,7 @@
 - GE-20260810-31134a [casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate](jvm/GE-20260810-31134a.md)
 - GE-20260810-9264db [LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation](jvm/GE-20260810-9264db.md)
 - GE-20260810-fbf04a [Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking](jvm/GE-20260810-fbf04a.md)
+- GE-20260810-2ae244 [SequentialRouting stale AtomicInteger index across multiple OrchestratedDriver executions](jvm/GE-20260810-2ae244.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
