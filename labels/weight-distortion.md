@@ -1,0 +1,1 @@
+- GE-20260810-fbf04a: Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking

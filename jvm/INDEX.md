@@ -1360,3 +1360,4 @@
 | GE-20260810-ee9b0c | CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests | gotcha | 10/15 |
 | GE-20260810-31134a | casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate | gotcha | 9/15 |
 | GE-20260810-9264db | LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation | gotcha | 9/15 |
+| GE-20260810-fbf04a | Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking | gotcha | 12/15 |
