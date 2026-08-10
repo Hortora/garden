@@ -1,2 +1,3 @@
 - GE-20260708-4b4f09: devtown quarkus:dev first-run startup cascade — five sequential blockers each masking the next
 - GE-20260803-2dd865: LeastLoadedAgentStrategy @Default in engine SNAPSHOT — CDI ambiguity with ComposableAgentRoutingStrategy
+- GE-20260810-ea14ce: Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI

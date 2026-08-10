@@ -7,3 +7,4 @@
 - GE-20260809-10ce51: casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker
 - GE-20260809-fd314e: restoreFromUrl hides shared slot — hides all panels, not just the closed one
 - GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
+- GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found

@@ -67,3 +67,4 @@
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
 - GE-20260809-056ccb: File-system cursors with absolute paths break cross-machine distribution — delta detection re-processes entire corpus
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
+- GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found

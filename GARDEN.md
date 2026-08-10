@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2614
+**Entries merged since last sweep:** 2616
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2017,6 +2017,7 @@
 - GE-20260810-fe3dcc [ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500](jvm/GE-20260810-fe3dcc.md)
 - GE-20260810-3f2f73 [Override a broad ExceptionMapper by registering a more-specific generic type](jvm/GE-20260810-3f2f73.md)
 - GE-20260810-b53fd8 [Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required](jvm/GE-20260810-b53fd8.md)
+- GE-20260810-ea14ce [Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI](jvm/GE-20260810-ea14ce.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2743,6 +2744,7 @@
 - GE-20260810-2bf7bc [Engine/backend split for third-party UI library integration](tools/GE-20260810-2bf7bc.md)
 - GE-20260810-829129 [Git rebase silently drops child branch commits after parent branch is squash-merged to main](tools/GE-20260810-829129.md)
 - GE-20260810-a60036 [Gitignore trailing-slash patterns don't match symlinks to directories](tools/GE-20260810-a60036.md)
+- GE-20260810-99bf75 [Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found](tools/GE-20260810-99bf75.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

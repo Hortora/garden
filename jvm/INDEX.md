@@ -1377,3 +1377,4 @@
 | GE-20260810-fe3dcc | ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500 | gotcha | 13/15 |
 | GE-20260810-3f2f73 | Override a broad ExceptionMapper by registering a more-specific generic type | technique | 10/15 |
 | GE-20260810-b53fd8 | Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required | gotcha | 12/15 |
+| GE-20260810-ea14ce | Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI | gotcha | 10/15 |
