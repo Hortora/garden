@@ -1,0 +1,2 @@
+- GE-20260810-ccd128: FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize
+- GE-20260810-2f9a5a: DockviewBackend injectFrameChrome silently fails before DOM ready — no retry

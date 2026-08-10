@@ -1,1 +1,2 @@
 - GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output
+- GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output

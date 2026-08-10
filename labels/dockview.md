@@ -7,3 +7,6 @@
 - GE-20260809-6821a6: Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop
 - GE-20260810-e12c27: Dockview v7 createComponent receives {id, name} only — user params arrive at init(params.params)
 - GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use
+- GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host
+- GE-20260810-ccd128: FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize
+- GE-20260810-2f9a5a: DockviewBackend injectFrameChrome silently fails before DOM ready — no retry

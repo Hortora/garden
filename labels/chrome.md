@@ -1,0 +1,1 @@
+- GE-20260810-2f9a5a: DockviewBackend injectFrameChrome silently fails before DOM ready — no retry

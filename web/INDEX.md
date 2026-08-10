@@ -199,3 +199,6 @@
 | GE-20260810-8df51b | LitElement custom elements default to display:inline — silently ignores height and min-height | gotcha | 9/15 |
 | GE-20260810-696ea3 | ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table | technique | 9/15 |
 | GE-20260810-f7b20c | ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle | gotcha | 8/15 |
+| GE-20260810-8ad59a | DockviewBackend injects CSS into document.head — invisible in shadow DOM host | gotcha | 10/15 |
+| GE-20260810-ccd128 | FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize | gotcha | 10/15 |
+| GE-20260810-2f9a5a | DockviewBackend injectFrameChrome silently fails before DOM ready — no retry | gotcha | 9/15 |

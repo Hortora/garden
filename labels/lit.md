@@ -39,3 +39,4 @@
 - GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
 - GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
 - GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height
+- GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host

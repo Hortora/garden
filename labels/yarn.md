@@ -11,3 +11,4 @@
 - GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers
 - GE-20260810-918a14: npm ignores package.json resolutions field entirely — portal: links are Yarn-only
 - GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead
+- GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output

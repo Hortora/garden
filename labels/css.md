@@ -9,3 +9,4 @@
 - GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names
 - GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
 - GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space
+- GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host

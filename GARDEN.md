@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2632
+**Entries merged since last sweep:** 2636
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2752,6 +2752,7 @@
 - GE-20260810-a60036 [Gitignore trailing-slash patterns don't match symlinks to directories](tools/GE-20260810-a60036.md)
 - GE-20260810-99bf75 [Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found](tools/GE-20260810-99bf75.md)
 - GE-0137 [`git push` to a non-bare repo is rejected when the target branch is checked out](tools/GE-0137.md)
+- GE-20260803-756b3d [Yarn portal-resolved packages need manual dist copy — portal copies source not build output](tools/GE-20260803-756b3d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2966,6 +2967,9 @@
 - GE-20260810-8df51b [LitElement custom elements default to display:inline — silently ignores height and min-height](web/GE-20260810-8df51b.md)
 - GE-20260810-696ea3 [ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table](web/GE-20260810-696ea3.md)
 - GE-20260810-f7b20c [ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle](web/GE-20260810-f7b20c.md)
+- GE-20260810-8ad59a [DockviewBackend injects CSS into document.head — invisible in shadow DOM host](web/GE-20260810-8ad59a.md)
+- GE-20260810-ccd128 [FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize](web/GE-20260810-ccd128.md)
+- GE-20260810-2f9a5a [DockviewBackend injectFrameChrome silently fails before DOM ready — no retry](web/GE-20260810-2f9a5a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
