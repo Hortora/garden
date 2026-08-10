@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2605
+**Entries merged since last sweep:** 2609
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2940,6 +2940,10 @@
 - GE-20260810-0393bf [Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently](web/GE-20260810-0393bf.md)
 - GE-20260810-9fff4b [Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op](web/GE-20260810-9fff4b.md)
 - GE-20260810-07c717 [TypeScript readonly interface spread loses required properties](web/GE-20260810-07c717.md)
+- GE-20260810-e12c27 [Dockview v7 createComponent receives {id, name} only — user params arrive at init(params.params)](web/GE-20260810-e12c27.md)
+- GE-20260810-91bdd1 [casehub-pages renderComponent clears target innerHTML — loop over children destroys all but last](web/GE-20260810-91bdd1.md)
+- GE-20260810-4ae500 [Absolute overlay inside content-sized parent gets content height, not flex space](web/GE-20260810-4ae500.md)
+- GE-20260810-7c5ae9 [Dockview v7 grid element has opaque theme background — must override for overlay use](web/GE-20260810-7c5ae9.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

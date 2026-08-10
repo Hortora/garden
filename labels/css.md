@@ -8,3 +8,4 @@
 - GE-20260804-c15f1f: Lit @property does not reflect String properties to HTML attributes by default — CSS :host([attr]) selectors silently fail
 - GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names
 - GE-20260809-646d55: Renderer slot containers break flex height chains — need explicit flex styling
+- GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space

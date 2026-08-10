@@ -1,0 +1,1 @@
+- GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space

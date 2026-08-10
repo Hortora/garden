@@ -1,1 +1,2 @@
 - GE-20260804-96c692: renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly
+- GE-20260810-91bdd1: casehub-pages renderComponent clears target innerHTML — loop over children destroys all but last

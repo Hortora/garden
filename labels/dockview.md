@@ -5,3 +5,5 @@
 - GE-20260809-44b2a6: Dockview addPanel floating position clamped to zero when container unsized in Lit firstUpdated
 - GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence
 - GE-20260809-6821a6: Dockview smooth tab reorder (tabAnimation:'smooth') does not fire onDidDrop
+- GE-20260810-e12c27: Dockview v7 createComponent receives {id, name} only — user params arrive at init(params.params)
+- GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use

@@ -1,1 +1,2 @@
 - GE-20260413-8cb955: Claude Code hook silently backgrounds all Bash calls regardless of run_in_background flag
+- GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use

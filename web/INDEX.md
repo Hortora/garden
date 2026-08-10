@@ -187,3 +187,7 @@
 | GE-20260810-0393bf | Three-way client-side join for composite views — load independent endpoints in parallel, merge by shared key, degrade independently | technique | 9/15 |
 | GE-20260810-9fff4b | Filter toggle-off pattern — clicking an active filter button returns to 'All' instead of being a no-op | convention | 8/15 |
 | GE-20260810-07c717 | TypeScript readonly interface spread loses required properties | gotcha | 8/15 |
+| GE-20260810-e12c27 | Dockview v7 createComponent receives {id, name} only — user params arrive at init(params.params) | gotcha | 13/15 |
+| GE-20260810-91bdd1 | casehub-pages renderComponent clears target innerHTML — loop over children destroys all but last | gotcha | 10/15 |
+| GE-20260810-4ae500 | Absolute overlay inside content-sized parent gets content height, not flex space | gotcha | 9/15 |
+| GE-20260810-7c5ae9 | Dockview v7 grid element has opaque theme background — must override for overlay use | gotcha | 9/15 |

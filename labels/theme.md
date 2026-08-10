@@ -1,1 +1,2 @@
 - GE-20260706-9335b9: Shadow DOM CSS custom property declarations silently override inherited document-level theme tokens
+- GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use

@@ -1,1 +1,2 @@
 - GE-20260702-b1f919: Flex cross-axis stretch doesn't cap height — children exceeding container grow the item past its parent
+- GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space
