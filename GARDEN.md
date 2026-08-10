@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2617
+**Entries merged since last sweep:** 2621
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2952,6 +2952,10 @@
 - GE-20260810-91bdd1 [casehub-pages renderComponent clears target innerHTML — loop over children destroys all but last](web/GE-20260810-91bdd1.md)
 - GE-20260810-4ae500 [Absolute overlay inside content-sized parent gets content height, not flex space](web/GE-20260810-4ae500.md)
 - GE-20260810-7c5ae9 [Dockview v7 grid element has opaque theme background — must override for overlay use](web/GE-20260810-7c5ae9.md)
+- GE-20260810-8a1c41 [npm file: protocol installs devDependencies of linked packages — cascading 404s for private-registry deps](web/GE-20260810-8a1c41.md)
+- GE-20260810-5f4dbe [Yarn resolutions field in package.json is silently ignored by npm — use overrides instead](web/GE-20260810-5f4dbe.md)
+- GE-20260810-c90963 [npx --prefix sets module resolution path but does NOT change working directory](web/GE-20260810-c90963.md)
+- GE-20260810-9ba5de [Conditional vite aliases with fs.existsSync() for multi-environment compatibility](web/GE-20260810-9ba5de.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

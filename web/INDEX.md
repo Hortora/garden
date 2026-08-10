@@ -191,3 +191,7 @@
 | GE-20260810-91bdd1 | casehub-pages renderComponent clears target innerHTML — loop over children destroys all but last | gotcha | 10/15 |
 | GE-20260810-4ae500 | Absolute overlay inside content-sized parent gets content height, not flex space | gotcha | 9/15 |
 | GE-20260810-7c5ae9 | Dockview v7 grid element has opaque theme background — must override for overlay use | gotcha | 9/15 |
+| GE-20260810-8a1c41 | npm file: protocol installs devDependencies of linked packages — cascading 404s for private-registry deps | gotcha | 11/15 |
+| GE-20260810-5f4dbe | Yarn resolutions field in package.json is silently ignored by npm — use overrides instead | gotcha | 10/15 |
+| GE-20260810-c90963 | npx --prefix sets module resolution path but does NOT change working directory | gotcha | 9/15 |
+| GE-20260810-9ba5de | Conditional vite aliases with fs.existsSync() for multi-environment compatibility | technique | 9/15 |

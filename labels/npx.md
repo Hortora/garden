@@ -1,0 +1,1 @@
+- GE-20260810-c90963: npx --prefix sets module resolution path but does NOT change working directory

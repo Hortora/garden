@@ -15,3 +15,4 @@
 - GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output
 - GE-20260804-d6b186: Stale workspace:* dist hides missing exports — runtime undefined function
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
+- GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility

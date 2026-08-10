@@ -1,0 +1,1 @@
+- GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility

@@ -1,2 +1,1 @@
-- GE-20260810-918a14: npm ignores package.json resolutions field entirely — portal: links are Yarn-only
 - GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead

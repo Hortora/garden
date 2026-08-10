@@ -13,3 +13,4 @@
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
 - GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
+- GE-20260810-c90963: npx --prefix sets module resolution path but does NOT change working directory

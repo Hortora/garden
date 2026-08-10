@@ -1,1 +1,2 @@
 - GE-20260804-96c692: renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly
+- GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility

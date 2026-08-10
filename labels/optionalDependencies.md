@@ -1,2 +1,1 @@
-- GE-20260705-9a8478: AML webui depends on casehub-pages via npm file: protocol — requires specific sibling checkout layout
 - GE-20260810-8a1c41: npm file: protocol installs devDependencies of linked packages — cascading 404s for private-registry deps

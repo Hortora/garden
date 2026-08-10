@@ -7,3 +7,4 @@
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups
 - GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
+- GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
