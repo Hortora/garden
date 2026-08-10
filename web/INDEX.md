@@ -182,3 +182,4 @@
 | GE-20260810-33cc57 | Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers | gotcha | 9/15 |
 | GE-20260810-6309f5 | esbuild alias resolves package root but external sources need nodePaths to find their dependencies | gotcha | 9/15 |
 | GE-20260810-918a14 | npm ignores package.json resolutions field entirely — portal: links are Yarn-only | undocumented | 8/15 |
+| GE-20260810-cfc53d | casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API | undocumented | 8/15 |

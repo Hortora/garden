@@ -1,1 +1,2 @@
 - GE-20260719-8c18fa: SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy
+- GE-20260810-cfc53d: casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API

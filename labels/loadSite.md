@@ -1,2 +1,3 @@
 - GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
 - GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components
+- GE-20260810-cfc53d: casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API

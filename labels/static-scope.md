@@ -1,0 +1,1 @@
+- GE-20260810-cfc53d: casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API
