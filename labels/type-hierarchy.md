@@ -1,1 +1,2 @@
 - GE-20260804-09c7dc: jmarkdoc output lacks structured implements/extends sections
+- GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type

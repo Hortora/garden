@@ -3,3 +3,5 @@
 - GE-20260530-3562b0: ExceptionMapper<IllegalArgumentException> does not catch compact constructor violations during Jackson deserialization — Jackson wraps them as ValueInstantiationException
 - GE-20260601-13fc26: JAX-RS §4.2.4: IOException from message body reader bypasses all exception mappers
 - GE-20260729-392052: ExceptionMapper<RuntimeException> catches JAX-RS WebApplicationException — returns 500 for all errors
+- GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
+- GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type

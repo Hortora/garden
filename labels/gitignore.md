@@ -4,3 +4,4 @@
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
 - GE-20260809-96d41c: .gitignore trailing-slash patterns silently skip symlinks
+- GE-20260810-a60036: Gitignore trailing-slash patterns don't match symlinks to directories

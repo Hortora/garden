@@ -13,3 +13,4 @@
 - GE-20260731-4377d0: JAX-RS class-level @Consumes(APPLICATION_JSON) causes 415 on body-less POST endpoints
 - GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
+- GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500

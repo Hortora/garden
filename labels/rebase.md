@@ -54,3 +54,4 @@
 - GE-20260615-9560b9: Full pre-push PR QA — scope scan + deletion review catches unrelated inclusions and accidental removals
 - GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
+- GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main

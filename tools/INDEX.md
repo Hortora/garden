@@ -689,3 +689,5 @@
 | GE-20260810-3fc4fe | Lifecycle self-transition pattern for observability-only events | technique | 8/15 |
 | GE-20260810-8f1daa | work-slot cross-org workspace wiring fails silently for repos from different families | gotcha | 8/15 |
 | GE-20260810-2bf7bc | Engine/backend split for third-party UI library integration | architectural | 9/15 |
+| GE-20260810-829129 | Git rebase silently drops child branch commits after parent branch is squash-merged to main | gotcha | 12/15 |
+| GE-20260810-a60036 | Gitignore trailing-slash patterns don't match symlinks to directories | gotcha | 9/15 |

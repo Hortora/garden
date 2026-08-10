@@ -1374,3 +1374,5 @@
 | GE-20260810-8bc960 | ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop | gotcha | 10/15 |
 | GE-20260810-0391c8 | H2 dual-datasource @Transactional requires explicit XA enlistment | gotcha | 14/15 |
 | GE-20260810-907918 | casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types | gotcha | 13/15 |
+| GE-20260810-fe3dcc | ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500 | gotcha | 13/15 |
+| GE-20260810-3f2f73 | Override a broad ExceptionMapper by registering a more-specific generic type | technique | 10/15 |

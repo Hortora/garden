@@ -728,3 +728,5 @@
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
 - GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
+- GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
+- GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type

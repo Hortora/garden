@@ -181,3 +181,5 @@
 - GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main
+- GE-20260810-a60036: Gitignore trailing-slash patterns don't match symlinks to directories

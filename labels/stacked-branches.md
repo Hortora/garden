@@ -1,0 +1,1 @@
+- GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main
