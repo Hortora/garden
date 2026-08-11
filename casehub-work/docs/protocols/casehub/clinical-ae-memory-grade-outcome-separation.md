@@ -2,6 +2,7 @@
 id: PP-20260609-ea07e4
 title: "Separate GRADE and OUTCOME in clinical AE memory entries"
 type: rule
+tags: [memory]
 scope: application
 applies_to: "casehub-clinical ClinicalMemoryService — all AE memory writes to PATIENT domain"
 severity: critical

@@ -2,6 +2,7 @@
 id: PP-20260603-33c84c
 title: "ARC42STORIES.MD lives in the project repo, not the workspace"
 type: rule
+tags: [maven, repo, snapshot, workspace]
 scope: application
 applies_to: "Any CaseHub harness application using ARC42STORIES.MD as its architecture record"
 severity: important

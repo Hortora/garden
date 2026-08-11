@@ -2,6 +2,7 @@
 id: PP-20260623-491bb3
 title: "Clinical REST endpoints must follow GCP-derived RBAC topology"
 type: rule
+tags: [rest]
 scope: application
 applies_to: "casehub-clinical — all REST resource classes"
 severity: important

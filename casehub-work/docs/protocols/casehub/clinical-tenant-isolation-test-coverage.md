@@ -2,6 +2,7 @@
 id: PP-20260610-7a3d08
 title: "Tenant isolation tests require both wrong-tenant (404) and bypass (200) assertions"
 type: rule
+tags: [assertions, endpoint, isolation, tenant]
 scope: application
 applies_to: "casehub-clinical — all *ResourceTest and service test classes that add findByIdForTenant call sites"
 severity: important

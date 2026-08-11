@@ -2,6 +2,7 @@
 id: PP-20260531-11724b
 title: "Observer failure ledger entries use actorRole = <successRole>-observer-failed and ClinicalActors.CLINICAL_SERVICE as actorId"
 type: rule
+tags: [failure, ledger, observer]
 scope: application
 applies_to: "io.casehub.clinical.service.*LedgerWriter — all writeObserverFailureEntry methods"
 severity: guidance

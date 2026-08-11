@@ -2,6 +2,7 @@
 id: PP-20260610-9ee320
 title: "Use findByIdForTenant for all REST-facing entity lookups"
 type: rule
+tags: [entity]
 scope: application
 applies_to: "casehub-clinical — all *Resource classes and REST-called services that receive user-supplied entity IDs (TrialActivationService)"
 severity: critical

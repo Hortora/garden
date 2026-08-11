@@ -2,6 +2,7 @@
 id: PP-20260603-f661dd
 title: "Notification listeners must write a delivered=false ledger entry with skip-reason-encoded actorRole for every deliberate skip path"
 type: rule
+tags: [ledger, notification, path]
 scope: application
 applies_to: "io.casehub.clinical.service.*NotificationListener — all deliberate early-return paths"
 severity: important

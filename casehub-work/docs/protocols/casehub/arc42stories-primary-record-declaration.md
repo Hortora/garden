@@ -2,6 +2,7 @@
 id: PP-20260602-1a0c25
 title: "Declare ARC42STORIES.MD as primary architecture record at bootstrap — LAYER-LOG.md becomes the source-of-truth draft"
 type: rule
+tags: [architecture, bootstrap, record]
 scope: application
 applies_to: "CaseHub harness apps at the point of bootstrapping ARC42STORIES.MD (casehubio/clinical#54 pattern)"
 severity: important

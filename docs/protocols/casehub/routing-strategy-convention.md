@@ -5,6 +5,7 @@ status: active
 created: 2026-07-04
 refs:
   - casehubio/engine#634
+tags: [configuration, routing]
 ---
 
 # Routing Strategy Convention

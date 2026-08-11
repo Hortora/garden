@@ -2,6 +2,7 @@
 id: PP-20260617-318449
 title: "@QuarkusTest entity creation in @BeforeEach must stamp tenantId = principal.tenancyId()"
 type: rule
+tags: [beforeeach, entity, quarkustest]
 scope: application
 applies_to: "casehub-clinical — all @QuarkusTest @BeforeEach methods that create domain entities directly (not via REST)"
 severity: important

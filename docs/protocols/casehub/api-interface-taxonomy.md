@@ -6,6 +6,7 @@ created: 2026-07-05
 refs:
   - casehubio/qhorus#316
   - casehubio/qhorus#315
+tags: [spi]
 ---
 
 # API Interface Taxonomy

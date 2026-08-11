@@ -3,6 +3,7 @@ id: module-tier-structure
 scope: universal
 status: active
 created: 2026-07-06
+tags: [multi-module, mutiny, smallrye]
 ---
 
 # Module Tier Structure

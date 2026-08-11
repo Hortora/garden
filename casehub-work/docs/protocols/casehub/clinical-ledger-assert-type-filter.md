@@ -2,6 +2,7 @@
 id: PP-20260619-5dfddd
 title: "Ledger count assertions in @QuarkusTest must filter by LedgerEntry subclass"
 type: rule
+tags: [assertions, count, filter, ledger, quarkustest, subclass]
 scope: application
 applies_to: "Any @QuarkusTest that asserts on ledger entry counts via LedgerEntryRepository.findBySubjectId()"
 severity: guidance

@@ -2,6 +2,7 @@
 id: PP-20260614-377e99
 title: "All clinical AI agent decision ledger entries must attach ClinicalComplianceSupplement before save"
 type: rule
+tags: [agent, ai, ledger]
 scope: application
 applies_to: "casehub-clinical — all *LedgerWriter beans writing primary AI decision entries (LedgerEntryType.EVENT or ATTESTATION for a consequential agent action)"
 severity: important

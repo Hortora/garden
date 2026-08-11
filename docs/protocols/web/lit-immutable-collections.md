@@ -2,6 +2,7 @@
 id: lit-immutable-collections
 title: "Replace Lit reactive collections on every mutation — never mutate in place"
 type: rule
+tags: [collections, lit, mutation, reactive]
 scope: universal
 applies_to: "any Lit @state() or @property() holding Set, Map, or Array"
 severity: important

@@ -2,6 +2,7 @@
 id: PP-20260529-e30ebd
 title: "Life-domain Qhorus channels use the life/ namespace prefix and domain-scoped names"
 type: rule
+tags: [prefix, qhorus]
 scope: application
 applies_to: "casehub-life — any code creating or referencing Qhorus channels in the life application layer"
 severity: guidance

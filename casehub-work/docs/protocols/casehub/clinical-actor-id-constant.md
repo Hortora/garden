@@ -2,6 +2,7 @@
 id: PP-20260530-d6775a
 title: "All clinical harness system-actor ledger writes must use ClinicalActors.CLINICAL_SERVICE"
 type: rule
+tags: [ledger, system-actor]
 scope: application
 applies_to: "io.casehub.clinical.service.*LedgerWriter — any writer setting actorId=SYSTEM"
 severity: important

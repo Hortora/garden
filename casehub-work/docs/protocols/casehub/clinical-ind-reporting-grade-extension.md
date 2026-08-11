@@ -2,6 +2,7 @@
 id: PP-20260617-3167e3
 title: "Extending IND reporting to a new CTCAE grade requires updating three locations atomically"
 type: rule
+tags: [locations]
 scope: application
 applies_to: "casehub-clinical — RegulatorySubmissionCaseService, ClinicalComplianceSupplement, any future regulatory submission path"
 severity: important

@@ -2,6 +2,7 @@
 id: PP-20260531-ea9945
 title: "One casehub-platform-config YAML file per logical concern"
 type: rule
+tags: [cdi, routing, yaml]
 scope: application
 applies_to: "any casehub-devtown (or domain app) YAML file loaded via casehub.platform.config.files"
 severity: guidance

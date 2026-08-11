@@ -2,6 +2,7 @@
 id: custom-event-shadow-dom
 title: "CustomEvents crossing shadow DOM need both bubbles and composed"
 type: rule
+tags: [dom, shadow]
 scope: universal
 applies_to: "any Web Component dispatching CustomEvents from shadow DOM"
 severity: important

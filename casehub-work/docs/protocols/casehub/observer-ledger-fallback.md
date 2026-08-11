@@ -2,6 +2,7 @@
 id: PP-20260530-49856c
 title: "@ObservesAsync @Transactional observers with GCP ledger obligations require REQUIRES_NEW fallback, double try/catch, and ledgerWritten guard"
 type: rule
+tags: [catch, double, fallback, gcp, guard, ledger, observers, observesasync, requires_new, transactional]
 scope: application
 applies_to: "io.casehub.clinical.service.*Listener — any @ObservesAsync observer that writes a GCP-required ledger entry"
 severity: important

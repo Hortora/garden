@@ -2,6 +2,7 @@
 id: PP-20260620-d9675c
 title: "storeAll() must propagate SecurityException immediately — never collect it"
 type: rule
+tags: [collect]
 scope: platform
 applies_to: "Any CaseMemoryStore.storeAll() override or the default implementation — all adapters: inmem, jpa, sqlite, mem0, graphiti, noop"
 severity: critical

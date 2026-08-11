@@ -2,6 +2,7 @@
 id: PP-20260610-8c6b88
 title: "Child entity tenantId derives from parent entity, not from principal.tenancyId()"
 type: rule
+tags: [entity]
 scope: application
 applies_to: "casehub-clinical — all REST resource write paths that create child entities (SiteResource.add, PatientResource.enroll, DeviationResource.reportDeviation, AdverseEventService.reportAdverseEvent)"
 severity: important

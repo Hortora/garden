@@ -2,6 +2,7 @@
 id: PP-20260614-09e213
 title: "Gate @ConsumeEvent listeners discriminate by DB query — never by CaseInstanceCache.getPendingActionGate()"
 type: rule
+tags: [gate, query]
 scope: application
 applies_to: "casehub-clinical — all *GateDecisionListener beans subscribing to casehub.action.gate.* addresses"
 severity: critical

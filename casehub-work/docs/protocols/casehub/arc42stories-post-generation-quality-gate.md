@@ -2,6 +2,7 @@
 id: PP-20260602-2fa080
 title: "Run three-check quality sweep before closing ARC42STORIES.MD migration issue"
 type: rule
+tags: [migration, quality]
 scope: application
 applies_to: "CaseHub harness apps migrating LAYER-LOG.md to ARC42STORIES.MD"
 severity: important

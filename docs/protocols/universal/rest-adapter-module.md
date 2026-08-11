@@ -7,6 +7,7 @@ refs:
   - casehubio/ledger#162
   - casehubio/engine#657
   - casehubio/work#292
+tags: [rest]
 ---
 
 # REST Adapter Module
