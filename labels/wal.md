@@ -1,1 +1,2 @@
 - GE-20260531-20d80a: Correct HikariCP + xerial SQLite PRAGMA configuration — SQLiteConfig as pre-built DataSource, not addDataSourceProperty
+- GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests

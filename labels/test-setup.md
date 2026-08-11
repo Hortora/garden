@@ -1,1 +1,2 @@
 - GE-20260530-29545c: Quarkiverse WireMock 1.4.1 incompatible with Quarkus 3.32.2 — TypeNotPresentException on GlobalDevServicesConfig$Enabled
+- GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests

@@ -13,3 +13,5 @@
 - GE-20260705-0d86bf: SQLite json_extract interprets dots in key names as JSON path separators — use quoted key syntax
 - GE-20260801-1148df: SQLite in-memory databases create a new DB per getConnection() — tests see empty state
 - GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements
+- GE-20260811-6c228e: SQLite PRAGMA data_version is per-connection — useless for cross-process change detection
+- GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests

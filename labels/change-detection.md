@@ -1,0 +1,1 @@
+- GE-20260811-6c228e: SQLite PRAGMA data_version is per-connection — useless for cross-process change detection
