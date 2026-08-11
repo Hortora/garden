@@ -695,3 +695,4 @@
 | GE-0137 | `git push` to a non-bare repo is rejected when the target branch is checked out | gotcha | 12/15 |
 | GE-20260803-756b3d | Yarn portal-resolved packages need manual dist copy — portal copies source not build output | gotcha | 8/15 |
 | GE-20260811-8d569b | git <rev>:<path> resolves from repo root even with -C <subdir> | gotcha | 13/15 |
+| GE-20260811-90a15b | git ls-tree silently filters output by CWD prefix — cat-file does not | gotcha | 11/15 |

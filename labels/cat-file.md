@@ -1,2 +1,3 @@
 - GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures
 - GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>
+- GE-20260811-90a15b: git ls-tree silently filters output by CWD prefix — cat-file does not

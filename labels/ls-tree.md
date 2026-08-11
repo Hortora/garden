@@ -1,2 +1,3 @@
 - GE-20260609-9184e2: git ls-tree shows ALL files in a branch including inherited from base — causes false conflicts when checking branch-unique content
 - GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>
+- GE-20260811-90a15b: git ls-tree silently filters output by CWD prefix — cat-file does not
