@@ -1,0 +1,1 @@
+- GE-20260812-a0d705: Barrel re-export pulls in unavailable transitive dependency from unused module

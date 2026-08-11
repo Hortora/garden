@@ -1,1 +1,2 @@
 - GE-20260609-28e952: Quarkus @QuarkusTest ClassSelector resolution failed = CDI UnsatisfiedResolutionException, not a classloader bug
+- GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages

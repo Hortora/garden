@@ -205,3 +205,6 @@
 | GE-20260811-ff622d | Dockview floating group titlebar is a sibling of groupview, not a child | gotcha | 9/15 |
 | GE-20260811-117018 | pointer-events:none on overlay containers silently blocks clicks on dynamically appended children | gotcha | 9/15 |
 | GE-20260811-f9c6f1 | LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass | gotcha | 9/15 |
+| GE-20260812-5cd146 | pages-data EventConnection silently drops non-event wire messages | gotcha | 10/15 |
+| GE-20260812-da1f97 | vitest discovers tests through npm file: symlinks into vendored packages | gotcha | 9/15 |
+| GE-20260812-a0d705 | Barrel re-export pulls in unavailable transitive dependency from unused module | technique | 8/15 |

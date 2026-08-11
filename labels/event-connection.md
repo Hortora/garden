@@ -1,0 +1,1 @@
+- GE-20260812-5cd146: pages-data EventConnection silently drops non-event wire messages

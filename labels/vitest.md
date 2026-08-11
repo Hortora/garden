@@ -14,3 +14,4 @@
 - GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
 - GE-20260810-c90963: npx --prefix sets module resolution path but does NOT change working directory
+- GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages

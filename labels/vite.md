@@ -8,3 +8,4 @@
 - GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
 - GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
+- GE-20260812-a0d705: Barrel re-export pulls in unavailable transitive dependency from unused module
