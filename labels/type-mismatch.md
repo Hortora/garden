@@ -1,1 +1,2 @@
 - GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
+- GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept

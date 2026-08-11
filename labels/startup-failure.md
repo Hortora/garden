@@ -2,3 +2,4 @@
 - GE-20260523-86ed13: casehub-engine requires casehub-platform and casehub-platform-expression on the classpath — without them, engine CDI beans fail to resolve JQEvaluator and @DefaultBean injection points
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
+- GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties

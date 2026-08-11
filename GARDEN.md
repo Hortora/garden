@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2641
+**Entries merged since last sweep:** 2645
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2026,6 +2026,10 @@
 - GE-20260810-e5badc [TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently](jvm/GE-20260810-e5badc.md)
 - GE-20260810-b7ad37 [WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags](jvm/GE-20260810-b7ad37.md)
 - GE-20260811-ccb62e [ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline](jvm/GE-20260811-ccb62e.md)
+- GE-20260811-c10d23 [H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY](jvm/GE-20260811-c10d23.md)
+- GE-20260811-3bf675 [AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery](jvm/GE-20260811-3bf675.md)
+- GE-20260811-aa9a26 [casehub-blocks dependency transitively requires 5 neocortex-memory config properties](jvm/GE-20260811-aa9a26.md)
+- GE-20260811-e941cc [AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept](jvm/GE-20260811-e941cc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

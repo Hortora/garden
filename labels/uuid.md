@@ -8,3 +8,4 @@
 - GE-20260705-8929cc: UUID v7 needs a monotonic sequence counter for cursor pagination — random bits break same-millisecond ordering
 - GE-20260705-fa70c8: UUIDv7 clock regression after sequence wraparound breaks monotonicity silently
 - GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name
+- GE-20260811-c10d23: H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY

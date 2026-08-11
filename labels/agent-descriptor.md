@@ -1,0 +1,1 @@
+- GE-20260811-3bf675: AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery

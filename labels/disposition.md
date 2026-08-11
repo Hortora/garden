@@ -1,3 +1,4 @@
 - GE-20260730-d32015: DescriptorCollector.deriveDispositionAxes silently no-ops without registered dispositionVocabulary
 - GE-20260803-c02ab3: ClasspathYamlDescriptorRegistrar.DispositionConfig rejects dominantFunction and auxiliaryFunction
 - GE-20260803-0a3c7d: Eidos dispositionProfile YAML format is List<{term,weight}> inside disposition — not a Map at descriptor level
+- GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept

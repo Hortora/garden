@@ -7,3 +7,4 @@
 - GE-20260724-f93ae3: Cross-repo SNAPSHOT removal breaks CDI silently in downstream apps
 - GE-20260724-a0c794: quarkus.arc.exclude-types bypasses stale transitive CDI beans whose injection targets were removed
 - GE-20260730-760270: Java generic return type defeats explicit cast for overload resolution
+- GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties

@@ -406,3 +406,4 @@
 - GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required
 - GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>
 - GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests
+- GE-20260811-3bf675: AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery

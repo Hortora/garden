@@ -1385,3 +1385,7 @@
 | GE-20260810-e5badc | TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently | gotcha | 12/15 |
 | GE-20260810-b7ad37 | WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags | gotcha | 10/15 |
 | GE-20260811-ccb62e | ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline | gotcha | 10/15 |
+| GE-20260811-c10d23 | H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY | gotcha | 10/15 |
+| GE-20260811-3bf675 | AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery | undocumented | 8/15 |
+| GE-20260811-aa9a26 | casehub-blocks dependency transitively requires 5 neocortex-memory config properties | gotcha | 12/15 |
+| GE-20260811-e941cc | AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept | gotcha | 10/15 |

@@ -49,3 +49,4 @@
 - GE-20260711-bf1d9a: Flyway V-number ordering: domain migrations (V1-V999) cannot ALTER joined subclass tables created at V2000+
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
 - GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles
+- GE-20260811-c10d23: H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY

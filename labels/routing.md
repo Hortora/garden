@@ -8,3 +8,4 @@
 - GE-20260706-56a75c: WorkerOutcomeResolvedEvent fires only for non-success outcomes — misleading name causes silent positive-evidence loss
 - GE-20260709-774697: Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
+- GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept

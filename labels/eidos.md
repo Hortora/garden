@@ -7,3 +7,5 @@
 - GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor
 - GE-20260804-5ab31e: casehub-eidos runtime artifact ID is casehub-eidos, not casehub-eidos-runtime
 - GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app
+- GE-20260811-3bf675: AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery
+- GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept

@@ -27,3 +27,4 @@
 - GE-20260623-4613f4: quarkus.security.jaxrs.deny-unannotated-endpoints does not exist — correct property is quarkus.security.deny-unannotated-members
 - GE-20260720-f1ce81: Quinoa package-manager-install=true requires node-version — blocks startup without it
 - GE-20260805-340331: Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead
+- GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
