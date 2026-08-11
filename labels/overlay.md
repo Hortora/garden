@@ -1,3 +1,4 @@
 - GE-20260809-6bede4: Dockview overlay.toJSON() switches CSS anchoring after drag — top becomes undefined
 - GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space
 - GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use
+- GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children

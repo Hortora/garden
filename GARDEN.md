@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2638
+**Entries merged since last sweep:** 2640
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2972,6 +2972,8 @@
 - GE-20260810-8ad59a [DockviewBackend injects CSS into document.head — invisible in shadow DOM host](web/GE-20260810-8ad59a.md)
 - GE-20260810-ccd128 [FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize](web/GE-20260810-ccd128.md)
 - GE-20260810-2f9a5a [DockviewBackend injectFrameChrome silently fails before DOM ready — no retry](web/GE-20260810-2f9a5a.md)
+- GE-20260811-ff622d [Dockview floating group titlebar is a sibling of groupview, not a child](web/GE-20260811-ff622d.md)
+- GE-20260811-117018 [pointer-events:none on overlay containers silently blocks clicks on dynamically appended children](web/GE-20260811-117018.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

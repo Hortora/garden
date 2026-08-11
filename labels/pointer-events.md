@@ -1,1 +1,2 @@
 - GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives
+- GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children

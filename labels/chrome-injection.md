@@ -1,0 +1,1 @@
+- GE-20260811-ff622d: Dockview floating group titlebar is a sibling of groupview, not a child

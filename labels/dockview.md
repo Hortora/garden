@@ -10,3 +10,4 @@
 - GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host
 - GE-20260810-ccd128: FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize
 - GE-20260810-2f9a5a: DockviewBackend injectFrameChrome silently fails before DOM ready — no retry
+- GE-20260811-ff622d: Dockview floating group titlebar is a sibling of groupview, not a child

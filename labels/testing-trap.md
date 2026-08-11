@@ -1,2 +1,1 @@
-- GE-20260716-424a17: Native <select> popup displaced in deeply nested shadow DOM with scrolled containers
 - GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children
