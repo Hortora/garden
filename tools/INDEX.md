@@ -696,3 +696,5 @@
 | GE-20260803-756b3d | Yarn portal-resolved packages need manual dist copy — portal copies source not build output | gotcha | 8/15 |
 | GE-20260811-8d569b | git <rev>:<path> resolves from repo root even with -C <subdir> | gotcha | 13/15 |
 | GE-20260811-90a15b | git ls-tree silently filters output by CWD prefix — cat-file does not | gotcha | 11/15 |
+| GE-20260811-054ced | plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible | gotcha | 10/15 |
+| GE-20260811-7e119c | Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos | gotcha | 10/15 |

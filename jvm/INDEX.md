@@ -1392,3 +1392,4 @@
 | GE-20260811-012f1c | CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery | technique | 11/15 |
 | GE-20260811-bfe973 | CDI audit tools that count @Inject fields produce false positives for SPI displacement beans | gotcha | 8/15 |
 | GE-20260811-343566 | CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<> | gotcha | 11/15 |
+| GE-20260811-21ae26 | SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation | technique | 9/15 |

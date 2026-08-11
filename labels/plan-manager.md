@@ -1,0 +1,2 @@
+- GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible
+- GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos

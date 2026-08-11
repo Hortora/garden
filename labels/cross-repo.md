@@ -13,3 +13,4 @@
 - GE-20260802-a3c094: source-dir parameter lets git-based functions work across independent repos via filesystem copy
 - GE-20260803-3bfb42: Cross-repo Maven SNAPSHOT install lands in wrong local repo when settings.xml configures custom localRepository
 - GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies
+- GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos

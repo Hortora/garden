@@ -1,2 +1,1 @@
-- GE-20260803-ecb4d5: ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure

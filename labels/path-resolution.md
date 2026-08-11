@@ -5,3 +5,4 @@
 - GE-20260805-ffef3b: Maven 3.9.x .mvn/maven.config mangles -s/--settings path — prepends basedir with space separator
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
+- GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible

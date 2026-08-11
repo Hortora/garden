@@ -1,0 +1,1 @@
+- GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible

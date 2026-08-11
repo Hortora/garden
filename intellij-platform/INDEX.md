@@ -57,3 +57,4 @@
 | GE-20260805-450be2 | ide_replace_text_in_file does substring matching — replaces inside longer identifiers | gotcha | 10/15 |
 | GE-20260805-792bab | IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions | gotcha | 11/15 |
 | GE-20260809-914ad1 | ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead | gotcha | 10/15 |
+| GE-20260803-ecb4d5 | IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure | gotcha | 9/15 |

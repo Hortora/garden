@@ -9,3 +9,4 @@
 - GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
 - GE-20260805-1afb83: IntelliJ ide_edit_member reformats entire method body on replacement
 - GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds
+- GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure

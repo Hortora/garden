@@ -1,0 +1,1 @@
+- GE-20260811-21ae26: SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation

@@ -147,3 +147,4 @@
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
 - GE-20260811-ccb62e: ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline
 - GE-20260811-90a15b: git ls-tree silently filters output by CWD prefix — cat-file does not
+- GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure

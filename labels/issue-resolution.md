@@ -1,0 +1,1 @@
+- GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2649
+**Entries merged since last sweep:** 2653
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -236,6 +236,7 @@
 - GE-20260805-450be2 [ide_replace_text_in_file does substring matching — replaces inside longer identifiers](intellij-platform/GE-20260805-450be2.md)
 - GE-20260805-792bab [IntelliJ MCP ide_build_project uses stale SNAPSHOT JARs — Maven resolves newer versions](intellij-platform/GE-20260805-792bab.md)
 - GE-20260809-914ad1 [ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead](intellij-platform/GE-20260809-914ad1.md)
+- GE-20260803-ecb4d5 [IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -2033,6 +2034,7 @@
 - GE-20260811-012f1c [CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery](jvm/GE-20260811-012f1c.md)
 - GE-20260811-bfe973 [CDI audit tools that count @Inject fields produce false positives for SPI displacement beans](jvm/GE-20260811-bfe973.md)
 - GE-20260811-343566 [CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>](jvm/GE-20260811-343566.md)
+- GE-20260811-21ae26 [SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation](jvm/GE-20260811-21ae26.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2764,6 +2766,8 @@
 - GE-20260803-756b3d [Yarn portal-resolved packages need manual dist copy — portal copies source not build output](tools/GE-20260803-756b3d.md)
 - GE-20260811-8d569b [git <rev>:<path> resolves from repo root even with -C <subdir>](tools/GE-20260811-8d569b.md)
 - GE-20260811-90a15b [git ls-tree silently filters output by CWD prefix — cat-file does not](tools/GE-20260811-90a15b.md)
+- GE-20260811-054ced [plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible](tools/GE-20260811-054ced.md)
+- GE-20260811-7e119c [Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos](tools/GE-20260811-7e119c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
