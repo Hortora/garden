@@ -49,3 +49,4 @@
 - GE-20260806-272a90: Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
 - GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery
+- GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans

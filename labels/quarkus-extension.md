@@ -6,3 +6,4 @@
 - GE-20260609-a8aa64: Fluent chain escape in decorator pattern — wrapper's build() override silently never fires
 - GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
 - GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime
+- GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
