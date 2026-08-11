@@ -1,2 +1,3 @@
 - GE-20260505-c07ffa: Testing fail-closed config in @QuarkusTest using @TestProfile with blank-string override
 - GE-20260610-583563: Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults
+- GE-20260811-dba1d8: Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in

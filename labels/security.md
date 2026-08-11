@@ -24,3 +24,4 @@
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
 - GE-20260806-5c7fbf: Quarkus permit-all HTTP permission does NOT override @RolesAllowed — use IdentityProvider for jar-mode demo auth bypass
+- GE-20260811-dba1d8: Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in
