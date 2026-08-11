@@ -1,0 +1,1 @@
+- GE-20260812-18a18e: Textual key events go to focused widget first — RichLog consumes up/down before siblings

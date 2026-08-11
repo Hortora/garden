@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2657
+**Entries merged since last sweep:** 2660
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2784,6 +2784,9 @@
 - GE-20260703-e0af92 [torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning](python/GE-20260703-e0af92.md)
 - GE-20260730-6ea2ad [torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+](python/GE-20260730-6ea2ad.md)
 - GE-20260730-2b2a0a [Path.exists() returns False for broken symlinks — use is_symlink() first](python/GE-20260730-2b2a0a.md)
+- GE-20260812-797a16 [Textual App subclass _dispatch_action name collision causes TypeError at key-press time](python/GE-20260812-797a16.md)
+- GE-20260812-18a18e [Textual key events go to focused widget first — RichLog consumes up/down before siblings](python/GE-20260812-18a18e.md)
+- GE-20260812-b14978 [Textual widget testability via _build_display() — unit tests without mounting](python/GE-20260812-b14978.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

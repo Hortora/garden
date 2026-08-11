@@ -1,1 +1,2 @@
 - GE-20260610-a923a0: Yarn workspace name collision when Java/Maven project has a package.json claiming an npm namespace
+- GE-20260812-797a16: Textual App subclass _dispatch_action name collision causes TypeError at key-press time

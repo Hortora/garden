@@ -8,3 +8,6 @@
 | GE-20260703-e0af92 | torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning | gotcha | 11/15 |
 | GE-20260730-6ea2ad | torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+ | gotcha | 8/15 |
 | GE-20260730-2b2a0a | Path.exists() returns False for broken symlinks — use is_symlink() first | gotcha | 12/15 |
+| GE-20260812-797a16 | Textual App subclass _dispatch_action name collision causes TypeError at key-press time | gotcha | 10/15 |
+| GE-20260812-18a18e | Textual key events go to focused widget first — RichLog consumes up/down before siblings | gotcha | 10/15 |
+| GE-20260812-b14978 | Textual widget testability via _build_display() — unit tests without mounting | technique | 9/15 |
