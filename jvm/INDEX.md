@@ -1389,3 +1389,4 @@
 | GE-20260811-3bf675 | AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery | undocumented | 8/15 |
 | GE-20260811-aa9a26 | casehub-blocks dependency transitively requires 5 neocortex-memory config properties | gotcha | 12/15 |
 | GE-20260811-e941cc | AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept | gotcha | 10/15 |
+| GE-20260811-012f1c | CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery | technique | 11/15 |

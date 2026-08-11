@@ -10,3 +10,4 @@
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
 - GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required
 - GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery

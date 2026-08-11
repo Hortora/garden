@@ -16,3 +16,4 @@
 - GE-20260804-c8590c: casehub-engine SNAPSHOT CDI drift — 4 new internal beans inject excluded CaseDefinitionRegistry
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
 - GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery

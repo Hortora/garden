@@ -48,3 +48,4 @@
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
 - GE-20260806-272a90: Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates
 - GE-20260807-6c45a4: SPI in common/spi + impl in planning + Instance<> injection in runtime — crossing module dependency boundaries
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery

@@ -407,3 +407,4 @@
 - GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>
 - GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests
 - GE-20260811-3bf675: AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery

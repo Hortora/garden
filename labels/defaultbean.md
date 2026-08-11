@@ -36,3 +36,4 @@
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
 - GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery

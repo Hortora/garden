@@ -9,3 +9,4 @@
 - GE-20260610-583563: Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults
 - GE-20260629-db82b4: WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution
 - GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main
+- GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery
