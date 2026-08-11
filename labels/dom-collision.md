@@ -1,0 +1,1 @@
+- GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
