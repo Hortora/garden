@@ -11,3 +11,4 @@
 - GE-20260721-8e75bc: Merge-base content audit — line-level verification that branch changes landed on main
 - GE-20260811-012f1c: CDI audit pitfall: zero injections does not mean CDI is unnecessary — SPI implementations need @ApplicationScoped for discovery
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
+- GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>

@@ -1,1 +1,2 @@
 - GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct
+- GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>

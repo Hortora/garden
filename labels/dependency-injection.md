@@ -5,3 +5,4 @@
 - GE-20260421-e580ee: Two-constructor CDI pattern: @Inject for production wiring, package-private for unit tests without Quarkus boot
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
+- GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>
