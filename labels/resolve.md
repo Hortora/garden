@@ -1,0 +1,1 @@
+- GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>

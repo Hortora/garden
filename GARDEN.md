@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2637
+**Entries merged since last sweep:** 2638
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2754,6 +2754,7 @@
 - GE-20260810-99bf75 [Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found](tools/GE-20260810-99bf75.md)
 - GE-0137 [`git push` to a non-bare repo is rejected when the target branch is checked out](tools/GE-0137.md)
 - GE-20260803-756b3d [Yarn portal-resolved packages need manual dist copy — portal copies source not build output](tools/GE-20260803-756b3d.md)
+- GE-20260811-8d569b [git <rev>:<path> resolves from repo root even with -C <subdir>](tools/GE-20260811-8d569b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

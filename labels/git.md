@@ -183,3 +183,4 @@
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main
 - GE-20260810-a60036: Gitignore trailing-slash patterns don't match symlinks to directories
+- GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>
