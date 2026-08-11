@@ -29,3 +29,4 @@
 - GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect
 - GE-20260804-5e2650: Qdrant scroll API filter with wrong key/match nesting silently returns 0 results
 - GE-20260804-d6d68f: Qdrant scroll API with_vector accepts array of named vector names for selective fetch
+- GE-20260811-ccb62e: ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline

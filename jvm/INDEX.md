@@ -1384,3 +1384,4 @@
 | GE-20260810-b1da3b | Agent.builder() structured JSON output as tool-calling alternative | technique | 10/15 |
 | GE-20260810-e5badc | TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently | gotcha | 12/15 |
 | GE-20260810-b7ad37 | WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags | gotcha | 10/15 |
+| GE-20260811-ccb62e | ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline | gotcha | 10/15 |

@@ -5,3 +5,4 @@
 - GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
 - GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext
+- GE-20260811-ccb62e: ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline

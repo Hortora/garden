@@ -4,3 +4,4 @@
 - GE-20260703-05f666: neocortex CorpusBindingProducer + engine GardenBindingProducer create duplicate bindings — double watcher, cursor race
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
 - GE-20260802-96444a: Nested domain directories in garden cause duplicate Qdrant points with different sourceDocumentId paths
+- GE-20260811-ccb62e: ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline

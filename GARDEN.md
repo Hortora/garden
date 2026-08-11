@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2640
+**Entries merged since last sweep:** 2641
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2025,6 +2025,7 @@
 - GE-20260810-b1da3b [Agent.builder() structured JSON output as tool-calling alternative](jvm/GE-20260810-b1da3b.md)
 - GE-20260810-e5badc [TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently](jvm/GE-20260810-e5badc.md)
 - GE-20260810-b7ad37 [WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags](jvm/GE-20260810-b7ad37.md)
+- GE-20260811-ccb62e [ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline](jvm/GE-20260811-ccb62e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

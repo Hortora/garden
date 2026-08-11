@@ -145,3 +145,4 @@
 - GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead
 - GE-20260810-696ea3: ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
+- GE-20260811-ccb62e: ChunkInput 3-arg constructor silently drops listMetadata in neocortex-rag ingestion pipeline
