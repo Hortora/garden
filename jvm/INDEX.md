@@ -1397,3 +1397,7 @@
 | GE-20260812-d92fa8 | Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs | technique | 9/15 |
 | GE-20260812-f2236d | Uni retention policy — API boundaries yes, internal SPIs no | convention | 8/15 |
 | GE-20260812-8db18f | Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild | gotcha | 9/15 |
+| GE-20260812-10117e | PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter | gotcha | 11/15 |
+| GE-20260812-5fe880 | Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly | gotcha | 9/15 |
+| GE-20260812-ba7ee4 | Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library | technique | 9/15 |
+| GE-20260812-8cfcd2 | H2 2.x accepts JSONB as a type alias for JSON | undocumented | 9/15 |

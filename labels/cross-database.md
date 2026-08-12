@@ -1,0 +1,1 @@
+- GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON

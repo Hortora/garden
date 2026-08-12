@@ -116,3 +116,5 @@
 - GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround
 - GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
+- GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
+- GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly

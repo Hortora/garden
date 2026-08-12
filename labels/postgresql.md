@@ -24,3 +24,5 @@
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
 - GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly
 - GE-20260811-c10d23: H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY
+- GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
+- GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON

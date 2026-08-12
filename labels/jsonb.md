@@ -1,1 +1,3 @@
 - GE-20260713-b879b2: H2 PostgreSQL mode JSONB columns break Jackson deserialization — use TEXT for JSON-serialized JPA fields
+- GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
+- GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON

@@ -28,3 +28,4 @@
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
+- GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly

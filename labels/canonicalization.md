@@ -1,0 +1,1 @@
+- GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library

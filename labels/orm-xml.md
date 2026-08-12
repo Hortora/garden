@@ -1,0 +1,1 @@
+- GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly

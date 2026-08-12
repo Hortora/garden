@@ -1,1 +1,2 @@
 - GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten
+- GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library

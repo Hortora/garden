@@ -21,3 +21,4 @@
 - GE-20260705-01788f: Jackson NullNode.toString() returns string 'null' — passes isBlank(), leaks into downstream text
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
 - GE-20260726-523784: Quarkus MCP Server @ToolArg supports Map<String, Object> natively — avoids double-encoding JSON parameters
+- GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library

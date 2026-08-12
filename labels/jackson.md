@@ -31,3 +31,4 @@
 - GE-20260730-41c406: casehub-engine WritableLayerImpl.asJsonNode() silently fails on Instant fields — case creation rolls back with no visible error
 - GE-20260804-0725e5: Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
+- GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library

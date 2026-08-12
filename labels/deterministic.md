@@ -1,3 +1,4 @@
 - GE-20260414-fbf82f: Test scheduled services directly via injection instead of waiting for Quarkus Scheduler to fire
 - GE-20260422-6997d5: @Scheduled bean testability via package-private Clock+Duration constructor
 - GE-20260728-f0c9ec: Replace LLM skill routing with deterministic scripts when state detection is mechanical
+- GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library

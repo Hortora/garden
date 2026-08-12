@@ -50,3 +50,4 @@
 - GE-20260721-265fc3: H2 auto-names inline FK constraints differently from PostgreSQL — Flyway DROP CONSTRAINT fails in tests
 - GE-20260805-89bc48: Hibernate drop-and-create + sql-load-script bypasses Flyway version collisions for demo profiles
 - GE-20260811-c10d23: H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY
+- GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON
