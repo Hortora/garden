@@ -733,3 +733,4 @@
 - GE-20260810-c69a19: Zero-injection CDI beans still need @ApplicationScoped when discovered via Instance<T>
 - GE-20260811-21ae26: SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation
 - GE-20260811-dba1d8: Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in
+- GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs

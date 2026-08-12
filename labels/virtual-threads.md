@@ -16,3 +16,5 @@
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
 - GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests
 - GE-20260810-f5f01d: Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads
+- GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
+- GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no

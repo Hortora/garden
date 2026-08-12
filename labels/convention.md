@@ -2,3 +2,4 @@
 - GE-20260809-a51226: Relationship type registry follows status registry pattern — module-level Map, no deregistration
 - GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar
 - GE-20260810-cc9129: Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review
+- GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
