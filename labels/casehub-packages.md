@@ -1,2 +1,3 @@
 - GE-20260803-17fc03: casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention
 - GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
+- GE-20260812-8db18f: Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild

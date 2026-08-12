@@ -1396,3 +1396,4 @@
 | GE-20260811-dba1d8 | Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in | technique | 8/15 |
 | GE-20260812-d92fa8 | Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs | technique | 9/15 |
 | GE-20260812-f2236d | Uni retention policy — API boundaries yes, internal SPIs no | convention | 8/15 |
+| GE-20260812-8db18f | Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild | gotcha | 9/15 |

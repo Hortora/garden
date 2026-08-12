@@ -1,0 +1,1 @@
+- GE-20260812-8db18f: Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild

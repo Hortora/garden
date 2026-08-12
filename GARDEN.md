@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2665
+**Entries merged since last sweep:** 2666
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2038,6 +2038,7 @@
 - GE-20260811-dba1d8 [Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in](jvm/GE-20260811-dba1d8.md)
 - GE-20260812-d92fa8 [Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs](jvm/GE-20260812-d92fa8.md)
 - GE-20260812-f2236d [Uni retention policy — API boundaries yes, internal SPIs no](jvm/GE-20260812-f2236d.md)
+- GE-20260812-8db18f [Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild](jvm/GE-20260812-8db18f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
