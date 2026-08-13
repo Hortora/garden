@@ -7,3 +7,4 @@
 - GE-20260523-51620a: Removed SNAPSHOT API method compiles locally against stale cached jar but fails on CI where fresh SNAPSHOT is resolved
 - GE-20260601-3fe99d: Java 'cannot find symbol' names the class FQCN — not which artifact is missing it
 - GE-20260604-18b28f: Drools Rule Unit: eval() + accumulate() in same rule fails to compile — generated lambda loses field scope
+- GE-20260813-193670: quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently

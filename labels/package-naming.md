@@ -1,0 +1,1 @@
+- GE-20260813-193670: quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently

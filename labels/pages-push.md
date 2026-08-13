@@ -1,1 +1,2 @@
 - GE-20260812-5cd146: pages-data EventConnection silently drops non-event wire messages
+- GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster

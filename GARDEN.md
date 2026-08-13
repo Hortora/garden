@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2673
+**Entries merged since last sweep:** 2677
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2043,6 +2043,10 @@
 - GE-20260812-5fe880 [Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly](jvm/GE-20260812-5fe880.md)
 - GE-20260812-ba7ee4 [Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library](jvm/GE-20260812-ba7ee4.md)
 - GE-20260812-8cfcd2 [H2 2.x accepts JSONB as a type alias for JSON](jvm/GE-20260812-8cfcd2.md)
+- GE-20260813-193670 [quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently](jvm/GE-20260813-193670.md)
+- GE-20260813-b4e2d8 [pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster](jvm/GE-20260813-b4e2d8.md)
+- GE-20260813-33cf79 [Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails](jvm/GE-20260813-33cf79.md)
+- GE-20260813-482707 [Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://](jvm/GE-20260813-482707.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

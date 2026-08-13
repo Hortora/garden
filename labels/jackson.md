@@ -32,3 +32,4 @@
 - GE-20260804-0725e5: Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
 - GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library
+- GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster

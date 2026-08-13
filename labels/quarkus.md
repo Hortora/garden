@@ -736,3 +736,6 @@
 - GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
 - GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
 - GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly
+- GE-20260813-193670: quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently
+- GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails
+- GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://

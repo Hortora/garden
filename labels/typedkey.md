@@ -1,0 +1,1 @@
+- GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails

@@ -1401,3 +1401,7 @@
 | GE-20260812-5fe880 | Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly | gotcha | 9/15 |
 | GE-20260812-ba7ee4 | Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library | technique | 9/15 |
 | GE-20260812-8cfcd2 | H2 2.x accepts JSONB as a type alias for JSON | undocumented | 9/15 |
+| GE-20260813-193670 | quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently | gotcha | 9/15 |
+| GE-20260813-b4e2d8 | pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster | gotcha | 10/15 |
+| GE-20260813-33cf79 | Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails | gotcha | 8/15 |
+| GE-20260813-482707 | Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws:// | gotcha | 9/15 |

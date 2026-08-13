@@ -16,3 +16,6 @@
 - GE-20260804-1b28f5: pipe-pane + forceRedraw replaces capture-pane for TUI terminal proxying
 - GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
 - GE-20260812-5cd146: pages-data EventConnection silently drops non-event wire messages
+- GE-20260813-193670: quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently
+- GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails
+- GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://

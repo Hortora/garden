@@ -15,3 +15,4 @@
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
 - GE-20260804-0725e5: Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize
 - GE-20260805-6b1f56: Java Duration.ofDays normalizes to hours in ISO-8601 serialization
+- GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
