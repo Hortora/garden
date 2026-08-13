@@ -1,2 +1,1 @@
-- GE-20260421-1fa31e: mvn clean deletes APT-generated classes, triggering cascade failure from annotation processor version mismatch
 - GE-20260813-f7d73e: merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure

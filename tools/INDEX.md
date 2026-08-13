@@ -698,3 +698,4 @@
 | GE-20260811-90a15b | git ls-tree silently filters output by CWD prefix — cat-file does not | gotcha | 11/15 |
 | GE-20260811-054ced | plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible | gotcha | 10/15 |
 | GE-20260811-7e119c | Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos | gotcha | 10/15 |
+| GE-20260813-f7d73e | merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure | gotcha | 11/15 |

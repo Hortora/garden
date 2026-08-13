@@ -149,3 +149,4 @@
 - GE-20260811-90a15b: git ls-tree silently filters output by CWD prefix — cat-file does not
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure
 - GE-20260812-5cd146: pages-data EventConnection silently drops non-event wire messages
+- GE-20260813-f7d73e: merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure
