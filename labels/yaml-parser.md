@@ -1,0 +1,1 @@
+- GE-20260813-674be0: casehub-pages YAML desugarer drops unknown component props silently

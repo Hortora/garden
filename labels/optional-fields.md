@@ -1,1 +1,2 @@
 - GE-20260610-9f38b0: JsonObject.getJsonObject() returns null for missing keys — no default overload
+- GE-20260813-c50d64: exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete

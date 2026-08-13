@@ -35,3 +35,4 @@
 - GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea
 - GE-20260810-07c717: TypeScript readonly interface spread loses required properties
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
+- GE-20260813-c50d64: exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete

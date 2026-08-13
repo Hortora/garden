@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2677
+**Entries merged since last sweep:** 2679
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3009,6 +3009,8 @@
 - GE-20260812-5cd146 [pages-data EventConnection silently drops non-event wire messages](web/GE-20260812-5cd146.md)
 - GE-20260812-da1f97 [vitest discovers tests through npm file: symlinks into vendored packages](web/GE-20260812-da1f97.md)
 - GE-20260812-a0d705 [Barrel re-export pulls in unavailable transitive dependency from unused module](web/GE-20260812-a0d705.md)
+- GE-20260813-674be0 [casehub-pages YAML desugarer drops unknown component props silently](web/GE-20260813-674be0.md)
+- GE-20260813-c50d64 [exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete](web/GE-20260813-c50d64.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
