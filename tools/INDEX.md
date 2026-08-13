@@ -699,3 +699,5 @@
 | GE-20260811-054ced | plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible | gotcha | 10/15 |
 | GE-20260811-7e119c | Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos | gotcha | 10/15 |
 | GE-20260813-f7d73e | merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure | gotcha | 11/15 |
+| GE-20260813-687333 | Path-to-name encoding silently fails when input is relative — produces different encoding for same location | gotcha | 11/15 |
+| GE-20260813-556494 | Authoritative reads with best-effort writes guarantees stale state — both paths must match | technique | 11/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2671
+**Entries merged since last sweep:** 2673
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2777,6 +2777,8 @@
 - GE-20260811-054ced [plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible](tools/GE-20260811-054ced.md)
 - GE-20260811-7e119c [Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos](tools/GE-20260811-7e119c.md)
 - GE-20260813-f7d73e [merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure](tools/GE-20260813-f7d73e.md)
+- GE-20260813-687333 [Path-to-name encoding silently fails when input is relative — produces different encoding for same location](tools/GE-20260813-687333.md)
+- GE-20260813-556494 [Authoritative reads with best-effort writes guarantees stale state — both paths must match](tools/GE-20260813-556494.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

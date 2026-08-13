@@ -25,3 +25,4 @@
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
 - GE-20260809-c952b1: Guest/host framework bridging — run one framework's driver inside another's handler SPI
 - GE-20260810-2bf7bc: Engine/backend split for third-party UI library integration
+- GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match

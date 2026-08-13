@@ -1,0 +1,1 @@
+- GE-20260813-687333: Path-to-name encoding silently fails when input is relative — produces different encoding for same location

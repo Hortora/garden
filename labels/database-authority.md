@@ -1,0 +1,1 @@
+- GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match

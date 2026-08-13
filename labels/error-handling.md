@@ -6,3 +6,4 @@
 - GE-20260710-e58db6: TypedRow.cell() is safe (discriminated union), TypedRow.number() throws on NULL or type mismatch
 - GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
+- GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match
