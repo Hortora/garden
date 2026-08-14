@@ -1,0 +1,1 @@
+- GE-20260814-cba922: JAX-RS path conflict resolution with /ops sub-path for co-located resources

@@ -747,3 +747,4 @@
 - GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
 - GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
 - GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store
+- GE-20260814-cba922: JAX-RS path conflict resolution with /ops sub-path for co-located resources

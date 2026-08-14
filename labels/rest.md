@@ -14,3 +14,4 @@
 - GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
 - GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
+- GE-20260814-cba922: JAX-RS path conflict resolution with /ops sub-path for co-located resources

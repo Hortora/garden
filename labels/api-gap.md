@@ -1,0 +1,1 @@
+- GE-20260814-58bc55: ReconciliationLoop has no status() API — use getDesired() as presence check

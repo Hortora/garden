@@ -1415,3 +1415,6 @@
 | GE-20260814-cb5551 | WorkerResult has no isSuccess() — use outcome() instanceof check | undocumented | 8/15 |
 | GE-20260814-eee153 | Case descriptor tests use anonymous inner classes, not Mockito | convention | 8/15 |
 | GE-20260814-2bd7f4 | Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store | technique | 8/15 |
+| GE-20260814-0fcc1a | CaseLifecycleEvent CDI observer for cross-cutting case state reactions | technique | 9/15 |
+| GE-20260814-58bc55 | ReconciliationLoop has no status() API — use getDesired() as presence check | undocumented | 8/15 |
+| GE-20260814-cba922 | JAX-RS path conflict resolution with /ops sub-path for co-located resources | convention | 8/15 |

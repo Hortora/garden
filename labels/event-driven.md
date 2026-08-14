@@ -5,3 +5,4 @@
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260615-00ff7a: Fire CDI Event<T> from registry writes to decouple provisioners from transport implementations
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
+- GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
