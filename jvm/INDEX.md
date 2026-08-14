@@ -1421,3 +1421,4 @@
 | GE-20260814-05ef39 | ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain | gotcha | 11/15 |
 | GE-20260814-d2b419 | AdaptationCause is sealed — cannot create custom subtypes outside engine package | gotcha | 10/15 |
 | GE-20260814-426631 | AdaptationContext constructor rejects null for case-specific fields even when unused | gotcha | 9/15 |
+| GE-20260814-c351f2 | Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module | gotcha | 10/15 |

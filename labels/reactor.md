@@ -3,3 +3,4 @@
 - GE-20260606-1954f5: mvn test -pl <module> uses installed jars of peers, not reactor output — changed api/ modules not visible until installed
 - GE-20260618-c4f95a: ClaudeAsyncClient.close() blocks a Reactor bounded-elastic thread for up to 5 seconds per call
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
+- GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module

@@ -209,3 +209,4 @@
 - GE-20260814-e76eca: Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
+- GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module

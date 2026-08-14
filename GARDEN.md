@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2716
+**Entries merged since last sweep:** 2720
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2069,6 +2069,7 @@
 - GE-20260814-05ef39 [ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain](jvm/GE-20260814-05ef39.md)
 - GE-20260814-d2b419 [AdaptationCause is sealed — cannot create custom subtypes outside engine package](jvm/GE-20260814-d2b419.md)
 - GE-20260814-426631 [AdaptationContext constructor rejects null for case-specific fields even when unused](jvm/GE-20260814-426631.md)
+- GE-20260814-c351f2 [Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module](jvm/GE-20260814-c351f2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3048,6 +3049,9 @@
 - GE-20260814-2beabf [Canvas crosshair position shifts when Lit panel resize changes canvas container width](web/GE-20260814-2beabf.md)
 - GE-20260814-0cd075 [Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild](web/GE-20260814-0cd075.md)
 - GE-20260814-85714a [HTML overlay divs for pixel-perfect canvas interaction — immune to container resize](web/GE-20260814-85714a.md)
+- GE-20260814-fc5487 [npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages](web/GE-20260814-fc5487.md)
+- GE-20260814-37b0ed [Pages restSource needs dataPath to unwrap paginated API responses — dataTable shows No data otherwise](web/GE-20260814-37b0ed.md)
+- GE-20260814-c7c5e9 [Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists](web/GE-20260814-c7c5e9.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

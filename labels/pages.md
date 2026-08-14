@@ -1,2 +1,4 @@
 - GE-20260804-befd45: Pages dockWorkbench decomposes into 3 primitives — no monolithic Web Component
 - GE-20260804-84ac70: life-ui layout via Pages DSL — dockWorkbench + hostPanel + loadSite, not custom Lit components
+- GE-20260814-37b0ed: Pages restSource needs dataPath to unwrap paginated API responses — dataTable shows No data otherwise
+- GE-20260814-c7c5e9: Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists

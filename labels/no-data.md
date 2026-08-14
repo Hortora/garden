@@ -1,0 +1,1 @@
+- GE-20260814-37b0ed: Pages restSource needs dataPath to unwrap paginated API responses — dataTable shows No data otherwise

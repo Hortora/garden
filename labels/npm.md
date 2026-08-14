@@ -10,3 +10,4 @@
 - GE-20260810-8a1c41: npm file: protocol installs devDependencies of linked packages — cascading 404s for private-registry deps
 - GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead
 - GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages
+- GE-20260814-fc5487: npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages

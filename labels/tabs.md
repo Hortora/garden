@@ -1,0 +1,1 @@
+- GE-20260814-c7c5e9: Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists

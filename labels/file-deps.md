@@ -1,2 +1,1 @@
-- GE-20260810-5f4dbe: Yarn resolutions field in package.json is silently ignored by npm — use overrides instead
 - GE-20260814-fc5487: npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages
