@@ -1,0 +1,1 @@
+- GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot

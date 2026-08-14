@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2679
+**Entries merged since last sweep:** 2681
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2783,6 +2783,8 @@
 - GE-20260813-f7d73e [merge-slot readiness gate requires .phase-a-complete marker that work-end never writes — slot landing cascade failure](tools/GE-20260813-f7d73e.md)
 - GE-20260813-687333 [Path-to-name encoding silently fails when input is relative — produces different encoding for same location](tools/GE-20260813-687333.md)
 - GE-20260813-556494 [Authoritative reads with best-effort writes guarantees stale state — both paths must match](tools/GE-20260813-556494.md)
+- GE-20260814-099511 [Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot](tools/GE-20260814-099511.md)
+- GE-20260814-e76eca [Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence](tools/GE-20260814-e76eca.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

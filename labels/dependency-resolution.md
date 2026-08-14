@@ -12,3 +12,5 @@
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
 - GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies
 - GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found
+- GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot
+- GE-20260814-e76eca: Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence

@@ -10,3 +10,4 @@
 - GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found
 - GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible
 - GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos
+- GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot

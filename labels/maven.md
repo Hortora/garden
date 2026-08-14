@@ -205,3 +205,5 @@
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
 - GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found
 - GE-20260812-8db18f: Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild
+- GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot
+- GE-20260814-e76eca: Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence
