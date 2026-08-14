@@ -1,2 +1,3 @@
 - GE-20260803-17fc03: casehub-packages directory names don't match npm package names — esbuild 'Could not resolve' when importing by directory path convention
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
+- GE-20260806-f1e2c9: git clone --shared silently drops gitignored directories — breaks build deps and symlink automation

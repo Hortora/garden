@@ -1,2 +1,3 @@
 - GE-20260420-8f9e26: @Scheduled methods must return void — returning int causes cryptic Type mismatch build failure
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
+- GE-20260806-f1e2c9: git clone --shared silently drops gitignored directories — breaks build deps and symlink automation

@@ -705,3 +705,4 @@
 | GE-20260814-e76eca | Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence | gotcha | 10/15 |
 | GE-20260814-6b054e | Validation errors as schema reinjection — self-healing for hierarchical MCP models | technique | 12/15 |
 | GE-20260814-d1b5dc | MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern | undocumented | 10/15 |
+| GE-20260806-f1e2c9 | git clone --shared silently drops gitignored directories — breaks build deps and symlink automation | gotcha | 11/15 |

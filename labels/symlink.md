@@ -2,3 +2,4 @@
 - GE-20260804-09f3da: Workspace symlink pointing at wrong repo causes silent cross-repo context contamination
 - GE-20260806-60d8be: gitignore trailing-slash pattern silently fails to ignore symlinks to directories
 - GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules
+- GE-20260806-f1e2c9: git clone --shared silently drops gitignored directories — breaks build deps and symlink automation

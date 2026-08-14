@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2709
+**Entries merged since last sweep:** 2710
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2805,6 +2805,7 @@
 - GE-20260814-e76eca [Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence](tools/GE-20260814-e76eca.md)
 - GE-20260814-6b054e [Validation errors as schema reinjection — self-healing for hierarchical MCP models](tools/GE-20260814-6b054e.md)
 - GE-20260814-d1b5dc [MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern](tools/GE-20260814-d1b5dc.md)
+- GE-20260806-f1e2c9 [git clone --shared silently drops gitignored directories — breaks build deps and symlink automation](tools/GE-20260806-f1e2c9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
