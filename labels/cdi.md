@@ -414,3 +414,4 @@
 - GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus
 - GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API
 - GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly
+- GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store

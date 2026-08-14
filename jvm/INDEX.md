@@ -1414,3 +1414,4 @@
 | GE-20260814-8bc7ef | QuarkusTest fails with misleading startup error in offline mode | gotcha | 9/15 |
 | GE-20260814-cb5551 | WorkerResult has no isSuccess() — use outcome() instanceof check | undocumented | 8/15 |
 | GE-20260814-eee153 | Case descriptor tests use anonymous inner classes, not Mockito | convention | 8/15 |
+| GE-20260814-2bd7f4 | Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store | technique | 8/15 |

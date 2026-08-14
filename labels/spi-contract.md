@@ -1,2 +1,1 @@
-- GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end
 - GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store
