@@ -13,3 +13,4 @@
 - GE-20260630-9d8cbe: @Priority is NOT @Inherited — CDI proxy classes silently drop it from reflection, making bean ordering undefined
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
 - GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI
+- GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection

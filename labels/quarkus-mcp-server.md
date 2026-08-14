@@ -3,3 +3,4 @@
 - GE-20260417-691885: Class-level @WrapBusinessError converts @Tool method exceptions to isError:true MCP responses without changing return types
 - GE-20260501-311bd8: quarkus.mcp.server.tools.page-size controls tools/list pagination — undocumented default of 50 silently truncates large tool sets
 - GE-20260501-50a9f4: quarkus-mcp-server silently caps tools/list at 50 — tools beyond alphabetical position 50 simply don't appear
+- GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing

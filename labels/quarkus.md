@@ -739,3 +739,4 @@
 - GE-20260813-193670: quarkus-websockets-next package is io.quarkus.websockets.next (plural) — singular form fails silently
 - GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails
 - GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://
+- GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus

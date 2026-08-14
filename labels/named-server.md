@@ -1,0 +1,1 @@
+- GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing

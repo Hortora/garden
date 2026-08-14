@@ -3,3 +3,4 @@
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
 - GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
+- GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing

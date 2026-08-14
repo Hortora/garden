@@ -3,3 +3,4 @@
 - GE-20260514-83ee13: @DefaultBean in Quarkus is io.quarkus.arc.DefaultBean, not jakarta.enterprise.inject
 - GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
+- GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection

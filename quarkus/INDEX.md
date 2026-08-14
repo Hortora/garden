@@ -240,3 +240,5 @@
 | GE-20260427-cc77a7 | WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast | undocumented | 11/15 |
 | GE-20260429-da95ec | Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus | technique | 12/15 |
 | GE-20260414-62a6df | COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation | gotcha | 13/15 |
+| GE-20260814-d85621 | Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing | gotcha | 13/15 |
+| GE-20260814-cab88c | CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus | technique | 12/15 |

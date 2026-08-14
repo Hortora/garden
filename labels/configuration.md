@@ -13,3 +13,4 @@
 - GE-20260614-328420: OpenClaw /v1/chat/completions requires model='openclaw', not the upstream provider model ID
 - GE-20260630-a4fc8b: FileCursorStore cursor path defaults to java.io.tmpdir — undiscoverable without bytecode inspection
 - GE-20260707-5d6a9f: Quarkus test application.properties overrides production exclude-types — not additive
+- GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing

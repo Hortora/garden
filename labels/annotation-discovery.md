@@ -1,2 +1,1 @@
-- GE-20260423-29f45a: BeanManager.resolveObserverMethods() for zero-cost startup observer detection in CDI
 - GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus

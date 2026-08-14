@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2681
+**Entries merged since last sweep:** 2684
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -329,6 +329,7 @@
 - GE-20260421-cdfff1 [Hibernate L1 cache returns stale entity after bulk JPQL DELETE — em.clear() required](java/GE-20260421-cdfff1.md)
 - GE-20260714-a2ae5d [Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site](java/GE-20260714-a2ae5d.md)
 - GE-20260421-cdfff1 [Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope](java/GE-20260421-cdfff1.md)
+- GE-20260814-5719d3 [String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection](java/GE-20260814-5719d3.md)
 ### java-panama-ffm/
 - GE-0038 [Panama FFM native write/read on PTY slave fds causes SIGTRAP JVM crash in the next test class (macOS AArch64)](java-panama-ffm/GE-0038.md)
 - GE-0053 [Panama FFM `IOC_OUT` ioctl returns success but leaves buffer zeroed (macOS AArch64, JVM mode)](java-panama-ffm/GE-0053.md)
@@ -625,6 +626,8 @@
 - GE-20260427-cc77a7 [WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast](quarkus/GE-20260427-cc77a7.md)
 - GE-20260429-da95ec [Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus](quarkus/GE-20260429-da95ec.md)
 - GE-20260414-62a6df [COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation](quarkus/GE-20260414-62a6df.md)
+- GE-20260814-d85621 [Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing](quarkus/GE-20260814-d85621.md)
+- GE-20260814-cab88c [CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus](quarkus/GE-20260814-cab88c.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)

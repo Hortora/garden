@@ -1,2 +1,1 @@
-- GE-20260430-b015f5: quarkus-mcp-server silently drops @Tool on methods with public same-name overloads
 - GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection
