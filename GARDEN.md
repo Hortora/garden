@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2722
+**Entries merged since last sweep:** 2723
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3054,6 +3054,7 @@
 - GE-20260814-fc5487 [npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages](web/GE-20260814-fc5487.md)
 - GE-20260814-37b0ed [Pages restSource needs dataPath to unwrap paginated API responses — dataTable shows No data otherwise](web/GE-20260814-37b0ed.md)
 - GE-20260814-c7c5e9 [Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists](web/GE-20260814-c7c5e9.md)
+- GE-20260814-0d4123 [casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change](web/GE-20260814-0d4123.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

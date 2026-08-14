@@ -217,3 +217,4 @@
 | GE-20260814-fc5487 | npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages | gotcha | 9/15 |
 | GE-20260814-37b0ed | Pages restSource needs dataPath to unwrap paginated API responses — dataTable shows No data otherwise | gotcha | 9/15 |
 | GE-20260814-c7c5e9 | Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists | undocumented | 8/15 |
+| GE-20260814-0d4123 | casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change | gotcha | 12/15 |
