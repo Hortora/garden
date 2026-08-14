@@ -81,3 +81,4 @@
 - GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
+- GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check

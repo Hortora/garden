@@ -29,3 +29,4 @@
 - GE-20260805-340331: Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead
 - GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
 - GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
+- GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode

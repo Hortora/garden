@@ -1,2 +1,3 @@
 - GE-20260607-115619: Lambda migration scripts can't distinguish Worker.Builder.function() from Serverless Workflow function(lambda, Map.class)
 - GE-20260607-285229: casehub-engine 0.2 (#402): three breaking API changes — WorkerResult, TrustRoutingPolicy.bootstrapEscalationRequired, TrustGateService.allDimensionScores
+- GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check

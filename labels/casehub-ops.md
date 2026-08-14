@@ -1,0 +1,1 @@
+- GE-20260814-eee153: Case descriptor tests use anonymous inner classes, not Mockito

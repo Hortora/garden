@@ -1411,3 +1411,6 @@
 | GE-20260814-8843ea | @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec | gotcha | 11/15 |
 | GE-20260814-93a3f3 | CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly | technique | 9/15 |
 | GE-20260814-5920f5 | @ConfigMapping validates all required properties at startup even when feature group is disabled | gotcha | 13/15 |
+| GE-20260814-8bc7ef | QuarkusTest fails with misleading startup error in offline mode | gotcha | 9/15 |
+| GE-20260814-cb5551 | WorkerResult has no isSuccess() — use outcome() instanceof check | undocumented | 8/15 |
+| GE-20260814-eee153 | Case descriptor tests use anonymous inner classes, not Mockito | convention | 8/15 |

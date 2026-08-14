@@ -745,3 +745,4 @@
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly
 - GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
+- GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode

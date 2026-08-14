@@ -420,3 +420,6 @@
 - GE-20260814-ec28c4: Empty dict is falsy — `x = x or default` silently ignores intentional empty overrides
 - GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols
 - GE-20260814-b47ed9: Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects
+- GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
+- GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check
+- GE-20260814-eee153: Case descriptor tests use anonymous inner classes, not Mockito
