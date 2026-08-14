@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2708
+**Entries merged since last sweep:** 2709
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2826,6 +2826,7 @@
 - GE-20260814-ec28c4 [Empty dict is falsy — `x = x or default` silently ignores intentional empty overrides](python/GE-20260814-ec28c4.md)
 - GE-20260814-e95775 [Injectable dispatch table for testing state-machine effect protocols](python/GE-20260814-e95775.md)
 - GE-20260814-b47ed9 [Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects](python/GE-20260814-b47ed9.md)
+- GE-20260814-d6aad1 [Path('') silently resolves to CWD — is_dir() returns True for empty strings](python/GE-20260814-d6aad1.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

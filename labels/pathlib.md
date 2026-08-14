@@ -1,2 +1,3 @@
 - GE-20260730-2b2a0a: Path.exists() returns False for broken symlinks — use is_symlink() first
 - GE-20260801-dfadc9: iterdir() with is_dir skip silently drops files in subdirectories
+- GE-20260814-d6aad1: Path('') silently resolves to CWD — is_dir() returns True for empty strings
