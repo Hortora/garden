@@ -1,0 +1,1 @@
+- GE-20260814-772b91: plan_manager.flatten_leaves() returns dataclass copies — mutations don't propagate to tree

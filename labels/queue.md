@@ -1,2 +1,3 @@
 - GE-20260609-f14f75: SynchronousQueue enforces depth-0 send/receive pairing for strict request/response protocols
 - GE-20260805-10e5dd: CaseQueueService.escalate() silently sets viewName to null on the target entry
+- GE-20260814-70c81b: plan_manager.advance() has no idempotency guard — second call advances two issues

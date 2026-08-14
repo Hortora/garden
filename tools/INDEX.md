@@ -706,3 +706,5 @@
 | GE-20260814-6b054e | Validation errors as schema reinjection — self-healing for hierarchical MCP models | technique | 12/15 |
 | GE-20260814-d1b5dc | MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern | undocumented | 10/15 |
 | GE-20260806-f1e2c9 | git clone --shared silently drops gitignored directories — breaks build deps and symlink automation | gotcha | 11/15 |
+| GE-20260814-70c81b | plan_manager.advance() has no idempotency guard — second call advances two issues | gotcha | 10/15 |
+| GE-20260814-772b91 | plan_manager.flatten_leaves() returns dataclass copies — mutations don't propagate to tree | gotcha | 9/15 |

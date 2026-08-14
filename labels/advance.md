@@ -1,0 +1,1 @@
+- GE-20260814-70c81b: plan_manager.advance() has no idempotency guard — second call advances two issues
