@@ -743,3 +743,4 @@
 - GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild
 - GE-20260814-6ddb5c: ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
+- GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly

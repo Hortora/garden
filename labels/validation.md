@@ -18,3 +18,4 @@
 - GE-20260729-0c7c61: Enum.valueOf() in bulk YAML parsing gives opaque errors — missing value names the constant but not the config entry
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives
+- GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models

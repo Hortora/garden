@@ -1,3 +1,4 @@
 - GE-20260525-58fcbf: Always-needed vs triggered: decision rule for AI context file curation
 - GE-20260525-3fe619: wc -l understates AI context file bloat — always measure with wc -c
 - GE-20260803-24339b: jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown
+- GE-20260814-d1b5dc: MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern

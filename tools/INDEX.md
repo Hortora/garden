@@ -703,3 +703,5 @@
 | GE-20260813-556494 | Authoritative reads with best-effort writes guarantees stale state — both paths must match | technique | 11/15 |
 | GE-20260814-099511 | Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot | gotcha | 13/15 |
 | GE-20260814-e76eca | Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence | gotcha | 10/15 |
+| GE-20260814-6b054e | Validation errors as schema reinjection — self-healing for hierarchical MCP models | technique | 12/15 |
+| GE-20260814-d1b5dc | MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern | undocumented | 10/15 |

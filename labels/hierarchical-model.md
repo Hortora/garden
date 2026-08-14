@@ -1,0 +1,2 @@
+- GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
+- GE-20260814-d1b5dc: MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern

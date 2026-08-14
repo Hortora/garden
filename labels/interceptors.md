@@ -1,0 +1,1 @@
+- GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly

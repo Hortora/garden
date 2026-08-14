@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2696
+**Entries merged since last sweep:** 2700
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2055,6 +2055,8 @@
 - GE-20260814-6ddb5c [ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart](jvm/GE-20260814-6ddb5c.md)
 - GE-20260814-a20746 [Classical MDS via power iteration — pure Java 2D projection without external libraries](jvm/GE-20260814-a20746.md)
 - GE-20260814-8f18b9 [Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo](jvm/GE-20260814-8f18b9.md)
+- GE-20260814-8843ea [@Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec](jvm/GE-20260814-8843ea.md)
+- GE-20260814-93a3f3 [CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly](jvm/GE-20260814-93a3f3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2793,6 +2795,8 @@
 - GE-20260813-556494 [Authoritative reads with best-effort writes guarantees stale state — both paths must match](tools/GE-20260813-556494.md)
 - GE-20260814-099511 [Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot](tools/GE-20260814-099511.md)
 - GE-20260814-e76eca [Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence](tools/GE-20260814-e76eca.md)
+- GE-20260814-6b054e [Validation errors as schema reinjection — self-healing for hierarchical MCP models](tools/GE-20260814-6b054e.md)
+- GE-20260814-d1b5dc [MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern](tools/GE-20260814-d1b5dc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

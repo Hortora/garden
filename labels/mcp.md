@@ -75,3 +75,5 @@
 - GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead
 - GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea
 - GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing
+- GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
+- GE-20260814-d1b5dc: MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern
