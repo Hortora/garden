@@ -417,3 +417,6 @@
 - GE-20260809-778096: Setting Lit @state() inside updated() triggers second render — await updateComplete resolves too early in tests
 - GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification
 - GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://
+- GE-20260814-ec28c4: Empty dict is falsy — `x = x or default` silently ignores intentional empty overrides
+- GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols
+- GE-20260814-b47ed9: Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects

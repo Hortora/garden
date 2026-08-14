@@ -1,1 +1,2 @@
 - GE-20260706-b2804c: Lit Web Component empty-string endpoint silently skips fetch — !this.endpoint vs == null
+- GE-20260814-ec28c4: Empty dict is falsy — `x = x or default` silently ignores intentional empty overrides

@@ -6,3 +6,4 @@
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260601-ad6203: Quarkus ARC validates disabled-feature bean dep chains at augmentation time — quarkus.arc.exclude-types must cover the whole chain
 - GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>
+- GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols

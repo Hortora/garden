@@ -7,3 +7,4 @@
 - GE-20260725-174b2c: vitest mockResolvedValue reuses same Response object — body read fails on second fetch
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
 - GE-20260809-f0c43a: happy-dom getBoundingClientRect returns zeros — Dockview mock tests give false confidence
+- GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols

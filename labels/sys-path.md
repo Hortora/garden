@@ -1,0 +1,1 @@
+- GE-20260814-b47ed9: Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects

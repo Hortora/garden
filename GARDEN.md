@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2692
+**Entries merged since last sweep:** 2695
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2810,6 +2810,9 @@
 - GE-20260812-797a16 [Textual App subclass _dispatch_action name collision causes TypeError at key-press time](python/GE-20260812-797a16.md)
 - GE-20260812-18a18e [Textual key events go to focused widget first — RichLog consumes up/down before siblings](python/GE-20260812-18a18e.md)
 - GE-20260812-b14978 [Textual widget testability via _build_display() — unit tests without mounting](python/GE-20260812-b14978.md)
+- GE-20260814-ec28c4 [Empty dict is falsy — `x = x or default` silently ignores intentional empty overrides](python/GE-20260814-ec28c4.md)
+- GE-20260814-e95775 [Injectable dispatch table for testing state-machine effect protocols](python/GE-20260814-e95775.md)
+- GE-20260814-b47ed9 [Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects](python/GE-20260814-b47ed9.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

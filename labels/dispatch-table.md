@@ -1,0 +1,1 @@
+- GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols
