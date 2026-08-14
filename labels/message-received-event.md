@@ -1,2 +1,1 @@
-- GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key
 - GE-20260814-175dce: No MessageReceivedEvent to MessageView conversion utility in qhorus — manual construction required

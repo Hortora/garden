@@ -1,2 +1,3 @@
 - GE-20260414-f4f539: casehub-engine CaseHubReactor.startCase() no longer calls registerCaseDefinition() — definitions only register at startup
 - GE-20260514-421a6e: ConcurrentHashMap.newKeySet().add() provides atomic idempotent registration without explicit locks
+- GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API

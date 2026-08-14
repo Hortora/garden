@@ -412,3 +412,4 @@
 - GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>
 - GE-20260811-dba1d8: Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in
 - GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus
+- GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API

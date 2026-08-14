@@ -27,3 +27,5 @@
 - GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed
 - GE-20260804-0e809e: Thread-as-metadata-partition — two projections over one Qhorus channel via a metadata key
 - GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
+- GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API
+- GE-20260814-175dce: No MessageReceivedEvent to MessageView conversion utility in qhorus — manual construction required

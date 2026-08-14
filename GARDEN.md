@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2690
+**Entries merged since last sweep:** 2692
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -136,6 +136,8 @@
 - GE-20260623-ef0e7c [QUERY hard-blocks on typed Qhorus channel; RESPONSE produces advisory only — asymmetric enforcement](casehub-qhorus/GE-20260623-ef0e7c.md)
 - GE-20260623-92964b [RESPONSE sent with COMMAND correlationId fulfills the commitment (FULFILLED, not OPEN) — Zone 3 type check must use response type, not CommitmentState](casehub-qhorus/GE-20260623-92964b.md)
 - GE-20260707-674928 [ChannelService.delete(channelId, force=true) fails silently on FK constraint when messages have in_reply_to references](casehub-qhorus/GE-20260707-674928.md)
+- GE-20260814-da6b1f [qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API](casehub-qhorus/GE-20260814-da6b1f.md)
+- GE-20260814-175dce [No MessageReceivedEvent to MessageView conversion utility in qhorus — manual construction required](casehub-qhorus/GE-20260814-175dce.md)
 ### beautifulsoup/
 - GE-0008 [BeautifulSoup lxml parser double-encodes non-ASCII when input str contains `<meta charset>`](beautifulsoup/GE-0008.md)
 - GE-0016 [Hardcoded path traversal fails silently when scanning file copies in an alternate directory](beautifulsoup/GE-0016.md)

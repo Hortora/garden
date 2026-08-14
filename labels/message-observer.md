@@ -1,1 +1,2 @@
 - GE-20260730-71e232: MessageReceivedEvent missing target/actorType — notification bridge blocker misdiagnosed as missing CDI event
+- GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API
