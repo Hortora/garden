@@ -5,3 +5,4 @@
 - GE-20260531-a6bd23: SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead
 - GE-20260612-c3b611: SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
+- GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled

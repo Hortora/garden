@@ -1410,3 +1410,4 @@
 | GE-20260814-8f18b9 | Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo | gotcha | 11/15 |
 | GE-20260814-8843ea | @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec | gotcha | 11/15 |
 | GE-20260814-93a3f3 | CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly | technique | 9/15 |
+| GE-20260814-5920f5 | @ConfigMapping validates all required properties at startup even when feature group is disabled | gotcha | 13/15 |

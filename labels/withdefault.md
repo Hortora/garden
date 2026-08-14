@@ -1,2 +1,3 @@
 - GE-20260414-a2e8a3: @WithDefault("") in @ConfigMapping throws ConfigValidationException — empty string treated as null
 - GE-20260531-a6bd23: SmallRye Config rejects @WithDefault("") for plain String @ConfigMapping methods — use Optional<String> instead
+- GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled

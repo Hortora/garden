@@ -1,1 +1,2 @@
 - GE-20260420-1d1452: @NamedQuery on entity classes validates JPQL at Hibernate startup — typos fail at boot not at query time
+- GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
