@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2684
+**Entries merged since last sweep:** 2690
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2050,6 +2050,8 @@
 - GE-20260813-b4e2d8 [pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster](jvm/GE-20260813-b4e2d8.md)
 - GE-20260813-33cf79 [Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails](jvm/GE-20260813-33cf79.md)
 - GE-20260813-482707 [Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://](jvm/GE-20260813-482707.md)
+- GE-20260814-6ddb5c [ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart](jvm/GE-20260814-6ddb5c.md)
+- GE-20260814-a20746 [Classical MDS via power iteration — pure Java 2D projection without external libraries](jvm/GE-20260814-a20746.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3016,6 +3018,10 @@
 - GE-20260812-a0d705 [Barrel re-export pulls in unavailable transitive dependency from unused module](web/GE-20260812-a0d705.md)
 - GE-20260813-674be0 [casehub-pages YAML desugarer drops unknown component props silently](web/GE-20260813-674be0.md)
 - GE-20260813-c50d64 [exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete](web/GE-20260813-c50d64.md)
+- GE-20260814-51d2dd [Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering](web/GE-20260814-51d2dd.md)
+- GE-20260814-2beabf [Canvas crosshair position shifts when Lit panel resize changes canvas container width](web/GE-20260814-2beabf.md)
+- GE-20260814-0cd075 [Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild](web/GE-20260814-0cd075.md)
+- GE-20260814-85714a [HTML overlay divs for pixel-perfect canvas interaction — immune to container resize](web/GE-20260814-85714a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

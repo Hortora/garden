@@ -12,3 +12,5 @@
 - GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
 - GE-20260622-580d45: quarkus.security.auth.enabled-in-dev-mode=false disables @RolesAllowed enforcement in dev without a real OIDC server
 - GE-20260806-80defe: Quarkus quarkus:dev spawns orphaned child JVMs that survive parent kill and hold the port
+- GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild
+- GE-20260814-6ddb5c: ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart

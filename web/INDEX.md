@@ -210,3 +210,7 @@
 | GE-20260812-a0d705 | Barrel re-export pulls in unavailable transitive dependency from unused module | technique | 8/15 |
 | GE-20260813-674be0 | casehub-pages YAML desugarer drops unknown component props silently | gotcha | 9/15 |
 | GE-20260813-c50d64 | exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete | gotcha | 8/15 |
+| GE-20260814-51d2dd | Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering | gotcha | 9/15 |
+| GE-20260814-2beabf | Canvas crosshair position shifts when Lit panel resize changes canvas container width | gotcha | 10/15 |
+| GE-20260814-0cd075 | Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild | gotcha | 8/15 |
+| GE-20260814-85714a | HTML overlay divs for pixel-perfect canvas interaction — immune to container resize | technique | 8/15 |

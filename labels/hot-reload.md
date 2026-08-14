@@ -3,3 +3,4 @@
 - GE-20260422-a00b81: Quarkus dev mode hot-reload silently stops detecting file changes while Maven process appears healthy
 - GE-20260705-385e87: Quinoa dev mode serves from target/quinoa/build/ — manual npm build to dist/ is invisible to the running server
 - GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files
+- GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild

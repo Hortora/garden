@@ -1,1 +1,3 @@
 - GE-20260415-1788e5: fitAddon.fit() is a no-op in headless Playwright — terminal.onResize never fires
+- GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width
+- GE-20260814-85714a: HTML overlay divs for pixel-perfect canvas interaction — immune to container resize

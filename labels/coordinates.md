@@ -1,0 +1,1 @@
+- GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width

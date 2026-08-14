@@ -6,3 +6,6 @@
 - GE-20260426-90563c: e.preventDefault() on mousedown suppresses the subsequent click event on the same element
 - GE-20260508-649308: Global canvas CSS rule stretches all canvas elements including inline UI canvases
 - GE-20260801-36b9fa: Cytoscape.js has no public API for custom canvas-drawn node shapes
+- GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
+- GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width
+- GE-20260814-85714a: HTML overlay divs for pixel-perfect canvas interaction — immune to container resize

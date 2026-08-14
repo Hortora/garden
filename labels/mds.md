@@ -1,0 +1,1 @@
+- GE-20260814-a20746: Classical MDS via power iteration — pure Java 2D projection without external libraries

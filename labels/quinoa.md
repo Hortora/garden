@@ -9,3 +9,4 @@
 - GE-20260804-149db1: Quarkus Quinoa dev mode serves stale frontend — manual yarn build does not update served files
 - GE-20260805-ac9dfb: Quinoa HTTP forwarding hangs on macOS — IPv4/IPv6 dual-stack mismatch with Vite dev server
 - GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers
+- GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild

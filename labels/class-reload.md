@@ -1,0 +1,1 @@
+- GE-20260814-6ddb5c: ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart

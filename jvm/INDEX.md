@@ -1405,3 +1405,5 @@
 | GE-20260813-b4e2d8 | pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster | gotcha | 10/15 |
 | GE-20260813-33cf79 | Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails | gotcha | 8/15 |
 | GE-20260813-482707 | Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws:// | gotcha | 9/15 |
+| GE-20260814-6ddb5c | ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart | gotcha | 9/15 |
+| GE-20260814-a20746 | Classical MDS via power iteration — pure Java 2D projection without external libraries | technique | 9/15 |

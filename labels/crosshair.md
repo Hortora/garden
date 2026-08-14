@@ -1,0 +1,1 @@
+- GE-20260814-85714a: HTML overlay divs for pixel-perfect canvas interaction — immune to container resize

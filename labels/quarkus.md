@@ -740,3 +740,5 @@
 - GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails
 - GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://
 - GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus
+- GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild
+- GE-20260814-6ddb5c: ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart
