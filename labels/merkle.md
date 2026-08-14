@@ -4,3 +4,4 @@
 - GE-20260611-d34557: JPA @PrePersist vs explicit enricher call — dual-persistence implementations silently diverge on hash coverage
 - GE-20260612-c24e9d: Ledger save pipeline re-computes Merkle hash after modifying entry fields — caller hash silently overwritten
 - GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves
+- GE-20260814-05ef39: ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain

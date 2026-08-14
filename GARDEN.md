@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2710
+**Entries merged since last sweep:** 2711
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2065,6 +2065,7 @@
 - GE-20260814-0fcc1a [CaseLifecycleEvent CDI observer for cross-cutting case state reactions](jvm/GE-20260814-0fcc1a.md)
 - GE-20260814-58bc55 [ReconciliationLoop has no status() API — use getDesired() as presence check](jvm/GE-20260814-58bc55.md)
 - GE-20260814-cba922 [JAX-RS path conflict resolution with /ops sub-path for co-located resources](jvm/GE-20260814-cba922.md)
+- GE-20260814-05ef39 [ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain](jvm/GE-20260814-05ef39.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

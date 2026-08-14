@@ -25,3 +25,4 @@
 - GE-20260810-31134a: casehub-ledger-rest module already provides /api/v1/ledger/* endpoints — don't duplicate
 - GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation
 - GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
+- GE-20260814-05ef39: ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain

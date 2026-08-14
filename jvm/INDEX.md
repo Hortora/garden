@@ -1418,3 +1418,4 @@
 | GE-20260814-0fcc1a | CaseLifecycleEvent CDI observer for cross-cutting case state reactions | technique | 9/15 |
 | GE-20260814-58bc55 | ReconciliationLoop has no status() API — use getDesired() as presence check | undocumented | 8/15 |
 | GE-20260814-cba922 | JAX-RS path conflict resolution with /ops sub-path for co-located resources | convention | 8/15 |
+| GE-20260814-05ef39 | ComplianceSupplement must be attached before LedgerEntry.save() — post-hoc attachment corrupts Merkle chain | gotcha | 11/15 |
