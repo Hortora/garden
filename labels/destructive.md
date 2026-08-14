@@ -1,1 +1,2 @@
 - GE-20260712-70d60c: JetBrains Index MCP ide_edit_member with member=ClassName replaces entire class, not constructor
+- GE-20260814-afa335: ide_edit_member with member name matching class name replaces entire class declaration

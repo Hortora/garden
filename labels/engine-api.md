@@ -1,0 +1,2 @@
+- GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
+- GE-20260814-426631: AdaptationContext constructor rejects null for case-specific fields even when unused

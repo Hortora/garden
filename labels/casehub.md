@@ -120,3 +120,5 @@
 - GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests
 - GE-20260810-b1da3b: Agent.builder() structured JSON output as tool-calling alternative
 - GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
+- GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
+- GE-20260814-426631: AdaptationContext constructor rejects null for case-specific fields even when unused

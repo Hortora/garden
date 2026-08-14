@@ -9,3 +9,4 @@
 - GE-20260801-0aee7e: casehub-platform-agent-api AgentEvent sealed hierarchy and blocking text extraction pattern
 - GE-20260806-272a90: Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates
 - GE-20260806-e39b11: Adding a permit to a Java sealed interface breaks switch expressions in unexpected files
+- GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
