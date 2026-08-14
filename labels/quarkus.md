@@ -749,3 +749,4 @@
 - GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store
 - GE-20260814-cba922: JAX-RS path conflict resolution with /ops sub-path for co-located resources
 - GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module
+- GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
