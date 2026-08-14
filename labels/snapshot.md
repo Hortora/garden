@@ -71,3 +71,4 @@
 - GE-20260812-8db18f: Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild
 - GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot
 - GE-20260814-e76eca: Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence
+- GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo

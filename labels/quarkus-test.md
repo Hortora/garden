@@ -36,3 +36,4 @@
 - GE-20260716-986cd1: InMemoryCbrCaseMemoryStore retains cases across @QuarkusTest methods — no clearAll, purge rejects fresh data
 - GE-20260808-394c0c: Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests
 - GE-20260810-ea14ce: Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI
+- GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2695
+**Entries merged since last sweep:** 2696
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2054,6 +2054,7 @@
 - GE-20260813-482707 [Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://](jvm/GE-20260813-482707.md)
 - GE-20260814-6ddb5c [ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart](jvm/GE-20260814-6ddb5c.md)
 - GE-20260814-a20746 [Classical MDS via power iteration — pure Java 2D projection without external libraries](jvm/GE-20260814-a20746.md)
+- GE-20260814-8f18b9 [Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo](jvm/GE-20260814-8f18b9.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

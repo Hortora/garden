@@ -1407,3 +1407,4 @@
 | GE-20260813-482707 | Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws:// | gotcha | 9/15 |
 | GE-20260814-6ddb5c | ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart | gotcha | 9/15 |
 | GE-20260814-a20746 | Classical MDS via power iteration — pure Java 2D projection without external libraries | technique | 9/15 |
+| GE-20260814-8f18b9 | Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo | gotcha | 11/15 |

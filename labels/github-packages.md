@@ -40,3 +40,4 @@
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
 - GE-20260809-d6902c: Maven SNAPSHOT resolves remote timestamped JAR over local install when remote metadata has higher buildNumber
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
+- GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
