@@ -1,0 +1,1 @@
+- GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating

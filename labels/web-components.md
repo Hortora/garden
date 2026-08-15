@@ -48,3 +48,4 @@
 - GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
+- GE-20260815-ac6e89: Content preserved across layout toggle via detach/reattach — not destroy/recreate

@@ -424,3 +424,4 @@
 - GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check
 - GE-20260814-eee153: Case descriptor tests use anonymous inner classes, not Mockito
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
+- GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating

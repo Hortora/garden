@@ -44,3 +44,4 @@
 - GE-20260711-40e102: Bulk Java method signature migration: paren-depth-aware comma counter for 700+ call sites
 - GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
 - GE-20260727-30c2a6: Design review subagent before wiring catches structural bugs in new type systems
+- GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating

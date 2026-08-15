@@ -1,0 +1,1 @@
+- GE-20260815-ac6e89: Content preserved across layout toggle via detach/reattach — not destroy/recreate
