@@ -1,0 +1,1 @@
+- GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields

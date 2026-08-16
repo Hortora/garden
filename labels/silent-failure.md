@@ -153,3 +153,5 @@
 - GE-20260813-687333: Path-to-name encoding silently fails when input is relative — produces different encoding for same location
 - GE-20260813-674be0: casehub-pages YAML desugarer drops unknown component props silently
 - GE-20260814-d6aad1: Path('') silently resolves to CWD — is_dir() returns True for empty strings
+- GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
+- GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo

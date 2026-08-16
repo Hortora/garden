@@ -1,2 +1,4 @@
 - GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
+- GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
+- GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields

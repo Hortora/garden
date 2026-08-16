@@ -1431,3 +1431,5 @@
 | GE-20260816-8b91bf | JAX-RS path collision when foundation and app resources share the same @Path base | gotcha | 10/15 |
 | GE-20260816-59f280 | Integration-tier apps must not depend on each other — promote reusable capabilities to foundation | technique | 9/15 |
 | GE-20260816-2058bc | qhorus Space model is complete but undocumented in consumer guides | undocumented | 8/15 |
+| GE-20260816-082f92 | jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map | gotcha | 10/15 |
+| GE-20260816-739630 | Pass raw JsonNode alongside generated schema type for free-form YAML fields | technique | 9/15 |

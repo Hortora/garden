@@ -20,3 +20,4 @@
 - GE-20260529-182916: project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families
+- GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo

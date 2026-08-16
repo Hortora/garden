@@ -710,3 +710,4 @@
 | GE-20260814-772b91 | plan_manager.flatten_leaves() returns dataclass copies — mutations don't propagate to tree | gotcha | 9/15 |
 | GE-20260815-10ed52 | Sandbox-first architecture validation — prove in isolation before migrating | technique | 12/15 |
 | GE-20260816-642755 | Edit replace_all with prefix-matching strings replaces inside longer identifiers | gotcha | 8/15 |
+| GE-20260816-8b9589 | Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo | gotcha | 11/15 |

@@ -25,3 +25,5 @@
 - GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor
 - GE-20260805-22a224: Engine YAML goals not referenced in completion expression now fail at startup — silent-to-noisy SNAPSHOT break
 - GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode
+- GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
+- GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields

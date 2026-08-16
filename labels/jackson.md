@@ -33,3 +33,5 @@
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
 - GE-20260812-ba7ee4: Jackson ORDER_MAP_ENTRIES_BY_KEYS for deterministic JSON without JCS library
 - GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
+- GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
+- GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields

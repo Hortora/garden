@@ -184,3 +184,4 @@
 - GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main
 - GE-20260810-a60036: Gitignore trailing-slash patterns don't match symlinks to directories
 - GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>
+- GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
