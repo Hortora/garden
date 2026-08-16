@@ -1,0 +1,1 @@
+- GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout

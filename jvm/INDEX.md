@@ -1433,3 +1433,5 @@
 | GE-20260816-2058bc | qhorus Space model is complete but undocumented in consumer guides | undocumented | 8/15 |
 | GE-20260816-082f92 | jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map | gotcha | 10/15 |
 | GE-20260816-739630 | Pass raw JsonNode alongside generated schema type for free-form YAML fields | technique | 9/15 |
+| GE-20260816-d231a6 | Surefire rerun masks WorkItem outcome validation error as Awaitility timeout | gotcha | 10/15 |
+| GE-20260816-d55f9d | Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting | technique | 9/15 |

@@ -19,3 +19,5 @@
 - GE-20260803-027005: Batched ML model benchmarks with partial JSON saves to survive process timeouts
 - GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
+- GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
+- GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting

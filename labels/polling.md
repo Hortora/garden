@@ -2,3 +2,4 @@
 - GE-20260525-5f6efe: Playwright waitForFunction hangs indefinitely in hidden Electron windows — RAF polling suppressed by Chromium
 - GE-20260526-f8e3bf: MessageService.pollAfter(channelId, 0L, limit) returns all messages — afterId=0 matches all stored IDs
 - GE-20260617-36c6b5: @Blocking required on quarkus-rest JAX-RS handlers that contain polling loops — omitting it starves the event loop and blocks concurrent requests
+- GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting

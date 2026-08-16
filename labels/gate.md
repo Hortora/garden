@@ -1,2 +1,3 @@
 - GE-20260607-b6478d: casehub-engine pendingActionGate is in-memory only — CrossTenantRepo returns null for it
 - GE-20260607-66daf2: Re-fire WorkflowExecutionCompleted(plannedAction=null) from approval handler to reuse entire completion path
+- GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting

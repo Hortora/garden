@@ -426,3 +426,4 @@
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
 - GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating
 - GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements
+- GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting

@@ -14,3 +14,5 @@
 - GE-20260616-fd338a: macOS FSEvents delivers catch-up events when DirectoryWatcher starts
 - GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
 - GE-20260808-a37488: Use Awaitility poll instead of direct expireItem() to avoid Quartz scheduler race in SLA tests
+- GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
+- GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting

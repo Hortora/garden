@@ -24,3 +24,4 @@
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
+- GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
