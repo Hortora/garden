@@ -211,3 +211,4 @@
 - GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
 - GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
+- GE-20260816-6eb6ff: IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible

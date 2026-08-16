@@ -30,3 +30,5 @@
 | GE-20260809-c99c70 | IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change | gotcha | 12/15 |
 | GE-20260809-9a1ac2 | IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern | gotcha | 8/15 |
 | GE-20260810-1e1d47 | IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds | gotcha | 9/15 |
+| GE-20260816-6eb6ff | IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible | gotcha | 9/15 |
+| GE-20260816-7f35fb | design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types | gotcha | 8/15 |

@@ -1,2 +1,1 @@
-- GE-20260810-8bc960: ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop
 - GE-20260816-6635e1: ChannelObserver<S> bridges MessageObserver + EventSource + projection state — single type for channel-driven pattern termination

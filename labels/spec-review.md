@@ -1,0 +1,1 @@
+- GE-20260816-7f35fb: design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types

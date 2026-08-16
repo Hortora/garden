@@ -1427,3 +1427,4 @@
 | GE-20260816-01708f | Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages | gotcha | 11/15 |
 | GE-20260816-d18a02 | GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak | technique | 10/15 |
 | GE-20260816-c7cc7f | SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar | gotcha | 9/15 |
+| GE-20260816-6635e1 | ChannelObserver<S> bridges MessageObserver + EventSource + projection state — single type for channel-driven pattern termination | technique | 10/15 |

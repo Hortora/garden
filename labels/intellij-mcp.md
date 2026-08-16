@@ -61,3 +61,4 @@
 - GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern
 - GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds
 - GE-20260814-afa335: ide_edit_member with member name matching class name replaces entire class declaration
+- GE-20260816-6eb6ff: IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible

@@ -1,0 +1,1 @@
+- GE-20260816-6eb6ff: IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible

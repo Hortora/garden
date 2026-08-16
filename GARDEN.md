@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2731
+**Entries merged since last sweep:** 2734
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -174,6 +174,8 @@
 - GE-20260809-c99c70 [IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change](claude-code/GE-20260809-c99c70.md)
 - GE-20260809-9a1ac2 [IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern](claude-code/GE-20260809-9a1ac2.md)
 - GE-20260810-1e1d47 [IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds](claude-code/GE-20260810-1e1d47.md)
+- GE-20260816-6eb6ff [IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible](claude-code/GE-20260816-6eb6ff.md)
+- GE-20260816-7f35fb [design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types](claude-code/GE-20260816-7f35fb.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -2075,6 +2077,7 @@
 - GE-20260816-01708f [Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages](jvm/GE-20260816-01708f.md)
 - GE-20260816-d18a02 [GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak](jvm/GE-20260816-d18a02.md)
 - GE-20260816-c7cc7f [SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar](jvm/GE-20260816-c7cc7f.md)
+- GE-20260816-6635e1 [ChannelObserver<S> bridges MessageObserver + EventSource + projection state — single type for channel-driven pattern termination](jvm/GE-20260816-6635e1.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
