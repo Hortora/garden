@@ -1424,3 +1424,4 @@
 | GE-20260814-c351f2 | Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module | gotcha | 10/15 |
 | GE-20260814-2d0df2 | Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed | gotcha | 10/15 |
 | GE-20260814-8f18b9 | Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo | gotcha | 11/15 |
+| GE-20260816-01708f | Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages | gotcha | 11/15 |

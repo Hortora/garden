@@ -417,3 +417,4 @@
 - GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store
 - GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
+- GE-20260816-01708f: Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages

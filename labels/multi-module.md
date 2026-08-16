@@ -44,3 +44,4 @@
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
 - GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module
+- GE-20260816-01708f: Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages

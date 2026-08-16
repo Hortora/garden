@@ -7,3 +7,4 @@
 - GE-20260523-45d97e: @TestTransaction wraps each test in a rolled-back transaction — ledger/audit writes committed during the test become invisible to subsequent queries within the same test
 - GE-20260612-8e925b: Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
+- GE-20260816-01708f: Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages

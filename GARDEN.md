@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2727
+**Entries merged since last sweep:** 2728
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2072,6 +2072,7 @@
 - GE-20260814-c351f2 [Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module](jvm/GE-20260814-c351f2.md)
 - GE-20260814-2d0df2 [Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed](jvm/GE-20260814-2d0df2.md)
 - GE-20260814-8f18b9 [Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo](jvm/GE-20260814-8f18b9.md)
+- GE-20260816-01708f [Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages](jvm/GE-20260816-01708f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
