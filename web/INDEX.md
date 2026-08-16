@@ -219,3 +219,4 @@
 | GE-20260814-c7c5e9 | Pages LiveSite.navigate(tabLabel) for programmatic tab switching — no selectTab() exists | undocumented | 8/15 |
 | GE-20260814-0d4123 | casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change | gotcha | 12/15 |
 | GE-20260815-ac6e89 | Content preserved across layout toggle via detach/reattach — not destroy/recreate | technique | 13/15 |
+| GE-20260816-5c4812 | jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements | gotcha | 10/15 |

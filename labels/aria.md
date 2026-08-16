@@ -1,0 +1,1 @@
+- GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements

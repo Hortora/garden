@@ -18,3 +18,4 @@
 - GE-20260810-8df51b: LitElement custom elements default to display:inline — silently ignores height and min-height
 - GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
+- GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements

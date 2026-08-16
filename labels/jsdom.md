@@ -5,3 +5,4 @@
 - GE-20260713-44a60b: jsdom never fires animationend — components using CSS animation callbacks hang in tests
 - GE-20260803-1f9860: jsdom does not provide ResizeObserver — Lit components throw ReferenceError in vitest with no hint at the missing API
 - GE-20260805-0f01a5: TypeScript barrel re-export pulls in browser-only module — ReferenceError: document is not defined in Node test environments
+- GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements
