@@ -2,3 +2,4 @@
 - GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos
 - GE-20260814-70c81b: plan_manager.advance() has no idempotency guard — second call advances two issues
 - GE-20260814-772b91: plan_manager.flatten_leaves() returns dataclass copies — mutations don't propagate to tree
+- GE-20260816-396927: Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c

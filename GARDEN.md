@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2743
+**Entries merged since last sweep:** 2747
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2831,6 +2831,10 @@
 - GE-20260815-10ed52 [Sandbox-first architecture validation — prove in isolation before migrating](tools/GE-20260815-10ed52.md)
 - GE-20260816-642755 [Edit replace_all with prefix-matching strings replaces inside longer identifiers](tools/GE-20260816-642755.md)
 - GE-20260816-8b9589 [Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo](tools/GE-20260816-8b9589.md)
+- GE-20260816-2dddda [ctx.py topology.resolve() fails at slot root — slot directories are not git repos](tools/GE-20260816-2dddda.md)
+- GE-20260816-bb680a [slot_manager add_repo() silently skips configure_slot_remotes() on project clone](tools/GE-20260816-bb680a.md)
+- GE-20260816-396927 [Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c](tools/GE-20260816-396927.md)
+- GE-20260816-315875 [slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing](tools/GE-20260816-315875.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -711,3 +711,7 @@
 | GE-20260815-10ed52 | Sandbox-first architecture validation — prove in isolation before migrating | technique | 12/15 |
 | GE-20260816-642755 | Edit replace_all with prefix-matching strings replaces inside longer identifiers | gotcha | 8/15 |
 | GE-20260816-8b9589 | Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo | gotcha | 11/15 |
+| GE-20260816-2dddda | ctx.py topology.resolve() fails at slot root — slot directories are not git repos | gotcha | 9/15 |
+| GE-20260816-bb680a | slot_manager add_repo() silently skips configure_slot_remotes() on project clone | gotcha | 10/15 |
+| GE-20260816-396927 | Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c | technique | 8/15 |
+| GE-20260816-315875 | slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing | undocumented | 8/15 |

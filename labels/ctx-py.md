@@ -1,1 +1,2 @@
 - GE-20260714-2b8973: ctx.py WORKSPACE/PROJECT naming inverts relative to CLAUDE.md in two-repo casehub projects
+- GE-20260816-2dddda: ctx.py topology.resolve() fails at slot root — slot directories are not git repos

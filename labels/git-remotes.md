@@ -1,0 +1,1 @@
+- GE-20260816-bb680a: slot_manager add_repo() silently skips configure_slot_remotes() on project clone

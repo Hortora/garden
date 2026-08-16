@@ -1,0 +1,1 @@
+- GE-20260816-396927: Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c

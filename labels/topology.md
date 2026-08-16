@@ -1,0 +1,1 @@
+- GE-20260816-2dddda: ctx.py topology.resolve() fails at slot root — slot directories are not git repos

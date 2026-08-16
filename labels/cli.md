@@ -4,3 +4,4 @@
 - GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable
 - GE-20260421-ac2a7b: gh run view --log-failed shows only failing CI step logs — fast alternative to browser navigation
 - GE-20260521-d8d53f: Audit a stale issue table with a gh jq loop — O(N) issue state checks in one command
+- GE-20260816-315875: slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing

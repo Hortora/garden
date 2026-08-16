@@ -1,0 +1,3 @@
+- GE-20260816-bb680a: slot_manager add_repo() silently skips configure_slot_remotes() on project clone
+- GE-20260816-396927: Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c
+- GE-20260816-315875: slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing

@@ -11,3 +11,6 @@
 - GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible
 - GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos
 - GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot
+- GE-20260816-2dddda: ctx.py topology.resolve() fails at slot root — slot directories are not git repos
+- GE-20260816-bb680a: slot_manager add_repo() silently skips configure_slot_remotes() on project clone
+- GE-20260816-315875: slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing
