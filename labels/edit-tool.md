@@ -1,3 +1,4 @@
 - GE-20260520-7fb7a8: Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites
 - GE-20260513-2239f6: Claude Code Edit tool refuses to write through symlink paths — use readlink -f first
 - GE-20260520-7fb7a8: Claude Code Edit replace_all corrupts variable definition when pattern appears in both definition and call sites
+- GE-20260816-642755: Edit replace_all with prefix-matching strings replaces inside longer identifiers

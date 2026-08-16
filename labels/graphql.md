@@ -3,3 +3,5 @@
 - GE-20260505-9325a6: `gh api graphql` returns GitHub HTML error page when mutation is written as a single compact line
 - GE-20260811-21ae26: SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
+- GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
+- GE-20260816-c7cc7f: SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar

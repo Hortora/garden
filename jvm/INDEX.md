@@ -1425,3 +1425,5 @@
 | GE-20260814-2d0df2 | Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed | gotcha | 10/15 |
 | GE-20260814-8f18b9 | Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo | gotcha | 11/15 |
 | GE-20260816-01708f | Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages | gotcha | 11/15 |
+| GE-20260816-d18a02 | GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak | technique | 10/15 |
+| GE-20260816-c7cc7f | SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar | gotcha | 9/15 |
