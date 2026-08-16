@@ -3,3 +3,4 @@
 - GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
 - GE-20260810-696ea3: ECharts new chart types require registration in 3 separate type maps — missing any silently falls back to data-table
 - GE-20260810-f7b20c: ECharts treemap parent nodes with explicit value:0 override child auto-sum — renders single blank rectangle
+- GE-20260816-290024: ECharts aria.enabled can be injected at the abstract base class level via option mutation

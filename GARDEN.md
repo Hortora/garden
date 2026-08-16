@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2726
+**Entries merged since last sweep:** 2727
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3058,6 +3058,7 @@
 - GE-20260814-0d4123 [casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change](web/GE-20260814-0d4123.md)
 - GE-20260815-ac6e89 [Content preserved across layout toggle via detach/reattach — not destroy/recreate](web/GE-20260815-ac6e89.md)
 - GE-20260816-5c4812 [jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements](web/GE-20260816-5c4812.md)
+- GE-20260816-290024 [ECharts aria.enabled can be injected at the abstract base class level via option mutation](web/GE-20260816-290024.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

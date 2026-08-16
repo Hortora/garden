@@ -1,1 +1,2 @@
 - GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements
+- GE-20260816-290024: ECharts aria.enabled can be injected at the abstract base class level via option mutation
