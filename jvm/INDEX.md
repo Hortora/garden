@@ -1428,3 +1428,6 @@
 | GE-20260816-d18a02 | GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak | technique | 10/15 |
 | GE-20260816-c7cc7f | SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar | gotcha | 9/15 |
 | GE-20260816-6635e1 | ChannelObserver<S> bridges MessageObserver + EventSource + projection state — single type for channel-driven pattern termination | technique | 10/15 |
+| GE-20260816-8b91bf | JAX-RS path collision when foundation and app resources share the same @Path base | gotcha | 10/15 |
+| GE-20260816-59f280 | Integration-tier apps must not depend on each other — promote reusable capabilities to foundation | technique | 9/15 |
+| GE-20260816-2058bc | qhorus Space model is complete but undocumented in consumer guides | undocumented | 8/15 |

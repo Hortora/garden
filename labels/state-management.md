@@ -4,3 +4,4 @@
 - GE-20260705-7c80f2: Lit @state() Set/Map mutation in-place does not trigger re-render — child components never update
 - GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
 - GE-20260810-ccd128: FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize
+- GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state

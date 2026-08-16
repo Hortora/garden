@@ -1,2 +1,3 @@
 - GE-20260804-09f69a: jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports
 - GE-20260814-cba922: JAX-RS path conflict resolution with /ops sub-path for co-located resources
+- GE-20260816-8b91bf: JAX-RS path collision when foundation and app resources share the same @Path base

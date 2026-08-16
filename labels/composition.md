@@ -6,3 +6,4 @@
 - GE-20260805-a28f5b: Three-tier CDI composition: DefaultBean no-op, REST client, embedded — separates data retrieval topology from interpretation logic
 - GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type
 - GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay
+- GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state

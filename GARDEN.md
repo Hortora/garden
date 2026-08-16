@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2734
+**Entries merged since last sweep:** 2738
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2078,6 +2078,9 @@
 - GE-20260816-d18a02 [GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak](jvm/GE-20260816-d18a02.md)
 - GE-20260816-c7cc7f [SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar](jvm/GE-20260816-c7cc7f.md)
 - GE-20260816-6635e1 [ChannelObserver<S> bridges MessageObserver + EventSource + projection state — single type for channel-driven pattern termination](jvm/GE-20260816-6635e1.md)
+- GE-20260816-8b91bf [JAX-RS path collision when foundation and app resources share the same @Path base](jvm/GE-20260816-8b91bf.md)
+- GE-20260816-59f280 [Integration-tier apps must not depend on each other — promote reusable capabilities to foundation](jvm/GE-20260816-59f280.md)
+- GE-20260816-2058bc [qhorus Space model is complete but undocumented in consumer guides](jvm/GE-20260816-2058bc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3066,6 +3069,7 @@
 - GE-20260815-ac6e89 [Content preserved across layout toggle via detach/reattach — not destroy/recreate](web/GE-20260815-ac6e89.md)
 - GE-20260816-5c4812 [jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements](web/GE-20260816-5c4812.md)
 - GE-20260816-290024 [ECharts aria.enabled can be injected at the abstract base class level via option mutation](web/GE-20260816-290024.md)
+- GE-20260816-e89cda [Composable Lit reactive controllers with explicit dependency chain for shared channel state](web/GE-20260816-e89cda.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

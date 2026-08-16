@@ -43,3 +43,4 @@
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
 - GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width
+- GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state

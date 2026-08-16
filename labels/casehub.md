@@ -122,3 +122,4 @@
 - GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
 - GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
 - GE-20260814-426631: AdaptationContext constructor rejects null for case-specific fields even when unused
+- GE-20260816-2058bc: qhorus Space model is complete but undocumented in consumer guides

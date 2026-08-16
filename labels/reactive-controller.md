@@ -1,1 +1,2 @@
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
+- GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state

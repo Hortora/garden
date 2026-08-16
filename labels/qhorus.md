@@ -29,3 +29,4 @@
 - GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
 - GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API
 - GE-20260814-175dce: No MessageReceivedEvent to MessageView conversion utility in qhorus — manual construction required
+- GE-20260816-2058bc: qhorus Space model is complete but undocumented in consumer guides

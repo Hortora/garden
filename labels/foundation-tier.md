@@ -1,0 +1,1 @@
+- GE-20260816-8b91bf: JAX-RS path collision when foundation and app resources share the same @Path base

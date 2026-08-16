@@ -1,0 +1,1 @@
+- GE-20260816-2058bc: qhorus Space model is complete but undocumented in consumer guides

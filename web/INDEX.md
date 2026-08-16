@@ -221,3 +221,4 @@
 | GE-20260815-ac6e89 | Content preserved across layout toggle via detach/reattach — not destroy/recreate | technique | 13/15 |
 | GE-20260816-5c4812 | jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements | gotcha | 10/15 |
 | GE-20260816-290024 | ECharts aria.enabled can be injected at the abstract base class level via option mutation | technique | 8/15 |
+| GE-20260816-e89cda | Composable Lit reactive controllers with explicit dependency chain for shared channel state | technique | 9/15 |
