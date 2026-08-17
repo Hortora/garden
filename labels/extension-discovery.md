@@ -1,0 +1,1 @@
+- GE-20260817-f30a97: Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery

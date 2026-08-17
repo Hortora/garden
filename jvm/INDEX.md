@@ -1441,3 +1441,6 @@
 | GE-20260817-25af6d | pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency | gotcha | 9/15 |
 | GE-20260817-c4c4c0 | LambdaExpression implements both ExpressionEvaluator and CompiledExpression — bypasses expression registry for pre-compiled ganglion rules | technique | 8/15 |
 | GE-20260817-cfa0c8 | Quarkus @BuildStep methods silently skipped when producing no build items | gotcha | 11/15 |
+| GE-20260817-bbfbf5 | Jandex index.getAnnotations() requires annotation TYPE to be indexed — not just annotated classes | gotcha | 10/15 |
+| GE-20260817-f30a97 | Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery | gotcha | 9/15 |
+| GE-20260817-a19495 | QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception | technique | 8/15 |

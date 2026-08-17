@@ -1,1 +1,4 @@
 - GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items
+- GE-20260817-bbfbf5: Jandex index.getAnnotations() requires annotation TYPE to be indexed — not just annotated classes
+- GE-20260817-f30a97: Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery
+- GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception

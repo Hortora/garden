@@ -759,3 +759,6 @@
 - GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules
 - GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency
 - GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items
+- GE-20260817-bbfbf5: Jandex index.getAnnotations() requires annotation TYPE to be indexed — not just annotated classes
+- GE-20260817-f30a97: Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery
+- GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception

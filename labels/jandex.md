@@ -31,3 +31,4 @@
 - GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly
 - GE-20260814-cab88c: CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus
 - GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
+- GE-20260817-bbfbf5: Jandex index.getAnnotations() requires annotation TYPE to be indexed — not just annotated classes
