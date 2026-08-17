@@ -755,3 +755,4 @@
 - GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
 - GE-20260816-c7cc7f: SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar
 - GE-20260816-8b91bf: JAX-RS path collision when foundation and app resources share the same @Path base
+- GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
