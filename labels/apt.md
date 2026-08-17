@@ -1,1 +1,2 @@
 - GE-20260421-1fa31e: mvn clean deletes APT-generated classes, triggering cascade failure from annotation processor version mismatch
+- GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails

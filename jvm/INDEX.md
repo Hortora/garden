@@ -1447,3 +1447,5 @@
 | GE-20260817-48caeb | SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code | gotcha | 11/15 |
 | GE-20260817-ab5489 | casehub-engine schema changes require explicit mvn install before dependent modules compile | gotcha | 9/15 |
 | GE-20260817-d4b0f8 | Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2 | gotcha | 8/15 |
+| GE-20260817-8b0648 | Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails | gotcha | 10/15 |
+| GE-20260817-55c9b2 | CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route | technique | 9/15 |

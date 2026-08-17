@@ -11,3 +11,4 @@
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
 - GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route

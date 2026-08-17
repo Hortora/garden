@@ -1,1 +1,2 @@
 - GE-20260421-690e47: Inject a decide_fn callback to make interactive CLI tools fully unit-testable
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route

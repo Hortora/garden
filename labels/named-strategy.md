@@ -1,1 +1,2 @@
 - GE-20260810-b53fd8: Quarkus ARC @Any Instance<NamedStrategy> catch-all misses beans — explicit typed Instance required
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route

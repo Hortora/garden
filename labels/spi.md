@@ -52,3 +52,4 @@
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
 - GE-20260811-dba1d8: Fail-closed @DefaultBean for security SPIs — sentinel value that never matches forces explicit opt-in
 - GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route

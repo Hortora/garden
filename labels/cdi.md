@@ -419,3 +419,4 @@
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
 - GE-20260816-01708f: Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages
 - GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route

@@ -6,3 +6,4 @@
 - GE-20260718-522120: Quarkus LinkageError when injecting concrete CDI bean instead of port interface in multi-module @QuarkusTest
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
 - GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests
+- GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails

@@ -762,3 +762,5 @@
 - GE-20260817-bbfbf5: Jandex index.getAnnotations() requires annotation TYPE to be indexed — not just annotated classes
 - GE-20260817-f30a97: Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery
 - GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception
+- GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails
+- GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route
