@@ -4,3 +4,4 @@
 - GE-20260414-62a6df: COLLECT and EPHEMERAL channel semantics: SELECT-then-DELETE is not atomic under READ_COMMITTED isolation
 - GE-20260810-e5badc: TrustScoreJob cannot recreate missing LedgerAttestations — failed saveAttestation loses trust data permanently
 - GE-20260814-afa335: ide_edit_member with member name matching class name replaces entire class declaration
+- GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work

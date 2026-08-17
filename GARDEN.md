@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2770
+**Entries merged since last sweep:** 2771
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2855,6 +2855,7 @@
 - GE-20260817-50d796 [Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable](tools/GE-20260817-50d796.md)
 - GE-20260817-649902 [Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures](tools/GE-20260817-649902.md)
 - GE-20260817-0ea5d5 [Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root](tools/GE-20260817-0ea5d5.md)
+- GE-20260818-f384e4 [Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work](tools/GE-20260818-f384e4.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

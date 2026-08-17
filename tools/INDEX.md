@@ -718,3 +718,4 @@
 | GE-20260817-50d796 | Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable | gotcha | 10/15 |
 | GE-20260817-649902 | Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures | gotcha | 9/15 |
 | GE-20260817-0ea5d5 | Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root | gotcha | 8/15 |
+| GE-20260818-f384e4 | Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work | gotcha | 10/15 |

@@ -5,3 +5,4 @@
 - GE-20260516-42a11c: Git stash pop conflict markers inside a Java file cause 'cannot find symbol' for classes in the same package
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
+- GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
