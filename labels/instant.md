@@ -6,3 +6,4 @@
 - GE-20260706-01fc22: Instant.MAX breaks SQLite text-based timestamp comparisons — '+' prefix sorts before digits
 - GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly
 - GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
+- GE-20260817-190e09: HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker

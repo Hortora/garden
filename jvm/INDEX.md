@@ -1435,3 +1435,4 @@
 | GE-20260816-739630 | Pass raw JsonNode alongside generated schema type for free-form YAML fields | technique | 9/15 |
 | GE-20260816-d231a6 | Surefire rerun masks WorkItem outcome validation error as Awaitility timeout | gotcha | 10/15 |
 | GE-20260816-d55f9d | Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting | technique | 9/15 |
+| GE-20260817-190e09 | HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker | gotcha | 12/15 |

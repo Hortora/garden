@@ -1,0 +1,1 @@
+- GE-20260817-190e09: HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker

@@ -91,3 +91,4 @@
 - GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
 - GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
+- GE-20260817-190e09: HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker
