@@ -717,3 +717,4 @@
 | GE-20260816-315875 | slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing | undocumented | 8/15 |
 | GE-20260817-50d796 | Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable | gotcha | 10/15 |
 | GE-20260817-649902 | Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures | gotcha | 9/15 |
+| GE-20260817-0ea5d5 | Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root | gotcha | 8/15 |

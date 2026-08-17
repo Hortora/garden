@@ -1,2 +1,3 @@
 - GE-20260804-96c692: renderNode child recursion is gated by LAZY_TYPES, not LAYOUT_TYPES — non-layout types with slots render children eagerly
 - GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
+- GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root

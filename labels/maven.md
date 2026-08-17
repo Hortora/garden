@@ -213,3 +213,4 @@
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260816-6eb6ff: IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible
 - GE-20260816-59f280: Integration-tier apps must not depend on each other — promote reusable capabilities to foundation
+- GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root

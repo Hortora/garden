@@ -1,2 +1,3 @@
 - GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
+- GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root
