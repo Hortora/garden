@@ -1,2 +1,3 @@
 - GE-20260722-26770e: Maven worktree-local repo silently resolves stale SNAPSHOT jars from remote
 - GE-20260729-afefb6: Maven worktree builds fail with misleading 401 when .mvn/maven.config redirects local repo
+- GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2

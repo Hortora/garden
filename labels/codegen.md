@@ -1,2 +1,3 @@
 - GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
+- GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile

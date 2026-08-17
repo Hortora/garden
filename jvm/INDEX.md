@@ -1445,3 +1445,5 @@
 | GE-20260817-f30a97 | Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery | gotcha | 9/15 |
 | GE-20260817-a19495 | QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception | technique | 8/15 |
 | GE-20260817-48caeb | SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code | gotcha | 11/15 |
+| GE-20260817-ab5489 | casehub-engine schema changes require explicit mvn install before dependent modules compile | gotcha | 9/15 |
+| GE-20260817-d4b0f8 | Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2 | gotcha | 8/15 |

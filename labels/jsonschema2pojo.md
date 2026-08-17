@@ -2,3 +2,4 @@
 - GE-20260710-31b535: jsonschema2pojo enum fromValue() expects JSON schema value (kebab-case), not Java constant name
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
+- GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile

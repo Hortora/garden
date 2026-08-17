@@ -1,0 +1,1 @@
+- GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2

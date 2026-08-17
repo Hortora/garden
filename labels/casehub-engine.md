@@ -82,3 +82,5 @@
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
 - GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check
+- GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
+- GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2

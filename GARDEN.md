@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2764
+**Entries merged since last sweep:** 2766
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2096,6 +2096,8 @@
 - GE-20260817-f30a97 [Quarkus extensions need quarkus-extension.properties in runtime JAR for build step discovery](jvm/GE-20260817-f30a97.md)
 - GE-20260817-a19495 [QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception](jvm/GE-20260817-a19495.md)
 - GE-20260817-48caeb [SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code](jvm/GE-20260817-48caeb.md)
+- GE-20260817-ab5489 [casehub-engine schema changes require explicit mvn install before dependent modules compile](jvm/GE-20260817-ab5489.md)
+- GE-20260817-d4b0f8 [Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2](jvm/GE-20260817-d4b0f8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
