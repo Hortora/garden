@@ -3,3 +3,4 @@
 - GE-20260524-1f0045: git push <remote> <branch> from non-main branch silently pushes local <branch>, not current branch
 - GE-20260603-f257ab: In a fork+upstream push workflow, squash must run before the fork push — not between the two pushes
 - GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures
+- GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2755
+**Entries merged since last sweep:** 2756
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2089,6 +2089,7 @@
 - GE-20260817-190e09 [HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker](jvm/GE-20260817-190e09.md)
 - GE-20260817-7dfc03 [rest-assured $.size() GPath returns null on root-level primitive JSON arrays](jvm/GE-20260817-7dfc03.md)
 - GE-20260817-e227c7 [CDI events for decoupling foundation REST resources from optional push modules](jvm/GE-20260817-e227c7.md)
+- GE-20260817-25af6d [pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency](jvm/GE-20260817-25af6d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

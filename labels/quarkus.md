@@ -757,3 +757,4 @@
 - GE-20260816-8b91bf: JAX-RS path collision when foundation and app resources share the same @Path base
 - GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
 - GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules
+- GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency

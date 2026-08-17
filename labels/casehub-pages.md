@@ -4,3 +4,4 @@
 - GE-20260810-cfc53d: casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API
 - GE-20260813-674be0: casehub-pages YAML desugarer drops unknown component props silently
 - GE-20260814-0d4123: casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change
+- GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency

@@ -1438,3 +1438,4 @@
 | GE-20260817-190e09 | HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker | gotcha | 12/15 |
 | GE-20260817-7dfc03 | rest-assured $.size() GPath returns null on root-level primitive JSON arrays | gotcha | 9/15 |
 | GE-20260817-e227c7 | CDI events for decoupling foundation REST resources from optional push modules | technique | 9/15 |
+| GE-20260817-25af6d | pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency | gotcha | 9/15 |
