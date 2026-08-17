@@ -1,0 +1,1 @@
+- GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items

@@ -155,3 +155,4 @@
 - GE-20260814-d6aad1: Path('') silently resolves to CWD — is_dir() returns True for empty strings
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
+- GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items

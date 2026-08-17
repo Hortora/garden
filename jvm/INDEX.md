@@ -1440,3 +1440,4 @@
 | GE-20260817-e227c7 | CDI events for decoupling foundation REST resources from optional push modules | technique | 9/15 |
 | GE-20260817-25af6d | pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency | gotcha | 9/15 |
 | GE-20260817-c4c4c0 | LambdaExpression implements both ExpressionEvaluator and CompiledExpression — bypasses expression registry for pre-compiled ganglion rules | technique | 8/15 |
+| GE-20260817-cfa0c8 | Quarkus @BuildStep methods silently skipped when producing no build items | gotcha | 11/15 |
