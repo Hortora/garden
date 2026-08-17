@@ -84,3 +84,5 @@
 - GE-20260814-cb5551: WorkerResult has no isSuccess() — use outcome() instanceof check
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
 - GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2
+- GE-20260818-90c997: ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent
+- GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required

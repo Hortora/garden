@@ -1,0 +1,1 @@
+- GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required

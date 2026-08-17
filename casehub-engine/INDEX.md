@@ -52,3 +52,5 @@
 | GE-20260808-94c14d | PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name | gotcha | 9/15 |
 | GE-20260808-47dc40 | CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails | technique | 10/15 |
 | GE-20260809-10ce51 | casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker | gotcha | 8/15 |
+| GE-20260818-90c997 | ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent | undocumented | 9/15 |
+| GE-20260818-1a9d5b | Gate rejection routing via YAML bindings — no engine changes required | technique | 9/15 |

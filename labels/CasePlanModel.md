@@ -1,3 +1,4 @@
 - GE-20260526-fa0e3e: CasePlanModel.getPlanItemByBindingName() silently excludes terminal PlanItems — completed bindings always re-dispatch
 - GE-20260808-56e574: CasePlanModel getPlanItemByBindingName silently filters non-active items — findPlanItemByBindingName returns all
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
+- GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required

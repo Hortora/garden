@@ -1,0 +1,2 @@
+- GE-20260818-90c997: ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent
+- GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required
