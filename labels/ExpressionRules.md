@@ -1,0 +1,2 @@
+- GE-20260817-ce1de5: CloudEventExpressionContext.build() produces map with keys {type, source, subject, id, time, tenancyid, data} — undocumented context structure for ExpressionRules ganglia
+- GE-20260817-c4c4c0: LambdaExpression implements both ExpressionEvaluator and CompiledExpression — bypasses expression registry for pre-compiled ganglion rules

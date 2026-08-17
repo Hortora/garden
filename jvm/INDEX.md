@@ -1439,3 +1439,4 @@
 | GE-20260817-7dfc03 | rest-assured $.size() GPath returns null on root-level primitive JSON arrays | gotcha | 9/15 |
 | GE-20260817-e227c7 | CDI events for decoupling foundation REST resources from optional push modules | technique | 9/15 |
 | GE-20260817-25af6d | pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency | gotcha | 9/15 |
+| GE-20260817-c4c4c0 | LambdaExpression implements both ExpressionEvaluator and CompiledExpression — bypasses expression registry for pre-compiled ganglion rules | technique | 8/15 |

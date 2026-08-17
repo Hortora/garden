@@ -1,1 +1,2 @@
 - GE-20260623-3ecb0f: AgentDescriptorValidator.isBanned() bans newlines in briefing — YAML literal block scalar fails validation
+- GE-20260817-251f27: AgentDescriptor record field addition (styleVocabulary) breaks casehub-ops-api compilation — ~40 test callers need positional null insertion

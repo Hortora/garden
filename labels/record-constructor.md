@@ -1,2 +1,1 @@
-- GE-20260814-eee153: Case descriptor tests use anonymous inner classes, not Mockito
 - GE-20260817-251f27: AgentDescriptor record field addition (styleVocabulary) breaks casehub-ops-api compilation — ~40 test callers need positional null insertion

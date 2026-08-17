@@ -27,3 +27,4 @@
 | jvm/casehub-ledger | jvm/casehub-ledger/INDEX.md |
 | casehub-ras | casehub-ras/INDEX.md |
 | data | data/INDEX.md |
+| casehub-ops | casehub-ops/INDEX.md |

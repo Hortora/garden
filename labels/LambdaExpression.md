@@ -1,0 +1,1 @@
+- GE-20260817-c4c4c0: LambdaExpression implements both ExpressionEvaluator and CompiledExpression — bypasses expression registry for pre-compiled ganglion rules
