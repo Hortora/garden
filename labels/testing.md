@@ -429,3 +429,4 @@
 - GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting
 - GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
 - GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions

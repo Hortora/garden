@@ -1,1 +1,2 @@
 - GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions

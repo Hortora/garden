@@ -1,1 +1,2 @@
 - GE-20260427-b90696: JavaScript .then() promise chains silently swallow TypeErrors — async/await surfaces them
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions

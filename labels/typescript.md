@@ -36,3 +36,4 @@
 - GE-20260810-07c717: TypeScript readonly interface spread loses required properties
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
 - GE-20260813-c50d64: exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions

@@ -48,3 +48,4 @@
 - GE-20260720-082267: File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events
 - GE-20260720-a60eec: Lit updateComplete resolves before async buildOption Promise — chart mock assertions see 0 calls
 - GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions

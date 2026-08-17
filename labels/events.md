@@ -13,3 +13,4 @@
 - GE-20260605-16a8fc: WorkItemLifecycleEvent.of() lowercases the event name — CDI observer lookup table must use the normalized suffix
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience
+- GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
