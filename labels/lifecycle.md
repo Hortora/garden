@@ -31,3 +31,4 @@
 - GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
 - GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
+- GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures

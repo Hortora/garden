@@ -1,0 +1,1 @@
+- GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays

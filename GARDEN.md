@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2749
+**Entries merged since last sweep:** 2753
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2087,6 +2087,8 @@
 - GE-20260816-d231a6 [Surefire rerun masks WorkItem outcome validation error as Awaitility timeout](jvm/GE-20260816-d231a6.md)
 - GE-20260816-d55f9d [Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting](jvm/GE-20260816-d55f9d.md)
 - GE-20260817-190e09 [HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker](jvm/GE-20260817-190e09.md)
+- GE-20260817-7dfc03 [rest-assured $.size() GPath returns null on root-level primitive JSON arrays](jvm/GE-20260817-7dfc03.md)
+- GE-20260817-e227c7 [CDI events for decoupling foundation REST resources from optional push modules](jvm/GE-20260817-e227c7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2837,6 +2839,8 @@
 - GE-20260816-bb680a [slot_manager add_repo() silently skips configure_slot_remotes() on project clone](tools/GE-20260816-bb680a.md)
 - GE-20260816-396927 [Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c](tools/GE-20260816-396927.md)
 - GE-20260816-315875 [slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing](tools/GE-20260816-315875.md)
+- GE-20260817-50d796 [Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable](tools/GE-20260817-50d796.md)
+- GE-20260817-649902 [Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures](tools/GE-20260817-649902.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

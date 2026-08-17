@@ -6,3 +6,4 @@
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible
+- GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable

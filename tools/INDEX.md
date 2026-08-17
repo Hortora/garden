@@ -715,3 +715,5 @@
 | GE-20260816-bb680a | slot_manager add_repo() silently skips configure_slot_remotes() on project clone | gotcha | 10/15 |
 | GE-20260816-396927 | Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c | technique | 8/15 |
 | GE-20260816-315875 | slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing | undocumented | 8/15 |
+| GE-20260817-50d796 | Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable | gotcha | 10/15 |
+| GE-20260817-649902 | Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures | gotcha | 9/15 |

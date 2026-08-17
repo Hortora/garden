@@ -10,3 +10,4 @@
 - GE-20260608-d223af: REST Assured GPath $.findAll returns null (not []) — Hamcrest not(empty()) silently passes on null
 - GE-20260610-952c8d: Two-assertion write-invariant test for child-entity tenant inheritance in multi-tenant systems
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
+- GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays

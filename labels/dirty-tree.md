@@ -1,0 +1,1 @@
+- GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures

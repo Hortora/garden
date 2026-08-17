@@ -1,2 +1,3 @@
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
 - GE-20260602-c68651: casehub-ledger: TrustWeightedAgentStrategy requires casehub-engine-ledger on classpath
+- GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules

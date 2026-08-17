@@ -38,3 +38,4 @@
 - GE-20260810-ea14ce: Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
+- GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays

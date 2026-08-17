@@ -21,3 +21,5 @@
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
+- GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
+- GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures

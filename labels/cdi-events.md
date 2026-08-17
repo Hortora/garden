@@ -10,3 +10,4 @@
 - GE-20260803-0954e5: CDI event records in SPI package cannot import internal enum types — use String-typed status
 - GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
 - GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
+- GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules

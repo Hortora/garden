@@ -2,3 +2,4 @@
 - GE-20260522-76dc5b: Blog entries added to workspace main after branch creation are invisible from the epic branch
 - GE-20260604-55a371: git rebase fails with hundreds of 'skipped previously applied' warnings after filter-repo prunes a commit from the branch base
 - GE-20260605-1f6896: work-end cherry-pick conflicts when session-wrap already committed branch artifacts to main
+- GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
