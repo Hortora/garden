@@ -1,2 +1,1 @@
-- GE-20260709-063f66: Qdrant updateCollection cannot add new sparse vectors to existing collections
 - GE-20260818-67d25e: jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers

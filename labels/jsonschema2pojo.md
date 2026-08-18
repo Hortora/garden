@@ -4,3 +4,4 @@
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
 - GE-20260818-c69f20: JSON schema default value makes generated getter never return null
+- GE-20260818-67d25e: jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers

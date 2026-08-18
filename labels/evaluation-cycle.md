@@ -1,0 +1,1 @@
+- GE-20260818-1cf8b5: Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans

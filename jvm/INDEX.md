@@ -1469,3 +1469,5 @@
 | GE-20260818-907d8c | Per-thread ambient compression defeats channel-level intent in ChatObservationRenderer | gotcha | 8/15 |
 | GE-20260818-ef724f | Instant.now() constructor initialization races with test timestamps — isAfter excludes equal | gotcha | 8/15 |
 | GE-20260818-246c99 | Bridge interfaces referencing both core and protocol types belong in the downstream module | convention | 8/15 |
+| GE-20260818-1cf8b5 | Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans | technique | 9/15 |
+| GE-20260818-67d25e | jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers | gotcha | 8/15 |

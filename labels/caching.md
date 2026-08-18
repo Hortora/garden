@@ -12,3 +12,4 @@
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
+- GE-20260818-1cf8b5: Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans
