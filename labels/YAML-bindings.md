@@ -1,2 +1,3 @@
 - GE-20260818-90c997: ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent
 - GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required
+- GE-20260818-883adc: Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome

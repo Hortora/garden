@@ -54,3 +54,4 @@
 | GE-20260809-10ce51 | casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker | gotcha | 8/15 |
 | GE-20260818-90c997 | ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent | undocumented | 9/15 |
 | GE-20260818-1a9d5b | Gate rejection routing via YAML bindings — no engine changes required | technique | 9/15 |
+| GE-20260818-883adc | Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome | gotcha | 11/15 |

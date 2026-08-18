@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2801
+**Entries merged since last sweep:** 2802
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -75,6 +75,7 @@
 - GE-20260809-10ce51 [casehubio/worker and casehubio/workers are separate repos — slot workers/ dir is casehubio/workers, not casehubio/worker](casehub-engine/GE-20260809-10ce51.md)
 - GE-20260818-90c997 [ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent](casehub-engine/GE-20260818-90c997.md)
 - GE-20260818-1a9d5b [Gate rejection routing via YAML bindings — no engine changes required](casehub-engine/GE-20260818-1a9d5b.md)
+- GE-20260818-883adc [Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome](casehub-engine/GE-20260818-883adc.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
