@@ -1,0 +1,1 @@
+- GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal

@@ -218,3 +218,5 @@
 - GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2
 - GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails
 - GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine
+- GE-20260818-702f53: Stale local Maven jar after adding classes to an upstream module — downstream compilation fails
+- GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module

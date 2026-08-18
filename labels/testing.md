@@ -436,3 +436,4 @@
 - GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail
 - GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation
 - GE-20260818-0dd695: EventBroadcaster is non-final and can be subclassed for test interception
+- GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal

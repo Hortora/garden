@@ -1,0 +1,1 @@
+- GE-20260818-907d8c: Per-thread ambient compression defeats channel-level intent in ChatObservationRenderer

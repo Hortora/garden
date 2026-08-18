@@ -1466,3 +1466,6 @@
 | GE-20260818-2589ee | CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time | gotcha | 9/15 |
 | GE-20260818-dd67f0 | AutoCloseable ThreadLocal context markers prevent leaks on exception | technique | 9/15 |
 | GE-20260818-61ed16 | Selective CDI interface injection controls decorator interception scope | technique | 10/15 |
+| GE-20260818-907d8c | Per-thread ambient compression defeats channel-level intent in ChatObservationRenderer | gotcha | 8/15 |
+| GE-20260818-ef724f | Instant.now() constructor initialization races with test timestamps — isAfter excludes equal | gotcha | 8/15 |
+| GE-20260818-246c99 | Bridge interfaces referencing both core and protocol types belong in the downstream module | convention | 8/15 |

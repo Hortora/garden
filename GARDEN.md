@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2797
+**Entries merged since last sweep:** 2801
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2120,6 +2120,9 @@
 - GE-20260818-2589ee [CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time](jvm/GE-20260818-2589ee.md)
 - GE-20260818-dd67f0 [AutoCloseable ThreadLocal context markers prevent leaks on exception](jvm/GE-20260818-dd67f0.md)
 - GE-20260818-61ed16 [Selective CDI interface injection controls decorator interception scope](jvm/GE-20260818-61ed16.md)
+- GE-20260818-907d8c [Per-thread ambient compression defeats channel-level intent in ChatObservationRenderer](jvm/GE-20260818-907d8c.md)
+- GE-20260818-ef724f [Instant.now() constructor initialization races with test timestamps — isAfter excludes equal](jvm/GE-20260818-ef724f.md)
+- GE-20260818-246c99 [Bridge interfaces referencing both core and protocol types belong in the downstream module](jvm/GE-20260818-246c99.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2879,6 +2882,7 @@
 - GE-20260818-71c639 [IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file](tools/GE-20260818-71c639.md)
 - GE-20260818-77a06d [git commit --amend targets wrong branch when a script silently switches HEAD before the amend](tools/GE-20260818-77a06d.md)
 - GE-20260818-5973e2 [IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open](tools/GE-20260818-5973e2.md)
+- GE-20260818-702f53 [Stale local Maven jar after adding classes to an upstream module — downstream compilation fails](tools/GE-20260818-702f53.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

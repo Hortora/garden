@@ -168,3 +168,5 @@
 - GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components
 - GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls
 - GE-20260818-dd67f0: AutoCloseable ThreadLocal context markers prevent leaks on exception
+- GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
+- GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module

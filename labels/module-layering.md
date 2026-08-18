@@ -1,0 +1,1 @@
+- GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module

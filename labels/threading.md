@@ -10,3 +10,4 @@
 - GE-20260616-312ba1: @WithSession (Quarkus Hibernate Reactive Panache) requires a Vert.x safe (duplicated) sub-context — worker pool threads fail even with a Vert.x context
 - GE-20260616-99484f: Uni.combine() runs blocking IO (worker pool) and reactive DB lookup (event loop) concurrently without Vert.x context violations
 - GE-20260622-71d4de: Share ExecutorService at @ApplicationScoped bean level with @PreDestroy — per-call Executors.newSingleThreadExecutor() leaks thread pools
+- GE-20260818-907d8c: Per-thread ambient compression defeats channel-level intent in ChatObservationRenderer

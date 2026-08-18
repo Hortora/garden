@@ -724,3 +724,4 @@
 | GE-20260818-71c639 | IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file | gotcha | 10/15 |
 | GE-20260818-77a06d | git commit --amend targets wrong branch when a script silently switches HEAD before the amend | gotcha | 9/15 |
 | GE-20260818-5973e2 | IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open | undocumented | 8/15 |
+| GE-20260818-702f53 | Stale local Maven jar after adding classes to an upstream module — downstream compilation fails | gotcha | 8/15 |

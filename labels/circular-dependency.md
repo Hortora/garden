@@ -2,3 +2,4 @@
 - GE-20260424-318ef3: Service unit tests can't go in runtime/src/test/ when service depends on a class in the testing/ module
 - GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
+- GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module
