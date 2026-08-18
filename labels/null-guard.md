@@ -1,0 +1,1 @@
+- GE-20260818-46c433: Mutiny BroadcastProcessor observer null-guard silently drops events — subscribers hang

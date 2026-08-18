@@ -69,3 +69,4 @@
 - GE-20260810-f5f01d: Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads
 - GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
 - GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
+- GE-20260818-46c433: Mutiny BroadcastProcessor observer null-guard silently drops events — subscribers hang

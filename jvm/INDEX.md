@@ -1452,3 +1452,4 @@
 | GE-20260818-5d1cc4 | Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced | gotcha | 10/15 |
 | GE-20260818-c71c94 | NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift | gotcha | 9/15 |
 | GE-20260818-b9470a | New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine | gotcha | 8/15 |
+| GE-20260818-46c433 | Mutiny BroadcastProcessor observer null-guard silently drops events — subscribers hang | gotcha | 9/15 |
