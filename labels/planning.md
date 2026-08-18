@@ -3,3 +3,4 @@
 - GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
 - GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently
 - GE-20260423-af9030: Describe sprite visuals in plans instead of writing draw code — keeps batched plans under LLM token limits
+- GE-20260818-534e70: Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN

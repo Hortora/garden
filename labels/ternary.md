@@ -1,0 +1,1 @@
+- GE-20260818-534e70: Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN

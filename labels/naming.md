@@ -16,3 +16,4 @@
 - GE-20260809-aee002: resolveDockZone — middle vs bottom position maps to different zones
 - GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
+- GE-20260818-b2abcd: Separate SPI context record types when existing ClassificationContext conflicts

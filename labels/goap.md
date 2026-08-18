@@ -3,3 +3,5 @@
 - GE-20260417-a7f7fc: GOAP cheaper plan bypasses intended action when precondition complement is missing
 - GE-20260417-c6e3db: GOAP wrong goal key produces empty plan — units idle with no error
 - GE-20260417-f661fd: GOAP action correctness: verify reachability and goal-advancement independently
+- GE-20260818-534e70: Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN
+- GE-20260818-6546f0: Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map

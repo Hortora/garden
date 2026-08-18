@@ -7,3 +7,4 @@
 - GE-20260718-9eb2c0: humanTask binding WorkItem creation failure swallowed by Vert.x — case stays RUNNING forever with no resolution path
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
 - GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match
+- GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan

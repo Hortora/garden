@@ -725,3 +725,4 @@
 | GE-20260818-77a06d | git commit --amend targets wrong branch when a script silently switches HEAD before the amend | gotcha | 9/15 |
 | GE-20260818-5973e2 | IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open | undocumented | 8/15 |
 | GE-20260818-702f53 | Stale local Maven jar after adding classes to an upstream module — downstream compilation fails | gotcha | 8/15 |
+| GE-20260818-6546f0 | Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map | technique | 10/15 |

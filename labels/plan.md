@@ -1,0 +1,1 @@
+- GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan

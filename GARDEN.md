@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2802
+**Entries merged since last sweep:** 2806
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -76,6 +76,9 @@
 - GE-20260818-90c997 [ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent](casehub-engine/GE-20260818-90c997.md)
 - GE-20260818-1a9d5b [Gate rejection routing via YAML bindings — no engine changes required](casehub-engine/GE-20260818-1a9d5b.md)
 - GE-20260818-883adc [Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome](casehub-engine/GE-20260818-883adc.md)
+- GE-20260818-534e70 [Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN](casehub-engine/GE-20260818-534e70.md)
+- GE-20260818-dd3e91 [DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan](casehub-engine/GE-20260818-dd3e91.md)
+- GE-20260818-b2abcd [Separate SPI context record types when existing ClassificationContext conflicts](casehub-engine/GE-20260818-b2abcd.md)
 ### casehub-work/
 - GE-20260511-3e5a75 [casehub-work SLA escalation pattern](casehub-work/GE-20260511-3e5a75.md)
 - GE-20260421-4a9364 [JpaWorkItemStore.scan() with assigneeId also matches candidateUsers LIKE '%actorId%'](casehub-work/GE-20260421-4a9364.md)
@@ -2884,6 +2887,7 @@
 - GE-20260818-77a06d [git commit --amend targets wrong branch when a script silently switches HEAD before the amend](tools/GE-20260818-77a06d.md)
 - GE-20260818-5973e2 [IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open](tools/GE-20260818-5973e2.md)
 - GE-20260818-702f53 [Stale local Maven jar after adding classes to an upstream module — downstream compilation fails](tools/GE-20260818-702f53.md)
+- GE-20260818-6546f0 [Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map](tools/GE-20260818-6546f0.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

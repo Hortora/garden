@@ -55,3 +55,6 @@
 | GE-20260818-90c997 | ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent | undocumented | 9/15 |
 | GE-20260818-1a9d5b | Gate rejection routing via YAML bindings — no engine changes required | technique | 9/15 |
 | GE-20260818-883adc | Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome | gotcha | 11/15 |
+| GE-20260818-534e70 | Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN | gotcha | 12/15 |
+| GE-20260818-dd3e91 | DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan | gotcha | 9/15 |
+| GE-20260818-b2abcd | Separate SPI context record types when existing ClassificationContext conflicts | convention | 8/15 |
