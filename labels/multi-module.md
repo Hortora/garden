@@ -46,3 +46,4 @@
 - GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module
 - GE-20260816-01708f: Quarkus default PU loses @Default EntityManager when a named PU is added without explicit packages
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
+- GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine

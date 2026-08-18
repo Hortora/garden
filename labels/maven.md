@@ -217,3 +217,4 @@
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
 - GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2
 - GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails
+- GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine

@@ -1449,3 +1449,6 @@
 | GE-20260817-d4b0f8 | Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2 | gotcha | 8/15 |
 | GE-20260817-8b0648 | Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails | gotcha | 10/15 |
 | GE-20260817-55c9b2 | CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route | technique | 9/15 |
+| GE-20260818-5d1cc4 | Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced | gotcha | 10/15 |
+| GE-20260818-c71c94 | NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift | gotcha | 9/15 |
+| GE-20260818-b9470a | New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine | gotcha | 8/15 |

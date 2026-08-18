@@ -36,3 +36,4 @@
 - GE-20260726-5c7a38: ChannelGateway.fanOut() post() runs on virtual thread without JPA context or request scope — database access in ChannelBackend.post() fails silently
 - GE-20260726-3c0da2: COMMAND dispatch requires explicit correlationId — pipeline silently skips commitment creation when correlationId is null
 - GE-20260726-4b51ff: QhorusInboundCurrentPrincipal is @ApplicationScoped not @DefaultBean — consumer apps must exclude it to provide custom CurrentPrincipal
+- GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine

@@ -86,3 +86,5 @@
 - GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2
 - GE-20260818-90c997: ActionGateRejectedHandler writes actionGateRejected to case context and fires CaseContextChangedEvent
 - GE-20260818-1a9d5b: Gate rejection routing via YAML bindings — no engine changes required
+- GE-20260818-5d1cc4: Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced
+- GE-20260818-c71c94: NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2772
+**Entries merged since last sweep:** 2775
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2102,6 +2102,9 @@
 - GE-20260817-d4b0f8 [Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2](jvm/GE-20260817-d4b0f8.md)
 - GE-20260817-8b0648 [Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails](jvm/GE-20260817-8b0648.md)
 - GE-20260817-55c9b2 [CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route](jvm/GE-20260817-55c9b2.md)
+- GE-20260818-5d1cc4 [Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced](jvm/GE-20260818-5d1cc4.md)
+- GE-20260818-c71c94 [NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift](jvm/GE-20260818-c71c94.md)
+- GE-20260818-b9470a [New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine](jvm/GE-20260818-b9470a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
