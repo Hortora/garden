@@ -20,3 +20,4 @@
 - GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives
 - GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
 - GE-20260818-87ba6b: ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes
+- GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets

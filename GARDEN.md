@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2808
+**Entries merged since last sweep:** 2809
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2129,6 +2129,7 @@
 - GE-20260818-246c99 [Bridge interfaces referencing both core and protocol types belong in the downstream module](jvm/GE-20260818-246c99.md)
 - GE-20260818-1cf8b5 [Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans](jvm/GE-20260818-1cf8b5.md)
 - GE-20260818-67d25e [jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers](jvm/GE-20260818-67d25e.md)
+- GE-20260818-043feb [Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets](jvm/GE-20260818-043feb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

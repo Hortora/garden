@@ -425,3 +425,4 @@
 - GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation
 - GE-20260818-2589ee: CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time
 - GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope
+- GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
