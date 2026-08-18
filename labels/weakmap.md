@@ -1,0 +1,1 @@
+- GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries

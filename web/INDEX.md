@@ -223,3 +223,4 @@
 | GE-20260816-290024 | ECharts aria.enabled can be injected at the abstract base class level via option mutation | technique | 8/15 |
 | GE-20260816-e89cda | Composable Lit reactive controllers with explicit dependency chain for shared channel state | technique | 9/15 |
 | GE-20260817-2dcaae | Async functions in synchronous event handlers break test assertions | gotcha | 10/15 |
+| GE-20260818-f0257a | Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries | technique | 9/15 |

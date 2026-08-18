@@ -50,3 +50,4 @@
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
 - GE-20260815-ac6e89: Content preserved across layout toggle via detach/reattach — not destroy/recreate
 - GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state
+- GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries

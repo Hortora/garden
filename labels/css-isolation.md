@@ -1,2 +1,3 @@
 - GE-20260802-953404: CSS @layer provides no isolation from unlayered host CSS — unlayered declarations win in the cascade
 - GE-20260804-f4e13a: xterm.js renders invisible inside Lit shadow DOM — CSS isolation hides viewport
+- GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries
