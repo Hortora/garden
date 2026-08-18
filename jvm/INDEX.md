@@ -1461,3 +1461,5 @@
 | GE-20260818-78bf96 | pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered | gotcha | 11/15 |
 | GE-20260818-c2f072 | Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation | technique | 10/15 |
 | GE-20260818-0dd695 | EventBroadcaster is non-final and can be subclassed for test interception | undocumented | 8/15 |
+| GE-20260818-d7915b | SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects | gotcha | 10/15 |
+| GE-20260818-0d06dd | Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled | gotcha | 9/15 |

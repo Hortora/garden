@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2789
+**Entries merged since last sweep:** 2791
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2115,6 +2115,8 @@
 - GE-20260818-78bf96 [pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered](jvm/GE-20260818-78bf96.md)
 - GE-20260818-c2f072 [Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation](jvm/GE-20260818-c2f072.md)
 - GE-20260818-0dd695 [EventBroadcaster is non-final and can be subclassed for test interception](jvm/GE-20260818-0dd695.md)
+- GE-20260818-d7915b [SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects](jvm/GE-20260818-d7915b.md)
+- GE-20260818-0d06dd [Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled](jvm/GE-20260818-0d06dd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

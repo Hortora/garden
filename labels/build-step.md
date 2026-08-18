@@ -6,3 +6,5 @@
 - GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
 - GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items
 - GE-20260817-48caeb: SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code
+- GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
+- GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled

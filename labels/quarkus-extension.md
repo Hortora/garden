@@ -8,3 +8,5 @@
 - GE-20260614-efee3b: SyntheticBeanBuildItem without addInjectionPoint compiles and deploys but fails at runtime
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
 - GE-20260817-48caeb: SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code
+- GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
+- GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled

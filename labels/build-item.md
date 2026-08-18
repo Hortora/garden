@@ -1,0 +1,1 @@
+- GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled
