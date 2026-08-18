@@ -723,3 +723,4 @@
 | GE-20260818-33e72c | ARIA build validation ratchet — static analysis for web component accessibility compliance | technique | 9/15 |
 | GE-20260818-71c639 | IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file | gotcha | 10/15 |
 | GE-20260818-77a06d | git commit --amend targets wrong branch when a script silently switches HEAD before the amend | gotcha | 9/15 |
+| GE-20260818-5973e2 | IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open | undocumented | 8/15 |

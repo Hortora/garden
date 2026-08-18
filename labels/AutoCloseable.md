@@ -1,1 +1,2 @@
 - GE-20260607-9cef08: Sequential try-catch for must-not-throw close() with multiple resources
+- GE-20260818-dd67f0: AutoCloseable ThreadLocal context markers prevent leaks on exception

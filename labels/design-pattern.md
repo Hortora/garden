@@ -14,3 +14,4 @@
 - GE-20260610-3e094b: volatile boolean freeze flag — post-init immutability without a separate read-only type
 - GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary
 - GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
+- GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope

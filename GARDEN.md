@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2791
+**Entries merged since last sweep:** 2795
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2117,6 +2117,9 @@
 - GE-20260818-0dd695 [EventBroadcaster is non-final and can be subclassed for test interception](jvm/GE-20260818-0dd695.md)
 - GE-20260818-d7915b [SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects](jvm/GE-20260818-d7915b.md)
 - GE-20260818-0d06dd [Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled](jvm/GE-20260818-0d06dd.md)
+- GE-20260818-2589ee [CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time](jvm/GE-20260818-2589ee.md)
+- GE-20260818-dd67f0 [AutoCloseable ThreadLocal context markers prevent leaks on exception](jvm/GE-20260818-dd67f0.md)
+- GE-20260818-61ed16 [Selective CDI interface injection controls decorator interception scope](jvm/GE-20260818-61ed16.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2875,6 +2878,7 @@
 - GE-20260818-33e72c [ARIA build validation ratchet — static analysis for web component accessibility compliance](tools/GE-20260818-33e72c.md)
 - GE-20260818-71c639 [IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file](tools/GE-20260818-71c639.md)
 - GE-20260818-77a06d [git commit --amend targets wrong branch when a script silently switches HEAD before the amend](tools/GE-20260818-77a06d.md)
+- GE-20260818-5973e2 [IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open](tools/GE-20260818-5973e2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

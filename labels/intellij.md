@@ -68,3 +68,4 @@
 - GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea
 - GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml
 - GE-20260818-71c639: IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file
+- GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open

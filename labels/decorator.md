@@ -12,3 +12,5 @@
 - GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations
 - GE-20260811-f9c6f1: LitElement @property named nodeType collides with DOM Node.nodeType — decorator error misleads toward CustomElementClass
 - GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route
+- GE-20260818-2589ee: CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time
+- GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope

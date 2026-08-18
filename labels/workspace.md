@@ -23,3 +23,4 @@
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
 - GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
+- GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open

@@ -19,3 +19,4 @@
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260601-fcf0d9: Two @DefaultBean beans for the same type → Quarkus AmbiguousResolutionException, not Unsatisfied
 - GE-20260707-f3bece: Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type
+- GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope

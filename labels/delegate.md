@@ -1,0 +1,1 @@
+- GE-20260818-2589ee: CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time

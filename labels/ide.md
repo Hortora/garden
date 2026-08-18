@@ -1,2 +1,3 @@
 - GE-20260526-8b0676: IntelliJ ide_diagnostics batch mode reports 100+ phantom errors when file is not open in editor
 - GE-20260717-34ba5f: IntelliJ MCP lifecycle manager silently closes idle workspaces — ide_edit_member returns project_not_found
+- GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open

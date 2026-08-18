@@ -1463,3 +1463,6 @@
 | GE-20260818-0dd695 | EventBroadcaster is non-final and can be subclassed for test interception | undocumented | 8/15 |
 | GE-20260818-d7915b | SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects | gotcha | 10/15 |
 | GE-20260818-0d06dd | Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled | gotcha | 9/15 |
+| GE-20260818-2589ee | CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time | gotcha | 9/15 |
+| GE-20260818-dd67f0 | AutoCloseable ThreadLocal context markers prevent leaks on exception | technique | 9/15 |
+| GE-20260818-61ed16 | Selective CDI interface injection controls decorator interception scope | technique | 10/15 |
