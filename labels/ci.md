@@ -43,3 +43,4 @@
 - GE-20260810-46121c: npm ci silently creates dangling symlinks from package-lock.json link:true entries — exits 0 with broken node_modules
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
 - GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
+- GE-20260818-87ba6b: ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes

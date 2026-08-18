@@ -20,3 +20,4 @@
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
 - GE-20260816-5c4812: jsdom setAttribute on aria-expanded does not reflect via getAttribute on non-form elements
 - GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries
+- GE-20260818-87ba6b: ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes

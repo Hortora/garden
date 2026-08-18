@@ -224,3 +224,5 @@
 | GE-20260816-e89cda | Composable Lit reactive controllers with explicit dependency chain for shared channel state | technique | 9/15 |
 | GE-20260817-2dcaae | Async functions in synchronous event handlers break test assertions | gotcha | 10/15 |
 | GE-20260818-f0257a | Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries | technique | 9/15 |
+| GE-20260818-66b0ca | Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render() | gotcha | 9/15 |
+| GE-20260818-87ba6b | ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes | gotcha | 9/15 |

@@ -1,0 +1,1 @@
+- GE-20260818-66b0ca: Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render()
