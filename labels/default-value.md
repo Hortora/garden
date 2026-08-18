@@ -1,1 +1,2 @@
 - GE-20260806-55e158: SituationRegistration accepts null correlationKeyExtractor — defaults to DefaultCorrelationKeyExtractor.INSTANCE
+- GE-20260818-c69f20: JSON schema default value makes generated getter never return null

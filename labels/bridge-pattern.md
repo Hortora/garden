@@ -1,2 +1,3 @@
 - GE-20260614-21317a: Optional.ifPresent() inside try/catch silently reclassifies lambda exceptions as the catch-block's subject
 - GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors
+- GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation

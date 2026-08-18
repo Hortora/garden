@@ -8,3 +8,4 @@
 - GE-20260714-4ba57a: GitHub Packages npm private visibility returns 403 — looks like auth but is a visibility setting
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
 - GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor
+- GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes

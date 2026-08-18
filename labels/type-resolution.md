@@ -1,2 +1,3 @@
 - GE-20260617-e3bedc: DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
+- GE-20260818-8e9230: MVEL3 nested property access fails against Map<String,Object> — requires POJO context

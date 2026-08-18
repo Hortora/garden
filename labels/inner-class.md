@@ -1,1 +1,2 @@
 - GE-20260423-8dfa90: mvn clean does not fix ClassNotFoundException after Quarkus dependency inner class moves
+- GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes

@@ -1,0 +1,2 @@
+- GE-20260818-8e9230: MVEL3 nested property access fails against Map<String,Object> — requires POJO context
+- GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation

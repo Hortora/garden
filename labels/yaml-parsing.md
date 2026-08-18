@@ -1,0 +1,1 @@
+- GE-20260818-c69f20: JSON schema default value makes generated getter never return null

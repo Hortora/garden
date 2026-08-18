@@ -3,3 +3,4 @@
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
+- GE-20260818-c69f20: JSON schema default value makes generated getter never return null

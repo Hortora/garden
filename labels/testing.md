@@ -432,3 +432,4 @@
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
 - GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception
 - GE-20260818-5d1cc4: Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced
+- GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes

@@ -35,3 +35,4 @@
 - GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
+- GE-20260818-8e9230: MVEL3 nested property access fails against Map<String,Object> — requires POJO context

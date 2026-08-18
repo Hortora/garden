@@ -1,1 +1,2 @@
 - GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes
+- GE-20260818-c69f20: JSON schema default value makes generated getter never return null

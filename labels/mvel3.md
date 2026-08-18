@@ -1,2 +1,4 @@
 - GE-20260714-550161: MVEL3 `contains` keyword shadows String.contains() — transpilation type error
 - GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
+- GE-20260818-8e9230: MVEL3 nested property access fails against Map<String,Object> — requires POJO context
+- GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes

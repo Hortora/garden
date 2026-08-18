@@ -1,0 +1,1 @@
+- GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation
