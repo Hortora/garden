@@ -1,2 +1,1 @@
-- GE-20260814-0d4123: casehub-pages first tab shows 'No data' — renderInitialSlot never fires pages-slot-change
 - GE-20260818-78bf96: pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered

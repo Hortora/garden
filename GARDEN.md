@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2780
+**Entries merged since last sweep:** 2783
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2110,6 +2110,8 @@
 - GE-20260818-c69f20 [JSON schema default value makes generated getter never return null](jvm/GE-20260818-c69f20.md)
 - GE-20260818-deface [MVEL3 generated code cannot access inner classes of package-private test classes](jvm/GE-20260818-deface.md)
 - GE-20260818-68c8a3 [TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation](jvm/GE-20260818-68c8a3.md)
+- GE-20260818-c62fe5 [Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail](jvm/GE-20260818-c62fe5.md)
+- GE-20260818-78bf96 [pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered](jvm/GE-20260818-78bf96.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2864,6 +2866,7 @@
 - GE-20260817-649902 [Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures](tools/GE-20260817-649902.md)
 - GE-20260817-0ea5d5 [Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root](tools/GE-20260817-0ea5d5.md)
 - GE-20260818-f384e4 [Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work](tools/GE-20260818-f384e4.md)
+- GE-20260818-c61c29 [topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface](tools/GE-20260818-c61c29.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

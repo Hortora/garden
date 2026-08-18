@@ -1,0 +1,1 @@
+- GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface

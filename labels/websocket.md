@@ -20,3 +20,5 @@
 - GE-20260813-33cf79: Quarkus WebSocket UserData.TypedKey is final — anonymous subclass instantiation fails
 - GE-20260813-482707: Quarkus @TestHTTPResource gives http:// URI for WebSocket endpoints — Java WebSocket client requires ws://
 - GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
+- GE-20260818-78bf96: pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered
+- GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface

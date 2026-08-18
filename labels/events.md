@@ -14,3 +14,4 @@
 - GE-20260515-ed10ee: Awaitility untilAsserted gives weaker guarantee than during for exact async event counts
 - GE-20260711-265dfc: Convergent CDI @ObservesAsync handlers — identity-based event ordering resilience
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
+- GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail

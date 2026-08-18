@@ -82,3 +82,4 @@
 - GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations
 - GE-20260806-37eb4d: @DefaultBean shadowed by Jandex-discovered @ApplicationScoped — bean exists but dependency chain unsatisfied
 - GE-20260818-5d1cc4: Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced
+- GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail

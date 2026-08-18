@@ -1457,3 +1457,5 @@
 | GE-20260818-c69f20 | JSON schema default value makes generated getter never return null | gotcha | 9/15 |
 | GE-20260818-deface | MVEL3 generated code cannot access inner classes of package-private test classes | gotcha | 8/15 |
 | GE-20260818-68c8a3 | TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation | architectural | 10/15 |
+| GE-20260818-c62fe5 | Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail | gotcha | 12/15 |
+| GE-20260818-78bf96 | pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered | gotcha | 11/15 |

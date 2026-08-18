@@ -766,3 +766,4 @@
 - GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route
 - GE-20260818-5d1cc4: Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced
 - GE-20260818-c71c94: NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift
+- GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail

@@ -31,3 +31,4 @@
 - GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build
 - GE-20260804-738e1a: CDI @Qualifier in test scope invisible to main-scope beans during Quarkus augmentation
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
+- GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail
