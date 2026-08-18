@@ -66,3 +66,5 @@
 - GE-20260808-5713b7: IntelliJ MCP ide_open_project does not link Maven — semantic tools return empty results
 - GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead
 - GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea
+- GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml
+- GE-20260818-71c639: IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file

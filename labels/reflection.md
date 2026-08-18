@@ -15,3 +15,4 @@
 - GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI
 - GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection
 - GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly
+- GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation

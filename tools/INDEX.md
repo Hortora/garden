@@ -720,3 +720,6 @@
 | GE-20260817-0ea5d5 | Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root | gotcha | 8/15 |
 | GE-20260818-f384e4 | Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work | gotcha | 10/15 |
 | GE-20260818-c61c29 | topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface | technique | 9/15 |
+| GE-20260818-33e72c | ARIA build validation ratchet — static analysis for web component accessibility compliance | technique | 9/15 |
+| GE-20260818-71c639 | IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file | gotcha | 10/15 |
+| GE-20260818-77a06d | git commit --amend targets wrong branch when a script silently switches HEAD before the amend | gotcha | 9/15 |

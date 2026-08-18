@@ -59,3 +59,4 @@
 | GE-20260809-914ad1 | ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead | gotcha | 10/15 |
 | GE-20260803-ecb4d5 | IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure | gotcha | 9/15 |
 | GE-20260814-afa335 | ide_edit_member with member name matching class name replaces entire class declaration | gotcha | 12/15 |
+| GE-20260818-490d91 | IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml | gotcha | 10/15 |

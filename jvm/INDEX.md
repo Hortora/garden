@@ -1459,3 +1459,5 @@
 | GE-20260818-68c8a3 | TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation | architectural | 10/15 |
 | GE-20260818-c62fe5 | Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail | gotcha | 12/15 |
 | GE-20260818-78bf96 | pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered | gotcha | 11/15 |
+| GE-20260818-c2f072 | Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation | technique | 10/15 |
+| GE-20260818-0dd695 | EventBroadcaster is non-final and can be subclassed for test interception | undocumented | 8/15 |

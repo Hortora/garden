@@ -9,3 +9,4 @@
 - GE-20260731-235d71: REINVOKED execution mode suppresses worker output — integration tests silently time out
 - GE-20260808-da5e6a: TrialSafetyAggregationJob tenant mismatch — integration tests seed data with principal.tenancyId() but job queries by config property
 - GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean
+- GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation

@@ -1,0 +1,1 @@
+- GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation

@@ -1,0 +1,1 @@
+- GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml

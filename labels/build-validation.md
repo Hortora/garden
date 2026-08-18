@@ -1,2 +1,1 @@
-- GE-20260816-290024: ECharts aria.enabled can be injected at the abstract base class level via option mutation
 - GE-20260818-33e72c: ARIA build validation ratchet — static analysis for web component accessibility compliance

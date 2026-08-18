@@ -1,1 +1,2 @@
 - GE-20260623-673dc8: IntelliJ MCP returns empty indexes when project_path has .idea but Maven root is in a subdirectory
+- GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml

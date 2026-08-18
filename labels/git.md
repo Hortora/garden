@@ -188,3 +188,4 @@
 - GE-20260816-2dddda: ctx.py topology.resolve() fails at slot root — slot directories are not git repos
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
+- GE-20260818-77a06d: git commit --amend targets wrong branch when a script silently switches HEAD before the amend

@@ -77,3 +77,5 @@
 - GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing
 - GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
 - GE-20260814-d1b5dc: MCP tool selection accuracy degrades at ~20-30 tools — hierarchical model as scaling pattern
+- GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml
+- GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation

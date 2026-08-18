@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2783
+**Entries merged since last sweep:** 2789
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -244,6 +244,7 @@
 - GE-20260809-914ad1 [ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead](intellij-platform/GE-20260809-914ad1.md)
 - GE-20260803-ecb4d5 [IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
 - GE-20260814-afa335 [ide_edit_member with member name matching class name replaces entire class declaration](intellij-platform/GE-20260814-afa335.md)
+- GE-20260818-490d91 [IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml](intellij-platform/GE-20260818-490d91.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -2112,6 +2113,8 @@
 - GE-20260818-68c8a3 [TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation](jvm/GE-20260818-68c8a3.md)
 - GE-20260818-c62fe5 [Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail](jvm/GE-20260818-c62fe5.md)
 - GE-20260818-78bf96 [pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered](jvm/GE-20260818-78bf96.md)
+- GE-20260818-c2f072 [Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation](jvm/GE-20260818-c2f072.md)
+- GE-20260818-0dd695 [EventBroadcaster is non-final and can be subclassed for test interception](jvm/GE-20260818-0dd695.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2867,6 +2870,9 @@
 - GE-20260817-0ea5d5 [Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root](tools/GE-20260817-0ea5d5.md)
 - GE-20260818-f384e4 [Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work](tools/GE-20260818-f384e4.md)
 - GE-20260818-c61c29 [topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface](tools/GE-20260818-c61c29.md)
+- GE-20260818-33e72c [ARIA build validation ratchet — static analysis for web component accessibility compliance](tools/GE-20260818-33e72c.md)
+- GE-20260818-71c639 [IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file](tools/GE-20260818-71c639.md)
+- GE-20260818-77a06d [git commit --amend targets wrong branch when a script silently switches HEAD before the amend](tools/GE-20260818-77a06d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

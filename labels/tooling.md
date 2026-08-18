@@ -16,3 +16,5 @@
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
 - GE-20260713-905e2e: IntelliJ MCP ide_create_file writes to VFS only — file does not exist on disk for Maven
 - GE-20260725-9f2e4b: Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows
+- GE-20260818-71c639: IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file
+- GE-20260818-77a06d: git commit --amend targets wrong branch when a script silently switches HEAD before the amend

@@ -1,1 +1,2 @@
 - GE-20260704-73bebb: casehub-pages event op silently skips lastSeq tracking — since-based reconnection never fires
+- GE-20260818-0dd695: EventBroadcaster is non-final and can be subclassed for test interception
