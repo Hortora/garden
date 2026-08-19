@@ -1,0 +1,1 @@
+- GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components

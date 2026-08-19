@@ -54,3 +54,4 @@
 - GE-20260818-33e72c: ARIA build validation ratchet — static analysis for web component accessibility compliance
 - GE-20260818-66b0ca: Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render()
 - GE-20260818-87ba6b: ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes
+- GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components

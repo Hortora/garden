@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2812
+**Entries merged since last sweep:** 2814
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3142,6 +3142,8 @@
 - GE-20260818-f0257a [Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries](web/GE-20260818-f0257a.md)
 - GE-20260818-66b0ca [Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render()](web/GE-20260818-66b0ca.md)
 - GE-20260818-87ba6b [ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes](web/GE-20260818-87ba6b.md)
+- GE-20260819-96e032 [pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components](web/GE-20260819-96e032.md)
+- GE-20260819-1b3181 [pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT](web/GE-20260819-1b3181.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

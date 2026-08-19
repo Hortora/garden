@@ -226,3 +226,5 @@
 | GE-20260818-f0257a | Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries | technique | 9/15 |
 | GE-20260818-66b0ca | Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render() | gotcha | 9/15 |
 | GE-20260818-87ba6b | ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes | gotcha | 9/15 |
+| GE-20260819-96e032 | pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components | technique | 10/15 |
+| GE-20260819-1b3181 | pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT | undocumented | 8/15 |

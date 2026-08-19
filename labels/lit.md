@@ -45,3 +45,4 @@
 - GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width
 - GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state
 - GE-20260818-66b0ca: Lit @state() does not reflect to ARIA — dynamic aria-busy/aria-disabled/aria-expanded need manual setAttribute in render()
+- GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components

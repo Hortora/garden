@@ -1,3 +1,2 @@
-- GE-20260808-a59625: pages-ui dockWorkbench distributes columns equally — dock panels get 33% width on wide screens
 - GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components
 - GE-20260819-1b3181: pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT
