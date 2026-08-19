@@ -1,0 +1,1 @@
+- GE-20260819-8f1dde: JSONL vs JSON for append-heavy persistence — eliminates concurrent write races

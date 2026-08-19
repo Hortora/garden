@@ -1,0 +1,1 @@
+- GE-20260819-55bffe: Per-boundary verification and per-close forcing functions are different scopes

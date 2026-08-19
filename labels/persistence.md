@@ -2,3 +2,5 @@
 - GE-20260421-88296e: casehub-engine persistence-memory Maven profile required for all engine tests without Docker
 - GE-20260420-4a62d3: @Alternative CDI beans in a JAR are invisible to @QuarkusTest — two fixes: copy sources or add Jandex index
 - GE-20260810-ccd128: FloatingFrameEngine captureLayout returns stale creation-time positions after drag/resize
+- GE-20260819-8f1dde: JSONL vs JSON for append-heavy persistence — eliminates concurrent write races
+- GE-20260819-35aac5: LLM-generated detail text breaks dedup — use stable location anchors

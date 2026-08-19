@@ -1,1 +1,2 @@
 - GE-20260803-d58949: Recover lost file content from Claude Code session JSONL transcripts by parsing Write tool calls
+- GE-20260819-8f1dde: JSONL vs JSON for append-heavy persistence — eliminates concurrent write races

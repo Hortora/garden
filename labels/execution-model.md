@@ -1,1 +1,2 @@
 - GE-20260528-74914d: @Blocking rejected on @ApplicationScoped CDI bean methods returning Uni — only valid on framework entrypoints
+- GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models

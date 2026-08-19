@@ -1,2 +1,3 @@
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
 - GE-20260720-082267: File-watcher dedup sets must roll back on missing files — catch-up scan permanently blocks async events
+- GE-20260819-35aac5: LLM-generated detail text breaks dedup — use stable location anchors

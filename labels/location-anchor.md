@@ -1,0 +1,1 @@
+- GE-20260819-35aac5: LLM-generated detail text breaks dedup — use stable location anchors

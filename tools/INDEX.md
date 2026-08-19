@@ -728,3 +728,7 @@
 | GE-20260818-6546f0 | Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map | technique | 10/15 |
 | GE-20260819-e4a72a | Bulk Java record migration via compile-error-driven ide_replace_text_in_file | technique | 9/15 |
 | GE-20260819-5af956 | Maven local repo isolation breaks cross-build SNAPSHOT resolution | gotcha | 9/15 |
+| GE-20260819-8f1dde | JSONL vs JSON for append-heavy persistence — eliminates concurrent write races | technique | 10/15 |
+| GE-20260819-35aac5 | LLM-generated detail text breaks dedup — use stable location anchors | gotcha | 11/15 |
+| GE-20260819-55bffe | Per-boundary verification and per-close forcing functions are different scopes | gotcha | 9/15 |
+| GE-20260819-bec581 | Design-review lifecycle points as fillable slots for different execution models | technique | 9/15 |

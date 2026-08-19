@@ -32,3 +32,5 @@
 - GE-20260814-51d2dd: Lit updated() fires before shadow DOM canvas is drawable — requestAnimationFrame needed for conditional canvas rendering
 - GE-20260814-0fcc1a: CaseLifecycleEvent CDI observer for cross-cutting case state reactions
 - GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
+- GE-20260819-55bffe: Per-boundary verification and per-close forcing functions are different scopes
+- GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models

@@ -1,0 +1,1 @@
+- GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models
