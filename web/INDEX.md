@@ -228,3 +228,4 @@
 | GE-20260818-87ba6b | ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes | gotcha | 9/15 |
 | GE-20260819-96e032 | pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components | technique | 10/15 |
 | GE-20260819-1b3181 | pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT | undocumented | 8/15 |
+| GE-20260819-fe9c37 | Vite alias + cross-repo node_modules causes duplicate Lit custom element registration | gotcha | 8/15 |

@@ -11,3 +11,4 @@
 - GE-20260810-33cc57: Quinoa package-manager-command property is appended to npm — cannot switch to yarn or other package managers
 - GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild
 - GE-20260814-c351f2: Quarkus reactor rejects two packaging:quarkus modules — Quinoa must live in the app module
+- GE-20260819-3e7715: Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints

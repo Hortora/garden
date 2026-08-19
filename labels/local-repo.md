@@ -5,3 +5,4 @@
 - GE-20260809-cb0fe3: Maven slot .m2 repo isolation — mvn install to host repo does not reach slot engine
 - GE-20260810-99bf75: Slot .m2 repo goes stale after rebase on origin/main — new dependencies not found
 - GE-20260818-702f53: Stale local Maven jar after adding classes to an upstream module — downstream compilation fails
+- GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution

@@ -220,3 +220,4 @@
 - GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine
 - GE-20260818-702f53: Stale local Maven jar after adding classes to an upstream module — downstream compilation fails
 - GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module
+- GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution

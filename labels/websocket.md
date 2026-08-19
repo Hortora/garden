@@ -22,3 +22,5 @@
 - GE-20260427-7162b2: Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port
 - GE-20260818-78bf96: pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered
 - GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface
+- GE-20260819-3e7715: Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints
+- GE-20260819-519340: SmallRye JWT blocks WebSocket upgrades without explicit permit policy

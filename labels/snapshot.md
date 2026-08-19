@@ -74,3 +74,4 @@
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260819-1b3181: pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT
+- GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution

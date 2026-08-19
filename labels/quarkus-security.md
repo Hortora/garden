@@ -1,0 +1,1 @@
+- GE-20260819-519340: SmallRye JWT blocks WebSocket upgrades without explicit permit policy
