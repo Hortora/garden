@@ -1477,3 +1477,4 @@
 | GE-20260819-3e7715 | Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints | gotcha | 9/15 |
 | GE-20260819-519340 | SmallRye JWT blocks WebSocket upgrades without explicit permit policy | gotcha | 9/15 |
 | GE-20260819-c5f890 | Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state | gotcha | 9/15 |
+| GE-20260819-e4a624 | Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest | technique | 9/15 |

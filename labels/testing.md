@@ -438,3 +438,4 @@
 - GE-20260818-0dd695: EventBroadcaster is non-final and can be subclassed for test interception
 - GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
 - GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes
+- GE-20260819-e4a624: Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest

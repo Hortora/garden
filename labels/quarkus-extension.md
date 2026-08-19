@@ -10,3 +10,4 @@
 - GE-20260817-48caeb: SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code
 - GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
 - GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled
+- GE-20260819-e4a624: Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest
