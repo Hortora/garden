@@ -1,0 +1,1 @@
+- GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file

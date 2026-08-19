@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2809
+**Entries merged since last sweep:** 2812
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2130,6 +2130,8 @@
 - GE-20260818-1cf8b5 [Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans](jvm/GE-20260818-1cf8b5.md)
 - GE-20260818-67d25e [jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers](jvm/GE-20260818-67d25e.md)
 - GE-20260818-043feb [Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets](jvm/GE-20260818-043feb.md)
+- GE-20260819-305ddb [Drools record field change produces misleading CDI errors from stale augmentation cache](jvm/GE-20260819-305ddb.md)
+- GE-20260819-b83954 [QhorusDashboardService CDI failure is pre-existing — not caused by record changes](jvm/GE-20260819-b83954.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2891,6 +2893,7 @@
 - GE-20260818-5973e2 [IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open](tools/GE-20260818-5973e2.md)
 - GE-20260818-702f53 [Stale local Maven jar after adding classes to an upstream module — downstream compilation fails](tools/GE-20260818-702f53.md)
 - GE-20260818-6546f0 [Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map](tools/GE-20260818-6546f0.md)
+- GE-20260819-e4a72a [Bulk Java record migration via compile-error-driven ide_replace_text_in_file](tools/GE-20260819-e4a72a.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

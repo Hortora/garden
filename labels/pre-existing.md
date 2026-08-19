@@ -1,0 +1,1 @@
+- GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes

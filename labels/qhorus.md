@@ -30,3 +30,4 @@
 - GE-20260814-da6b1f: qhorus MessageObserver registration is CDI-only — no programmatic addObserver/removeObserver API
 - GE-20260814-175dce: No MessageReceivedEvent to MessageView conversion utility in qhorus — manual construction required
 - GE-20260816-2058bc: qhorus Space model is complete but undocumented in consumer guides
+- GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes

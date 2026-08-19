@@ -15,3 +15,5 @@
 - GE-20260706-261904: Jackson serializes boolean isX() methods on Java records as phantom JSON properties — breaks deserialization round-trips
 - GE-20260719-8fe9cb: Cross-repo companion commit on wrong branch — CI NPE at test runtime, build compiles fine
 - GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components
+- GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache
+- GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file

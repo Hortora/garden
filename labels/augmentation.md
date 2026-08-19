@@ -33,3 +33,4 @@
 - GE-20260814-2d0df2: Test inner classes extending CDI beans are discovered by Quarkus augmentation — use @Vetoed
 - GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail
 - GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
+- GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache

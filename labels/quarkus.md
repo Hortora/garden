@@ -771,3 +771,5 @@
 - GE-20260818-2589ee: CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time
 - GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
+- GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache
+- GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes

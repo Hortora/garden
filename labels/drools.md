@@ -16,3 +16,4 @@
 - GE-20260717-e2e95a: Additive modifier pattern for Drools weight resolution — avoids salience mutual-exclusion trap
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
 - GE-20260810-fbf04a: Drools DataStore Category-Level Rules Fire Per-Assessment, Not Per-Category — Unbounded Modifier Stacking
+- GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache

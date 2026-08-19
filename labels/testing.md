@@ -437,3 +437,4 @@
 - GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation
 - GE-20260818-0dd695: EventBroadcaster is non-final and can be subclassed for test interception
 - GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
+- GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes

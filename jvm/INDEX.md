@@ -1472,3 +1472,5 @@
 | GE-20260818-1cf8b5 | Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans | technique | 9/15 |
 | GE-20260818-67d25e | jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers | gotcha | 8/15 |
 | GE-20260818-043feb | Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets | gotcha | 10/15 |
+| GE-20260819-305ddb | Drools record field change produces misleading CDI errors from stale augmentation cache | gotcha | 10/15 |
+| GE-20260819-b83954 | QhorusDashboardService CDI failure is pre-existing — not caused by record changes | undocumented | 8/15 |

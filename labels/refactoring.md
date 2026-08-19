@@ -38,3 +38,4 @@
 - GE-20260803-0c6c56: IntelliJ MCP ide_change_signature fails silently on Java record constructors
 - GE-20260803-c93d62: ide_change_signature threads new parameters through private call chains automatically
 - GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls
+- GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
