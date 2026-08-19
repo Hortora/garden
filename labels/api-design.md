@@ -9,3 +9,5 @@
 - GE-20260806-409764: Raggable MCP — small tool surface with model-as-discovery for extensible control planes
 - GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
 - GE-20260818-b2abcd: Separate SPI context record types when existing ClassificationContext conflicts
+- GE-20260819-2a0737: Proxy service layer accidentally couples individual operations to aggregation layer
+- GE-20260819-d81584: Dual-addressing resolver at REST boundary unifies UUID and name-based API consumers

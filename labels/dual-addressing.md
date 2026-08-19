@@ -1,0 +1,1 @@
+- GE-20260819-d81584: Dual-addressing resolver at REST boundary unifies UUID and name-based API consumers

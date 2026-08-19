@@ -1,2 +1,1 @@
-- GE-20260806-1a293f: Slot-local .m2 SNAPSHOT staleness — Maven never refreshes from file:// remote fallback
 - GE-20260819-c06848: Dual-maintenance anti-pattern: two apps composing same shared components diverge silently

@@ -732,3 +732,4 @@
 | GE-20260819-35aac5 | LLM-generated detail text breaks dedup — use stable location anchors | gotcha | 11/15 |
 | GE-20260819-55bffe | Per-boundary verification and per-close forcing functions are different scopes | gotcha | 9/15 |
 | GE-20260819-bec581 | Design-review lifecycle points as fillable slots for different execution models | technique | 9/15 |
+| GE-20260819-c06848 | Dual-maintenance anti-pattern: two apps composing same shared components diverge silently | gotcha | 10/15 |

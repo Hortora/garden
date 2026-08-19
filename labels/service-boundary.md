@@ -1,0 +1,1 @@
+- GE-20260819-2a0737: Proxy service layer accidentally couples individual operations to aggregation layer

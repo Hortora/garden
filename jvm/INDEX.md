@@ -1478,3 +1478,5 @@
 | GE-20260819-519340 | SmallRye JWT blocks WebSocket upgrades without explicit permit policy | gotcha | 9/15 |
 | GE-20260819-c5f890 | Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state | gotcha | 9/15 |
 | GE-20260819-e4a624 | Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest | technique | 9/15 |
+| GE-20260819-2a0737 | Proxy service layer accidentally couples individual operations to aggregation layer | gotcha | 8/15 |
+| GE-20260819-d81584 | Dual-addressing resolver at REST boundary unifies UUID and name-based API consumers | technique | 9/15 |
