@@ -23,3 +23,4 @@
 - GE-20260809-903561: GitHub Release 'latest' tag overwrite race — concurrent workflow runs mix artifacts from different builds
 - GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
 - GE-20260818-883adc: Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome
+- GE-20260819-c5f890: Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state
