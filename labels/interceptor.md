@@ -5,3 +5,4 @@
 - GE-20260604-709d74: AnnotationInstance.target() carries stale parent ClassInfo when propagated to child via AnnotationsTransformerBuildItem
 - GE-20260604-9d91f9: Propagate inherited interceptor bindings to synthetic CDI beans via AnnotationsTransformerBuildItem
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
+- GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
