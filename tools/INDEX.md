@@ -734,3 +734,6 @@
 | GE-20260819-bec581 | Design-review lifecycle points as fillable slots for different execution models | technique | 9/15 |
 | GE-20260819-c06848 | Dual-maintenance anti-pattern: two apps composing same shared components diverge silently | gotcha | 10/15 |
 | GE-20260820-433248 | Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module | technique | 9/15 |
+| GE-20260820-19b08c | Parent-first .git check resolves nested child repos to wrong parent | gotcha | 11/15 |
+| GE-20260820-be630e | git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos | technique | 9/15 |
+| GE-20260820-807538 | Workspace clones named by git remote URL stem avoid work- prefix collisions | convention | 8/15 |

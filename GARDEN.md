@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2830
+**Entries merged since last sweep:** 2833
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2909,6 +2909,9 @@
 - GE-20260819-bec581 [Design-review lifecycle points as fillable slots for different execution models](tools/GE-20260819-bec581.md)
 - GE-20260819-c06848 [Dual-maintenance anti-pattern: two apps composing same shared components diverge silently](tools/GE-20260819-c06848.md)
 - GE-20260820-433248 [Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module](tools/GE-20260820-433248.md)
+- GE-20260820-19b08c [Parent-first .git check resolves nested child repos to wrong parent](tools/GE-20260820-19b08c.md)
+- GE-20260820-be630e [git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos](tools/GE-20260820-be630e.md)
+- GE-20260820-807538 [Workspace clones named by git remote URL stem avoid work- prefix collisions](tools/GE-20260820-807538.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -3,3 +3,4 @@
 - GE-20260809-cfb423: Zone naming convention: side-position for columns, position-side for bottom bar
 - GE-20260810-cc9129: Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review
 - GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
+- GE-20260820-807538: Workspace clones named by git remote URL stem avoid work- prefix collisions

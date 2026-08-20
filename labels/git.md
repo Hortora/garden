@@ -189,3 +189,5 @@
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
 - GE-20260818-77a06d: git commit --amend targets wrong branch when a script silently switches HEAD before the amend
+- GE-20260820-19b08c: Parent-first .git check resolves nested child repos to wrong parent
+- GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos

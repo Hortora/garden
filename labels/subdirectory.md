@@ -1,0 +1,1 @@
+- GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos

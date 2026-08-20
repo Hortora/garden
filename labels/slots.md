@@ -2,3 +2,4 @@
 - GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
 - GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root
 - GE-20260817-d4b0f8: Slot engine .mvn/maven.config isolates Maven repo — platform must be installed into slot .m2
+- GE-20260820-807538: Workspace clones named by git remote URL stem avoid work- prefix collisions

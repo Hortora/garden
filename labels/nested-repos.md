@@ -1,1 +1,2 @@
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
+- GE-20260820-19b08c: Parent-first .git check resolves nested child repos to wrong parent

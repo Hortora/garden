@@ -1,0 +1,1 @@
+- GE-20260820-19b08c: Parent-first .git check resolves nested child repos to wrong parent
