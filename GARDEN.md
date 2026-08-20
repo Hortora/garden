@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2839
+**Entries merged since last sweep:** 2840
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2146,6 +2146,7 @@
 - GE-20260820-ac6cc7 [Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries](jvm/GE-20260820-ac6cc7.md)
 - GE-20260820-563a2d [POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only](jvm/GE-20260820-563a2d.md)
 - GE-20260820-c19b68 [CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data](jvm/GE-20260820-c19b68.md)
+- GE-20260820-aa31ab [Memory eviction test passes unexpectedly — composite retention score masks low importance with high recency](jvm/GE-20260820-aa31ab.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

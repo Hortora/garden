@@ -1485,3 +1485,4 @@
 | GE-20260820-ac6cc7 | Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries | gotcha | 12/15 |
 | GE-20260820-563a2d | POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only | technique | 10/15 |
 | GE-20260820-c19b68 | CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data | gotcha | 9/15 |
+| GE-20260820-aa31ab | Memory eviction test passes unexpectedly — composite retention score masks low importance with high recency | gotcha | 9/15 |

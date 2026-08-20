@@ -1,0 +1,1 @@
+- GE-20260820-aa31ab: Memory eviction test passes unexpectedly — composite retention score masks low importance with high recency
