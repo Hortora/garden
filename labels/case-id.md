@@ -1,0 +1,1 @@
+- GE-20260820-cb694c: WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef

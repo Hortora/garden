@@ -127,3 +127,5 @@
 - GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface
 - GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation
 - GE-20260820-d9129a: Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages
+- GE-20260820-cb694c: WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef
+- GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject

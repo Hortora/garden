@@ -1491,3 +1491,6 @@
 | GE-20260820-a43996 | quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion) | gotcha | 10/15 |
 | GE-20260820-d4e011 | FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation | gotcha | 9/15 |
 | GE-20260820-d9129a | Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages | technique | 9/15 |
+| GE-20260820-a31880 | Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation | gotcha | 11/15 |
+| GE-20260820-cb694c | WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef | gotcha | 9/15 |
+| GE-20260820-faa856 | Flyway duplicate version error when merging multiple module migration paths | gotcha | 8/15 |

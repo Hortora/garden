@@ -429,3 +429,4 @@
 - GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache
 - GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes
 - GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
+- GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation

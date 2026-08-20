@@ -47,3 +47,4 @@
 - GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating
 - GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
+- GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths

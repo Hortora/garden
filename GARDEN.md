@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2845
+**Entries merged since last sweep:** 2849
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2152,6 +2152,9 @@
 - GE-20260820-a43996 [quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)](jvm/GE-20260820-a43996.md)
 - GE-20260820-d4e011 [FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation](jvm/GE-20260820-d4e011.md)
 - GE-20260820-d9129a [Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages](jvm/GE-20260820-d9129a.md)
+- GE-20260820-a31880 [Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation](jvm/GE-20260820-a31880.md)
+- GE-20260820-cb694c [WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef](jvm/GE-20260820-cb694c.md)
+- GE-20260820-faa856 [Flyway duplicate version error when merging multiple module migration paths](jvm/GE-20260820-faa856.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3175,6 +3178,7 @@
 - GE-20260819-96e032 [pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components](web/GE-20260819-96e032.md)
 - GE-20260819-1b3181 [pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT](web/GE-20260819-1b3181.md)
 - GE-20260819-fe9c37 [Vite alias + cross-repo node_modules causes duplicate Lit custom element registration](web/GE-20260819-fe9c37.md)
+- GE-20260820-1fc6bc [blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject](web/GE-20260820-1fc6bc.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
