@@ -1,0 +1,1 @@
+- GE-20260820-c19b68: CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data
