@@ -1,0 +1,1 @@
+- GE-20260820-49b388: git clone --shared alternates break silently when source repo directory is moved

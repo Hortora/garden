@@ -739,3 +739,4 @@
 | GE-20260820-807538 | Workspace clones named by git remote URL stem avoid work- prefix collisions | convention | 8/15 |
 | GE-20260820-8b6bd3 | Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads | technique | 9/15 |
 | GE-20260820-a5469a | Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT | gotcha | 11/15 |
+| GE-20260820-49b388 | git clone --shared alternates break silently when source repo directory is moved | gotcha | 10/15 |

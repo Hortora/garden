@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2860
+**Entries merged since last sweep:** 2861
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2931,6 +2931,7 @@
 - GE-20260820-807538 [Workspace clones named by git remote URL stem avoid work- prefix collisions](tools/GE-20260820-807538.md)
 - GE-20260820-8b6bd3 [Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads](tools/GE-20260820-8b6bd3.md)
 - GE-20260820-a5469a [Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT](tools/GE-20260820-a5469a.md)
+- GE-20260820-49b388 [git clone --shared alternates break silently when source repo directory is moved](tools/GE-20260820-49b388.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
