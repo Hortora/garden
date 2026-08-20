@@ -80,3 +80,4 @@
 - GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml
 - GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation
 - GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open
+- GE-20260820-a43996: quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server

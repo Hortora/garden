@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2829
+**Entries merged since last sweep:** 2830
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2139,6 +2139,7 @@
 - GE-20260819-2a0737 [Proxy service layer accidentally couples individual operations to aggregation layer](jvm/GE-20260819-2a0737.md)
 - GE-20260819-d81584 [Dual-addressing resolver at REST boundary unifies UUID and name-based API consumers](jvm/GE-20260819-d81584.md)
 - GE-20260820-d014c7 [Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification](jvm/GE-20260820-d014c7.md)
+- GE-20260820-a43996 [quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server](jvm/GE-20260820-a43996.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
