@@ -4,3 +4,4 @@
 - GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
 - GE-20260616-90a867: Scan Java class bytecode in a JAR for annotation presence using Python zipfile + constant-pool string search
 - GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection
+- GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations

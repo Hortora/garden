@@ -131,3 +131,4 @@
 - GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject
 - GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED
 - GE-20260820-0b708f: PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first
+- GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations

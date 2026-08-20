@@ -8,3 +8,4 @@
 - GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay
 - GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state
 - GE-20260819-c06848: Dual-maintenance anti-pattern: two apps composing same shared components diverge silently
+- GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
