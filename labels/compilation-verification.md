@@ -1,0 +1,1 @@
+- GE-20260820-433248: Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2827
+**Entries merged since last sweep:** 2829
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2138,6 +2138,7 @@
 - GE-20260819-e4a624 [Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest](jvm/GE-20260819-e4a624.md)
 - GE-20260819-2a0737 [Proxy service layer accidentally couples individual operations to aggregation layer](jvm/GE-20260819-2a0737.md)
 - GE-20260819-d81584 [Dual-addressing resolver at REST boundary unifies UUID and name-based API consumers](jvm/GE-20260819-d81584.md)
+- GE-20260820-d014c7 [Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification](jvm/GE-20260820-d014c7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2906,6 +2907,7 @@
 - GE-20260819-55bffe [Per-boundary verification and per-close forcing functions are different scopes](tools/GE-20260819-55bffe.md)
 - GE-20260819-bec581 [Design-review lifecycle points as fillable slots for different execution models](tools/GE-20260819-bec581.md)
 - GE-20260819-c06848 [Dual-maintenance anti-pattern: two apps composing same shared components diverge silently](tools/GE-20260819-c06848.md)
+- GE-20260820-433248 [Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module](tools/GE-20260820-433248.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

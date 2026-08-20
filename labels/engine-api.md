@@ -1,2 +1,3 @@
 - GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
 - GE-20260814-426631: AdaptationContext constructor rejects null for case-specific fields even when unused
+- GE-20260820-d014c7: Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification

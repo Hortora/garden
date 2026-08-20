@@ -1,1 +1,2 @@
 - GE-20260505-8c57c2: CDI events as a bridge for circular Maven module dependencies — fire from lower module, observe in upper
+- GE-20260820-d014c7: Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification

@@ -1,2 +1,1 @@
-- GE-20260816-59f280: Integration-tier apps must not depend on each other — promote reusable capabilities to foundation
 - GE-20260820-d014c7: Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification
