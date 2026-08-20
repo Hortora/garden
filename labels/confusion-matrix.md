@@ -1,0 +1,1 @@
+- GE-20260820-a35da3: Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient

@@ -2,3 +2,4 @@
 - GE-20260705-b59012: Qdrant Formula query cannot reference prefetch leg scores — Convex Combination requires client-side fusion
 - GE-20260708-9213d2: Ranked fusion ID extraction must use storage-level unique IDs — content fields cause silent deduplication
 - GE-20260725-7f599e: Fusion strategy properties derive authority signal integration mode — don't add a separate config axis
+- GE-20260820-9fe8c4: Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples

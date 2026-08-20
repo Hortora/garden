@@ -1,0 +1,1 @@
+- GE-20260820-c12f8a: ML pipeline label mismatch when consolidation remaps classes but training reads original config

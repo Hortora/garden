@@ -18,3 +18,7 @@
 | GE-20260820-1721bc | MSC dataset sparse feature vector layout is undocumented — directory naming inverts player perspective | undocumented | 12/15 |
 | GE-20260820-5bb979 | numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops | gotcha | 11/15 |
 | GE-20260820-f7e922 | PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training | gotcha | 10/15 |
+| GE-20260820-c12f8a | ML pipeline label mismatch when consolidation remaps classes but training reads original config | gotcha | 11/15 |
+| GE-20260820-9fe8c4 | Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples | gotcha | 9/15 |
+| GE-20260820-146b15 | Modality dropout rate must approximate actual missing-modality distribution, not a fixed low percentage | technique | 11/15 |
+| GE-20260820-a35da3 | Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient | technique | 10/15 |

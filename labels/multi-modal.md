@@ -1,0 +1,1 @@
+- GE-20260820-9fe8c4: Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples

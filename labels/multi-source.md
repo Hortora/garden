@@ -1,1 +1,3 @@
 - GE-20260820-f7e922: PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training
+- GE-20260820-146b15: Modality dropout rate must approximate actual missing-modality distribution, not a fixed low percentage
+- GE-20260820-a35da3: Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient

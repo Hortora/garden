@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2855
+**Entries merged since last sweep:** 2859
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2955,6 +2955,10 @@
 - GE-20260820-1721bc [MSC dataset sparse feature vector layout is undocumented — directory naming inverts player perspective](python/GE-20260820-1721bc.md)
 - GE-20260820-5bb979 [numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops](python/GE-20260820-5bb979.md)
 - GE-20260820-f7e922 [PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training](python/GE-20260820-f7e922.md)
+- GE-20260820-c12f8a [ML pipeline label mismatch when consolidation remaps classes but training reads original config](python/GE-20260820-c12f8a.md)
+- GE-20260820-9fe8c4 [Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples](python/GE-20260820-9fe8c4.md)
+- GE-20260820-146b15 [Modality dropout rate must approximate actual missing-modality distribution, not a fixed low percentage](python/GE-20260820-146b15.md)
+- GE-20260820-a35da3 [Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient](python/GE-20260820-a35da3.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)
