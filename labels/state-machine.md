@@ -11,3 +11,4 @@
 - GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()
 - GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events
 - GE-20260814-e95775: Injectable dispatch table for testing state-machine effect protocols
+- GE-20260820-0b708f: PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first
