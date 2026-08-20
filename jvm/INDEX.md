@@ -1486,3 +1486,6 @@
 | GE-20260820-563a2d | POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only | technique | 10/15 |
 | GE-20260820-c19b68 | CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data | gotcha | 9/15 |
 | GE-20260820-aa31ab | Memory eviction test passes unexpectedly — composite retention score masks low importance with high recency | gotcha | 9/15 |
+| GE-20260820-1e268b | quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable | gotcha | 14/15 |
+| GE-20260820-e8e36f | quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries | gotcha | 10/15 |
+| GE-20260820-a43996 | quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion) | gotcha | 10/15 |

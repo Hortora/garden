@@ -1,1 +1,2 @@
 - GE-20260820-a43996: quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server
+- GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)

@@ -1,0 +1,1 @@
+- GE-20260820-e8e36f: quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries

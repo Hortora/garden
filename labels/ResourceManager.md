@@ -1,0 +1,2 @@
+- GE-20260820-1e268b: quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable
+- GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)

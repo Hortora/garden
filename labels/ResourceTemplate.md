@@ -1,2 +1,1 @@
-- GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification
 - GE-20260820-1e268b: quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable

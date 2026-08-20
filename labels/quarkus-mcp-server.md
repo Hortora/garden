@@ -5,3 +5,6 @@
 - GE-20260501-50a9f4: quarkus-mcp-server silently caps tools/list at 50 — tools beyond alphabetical position 50 simply don't appear
 - GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing
 - GE-20260820-a43996: quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server
+- GE-20260820-1e268b: quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable
+- GE-20260820-e8e36f: quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries
+- GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)

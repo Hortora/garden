@@ -81,3 +81,6 @@
 - GE-20260818-c2f072: Testing MCP domain dispatch without CDI — annotation scanning and reflective invocation
 - GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open
 - GE-20260820-a43996: quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server
+- GE-20260820-1e268b: quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable
+- GE-20260820-e8e36f: quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries
+- GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)

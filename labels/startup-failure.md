@@ -5,3 +5,4 @@
 - GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
 - GE-20260814-d85621: Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing
 - GE-20260820-a43996: quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server
+- GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)

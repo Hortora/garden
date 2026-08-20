@@ -1,1 +1,2 @@
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
+- GE-20260820-1e268b: quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable
