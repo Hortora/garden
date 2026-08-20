@@ -12,3 +12,4 @@
 - GE-20260814-d2b419: AdaptationCause is sealed — cannot create custom subtypes outside engine package
 - GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules
 - GE-20260820-d014c7: Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification
+- GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED

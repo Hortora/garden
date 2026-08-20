@@ -1,2 +1,1 @@
-- GE-20260808-94c14d: PlanItemDefinition.Compound.builder() defaults id to random UUID — not to the compound name
 - GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED

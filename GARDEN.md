@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2861
+**Entries merged since last sweep:** 2862
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2157,6 +2157,7 @@
 - GE-20260820-a31880 [Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation](jvm/GE-20260820-a31880.md)
 - GE-20260820-cb694c [WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef](jvm/GE-20260820-cb694c.md)
 - GE-20260820-faa856 [Flyway duplicate version error when merging multiple module migration paths](jvm/GE-20260820-faa856.md)
+- GE-20260820-dda118 [CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED](jvm/GE-20260820-dda118.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

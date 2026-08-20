@@ -129,3 +129,4 @@
 - GE-20260820-d9129a: Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages
 - GE-20260820-cb694c: WorkItemLifecycleEvent has no caseId — use CallerRef.parse() to extract from callerRef
 - GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject
+- GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED
