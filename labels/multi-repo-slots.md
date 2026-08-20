@@ -1,0 +1,1 @@
+- GE-20260820-6fa118: IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git

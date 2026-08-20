@@ -35,3 +35,4 @@
 | GE-20260820-b5877a | IntelliJ MCP ide_edit_member field replacement drops trailing semicolon | gotcha | 9/15 |
 | GE-20260820-54a3a6 | IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names | gotcha | 8/15 |
 | GE-20260820-f45988 | IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout | gotcha | 11/15 |
+| GE-20260820-6fa118 | IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git | gotcha | 12/15 |
