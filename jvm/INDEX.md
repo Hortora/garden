@@ -1489,3 +1489,5 @@
 | GE-20260820-1e268b | quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable | gotcha | 14/15 |
 | GE-20260820-e8e36f | quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries | gotcha | 10/15 |
 | GE-20260820-a43996 | quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion) | gotcha | 10/15 |
+| GE-20260820-d4e011 | FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation | gotcha | 9/15 |
+| GE-20260820-d9129a | Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages | technique | 9/15 |

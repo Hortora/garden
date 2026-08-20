@@ -1,0 +1,1 @@
+- GE-20260820-d9129a: Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages

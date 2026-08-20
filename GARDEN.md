@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2843
+**Entries merged since last sweep:** 2845
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2150,6 +2150,8 @@
 - GE-20260820-1e268b [quarkus-mcp-server ResourceManagerImpl.subscribe() blocks template-resolved URIs — only static resources are subscribable](jvm/GE-20260820-1e268b.md)
 - GE-20260820-e8e36f [quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries](jvm/GE-20260820-e8e36f.md)
 - GE-20260820-a43996 [quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)](jvm/GE-20260820-a43996.md)
+- GE-20260820-d4e011 [FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation](jvm/GE-20260820-d4e011.md)
+- GE-20260820-d9129a [Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages](jvm/GE-20260820-d9129a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

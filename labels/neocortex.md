@@ -6,3 +6,4 @@
 - GE-20260722-cd222c: NoOp/stub implementations must report honest scope — never claim to have analyzed data they didn't examine
 - GE-20260730-2b86fd: InferenceInput.Tensor is rank-2 only — CNN/attention models needing rank-3 input must flatten and reshape internally
 - GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
+- GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation

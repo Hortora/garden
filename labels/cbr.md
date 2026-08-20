@@ -14,3 +14,4 @@
 - GE-20260804-eb75e0: CbrCaseMemoryStore.scan() returns CbrCaseSummary without feature data — use retrieveSimilar for feature-based grouping
 - GE-20260805-4336aa: InMemoryCbrCaseMemoryStore retrieveSimilar returns empty when query scope path differs from stored scope path
 - GE-20260820-c19b68: CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data
+- GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation

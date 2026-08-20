@@ -125,3 +125,5 @@
 - GE-20260816-2058bc: qhorus Space model is complete but undocumented in consumer guides
 - GE-20260818-78bf96: pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered
 - GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface
+- GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation
+- GE-20260820-d9129a: Familiarity score needs volume factor — Laplace smoothing alone lets single interactions jump to high relationship stages
