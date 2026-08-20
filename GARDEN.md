@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2849
+**Entries merged since last sweep:** 2853
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2927,6 +2927,7 @@
 - GE-20260820-19b08c [Parent-first .git check resolves nested child repos to wrong parent](tools/GE-20260820-19b08c.md)
 - GE-20260820-be630e [git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos](tools/GE-20260820-be630e.md)
 - GE-20260820-807538 [Workspace clones named by git remote URL stem avoid work- prefix collisions](tools/GE-20260820-807538.md)
+- GE-20260820-8b6bd3 [Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads](tools/GE-20260820-8b6bd3.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -2949,6 +2950,9 @@
 - GE-20260814-e95775 [Injectable dispatch table for testing state-machine effect protocols](python/GE-20260814-e95775.md)
 - GE-20260814-b47ed9 [Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects](python/GE-20260814-b47ed9.md)
 - GE-20260814-d6aad1 [Path('') silently resolves to CWD — is_dir() returns True for empty strings](python/GE-20260814-d6aad1.md)
+- GE-20260820-1721bc [MSC dataset sparse feature vector layout is undocumented — directory naming inverts player perspective](python/GE-20260820-1721bc.md)
+- GE-20260820-5bb979 [numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops](python/GE-20260820-5bb979.md)
+- GE-20260820-f7e922 [PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training](python/GE-20260820-f7e922.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

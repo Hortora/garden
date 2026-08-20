@@ -1,0 +1,1 @@
+- GE-20260820-f7e922: PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training

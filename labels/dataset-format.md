@@ -1,2 +1,1 @@
-- GE-20260505-d71db6: ocraft ImageData.getData() returns byte[] directly — not ByteString
 - GE-20260820-1721bc: MSC dataset sparse feature vector layout is undocumented — directory naming inverts player perspective

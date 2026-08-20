@@ -1,2 +1,3 @@
 - GE-20260421-d1580e: Passing new Map() per call as a tracking meshMap leaks 3D objects — they are added but can never be removed
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
+- GE-20260820-5bb979: numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops

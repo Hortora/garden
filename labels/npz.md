@@ -1,0 +1,1 @@
+- GE-20260820-5bb979: numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops

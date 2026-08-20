@@ -1,1 +1,2 @@
 - GE-20260804-d378f3: Quarkus dev mode spawns two Java processes on same port — curl via IPv6 hits Maven launcher, not app
+- GE-20260820-8b6bd3: Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads

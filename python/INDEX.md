@@ -15,3 +15,6 @@
 | GE-20260814-e95775 | Injectable dispatch table for testing state-machine effect protocols | technique | 8/15 |
 | GE-20260814-b47ed9 | Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects | gotcha | 10/15 |
 | GE-20260814-d6aad1 | Path('') silently resolves to CWD — is_dir() returns True for empty strings | gotcha | 10/15 |
+| GE-20260820-1721bc | MSC dataset sparse feature vector layout is undocumented — directory naming inverts player perspective | undocumented | 12/15 |
+| GE-20260820-5bb979 | numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops | gotcha | 11/15 |
+| GE-20260820-f7e922 | PyTorch BatchNorm running statistics corrupted by zero-feature samples in multi-source training | gotcha | 10/15 |
