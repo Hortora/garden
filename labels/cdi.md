@@ -430,3 +430,4 @@
 - GE-20260819-b83954: QhorusDashboardService CDI failure is pre-existing — not caused by record changes
 - GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI

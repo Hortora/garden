@@ -243,3 +243,4 @@
 | GE-20260814-d85621 | Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing | gotcha | 13/15 |
 | GE-20260814-cab88c | CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus | technique | 12/15 |
 | GE-20260427-7162b2 | Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port | gotcha | 10/15 |
+| GE-20260414-99a2a3 | Field-inject CDI Event with null guard to keep unit tests free of CDI | technique | 11/15 |

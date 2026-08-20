@@ -5,3 +5,4 @@
 - GE-20260718-052fbc: SmallRye FT Guard.create() fails in plain JUnit tests — needs standalone SPI
 - GE-20260810-fc95fc: YamlCaseHub requires CDI — use CaseDefinitionYamlMapper.load() for unit tests
 - GE-20260812-b14978: Textual widget testability via _build_display() — unit tests without mounting
+- GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI

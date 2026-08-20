@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2853
+**Entries merged since last sweep:** 2854
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -644,6 +644,7 @@
 - GE-20260814-d85621 [Quarkus @McpServer named server requires explicit config — fails at startup with 'Invalid server name' if missing](quarkus/GE-20260814-d85621.md)
 - GE-20260814-cab88c [CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus](quarkus/GE-20260814-cab88c.md)
 - GE-20260427-7162b2 [Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port](quarkus/GE-20260427-7162b2.md)
+- GE-20260414-99a2a3 [Field-inject CDI Event with null guard to keep unit tests free of CDI](quarkus/GE-20260414-99a2a3.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
