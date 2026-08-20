@@ -3,3 +3,4 @@
 - GE-20260522-7c6ec7: Bulk sed rename on markdown files garbles headers with parenthesized values
 - GE-20260623-b460d4: ide_refactor_rename on an import statement renames the class globally, not the import
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
+- GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names

@@ -1483,3 +1483,4 @@
 | GE-20260820-d014c7 | Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification | gotcha | 10/15 |
 | GE-20260820-a43996 | quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server | gotcha | 10/15 |
 | GE-20260820-ac6cc7 | Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries | gotcha | 12/15 |
+| GE-20260820-563a2d | POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only | technique | 10/15 |

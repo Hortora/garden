@@ -35,3 +35,4 @@
 - GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
 - GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering
 - GE-20260818-46c433: Mutiny BroadcastProcessor observer null-guard silently drops events — subscribers hang
+- GE-20260820-563a2d: POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only

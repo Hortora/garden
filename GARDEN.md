@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2834
+**Entries merged since last sweep:** 2837
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -182,6 +182,8 @@
 - GE-20260810-1e1d47 [IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds](claude-code/GE-20260810-1e1d47.md)
 - GE-20260816-6eb6ff [IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible](claude-code/GE-20260816-6eb6ff.md)
 - GE-20260816-7f35fb [design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types](claude-code/GE-20260816-7f35fb.md)
+- GE-20260820-b5877a [IntelliJ MCP ide_edit_member field replacement drops trailing semicolon](claude-code/GE-20260820-b5877a.md)
+- GE-20260820-54a3a6 [IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names](claude-code/GE-20260820-54a3a6.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -2141,6 +2143,7 @@
 - GE-20260820-d014c7 [Layered module records referencing execution-tier types must live in the execution module — import resolution trumps conceptual classification](jvm/GE-20260820-d014c7.md)
 - GE-20260820-a43996 [quarkus-mcp-server ToolManager.newTool().setServerName() rejects named servers — programmatic tools can only register on the default server](jvm/GE-20260820-a43996.md)
 - GE-20260820-ac6cc7 [Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries](jvm/GE-20260820-ac6cc7.md)
+- GE-20260820-563a2d [POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only](jvm/GE-20260820-563a2d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

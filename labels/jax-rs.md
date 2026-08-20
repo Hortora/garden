@@ -32,3 +32,4 @@
 - GE-20260801-75857d: Qhorus ChannelResource auto-mounts REST endpoints in consuming Quarkus apps — no proxy endpoint needed
 - GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
 - GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type
+- GE-20260820-563a2d: POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only

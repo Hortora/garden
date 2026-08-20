@@ -32,3 +32,5 @@
 | GE-20260810-1e1d47 | IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds | gotcha | 9/15 |
 | GE-20260816-6eb6ff | IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible | gotcha | 9/15 |
 | GE-20260816-7f35fb | design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types | gotcha | 8/15 |
+| GE-20260820-b5877a | IntelliJ MCP ide_edit_member field replacement drops trailing semicolon | gotcha | 9/15 |
+| GE-20260820-54a3a6 | IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names | gotcha | 8/15 |

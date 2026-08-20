@@ -1,0 +1,1 @@
+- GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names

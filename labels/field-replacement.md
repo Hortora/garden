@@ -1,0 +1,1 @@
+- GE-20260820-b5877a: IntelliJ MCP ide_edit_member field replacement drops trailing semicolon

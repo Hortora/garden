@@ -63,3 +63,5 @@
 - GE-20260814-afa335: ide_edit_member with member name matching class name replaces entire class declaration
 - GE-20260816-6eb6ff: IntelliJ MCP project loses Maven linkage when another session opens a workspace — dependency types invisible
 - GE-20260820-433248: Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module
+- GE-20260820-b5877a: IntelliJ MCP ide_edit_member field replacement drops trailing semicolon
+- GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names

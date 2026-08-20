@@ -1,0 +1,1 @@
+- GE-20260820-563a2d: POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only

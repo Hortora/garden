@@ -1,2 +1,3 @@
 - GE-20260726-756909: IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings
 - GE-20260804-09f69a: jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports
+- GE-20260820-b5877a: IntelliJ MCP ide_edit_member field replacement drops trailing semicolon
