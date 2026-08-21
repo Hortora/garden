@@ -1,1 +1,2 @@
 - GE-20260820-a35da3: Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient
+- GE-20260821-4b0952: Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning

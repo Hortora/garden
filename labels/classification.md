@@ -1,3 +1,4 @@
 - GE-20260418-58cae8: Drools Salience Controls Firing Order, Not Mutual Exclusion — All Matching Rules Still Fire
 - GE-20260423-522c5a: Design MCP @ToolArg descriptions as LLM classification prompts for typed enumerations
 - GE-20260719-8c18fa: SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy
+- GE-20260821-4b0952: Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning

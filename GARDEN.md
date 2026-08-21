@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2865
+**Entries merged since last sweep:** 2868
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2965,6 +2965,9 @@
 - GE-20260820-9fe8c4 [Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples](python/GE-20260820-9fe8c4.md)
 - GE-20260820-146b15 [Modality dropout rate must approximate actual missing-modality distribution, not a fixed low percentage](python/GE-20260820-146b15.md)
 - GE-20260820-a35da3 [Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient](python/GE-20260820-a35da3.md)
+- GE-20260821-80522d [Source proportion imbalance in multi-source ML training silently collapses model](python/GE-20260821-80522d.md)
+- GE-20260821-4b0952 [Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning](python/GE-20260821-4b0952.md)
+- GE-20260821-a4982a [All-zero feature block detection as pre-merge data quality audit for multi-source ML](python/GE-20260821-a4982a.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

@@ -1,0 +1,2 @@
+- GE-20260821-80522d: Source proportion imbalance in multi-source ML training silently collapses model
+- GE-20260821-a4982a: All-zero feature block detection as pre-merge data quality audit for multi-source ML

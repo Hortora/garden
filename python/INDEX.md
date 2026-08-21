@@ -22,3 +22,6 @@
 | GE-20260820-9fe8c4 | Dual-encoder additive fusion creates scale mismatch between one-modality and two-modality samples | gotcha | 9/15 |
 | GE-20260820-146b15 | Modality dropout rate must approximate actual missing-modality distribution, not a fixed low percentage | technique | 11/15 |
 | GE-20260820-a35da3 | Per-source accuracy breakdown is the key diagnostic for multi-source classifiers — confusion matrix alone is insufficient | technique | 10/15 |
+| GE-20260821-80522d | Source proportion imbalance in multi-source ML training silently collapses model | gotcha | 11/15 |
+| GE-20260821-4b0952 | Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning | technique | 9/15 |
+| GE-20260821-a4982a | All-zero feature block detection as pre-merge data quality audit for multi-source ML | technique | 9/15 |
