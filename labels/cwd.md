@@ -8,3 +8,4 @@
 - GE-20260810-c90963: npx --prefix sets module resolution path but does NOT change working directory
 - GE-20260811-90a15b: git ls-tree silently filters output by CWD prefix — cat-file does not
 - GE-20260814-d6aad1: Path('') silently resolves to CWD — is_dir() returns True for empty strings
+- GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory

@@ -744,3 +744,5 @@
 | GE-20260821-04e9e3 | git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes | gotcha | 11/15 |
 | GE-20260821-ef71ba | IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern | technique | 10/15 |
 | GE-20260821-8383e6 | Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr | gotcha | 11/15 |
+| GE-20260821-7509e8 | ide_edit_member with member=className replaces the entire class body, not just the declaration | gotcha | 11/15 |
+| GE-20260821-2b783c | Maven reads .mvn/ config from CWD, not from -f target directory | gotcha | 8/15 |

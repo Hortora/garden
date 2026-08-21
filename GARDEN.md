@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2875
+**Entries merged since last sweep:** 2877
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2941,6 +2941,8 @@
 - GE-20260821-04e9e3 [git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes](tools/GE-20260821-04e9e3.md)
 - GE-20260821-ef71ba [IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern](tools/GE-20260821-ef71ba.md)
 - GE-20260821-8383e6 [Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr](tools/GE-20260821-8383e6.md)
+- GE-20260821-7509e8 [ide_edit_member with member=className replaces the entire class body, not just the declaration](tools/GE-20260821-7509e8.md)
+- GE-20260821-2b783c [Maven reads .mvn/ config from CWD, not from -f target directory](tools/GE-20260821-2b783c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

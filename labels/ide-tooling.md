@@ -6,3 +6,4 @@
 - GE-20260718-b07bf8: ide_optimize_imports and ide_edit_member reformat=true do not add imports for symbols introduced in the same editing pass
 - GE-20260803-166db7: ide_replace_member creates duplicate method signatures — use ide_edit_member for full declaration replacement
 - GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
+- GE-20260821-7509e8: ide_edit_member with member=className replaces the entire class body, not just the declaration

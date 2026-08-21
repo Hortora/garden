@@ -1,0 +1,1 @@
+- GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory

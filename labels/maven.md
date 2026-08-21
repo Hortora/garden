@@ -223,3 +223,4 @@
 - GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution
 - GE-20260820-433248: Use IntelliJ ide_diagnostics per-file to verify compilation when Maven can't build the full module
 - GE-20260820-a5469a: Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT
+- GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory

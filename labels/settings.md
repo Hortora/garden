@@ -4,3 +4,4 @@
 - GE-20260806-a9d2fd: Maven .mvn/maven.config -s path breaks when cwd differs from project root
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root
+- GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory
