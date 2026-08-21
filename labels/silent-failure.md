@@ -156,3 +156,4 @@
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
 - GE-20260817-cfa0c8: Quarkus @BuildStep methods silently skipped when producing no build items
+- GE-20260821-8383e6: Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr

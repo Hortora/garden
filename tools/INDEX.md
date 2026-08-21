@@ -743,3 +743,4 @@
 | GE-20260821-17fb09 | IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true | gotcha | 9/15 |
 | GE-20260821-04e9e3 | git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes | gotcha | 11/15 |
 | GE-20260821-ef71ba | IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern | technique | 10/15 |
+| GE-20260821-8383e6 | Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr | gotcha | 11/15 |

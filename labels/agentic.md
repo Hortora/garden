@@ -21,3 +21,4 @@
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
 - GE-20260614-3205f6: Use ide_find_references at plan time to enumerate all callers before a method signature change
+- GE-20260821-8383e6: Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr

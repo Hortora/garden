@@ -8,3 +8,4 @@
 - GE-20260618-268aab: Use /bin/cat subprocess to test blocking readLine() loops without a real binary
 - GE-20260618-5e2828: GIT_SEQUENCE_EDITOR cp command breaks silently on paths with spaces — quote the todo file path
 - GE-20260619-c99452: Broken pipe on subprocess stdin when process exits before write completes
+- GE-20260821-8383e6: Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr
