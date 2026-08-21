@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2868
+**Entries merged since last sweep:** 2872
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2161,6 +2161,7 @@
 - GE-20260820-dda118 [CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED](jvm/GE-20260820-dda118.md)
 - GE-20260820-0b708f [PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first](jvm/GE-20260820-0b708f.md)
 - GE-20260820-114e9a [@SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations](jvm/GE-20260820-114e9a.md)
+- GE-20260821-601212 [Java record component auto-implements interface method when name matches — no @Override needed](jvm/GE-20260821-601212.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2936,6 +2937,9 @@
 - GE-20260820-8b6bd3 [Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads](tools/GE-20260820-8b6bd3.md)
 - GE-20260820-a5469a [Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT](tools/GE-20260820-a5469a.md)
 - GE-20260820-49b388 [git clone --shared alternates break silently when source repo directory is moved](tools/GE-20260820-49b388.md)
+- GE-20260821-17fb09 [IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true](tools/GE-20260821-17fb09.md)
+- GE-20260821-04e9e3 [git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes](tools/GE-20260821-04e9e3.md)
+- GE-20260821-ef71ba [IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern](tools/GE-20260821-ef71ba.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

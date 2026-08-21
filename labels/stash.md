@@ -6,3 +6,4 @@
 - GE-20260527-b00814: git stash pop exits 1 after rebase modifies a stashed file — stash is preserved, not lost
 - GE-20260621-8c93d7: git stash pop conflicts on HANDOFF.md when workspace branch and main have diverged
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
+- GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes

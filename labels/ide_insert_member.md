@@ -2,3 +2,4 @@
 - GE-20260714-13b430: ide_insert_member reformat=true silently removes static imports
 - GE-20260712-f68752: IntelliJ MCP ide_optimize_imports does not add missing imports — only removes unused ones
 - GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
+- GE-20260821-17fb09: IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true

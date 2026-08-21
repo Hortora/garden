@@ -14,3 +14,4 @@
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260810-1e1d47: IntelliJ MCP ide_edit_member class replacement doesn't update imports — reformat=true only removes, never adds
+- GE-20260821-17fb09: IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true

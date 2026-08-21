@@ -48,3 +48,4 @@
 - GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
+- GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern

@@ -1497,3 +1497,4 @@
 | GE-20260820-dda118 | CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED | gotcha | 8/15 |
 | GE-20260820-0b708f | PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first | gotcha | 8/15 |
 | GE-20260820-114e9a | @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations | gotcha | 9/15 |
+| GE-20260821-601212 | Java record component auto-implements interface method when name matches — no @Override needed | technique | 8/15 |

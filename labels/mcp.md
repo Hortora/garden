@@ -85,3 +85,6 @@
 - GE-20260820-e8e36f: quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries
 - GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)
 - GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module
+- GE-20260821-17fb09: IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true
+- GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes
+- GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern

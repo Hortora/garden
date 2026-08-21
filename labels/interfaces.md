@@ -1,1 +1,2 @@
 - GE-20260501-a9ea1a: SNAPSHOT dependency upgrade silently breaks interface contracts — compile error points at your class, not the dep
+- GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed

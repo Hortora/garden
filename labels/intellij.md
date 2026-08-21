@@ -71,3 +71,6 @@
 - GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open
 - GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
 - GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module
+- GE-20260821-17fb09: IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true
+- GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes
+- GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern

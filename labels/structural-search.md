@@ -1,1 +1,2 @@
 - GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern
+- GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern

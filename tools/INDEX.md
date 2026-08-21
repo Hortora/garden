@@ -740,3 +740,6 @@
 | GE-20260820-8b6bd3 | Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads | technique | 9/15 |
 | GE-20260820-a5469a | Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT | gotcha | 11/15 |
 | GE-20260820-49b388 | git clone --shared alternates break silently when source repo directory is moved | gotcha | 10/15 |
+| GE-20260821-17fb09 | IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true | gotcha | 9/15 |
+| GE-20260821-04e9e3 | git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes | gotcha | 11/15 |
+| GE-20260821-ef71ba | IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern | technique | 10/15 |
