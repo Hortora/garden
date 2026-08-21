@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2879
+**Entries merged since last sweep:** 2880
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2164,6 +2164,7 @@
 - GE-20260820-114e9a [@SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations](jvm/GE-20260820-114e9a.md)
 - GE-20260821-601212 [Java record component auto-implements interface method when name matches — no @Override needed](jvm/GE-20260821-601212.md)
 - GE-20260821-fd5cc7 [GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric](jvm/GE-20260821-fd5cc7.md)
+- GE-20260821-95732b [Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking](jvm/GE-20260821-95732b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

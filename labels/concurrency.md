@@ -51,3 +51,4 @@
 - GE-20260814-6ddb5c: ConcurrentHashMap guard key persists across Quarkus dev mode class reloads — 409 Conflict until JVM restart
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
 - GE-20260819-8f1dde: JSONL vs JSON for append-heavy persistence — eliminates concurrent write races
+- GE-20260821-95732b: Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking

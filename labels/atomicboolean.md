@@ -1,0 +1,1 @@
+- GE-20260821-95732b: Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking
