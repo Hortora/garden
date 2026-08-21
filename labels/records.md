@@ -18,3 +18,4 @@
 - GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache
 - GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
+- GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors

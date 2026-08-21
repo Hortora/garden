@@ -777,3 +777,5 @@
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
+- GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules

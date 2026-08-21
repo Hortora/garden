@@ -1,0 +1,1 @@
+- GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules

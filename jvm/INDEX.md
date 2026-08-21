@@ -1500,3 +1500,5 @@
 | GE-20260821-601212 | Java record component auto-implements interface method when name matches — no @Override needed | technique | 8/15 |
 | GE-20260821-fd5cc7 | GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric | gotcha | 8/15 |
 | GE-20260821-95732b | Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking | technique | 9/15 |
+| GE-20260821-26161b | Quarkus recorder rejects Java records with non-canonical constructors | gotcha | 11/15 |
+| GE-20260821-b708dc | QuarkusUnitTest only works in the deployment module — fails silently in other modules | gotcha | 9/15 |

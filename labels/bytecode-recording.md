@@ -1,0 +1,1 @@
+- GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors

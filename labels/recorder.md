@@ -1,2 +1,3 @@
 - GE-20260604-3ae124: ConfigPhase.RUN_TIME config cannot be injected as a @BuildStep parameter — use RuntimeValue<T> in recorder
 - GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
+- GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
