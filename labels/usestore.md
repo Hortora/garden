@@ -1,0 +1,1 @@
+- GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription

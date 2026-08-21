@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2872
+**Entries merged since last sweep:** 2874
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3202,6 +3202,8 @@
 - GE-20260819-1b3181 [pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT](web/GE-20260819-1b3181.md)
 - GE-20260819-fe9c37 [Vite alias + cross-repo node_modules causes duplicate Lit custom element registration](web/GE-20260819-fe9c37.md)
 - GE-20260820-1fc6bc [blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject](web/GE-20260820-1fc6bc.md)
+- GE-20260821-2b0612 [Vite pre-bundle cache ignores Yarn portal dependency source changes](web/GE-20260821-2b0612.md)
+- GE-20260821-1a90cd [ReactFlow top-left fit via reactive store bounds subscription](web/GE-20260821-1a90cd.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

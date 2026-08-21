@@ -1,0 +1,1 @@
+- GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes

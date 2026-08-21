@@ -230,3 +230,5 @@
 | GE-20260819-1b3181 | pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT | undocumented | 8/15 |
 | GE-20260819-fe9c37 | Vite alias + cross-repo node_modules causes duplicate Lit custom element registration | gotcha | 8/15 |
 | GE-20260820-1fc6bc | blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject | undocumented | 8/15 |
+| GE-20260821-2b0612 | Vite pre-bundle cache ignores Yarn portal dependency source changes | gotcha | 8/15 |
+| GE-20260821-1a90cd | ReactFlow top-left fit via reactive store bounds subscription | technique | 10/15 |

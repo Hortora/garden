@@ -13,3 +13,4 @@
 - GE-20260710-77483b: Two-cache-field pattern prevents precedence violation in multi-source Lit mixins
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
 - GE-20260819-305ddb: Drools record field change produces misleading CDI errors from stale augmentation cache
+- GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes

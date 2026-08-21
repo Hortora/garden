@@ -11,3 +11,4 @@
 - GE-20260812-a0d705: Barrel re-export pulls in unavailable transitive dependency from unused module
 - GE-20260819-3e7715: Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
+- GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
