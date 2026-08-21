@@ -24,3 +24,4 @@
 - GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
 - GE-20260818-883adc: Competing YAML bindings with overlapping conditions race — faster-completing worker wins, non-deterministic outcome
 - GE-20260819-c5f890: Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state
+- GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state

@@ -1,1 +1,2 @@
 - GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank
+- GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators

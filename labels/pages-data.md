@@ -4,3 +4,4 @@
 - GE-20260717-c99f50: TypedRow passed as Lit property looks like a plain object but direct property access returns undefined
 - GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
 - GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering
+- GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter

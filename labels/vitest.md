@@ -16,3 +16,4 @@
 - GE-20260810-c90963: npx --prefix sets module resolution path but does NOT change working directory
 - GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
+- GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators

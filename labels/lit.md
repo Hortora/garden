@@ -48,3 +48,5 @@
 - GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
 - GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject
+- GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators
+- GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter

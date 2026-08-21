@@ -13,3 +13,4 @@
 - GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies
 - GE-20260814-0cd075: Quarkus Quinoa dev mode does not hot-reload TypeScript source changes — requires clean rebuild
 - GE-20260814-fc5487: npm file: tarball deps need overrides to prevent registry lookups for transitive @casehubio packages
+- GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators
