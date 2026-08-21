@@ -1,0 +1,1 @@
+- GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric

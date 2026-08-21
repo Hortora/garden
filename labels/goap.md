@@ -6,3 +6,4 @@
 - GE-20260818-534e70: Ternary world state changes dispatch-time planning semantics — absent keys go from FALSE to UNKNOWN
 - GE-20260818-6546f0: Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
+- GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric

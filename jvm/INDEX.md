@@ -1498,3 +1498,4 @@
 | GE-20260820-0b708f | PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first | gotcha | 8/15 |
 | GE-20260820-114e9a | @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations | gotcha | 9/15 |
 | GE-20260821-601212 | Java record component auto-implements interface method when name matches — no @Override needed | technique | 8/15 |
+| GE-20260821-fd5cc7 | GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric | gotcha | 8/15 |

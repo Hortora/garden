@@ -443,3 +443,4 @@
 - GE-20260820-aa31ab: Memory eviction test passes unexpectedly — composite retention score masks low importance with high recency
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
+- GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric
