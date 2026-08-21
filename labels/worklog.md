@@ -1,2 +1,3 @@
 - GE-20260801-2ad082: @safe decorator silently swallows signature mismatches when installed lib copy diverges from source
 - GE-20260810-3fc4fe: Lifecycle self-transition pattern for observability-only events
+- GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2885
+**Entries merged since last sweep:** 2887
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2948,6 +2948,8 @@
 - GE-20260821-8383e6 [Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr](tools/GE-20260821-8383e6.md)
 - GE-20260821-7509e8 [ide_edit_member with member=className replaces the entire class body, not just the declaration](tools/GE-20260821-7509e8.md)
 - GE-20260821-2b783c [Maven reads .mvn/ config from CWD, not from -f target directory](tools/GE-20260821-2b783c.md)
+- GE-20260821-ebba3b [work-end can stamp a branch closed and close a GitHub issue without merging code to main](tools/GE-20260821-ebba3b.md)
+- GE-20260821-e9c59e [Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state](tools/GE-20260821-e9c59e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

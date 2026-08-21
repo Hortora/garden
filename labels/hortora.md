@@ -1,3 +1,5 @@
 - GE-20260505-14159c: init_garden.py writes unbolded drift counter — validate_garden --dedupe-check regex silently reads 0
 - GE-20260517-3dddfa: Hortora garden pre-commit hook blocks all commits when untracked GE-*.md files exist
 - GE-20260605-d89e57: Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync
+- GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main
+- GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state

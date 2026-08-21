@@ -34,3 +34,5 @@
 - GE-20260817-649902: Lifecycle .meta → .plan migration leaves phantom tracked files causing persistent dirty-tree failures
 - GE-20260819-55bffe: Per-boundary verification and per-close forcing functions are different scopes
 - GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models
+- GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main
+- GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state

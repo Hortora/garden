@@ -11,3 +11,4 @@
 - GE-20260801-8518b1: SQLite unclosed Statement from PRAGMA holds lock — SQLITE_BUSY on subsequent statements
 - GE-20260811-6c228e: SQLite PRAGMA data_version is per-connection — useless for cross-process change detection
 - GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests
+- GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state

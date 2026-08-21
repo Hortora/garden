@@ -13,3 +13,5 @@
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
 - GE-20260811-343566: CDI 'zero injections' audit misses consumer-side — @Named beans with no @Inject are consumed via Instance<>
 - GE-20260814-2bd7f4: Deferred audit bridge for side-effect-free SPIs via ApplicationScoped pending store
+- GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main
+- GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state

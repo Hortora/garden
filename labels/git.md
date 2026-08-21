@@ -193,3 +193,4 @@
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
 - GE-20260820-49b388: git clone --shared alternates break silently when source repo directory is moved
 - GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes
+- GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main

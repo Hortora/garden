@@ -746,3 +746,5 @@
 | GE-20260821-8383e6 | Claude CLI --max-budget-usd silently kills subprocesses mid-output — exit code 1, $0.00 cost, no stderr | gotcha | 11/15 |
 | GE-20260821-7509e8 | ide_edit_member with member=className replaces the entire class body, not just the declaration | gotcha | 11/15 |
 | GE-20260821-2b783c | Maven reads .mvn/ config from CWD, not from -f target directory | gotcha | 8/15 |
+| GE-20260821-ebba3b | work-end can stamp a branch closed and close a GitHub issue without merging code to main | gotcha | 12/15 |
+| GE-20260821-e9c59e | Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state | technique | 9/15 |
