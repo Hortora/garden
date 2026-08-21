@@ -29,3 +29,4 @@
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
 - GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution
+- GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2864
+**Entries merged since last sweep:** 2865
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -186,6 +186,7 @@
 - GE-20260820-54a3a6 [IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names](claude-code/GE-20260820-54a3a6.md)
 - GE-20260820-f45988 [IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout](claude-code/GE-20260820-f45988.md)
 - GE-20260820-6fa118 [IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git](claude-code/GE-20260820-6fa118.md)
+- GE-20260821-8ada11 [IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module](claude-code/GE-20260821-8ada11.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

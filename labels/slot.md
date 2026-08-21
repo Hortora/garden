@@ -15,3 +15,4 @@
 - GE-20260816-bb680a: slot_manager add_repo() silently skips configure_slot_remotes() on project clone
 - GE-20260816-315875: slot_manager.py add-repo subcommand not wired in CLI despite full implementation existing
 - GE-20260820-a5469a: Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT
+- GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module

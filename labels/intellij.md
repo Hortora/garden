@@ -70,3 +70,4 @@
 - GE-20260818-71c639: IntelliJ MCP ide_replace_text_in_file plain-text mode reports success on multi-line search but does not modify the file
 - GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open
 - GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
+- GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module
