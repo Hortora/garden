@@ -21,3 +21,4 @@
 - GE-20260810-07a4ac: Mutiny atMost() cannot timeout synchronous Uni.createFrom().item() — subscriber thread is blocked
 - GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
 - GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting
+- GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response

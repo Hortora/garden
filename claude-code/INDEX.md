@@ -37,3 +37,4 @@
 | GE-20260820-f45988 | IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout | gotcha | 11/15 |
 | GE-20260820-6fa118 | IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git | gotcha | 12/15 |
 | GE-20260821-8ada11 | IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module | gotcha | 12/15 |
+| GE-20260821-2b40cc | IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response | gotcha | 10/15 |

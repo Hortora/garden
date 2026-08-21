@@ -38,3 +38,4 @@
 - GE-20260813-c50d64: exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
 - GE-20260818-490d91: IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml
+- GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response

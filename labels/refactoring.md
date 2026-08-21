@@ -40,3 +40,4 @@
 - GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls
 - GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
 - GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern
+- GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response
