@@ -19,3 +19,5 @@
 - GE-20260819-e4a72a: Bulk Java record migration via compile-error-driven ide_replace_text_in_file
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
 - GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
+- GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead
+- GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule

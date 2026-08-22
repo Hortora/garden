@@ -5,3 +5,4 @@
 - GE-20260609-02c68a: CDI StartupEvent @Priority ordering: no-priority observer fires at 2500, after @Priority(10) — not before
 - GE-20260609-49e48c: SupervisorAgentService bypasses WorkflowAgentsBuilder SPI — setWorkflowAgentsBuilder cannot intercept it
 - GE-20260804-2e5ca2: Manual Qdrant reindex via REST API — bypass engine MCP when client can't connect
+- GE-20260822-e3e28d: Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts

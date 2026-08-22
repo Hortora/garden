@@ -1,2 +1,3 @@
 - GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes
 - GE-20260818-c69f20: JSON schema default value makes generated getter never return null
+- GE-20260822-b5cf32: LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement

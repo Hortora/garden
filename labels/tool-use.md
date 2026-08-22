@@ -1,0 +1,1 @@
+- GE-20260822-b5cf32: LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement

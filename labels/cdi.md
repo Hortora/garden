@@ -431,3 +431,4 @@
 - GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead

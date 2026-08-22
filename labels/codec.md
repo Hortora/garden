@@ -1,2 +1,3 @@
 - GE-20260618-fcb51b: Vert.x registerDefaultCodec throws in @QuarkusTest when event bus is shared across restarts
 - GE-20260618-c552c3: @InjectMock on @ApplicationScoped bean triggers Quarkus CDI restart → BlackboardEventCodecRegistrar double-registers Vert.x codecs → all subsequent @QuarkusTest classes fail
+- GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead

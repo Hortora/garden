@@ -36,3 +36,4 @@
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
 - GE-20260818-8e9230: MVEL3 nested property access fails against Map<String,Object> — requires POJO context
+- GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule

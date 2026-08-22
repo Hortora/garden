@@ -8,3 +8,4 @@
 - GE-20260730-6ea2ad: torch.onnx.export() requires onnxscript — undeclared dependency in PyTorch 2.13+
 - GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
 - GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
+- GE-20260822-e3e28d: Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts

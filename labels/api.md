@@ -14,3 +14,4 @@
 - GE-20260427-cc77a7: WorkItemLifecycleEvent.workItem() doesn't exist — access WorkItem via source() cast
 - GE-20260701-280819: Slack conversations.list does not return num_members without explicit parameter
 - GE-20260706-5a5d0c: GitHub Packages REST API silently truncates org package listing — no pagination indicator
+- GE-20260822-b5cf32: LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement

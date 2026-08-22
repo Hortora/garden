@@ -748,3 +748,4 @@
 | GE-20260821-2b783c | Maven reads .mvn/ config from CWD, not from -f target directory | gotcha | 8/15 |
 | GE-20260821-ebba3b | work-end can stamp a branch closed and close a GitHub issue without merging code to main | gotcha | 12/15 |
 | GE-20260821-e9c59e | Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state | technique | 9/15 |
+| GE-20260822-e3e28d | Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts | technique | 9/15 |

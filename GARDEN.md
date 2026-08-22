@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2887
+**Entries merged since last sweep:** 2891
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2167,6 +2167,9 @@
 - GE-20260821-95732b [Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking](jvm/GE-20260821-95732b.md)
 - GE-20260821-26161b [Quarkus recorder rejects Java records with non-canonical constructors](jvm/GE-20260821-26161b.md)
 - GE-20260821-b708dc [QuarkusUnitTest only works in the deployment module — fails silently in other modules](jvm/GE-20260821-b708dc.md)
+- GE-20260822-86fce9 [Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead](jvm/GE-20260822-86fce9.md)
+- GE-20260822-f78d02 [Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule](jvm/GE-20260822-f78d02.md)
+- GE-20260822-b5cf32 [LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement](jvm/GE-20260822-b5cf32.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2950,6 +2953,7 @@
 - GE-20260821-2b783c [Maven reads .mvn/ config from CWD, not from -f target directory](tools/GE-20260821-2b783c.md)
 - GE-20260821-ebba3b [work-end can stamp a branch closed and close a GitHub issue without merging code to main](tools/GE-20260821-ebba3b.md)
 - GE-20260821-e9c59e [Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state](tools/GE-20260821-e9c59e.md)
+- GE-20260822-e3e28d [Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts](tools/GE-20260822-e3e28d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

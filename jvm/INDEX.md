@@ -1502,3 +1502,6 @@
 | GE-20260821-95732b | Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking | technique | 9/15 |
 | GE-20260821-26161b | Quarkus recorder rejects Java records with non-canonical constructors | gotcha | 11/15 |
 | GE-20260821-b708dc | QuarkusUnitTest only works in the deployment module — fails silently in other modules | gotcha | 9/15 |
+| GE-20260822-86fce9 | Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead | gotcha | 12/15 |
+| GE-20260822-f78d02 | Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule | gotcha | 10/15 |
+| GE-20260822-b5cf32 | LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement | undocumented | 9/15 |

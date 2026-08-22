@@ -1,0 +1,1 @@
+- GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule

@@ -10,3 +10,4 @@
 - GE-20260724-dc9748: @RunOnVirtualThread breaks Vert.x event bus reply mechanism in Quarkus @ConsumeEvent
 - GE-20260724-7b07f5: Replace event bus request-reply with direct injection for single-consumer blocking handlers
 - GE-20260819-c5f890: Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state
+- GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead

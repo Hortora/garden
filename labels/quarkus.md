@@ -779,3 +779,4 @@
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
 - GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
 - GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules
+- GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead

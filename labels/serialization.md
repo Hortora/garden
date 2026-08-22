@@ -16,3 +16,4 @@
 - GE-20260804-0725e5: Jackson ObjectNode.putPOJO() produces nodes that readerForListOf() cannot deserialize
 - GE-20260805-6b1f56: Java Duration.ofDays normalizes to hours in ISO-8601 serialization
 - GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
+- GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule
