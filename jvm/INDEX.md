@@ -1508,3 +1508,4 @@
 | GE-20260822-0a4eed | db-scheduler v16 shades cron-utils — imports from com.cronutils fail | gotcha | 8/15 |
 | GE-20260822-3c7f0f | db-scheduler OneTimeTask reschedule from handler causes duplicate key | gotcha | 9/15 |
 | GE-20260822-74a43e | SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving | gotcha | 8/15 |
+| GE-20260822-b33f5c | ONNX models with padding masks: z-score normalization must skip zero-padded windows | gotcha | 9/15 |

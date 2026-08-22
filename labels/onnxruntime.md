@@ -1,2 +1,3 @@
 - GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
 - GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
+- GE-20260822-b33f5c: ONNX models with padding masks: z-score normalization must skip zero-padded windows
