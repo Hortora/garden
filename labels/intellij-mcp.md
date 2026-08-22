@@ -68,3 +68,4 @@
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
 - GE-20260820-6fa118: IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git
 - GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response
+- GE-20260822-abd492: ide_edit_member destroys class when member name matches class name

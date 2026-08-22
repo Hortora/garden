@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2891
+**Entries merged since last sweep:** 2892
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2954,6 +2954,7 @@
 - GE-20260821-ebba3b [work-end can stamp a branch closed and close a GitHub issue without merging code to main](tools/GE-20260821-ebba3b.md)
 - GE-20260821-e9c59e [Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state](tools/GE-20260821-e9c59e.md)
 - GE-20260822-e3e28d [Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts](tools/GE-20260822-e3e28d.md)
+- GE-20260822-abd492 [ide_edit_member destroys class when member name matches class name](tools/GE-20260822-abd492.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
