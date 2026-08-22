@@ -2,3 +2,4 @@
 - GE-20260426-805acb: workflow_dispatch trigger definition is cached — adding it doesn't immediately enable manual dispatch
 - GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule
 - GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled
+- GE-20260822-3c7f0f: db-scheduler OneTimeTask reschedule from handler causes duplicate key

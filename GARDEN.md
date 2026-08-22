@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2892
+**Entries merged since last sweep:** 2894
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2170,6 +2170,8 @@
 - GE-20260822-86fce9 [Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead](jvm/GE-20260822-86fce9.md)
 - GE-20260822-f78d02 [Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule](jvm/GE-20260822-f78d02.md)
 - GE-20260822-b5cf32 [LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement](jvm/GE-20260822-b5cf32.md)
+- GE-20260822-0a4eed [db-scheduler v16 shades cron-utils — imports from com.cronutils fail](jvm/GE-20260822-0a4eed.md)
+- GE-20260822-3c7f0f [db-scheduler OneTimeTask reschedule from handler causes duplicate key](jvm/GE-20260822-3c7f0f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

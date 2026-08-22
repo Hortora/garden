@@ -225,3 +225,4 @@
 - GE-20260820-a5469a: Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT
 - GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory
 - GE-20260822-e3e28d: Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts
+- GE-20260822-0a4eed: db-scheduler v16 shades cron-utils — imports from com.cronutils fail

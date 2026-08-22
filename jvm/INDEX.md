@@ -1505,3 +1505,5 @@
 | GE-20260822-86fce9 | Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead | gotcha | 12/15 |
 | GE-20260822-f78d02 | Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule | gotcha | 10/15 |
 | GE-20260822-b5cf32 | LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement | undocumented | 9/15 |
+| GE-20260822-0a4eed | db-scheduler v16 shades cron-utils — imports from com.cronutils fail | gotcha | 8/15 |
+| GE-20260822-3c7f0f | db-scheduler OneTimeTask reschedule from handler causes duplicate key | gotcha | 9/15 |

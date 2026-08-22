@@ -1,0 +1,2 @@
+- GE-20260822-0a4eed: db-scheduler v16 shades cron-utils — imports from com.cronutils fail
+- GE-20260822-3c7f0f: db-scheduler OneTimeTask reschedule from handler causes duplicate key

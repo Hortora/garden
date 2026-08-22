@@ -30,3 +30,4 @@
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
 - GE-20260803-b9e2af: Maven slot worktrees resolve SNAPSHOTs from a local .m2 that shadows ~/.m2 — mvn install to ~/.m2 is invisible
 - GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
+- GE-20260822-0a4eed: db-scheduler v16 shades cron-utils — imports from com.cronutils fail
