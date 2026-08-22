@@ -1507,3 +1507,4 @@
 | GE-20260822-b5cf32 | LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement | undocumented | 9/15 |
 | GE-20260822-0a4eed | db-scheduler v16 shades cron-utils — imports from com.cronutils fail | gotcha | 8/15 |
 | GE-20260822-3c7f0f | db-scheduler OneTimeTask reschedule from handler causes duplicate key | gotcha | 9/15 |
+| GE-20260822-74a43e | SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving | gotcha | 8/15 |
