@@ -71,3 +71,5 @@
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
 - GE-20260822-a5d8f2: IntelliJ SSR strips fully-qualified class names from constructor replacement patterns
 - GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
+- GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor
+- GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file

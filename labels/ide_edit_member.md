@@ -12,3 +12,4 @@
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure
 - GE-20260814-afa335: ide_edit_member with member name matching class name replaces entire class declaration
 - GE-20260820-b5877a: IntelliJ MCP ide_edit_member field replacement drops trailing semicolon
+- GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2899
+**Entries merged since last sweep:** 2901
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -257,6 +257,8 @@
 - GE-20260803-ecb4d5 [IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure](intellij-platform/GE-20260803-ecb4d5.md)
 - GE-20260814-afa335 [ide_edit_member with member name matching class name replaces entire class declaration](intellij-platform/GE-20260814-afa335.md)
 - GE-20260818-490d91 [IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml](intellij-platform/GE-20260818-490d91.md)
+- GE-20260823-c14bbf [ide_edit_member with member=ClassName replaces the entire class, not the constructor](intellij-platform/GE-20260823-c14bbf.md)
+- GE-20260823-c9d1dd [IntelliJ MCP tool writes may not flush to disk before git add stages the file](intellij-platform/GE-20260823-c9d1dd.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)

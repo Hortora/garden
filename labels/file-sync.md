@@ -1,0 +1,1 @@
+- GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file
