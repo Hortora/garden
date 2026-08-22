@@ -57,3 +57,4 @@
 - GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
 - GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
+- GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass

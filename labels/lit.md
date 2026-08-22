@@ -50,3 +50,4 @@
 - GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject
 - GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators
 - GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter
+- GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass

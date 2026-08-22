@@ -1,0 +1,1 @@
+- GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass

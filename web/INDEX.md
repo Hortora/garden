@@ -235,3 +235,4 @@
 | GE-20260821-d61150 | Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators | gotcha | 8/15 |
 | GE-20260821-05fb0e | EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter | gotcha | 8/15 |
 | GE-20260821-b6af20 | Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state | gotcha | 9/15 |
+| GE-20260822-dd986e | PagesElement render gate blocks standalone usage — data property does not bypass | gotcha | 11/15 |
