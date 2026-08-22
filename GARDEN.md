@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2897
+**Entries merged since last sweep:** 2899
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -188,6 +188,8 @@
 - GE-20260820-6fa118 [IntelliJ MCP indexes the checked-out branch only — classes from other branches are invisible even when commits exist in git](claude-code/GE-20260820-6fa118.md)
 - GE-20260821-8ada11 [IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module](claude-code/GE-20260821-8ada11.md)
 - GE-20260821-2b40cc [IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response](claude-code/GE-20260821-2b40cc.md)
+- GE-20260822-a5d8f2 [IntelliJ SSR strips fully-qualified class names from constructor replacement patterns](claude-code/GE-20260822-a5d8f2.md)
+- GE-20260822-150983 [Bulk Java record constructor extension via IntelliJ SSR](claude-code/GE-20260822-150983.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

@@ -1,1 +1,3 @@
 - GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern
+- GE-20260822-a5d8f2: IntelliJ SSR strips fully-qualified class names from constructor replacement patterns
+- GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR

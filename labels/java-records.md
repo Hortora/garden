@@ -18,3 +18,4 @@
 - GE-20260804-c21841: IntelliJ MCP ide_edit_member with member=className on Java records replaces entire class body — inner records and methods destroyed
 - GE-20260807-9a4872: Jackson @JsonIgnore on record component passes null during deserialization — derived @JsonProperty methods NPE at serialization time
 - GE-20260810-502dec: Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify
+- GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
