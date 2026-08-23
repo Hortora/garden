@@ -1,2 +1,1 @@
-- GE-20260630-e9370e: DER SEQUENCE single-byte length encoding silently corrupts P-521 EC signatures
 - GE-20260823-11ffe5: CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering

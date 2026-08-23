@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2915
+**Entries merged since last sweep:** 2916
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2187,6 +2187,7 @@
 - GE-20260823-761bac [CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>](jvm/GE-20260823-761bac.md)
 - GE-20260823-7346ff [Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites](jvm/GE-20260823-7346ff.md)
 - GE-20260823-bf3452 [Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types](jvm/GE-20260823-bf3452.md)
+- GE-20260823-11ffe5 [CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering](jvm/GE-20260823-11ffe5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

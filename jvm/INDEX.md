@@ -1517,3 +1517,4 @@
 | GE-20260823-761bac | CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T> | gotcha | 13/15 |
 | GE-20260823-7346ff | Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites | technique | 10/15 |
 | GE-20260823-bf3452 | Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types | gotcha | 10/15 |
+| GE-20260823-11ffe5 | CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering | gotcha | 8/15 |

@@ -4,3 +4,4 @@
 - GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
 - GE-20260628-f5c99f: Functional interface abstraction masks required query parameters — tenancy-scoped lookup silently ignored
 - GE-20260701-5c818b: AgentProvider has two abstract methods — not a functional interface, lambdas fail at compile time
+- GE-20260823-11ffe5: CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering
