@@ -445,3 +445,4 @@
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
 - GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric
 - GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules
+- GE-20260823-7b17ad: TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities

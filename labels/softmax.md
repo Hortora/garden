@@ -1,2 +1,1 @@
-- GE-20260610-583563: Fail-closed classifier paths must derive all gate metadata from the domain type — never hardcode defaults
 - GE-20260823-7b17ad: TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities

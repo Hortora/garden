@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2901
+**Entries merged since last sweep:** 2902
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2178,6 +2178,7 @@
 - GE-20260822-3c7f0f [db-scheduler OneTimeTask reschedule from handler causes duplicate key](jvm/GE-20260822-3c7f0f.md)
 - GE-20260822-74a43e [SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving](jvm/GE-20260822-74a43e.md)
 - GE-20260822-b33f5c [ONNX models with padding masks: z-score normalization must skip zero-padded windows](jvm/GE-20260822-b33f5c.md)
+- GE-20260823-7b17ad [TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities](jvm/GE-20260823-7b17ad.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
