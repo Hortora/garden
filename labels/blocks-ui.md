@@ -8,3 +8,4 @@
 - GE-20260810-9264db: LedgerEntryResponse.metadata field name doesn't match blocks-audit-trail-viewer's payload expectation
 - GE-20260810-cfc53d: casehub-pages buildDataSetScope creates static scope at loadSite() — no runtime dataset mutation API
 - GE-20260820-1fc6bc: blocks-approval-gate accepts arbitrary OutcomeDefinition[] — not locked to approve/reject
+- GE-20260823-324804: blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints

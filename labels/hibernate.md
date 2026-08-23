@@ -92,3 +92,4 @@
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
 - GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
 - GE-20260817-190e09: HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker
+- GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery

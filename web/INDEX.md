@@ -238,3 +238,4 @@
 | GE-20260822-dd986e | PagesElement render gate blocks standalone usage — data property does not bypass | gotcha | 11/15 |
 | GE-20260823-590f19 | Pages gallery new component type requires three separate registration points | gotcha | 12/15 |
 | GE-20260823-211f3e | WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages | gotcha | 10/15 |
+| GE-20260823-324804 | blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints | gotcha | 9/15 |

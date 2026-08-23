@@ -1,1 +1,2 @@
 - GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
+- GE-20260823-324804: blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints

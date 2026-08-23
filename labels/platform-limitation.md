@@ -1,0 +1,1 @@
+- GE-20260823-324804: blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints

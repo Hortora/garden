@@ -782,3 +782,4 @@
 - GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead
 - GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
+- GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery

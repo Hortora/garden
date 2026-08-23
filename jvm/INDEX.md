@@ -1513,3 +1513,4 @@
 | GE-20260823-8a1b86 | jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope | gotcha | 9/15 |
 | GE-20260823-28398d | SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents() | gotcha | 10/15 |
 | GE-20260823-bff285 | Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds | technique | 10/15 |
+| GE-20260618-08cb96 | Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery | gotcha | 11/15 |

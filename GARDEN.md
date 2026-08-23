@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2909
+**Entries merged since last sweep:** 2911
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2183,6 +2183,7 @@
 - GE-20260823-8a1b86 [jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope](jvm/GE-20260823-8a1b86.md)
 - GE-20260823-28398d [SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()](jvm/GE-20260823-28398d.md)
 - GE-20260823-bff285 [Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds](jvm/GE-20260823-bff285.md)
+- GE-20260618-08cb96 [Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery](jvm/GE-20260618-08cb96.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3239,6 +3240,7 @@
 - GE-20260822-dd986e [PagesElement render gate blocks standalone usage — data property does not bypass](web/GE-20260822-dd986e.md)
 - GE-20260823-590f19 [Pages gallery new component type requires three separate registration points](web/GE-20260823-590f19.md)
 - GE-20260823-211f3e [WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages](web/GE-20260823-211f3e.md)
+- GE-20260823-324804 [blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints](web/GE-20260823-324804.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
