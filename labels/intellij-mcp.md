@@ -73,3 +73,4 @@
 - GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
 - GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor
 - GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file
+- GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline

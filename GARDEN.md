@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2902
+**Entries merged since last sweep:** 2905
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2964,6 +2964,7 @@
 - GE-20260821-e9c59e [Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state](tools/GE-20260821-e9c59e.md)
 - GE-20260822-e3e28d [Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts](tools/GE-20260822-e3e28d.md)
 - GE-20260822-abd492 [ide_edit_member destroys class when member name matches class name](tools/GE-20260822-abd492.md)
+- GE-20260823-b3c657 [IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline](tools/GE-20260823-b3c657.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -3232,6 +3233,8 @@
 - GE-20260821-05fb0e [EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter](web/GE-20260821-05fb0e.md)
 - GE-20260821-b6af20 [Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state](web/GE-20260821-b6af20.md)
 - GE-20260822-dd986e [PagesElement render gate blocks standalone usage — data property does not bypass](web/GE-20260822-dd986e.md)
+- GE-20260823-590f19 [Pages gallery new component type requires three separate registration points](web/GE-20260823-590f19.md)
+- GE-20260823-211f3e [WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages](web/GE-20260823-211f3e.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

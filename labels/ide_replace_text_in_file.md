@@ -5,3 +5,4 @@
 - GE-20260804-e391e9: ide_replace_text_in_file silently strips imports added before referencing code exists
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure
 - GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names
+- GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline

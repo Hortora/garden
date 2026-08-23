@@ -1,2 +1,1 @@
-- GE-20260813-674be0: casehub-pages YAML desugarer drops unknown component props silently
 - GE-20260823-590f19: Pages gallery new component type requires three separate registration points

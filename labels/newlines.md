@@ -1,0 +1,1 @@
+- GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline

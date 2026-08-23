@@ -1,0 +1,1 @@
+- GE-20260823-211f3e: WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages
