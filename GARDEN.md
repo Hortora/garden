@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2919
+**Entries merged since last sweep:** 2921
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2190,6 +2190,8 @@
 - GE-20260823-11ffe5 [CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering](jvm/GE-20260823-11ffe5.md)
 - GE-20260823-5b705f [TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks](jvm/GE-20260823-5b705f.md)
 - GE-20260823-edbf2b [composite() source replaces REST snapshot with empty WebSocket accumulator on first push](jvm/GE-20260823-edbf2b.md)
+- GE-20260823-22f56f [Quarkus multi-module sibling beans need explicit index-dependency after mvn clean](jvm/GE-20260823-22f56f.md)
+- GE-20260823-43c64b [SmallRye Config rejects empty string for required String config properties](jvm/GE-20260823-43c64b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

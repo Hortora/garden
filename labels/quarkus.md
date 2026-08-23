@@ -783,3 +783,5 @@
 - GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
+- GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
+- GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
