@@ -16,3 +16,4 @@
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
 - GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260823-38336f: WorkItemLifecycleEvent has no scope() — filter via workItem().scope() with null guard

@@ -28,3 +28,4 @@
 - GE-20260810-49ac78: PlanItemCompletionApplier did not handle ESCALATED — WorkItem terminal state left PlanItem permanently DELEGATED
 - GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains
 - GE-20260810-878d00: Scope path encoding for metadata propagation to SlaBreachContext
+- GE-20260823-38336f: WorkItemLifecycleEvent has no scope() — filter via workItem().scope() with null guard

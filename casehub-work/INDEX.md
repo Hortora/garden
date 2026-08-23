@@ -15,3 +15,4 @@
 | GE-20260629-45f4be | REJECTED WorkItem blocks callerRef permanently — findByCallerRef returns terminal state on every poll cycle | gotcha | 11/15 |
 | GE-20260629-db82b4 | WorkItemService.reject() reason parameter goes to audit events only — not stored on WorkItem.resolution | undocumented | 10/15 |
 | GE-20260805-10e5dd | CaseQueueService.escalate() silently sets viewName to null on the target entry | undocumented | 8/15 |
+| GE-20260823-38336f | WorkItemLifecycleEvent has no scope() — filter via workItem().scope() with null guard | gotcha | 9/15 |
