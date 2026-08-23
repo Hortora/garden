@@ -1,0 +1,1 @@
+- GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope

@@ -1,0 +1,1 @@
+- GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds

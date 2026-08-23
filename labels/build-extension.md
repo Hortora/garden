@@ -4,3 +4,5 @@
 - GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception
 - GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
 - GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules
+- GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope
+- GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds

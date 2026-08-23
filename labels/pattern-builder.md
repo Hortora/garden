@@ -1,0 +1,1 @@
+- GE-20260823-28398d: SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()

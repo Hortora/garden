@@ -1,3 +1,4 @@
 - GE-20260810-907918: casehub-blocks CDI routing strategy ambiguity requires arc.exclude-types
 - GE-20260811-aa9a26: casehub-blocks dependency transitively requires 5 neocortex-memory config properties
 - GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept
+- GE-20260823-28398d: SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()

@@ -1510,3 +1510,6 @@
 | GE-20260822-74a43e | SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving | gotcha | 8/15 |
 | GE-20260822-b33f5c | ONNX models with padding masks: z-score normalization must skip zero-padded windows | gotcha | 9/15 |
 | GE-20260823-7b17ad | TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities | gotcha | 9/15 |
+| GE-20260823-8a1b86 | jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope | gotcha | 9/15 |
+| GE-20260823-28398d | SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents() | gotcha | 10/15 |
+| GE-20260823-bff285 | Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds | technique | 10/15 |

@@ -36,3 +36,5 @@
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
 - GE-20260819-e4a624: Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
+- GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope
+- GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
