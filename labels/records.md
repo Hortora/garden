@@ -21,3 +21,4 @@
 - GE-20260821-26161b: Quarkus recorder rejects Java records with non-canonical constructors
 - GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead
 - GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule
+- GE-20260823-7346ff: Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites

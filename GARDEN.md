@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2911
+**Entries merged since last sweep:** 2915
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2184,6 +2184,9 @@
 - GE-20260823-28398d [SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()](jvm/GE-20260823-28398d.md)
 - GE-20260823-bff285 [Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds](jvm/GE-20260823-bff285.md)
 - GE-20260618-08cb96 [Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery](jvm/GE-20260618-08cb96.md)
+- GE-20260823-761bac [CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>](jvm/GE-20260823-761bac.md)
+- GE-20260823-7346ff [Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites](jvm/GE-20260823-7346ff.md)
+- GE-20260823-bf3452 [Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types](jvm/GE-20260823-bf3452.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -2970,6 +2973,7 @@
 - GE-20260822-e3e28d [Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts](tools/GE-20260822-e3e28d.md)
 - GE-20260822-abd492 [ide_edit_member destroys class when member name matches class name](tools/GE-20260822-abd492.md)
 - GE-20260823-b3c657 [IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline](tools/GE-20260823-b3c657.md)
+- GE-20260823-68f909 [Untracked .plan files on workspace main survive branch switches and block work-start with stale state](tools/GE-20260823-68f909.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

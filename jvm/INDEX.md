@@ -1514,3 +1514,6 @@
 | GE-20260823-28398d | SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents() | gotcha | 10/15 |
 | GE-20260823-bff285 | Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds | technique | 10/15 |
 | GE-20260618-08cb96 | Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery | gotcha | 11/15 |
+| GE-20260823-761bac | CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T> | gotcha | 13/15 |
+| GE-20260823-7346ff | Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites | technique | 10/15 |
+| GE-20260823-bf3452 | Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types | gotcha | 10/15 |

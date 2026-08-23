@@ -26,3 +26,4 @@
 - GE-20260818-5973e2: IntelliJ MCP ide_open_project works for new repos; ide_open_workspace fails with multiple projects open
 - GE-20260820-19b08c: Parent-first .git check resolves nested child repos to wrong parent
 - GE-20260820-807538: Workspace clones named by git remote URL stem avoid work- prefix collisions
+- GE-20260823-68f909: Untracked .plan files on workspace main survive branch switches and block work-start with stale state

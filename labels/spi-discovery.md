@@ -1,0 +1,1 @@
+- GE-20260823-761bac: CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>

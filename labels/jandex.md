@@ -38,3 +38,4 @@
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
 - GE-20260823-8a1b86: jandex-gizmo2 from quarkus-arc-deployment does not expose Jandex Indexer at compile scope
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
+- GE-20260823-761bac: CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>

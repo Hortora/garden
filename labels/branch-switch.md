@@ -1,2 +1,1 @@
-- GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
 - GE-20260823-68f909: Untracked .plan files on workspace main survive branch switches and block work-start with stale state

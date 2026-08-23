@@ -434,3 +434,4 @@
 - GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead
 - GE-20260822-74a43e: SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving
 - GE-20260823-38336f: WorkItemLifecycleEvent has no scope() — filter via workItem().scope() with null guard
+- GE-20260823-761bac: CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>

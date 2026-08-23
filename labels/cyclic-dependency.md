@@ -1,0 +1,1 @@
+- GE-20260823-bf3452: Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types

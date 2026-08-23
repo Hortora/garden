@@ -1,3 +1,4 @@
 - GE-20260501-3372e9: Use javap + jar/strings on installed JARs and jandex.idx to diagnose API signature changes and tool registration at the bytecode level
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
+- GE-20260823-7346ff: Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites

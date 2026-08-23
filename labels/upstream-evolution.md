@@ -1,0 +1,1 @@
+- GE-20260823-7346ff: Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites
