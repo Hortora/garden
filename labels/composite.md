@@ -2,3 +2,4 @@
 - GE-20260621-f9970f: tsc --noEmit works with composite projects but tsc --build --noEmit fails — different emit requirements
 - GE-20260714-cdd0f2: tsc composite build with stale .tsbuildinfo silently emits no .js files — exit code 0, no warning
 - GE-20260806-d34211: TypeScript composite mode emits TS4094 for private/protected members on exported Lit mixin classes
+- GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push

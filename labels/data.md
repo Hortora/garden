@@ -1,0 +1,1 @@
+- GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push

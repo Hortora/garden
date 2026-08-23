@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2916
+**Entries merged since last sweep:** 2919
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2188,6 +2188,8 @@
 - GE-20260823-7346ff [Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites](jvm/GE-20260823-7346ff.md)
 - GE-20260823-bf3452 [Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types](jvm/GE-20260823-bf3452.md)
 - GE-20260823-11ffe5 [CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering](jvm/GE-20260823-11ffe5.md)
+- GE-20260823-5b705f [TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks](jvm/GE-20260823-5b705f.md)
+- GE-20260823-edbf2b [composite() source replaces REST snapshot with empty WebSocket accumulator on first push](jvm/GE-20260823-edbf2b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3246,6 +3248,7 @@
 - GE-20260823-590f19 [Pages gallery new component type requires three separate registration points](web/GE-20260823-590f19.md)
 - GE-20260823-211f3e [WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages](web/GE-20260823-211f3e.md)
 - GE-20260823-324804 [blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints](web/GE-20260823-324804.md)
+- GE-20260823-a02b08 [pages page() nested children need interactive container for navigation — shared path segment](web/GE-20260823-a02b08.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

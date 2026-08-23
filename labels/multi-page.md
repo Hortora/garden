@@ -1,2 +1,1 @@
-- GE-20260621-90ec54: Record navigation silently fails with non-unique idColumn — filter matches multiple rows
 - GE-20260823-a02b08: pages page() nested children need interactive container for navigation — shared path segment

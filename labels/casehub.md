@@ -134,3 +134,6 @@
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
 - GE-20260823-28398d: SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()
 - GE-20260823-324804: blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints
+- GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
+- GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
+- GE-20260823-a02b08: pages page() nested children need interactive container for navigation — shared path segment

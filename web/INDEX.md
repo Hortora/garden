@@ -239,3 +239,4 @@
 | GE-20260823-590f19 | Pages gallery new component type requires three separate registration points | gotcha | 12/15 |
 | GE-20260823-211f3e | WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages | gotcha | 10/15 |
 | GE-20260823-324804 | blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints | gotcha | 9/15 |
+| GE-20260823-a02b08 | pages page() nested children need interactive container for navigation — shared path segment | undocumented | 8/15 |

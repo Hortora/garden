@@ -1518,3 +1518,5 @@
 | GE-20260823-7346ff | Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites | technique | 10/15 |
 | GE-20260823-bf3452 | Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types | gotcha | 10/15 |
 | GE-20260823-11ffe5 | CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering | gotcha | 8/15 |
+| GE-20260823-5b705f | TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks | gotcha | 10/15 |
+| GE-20260823-edbf2b | composite() source replaces REST snapshot with empty WebSocket accumulator on first push | gotcha | 10/15 |

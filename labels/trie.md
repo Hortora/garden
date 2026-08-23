@@ -1,0 +1,1 @@
+- GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks

@@ -8,3 +8,4 @@
 - GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
 - GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor
+- GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push

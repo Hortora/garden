@@ -25,3 +25,5 @@
 - GE-20260819-3e7715: Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints
 - GE-20260819-519340: SmallRye JWT blocks WebSocket upgrades without explicit permit policy
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
+- GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
+- GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
