@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2922
+**Entries merged since last sweep:** 2923
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3012,6 +3012,7 @@
 - GE-20260821-80522d [Source proportion imbalance in multi-source ML training silently collapses model](python/GE-20260821-80522d.md)
 - GE-20260821-4b0952 [Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning](python/GE-20260821-4b0952.md)
 - GE-20260821-a4982a [All-zero feature block detection as pre-merge data quality audit for multi-source ML](python/GE-20260821-a4982a.md)
+- GE-20260824-46ff2c [Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state](python/GE-20260824-46ff2c.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

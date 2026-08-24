@@ -1,2 +1,1 @@
-- GE-20260806-9e8007: RandomAccessFile tail-read must skip trailing newline before counting line boundaries
 - GE-20260824-46ff2c: Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state

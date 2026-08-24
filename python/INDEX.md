@@ -25,3 +25,4 @@
 | GE-20260821-80522d | Source proportion imbalance in multi-source ML training silently collapses model | gotcha | 11/15 |
 | GE-20260821-4b0952 | Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning | technique | 9/15 |
 | GE-20260821-a4982a | All-zero feature block detection as pre-merge data quality audit for multi-source ML | technique | 9/15 |
+| GE-20260824-46ff2c | Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state | gotcha | 10/15 |

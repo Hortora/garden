@@ -9,3 +9,4 @@
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
 - GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor
 - GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
+- GE-20260824-46ff2c: Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state
