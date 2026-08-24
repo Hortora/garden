@@ -1,1 +1,2 @@
 - GE-20260609-616994: Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router
+- GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases

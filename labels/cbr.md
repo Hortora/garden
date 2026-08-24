@@ -16,3 +16,5 @@
 - GE-20260820-c19b68: CbrQuery has no producerAgentId filter — agent-scoped memory queries return all agents' data
 - GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation
 - GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric
+- GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
+- GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases

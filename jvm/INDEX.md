@@ -1524,3 +1524,5 @@
 | GE-20260823-43c64b | SmallRye Config rejects empty string for required String config properties | gotcha | 9/15 |
 | GE-20260824-e2f1ba | Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws | gotcha | 11/15 |
 | GE-20260824-7263e2 | DriveSource Map.put overwrites existing axis values — use DriveComposer modulation layer for cross-axis effects | gotcha | 9/15 |
+| GE-20260824-cd6a90 | neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted | gotcha | 11/15 |
+| GE-20260824-829f7a | neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases | undocumented | 10/15 |

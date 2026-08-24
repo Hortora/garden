@@ -9,3 +9,4 @@
 - GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
 - GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
 - GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
+- GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
