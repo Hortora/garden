@@ -1,0 +1,1 @@
+- GE-20260824-c6fbb4: IntelliJ MCP ide_edit_member replaces entire class when member name matches class name

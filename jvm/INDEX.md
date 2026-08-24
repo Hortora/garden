@@ -1527,3 +1527,4 @@
 | GE-20260824-cd6a90 | neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted | gotcha | 11/15 |
 | GE-20260824-829f7a | neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases | undocumented | 10/15 |
 | GE-20260824-2eb1d7 | victools/jsonschema-generator custom module patterns for type replacement and post-processing | technique | 8/15 |
+| GE-20260824-9f3788 | Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching | gotcha | 13/15 |

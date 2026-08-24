@@ -18,3 +18,4 @@
 - GE-20260821-fd5cc7: GOAP cost enrichment flips action selection in contingency tests — fixture costs must be asymmetric
 - GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
 - GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases
+- GE-20260824-9f3788: Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching

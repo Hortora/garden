@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2928
+**Entries merged since last sweep:** 2930
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -191,6 +191,7 @@
 - GE-20260821-2b40cc [IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response](claude-code/GE-20260821-2b40cc.md)
 - GE-20260822-a5d8f2 [IntelliJ SSR strips fully-qualified class names from constructor replacement patterns](claude-code/GE-20260822-a5d8f2.md)
 - GE-20260822-150983 [Bulk Java record constructor extension via IntelliJ SSR](claude-code/GE-20260822-150983.md)
+- GE-20260824-c6fbb4 [IntelliJ MCP ide_edit_member replaces entire class when member name matches class name](claude-code/GE-20260824-c6fbb4.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -2197,6 +2198,7 @@
 - GE-20260824-cd6a90 [neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted](jvm/GE-20260824-cd6a90.md)
 - GE-20260824-829f7a [neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases](jvm/GE-20260824-829f7a.md)
 - GE-20260824-2eb1d7 [victools/jsonschema-generator custom module patterns for type replacement and post-processing](jvm/GE-20260824-2eb1d7.md)
+- GE-20260824-9f3788 [Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching](jvm/GE-20260824-9f3788.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

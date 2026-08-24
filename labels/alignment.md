@@ -1,2 +1,3 @@
 - GE-20260427-39f085: Python len(line.rstrip()) verifies ASCII diagram column alignment where awk fails
 - GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases
+- GE-20260824-9f3788: Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching

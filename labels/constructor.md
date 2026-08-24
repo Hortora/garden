@@ -7,3 +7,4 @@
 - GE-20260718-207fde: WorkItemService constructor accesses config.sla() — null config NPE blocks subclassing for unit tests
 - GE-20260806-7a4499: JPA entity protected constructor breaks test instantiation after upstream rebuild
 - GE-20260823-c14bbf: ide_edit_member with member=ClassName replaces the entire class, not the constructor
+- GE-20260824-c6fbb4: IntelliJ MCP ide_edit_member replaces entire class when member name matches class name
