@@ -1,0 +1,1 @@
+- GE-20260824-c09677: Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists

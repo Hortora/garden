@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2923
+**Entries merged since last sweep:** 2924
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2980,6 +2980,7 @@
 - GE-20260822-abd492 [ide_edit_member destroys class when member name matches class name](tools/GE-20260822-abd492.md)
 - GE-20260823-b3c657 [IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline](tools/GE-20260823-b3c657.md)
 - GE-20260823-68f909 [Untracked .plan files on workspace main survive branch switches and block work-start with stale state](tools/GE-20260823-68f909.md)
+- GE-20260824-c09677 [Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists](tools/GE-20260824-c09677.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

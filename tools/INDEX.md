@@ -752,3 +752,4 @@
 | GE-20260822-abd492 | ide_edit_member destroys class when member name matches class name | gotcha | 11/15 |
 | GE-20260823-b3c657 | IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline | gotcha | 9/15 |
 | GE-20260823-68f909 | Untracked .plan files on workspace main survive branch switches and block work-start with stale state | gotcha | 8/15 |
+| GE-20260824-c09677 | Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists | technique | 12/15 |
