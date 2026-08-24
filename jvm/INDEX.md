@@ -1522,3 +1522,4 @@
 | GE-20260823-edbf2b | composite() source replaces REST snapshot with empty WebSocket accumulator on first push | gotcha | 10/15 |
 | GE-20260823-22f56f | Quarkus multi-module sibling beans need explicit index-dependency after mvn clean | gotcha | 10/15 |
 | GE-20260823-43c64b | SmallRye Config rejects empty string for required String config properties | gotcha | 9/15 |
+| GE-20260824-e2f1ba | Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws | gotcha | 11/15 |

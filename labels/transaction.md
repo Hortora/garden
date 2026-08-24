@@ -36,3 +36,4 @@
 - GE-20260721-4564db: CaseOutcomeObserver @Transactional(REQUIRES_NEW) silently fails on executor threads — use QuarkusTransaction programmatically
 - GE-20260801-3bee47: Engine Quartz worker functions execute without JTA transaction or CDI request context — Panache calls fail silently
 - GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification
+- GE-20260824-e2f1ba: Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws

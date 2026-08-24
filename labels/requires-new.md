@@ -16,3 +16,4 @@
 - GE-20260703-30313f: PersistenceException catch-and-retry inside @Transactional(REQUIRES_NEW) works on H2 but silently fails on PostgreSQL
 - GE-20260808-561e09: Two-phase transaction split for batch job WorkItem creation — separate domain persistence from WorkItem + notification
 - GE-20260809-396f9a: Quarkus CDI Session proxy throws unwrapped ConstraintViolationException from em.flush()
+- GE-20260824-e2f1ba: Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws

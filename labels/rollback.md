@@ -7,3 +7,4 @@
 - GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch
 - GE-20260707-fc2b72: Catching PersistenceException from em.persist() does not prevent JTA transaction rollback — try/catch gives false isolation
 - GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging
+- GE-20260824-e2f1ba: Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws
