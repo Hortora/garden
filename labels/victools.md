@@ -1,0 +1,1 @@
+- GE-20260824-2eb1d7: victools/jsonschema-generator custom module patterns for type replacement and post-processing

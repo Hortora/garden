@@ -6,3 +6,4 @@
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
 - GE-20260711-604219: JetBrains Index MCP ide_replace_member strips compact constructor declaration from Java records
 - GE-20260803-498245: json-schema-to-typescript index signature conflicts with named properties under exactOptionalPropertyTypes
+- GE-20260824-2eb1d7: victools/jsonschema-generator custom module patterns for type replacement and post-processing

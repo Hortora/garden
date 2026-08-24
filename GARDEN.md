@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2927
+**Entries merged since last sweep:** 2928
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2196,6 +2196,7 @@
 - GE-20260824-7263e2 [DriveSource Map.put overwrites existing axis values — use DriveComposer modulation layer for cross-axis effects](jvm/GE-20260824-7263e2.md)
 - GE-20260824-cd6a90 [neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted](jvm/GE-20260824-cd6a90.md)
 - GE-20260824-829f7a [neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases](jvm/GE-20260824-829f7a.md)
+- GE-20260824-2eb1d7 [victools/jsonschema-generator custom module patterns for type replacement and post-processing](jvm/GE-20260824-2eb1d7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
