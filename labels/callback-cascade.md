@@ -1,2 +1,1 @@
-- GE-20260614-92bd9e: Testcontainers withCopyFileToContainer bypasses Podman virtiofs path restrictions
 - GE-20260825-6f8a9e: Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap

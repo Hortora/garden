@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2936
+**Entries merged since last sweep:** 2939
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3266,6 +3266,9 @@
 - GE-20260823-211f3e [WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages](web/GE-20260823-211f3e.md)
 - GE-20260823-324804 [blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints](web/GE-20260823-324804.md)
 - GE-20260823-a02b08 [pages page() nested children need interactive container for navigation — shared path segment](web/GE-20260823-a02b08.md)
+- GE-20260825-6f8a9e [Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap](web/GE-20260825-6f8a9e.md)
+- GE-20260825-7dc5d2 [Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion](web/GE-20260825-7dc5d2.md)
+- GE-20260825-6e519a [refreshEntry pattern — surgical container replanting via mutate-in-place + re-render](web/GE-20260825-6e519a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

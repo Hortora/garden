@@ -4,3 +4,5 @@
 - GE-20260522-6786c3: el.textContent equals concatenation of text nodes in DOM order — use for offset mapping in DOM highlighters
 - GE-20260803-cdec3c: happy-dom adoptNode round-trip fails: Cannot redefine property ownerDocument
 - GE-20260809-ae2695: style.setProperty uses CSS hyphenated names, not camelCase JS names
+- GE-20260825-6f8a9e: Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap
+- GE-20260825-6e519a: refreshEntry pattern — surgical container replanting via mutate-in-place + re-render

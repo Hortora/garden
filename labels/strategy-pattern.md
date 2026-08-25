@@ -2,3 +2,6 @@
 - GE-20260418-03a6f4: Config-driven CDI strategy selection: Instance<T>.select(NamedLiteral.of(name)).get() in @PostConstruct
 - GE-20260421-566d3d: CDI @Any Instance<T> + name() method builds a self-registering strategy registry with O(1) lookup and startup validation
 - GE-20260529-c4ed43: Shared @ApplicationScoped CDI bean as algorithmic kernel across @Alternative @Priority strategy implementations
+- GE-20260825-6f8a9e: Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap
+- GE-20260825-7dc5d2: Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion
+- GE-20260825-6e519a: refreshEntry pattern — surgical container replanting via mutate-in-place + re-render

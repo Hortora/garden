@@ -1,0 +1,1 @@
+- GE-20260825-7dc5d2: Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion

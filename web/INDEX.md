@@ -240,3 +240,6 @@
 | GE-20260823-211f3e | WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages | gotcha | 10/15 |
 | GE-20260823-324804 | blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints | gotcha | 9/15 |
 | GE-20260823-a02b08 | pages page() nested children need interactive container for navigation — shared path segment | undocumented | 8/15 |
+| GE-20260825-6f8a9e | Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap | gotcha | 11/15 |
+| GE-20260825-7dc5d2 | Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion | gotcha | 8/15 |
+| GE-20260825-6e519a | refreshEntry pattern — surgical container replanting via mutate-in-place + re-render | technique | 11/15 |

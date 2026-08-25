@@ -1,0 +1,1 @@
+- GE-20260825-6e519a: refreshEntry pattern — surgical container replanting via mutate-in-place + re-render
