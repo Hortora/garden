@@ -1,2 +1,3 @@
 - GE-20260729-5c56d9: Yarn 4 enforces immutable installs in CI even without --immutable flag
 - GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components
+- GE-20260825-dc6ef1: Quarkus immutable cache headers on static resources prevent browser cache busting

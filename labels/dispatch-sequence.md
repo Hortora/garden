@@ -1,0 +1,1 @@
+- GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo

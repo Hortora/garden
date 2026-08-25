@@ -1,2 +1,3 @@
 - GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
+- GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo

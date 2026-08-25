@@ -1,0 +1,1 @@
+- GE-20260825-dc6ef1: Quarkus immutable cache headers on static resources prevent browser cache busting

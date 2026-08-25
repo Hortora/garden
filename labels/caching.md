@@ -13,3 +13,4 @@
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260726-53f142: ConcurrentHashMap.computeIfAbsent throws 'Recursive update' when mapping function modifies the map — masked by reactive Uni.memoize()
 - GE-20260818-1cf8b5: Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans
+- GE-20260825-dc6ef1: Quarkus immutable cache headers on static resources prevent browser cache busting

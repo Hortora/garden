@@ -1,2 +1,1 @@
-- GE-20260522-a69fa1: Java String.matches() anchors the full string — not a substring search
 - GE-20260825-a9ca3c: Scenario runTo never pauses — name vs label mismatch in step result matching

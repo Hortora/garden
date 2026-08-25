@@ -27,3 +27,4 @@
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
 - GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
 - GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
+- GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo

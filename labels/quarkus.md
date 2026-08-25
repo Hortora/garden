@@ -786,3 +786,4 @@
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
 - GE-20260824-e2f1ba: Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws
+- GE-20260825-dc6ef1: Quarkus immutable cache headers on static resources prevent browser cache busting

@@ -1533,3 +1533,5 @@
 | GE-20260825-ba18b3 | Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern | technique | 8/15 |
 | GE-20260825-bf13fa | Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version | gotcha | 9/15 |
 | GE-20260825-f4565a | Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext) | gotcha | 8/15 |
+| GE-20260825-dc6ef1 | Quarkus immutable cache headers on static resources prevent browser cache busting | gotcha | 11/15 |
+| GE-20260825-a9ca3c | Scenario runTo never pauses — name vs label mismatch in step result matching | gotcha | 9/15 |

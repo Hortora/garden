@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2951
+**Entries merged since last sweep:** 2954
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2208,6 +2208,8 @@
 - GE-20260825-ba18b3 [Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern](jvm/GE-20260825-ba18b3.md)
 - GE-20260825-bf13fa [Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version](jvm/GE-20260825-bf13fa.md)
 - GE-20260825-f4565a [Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)](jvm/GE-20260825-f4565a.md)
+- GE-20260825-dc6ef1 [Quarkus immutable cache headers on static resources prevent browser cache busting](jvm/GE-20260825-dc6ef1.md)
+- GE-20260825-a9ca3c [Scenario runTo never pauses — name vs label mismatch in step result matching](jvm/GE-20260825-a9ca3c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3281,6 +3283,7 @@
 - GE-20260825-7dc5d2 [Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion](web/GE-20260825-7dc5d2.md)
 - GE-20260825-6e519a [refreshEntry pattern — surgical container replanting via mutate-in-place + re-render](web/GE-20260825-6e519a.md)
 - GE-20260825-309197 [Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction](web/GE-20260825-309197.md)
+- GE-20260825-a455eb [Push-wire dispatch messages override executor speed — stale speed after runTo](web/GE-20260825-a455eb.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
