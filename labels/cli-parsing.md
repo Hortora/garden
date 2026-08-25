@@ -1,0 +1,1 @@
+- GE-20260825-4c2efb: lifecycle.py commit-transition expects evidence as single JSON argument

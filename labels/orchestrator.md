@@ -1,2 +1,2 @@
-- GE-20260803-293dd2: Three-phase transition protocol for state machines that switch branches
+- GE-20260825-2cc3e8: Orchestrator stubs pass sequence tests — tests verify action order but not script invocations
 - GE-20260825-1ca259: Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable

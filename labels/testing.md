@@ -447,3 +447,4 @@
 - GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules
 - GE-20260823-7b17ad: TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
+- GE-20260825-2cc3e8: Orchestrator stubs pass sequence tests — tests verify action order but not script invocations

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2930
+**Entries merged since last sweep:** 2934
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2987,6 +2987,10 @@
 - GE-20260823-b3c657 [IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline](tools/GE-20260823-b3c657.md)
 - GE-20260823-68f909 [Untracked .plan files on workspace main survive branch switches and block work-start with stale state](tools/GE-20260823-68f909.md)
 - GE-20260824-c09677 [Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists](tools/GE-20260824-c09677.md)
+- GE-20260825-2cc3e8 [Orchestrator stubs pass sequence tests — tests verify action order but not script invocations](tools/GE-20260825-2cc3e8.md)
+- GE-20260825-0eb28c [Continuation spec references prior spec's decisions — avoids patching reviewed documents](tools/GE-20260825-0eb28c.md)
+- GE-20260825-4c2efb [lifecycle.py commit-transition expects evidence as single JSON argument](tools/GE-20260825-4c2efb.md)
+- GE-20260825-1ca259 [Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable](tools/GE-20260825-1ca259.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

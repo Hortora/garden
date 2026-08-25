@@ -1,2 +1,1 @@
-- GE-20260626-0e976f: Test factory canned responses must match stub behavioral intent — not just field names
 - GE-20260825-2cc3e8: Orchestrator stubs pass sequence tests — tests verify action order but not script invocations

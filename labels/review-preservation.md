@@ -1,0 +1,1 @@
+- GE-20260825-0eb28c: Continuation spec references prior spec's decisions — avoids patching reviewed documents

@@ -36,3 +36,4 @@
 - GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models
 - GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main
 - GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state
+- GE-20260825-4c2efb: lifecycle.py commit-transition expects evidence as single JSON argument
