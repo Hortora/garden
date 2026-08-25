@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2940
+**Entries merged since last sweep:** 2941
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3270,6 +3270,7 @@
 - GE-20260825-6f8a9e [Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap](web/GE-20260825-6f8a9e.md)
 - GE-20260825-7dc5d2 [Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion](web/GE-20260825-7dc5d2.md)
 - GE-20260825-6e519a [refreshEntry pattern — surgical container replanting via mutate-in-place + re-render](web/GE-20260825-6e519a.md)
+- GE-20260825-309197 [Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction](web/GE-20260825-309197.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

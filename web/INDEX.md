@@ -243,3 +243,4 @@
 | GE-20260825-6f8a9e | Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap | gotcha | 11/15 |
 | GE-20260825-7dc5d2 | Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion | gotcha | 8/15 |
 | GE-20260825-6e519a | refreshEntry pattern — surgical container replanting via mutate-in-place + re-render | technique | 11/15 |
+| GE-20260825-309197 | Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction | technique | 11/15 |

@@ -28,3 +28,4 @@
 - GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match
 - GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating
 - GE-20260816-59f280: Integration-tier apps must not depend on each other — promote reusable capabilities to foundation
+- GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction

@@ -1,0 +1,1 @@
+- GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction

@@ -1,3 +1,4 @@
 - GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences
 - GE-20260613-899303: JSONata v2 auto-unwraps single-element array results into flat values
 - GE-20260711-5170ee: pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers
+- GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction
