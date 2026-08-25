@@ -18,3 +18,4 @@
 - GE-20260813-b4e2d8: pages-push PushProducers creates vanilla ObjectMapper — Instant serialization fails via EventBroadcaster
 - GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule
 - GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern
+- GE-20260825-f4565a: Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)

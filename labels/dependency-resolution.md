@@ -15,3 +15,4 @@
 - GE-20260814-099511: Slot .m2 isolation causes stale SNAPSHOT resolution — mvn install on host is invisible to slot
 - GE-20260814-e76eca: Maven resolves timestamped remote SNAPSHOT over local mvn install — cached remote jar takes precedence
 - GE-20260820-a5469a: Maven install in worktree/slot with .mvn/maven.config targets isolated .m2 — consuming projects don't see updated SNAPSHOT
+- GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version

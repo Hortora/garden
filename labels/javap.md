@@ -3,3 +3,4 @@
 - GE-20260512-7f4aa4: Use javap -verbose to inspect CDI/JPA annotations on dependency JAR classes without source access
 - GE-20260501-93f9a8: Use javap -verbose to read @NamedQuery annotations from JPA entity class files in compiled JARs
 - GE-20260610-7b4ff5: Use Python zipfile + javap to inspect SNAPSHOT jar API signatures when source is unavailable
+- GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version

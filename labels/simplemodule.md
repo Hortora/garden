@@ -1,0 +1,1 @@
+- GE-20260825-f4565a: Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)

@@ -1531,3 +1531,5 @@
 | GE-20260825-f5dd2b | casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only | undocumented | 9/15 |
 | GE-20260825-a38514 | Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state | gotcha | 11/15 |
 | GE-20260825-ba18b3 | Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern | technique | 8/15 |
+| GE-20260825-bf13fa | Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version | gotcha | 9/15 |
+| GE-20260825-f4565a | Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext) | gotcha | 8/15 |
