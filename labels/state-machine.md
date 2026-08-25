@@ -14,3 +14,4 @@
 - GE-20260820-0b708f: PlanItem.markCompleted() throws IllegalStateException when called from PENDING — must transition through RUNNING first
 - GE-20260824-c09677: Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists
 - GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction
+- GE-20260825-4fdd5b: Python set iteration order breaks state tracking when multiple transitions fire atomically

@@ -1,0 +1,1 @@
+- GE-20260825-a3468e: sync-local deploys skill files to all sessions before backing scripts reach main

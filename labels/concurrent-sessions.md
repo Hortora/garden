@@ -1,1 +1,2 @@
 - GE-20260522-0d3a0d: git squash working branch shows stale commit range when main updated concurrently by another session
+- GE-20260825-a3468e: sync-local deploys skill files to all sessions before backing scripts reach main

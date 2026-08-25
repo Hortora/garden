@@ -37,3 +37,4 @@
 - GE-20260801-dfadc9: iterdir() with is_dir skip silently drops files in subdirectories
 - GE-20260802-d370aa: Bash dirname resolves to symlink container, not target — use os.path.realpath for PYTHONPATH through symlinks
 - GE-20260816-396927: Bypass missing CLI dispatch and lifecycle hooks by calling plan_manager/slot_manager functions via python3 -c
+- GE-20260825-4fdd5b: Python set iteration order breaks state tracking when multiple transitions fire atomically

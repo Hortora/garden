@@ -2,3 +2,4 @@
 - GE-20260520-836d5b: cc-praxis sync-local silently updates the deployed session-start hook — indicated only by a status message
 - GE-20260530-939013: claude-skill sync-local --all does not delete removed skills from ~/.claude/skills/
 - GE-20260705-381056: sync-local deploys skills without verifying source is committed — uncommitted work is invisible and at risk
+- GE-20260825-a3468e: sync-local deploys skill files to all sessions before backing scripts reach main

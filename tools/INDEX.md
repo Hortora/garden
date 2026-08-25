@@ -759,3 +759,5 @@
 | GE-20260825-1ca259 | Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable | convention | 8/15 |
 | GE-20260825-8d52f0 | Delegation-first refactoring for large structural type extractions | technique | 8/15 |
 | GE-20260825-f0a9f2 | IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts | undocumented | 9/15 |
+| GE-20260825-4fdd5b | Python set iteration order breaks state tracking when multiple transitions fire atomically | gotcha | 12/15 |
+| GE-20260825-a3468e | sync-local deploys skill files to all sessions before backing scripts reach main | gotcha | 10/15 |
