@@ -1,2 +1,3 @@
 - GE-20260422-50c33c: CDI @Observes on an abstract base type catches all subtype events — useful for generifying event observers
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
+- GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern

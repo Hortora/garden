@@ -19,3 +19,4 @@
 - GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
 - GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases
 - GE-20260824-9f3788: Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching
+- GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern

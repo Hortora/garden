@@ -1,0 +1,1 @@
+- GE-20260825-ac5410: IntelliJ MCP write operations time out while reads succeed — too many open projects

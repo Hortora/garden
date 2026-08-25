@@ -77,3 +77,4 @@
 - GE-20260824-c6fbb4: IntelliJ MCP ide_edit_member replaces entire class when member name matches class name
 - GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding
 - GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync
+- GE-20260825-ac5410: IntelliJ MCP write operations time out while reads succeed — too many open projects

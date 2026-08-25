@@ -1,1 +1,2 @@
 - GE-20260804-0e1509: FeatureValue type names don't match FeatureField schema DSL names — NumberVal not Numeric, StringVal not categorical
+- GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern

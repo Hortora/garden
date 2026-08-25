@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2945
+**Entries merged since last sweep:** 2947
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -193,6 +193,7 @@
 - GE-20260822-150983 [Bulk Java record constructor extension via IntelliJ SSR](claude-code/GE-20260822-150983.md)
 - GE-20260824-c6fbb4 [IntelliJ MCP ide_edit_member replaces entire class when member name matches class name](claude-code/GE-20260824-c6fbb4.md)
 - GE-20260825-cd6efc [IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync](claude-code/GE-20260825-cd6efc.md)
+- GE-20260825-ac5410 [IntelliJ MCP write operations time out while reads succeed — too many open projects](claude-code/GE-20260825-ac5410.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -2204,6 +2205,7 @@
 - GE-20260824-9f3788 [Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching](jvm/GE-20260824-9f3788.md)
 - GE-20260825-f5dd2b [casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only](jvm/GE-20260825-f5dd2b.md)
 - GE-20260825-a38514 [Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state](jvm/GE-20260825-a38514.md)
+- GE-20260825-ba18b3 [Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern](jvm/GE-20260825-ba18b3.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
