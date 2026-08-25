@@ -1529,3 +1529,4 @@
 | GE-20260824-2eb1d7 | victools/jsonschema-generator custom module patterns for type replacement and post-processing | technique | 8/15 |
 | GE-20260824-9f3788 | Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching | gotcha | 13/15 |
 | GE-20260825-f5dd2b | casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only | undocumented | 9/15 |
+| GE-20260825-a38514 | Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state | gotcha | 11/15 |

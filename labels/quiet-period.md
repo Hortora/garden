@@ -1,0 +1,1 @@
+- GE-20260825-a38514: Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state
