@@ -62,3 +62,4 @@
 | GE-20260818-490d91 | IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml | gotcha | 10/15 |
 | GE-20260823-c14bbf | ide_edit_member with member=ClassName replaces the entire class, not the constructor | gotcha | 12/15 |
 | GE-20260823-c9d1dd | IntelliJ MCP tool writes may not flush to disk before git add stages the file | gotcha | 9/15 |
+| GE-20260825-3dbb7c | IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding | gotcha | 10/15 |

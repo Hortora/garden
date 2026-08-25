@@ -1,0 +1,1 @@
+- GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only

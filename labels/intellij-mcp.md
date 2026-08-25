@@ -75,3 +75,4 @@
 - GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file
 - GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline
 - GE-20260824-c6fbb4: IntelliJ MCP ide_edit_member replaces entire class when member name matches class name
+- GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding

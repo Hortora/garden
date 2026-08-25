@@ -1,0 +1,1 @@
+- GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding

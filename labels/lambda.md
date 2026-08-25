@@ -9,3 +9,4 @@
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
 - GE-20260623-9c5d06: Inferred lambda parameter type does not create a needed import — impsort rejects unused import
 - GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site
+- GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding

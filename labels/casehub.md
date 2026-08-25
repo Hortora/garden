@@ -137,3 +137,4 @@
 - GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
 - GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
 - GE-20260823-a02b08: pages page() nested children need interactive container for navigation — shared path segment
+- GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only

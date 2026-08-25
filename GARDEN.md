@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2934
+**Entries merged since last sweep:** 2936
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -261,6 +261,7 @@
 - GE-20260818-490d91 [IntelliJ MCP empty file index after ide_open_project on TypeScript project without modules.xml](intellij-platform/GE-20260818-490d91.md)
 - GE-20260823-c14bbf [ide_edit_member with member=ClassName replaces the entire class, not the constructor](intellij-platform/GE-20260823-c14bbf.md)
 - GE-20260823-c9d1dd [IntelliJ MCP tool writes may not flush to disk before git add stages the file](intellij-platform/GE-20260823-c9d1dd.md)
+- GE-20260825-3dbb7c [IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding](intellij-platform/GE-20260825-3dbb7c.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)
@@ -2199,6 +2200,7 @@
 - GE-20260824-829f7a [neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases](jvm/GE-20260824-829f7a.md)
 - GE-20260824-2eb1d7 [victools/jsonschema-generator custom module patterns for type replacement and post-processing](jvm/GE-20260824-2eb1d7.md)
 - GE-20260824-9f3788 [Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching](jvm/GE-20260824-9f3788.md)
+- GE-20260825-f5dd2b [casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only](jvm/GE-20260825-f5dd2b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

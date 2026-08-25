@@ -1,3 +1,4 @@
 - GE-20260730-760270: Java generic return type defeats explicit cast for overload resolution
 - GE-20260803-ecb4d5: ide_replace_text_in_file HTML-encodes angle brackets in replacement text — silent Java compilation failure
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure
+- GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding

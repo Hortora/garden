@@ -437,3 +437,4 @@
 - GE-20260823-761bac: CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>
 - GE-20260823-11ffe5: CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
+- GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only
