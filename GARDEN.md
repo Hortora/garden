@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2943
+**Entries merged since last sweep:** 2945
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2996,6 +2996,8 @@
 - GE-20260825-0eb28c [Continuation spec references prior spec's decisions — avoids patching reviewed documents](tools/GE-20260825-0eb28c.md)
 - GE-20260825-4c2efb [lifecycle.py commit-transition expects evidence as single JSON argument](tools/GE-20260825-4c2efb.md)
 - GE-20260825-1ca259 [Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable](tools/GE-20260825-1ca259.md)
+- GE-20260825-8d52f0 [Delegation-first refactoring for large structural type extractions](tools/GE-20260825-8d52f0.md)
+- GE-20260825-f0a9f2 [IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts](tools/GE-20260825-f0a9f2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

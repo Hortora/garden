@@ -22,3 +22,4 @@
 - GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
 - GE-20260816-d55f9d: Combined gate-approval-and-drain Awaitility pattern eliminates sequential timeout budget splitting
 - GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response
+- GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts

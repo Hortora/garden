@@ -1,0 +1,1 @@
+- GE-20260825-8d52f0: Delegation-first refactoring for large structural type extractions

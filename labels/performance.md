@@ -21,3 +21,4 @@
 - GE-20260818-1cf8b5: Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans
 - GE-20260820-5bb979: numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
+- GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts

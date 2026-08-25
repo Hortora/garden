@@ -44,3 +44,4 @@
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
 - GE-20260822-a5d8f2: IntelliJ SSR strips fully-qualified class names from constructor replacement patterns
 - GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
+- GE-20260825-8d52f0: Delegation-first refactoring for large structural type extractions

@@ -89,3 +89,4 @@
 - GE-20260821-04e9e3: git stash -u captures IntelliJ MCP tool edits — unstaged disk writes are indistinguishable from prior session changes
 - GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern
 - GE-20260821-7509e8: ide_edit_member with member=className replaces the entire class body, not just the declaration
+- GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts

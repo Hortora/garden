@@ -18,3 +18,4 @@
 - GE-20260612-bd3b4d: Degenerate CBR: trust-scored routing is Retain+Reuse only — Retrieve and Revise are missing
 - GE-20260616-e04575: Detect live JDBC dialect via DatabaseMetaData instead of @ConfigProperty(db-kind) for named-datasource compatibility
 - GE-20260718-aeeb7b: Observable @Alternative stubs for @QuarkusTest — Queue + synchronized List replaces Mockito verify
+- GE-20260825-8d52f0: Delegation-first refactoring for large structural type extractions
