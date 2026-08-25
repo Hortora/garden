@@ -73,3 +73,4 @@
 | GE-20260714-a2ae5d | Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site | technique | 10/15 |
 | GE-20260421-cdfff1 | Hibernate L1 cache returns stale entity after bulk JPQL DELETE — three solutions by safety/scope | gotcha | 10/15 |
 | GE-20260814-5719d3 | String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection | technique | 11/15 |
+| GE-20260825-24aae9 | Mockito mock of concrete class silently fails to intercept @Override of interface method | gotcha | 8/15 |

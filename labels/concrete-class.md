@@ -1,0 +1,1 @@
+- GE-20260825-24aae9: Mockito mock of concrete class silently fails to intercept @Override of interface method

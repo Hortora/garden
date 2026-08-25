@@ -8,3 +8,4 @@
 - GE-20260609-eee30f: Backward-compatible SPI extension: default-throw create() + supportsStringCreation() boolean flag probe
 - GE-20260615-83f6cb: Default interface method as bridge consolidator — combine two-step activation checks across many implementors
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
+- GE-20260825-24aae9: Mockito mock of concrete class silently fails to intercept @Override of interface method

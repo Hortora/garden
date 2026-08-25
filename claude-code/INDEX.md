@@ -41,3 +41,4 @@
 | GE-20260822-a5d8f2 | IntelliJ SSR strips fully-qualified class names from constructor replacement patterns | gotcha | 9/15 |
 | GE-20260822-150983 | Bulk Java record constructor extension via IntelliJ SSR | technique | 9/15 |
 | GE-20260824-c6fbb4 | IntelliJ MCP ide_edit_member replaces entire class when member name matches class name | gotcha | 12/15 |
+| GE-20260825-cd6efc | IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync | gotcha | 10/15 |

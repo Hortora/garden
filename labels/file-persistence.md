@@ -1,1 +1,2 @@
 - GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
+- GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync

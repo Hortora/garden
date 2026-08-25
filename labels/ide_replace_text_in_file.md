@@ -6,3 +6,4 @@
 - GE-20260803-ecb4d5: IntelliJ MCP tools HTML-encode or mangle angle brackets in text parameters — silent Java compilation failure
 - GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names
 - GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline
+- GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync

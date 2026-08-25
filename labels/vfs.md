@@ -1,2 +1,3 @@
 - GE-20260521-4fa9cf: IntelliJ VFS refresh silently reverts working-tree file changes after git rebase -i
 - GE-20260717-886249: IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync
+- GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync
