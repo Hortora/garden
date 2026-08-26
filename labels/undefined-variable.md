@@ -1,0 +1,1 @@
+- GE-20260826-46cf28: Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError

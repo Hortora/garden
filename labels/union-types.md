@@ -1,0 +1,1 @@
+- GE-20260826-ead83e: Array.isArray narrowing doesn't exclude non-array union members in else branch

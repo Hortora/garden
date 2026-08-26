@@ -1,1 +1,2 @@
 - GE-20260806-9c391c: Dockview vitest mock missing .panels property — optional chaining required for any unmocked API
+- GE-20260826-46cf28: Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError

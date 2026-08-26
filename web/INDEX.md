@@ -248,3 +248,5 @@
 | GE-20260826-e783f8 | Container-level event dispatch when strategies lack parent reference | gotcha | 8/15 |
 | GE-20260826-ee71b5 | DOM event bubbling with stopPropagation for nested container DnD scoping | technique | 9/15 |
 | GE-20260826-e9e532 | Compose pure geometry functions into DnD state machines instead of reimplementing | technique | 9/15 |
+| GE-20260826-46cf28 | Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError | gotcha | 11/15 |
+| GE-20260826-ead83e | Array.isArray narrowing doesn't exclude non-array union members in else branch | gotcha | 10/15 |

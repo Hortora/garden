@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2961
+**Entries merged since last sweep:** 2963
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3291,6 +3291,8 @@
 - GE-20260826-e783f8 [Container-level event dispatch when strategies lack parent reference](web/GE-20260826-e783f8.md)
 - GE-20260826-ee71b5 [DOM event bubbling with stopPropagation for nested container DnD scoping](web/GE-20260826-ee71b5.md)
 - GE-20260826-e9e532 [Compose pure geometry functions into DnD state machines instead of reimplementing](web/GE-20260826-e9e532.md)
+- GE-20260826-46cf28 [Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError](web/GE-20260826-46cf28.md)
+- GE-20260826-ead83e [Array.isArray narrowing doesn't exclude non-array union members in else branch](web/GE-20260826-ead83e.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
