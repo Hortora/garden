@@ -250,3 +250,4 @@
 | GE-20260826-e9e532 | Compose pure geometry functions into DnD state machines instead of reimplementing | technique | 9/15 |
 | GE-20260826-46cf28 | Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError | gotcha | 11/15 |
 | GE-20260826-ead83e | Array.isArray narrowing doesn't exclude non-array union members in else branch | gotcha | 10/15 |
+| GE-20260826-d8e189 | Browser programmatic download requires DOM-attached anchor with Blob URL — detached anchors and data URLs silently fail | gotcha | 9/15 |

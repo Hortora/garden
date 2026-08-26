@@ -1,2 +1,1 @@
-- GE-20260820-8b6bd3: Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads
 - GE-20260826-d8e189: Browser programmatic download requires DOM-attached anchor with Blob URL — detached anchors and data URLs silently fail
