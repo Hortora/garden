@@ -1,0 +1,2 @@
+- GE-20260826-bb23d3: Orchestrator skip_step parameter accepts any step name — bypasses inversion of control
+- GE-20260826-d26944: LLM can force-complete mechanical steps via step_done — advances lifecycle past failures

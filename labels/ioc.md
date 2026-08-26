@@ -1,5 +1,3 @@
-- GE-20260825-2cc3e8: Orchestrator stubs pass sequence tests — tests verify action order but not script invocations
-- GE-20260825-1ca259: Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable
 - GE-20260826-bb23d3: Orchestrator skip_step parameter accepts any step name — bypasses inversion of control
 - GE-20260826-d26944: LLM can force-complete mechanical steps via step_done — advances lifecycle past failures
 - GE-20260826-f95e6b: last_yielded tracking enforces inversion of control in yield-based orchestrators

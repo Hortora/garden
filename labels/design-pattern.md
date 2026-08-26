@@ -15,3 +15,4 @@
 - GE-20260613-718a57: Format-discriminated descriptor payload: make the hash input format-aware rather than stripping at the LLM call boundary
 - GE-20260701-2edd4a: Java record accessor override for monotonic OR composition — separate field-level and interface-level truth sources
 - GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope
+- GE-20260826-f95e6b: last_yielded tracking enforces inversion of control in yield-based orchestrators

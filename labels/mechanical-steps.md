@@ -1,1 +1,2 @@
 - GE-20260825-1ca259: Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable
+- GE-20260826-d26944: LLM can force-complete mechanical steps via step_done — advances lifecycle past failures

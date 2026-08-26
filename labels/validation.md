@@ -23,3 +23,4 @@
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
 - GE-20260820-d4e011: FeatureVectorCbrCase requires non-blank solution field — empty string fails runtime validation
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
+- GE-20260826-bb23d3: Orchestrator skip_step parameter accepts any step name — bypasses inversion of control

@@ -764,3 +764,6 @@
 | GE-20260826-4410e5 | SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError | gotcha | 10/15 |
 | GE-20260826-2a58fa | CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving | gotcha | 12/15 |
 | GE-20260826-cbcebc | IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline | gotcha | 8/15 |
+| GE-20260826-bb23d3 | Orchestrator skip_step parameter accepts any step name — bypasses inversion of control | gotcha | 12/15 |
+| GE-20260826-d26944 | LLM can force-complete mechanical steps via step_done — advances lifecycle past failures | gotcha | 13/15 |
+| GE-20260826-f95e6b | last_yielded tracking enforces inversion of control in yield-based orchestrators | technique | 10/15 |

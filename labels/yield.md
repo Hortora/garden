@@ -1,0 +1,1 @@
+- GE-20260826-f95e6b: last_yielded tracking enforces inversion of control in yield-based orchestrators

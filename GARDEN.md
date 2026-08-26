@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2969
+**Entries merged since last sweep:** 2972
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3012,6 +3012,9 @@
 - GE-20260826-4410e5 [SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError](tools/GE-20260826-4410e5.md)
 - GE-20260826-2a58fa [CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving](tools/GE-20260826-2a58fa.md)
 - GE-20260826-cbcebc [IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline](tools/GE-20260826-cbcebc.md)
+- GE-20260826-bb23d3 [Orchestrator skip_step parameter accepts any step name — bypasses inversion of control](tools/GE-20260826-bb23d3.md)
+- GE-20260826-d26944 [LLM can force-complete mechanical steps via step_done — advances lifecycle past failures](tools/GE-20260826-d26944.md)
+- GE-20260826-f95e6b [last_yielded tracking enforces inversion of control in yield-based orchestrators](tools/GE-20260826-f95e6b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
