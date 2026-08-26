@@ -22,3 +22,4 @@
 - GE-20260820-5bb979: numpy NpzFile decompresses the full array on every dict-style access — causes 30x memory bloat in loops
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
 - GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts
+- GE-20260826-665046: html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element

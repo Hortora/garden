@@ -2,3 +2,4 @@
 - GE-20260712-0b3483: Vite object-form aliases match shorter prefix first — /dist deep imports resolve to wrong src/dist/ path
 - GE-20260712-ab4f0a: esbuild alias prefix replacement breaks /dist deep imports — point to package root not /src for production builds
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
+- GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution

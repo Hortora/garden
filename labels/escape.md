@@ -1,0 +1,1 @@
+- GE-20260826-cbcebc: IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline

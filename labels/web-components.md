@@ -59,3 +59,4 @@
 - GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
 - GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass
 - GE-20260823-324804: blocks-audit-trail-viewer hardcodes platform URL pattern — unusable for app-specific endpoints
+- GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components

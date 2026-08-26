@@ -251,3 +251,6 @@
 | GE-20260826-46cf28 | Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError | gotcha | 11/15 |
 | GE-20260826-ead83e | Array.isArray narrowing doesn't exclude non-array union members in else branch | gotcha | 10/15 |
 | GE-20260826-d8e189 | Browser programmatic download requires DOM-attached anchor with Blob URL — detached anchors and data URLs silently fail | gotcha | 9/15 |
+| GE-20260826-b55957 | Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution | gotcha | 11/15 |
+| GE-20260826-665046 | html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element | technique | 9/15 |
+| GE-20260826-f5bf58 | Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components | gotcha | 11/15 |

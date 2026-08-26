@@ -1,0 +1,1 @@
+- GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution

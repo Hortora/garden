@@ -52,3 +52,4 @@
 - GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter
 - GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass
 - GE-20260823-211f3e: WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages
+- GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components

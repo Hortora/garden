@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2965
+**Entries merged since last sweep:** 2969
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3011,6 +3011,7 @@
 - GE-20260825-a3468e [sync-local deploys skill files to all sessions before backing scripts reach main](tools/GE-20260825-a3468e.md)
 - GE-20260826-4410e5 [SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError](tools/GE-20260826-4410e5.md)
 - GE-20260826-2a58fa [CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving](tools/GE-20260826-2a58fa.md)
+- GE-20260826-cbcebc [IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline](tools/GE-20260826-cbcebc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -3295,6 +3296,9 @@
 - GE-20260826-46cf28 [Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError](web/GE-20260826-46cf28.md)
 - GE-20260826-ead83e [Array.isArray narrowing doesn't exclude non-array union members in else branch](web/GE-20260826-ead83e.md)
 - GE-20260826-d8e189 [Browser programmatic download requires DOM-attached anchor with Blob URL — detached anchors and data URLs silently fail](web/GE-20260826-d8e189.md)
+- GE-20260826-b55957 [Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution](web/GE-20260826-b55957.md)
+- GE-20260826-665046 [html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element](web/GE-20260826-665046.md)
+- GE-20260826-f5bf58 [Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components](web/GE-20260826-f5bf58.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

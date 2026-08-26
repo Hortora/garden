@@ -12,3 +12,4 @@
 - GE-20260819-3e7715: Quinoa dev WebSocket proxy intercepts backend WebSocket endpoints
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
 - GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
+- GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution

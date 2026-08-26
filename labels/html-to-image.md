@@ -1,1 +1,2 @@
 - GE-20260826-d8e189: Browser programmatic download requires DOM-attached anchor with Blob URL — detached anchors and data URLs silently fail
+- GE-20260826-665046: html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element

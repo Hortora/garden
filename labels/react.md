@@ -1,3 +1,4 @@
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260801-d3e4fe: React-in-Lit bridge pattern — mount React libraries inside Lit Web Components
 - GE-20260803-a1ac7f: Split useEffect into render + cleanup when bridging lit-html into React — single effect destroys diffing
+- GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution

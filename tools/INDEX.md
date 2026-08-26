@@ -763,3 +763,4 @@
 | GE-20260825-a3468e | sync-local deploys skill files to all sessions before backing scripts reach main | gotcha | 10/15 |
 | GE-20260826-4410e5 | SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError | gotcha | 10/15 |
 | GE-20260826-2a58fa | CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving | gotcha | 12/15 |
+| GE-20260826-cbcebc | IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline | gotcha | 8/15 |
