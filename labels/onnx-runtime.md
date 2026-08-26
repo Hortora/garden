@@ -1,1 +1,2 @@
 - GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
+- GE-20260826-51c700: sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5

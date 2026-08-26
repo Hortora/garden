@@ -1,3 +1,6 @@
 - GE-20260423-878486: quarkus-langchain4j-jlama fails at test bootstrap with 'Unsupported value type: [ALL-UNNAMED]' on Quarkus 3.32+
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
 - GE-20260610-99d39c: jlama-core 0.8.4 PanamaTensorOperations.batchDotProduct throws UnsupportedOperationException: ARM_128 on Apple Silicon
+- GE-20260826-51c700: sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5
+- GE-20260826-3608ec: sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball
+- GE-20260826-190329: Oversized zero-filled allocation for FFM config structs — version-resilient alternative to exact MemoryLayout

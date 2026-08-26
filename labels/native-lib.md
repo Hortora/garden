@@ -1,0 +1,1 @@
+- GE-20260826-3608ec: sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball

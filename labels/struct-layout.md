@@ -1,0 +1,2 @@
+- GE-20260826-51c700: sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5
+- GE-20260826-190329: Oversized zero-filled allocation for FFM config structs — version-resilient alternative to exact MemoryLayout

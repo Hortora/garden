@@ -6,3 +6,4 @@
 - GE-20260606-025601: ONNX Runtime --initialize-at-run-time must be package-level for GraalVM native image
 - GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
 - GE-20260608-564065: @QuarkusTest + plain JUnit JNI tests in same module cause 'Native Library already loaded in another classloader'
+- GE-20260826-3608ec: sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball

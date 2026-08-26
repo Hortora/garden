@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2954
+**Entries merged since last sweep:** 2957
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -369,6 +369,9 @@
 - GE-20260412-73b00b [jextract-generated classes initialize at build time and fail to find dylib symbols](java-panama-ffm/native-image-patterns.md)
 - GE-20260412-e103a8 [Hand-written Panama FFM classes with static final MethodHandle fields also need --initialize-at-run-time](java-panama-ffm/native-image-patterns.md)
 - GE-20260412-937f1d [MissingForeignRegistrationError gives no indication which downcall entry is wrong](java-panama-ffm/native-image-patterns.md)
+- GE-20260826-51c700 [sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5](java-panama-ffm/GE-20260826-51c700.md)
+- GE-20260826-3608ec [sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball](java-panama-ffm/GE-20260826-3608ec.md)
+- GE-20260826-190329 [Oversized zero-filled allocation for FFM config structs — version-resilient alternative to exact MemoryLayout](java-panama-ffm/GE-20260826-190329.md)
 ### macos-native-appkit/
 - GE-0051 [Smoke-test WKWebView rendering by checking for a new WebContent process](macos-native-appkit/GE-0051.md)
 - GE-0072 [`performSelectorOnMainThread:waitUntilDone:NO` from main thread schedules asynchronously](macos-native-appkit/GE-0072.md)

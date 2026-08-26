@@ -1,0 +1,1 @@
+- GE-20260826-190329: Oversized zero-filled allocation for FFM config structs — version-resilient alternative to exact MemoryLayout
