@@ -43,3 +43,5 @@
 | GE-20260824-c6fbb4 | IntelliJ MCP ide_edit_member replaces entire class when member name matches class name | gotcha | 12/15 |
 | GE-20260825-cd6efc | IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync | gotcha | 10/15 |
 | GE-20260825-ac5410 | IntelliJ MCP write operations time out while reads succeed — too many open projects | gotcha | 8/15 |
+| GE-20260826-39cb41 | IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone | gotcha | 10/15 |
+| GE-20260826-5dcb1a | IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication | gotcha | 9/15 |

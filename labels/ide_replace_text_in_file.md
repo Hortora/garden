@@ -7,3 +7,5 @@
 - GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names
 - GE-20260823-b3c657: IntelliJ MCP ide_replace_text_in_file treats \n as literal text, not newline
 - GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync
+- GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone
+- GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication

@@ -1,3 +1,4 @@
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260731-e74510: IntelliJ MCP ide_create_file and ide_edit_member target project_path, not session CWD — git worktree files land in wrong repo
 - GE-20260804-cf77dc: IntelliJ MCP workspace project_path routing — cross-module tools need parent path, per-file tools need submodule path
+- GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone

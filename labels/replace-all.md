@@ -1,0 +1,1 @@
+- GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication
