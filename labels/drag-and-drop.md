@@ -1,0 +1,2 @@
+- GE-20260826-ee71b5: DOM event bubbling with stopPropagation for nested container DnD scoping
+- GE-20260826-e9e532: Compose pure geometry functions into DnD state machines instead of reimplementing

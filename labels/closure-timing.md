@@ -1,2 +1,1 @@
-- GE-20260727-e642b2: pages-table row-activate event carries { row, key }, not { index }
 - GE-20260826-e783f8: Container-level event dispatch when strategies lack parent reference

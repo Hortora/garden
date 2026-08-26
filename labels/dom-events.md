@@ -1,0 +1,2 @@
+- GE-20260826-e783f8: Container-level event dispatch when strategies lack parent reference
+- GE-20260826-ee71b5: DOM event bubbling with stopPropagation for nested container DnD scoping

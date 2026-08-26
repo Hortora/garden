@@ -1,0 +1,1 @@
+- GE-20260826-e9e532: Compose pure geometry functions into DnD state machines instead of reimplementing

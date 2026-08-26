@@ -245,3 +245,6 @@
 | GE-20260825-6e519a | refreshEntry pattern — surgical container replanting via mutate-in-place + re-render | technique | 11/15 |
 | GE-20260825-309197 | Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction | technique | 11/15 |
 | GE-20260825-a455eb | Push-wire dispatch messages override executor speed — stale speed after runTo | gotcha | 9/15 |
+| GE-20260826-e783f8 | Container-level event dispatch when strategies lack parent reference | gotcha | 8/15 |
+| GE-20260826-ee71b5 | DOM event bubbling with stopPropagation for nested container DnD scoping | technique | 9/15 |
+| GE-20260826-e9e532 | Compose pure geometry functions into DnD state machines instead of reimplementing | technique | 9/15 |

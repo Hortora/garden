@@ -5,3 +5,4 @@
 - GE-20260825-6f8a9e: Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap
 - GE-20260825-7dc5d2: Strategy factory selective callback routing — onCollapse only reached split, not tabbed or accordion
 - GE-20260825-6e519a: refreshEntry pattern — surgical container replanting via mutate-in-place + re-render
+- GE-20260826-e783f8: Container-level event dispatch when strategies lack parent reference

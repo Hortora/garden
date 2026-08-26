@@ -1,0 +1,1 @@
+- GE-20260826-ee71b5: DOM event bubbling with stopPropagation for nested container DnD scoping

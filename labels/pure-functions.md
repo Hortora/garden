@@ -1,1 +1,2 @@
 - GE-20260806-0c1c81: Extract pure functions from UI components for TDD — test logic independently, test wiring via component
+- GE-20260826-e9e532: Compose pure geometry functions into DnD state machines instead of reimplementing
