@@ -762,3 +762,4 @@
 | GE-20260825-4fdd5b | Python set iteration order breaks state tracking when multiple transitions fire atomically | gotcha | 12/15 |
 | GE-20260825-a3468e | sync-local deploys skill files to all sessions before backing scripts reach main | gotcha | 10/15 |
 | GE-20260826-4410e5 | SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError | gotcha | 10/15 |
+| GE-20260826-2a58fa | CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving | gotcha | 12/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2964
+**Entries merged since last sweep:** 2965
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3010,6 +3010,7 @@
 - GE-20260825-4fdd5b [Python set iteration order breaks state tracking when multiple transitions fire atomically](tools/GE-20260825-4fdd5b.md)
 - GE-20260825-a3468e [sync-local deploys skill files to all sessions before backing scripts reach main](tools/GE-20260825-a3468e.md)
 - GE-20260826-4410e5 [SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError](tools/GE-20260826-4410e5.md)
+- GE-20260826-2a58fa [CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving](tools/GE-20260826-2a58fa.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

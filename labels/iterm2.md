@@ -1,0 +1,1 @@
+- GE-20260826-2a58fa: CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving

@@ -64,3 +64,4 @@
 - GE-20260810-71deb5: Claude Code Write tool silently loses content when linter reverts file between write and verification
 - GE-20260813-687333: Path-to-name encoding silently fails when input is relative — produces different encoding for same location
 - GE-20260816-642755: Edit replace_all with prefix-matching strings replaces inside longer identifiers
+- GE-20260826-2a58fa: CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving
