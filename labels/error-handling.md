@@ -8,3 +8,4 @@
 - GE-20260731-4d0718: Compound silent failure — three independent error-handling shortcuts compose into silent data loss
 - GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match
 - GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
+- GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError

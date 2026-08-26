@@ -15,3 +15,4 @@
 - GE-20260824-c09677: Stateless re-entrant script as coroutine pattern for Claude Code — Python drives, LLM assists
 - GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction
 - GE-20260825-4fdd5b: Python set iteration order breaks state tracking when multiple transitions fire atomically
+- GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError

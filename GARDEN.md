@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2960
+**Entries merged since last sweep:** 2961
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3009,6 +3009,7 @@
 - GE-20260825-f0a9f2 [IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts](tools/GE-20260825-f0a9f2.md)
 - GE-20260825-4fdd5b [Python set iteration order breaks state tracking when multiple transitions fire atomically](tools/GE-20260825-4fdd5b.md)
 - GE-20260825-a3468e [sync-local deploys skill files to all sessions before backing scripts reach main](tools/GE-20260825-a3468e.md)
+- GE-20260826-4410e5 [SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError](tools/GE-20260826-4410e5.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

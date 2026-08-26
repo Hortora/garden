@@ -12,3 +12,4 @@
 - GE-20260811-6c228e: SQLite PRAGMA data_version is per-connection — useless for cross-process change detection
 - GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests
 - GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state
+- GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError
