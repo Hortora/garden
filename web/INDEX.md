@@ -254,3 +254,7 @@
 | GE-20260826-b55957 | Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution | gotcha | 11/15 |
 | GE-20260826-665046 | html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element | technique | 9/15 |
 | GE-20260826-f5bf58 | Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components | gotcha | 11/15 |
+| GE-20260827-ed8606 | React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays | gotcha | 10/15 |
+| GE-20260827-f03231 | Full-node handles with z-index layering for drag-from-anywhere connection UX in React Flow | technique | 10/15 |
+| GE-20260827-24903b | webpack tree-shakes web component registration imports without explicit sideEffects config | gotcha | 9/15 |
+| GE-20260827-a4a698 | React Flow v12 renamed reconnectEdges prop to edgesReconnectable | undocumented | 8/15 |

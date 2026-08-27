@@ -1,1 +1,2 @@
 - GE-20260802-9f1ff0: QdrantGrpcClient.checkVersionsCompatibility() poisons the gRPC channel on startup — all RPCs fail immediately until backoff fires
+- GE-20260827-ed8606: React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays

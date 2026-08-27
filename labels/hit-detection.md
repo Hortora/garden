@@ -1,0 +1,1 @@
+- GE-20260827-ed8606: React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays

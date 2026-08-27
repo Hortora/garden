@@ -1,0 +1,1 @@
+- GE-20260827-24903b: webpack tree-shakes web component registration imports without explicit sideEffects config

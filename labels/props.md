@@ -1,0 +1,1 @@
+- GE-20260827-a4a698: React Flow v12 renamed reconnectEdges prop to edgesReconnectable

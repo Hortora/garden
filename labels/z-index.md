@@ -1,0 +1,1 @@
+- GE-20260827-f03231: Full-node handles with z-index layering for drag-from-anywhere connection UX in React Flow

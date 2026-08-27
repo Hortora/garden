@@ -49,3 +49,4 @@
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
 - GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern
+- GE-20260827-a4a698: React Flow v12 renamed reconnectEdges prop to edgesReconnectable

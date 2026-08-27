@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2979
+**Entries merged since last sweep:** 2983
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3309,6 +3309,10 @@
 - GE-20260826-b55957 [Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution](web/GE-20260826-b55957.md)
 - GE-20260826-665046 [html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element](web/GE-20260826-665046.md)
 - GE-20260826-f5bf58 [Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components](web/GE-20260826-f5bf58.md)
+- GE-20260827-ed8606 [React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays](web/GE-20260827-ed8606.md)
+- GE-20260827-f03231 [Full-node handles with z-index layering for drag-from-anywhere connection UX in React Flow](web/GE-20260827-f03231.md)
+- GE-20260827-24903b [webpack tree-shakes web component registration imports without explicit sideEffects config](web/GE-20260827-24903b.md)
+- GE-20260827-a4a698 [React Flow v12 renamed reconnectEdges prop to edgesReconnectable](web/GE-20260827-a4a698.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

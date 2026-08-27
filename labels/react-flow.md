@@ -1,3 +1,6 @@
 - GE-20260801-bda7a8: @xyflow/system is an internal utility layer, not a standalone rendering framework
 - GE-20260802-19843a: React Flow v12 NodeTypes uses { data: any; type: any } widening — ComponentType<NodeProps> is not assignable
 - GE-20260803-50ddbd: createReactNodeType — bridge lit-html templates into React Flow custom nodes via useRef + litRender
+- GE-20260827-ed8606: React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays
+- GE-20260827-f03231: Full-node handles with z-index layering for drag-from-anywhere connection UX in React Flow
+- GE-20260827-a4a698: React Flow v12 renamed reconnectEdges prop to edgesReconnectable
