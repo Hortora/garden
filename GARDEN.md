@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2983
+**Entries merged since last sweep:** 2989
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3022,6 +3022,12 @@
 - GE-20260826-d26944 [LLM can force-complete mechanical steps via step_done — advances lifecycle past failures](tools/GE-20260826-d26944.md)
 - GE-20260826-f95e6b [last_yielded tracking enforces inversion of control in yield-based orchestrators](tools/GE-20260826-f95e6b.md)
 - GE-20260827-a41dce [ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers](tools/GE-20260827-a41dce.md)
+- GE-20260827-b928ab [Per-repo judgment steps return empty dict causing silent orchestrator deadlock](tools/GE-20260827-b928ab.md)
+- GE-20260827-b5cd7d [sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches](tools/GE-20260827-b5cd7d.md)
+- GE-20260827-84598e [Postcondition verification on state machine judgment steps — verify artifacts not claims](tools/GE-20260827-84598e.md)
+- GE-20260827-2f2d4f [Lazy handler loading in skill files prevents LLM shortcutting to concrete actions](tools/GE-20260827-2f2d4f.md)
+- GE-20260827-22594f [Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks](tools/GE-20260827-22594f.md)
+- GE-20260827-c8adba [LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow](tools/GE-20260827-c8adba.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

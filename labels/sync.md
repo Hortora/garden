@@ -1,1 +1,2 @@
 - GE-20260605-d89e57: Direct edits to ~/.claude/skills/<hortora-skill>/SKILL.md are overwritten on next Hortora soredium sync
+- GE-20260827-b5cd7d: sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches

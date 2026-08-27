@@ -14,3 +14,4 @@
 - GE-20260601-607fc9: Pre-push hook that always blocks — not candidate-based
 - GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks
 - GE-20260806-0edab1: Claude Code PreToolUse hook categorically blocks lifecycle file edits — no per-issue override
+- GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks

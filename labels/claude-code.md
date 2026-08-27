@@ -65,3 +65,6 @@
 - GE-20260813-687333: Path-to-name encoding silently fails when input is relative — produces different encoding for same location
 - GE-20260816-642755: Edit replace_all with prefix-matching strings replaces inside longer identifiers
 - GE-20260826-2a58fa: CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving
+- GE-20260827-2f2d4f: Lazy handler loading in skill files prevents LLM shortcutting to concrete actions
+- GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks
+- GE-20260827-c8adba: LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow

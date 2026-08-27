@@ -1,0 +1,1 @@
+- GE-20260827-c8adba: LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow

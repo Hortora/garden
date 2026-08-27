@@ -8,3 +8,4 @@
 - GE-20260612-af3c19: WireMock no-stubs-404 test needs a positive getRequestedFor verify — negative assertions alone are insufficient
 - GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures
 - GE-20260819-55bffe: Per-boundary verification and per-close forcing functions are different scopes
+- GE-20260827-84598e: Postcondition verification on state machine judgment steps — verify artifacts not claims

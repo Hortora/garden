@@ -56,3 +56,4 @@
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
 - GE-20260810-829129: Git rebase silently drops child branch commits after parent branch is squash-merged to main
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
+- GE-20260827-b5cd7d: sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches

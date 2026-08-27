@@ -1,0 +1,1 @@
+- GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks

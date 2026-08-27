@@ -1,2 +1,3 @@
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
 - GE-20260520-be8d9e: git filter-repo --force on a non-fresh clone rewrites all SHAs, breaking origin/branch..HEAD range
+- GE-20260827-b5cd7d: sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches

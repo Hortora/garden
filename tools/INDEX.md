@@ -768,3 +768,9 @@
 | GE-20260826-d26944 | LLM can force-complete mechanical steps via step_done — advances lifecycle past failures | gotcha | 13/15 |
 | GE-20260826-f95e6b | last_yielded tracking enforces inversion of control in yield-based orchestrators | technique | 10/15 |
 | GE-20260827-a41dce | ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers | gotcha | 10/15 |
+| GE-20260827-b928ab | Per-repo judgment steps return empty dict causing silent orchestrator deadlock | gotcha | 12/15 |
+| GE-20260827-b5cd7d | sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches | gotcha | 11/15 |
+| GE-20260827-84598e | Postcondition verification on state machine judgment steps — verify artifacts not claims | technique | 12/15 |
+| GE-20260827-2f2d4f | Lazy handler loading in skill files prevents LLM shortcutting to concrete actions | technique | 13/15 |
+| GE-20260827-22594f | Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks | technique | 11/15 |
+| GE-20260827-c8adba | LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow | undocumented | 12/15 |

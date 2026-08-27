@@ -1,0 +1,1 @@
+- GE-20260827-84598e: Postcondition verification on state machine judgment steps — verify artifacts not claims

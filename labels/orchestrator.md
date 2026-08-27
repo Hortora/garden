@@ -3,3 +3,7 @@
 - GE-20260826-bb23d3: Orchestrator skip_step parameter accepts any step name — bypasses inversion of control
 - GE-20260826-d26944: LLM can force-complete mechanical steps via step_done — advances lifecycle past failures
 - GE-20260826-f95e6b: last_yielded tracking enforces inversion of control in yield-based orchestrators
+- GE-20260827-b928ab: Per-repo judgment steps return empty dict causing silent orchestrator deadlock
+- GE-20260827-84598e: Postcondition verification on state machine judgment steps — verify artifacts not claims
+- GE-20260827-2f2d4f: Lazy handler loading in skill files prevents LLM shortcutting to concrete actions
+- GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks

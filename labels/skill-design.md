@@ -1,1 +1,3 @@
 - GE-20260801-e482fc: Separate skill sections create LLM bypass paths — merge mandatory gates into one section
+- GE-20260827-2f2d4f: Lazy handler loading in skill files prevents LLM shortcutting to concrete actions
+- GE-20260827-c8adba: LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow
