@@ -1,0 +1,1 @@
+- GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope

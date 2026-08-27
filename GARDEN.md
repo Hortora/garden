@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2974
+**Entries merged since last sweep:** 2976
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2215,6 +2215,8 @@
 - GE-20260825-f4565a [Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)](jvm/GE-20260825-f4565a.md)
 - GE-20260825-dc6ef1 [Quarkus immutable cache headers on static resources prevent browser cache busting](jvm/GE-20260825-dc6ef1.md)
 - GE-20260825-a9ca3c [Scenario runTo never pauses — name vs label mismatch in step result matching](jvm/GE-20260825-a9ca3c.md)
+- GE-20260827-d453bd [quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'](jvm/GE-20260827-d453bd.md)
+- GE-20260827-50b67b [Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope](jvm/GE-20260827-50b67b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1535,3 +1535,5 @@
 | GE-20260825-f4565a | Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext) | gotcha | 8/15 |
 | GE-20260825-dc6ef1 | Quarkus immutable cache headers on static resources prevent browser cache busting | gotcha | 11/15 |
 | GE-20260825-a9ca3c | Scenario runTo never pauses — name vs label mismatch in step result matching | gotcha | 9/15 |
+| GE-20260827-d453bd | quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields' | gotcha | 12/15 |
+| GE-20260827-50b67b | Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope | technique | 10/15 |

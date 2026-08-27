@@ -40,3 +40,5 @@
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
 - GE-20260823-761bac: CDI @ApplicationScoped serves dual purpose — removing it for 'zero deps' silently breaks SPI discovery via Instance<T>
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
+- GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
+- GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope

@@ -1,1 +1,3 @@
 - GE-20260811-21ae26: SmallRye GraphQL CustomStringScalar is an interface to implement, not an annotation — @CustomScalar is the annotation
+- GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
+- GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope

@@ -787,3 +787,5 @@
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
 - GE-20260824-e2f1ba: Enforcement side effects inside @Transactional dispatch are silently rolled back when the method throws
 - GE-20260825-dc6ef1: Quarkus immutable cache headers on static resources prevent browser cache busting
+- GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
+- GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope
