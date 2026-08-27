@@ -7,3 +7,4 @@
 - GE-20260612-1f4ed8: JPA JOINED inheritance field shadowing + Hibernate bytecode enhancement: base class NOT NULL fails despite subclass field being set
 - GE-20260705-a910c0: JOINED inheritance silently breaks when parent @Entity becomes @MappedSuperclass
 - GE-20260718-d18dc0: H2 + Hibernate 6.6 JOINED inheritance — empty discriminator CHECK kills @QuarkusTest silently
+- GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns

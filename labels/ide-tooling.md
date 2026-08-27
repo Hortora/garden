@@ -8,3 +8,4 @@
 - GE-20260805-912fa7: IntelliJ MCP ide_edit_member and ide_insert_member do not persist changes to disk
 - GE-20260821-7509e8: ide_edit_member with member=className replaces the entire class body, not just the declaration
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
+- GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2990
+**Entries merged since last sweep:** 2992
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2220,6 +2220,7 @@
 - GE-20260827-d5a3cf [H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create](jvm/GE-20260827-d5a3cf.md)
 - GE-20260827-d4cf1d [Quarkus arc.exclude-types requires full injection chain exclusion](jvm/GE-20260827-d4cf1d.md)
 - GE-20260827-abc094 [Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes](jvm/GE-20260827-abc094.md)
+- GE-20260827-4e692c [JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns](jvm/GE-20260827-4e692c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3029,6 +3030,7 @@
 - GE-20260827-2f2d4f [Lazy handler loading in skill files prevents LLM shortcutting to concrete actions](tools/GE-20260827-2f2d4f.md)
 - GE-20260827-22594f [Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks](tools/GE-20260827-22594f.md)
 - GE-20260827-c8adba [LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow](tools/GE-20260827-c8adba.md)
+- GE-20260827-5a54de [IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter](tools/GE-20260827-5a54de.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

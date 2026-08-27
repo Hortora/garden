@@ -160,3 +160,4 @@
 - GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError
 - GE-20260826-46cf28: Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError
 - GE-20260827-b928ab: Per-repo judgment steps return empty dict causing silent orchestrator deadlock
+- GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter

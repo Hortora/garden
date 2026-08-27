@@ -1540,3 +1540,4 @@
 | GE-20260827-d5a3cf | H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create | gotcha | 9/15 |
 | GE-20260827-d4cf1d | Quarkus arc.exclude-types requires full injection chain exclusion | gotcha | 10/15 |
 | GE-20260827-abc094 | Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes | gotcha | 10/15 |
+| GE-20260827-4e692c | JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns | gotcha | 9/15 |

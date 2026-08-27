@@ -52,3 +52,4 @@
 - GE-20260811-c10d23: H2 PostgreSQL mode does not support partial unique indexes or DEFAULT gen_random_uuid() on PRIMARY KEY
 - GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
+- GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
