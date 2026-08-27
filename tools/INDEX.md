@@ -775,3 +775,4 @@
 | GE-20260827-22594f | Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks | technique | 11/15 |
 | GE-20260827-c8adba | LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow | undocumented | 12/15 |
 | GE-20260827-5a54de | IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter | gotcha | 9/15 |
+| GE-20260827-2220a2 | Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer | technique | 9/15 |

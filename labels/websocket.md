@@ -28,3 +28,5 @@
 - GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
 - GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
 - GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo
+- GE-20260827-a19839: TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)
+- GE-20260827-6b92ca: Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]

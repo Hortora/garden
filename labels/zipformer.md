@@ -1,0 +1,1 @@
+- GE-20260827-2220a2: Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer
