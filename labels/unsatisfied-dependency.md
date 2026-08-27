@@ -1,1 +1,2 @@
 - GE-20260424-e9df70: Library JPA repository without @ApplicationScoped causes UnsatisfiedResolutionException — even if Jandex-indexed
+- GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion

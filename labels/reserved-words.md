@@ -1,1 +1,2 @@
 - GE-20260512-7720ab: H2-reserved words as column names pass PostgreSQL but fail silently in H2 test mode
+- GE-20260827-d5a3cf: H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create

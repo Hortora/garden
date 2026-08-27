@@ -93,3 +93,4 @@
 - GE-20260812-10117e: PostgreSQL JSONB column rejects varchar binding from JPA AttributeConverter
 - GE-20260817-190e09: HQL CURRENT_TIMESTAMP in UPDATE SET rejects Instant fields — Hibernate 7 semantic type checker
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
+- GE-20260827-d5a3cf: H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create

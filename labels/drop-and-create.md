@@ -1,2 +1,3 @@
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
 - GE-20260607-ad3d62: ledger_subject_sequence missing in H2 tests after casehub-ledger snapshot introduced LedgerSequenceAllocator
+- GE-20260827-d5a3cf: H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create

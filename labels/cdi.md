@@ -438,3 +438,4 @@
 - GE-20260823-11ffe5: CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only
+- GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
