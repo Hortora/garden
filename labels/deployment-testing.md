@@ -1,0 +1,1 @@
+- GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes

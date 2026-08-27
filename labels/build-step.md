@@ -10,3 +10,4 @@
 - GE-20260818-0d06dd: Quarkus void @BuildStep that consumes but produces no build item is silently never scheduled
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
 - GE-20260819-e4a624: Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest
+- GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes

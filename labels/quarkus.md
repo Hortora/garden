@@ -791,3 +791,4 @@
 - GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope
 - GE-20260827-d5a3cf: H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
+- GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes

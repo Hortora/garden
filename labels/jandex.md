@@ -42,3 +42,4 @@
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
 - GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope
+- GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes

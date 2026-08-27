@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2989
+**Entries merged since last sweep:** 2990
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2219,6 +2219,7 @@
 - GE-20260827-50b67b [Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope](jvm/GE-20260827-50b67b.md)
 - GE-20260827-d5a3cf [H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create](jvm/GE-20260827-d5a3cf.md)
 - GE-20260827-d4cf1d [Quarkus arc.exclude-types requires full injection chain exclusion](jvm/GE-20260827-d4cf1d.md)
+- GE-20260827-abc094 [Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes](jvm/GE-20260827-abc094.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
