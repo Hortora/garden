@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2976
+**Entries merged since last sweep:** 2977
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3019,6 +3019,7 @@
 - GE-20260826-bb23d3 [Orchestrator skip_step parameter accepts any step name — bypasses inversion of control](tools/GE-20260826-bb23d3.md)
 - GE-20260826-d26944 [LLM can force-complete mechanical steps via step_done — advances lifecycle past failures](tools/GE-20260826-d26944.md)
 - GE-20260826-f95e6b [last_yielded tracking enforces inversion of control in yield-based orchestrators](tools/GE-20260826-f95e6b.md)
+- GE-20260827-a41dce [ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers](tools/GE-20260827-a41dce.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

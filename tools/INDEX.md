@@ -767,3 +767,4 @@
 | GE-20260826-bb23d3 | Orchestrator skip_step parameter accepts any step name — bypasses inversion of control | gotcha | 12/15 |
 | GE-20260826-d26944 | LLM can force-complete mechanical steps via step_done — advances lifecycle past failures | gotcha | 13/15 |
 | GE-20260826-f95e6b | last_yielded tracking enforces inversion of control in yield-based orchestrators | technique | 10/15 |
+| GE-20260827-a41dce | ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers | gotcha | 10/15 |

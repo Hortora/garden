@@ -1,2 +1,1 @@
-- GE-20260521-c89fd1: Resolve cherry-pick conflict by checking out the mature-branch version of the whole file
 - GE-20260827-a41dce: ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers

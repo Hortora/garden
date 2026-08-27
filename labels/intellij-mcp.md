@@ -80,3 +80,4 @@
 - GE-20260825-ac5410: IntelliJ MCP write operations time out while reads succeed — too many open projects
 - GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone
 - GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication
+- GE-20260827-a41dce: ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers
