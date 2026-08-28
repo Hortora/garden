@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2995
+**Entries merged since last sweep:** 2997
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -663,6 +663,7 @@
 - GE-20260814-cab88c [CDI BeanManager.getBeans() as runtime alternative to Jandex for annotation-based bean discovery in Quarkus](quarkus/GE-20260814-cab88c.md)
 - GE-20260427-7162b2 [Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port](quarkus/GE-20260427-7162b2.md)
 - GE-20260414-99a2a3 [Field-inject CDI Event with null guard to keep unit tests free of CDI](quarkus/GE-20260414-99a2a3.md)
+- GE-20260424-4b7aa2 [@ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex](quarkus/GE-20260424-4b7aa2.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -3325,6 +3326,7 @@
 - GE-20260827-24903b [webpack tree-shakes web component registration imports without explicit sideEffects config](web/GE-20260827-24903b.md)
 - GE-20260827-a4a698 [React Flow v12 renamed reconnectEdges prop to edgesReconnectable](web/GE-20260827-a4a698.md)
 - GE-20260827-a19839 [TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)](web/GE-20260827-a19839.md)
+- GE-20260828-74bbb5 [pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly](web/GE-20260828-74bbb5.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

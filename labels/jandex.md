@@ -43,3 +43,4 @@
 - GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
 - GE-20260827-50b67b: Wrap external module types in local records to isolate @GraphQLApi schema from Jandex index scope
 - GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes
+- GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex

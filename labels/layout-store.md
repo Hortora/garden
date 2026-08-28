@@ -1,0 +1,1 @@
+- GE-20260828-74bbb5: pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly

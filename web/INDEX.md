@@ -259,3 +259,4 @@
 | GE-20260827-24903b | webpack tree-shakes web component registration imports without explicit sideEffects config | gotcha | 9/15 |
 | GE-20260827-a4a698 | React Flow v12 renamed reconnectEdges prop to edgesReconnectable | undocumented | 8/15 |
 | GE-20260827-a19839 | TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0) | gotcha | 10/15 |
+| GE-20260828-74bbb5 | pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly | undocumented | 8/15 |
