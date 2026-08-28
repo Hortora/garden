@@ -19,3 +19,4 @@
 - GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
 - GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
 - GE-20260819-c5f890: Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state
+- GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2997
+**Entries merged since last sweep:** 2999
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2223,6 +2223,7 @@
 - GE-20260827-abc094 [Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes](jvm/GE-20260827-abc094.md)
 - GE-20260827-4e692c [JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns](jvm/GE-20260827-4e692c.md)
 - GE-20260827-6b92ca [Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]](jvm/GE-20260827-6b92ca.md)
+- GE-20260828-5a3272 [@Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads](jvm/GE-20260828-5a3272.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3034,6 +3035,7 @@
 - GE-20260827-c8adba [LLMs read full SKILL.md upfront and latch onto concrete handlers, skipping abstract control flow](tools/GE-20260827-c8adba.md)
 - GE-20260827-5a54de [IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter](tools/GE-20260827-5a54de.md)
 - GE-20260827-2220a2 [Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer](tools/GE-20260827-2220a2.md)
+- GE-20260828-07529b [SC2 replay tracker events use 2x coordinate scale vs game events](tools/GE-20260828-07529b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

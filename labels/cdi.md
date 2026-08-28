@@ -439,3 +439,4 @@
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
+- GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads

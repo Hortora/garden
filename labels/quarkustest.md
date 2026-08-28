@@ -18,3 +18,4 @@
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
 - GE-20260701-c000c7: Quinoa extension disabled in @QuarkusTest mode — hardcoded LaunchMode.TEST skip ignores all config
 - GE-20260707-9b1b4d: mvn test passes but mvn install fails — @QuarkusTest CDI augmentation is more permissive than quarkus:build
+- GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads

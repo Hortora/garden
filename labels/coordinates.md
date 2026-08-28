@@ -1,1 +1,2 @@
 - GE-20260814-2beabf: Canvas crosshair position shifts when Lit panel resize changes canvas container width
+- GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events

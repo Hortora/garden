@@ -1,2 +1,3 @@
 - GE-20260426-611fdc: SC2 replay GAME_EVENTS unit tags encode tagIndex and tagRecycle as a single integer
 - GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere
+- GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events

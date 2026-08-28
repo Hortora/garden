@@ -1542,3 +1542,4 @@
 | GE-20260827-abc094 | Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes | gotcha | 10/15 |
 | GE-20260827-4e692c | JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns | gotcha | 9/15 |
 | GE-20260827-6b92ca | Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[] | gotcha | 9/15 |
+| GE-20260828-5a3272 | @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads | gotcha | 10/15 |

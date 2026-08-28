@@ -4,3 +4,4 @@
 - GE-20260530-5e5c67: runSubscriptionOn(workerPool) in a reactive adapter deadlocks when callers are already on the worker pool
 - GE-20260628-dbc656: WorkerDecisionEvent fires at worker completion (not dispatch) — tests waiting for attestations before gate approval deadlock
 - GE-20260713-cfba6d: IntelliJ MCP structural editing tools silently reject Python — deadlocks with Edit hooks
+- GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads

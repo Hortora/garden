@@ -11,3 +11,4 @@
 - GE-20260529-90ed14: Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable
 - GE-20260530-f75780: Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561
 - GE-20260530-f5b1d9: Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map
+- GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events

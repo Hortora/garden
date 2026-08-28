@@ -1,1 +1,2 @@
 - GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly
+- GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events

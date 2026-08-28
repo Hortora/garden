@@ -793,3 +793,4 @@
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
 - GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes
 - GE-20260827-6b92ca: Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]
+- GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads

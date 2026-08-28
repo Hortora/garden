@@ -27,3 +27,4 @@
 - GE-20260628-a741a4: Ocraft StartRaw.from() requires 8×1 placement grid minimum — 1×1 triggers integer division edge case
 - GE-20260719-8c18fa: SC2 strategy classification has structured external sources — TacticCraft, Spawning Tool, STARDATA, Liquipedia taxonomy
 - GE-20260730-6b36c7: SC2 frame count from minutes truncates at phase boundaries — (long)(min × 60 × 22.4) loses precision
+- GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events
