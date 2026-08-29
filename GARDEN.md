@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 2999
+**Entries merged since last sweep:** 3000
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -374,6 +374,7 @@
 - GE-20260826-51c700 [sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5](java-panama-ffm/GE-20260826-51c700.md)
 - GE-20260826-3608ec [sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball](java-panama-ffm/GE-20260826-3608ec.md)
 - GE-20260826-190329 [Oversized zero-filled allocation for FFM config structs — version-resilient alternative to exact MemoryLayout](java-panama-ffm/GE-20260826-190329.md)
+- GE-20260829-c497e0 [OnnxRuntime C API tensor handles leak despite Java FFM Arena.ofConfined() cleanup](java-panama-ffm/GE-20260829-c497e0.md)
 ### macos-native-appkit/
 - GE-0051 [Smoke-test WKWebView rendering by checking for a new WebContent process](macos-native-appkit/GE-0051.md)
 - GE-0072 [`performSelectorOnMainThread:waitUntilDone:NO` from main thread schedules asynchronously](macos-native-appkit/GE-0072.md)

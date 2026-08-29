@@ -1,0 +1,1 @@
+- GE-20260829-c497e0: OnnxRuntime C API tensor handles leak despite Java FFM Arena.ofConfined() cleanup
