@@ -1,0 +1,1 @@
+- GE-20260829-1e8e34: Server-extracted targets for client-side readiness probing — split probe data from probe execution across the server/client boundary
