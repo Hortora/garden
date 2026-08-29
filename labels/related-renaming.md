@@ -1,2 +1,1 @@
-- GE-20260706-3cdc77: ide_refactor_rename on a constructor parameter can rename the enclosing class when position is ambiguous
 - GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types

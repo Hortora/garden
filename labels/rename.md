@@ -5,3 +5,4 @@
 - GE-20260705-e8fa3c: IntelliJ MCP ide_refactor_rename with relatedRenamingStrategy propagates renames into unrelated class name substrings
 - GE-20260820-54a3a6: IntelliJ MCP ide_replace_text_in_file matches cross-package fully-qualified names
 - GE-20260821-2b40cc: IntelliJ MCP ide_refactor_rename completes silently on timeout — operations succeed despite error response
+- GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3000
+**Entries merged since last sweep:** 3002
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -266,6 +266,8 @@
 - GE-20260823-c14bbf [ide_edit_member with member=ClassName replaces the entire class, not the constructor](intellij-platform/GE-20260823-c14bbf.md)
 - GE-20260823-c9d1dd [IntelliJ MCP tool writes may not flush to disk before git add stages the file](intellij-platform/GE-20260823-c9d1dd.md)
 - GE-20260825-3dbb7c [IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding](intellij-platform/GE-20260825-3dbb7c.md)
+- GE-20260829-a1c163 [IntelliJ MCP ide_create_file silently doubles path when given absolute file path](intellij-platform/GE-20260829-a1c163.md)
+- GE-20260829-f5615b [IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types](intellij-platform/GE-20260829-f5615b.md)
 ### jep/
 - GE-20260415-5a9a11 [JEP SharedInterpreter called from non-owner thread hangs indefinitely — no exception](jep/GE-20260415-5a9a11.md)
 - GE-20260415-b53912 [JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME](jep/GE-20260415-b53912.md)

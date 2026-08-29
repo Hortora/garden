@@ -7,3 +7,4 @@
 - GE-20260806-846155: Maven 3.9.x .mvn/maven.config mangles -s settings path — prepends basedir with literal space
 - GE-20260811-054ced: plan_manager.detect() hardcodes design/.plan path — slot-root .plan files invisible
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
+- GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path

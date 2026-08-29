@@ -1,3 +1,4 @@
 - GE-20260421-924fc7: Creating a Java class with the same name as an existing class in the same package silently overwrites it
 - GE-20260717-886249: IntelliJ MCP ide_create_file writes to VFS only — files invisible to Maven and filesystem until manual sync
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
+- GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path

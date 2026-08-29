@@ -161,3 +161,5 @@
 - GE-20260826-46cf28: Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError
 - GE-20260827-b928ab: Per-repo judgment steps return empty dict causing silent orchestrator deadlock
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
+- GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
+- GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types

@@ -81,3 +81,5 @@
 - GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone
 - GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication
 - GE-20260827-a41dce: ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers
+- GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
+- GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types
