@@ -1,1 +1,2 @@
 - GE-20260610-170b45: git rebase stalls with 'previous cherry-pick is now empty' when rebasing onto a branch that already has squashed content
+- GE-20260831-251f7d: Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged

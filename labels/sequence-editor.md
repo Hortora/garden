@@ -1,0 +1,1 @@
+- GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping

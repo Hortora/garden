@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3004
+**Entries merged since last sweep:** 3006
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3040,6 +3040,8 @@
 - GE-20260827-5a54de [IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter](tools/GE-20260827-5a54de.md)
 - GE-20260827-2220a2 [Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer](tools/GE-20260827-2220a2.md)
 - GE-20260828-07529b [SC2 replay tracker events use 2x coordinate scale vs game events](tools/GE-20260828-07529b.md)
+- GE-20260831-437590 [GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping](tools/GE-20260831-437590.md)
+- GE-20260831-251f7d [Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged](tools/GE-20260831-251f7d.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

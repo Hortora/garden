@@ -1,0 +1,1 @@
+- GE-20260831-251f7d: Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged

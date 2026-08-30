@@ -14,3 +14,4 @@
 - GE-20260522-409183: GIT_SEQUENCE_EDITOR rebase todo fails silently on SHA typo — generate from git log, not by hand
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
+- GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping

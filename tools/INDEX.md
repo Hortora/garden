@@ -777,3 +777,5 @@
 | GE-20260827-5a54de | IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter | gotcha | 9/15 |
 | GE-20260827-2220a2 | Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer | technique | 9/15 |
 | GE-20260828-07529b | SC2 replay tracker events use 2x coordinate scale vs game events | undocumented | 12/15 |
+| GE-20260831-437590 | GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping | technique | 9/15 |
+| GE-20260831-251f7d | Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged | gotcha | 9/15 |
