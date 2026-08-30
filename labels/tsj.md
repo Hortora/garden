@@ -1,0 +1,1 @@
+- GE-20260830-823543: TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR

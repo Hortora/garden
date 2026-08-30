@@ -42,3 +42,4 @@
 - GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators
 - GE-20260826-46cf28: Optional chaining on undefined variable masks bugs — silent no-op instead of ReferenceError
 - GE-20260826-ead83e: Array.isArray narrowing doesn't exclude non-array union members in else branch
+- GE-20260830-823543: TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR

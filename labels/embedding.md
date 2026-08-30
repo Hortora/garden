@@ -10,3 +10,4 @@
 - GE-20260803-b31d50: BGE-M3 SentencePiece tokenizer fragments Java identifiers worse than BERT WordPiece
 - GE-20260803-f9d8ae: Tokenization quality does not predict embedding retrieval precision — training objective dominates
 - GE-20260803-24339b: jina-embeddings-v2-base-code 8192 context window causes 30-50x CPU inference slowdown
+- GE-20260830-823543: TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR
