@@ -1,3 +1,4 @@
 - GE-20260726-fd29f7: Google API client library dependency convergence — don't declare transitive deps explicitly
 - GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
 - GE-20260812-a0d705: Barrel re-export pulls in unavailable transitive dependency from unused module
+- GE-20260901-118b8b: EU DSS 6.2 requires 3 explicit dependencies not pulled transitively by dss-pades-pdfbox or dss-cades

@@ -1,0 +1,1 @@
+- GE-20260901-118b8b: EU DSS 6.2 requires 3 explicit dependencies not pulled transitively by dss-pades-pdfbox or dss-cades
