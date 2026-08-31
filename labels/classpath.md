@@ -32,3 +32,4 @@
 - GE-20260804-8dbefe: Deleting a CDI bean class leaves stale Jandex index references in downstream SNAPSHOT jars
 - GE-20260822-0a4eed: db-scheduler v16 shades cron-utils — imports from com.cronutils fail
 - GE-20260830-823543: TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR
+- GE-20260831-f91b16: JarURLConnection fails on JARs without directory entries — extract path and use JarFile directly

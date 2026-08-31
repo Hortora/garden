@@ -1,1 +1,2 @@
 - GE-20260805-cbde22: quarkus.arc.exclude-types does not affect beans registered via AdditionalBeanBuildItem in Quarkus extension deployment processors
+- GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus

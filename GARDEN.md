@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3007
+**Entries merged since last sweep:** 3009
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2229,6 +2229,8 @@
 - GE-20260828-5a3272 [@Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads](jvm/GE-20260828-5a3272.md)
 - GE-20260830-823543 [TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR](jvm/GE-20260830-823543.md)
 - GE-20260831-1e506c [Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start](jvm/GE-20260831-1e506c.md)
+- GE-20260831-f91b16 [JarURLConnection fails on JARs without directory entries — extract path and use JarFile directly](jvm/GE-20260831-f91b16.md)
+- GE-20260831-63ecf4 [Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus](jvm/GE-20260831-63ecf4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

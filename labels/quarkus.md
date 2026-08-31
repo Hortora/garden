@@ -794,3 +794,4 @@
 - GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes
 - GE-20260827-6b92ca: Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]
 - GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads
+- GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus

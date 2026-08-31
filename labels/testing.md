@@ -449,3 +449,4 @@
 - GE-20260823-bff285: Jandex Indexer API for fast Quarkus build extension validation tests — 60ms vs seconds
 - GE-20260825-2cc3e8: Orchestrator stubs pass sequence tests — tests verify action order but not script invocations
 - GE-20260825-a38514: Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state
+- GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus

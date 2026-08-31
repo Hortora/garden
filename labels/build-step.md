@@ -11,3 +11,4 @@
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
 - GE-20260819-e4a624: Test Quarkus build extension validation with Jandex Indexer API instead of QuarkusUnitTest
 - GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes
+- GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus

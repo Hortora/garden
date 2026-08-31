@@ -1,0 +1,1 @@
+- GE-20260831-f91b16: JarURLConnection fails on JARs without directory entries — extract path and use JarFile directly
