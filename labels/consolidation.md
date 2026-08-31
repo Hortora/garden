@@ -1,0 +1,1 @@
+- GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start

@@ -53,3 +53,4 @@
 - GE-20260812-8cfcd2: H2 2.x accepts JSONB as a type alias for JSON
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
+- GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start

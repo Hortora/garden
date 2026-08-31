@@ -10,3 +10,4 @@
 - GE-20260707-649b02: Flyway migration that drops a column masks the real error — symptom points at Hibernate DDL or schema generation
 - GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
 - GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
+- GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start

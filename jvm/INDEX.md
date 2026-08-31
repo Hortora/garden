@@ -1544,3 +1544,4 @@
 | GE-20260827-6b92ca | Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[] | gotcha | 9/15 |
 | GE-20260828-5a3272 | @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads | gotcha | 10/15 |
 | GE-20260830-823543 | TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR | gotcha | 10/15 |
+| GE-20260831-1e506c | Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start | gotcha | 12/15 |

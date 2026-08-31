@@ -51,3 +51,4 @@
 - GE-20260821-ef71ba: IntelliJ MCP ide_structural_search_replace for bulk API migration — short class name required for replace pattern
 - GE-20260827-a4a698: React Flow v12 renamed reconnectEdges prop to edgesReconnectable
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
+- GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start
