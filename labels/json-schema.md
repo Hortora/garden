@@ -2,3 +2,4 @@
 - GE-20260818-c69f20: JSON schema default value makes generated getter never return null
 - GE-20260822-b5cf32: LangChain4j 1.14.1 ToolSpecification.builder().parameters() takes JsonObjectSchema, not JsonSchemaElement
 - GE-20260824-2eb1d7: victools/jsonschema-generator custom module patterns for type replacement and post-processing
+- GE-20260901-52fded: jsonschema2pojo silently generates nothing when schema has only $defs — no root type

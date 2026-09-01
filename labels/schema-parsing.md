@@ -1,0 +1,1 @@
+- GE-20260901-4be506: jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats

@@ -5,3 +5,5 @@
 - GE-20260817-ab5489: casehub-engine schema changes require explicit mvn install before dependent modules compile
 - GE-20260818-c69f20: JSON schema default value makes generated getter never return null
 - GE-20260818-67d25e: jsonschema2pojo oneOf: [string, object] generates Object return type — silently breaks all callers
+- GE-20260901-4be506: jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats
+- GE-20260901-52fded: jsonschema2pojo silently generates nothing when schema has only $defs — no root type

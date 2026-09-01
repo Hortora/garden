@@ -163,3 +163,4 @@
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
 - GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
 - GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types
+- GE-20260901-52fded: jsonschema2pojo silently generates nothing when schema has only $defs — no root type

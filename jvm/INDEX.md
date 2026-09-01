@@ -1549,3 +1549,5 @@
 | GE-20260831-63ecf4 | Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus | technique | 9/15 |
 | GE-20260901-118b8b | EU DSS 6.2 requires 3 explicit dependencies not pulled transitively by dss-pades-pdfbox or dss-cades | gotcha | 11/15 |
 | GE-20260901-defe71 | sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap | gotcha | 13/15 |
+| GE-20260901-4be506 | jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats | technique | 10/15 |
+| GE-20260901-52fded | jsonschema2pojo silently generates nothing when schema has only $defs — no root type | gotcha | 9/15 |
