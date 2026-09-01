@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3010
+**Entries merged since last sweep:** 3011
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2232,6 +2232,7 @@
 - GE-20260831-f91b16 [JarURLConnection fails on JARs without directory entries — extract path and use JarFile directly](jvm/GE-20260831-f91b16.md)
 - GE-20260831-63ecf4 [Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus](jvm/GE-20260831-63ecf4.md)
 - GE-20260901-118b8b [EU DSS 6.2 requires 3 explicit dependencies not pulled transitively by dss-pades-pdfbox or dss-cades](jvm/GE-20260901-118b8b.md)
+- GE-20260901-defe71 [sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap](jvm/GE-20260901-defe71.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

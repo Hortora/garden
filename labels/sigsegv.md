@@ -1,2 +1,3 @@
 - GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access
 - GE-20260826-51c700: sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5
+- GE-20260901-defe71: sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap

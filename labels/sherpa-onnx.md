@@ -1,3 +1,4 @@
 - GE-20260826-51c700: sherpa-onnx FFM struct layout requires exact match of ALL nested model sub-configs — 17 types, not 5
 - GE-20260826-3608ec: sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball
 - GE-20260827-2220a2: Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer
+- GE-20260901-defe71: sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap

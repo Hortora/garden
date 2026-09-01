@@ -1,0 +1,1 @@
+- GE-20260901-defe71: sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap
