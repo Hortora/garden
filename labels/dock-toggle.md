@@ -1,0 +1,1 @@
+- GE-20260901-4f4254: pages-dock-toggle event — undocumented CustomEvent for dock panel activation

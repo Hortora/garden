@@ -1,0 +1,2 @@
+- GE-20260901-acd616: Bridge selection topic pattern for multi-mode dockWorkbench layouts
+- GE-20260901-4f4254: pages-dock-toggle event — undocumented CustomEvent for dock panel activation

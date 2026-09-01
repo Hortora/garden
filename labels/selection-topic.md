@@ -1,0 +1,1 @@
+- GE-20260901-acd616: Bridge selection topic pattern for multi-mode dockWorkbench layouts

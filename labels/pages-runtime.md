@@ -1,3 +1,5 @@
 - GE-20260804-a89d3b: pages-runtime loadSite pulls entire transitive dependency chain — js-yaml, marked, echarts
 - GE-20260805-e3211c: pages-runtime hostPanel resolves custom elements via registerPanel — import AND register before loadSite
 - GE-20260828-74bbb5: pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly
+- GE-20260901-acd616: Bridge selection topic pattern for multi-mode dockWorkbench layouts
+- GE-20260901-4f4254: pages-dock-toggle event — undocumented CustomEvent for dock panel activation

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3013
+**Entries merged since last sweep:** 3015
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3343,6 +3343,8 @@
 - GE-20260827-a19839 [TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)](web/GE-20260827-a19839.md)
 - GE-20260828-74bbb5 [pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly](web/GE-20260828-74bbb5.md)
 - GE-20260829-1e8e34 [Server-extracted targets for client-side readiness probing — split probe data from probe execution across the server/client boundary](web/GE-20260829-1e8e34.md)
+- GE-20260901-acd616 [Bridge selection topic pattern for multi-mode dockWorkbench layouts](web/GE-20260901-acd616.md)
+- GE-20260901-4f4254 [pages-dock-toggle event — undocumented CustomEvent for dock panel activation](web/GE-20260901-4f4254.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

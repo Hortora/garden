@@ -261,3 +261,5 @@
 | GE-20260827-a19839 | TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0) | gotcha | 10/15 |
 | GE-20260828-74bbb5 | pages-runtime createRestLayoutStore has no query parameter support — implement LayoutStore directly | undocumented | 8/15 |
 | GE-20260829-1e8e34 | Server-extracted targets for client-side readiness probing — split probe data from probe execution across the server/client boundary | technique | 8/15 |
+| GE-20260901-acd616 | Bridge selection topic pattern for multi-mode dockWorkbench layouts | technique | 9/15 |
+| GE-20260901-4f4254 | pages-dock-toggle event — undocumented CustomEvent for dock panel activation | undocumented | 10/15 |
