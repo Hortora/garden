@@ -1,1 +1,2 @@
 - GE-20260626-f0b274: Guard record-field comparators with RecordComponent reflection count tests
+- GE-20260903-d37d59: Stream.max() with secondary Comparator picks largest in ALL dimensions — reverse tiebreaker for smallest-key-on-tie

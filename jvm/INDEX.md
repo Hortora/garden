@@ -1551,3 +1551,4 @@
 | GE-20260901-defe71 | sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap | gotcha | 13/15 |
 | GE-20260901-4be506 | jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats | technique | 10/15 |
 | GE-20260901-52fded | jsonschema2pojo silently generates nothing when schema has only $defs — no root type | gotcha | 9/15 |
+| GE-20260903-d37d59 | Stream.max() with secondary Comparator picks largest in ALL dimensions — reverse tiebreaker for smallest-key-on-tie | technique | 9/15 |
