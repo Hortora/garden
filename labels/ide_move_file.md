@@ -1,1 +1,2 @@
 - GE-20260726-bc40f9: ide_optimize_imports fails to resolve imports after cross-module ide_move_file — Maven local repo holds stale jar
+- GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves

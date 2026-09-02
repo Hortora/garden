@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3017
+**Entries merged since last sweep:** 3018
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -196,6 +196,7 @@
 - GE-20260825-ac5410 [IntelliJ MCP write operations time out while reads succeed — too many open projects](claude-code/GE-20260825-ac5410.md)
 - GE-20260826-39cb41 [IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone](claude-code/GE-20260826-39cb41.md)
 - GE-20260826-5dcb1a [IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication](claude-code/GE-20260826-5dcb1a.md)
+- GE-20260903-41abd6 [IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves](claude-code/GE-20260903-41abd6.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

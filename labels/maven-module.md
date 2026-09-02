@@ -1,0 +1,1 @@
+- GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves

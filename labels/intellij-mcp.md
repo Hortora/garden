@@ -83,3 +83,4 @@
 - GE-20260827-a41dce: ide_replace_text_in_file edits IntelliJ document buffer not disk — git rebase commits stale conflict markers
 - GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
 - GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types
+- GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves

@@ -1,3 +1,4 @@
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260511-ce1c9d: Java package move breaks wildcard imports and same-package implicit imports — two silent failures
 - GE-20260804-09f69a: jakarta.ws.rs.* wildcard import clashes with java.nio.file.Path — use explicit JAX-RS imports
+- GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves
