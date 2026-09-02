@@ -228,3 +228,4 @@
 - GE-20260822-0a4eed: db-scheduler v16 shades cron-utils — imports from com.cronutils fail
 - GE-20260823-bf3452: Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types
 - GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version
+- GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact

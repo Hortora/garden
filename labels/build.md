@@ -17,3 +17,4 @@
 - GE-20260615-ffff65: Published SNAPSHOT in GitHub Packages diverges from locally-installed SNAPSHOT — CI and local compile against different APIs
 - GE-20260616-716524: mvn quarkus:build CLI goal uses stale target/classes resources — config changes not picked up
 - GE-20260817-0ea5d5: Maven .mvn/maven.config --settings relative path resolves from -f target, not repo root
+- GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact
