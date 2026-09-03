@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3018
+**Entries merged since last sweep:** 3020
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3052,6 +3052,8 @@
 - GE-20260828-07529b [SC2 replay tracker events use 2x coordinate scale vs game events](tools/GE-20260828-07529b.md)
 - GE-20260831-437590 [GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping](tools/GE-20260831-437590.md)
 - GE-20260831-251f7d [Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged](tools/GE-20260831-251f7d.md)
+- GE-20260903-8b7e26 [Inline regex parsers silently drop items on format evolution — causing false positives in downstream checks](tools/GE-20260903-8b7e26.md)
+- GE-20260903-8608a6 [Track unparsed lines as a format-evolution signal in structured text parsers](tools/GE-20260903-8608a6.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

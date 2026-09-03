@@ -1,0 +1,1 @@
+- GE-20260903-8608a6: Track unparsed lines as a format-evolution signal in structured text parsers

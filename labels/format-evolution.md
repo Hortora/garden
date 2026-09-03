@@ -1,2 +1,2 @@
-- GE-20260810-47908e: Broad text replacement on closing-paren patterns hits unrelated method calls
 - GE-20260903-8b7e26: Inline regex parsers silently drop items on format evolution — causing false positives in downstream checks
+- GE-20260903-8608a6: Track unparsed lines as a format-evolution signal in structured text parsers

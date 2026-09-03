@@ -779,3 +779,5 @@
 | GE-20260828-07529b | SC2 replay tracker events use 2x coordinate scale vs game events | undocumented | 12/15 |
 | GE-20260831-437590 | GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping | technique | 9/15 |
 | GE-20260831-251f7d | Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged | gotcha | 9/15 |
+| GE-20260903-8b7e26 | Inline regex parsers silently drop items on format evolution — causing false positives in downstream checks | gotcha | 12/15 |
+| GE-20260903-8608a6 | Track unparsed lines as a format-evolution signal in structured text parsers | technique | 9/15 |
