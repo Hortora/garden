@@ -10,3 +10,4 @@
 - GE-20260802-2f52df: Quarkus @PostConstruct validation tightening breaks ALL CDI-discovered beans at startup
 - GE-20260806-93549d: Quarkus Arc silently skips @PostConstruct on CDI @Decorator beans
 - GE-20260806-46f5e2: CDI decorators in library JARs with Jandex are discovered by Arc but lifecycle callbacks ignored
+- GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent

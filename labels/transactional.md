@@ -30,3 +30,4 @@
 - GE-20260626-aa69fa: JTA REQUIRED propagation marks outer TX rollback-only on RuntimeException before caller can catch
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment
+- GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent

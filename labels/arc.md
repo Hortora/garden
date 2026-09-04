@@ -84,3 +84,4 @@
 - GE-20260818-5d1cc4: Claudony @QuarkusTest fails with 7 CDI deployment errors after engine SNAPSHOT update — CaseDefinitionRegistry excluded but still referenced
 - GE-20260818-c62fe5: Quarkus Arc ignores synchronous @Observes in test-classpath @ApplicationScoped beans — production observers work, test observers silently fail
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
+- GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent

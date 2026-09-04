@@ -796,3 +796,4 @@
 - GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads
 - GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus
 - GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact
+- GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
