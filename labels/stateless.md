@@ -2,3 +2,4 @@
 - GE-20260522-f7db12: Stateless multi-tier SLA escalation via candidateGroups — no state storage or decision serialization needed
 - GE-20260809-b35ea9: Graph-presence via dependentsOf() as stateless escalation guard — replaces external domain state tracking
 - GE-20260810-4bccad: Stateless escalation tier detection via candidateGroups — no state machine needed for SLA breach chains
+- GE-20260905-5296aa: Stateless sweep-based controller converges without persistent state — finite resources guarantee termination

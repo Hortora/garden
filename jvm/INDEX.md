@@ -1553,3 +1553,4 @@
 | GE-20260901-52fded | jsonschema2pojo silently generates nothing when schema has only $defs — no root type | gotcha | 9/15 |
 | GE-20260903-d37d59 | Stream.max() with secondary Comparator picks largest in ALL dimensions — reverse tiebreaker for smallest-key-on-tie | technique | 9/15 |
 | GE-20260903-112d3c | Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact | gotcha | 11/15 |
+| GE-20260905-5296aa | Stateless sweep-based controller converges without persistent state — finite resources guarantee termination | technique | 10/15 |

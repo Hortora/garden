@@ -11,3 +11,4 @@
 - GE-20260804-0e79ba: Reuse advisory CompletionCallback for non-advisory LLM workers to inherit audit trail and outcome evaluation
 - GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
 - GE-20260817-e227c7: CDI events for decoupling foundation REST resources from optional push modules
+- GE-20260905-5296aa: Stateless sweep-based controller converges without persistent state — finite resources guarantee termination

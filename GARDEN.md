@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3024
+**Entries merged since last sweep:** 3025
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2238,6 +2238,7 @@
 - GE-20260901-52fded [jsonschema2pojo silently generates nothing when schema has only $defs — no root type](jvm/GE-20260901-52fded.md)
 - GE-20260903-d37d59 [Stream.max() with secondary Comparator picks largest in ALL dimensions — reverse tiebreaker for smallest-key-on-tie](jvm/GE-20260903-d37d59.md)
 - GE-20260903-112d3c [Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact](jvm/GE-20260903-112d3c.md)
+- GE-20260905-5296aa [Stateless sweep-based controller converges without persistent state — finite resources guarantee termination](jvm/GE-20260905-5296aa.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

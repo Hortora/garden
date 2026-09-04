@@ -1,0 +1,1 @@
+- GE-20260905-5296aa: Stateless sweep-based controller converges without persistent state — finite resources guarantee termination
