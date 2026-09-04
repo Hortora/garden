@@ -781,3 +781,5 @@
 | GE-20260831-251f7d | Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged | gotcha | 9/15 |
 | GE-20260903-8b7e26 | Inline regex parsers silently drop items on format evolution — causing false positives in downstream checks | gotcha | 12/15 |
 | GE-20260903-8608a6 | Track unparsed lines as a format-evolution signal in structured text parsers | technique | 9/15 |
+| GE-20260904-7d2da5 | Kokoro multi-lang v1.1 is Chinese-specialized despite the version number — v1.0 is the English model | gotcha | 9/15 |
+| GE-20260904-ebed3c | sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine | gotcha | 8/15 |

@@ -1,1 +1,2 @@
 - GE-20260524-89eda5: Cancelled Playwright Electron test runs leave stale CDP-connected processes that block subsequent runs
+- GE-20260904-2b86f0: Playwright CDP context.newPage() escapes cached DPR override that clearDeviceMetricsOverride cannot

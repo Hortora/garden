@@ -2,3 +2,5 @@
 - GE-20260826-3608ec: sherpa-onnx native lib JARs contain JNI libs, not C API libs — FFM needs the shared-lib tarball
 - GE-20260827-2220a2: Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer
 - GE-20260901-defe71: sherpa-onnx SIGSEGV from ORT API version mismatch after native library swap
+- GE-20260904-7d2da5: Kokoro multi-lang v1.1 is Chinese-specialized despite the version number — v1.0 is the English model
+- GE-20260904-ebed3c: sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine

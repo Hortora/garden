@@ -1,2 +1,1 @@
-- GE-20260614-b94048: SPLADE cocondenser-ensembledistil is CC NonCommercial — permissive alternative at equivalent quality
 - GE-20260904-7d2da5: Kokoro multi-lang v1.1 is Chinese-specialized despite the version number — v1.0 is the English model

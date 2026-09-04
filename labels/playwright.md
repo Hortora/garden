@@ -29,3 +29,5 @@
 - GE-20260718-b097b3: Playwright locator.textContent() returns empty string for nested LitElement Shadow DOM — locator selection pierces but extraction methods don't
 - GE-20260721-c8a94f: EventSource SSE client tracking race during Lit view navigation — waitForSSEClient resolves on stale connection
 - GE-20260809-14d2f9: Playwright visual TDD — getBoundingClientRect assertions for layout verification
+- GE-20260904-91703b: Playwright setViewportSize forces DPR to 1 on Retina — native select popups appear at wrong coordinates
+- GE-20260904-2b86f0: Playwright CDP context.newPage() escapes cached DPR override that clearDeviceMetricsOverride cannot

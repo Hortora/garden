@@ -1,2 +1,1 @@
-- GE-20260610-9f38b0: JsonObject.getJsonObject() returns null for missing keys — no default overload
 - GE-20260904-ebed3c: sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine

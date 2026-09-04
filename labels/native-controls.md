@@ -1,0 +1,1 @@
+- GE-20260904-91703b: Playwright setViewportSize forces DPR to 1 on Retina — native select popups appear at wrong coordinates

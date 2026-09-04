@@ -263,3 +263,5 @@
 | GE-20260829-1e8e34 | Server-extracted targets for client-side readiness probing — split probe data from probe execution across the server/client boundary | technique | 8/15 |
 | GE-20260901-acd616 | Bridge selection topic pattern for multi-mode dockWorkbench layouts | technique | 9/15 |
 | GE-20260901-4f4254 | pages-dock-toggle event — undocumented CustomEvent for dock panel activation | undocumented | 10/15 |
+| GE-20260904-91703b | Playwright setViewportSize forces DPR to 1 on Retina — native select popups appear at wrong coordinates | gotcha | 10/15 |
+| GE-20260904-2b86f0 | Playwright CDP context.newPage() escapes cached DPR override that clearDeviceMetricsOverride cannot | technique | 9/15 |

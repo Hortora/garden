@@ -1,3 +1,2 @@
-- GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
 - GE-20260904-91703b: Playwright setViewportSize forces DPR to 1 on Retina — native select popups appear at wrong coordinates
 - GE-20260904-2b86f0: Playwright CDP context.newPage() escapes cached DPR override that clearDeviceMetricsOverride cannot
