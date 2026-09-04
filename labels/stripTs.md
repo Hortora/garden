@@ -1,2 +1,1 @@
-- GE-20260726-756909: IntelliJ MCP ide_replace_text_in_file interprets \n as literal newlines in replacement strings
 - GE-20260905-586db5: Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals

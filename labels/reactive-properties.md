@@ -1,1 +1,2 @@
 - GE-20260720-80f6e1: LitElement connectedCallback + willUpdate double-fires data requests when @property set before DOM insertion
+- GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement

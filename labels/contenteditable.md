@@ -1,0 +1,1 @@
+- GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM

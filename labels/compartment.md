@@ -1,0 +1,1 @@
+- GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement

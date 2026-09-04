@@ -22,3 +22,4 @@
 - GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries
 - GE-20260818-87ba6b: ARIA source-grep validation gives false positives for shadow DOM internal ARIA — host element has no ARIA attributes
 - GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
+- GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM

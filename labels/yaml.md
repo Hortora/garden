@@ -27,3 +27,4 @@
 - GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode
 - GE-20260816-082f92: jsonschema2pojo additionalProperties:true generates empty class — convertValue returns empty map
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
+- GE-20260905-586db5: Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals

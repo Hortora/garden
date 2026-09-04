@@ -265,3 +265,6 @@
 | GE-20260901-4f4254 | pages-dock-toggle event — undocumented CustomEvent for dock panel activation | undocumented | 10/15 |
 | GE-20260904-91703b | Playwright setViewportSize forces DPR to 1 on Retina — native select popups appear at wrong coordinates | gotcha | 10/15 |
 | GE-20260904-2b86f0 | Playwright CDP context.newPage() escapes cached DPR override that clearDeviceMetricsOverride cannot | technique | 9/15 |
+| GE-20260905-586db5 | Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals | gotcha | 11/15 |
+| GE-20260905-3e4256 | CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM | gotcha | 10/15 |
+| GE-20260905-5986c1 | CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement | technique | 10/15 |

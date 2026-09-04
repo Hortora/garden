@@ -165,3 +165,4 @@
 - GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types
 - GE-20260901-52fded: jsonschema2pojo silently generates nothing when schema has only $defs — no root type
 - GE-20260903-8b7e26: Inline regex parsers silently drop items on format evolution — causing false positives in downstream checks
+- GE-20260905-586db5: Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals

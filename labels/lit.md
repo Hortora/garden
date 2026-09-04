@@ -53,3 +53,5 @@
 - GE-20260822-dd986e: PagesElement render gate blocks standalone usage — data property does not bypass
 - GE-20260823-211f3e: WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages
 - GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components
+- GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM
+- GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement
