@@ -45,3 +45,5 @@
 - GE-20260822-a5d8f2: IntelliJ SSR strips fully-qualified class names from constructor replacement patterns
 - GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
 - GE-20260825-8d52f0: Delegation-first refactoring for large structural type extractions
+- GE-20260905-8ad253: Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables
+- GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration

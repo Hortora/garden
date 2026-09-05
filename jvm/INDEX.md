@@ -1556,3 +1556,4 @@
 | GE-20260905-5296aa | Stateless sweep-based controller converges without persistent state — finite resources guarantee termination | technique | 10/15 |
 | GE-20260905-7daa5b | @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent | gotcha | 12/15 |
 | GE-20260905-176c58 | Mockito verify resolves wrong overload when class has generic + specific method pair | gotcha | 10/15 |
+| GE-20260905-8ad253 | Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables | gotcha | 10/15 |

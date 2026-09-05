@@ -20,3 +20,4 @@
 - GE-20260810-502dec: Java record Workers in YamlCaseHub.augment() — removeIf + add, not modify
 - GE-20260822-150983: Bulk Java record constructor extension via IntelliJ SSR
 - GE-20260901-4be506: jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats
+- GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration

@@ -17,3 +17,4 @@
 - GE-20260821-17fb09: IntelliJ MCP ide_insert_member does not auto-add missing imports even with reformat=true
 - GE-20260822-a5d8f2: IntelliJ SSR strips fully-qualified class names from constructor replacement patterns
 - GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves
+- GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired

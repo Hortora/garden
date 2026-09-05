@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3032
+**Entries merged since last sweep:** 3035
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2241,6 +2241,7 @@
 - GE-20260905-5296aa [Stateless sweep-based controller converges without persistent state — finite resources guarantee termination](jvm/GE-20260905-5296aa.md)
 - GE-20260905-7daa5b [@Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent](jvm/GE-20260905-7daa5b.md)
 - GE-20260905-176c58 [Mockito verify resolves wrong overload when class has generic + specific method pair](jvm/GE-20260905-176c58.md)
+- GE-20260905-8ad253 [Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables](jvm/GE-20260905-8ad253.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3059,6 +3060,8 @@
 - GE-20260903-8608a6 [Track unparsed lines as a format-evolution signal in structured text parsers](tools/GE-20260903-8608a6.md)
 - GE-20260904-7d2da5 [Kokoro multi-lang v1.1 is Chinese-specialized despite the version number — v1.0 is the English model](tools/GE-20260904-7d2da5.md)
 - GE-20260904-ebed3c [sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine](tools/GE-20260904-ebed3c.md)
+- GE-20260905-ca5783 [IntelliJ structural search/replace for bulk Java record constructor migration](tools/GE-20260905-ca5783.md)
+- GE-20260905-33a3ef [ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired](tools/GE-20260905-33a3ef.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,0 +1,1 @@
+- GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired

@@ -1,0 +1,1 @@
+- GE-20260905-8ad253: Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables

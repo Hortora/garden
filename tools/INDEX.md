@@ -783,3 +783,5 @@
 | GE-20260903-8608a6 | Track unparsed lines as a format-evolution signal in structured text parsers | technique | 9/15 |
 | GE-20260904-7d2da5 | Kokoro multi-lang v1.1 is Chinese-specialized despite the version number — v1.0 is the English model | gotcha | 9/15 |
 | GE-20260904-ebed3c | sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine | gotcha | 8/15 |
+| GE-20260905-ca5783 | IntelliJ structural search/replace for bulk Java record constructor migration | technique | 9/15 |
+| GE-20260905-33a3ef | ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired | gotcha | 9/15 |

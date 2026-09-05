@@ -229,3 +229,4 @@
 - GE-20260823-bf3452: Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types
 - GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version
 - GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact
+- GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired

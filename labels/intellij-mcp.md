@@ -84,3 +84,6 @@
 - GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
 - GE-20260829-f5615b: IntelliJ MCP ide_refactor_rename with default relatedRenamingStrategy renames common words across all file types
 - GE-20260903-41abd6: IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves
+- GE-20260905-8ad253: Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables
+- GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
+- GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
