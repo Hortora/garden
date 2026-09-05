@@ -268,3 +268,5 @@
 | GE-20260905-586db5 | Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals | gotcha | 11/15 |
 | GE-20260905-3e4256 | CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM | gotcha | 10/15 |
 | GE-20260905-5986c1 | CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement | technique | 10/15 |
+| GE-20260905-8c624d | Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments | gotcha | 9/15 |
+| GE-20260905-685393 | Module-level registration guard boolean survives clearRegistry() across vitest tests | gotcha | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20260905-685393: Module-level registration guard boolean survives clearRegistry() across vitest tests

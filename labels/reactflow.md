@@ -1,2 +1,3 @@
 - GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly
 - GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
+- GE-20260905-8c624d: Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments

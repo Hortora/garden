@@ -1,0 +1,1 @@
+- GE-20260905-8c624d: Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments

@@ -4,3 +4,4 @@
 - GE-20260812-8db18f: Maven dependency:unpack silently overwrites portal directory — manual copies lost on rebuild
 - GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
 - GE-20260823-211f3e: WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages
+- GE-20260905-8c624d: Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments

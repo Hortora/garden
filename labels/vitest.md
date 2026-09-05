@@ -17,3 +17,5 @@
 - GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
 - GE-20260821-d61150: Lit @property/@state decorators fail in Vitest unless both esbuild tsconfigRaw AND tsconfig.json set experimentalDecorators
+- GE-20260905-8c624d: Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments
+- GE-20260905-685393: Module-level registration guard boolean survives clearRegistry() across vitest tests
