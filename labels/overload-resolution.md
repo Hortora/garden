@@ -1,1 +1,2 @@
 - GE-20260730-760270: Java generic return type defeats explicit cast for overload resolution
+- GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair

@@ -1,1 +1,2 @@
 - GE-20260529-04a5a5: WireMock 3.x wireMockServer.verify() takes RequestPatternBuilder not MappingBuilder — get() vs getRequestedFor() confusion
+- GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair

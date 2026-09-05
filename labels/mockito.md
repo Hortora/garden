@@ -29,3 +29,4 @@
 - GE-20260805-7e81a3: Mockito: indirect nested when() inside thenReturn() causes UnfinishedStubbingException
 - GE-20260805-865e14: JPA entity protected no-arg constructor blocks unit test instantiation — anonymous subclass workaround
 - GE-20260825-24aae9: Mockito mock of concrete class silently fails to intercept @Override of interface method
+- GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair
