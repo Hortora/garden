@@ -30,3 +30,4 @@
 - GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo
 - GE-20260827-a19839: TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)
 - GE-20260827-6b92ca: Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]
+- GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE

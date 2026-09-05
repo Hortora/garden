@@ -7,3 +7,4 @@
 - GE-20260818-78bf96: pages-data wsSource uses 'subscribe' wire protocol, incompatible with EventBroadcaster's topic-based 'event' protocol — events silently not delivered
 - GE-20260818-c61c29: topicSource adapter — bridging pages-push topic protocol to pages-data DataSource interface
 - GE-20260823-5b705f: TopicRegistry silently accepts slash-delimited topics — wildcard matching breaks
+- GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE

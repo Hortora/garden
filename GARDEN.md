@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3035
+**Entries merged since last sweep:** 3036
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3383,6 +3383,8 @@
 - GE-20260811-3533be [SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests](data/GE-20260811-3533be.md)
 ### casehub-ops/
 - GE-20260817-251f27 [AgentDescriptor record field addition (styleVocabulary) breaks casehub-ops-api compilation — ~40 test callers need positional null insertion](casehub-ops/GE-20260817-251f27.md)
+### casehub-pages/
+- GE-20260905-a1c645 [CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE](casehub-pages/GE-20260905-a1c645.md)
 
 ---
 

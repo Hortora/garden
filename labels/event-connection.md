@@ -1,1 +1,2 @@
 - GE-20260812-5cd146: pages-data EventConnection silently drops non-event wire messages
+- GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE

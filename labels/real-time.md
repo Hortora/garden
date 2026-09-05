@@ -1,1 +1,2 @@
 - GE-20260714-439924: Additive confidence penalties at game-loop frequency zero confidence in under 1 second
+- GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE

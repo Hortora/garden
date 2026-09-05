@@ -28,3 +28,4 @@
 | casehub-ras | casehub-ras/INDEX.md |
 | data | data/INDEX.md |
 | casehub-ops | casehub-ops/INDEX.md |
+| casehub-pages | casehub-pages/INDEX.md |
