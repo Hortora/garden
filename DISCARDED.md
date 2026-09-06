@@ -57,3 +57,9 @@
 | jvm/GE-20260723-64e384 | jvm/GE-20260618-979c68 | @ConfigMapping rejects @IfBuildProperty keys SRCFG00050 — same gotcha, 979c68 has higher score (9 vs 8) |
 | jvm/GE-20260629-6f1d64 | jvm/GE-20260524-baae14 | Maven parent scope inheritance — same gotcha, baae14 has higher score (9 vs 8) |
 | tools/GE-20260706-1fc043 | tools/GE-20260625-6b49f5 | ide_read_file qualifiedName reads dependency source — same technique, 6b49f5 has higher score (10 vs 9) |
+
+## 2026-09-06 — Invalid entry removal
+
+| Discarded | Reason |
+|---|---|
+| jvm/GE-20260818-8e9230 | Invalid: claimed MVEL3 nested property access requires POJO context — factually incorrect, MVEL3 supports Map contexts for nested access |
