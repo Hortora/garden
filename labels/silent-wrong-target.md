@@ -1,1 +1,2 @@
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
+- GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout

@@ -87,3 +87,4 @@
 - GE-20260905-8ad253: Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables
 - GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
 - GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
+- GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout

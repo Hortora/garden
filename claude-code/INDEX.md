@@ -46,3 +46,4 @@
 | GE-20260826-39cb41 | IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone | gotcha | 10/15 |
 | GE-20260826-5dcb1a | IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication | gotcha | 9/15 |
 | GE-20260903-41abd6 | IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves | gotcha | 11/15 |
+| GE-20260820-f45988 | IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout | gotcha | 11/15 |
