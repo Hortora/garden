@@ -273,3 +273,6 @@
 | GE-20260907-6fdc04 | CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order | gotcha | 10/15 |
 | GE-20260907-156200 | ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types | gotcha | 9/15 |
 | GE-20260907-d0ccd0 | Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir | technique | 8/15 |
+| GE-20260907-ab3a24 | DirectionalBezierEdge — proportional departure for same-side ReactFlow handles | technique | 9/15 |
+| GE-20260907-143cbd | Angular port assignment with clockwise rotation separates bidirectional edges | technique | 9/15 |
+| GE-20260907-333187 | ReactFlow Proxy-based edgeTypes for dynamic edge component routing | undocumented | 8/15 |

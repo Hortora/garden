@@ -1,0 +1,1 @@
+- GE-20260907-143cbd: Angular port assignment with clockwise rotation separates bidirectional edges

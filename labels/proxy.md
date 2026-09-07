@@ -18,3 +18,4 @@
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
 - GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
 - GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly
+- GE-20260907-333187: ReactFlow Proxy-based edgeTypes for dynamic edge component routing

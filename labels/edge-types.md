@@ -1,0 +1,1 @@
+- GE-20260907-333187: ReactFlow Proxy-based edgeTypes for dynamic edge component routing

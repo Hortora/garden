@@ -1,0 +1,1 @@
+- GE-20260907-ab3a24: DirectionalBezierEdge — proportional departure for same-side ReactFlow handles

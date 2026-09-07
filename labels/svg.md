@@ -4,3 +4,4 @@
 - GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly
 - GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
 - GE-20260826-665046: html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element
+- GE-20260907-ab3a24: DirectionalBezierEdge — proportional departure for same-side ReactFlow handles

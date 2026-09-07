@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3044
+**Entries merged since last sweep:** 3047
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3372,6 +3372,9 @@
 - GE-20260907-6fdc04 [CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order](web/GE-20260907-6fdc04.md)
 - GE-20260907-156200 [ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types](web/GE-20260907-156200.md)
 - GE-20260907-d0ccd0 [Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir](web/GE-20260907-d0ccd0.md)
+- GE-20260907-ab3a24 [DirectionalBezierEdge — proportional departure for same-side ReactFlow handles](web/GE-20260907-ab3a24.md)
+- GE-20260907-143cbd [Angular port assignment with clockwise rotation separates bidirectional edges](web/GE-20260907-143cbd.md)
+- GE-20260907-333187 [ReactFlow Proxy-based edgeTypes for dynamic edge component routing](web/GE-20260907-333187.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
