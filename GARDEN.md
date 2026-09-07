@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3042
+**Entries merged since last sweep:** 3044
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3370,6 +3370,8 @@
 - GE-20260905-8c624d [Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments](web/GE-20260905-8c624d.md)
 - GE-20260905-685393 [Module-level registration guard boolean survives clearRegistry() across vitest tests](web/GE-20260905-685393.md)
 - GE-20260907-6fdc04 [CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order](web/GE-20260907-6fdc04.md)
+- GE-20260907-156200 [ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types](web/GE-20260907-156200.md)
+- GE-20260907-d0ccd0 [Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir](web/GE-20260907-d0ccd0.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

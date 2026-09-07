@@ -1,0 +1,2 @@
+- GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
+- GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir

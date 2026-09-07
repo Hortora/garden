@@ -1,0 +1,1 @@
+- GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir

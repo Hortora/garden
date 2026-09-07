@@ -9,3 +9,5 @@
 - GE-20260824-2eb1d7: victools/jsonschema-generator custom module patterns for type replacement and post-processing
 - GE-20260901-4be506: jsonschema2pojo as parse-only library — bypass JCodeModel for custom output formats
 - GE-20260901-52fded: jsonschema2pojo silently generates nothing when schema has only $defs — no root type
+- GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
+- GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir

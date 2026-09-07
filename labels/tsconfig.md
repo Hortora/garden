@@ -3,3 +3,4 @@
 - GE-20260717-19540a: esbuild TC39 decorator pass-through breaks Lit @state()/@property() in Chromium 138+ — page renders blank
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
 - GE-20260813-c50d64: exactOptionalPropertyTypes blocks undefined assignment to optional fields — use delete
+- GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir

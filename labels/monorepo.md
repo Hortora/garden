@@ -18,3 +18,5 @@
 - GE-20260810-9ba5de: Conditional vite aliases with fs.existsSync() for multi-environment compatibility
 - GE-20260803-756b3d: Yarn portal-resolved packages need manual dist copy — portal copies source not build output
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
+- GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
+- GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir
