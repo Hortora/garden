@@ -1,0 +1,1 @@
+- GE-20260907-6fdc04: CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order

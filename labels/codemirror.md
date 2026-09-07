@@ -1,2 +1,3 @@
 - GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM
 - GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement
+- GE-20260907-6fdc04: CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order
