@@ -1,2 +1,1 @@
-- GE-20260827-b928ab: Per-repo judgment steps return empty dict causing silent orchestrator deadlock
 - GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone

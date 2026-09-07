@@ -1,0 +1,1 @@
+- GE-20260907-81361f: ide_edit_member with member=ClassName replaces entire class, not just the constructor

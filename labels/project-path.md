@@ -3,3 +3,4 @@
 - GE-20260724-7ac683: IntelliJ MCP ide_replace_text_in_file silently edits files in the wrong project when project_path points to a different worktree
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
+- GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone

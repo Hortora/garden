@@ -1,2 +1,3 @@
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored build dependencies
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored directories — breaks build deps and symlink automation
+- GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone

@@ -88,3 +88,5 @@
 - GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
 - GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
+- GE-20260907-81361f: ide_edit_member with member=ClassName replaces entire class, not just the constructor
+- GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone

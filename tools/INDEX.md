@@ -785,3 +785,5 @@
 | GE-20260904-ebed3c | sherpa-onnx Kokoro v1.0 requires kokoro-lexicon field — NULL crashes the TTS engine | gotcha | 8/15 |
 | GE-20260905-ca5783 | IntelliJ structural search/replace for bulk Java record constructor migration | technique | 9/15 |
 | GE-20260905-33a3ef | ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired | gotcha | 9/15 |
+| GE-20260907-81361f | ide_edit_member with member=ClassName replaces entire class, not just the constructor | gotcha | 10/15 |
+| GE-20260907-46c0ed | IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone | gotcha | 8/15 |

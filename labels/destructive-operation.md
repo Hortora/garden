@@ -1,1 +1,2 @@
 - GE-20260821-7509e8: ide_edit_member with member=className replaces the entire class body, not just the declaration
+- GE-20260907-81361f: ide_edit_member with member=ClassName replaces entire class, not just the constructor
