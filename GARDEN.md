@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3040
+**Entries merged since last sweep:** 3042
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3064,6 +3064,8 @@
 - GE-20260905-33a3ef [ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired](tools/GE-20260905-33a3ef.md)
 - GE-20260907-81361f [ide_edit_member with member=ClassName replaces entire class, not just the constructor](tools/GE-20260907-81361f.md)
 - GE-20260907-46c0ed [IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone](tools/GE-20260907-46c0ed.md)
+- GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
+- GE-20260907-ba00ac [Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it](tools/GE-20260907-ba00ac.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

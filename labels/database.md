@@ -1,1 +1,2 @@
 - GE-20260607-716b67: Jackson serialises enum Map keys by name — renaming an enum constant breaks existing JSON column data
+- GE-20260907-ba00ac: Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it

@@ -197,3 +197,4 @@
 - GE-20260827-b5cd7d: sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches
 - GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping
 - GE-20260831-251f7d: Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged
+- GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify

@@ -13,3 +13,4 @@
 - GE-20260811-3533be: SQLite WAL pragma + DDL on same connection causes SQLITE_BUSY in tests
 - GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state
 - GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError
+- GE-20260907-ba00ac: Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it

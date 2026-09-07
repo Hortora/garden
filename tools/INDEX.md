@@ -787,3 +787,5 @@
 | GE-20260905-33a3ef | ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired | gotcha | 9/15 |
 | GE-20260907-81361f | ide_edit_member with member=ClassName replaces entire class, not just the constructor | gotcha | 10/15 |
 | GE-20260907-46c0ed | IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone | gotcha | 8/15 |
+| GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |
+| GE-20260907-ba00ac | Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it | technique | 8/15 |

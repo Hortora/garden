@@ -2,3 +2,4 @@
 - GE-20260420-ca3fb3: str.replace with list[0] silently no-ops when list order changes
 - GE-20260422-390ac3: Substring occurrence count in tests breaks when a new line contains the same substring
 - GE-20260605-51b347: pytest string assertions on SKILL.md files match frontmatter description, not routing logic; markdown bold markers break substring matching
+- GE-20260907-ba00ac: Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it
