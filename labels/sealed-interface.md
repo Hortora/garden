@@ -15,3 +15,4 @@
 - GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED
 - GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern
 - GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
+- GE-20260909-865486: victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names

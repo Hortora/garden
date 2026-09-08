@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3047
+**Entries merged since last sweep:** 3049
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2242,6 +2242,8 @@
 - GE-20260905-7daa5b [@Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent](jvm/GE-20260905-7daa5b.md)
 - GE-20260905-176c58 [Mockito verify resolves wrong overload when class has generic + specific method pair](jvm/GE-20260905-176c58.md)
 - GE-20260905-8ad253 [Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables](jvm/GE-20260905-8ad253.md)
+- GE-20260909-3488d5 [MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message](jvm/GE-20260909-3488d5.md)
+- GE-20260909-865486 [victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names](jvm/GE-20260909-865486.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

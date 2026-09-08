@@ -8,3 +8,4 @@
 - GE-20260714-a2ae5d: Java lambda bridge methods include checkcast — Map input to Function<POJO, R> throws CCE inside the lambda, not at call site
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
 - GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation
+- GE-20260909-3488d5: MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message

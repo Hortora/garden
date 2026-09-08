@@ -1556,3 +1556,5 @@
 | GE-20260905-7daa5b | @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent | gotcha | 12/15 |
 | GE-20260905-176c58 | Mockito verify resolves wrong overload when class has generic + specific method pair | gotcha | 10/15 |
 | GE-20260905-8ad253 | Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables | gotcha | 10/15 |
+| GE-20260909-3488d5 | MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message | gotcha | 10/15 |
+| GE-20260909-865486 | victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names | gotcha | 11/15 |
