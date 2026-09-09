@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3049
+**Entries merged since last sweep:** 3053
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2244,6 +2244,9 @@
 - GE-20260905-8ad253 [Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables](jvm/GE-20260905-8ad253.md)
 - GE-20260909-3488d5 [MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message](jvm/GE-20260909-3488d5.md)
 - GE-20260909-865486 [victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names](jvm/GE-20260909-865486.md)
+- GE-20260909-8fb2e4 [Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional](jvm/GE-20260909-8fb2e4.md)
+- GE-20260909-81809c [Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth](jvm/GE-20260909-81809c.md)
+- GE-20260909-c81437 [module-core/module/module-spring naming for dual-framework extraction](jvm/GE-20260909-c81437.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3068,6 +3071,7 @@
 - GE-20260907-46c0ed [IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone](tools/GE-20260907-46c0ed.md)
 - GE-20260525-cc8321 [Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify](tools/GE-20260525-cc8321.md)
 - GE-20260907-ba00ac [Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it](tools/GE-20260907-ba00ac.md)
+- GE-20260909-bb550e [IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name](tools/GE-20260909-bb550e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

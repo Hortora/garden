@@ -1,0 +1,1 @@
+- GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth

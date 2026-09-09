@@ -1558,3 +1558,6 @@
 | GE-20260905-8ad253 | Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables | gotcha | 10/15 |
 | GE-20260909-3488d5 | MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message | gotcha | 10/15 |
 | GE-20260909-865486 | victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names | gotcha | 11/15 |
+| GE-20260909-8fb2e4 | Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional | gotcha | 9/15 |
+| GE-20260909-81809c | Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth | technique | 10/15 |
+| GE-20260909-c81437 | module-core/module/module-spring naming for dual-framework extraction | convention | 8/15 |

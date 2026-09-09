@@ -230,3 +230,4 @@
 - GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version
 - GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact
 - GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
+- GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction

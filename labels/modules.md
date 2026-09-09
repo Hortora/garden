@@ -1,0 +1,1 @@
+- GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction

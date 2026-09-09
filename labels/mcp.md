@@ -92,3 +92,4 @@
 - GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts
 - GE-20260826-cbcebc: IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
+- GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name

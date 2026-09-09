@@ -45,3 +45,4 @@
 - GE-20260827-abc094: Quarkus deployment test inner classes leak into all @RegisterExtension Jandex indexes
 - GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
 - GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus
+- GE-20260909-8fb2e4: Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional

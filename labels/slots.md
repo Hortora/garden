@@ -7,3 +7,4 @@
 - GE-20260821-ebba3b: work-end can stamp a branch closed and close a GitHub issue without merging code to main
 - GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
+- GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name

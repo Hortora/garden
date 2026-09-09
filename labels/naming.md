@@ -18,3 +18,4 @@
 - GE-20260810-b7ad37: WorkerDecisionEntry.capabilityTag carries case-YAML capability names, not eidos agent-registration tags
 - GE-20260818-b2abcd: Separate SPI context record types when existing ClassificationContext conflicts
 - GE-20260820-807538: Workspace clones named by git remote URL stem avoid work- prefix collisions
+- GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction

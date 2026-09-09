@@ -3,3 +3,4 @@
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
 - GE-20260723-fbbdb6: IntelliJ Index MCP plugin operates on the wrong git repo when session runs in a git worktree
 - GE-20260801-8f01dd: shutil.move leaves ghost directories when a process has CWD anchored inside
+- GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name
