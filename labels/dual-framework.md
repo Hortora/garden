@@ -1,2 +1,3 @@
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
 - GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction
+- GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction

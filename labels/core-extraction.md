@@ -1,0 +1,1 @@
+- GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction

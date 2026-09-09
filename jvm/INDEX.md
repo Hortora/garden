@@ -1562,3 +1562,5 @@
 | GE-20260909-81809c | Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth | technique | 10/15 |
 | GE-20260909-c81437 | module-core/module/module-spring naming for dual-framework extraction | convention | 8/15 |
 | GE-20260909-8b0e55 | Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work | gotcha | 11/15 |
+| GE-20260910-c6f648 | Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters | gotcha | 13/15 |
+| GE-20260910-fc414e | Event<T> to Consumer<T> for framework-neutral core extraction | technique | 11/15 |

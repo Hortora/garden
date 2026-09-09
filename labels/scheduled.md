@@ -1,0 +1,1 @@
+- GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters

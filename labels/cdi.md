@@ -441,3 +441,5 @@
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
 - GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
+- GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters
+- GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction

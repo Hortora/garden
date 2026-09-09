@@ -1,2 +1,3 @@
 - GE-20260422-1b6a56: Quarkus Vert.x @ConsumeEvent on a request() address silently starves the primary consumer
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
+- GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction
