@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3053
+**Entries merged since last sweep:** 3054
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2247,6 +2247,7 @@
 - GE-20260909-8fb2e4 [Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional](jvm/GE-20260909-8fb2e4.md)
 - GE-20260909-81809c [Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth](jvm/GE-20260909-81809c.md)
 - GE-20260909-c81437 [module-core/module/module-spring naming for dual-framework extraction](jvm/GE-20260909-c81437.md)
+- GE-20260909-8b0e55 [Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work](jvm/GE-20260909-8b0e55.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -6,3 +6,4 @@
 - GE-20260612-8e925b: Quarkus quarkus.hibernate-orm.<pu-name>.sql-load-script for named PU — import.sql only runs for the default PU
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
+- GE-20260909-8b0e55: Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work

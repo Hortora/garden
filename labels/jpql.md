@@ -14,3 +14,4 @@
 - GE-20260630-e3275a: JPQL bulk UPDATE does not increment Hibernate @Version — enables atomic flag+metadata stamping without OCC conflict
 - GE-20260713-26f881: MessageQueryJpql silently ignores new MessageQuery fields — JPA stores return unfiltered results
 - GE-20260807-66fe1b: Hibernate native SQL MAX(timestamp) returns non-Instant type — JPQL with entity class handles conversion correctly
+- GE-20260909-8b0e55: Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work
