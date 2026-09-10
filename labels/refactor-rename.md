@@ -1,0 +1,1 @@
+- GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references

@@ -29,3 +29,4 @@
 - GE-20260823-68f909: Untracked .plan files on workspace main survive branch switches and block work-start with stale state
 - GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts
 - GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
+- GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references

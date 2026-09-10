@@ -90,3 +90,4 @@
 - GE-20260820-f45988: IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout
 - GE-20260907-81361f: ide_edit_member with member=ClassName replaces entire class, not just the constructor
 - GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone
+- GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references

@@ -5,3 +5,4 @@
 - GE-20260806-f1e2c9: git clone --shared silently drops gitignored directories — breaks build deps and symlink automation
 - GE-20260816-8b9589: Workspace symlink pointing to project repo subdirectory causes commits to land in wrong repo
 - GE-20260817-50d796: Nested git repos cause git -C child/ to resolve to parent — file paths become unreachable
+- GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references

@@ -18,3 +18,4 @@
 - GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module
 - GE-20260822-e3e28d: Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts
 - GE-20260905-8c624d: Vitest @xyflow/react CSS ?raw import fails with Denied ID in cloned slot environments
+- GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references
