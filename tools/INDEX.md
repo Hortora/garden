@@ -790,3 +790,4 @@
 | GE-20260525-cc8321 | Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify | gotcha | 9/15 |
 | GE-20260907-ba00ac | Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it | technique | 8/15 |
 | GE-20260909-bb550e | IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name | gotcha | 12/15 |
+| GE-20260910-4498ea | Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets | undocumented | 10/15 |

@@ -1,0 +1,1 @@
+- GE-20260910-4498ea: Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets
