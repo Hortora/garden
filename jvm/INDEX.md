@@ -1564,3 +1564,4 @@
 | GE-20260909-8b0e55 | Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work | gotcha | 11/15 |
 | GE-20260910-c6f648 | Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters | gotcha | 13/15 |
 | GE-20260910-fc414e | Event<T> to Consumer<T> for framework-neutral core extraction | technique | 11/15 |
+| GE-20260910-27296d | MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access | gotcha | 9/15 |

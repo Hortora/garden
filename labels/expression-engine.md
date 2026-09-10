@@ -1,2 +1,3 @@
 - GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation
 - GE-20260909-3488d5: MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message
+- GE-20260910-27296d: MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access
