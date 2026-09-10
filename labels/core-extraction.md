@@ -1,1 +1,4 @@
 - GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction
+- GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API
+- GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
+- GE-20260910-e70acd: Typed event wrappers for dynamic Vert.x EventBus address dispatch

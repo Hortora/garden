@@ -1,3 +1,5 @@
 - GE-20260420-f0a37a: Quarkus Vert.x eventBus.publish() is fan-out; eventBus.send() is point-to-point — multiple @ConsumeEvent handlers require publish()
 - GE-20260422-1b6a56: Quarkus Vert.x @ConsumeEvent on a request() address silently starves the primary consumer
 - GE-20260605-385d36: @InjectMock cannot mock @Singleton-scoped CDI beans — fails with 'not a normal scope' at test instantiation
+- GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
+- GE-20260910-e70acd: Typed event wrappers for dynamic Vert.x EventBus address dispatch

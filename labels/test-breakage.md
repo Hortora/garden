@@ -1,0 +1,1 @@
+- GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API

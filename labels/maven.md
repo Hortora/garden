@@ -231,3 +231,4 @@
 - GE-20260903-112d3c: Maven flatten plugin silently strips dependency versions — downstream Quarkus codegen fails with unresolvable artifact
 - GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
 - GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction
+- GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API

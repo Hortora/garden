@@ -1,0 +1,1 @@
+- GE-20260910-e70acd: Typed event wrappers for dynamic Vert.x EventBus address dispatch

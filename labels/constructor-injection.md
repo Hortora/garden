@@ -2,3 +2,4 @@
 - GE-20260607-58c683: Shared-list constructor injection for CDI-free unit tests where two stubs must share state
 - GE-20260609-75e00d: Package-private test constructor + @PostConstruct null guard enables CDI bean unit testing without a container
 - GE-20260618-d84391: CDI @Decorator with constructor injection enables pure Java unit tests via Event<T> stub
+- GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API

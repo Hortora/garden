@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3057
+**Entries merged since last sweep:** 3060
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2251,6 +2251,9 @@
 - GE-20260910-c6f648 [Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters](jvm/GE-20260910-c6f648.md)
 - GE-20260910-fc414e [Event<T> to Consumer<T> for framework-neutral core extraction](jvm/GE-20260910-fc414e.md)
 - GE-20260910-27296d [MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access](jvm/GE-20260910-27296d.md)
+- GE-20260910-8ecdb7 [Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API](jvm/GE-20260910-8ecdb7.md)
+- GE-20260910-9dde45 [Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases](jvm/GE-20260910-9dde45.md)
+- GE-20260910-e70acd [Typed event wrappers for dynamic Vert.x EventBus address dispatch](jvm/GE-20260910-e70acd.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
