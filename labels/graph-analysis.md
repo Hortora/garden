@@ -1,2 +1,1 @@
-- GE-20260805-aa8a88: buildFlatGraph() synthetic container nodes cause false integrity mismatches
 - GE-20260910-2a660e: k-core community detection includes synthetic nodes, inflating their own communities

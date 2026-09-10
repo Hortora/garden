@@ -15,3 +15,4 @@
 - GE-20260618-2f7442: All @QuarkusTest broken by Hibernate SemanticException in casehub-engine-scheduler-quartz StatusEmitterInvoker
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
 - GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean
+- GE-20260910-8791cd: Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant

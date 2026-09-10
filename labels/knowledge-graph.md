@@ -1,3 +1,4 @@
 - GE-20260608-4a1057: Graphiti REST server has DELETE /episode/{uuid} but it only deletes the EpisodicNode — derived facts persist
 - GE-20260608-8e85f6: Graphiti EpisodicNode.episode_metadata exists in graphiti-core but the REST Message DTO doesn't expose it
 - GE-20260609-616994: Graphiti REST POST /search exposes only group_ids/query/max_facts — temporal and entity-type params from the Python library are not in the REST router
+- GE-20260910-2a660e: k-core community detection includes synthetic nodes, inflating their own communities

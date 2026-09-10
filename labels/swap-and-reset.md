@@ -1,0 +1,1 @@
+- GE-20260910-8791cd: Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant

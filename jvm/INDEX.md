@@ -1568,3 +1568,5 @@
 | GE-20260910-8ecdb7 | Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API | gotcha | 9/15 |
 | GE-20260910-9dde45 | Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases | technique | 8/15 |
 | GE-20260910-e70acd | Typed event wrappers for dynamic Vert.x EventBus address dispatch | technique | 8/15 |
+| GE-20260910-8791cd | Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant | gotcha | 10/15 |
+| GE-20260910-2a660e | k-core community detection includes synthetic nodes, inflating their own communities | gotcha | 9/15 |

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3061
+**Entries merged since last sweep:** 3063
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2254,6 +2254,8 @@
 - GE-20260910-8ecdb7 [Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API](jvm/GE-20260910-8ecdb7.md)
 - GE-20260910-9dde45 [Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases](jvm/GE-20260910-9dde45.md)
 - GE-20260910-e70acd [Typed event wrappers for dynamic Vert.x EventBus address dispatch](jvm/GE-20260910-e70acd.md)
+- GE-20260910-8791cd [Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant](jvm/GE-20260910-8791cd.md)
+- GE-20260910-2a660e [k-core community detection includes synthetic nodes, inflating their own communities](jvm/GE-20260910-2a660e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
