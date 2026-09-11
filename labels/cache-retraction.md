@@ -1,2 +1,1 @@
-- GE-20260423-d40b93: Playwright scene-object count passes when units are fogged — visual invisibility is not tested
 - GE-20260911-fe606c: Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity

@@ -7,3 +7,4 @@
 - GE-20260816-e89cda: Composable Lit reactive controllers with explicit dependency chain for shared channel state
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
 - GE-20260825-6f8a9e: Container replaceChild cascade-collapse — remove/add decomposition triggers onCollapse mid-swap
+- GE-20260911-fe606c: Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity

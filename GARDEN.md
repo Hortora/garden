@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3071
+**Entries merged since last sweep:** 3072
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3087,6 +3087,7 @@
 - GE-20260907-ba00ac [Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it](tools/GE-20260907-ba00ac.md)
 - GE-20260909-bb550e [IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name](tools/GE-20260909-bb550e.md)
 - GE-20260910-4498ea [Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets](tools/GE-20260910-4498ea.md)
+- GE-20260911-fe606c [Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity](tools/GE-20260911-fe606c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
