@@ -53,3 +53,4 @@
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
 - GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start
 - GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
+- GE-20260911-d84813: AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration

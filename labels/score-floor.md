@@ -1,1 +1,2 @@
 - GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present
+- GE-20260911-33c7cb: AdaptiveFilter enforces minResults even when all scores are below scoreFloor

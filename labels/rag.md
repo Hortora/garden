@@ -9,3 +9,5 @@
 - GE-20260802-d58722: Quarkus RAG ingestion cursor defaults to tmpdir — silent entry loss on reboot
 - GE-20260802-fe795b: BM25 keyword dilution — separate keywords from NL query via RetrievalQuery(text, expandedText)
 - GE-20260804-7469da: Java-to-markdown doclet landscape — no working tool on JDK 21/22
+- GE-20260911-d84813: AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration
+- GE-20260911-33c7cb: AdaptiveFilter enforces minResults even when all scores are below scoreFloor

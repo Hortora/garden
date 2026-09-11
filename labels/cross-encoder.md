@@ -1,2 +1,3 @@
 - GE-20260708-d53278: Cross-encoder score propagation via chunk metadata — distinct stamp vs score keys prevent guard/data confusion
 - GE-20260802-a6d1bf: Cross-encoder negative scores filtered by score floor — disable adaptive filtering when keywords are present
+- GE-20260911-d84813: AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration

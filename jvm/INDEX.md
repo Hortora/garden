@@ -1570,3 +1570,5 @@
 | GE-20260910-e70acd | Typed event wrappers for dynamic Vert.x EventBus address dispatch | technique | 8/15 |
 | GE-20260910-8791cd | Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant | gotcha | 10/15 |
 | GE-20260910-2a660e | k-core community detection includes synthetic nodes, inflating their own communities | gotcha | 9/15 |
+| GE-20260911-d84813 | AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration | gotcha | 11/15 |
+| GE-20260911-33c7cb | AdaptiveFilter enforces minResults even when all scores are below scoreFloor | gotcha | 9/15 |
