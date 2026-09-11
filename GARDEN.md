@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3069
+**Entries merged since last sweep:** 3071
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2259,6 +2259,8 @@
 - GE-20260910-2a660e [k-core community detection includes synthetic nodes, inflating their own communities](jvm/GE-20260910-2a660e.md)
 - GE-20260911-d84813 [AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration](jvm/GE-20260911-d84813.md)
 - GE-20260911-33c7cb [AdaptiveFilter enforces minResults even when all scores are below scoreFloor](jvm/GE-20260911-33c7cb.md)
+- GE-20260911-c52ab6 [Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names](jvm/GE-20260911-c52ab6.md)
+- GE-20260911-3215dc [PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed](jvm/GE-20260911-3215dc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

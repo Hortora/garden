@@ -38,3 +38,4 @@
 - GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule
 - GE-20260825-f4565a: Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)
 - GE-20260909-865486: victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names
+- GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names

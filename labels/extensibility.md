@@ -1,2 +1,3 @@
 - GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
 - GE-20260806-409764: Raggable MCP — small tool surface with model-as-discovery for extensible control planes
+- GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names

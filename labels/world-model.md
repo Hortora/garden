@@ -1,0 +1,1 @@
+- GE-20260911-3215dc: PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed

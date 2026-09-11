@@ -1572,3 +1572,5 @@
 | GE-20260910-2a660e | k-core community detection includes synthetic nodes, inflating their own communities | gotcha | 9/15 |
 | GE-20260911-d84813 | AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration | gotcha | 11/15 |
 | GE-20260911-33c7cb | AdaptiveFilter enforces minResults even when all scores are below scoreFloor | gotcha | 9/15 |
+| GE-20260911-c52ab6 | Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names | gotcha | 9/15 |
+| GE-20260911-3215dc | PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed | technique | 8/15 |

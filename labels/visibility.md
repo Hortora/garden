@@ -9,3 +9,4 @@
 - GE-20260719-4e2784: @TestSecurity does not populate CurrentPrincipal.groups() — visibility filters silently drop all results
 - GE-20260803-63cb93: AgentConstraint.visibility is required — NPE if omitted in YAML descriptor
 - GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes
+- GE-20260911-3215dc: PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed
