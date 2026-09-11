@@ -79,3 +79,4 @@
 - GE-20260826-cbcebc: IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
 - GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name
+- GE-20260911-742830: IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition

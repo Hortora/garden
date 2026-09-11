@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3072
+**Entries merged since last sweep:** 3074
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2261,6 +2261,8 @@
 - GE-20260911-33c7cb [AdaptiveFilter enforces minResults even when all scores are below scoreFloor](jvm/GE-20260911-33c7cb.md)
 - GE-20260911-c52ab6 [Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names](jvm/GE-20260911-c52ab6.md)
 - GE-20260911-3215dc [PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed](jvm/GE-20260911-3215dc.md)
+- GE-20260911-742830 [IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition](jvm/GE-20260911-742830.md)
+- GE-20260911-cc8814 [Kotlin compiler in Gradle 8.x throws IllegalArgumentException on JDK 26 — error message is just the version string](jvm/GE-20260911-cc8814.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

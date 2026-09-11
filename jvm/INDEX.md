@@ -1574,3 +1574,5 @@
 | GE-20260911-33c7cb | AdaptiveFilter enforces minResults even when all scores are below scoreFloor | gotcha | 9/15 |
 | GE-20260911-c52ab6 | Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names | gotcha | 9/15 |
 | GE-20260911-3215dc | PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed | technique | 8/15 |
+| GE-20260911-742830 | IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition | gotcha | 9/15 |
+| GE-20260911-cc8814 | Kotlin compiler in Gradle 8.x throws IllegalArgumentException on JDK 26 — error message is just the version string | gotcha | 8/15 |

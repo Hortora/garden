@@ -1,0 +1,1 @@
+- GE-20260911-742830: IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition

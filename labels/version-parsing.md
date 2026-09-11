@@ -1,0 +1,1 @@
+- GE-20260911-cc8814: Kotlin compiler in Gradle 8.x throws IllegalArgumentException on JDK 26 — error message is just the version string
