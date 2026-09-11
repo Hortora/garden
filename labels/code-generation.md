@@ -13,3 +13,6 @@
 - GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir
 - GE-20260909-8fb2e4: Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
+- GE-20260911-f7a63d: ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators
+- GE-20260911-191fce: ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation
+- GE-20260911-088dfe: Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas

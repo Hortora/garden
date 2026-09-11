@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3066
+**Entries merged since last sweep:** 3069
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3394,6 +3394,9 @@
 - GE-20260907-ab3a24 [DirectionalBezierEdge — proportional departure for same-side ReactFlow handles](web/GE-20260907-ab3a24.md)
 - GE-20260907-143cbd [Angular port assignment with clockwise rotation separates bidirectional edges](web/GE-20260907-143cbd.md)
 - GE-20260907-333187 [ReactFlow Proxy-based edgeTypes for dynamic edge component routing](web/GE-20260907-333187.md)
+- GE-20260911-f7a63d [ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators](web/GE-20260911-f7a63d.md)
+- GE-20260911-191fce [ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation](web/GE-20260911-191fce.md)
+- GE-20260911-088dfe [Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas](web/GE-20260911-088dfe.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

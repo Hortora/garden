@@ -1,0 +1,1 @@
+- GE-20260911-191fce: ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation

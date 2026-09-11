@@ -1,0 +1,1 @@
+- GE-20260911-f7a63d: ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators

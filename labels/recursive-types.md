@@ -1,0 +1,1 @@
+- GE-20260911-088dfe: Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas

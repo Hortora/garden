@@ -276,3 +276,6 @@
 | GE-20260907-ab3a24 | DirectionalBezierEdge — proportional departure for same-side ReactFlow handles | technique | 9/15 |
 | GE-20260907-143cbd | Angular port assignment with clockwise rotation separates bidirectional edges | technique | 9/15 |
 | GE-20260907-333187 | ReactFlow Proxy-based edgeTypes for dynamic edge component routing | undocumented | 8/15 |
+| GE-20260911-f7a63d | ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators | gotcha | 10/15 |
+| GE-20260911-191fce | ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation | gotcha | 8/15 |
+| GE-20260911-088dfe | Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas | technique | 9/15 |
