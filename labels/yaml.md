@@ -29,3 +29,5 @@
 - GE-20260816-739630: Pass raw JsonNode alongside generated schema type for free-form YAML fields
 - GE-20260905-586db5: Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals
 - GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names
+- GE-20260912-7742a0: yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys
+- GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model

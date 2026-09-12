@@ -279,3 +279,5 @@
 | GE-20260911-f7a63d | ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators | gotcha | 10/15 |
 | GE-20260911-191fce | ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation | gotcha | 8/15 |
 | GE-20260911-088dfe | Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas | technique | 9/15 |
+| GE-20260912-7742a0 | yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys | gotcha | 10/15 |
+| GE-20260912-3804f6 | CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model | technique | 12/15 |

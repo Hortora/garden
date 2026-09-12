@@ -1,2 +1,1 @@
-- GE-20260418-0f137f: Inject the MCP tool bean as a REST facade — avoids rewriting N+1-safe queries already inside @Tool methods
 - GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model

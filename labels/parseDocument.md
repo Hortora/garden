@@ -1,4 +1,2 @@
-- GE-20260803-a1674d: yaml npm Document.deleteIn() silently succeeds on non-existent paths
-- GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode
 - GE-20260912-7742a0: yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys
 - GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model
