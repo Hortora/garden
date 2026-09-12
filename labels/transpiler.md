@@ -1,3 +1,4 @@
 - GE-20260714-550161: MVEL3 `contains` keyword shadows String.contains() — transpilation type error
 - GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
 - GE-20260818-deface: MVEL3 generated code cannot access inner classes of package-private test classes
+- GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
