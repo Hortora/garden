@@ -10,3 +10,4 @@
 - GE-20260823-7b17ad: TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities
 - GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
 - GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases
+- GE-20260912-ff141b: Neocortex cognitive stack is fully built but undiscovered — CognitiveProfile, PerspectivalResolver, CognitiveDerivationEngine, ConversationBridge

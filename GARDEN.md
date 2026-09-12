@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3074
+**Entries merged since last sweep:** 3077
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2263,6 +2263,7 @@
 - GE-20260911-3215dc [PerceptionFilter uses content degradation not binary filtering — sections degrade to resolution tier fallbacks instead of being removed](jvm/GE-20260911-3215dc.md)
 - GE-20260911-742830 [IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition](jvm/GE-20260911-742830.md)
 - GE-20260911-cc8814 [Kotlin compiler in Gradle 8.x throws IllegalArgumentException on JDK 26 — error message is just the version string](jvm/GE-20260911-cc8814.md)
+- GE-20260912-ff141b [Neocortex cognitive stack is fully built but undiscovered — CognitiveProfile, PerspectivalResolver, CognitiveDerivationEngine, ConversationBridge](jvm/GE-20260912-ff141b.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3422,6 +3423,9 @@
 - GE-20260817-251f27 [AgentDescriptor record field addition (styleVocabulary) breaks casehub-ops-api compilation — ~40 test callers need positional null insertion](casehub-ops/GE-20260817-251f27.md)
 ### casehub-pages/
 - GE-20260905-a1c645 [CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE](casehub-pages/GE-20260905-a1c645.md)
+### approaches/
+- GE-20260912-c4c279 [Thing trait projections as typed facades — unified graph replaces per-concept stores for cognitive state](approaches/GE-20260912-c4c279.md)
+- GE-20260912-be7c74 [Three-tier memory for cognitive agents — never write to the graph during the tick loop](approaches/GE-20260912-be7c74.md)
 
 ---
 

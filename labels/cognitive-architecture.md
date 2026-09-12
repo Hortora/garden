@@ -1,0 +1,2 @@
+- GE-20260912-c4c279: Thing trait projections as typed facades — unified graph replaces per-concept stores for cognitive state
+- GE-20260912-be7c74: Three-tier memory for cognitive agents — never write to the graph during the tick loop

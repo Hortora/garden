@@ -1,0 +1,1 @@
+- GE-20260912-ff141b: Neocortex cognitive stack is fully built but undiscovered — CognitiveProfile, PerspectivalResolver, CognitiveDerivationEngine, ConversationBridge
