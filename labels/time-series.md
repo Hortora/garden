@@ -1,2 +1,3 @@
 - GE-20260420-dc3c2f: Separating observed_at from indexed_at makes time-series backfill free
 - GE-20260824-9f3788: Standard DTW forces full endpoint alignment — subsequence lookahead requires timestamp matching
+- GE-20260913-f2c4cf: DTW significance testing requires circular shift surrogates — random permutation destroys autocorrelation

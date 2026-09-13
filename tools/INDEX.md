@@ -792,3 +792,4 @@
 | GE-20260909-bb550e | IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name | gotcha | 12/15 |
 | GE-20260910-4498ea | Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets | undocumented | 10/15 |
 | GE-20260911-fe606c | Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity | technique | 8/15 |
+| GE-20260913-f2c4cf | DTW significance testing requires circular shift surrogates — random permutation destroys autocorrelation | technique | 12/15 |
