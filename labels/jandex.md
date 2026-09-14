@@ -51,3 +51,4 @@
 - GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position
 - GE-20260914-01b1b6: Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
+- GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing

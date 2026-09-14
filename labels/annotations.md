@@ -6,3 +6,4 @@
 - GE-20260814-5719d3: String-based annotation matching avoids compile-time dependency on annotation classes in Java reflection
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
 - GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position
+- GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing

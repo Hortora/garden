@@ -1593,3 +1593,4 @@
 | GE-20260914-43d628 | Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish() | technique | 8/15 |
 | GE-20260914-fc2373 | IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk | gotcha | 12/15 |
 | GE-20260914-6077b8 | Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT | gotcha | 9/15 |
+| GE-20260914-248827 | Synthetic test-scoped annotation stubs for Jandex-based scanner testing | technique | 10/15 |

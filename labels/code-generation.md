@@ -19,3 +19,4 @@
 - GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR
 - GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
+- GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
