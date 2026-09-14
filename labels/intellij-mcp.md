@@ -92,3 +92,4 @@
 - GE-20260907-46c0ed: IntelliJ MCP edits target the IDE's open project, not the shell CWD or slot clone
 - GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references
 - GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync
+- GE-20260914-fc2373: IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk

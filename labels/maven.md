@@ -234,3 +234,5 @@
 - GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API
 - GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR
 - GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
+- GE-20260914-fc2373: IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk
+- GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT

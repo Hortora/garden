@@ -50,3 +50,4 @@
 - GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
 - GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position
 - GE-20260914-01b1b6: Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead
+- GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT

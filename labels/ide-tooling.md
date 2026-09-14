@@ -9,3 +9,4 @@
 - GE-20260821-7509e8: ide_edit_member with member=className replaces the entire class body, not just the declaration
 - GE-20260822-abd492: ide_edit_member destroys class when member name matches class name
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
+- GE-20260914-fc2373: IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk
