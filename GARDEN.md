@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3084
+**Entries merged since last sweep:** 3086
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3409,6 +3409,8 @@
 - GE-20260912-3804f6 [CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model](web/GE-20260912-3804f6.md)
 - GE-20260914-f7a7da [yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects](web/GE-20260914-f7a7da.md)
 - GE-20260914-2fa8b8 [yaml library Document.setIn() fails silently when intermediate path segments are not collections](web/GE-20260914-2fa8b8.md)
+- GE-20260914-54f581 [CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins](web/GE-20260914-54f581.md)
+- GE-20260914-330473 [LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen](web/GE-20260914-330473.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

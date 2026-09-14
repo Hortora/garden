@@ -1,2 +1,1 @@
-- GE-20260911-742830: IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition
 - GE-20260914-330473: LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen

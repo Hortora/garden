@@ -283,3 +283,5 @@
 | GE-20260912-3804f6 | CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model | technique | 12/15 |
 | GE-20260914-f7a7da | yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects | gotcha | 8/15 |
 | GE-20260914-2fa8b8 | yaml library Document.setIn() fails silently when intermediate path segments are not collections | gotcha | 8/15 |
+| GE-20260914-54f581 | CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins | technique | 10/15 |
+| GE-20260914-330473 | LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen | gotcha | 9/15 |

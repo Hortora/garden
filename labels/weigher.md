@@ -1,0 +1,1 @@
+- GE-20260914-54f581: CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins

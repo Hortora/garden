@@ -1,1 +1,2 @@
 - GE-20260911-742830: IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition
+- GE-20260914-54f581: CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins
