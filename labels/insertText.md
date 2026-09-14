@@ -1,0 +1,1 @@
+- GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0

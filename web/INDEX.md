@@ -288,3 +288,4 @@
 | GE-20260914-e4788a | Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions | technique | 10/15 |
 | GE-20260914-fab341 | z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time | technique | 9/15 |
 | GE-20260914-f7dcf8 | Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier | technique | 10/15 |
+| GE-20260914-22cde3 | LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0 | gotcha | 11/15 |

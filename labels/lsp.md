@@ -2,3 +2,4 @@
 - GE-20260914-330473: LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen
 - GE-20260914-e4788a: Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions
 - GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time
+- GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0

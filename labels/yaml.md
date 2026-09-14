@@ -33,3 +33,4 @@
 - GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model
 - GE-20260914-f7a7da: yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects
 - GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections
+- GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0

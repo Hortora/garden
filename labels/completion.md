@@ -2,3 +2,4 @@
 - GE-20260616-de0e0c: DefaultClaudeAsyncClient.cleanup() calls turnSink.tryEmitComplete() — timeout-triggered close() causes stream COMPLETION not FAILURE
 - GE-20260820-dda118: CompoundCompletionEvaluator transitions ALL-semantics parent to COMPLETED even when a child is FAULTED
 - GE-20260914-54f581: CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins
+- GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0

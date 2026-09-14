@@ -1,2 +1,3 @@
 - GE-20260914-54f581: CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins
 - GE-20260914-330473: LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen
+- GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0
