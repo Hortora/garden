@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3095
+**Entries merged since last sweep:** 3098
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2269,6 +2269,9 @@
 - GE-20260914-2fa3d1 [MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression](jvm/GE-20260914-2fa3d1.md)
 - GE-20260914-1ec5c0 [Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26](jvm/GE-20260914-1ec5c0.md)
 - GE-20260914-6fc5ce [Map key collision when using getClass().getSimpleName() on decorator-wrapped objects](jvm/GE-20260914-6fc5ce.md)
+- GE-20260914-f53be7 [Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR](jvm/GE-20260914-f53be7.md)
+- GE-20260914-3854b8 [APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering](jvm/GE-20260914-3854b8.md)
+- GE-20260914-631772 [Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position](jvm/GE-20260914-631772.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

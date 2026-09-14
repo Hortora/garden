@@ -232,3 +232,5 @@
 - GE-20260905-33a3ef: ide_move_file cross-module extraction strips consumer imports — split-package Maven dependency not auto-wired
 - GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction
 - GE-20260910-8ecdb7: Core extraction breaks downstream test constructors — CDI-to-POJO migration changes public API
+- GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR
+- GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering

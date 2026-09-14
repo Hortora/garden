@@ -16,3 +16,5 @@
 - GE-20260911-f7a63d: ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators
 - GE-20260911-191fce: ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation
 - GE-20260911-088dfe: Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas
+- GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR
+- GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering

@@ -3,3 +3,4 @@
 - GE-20260428-28391e: Permuplate keepTemplate=true: @PermuteBody replaces generated classes only — template class body unchanged
 - GE-20260417-29c2e3: File-naming trick for top-level inline templates: name file after output class, template class differently
 - GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails
+- GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR

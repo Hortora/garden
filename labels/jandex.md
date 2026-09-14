@@ -46,3 +46,6 @@
 - GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
 - GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus
 - GE-20260909-8fb2e4: Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional
+- GE-20260914-f53be7: Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR
+- GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
+- GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position

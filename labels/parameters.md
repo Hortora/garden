@@ -1,0 +1,1 @@
+- GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position

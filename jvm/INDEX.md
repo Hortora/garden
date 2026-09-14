@@ -1581,3 +1581,6 @@
 | GE-20260914-2fa3d1 | MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression | gotcha | 12/15 |
 | GE-20260914-1ec5c0 | Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26 | gotcha | 11/15 |
 | GE-20260914-6fc5ce | Map key collision when using getClass().getSimpleName() on decorator-wrapped objects | gotcha | 10/15 |
+| GE-20260914-f53be7 | Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR | gotcha | 12/15 |
+| GE-20260914-3854b8 | APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering | gotcha | 10/15 |
+| GE-20260914-631772 | Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position | gotcha | 9/15 |
