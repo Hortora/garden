@@ -799,3 +799,4 @@
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
 - GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters
+- GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26

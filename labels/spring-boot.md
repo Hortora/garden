@@ -1,1 +1,2 @@
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
+- GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26
