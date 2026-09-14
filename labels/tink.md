@@ -1,0 +1,1 @@
+- GE-20260914-659d40: Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency

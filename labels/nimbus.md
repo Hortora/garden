@@ -1,0 +1,2 @@
+- GE-20260914-659d40: Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency
+- GE-20260914-cf2ac2: Extract raw 32-byte Ed25519 public key from JCA EdECPublicKey for Nimbus OctetKeyPair

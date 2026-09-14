@@ -1,1 +1,2 @@
 - GE-20260611-dedf69: Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies
+- GE-20260914-659d40: Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency

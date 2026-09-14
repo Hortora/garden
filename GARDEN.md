@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3100
+**Entries merged since last sweep:** 3102
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2274,6 +2274,8 @@
 - GE-20260914-631772 [Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position](jvm/GE-20260914-631772.md)
 - GE-20260914-e9b339 [@Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton](jvm/GE-20260914-e9b339.md)
 - GE-20260914-f5ea14 [Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup](jvm/GE-20260914-f5ea14.md)
+- GE-20260914-659d40 [Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency](jvm/GE-20260914-659d40.md)
+- GE-20260914-cf2ac2 [Extract raw 32-byte Ed25519 public key from JCA EdECPublicKey for Nimbus OctetKeyPair](jvm/GE-20260914-cf2ac2.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

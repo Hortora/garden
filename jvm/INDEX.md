@@ -1586,3 +1586,5 @@
 | GE-20260914-631772 | Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position | gotcha | 9/15 |
 | GE-20260914-e9b339 | @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton | gotcha | 12/15 |
 | GE-20260914-f5ea14 | Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup | gotcha | 10/15 |
+| GE-20260914-659d40 | Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency | gotcha | 11/15 |
+| GE-20260914-cf2ac2 | Extract raw 32-byte Ed25519 public key from JCA EdECPublicKey for Nimbus OctetKeyPair | technique | 8/15 |
