@@ -1,2 +1,3 @@
 - GE-20260909-3488d5: MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message
 - GE-20260910-27296d: MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access
+- GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression

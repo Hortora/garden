@@ -1,3 +1,4 @@
 - GE-20260617-e3bedc: DeserializationProblemHandler.handleUnknownTypeId() has no access to sibling JSON fields
 - GE-20260622-549a11: ESLint no-unnecessary-type-assertion conflicts with TSC --build for querySelector in test files
 - GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
+- GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression

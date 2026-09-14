@@ -1,1 +1,2 @@
 - GE-20260626-0ac274: casehub-pages accumulate + expression is a no-op for inline datasets — expression never evaluates
+- GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression
