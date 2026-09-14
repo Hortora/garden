@@ -1584,3 +1584,5 @@
 | GE-20260914-f53be7 | Jandex-based APT can't scan the compiling module's own index — SPI interfaces must live in a dependency JAR | gotcha | 12/15 |
 | GE-20260914-3854b8 | APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering | gotcha | 10/15 |
 | GE-20260914-631772 | Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position | gotcha | 9/15 |
+| GE-20260914-e9b339 | @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton | gotcha | 12/15 |
+| GE-20260914-f5ea14 | Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup | gotcha | 10/15 |

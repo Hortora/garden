@@ -800,3 +800,5 @@
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
 - GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters
 - GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26
+- GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton
+- GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup

@@ -1,1 +1,2 @@
 - GE-20260707-160109: CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy
+- GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton

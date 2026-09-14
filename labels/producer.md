@@ -4,3 +4,4 @@
 - GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
 - GE-20260427-543663: @Produces @DefaultBean for library-level overridable CDI defaults without @Alternative
 - GE-20260604-b3d2ef: quarkus-flow CDI extension already registers WorkflowApplication — adding @Produces causes ambiguous dependency
+- GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton

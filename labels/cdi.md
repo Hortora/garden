@@ -447,3 +447,5 @@
 - GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
 - GE-20260910-8791cd: Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant
 - GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map
+- GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton
+- GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
