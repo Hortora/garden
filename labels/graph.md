@@ -3,3 +3,4 @@
 - GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode
 - GE-20260809-2cbc61: ReactFlow is wrong for force-directed graph rendering — use D3 SVG directly
 - GE-20260809-a11928: D3 force simulation as layout companion for Lit Web Components
+- GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check

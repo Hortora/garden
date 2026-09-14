@@ -6,3 +6,4 @@
 - GE-20260707-160109: CdiNodeProvisionerRouter unproxyable — no no-args constructor for Quarkus CDI proxy
 - GE-20260709-774697: Adapter router must call all adapters even with empty filtered graph — orphan detection requires it for deprovision
 - GE-20260814-58bc55: ReconciliationLoop has no status() API — use getDesired() as presence check
+- GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check

@@ -1,0 +1,1 @@
+- GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check

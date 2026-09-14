@@ -2,3 +2,4 @@
 - GE-20260525-c01bb4: String.equals(null) is null-safe (returns false) — NPE comes from the receiver, not the argument
 - GE-20260610-aef021: Java type migration: streaming filter comparing migrated enum to un-migrated String silently always returns false
 - GE-20260612-889bd4: Using configurable-separator Path record as a HashMap key silently misses lookups — use path.value() instead
+- GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check

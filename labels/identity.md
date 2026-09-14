@@ -2,3 +2,4 @@
 - GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules
 - GE-20260611-dedf69: Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies
 - GE-20260804-5e5f8f: CurrentPrincipal interface requires groups() and roles() abstract methods — not discoverable from name or Javadoc
+- GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check
