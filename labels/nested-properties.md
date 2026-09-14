@@ -1,0 +1,1 @@
+- GE-20260914-f7a7da: yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects

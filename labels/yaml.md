@@ -31,3 +31,5 @@
 - GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names
 - GE-20260912-7742a0: yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys
 - GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model
+- GE-20260914-f7a7da: yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects
+- GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections

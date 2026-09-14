@@ -9,3 +9,4 @@
 - GE-20260612-d561ae: exactOptionalPropertyTypes rejects undefined passed to optional properties — conditional object construction required
 - GE-20260818-68c8a3: TypedEvaluator pattern — carry context class on expression evaluator for typed evaluation
 - GE-20260909-3488d5: MvelExpressionEngine.compile() rejects Object.class as context type — IntrospectionException with misleading message
+- GE-20260914-f7a7da: yaml library Document.getIn() returns YAML nodes for nested values, not plain JS objects

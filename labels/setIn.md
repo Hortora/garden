@@ -1,1 +1,2 @@
 - GE-20260912-7742a0: yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys
+- GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections

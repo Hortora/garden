@@ -1,0 +1,1 @@
+- GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections

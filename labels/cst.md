@@ -2,3 +2,4 @@
 - GE-20260805-bdbc53: Dual-walk pattern for SDK-backed domain adapters with degraded mode
 - GE-20260912-7742a0: yaml library Document.setIn() with plain JS arrays silently fails isSeq() when creating new top-level keys
 - GE-20260912-3804f6: CST-backed typed facade pattern for visual YAML editors — format-preserving mutations without a semantic model
+- GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections
