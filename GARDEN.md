@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3089
+**Entries merged since last sweep:** 3091
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -199,6 +199,7 @@
 - GE-20260903-41abd6 [IntelliJ MCP ide_move_file removes valid wildcard imports on cross-module same-package moves](claude-code/GE-20260903-41abd6.md)
 - GE-20260820-f45988 [IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout](claude-code/GE-20260820-f45988.md)
 - GE-20260911-42a250 [IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references](claude-code/GE-20260911-42a250.md)
+- GE-20260825-cd6efc [IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync](claude-code/GE-20260825-cd6efc.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -3414,6 +3415,7 @@
 - GE-20260914-330473 [LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen](web/GE-20260914-330473.md)
 - GE-20260914-e4788a [Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions](web/GE-20260914-e4788a.md)
 - GE-20260914-fab341 [z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time](web/GE-20260914-fab341.md)
+- GE-20260914-f7dcf8 [Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier](web/GE-20260914-f7dcf8.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

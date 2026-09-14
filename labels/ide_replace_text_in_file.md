@@ -9,3 +9,4 @@
 - GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync
 - GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone
 - GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication
+- GE-20260825-cd6efc: IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync

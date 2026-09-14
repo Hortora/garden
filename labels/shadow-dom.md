@@ -24,3 +24,4 @@
 - GE-20260821-1a90cd: ReactFlow top-left fit via reactive store bounds subscription
 - GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM
 - GE-20260907-6fdc04: CodeMirror 6 EditorView.theme() tooltip overrides defeated by base theme cascade order
+- GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier

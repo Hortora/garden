@@ -1,0 +1,1 @@
+- GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier

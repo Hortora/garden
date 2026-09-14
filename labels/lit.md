@@ -55,3 +55,4 @@
 - GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components
 - GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM
 - GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement
+- GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier
