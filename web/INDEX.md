@@ -285,3 +285,5 @@
 | GE-20260914-2fa8b8 | yaml library Document.setIn() fails silently when intermediate path segments are not collections | gotcha | 8/15 |
 | GE-20260914-54f581 | CompletionWeigher is the safe way to deprioritize non-LSP completions in LSP4IJ plugins | technique | 10/15 |
 | GE-20260914-330473 | LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen | gotcha | 9/15 |
+| GE-20260914-e4788a | Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions | technique | 10/15 |
+| GE-20260914-fab341 | z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time | technique | 9/15 |

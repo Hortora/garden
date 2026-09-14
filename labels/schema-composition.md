@@ -1,4 +1,2 @@
-- GE-20260911-742830: IntelliJ built-in LSP API (com.intellij.platform.lsp) is Ultimate-only — not in Community Edition
-- GE-20260914-330473: LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen
 - GE-20260914-e4788a: Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions
 - GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time

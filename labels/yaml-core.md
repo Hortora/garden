@@ -1,0 +1,1 @@
+- GE-20260914-e4788a: Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions

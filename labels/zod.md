@@ -1,3 +1,5 @@
 - GE-20260911-f7a63d: ts-morph intersection type with index-sig-only member silently resolves to z.unknown() in code generators
 - GE-20260911-191fce: ts-morph getNonNullableType() converts unknown to empty object {} — breaks optional unknown property generation
 - GE-20260911-088dfe: Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas
+- GE-20260914-e4788a: Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions
+- GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time
