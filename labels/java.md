@@ -171,3 +171,4 @@
 - GE-20260818-ef724f: Instant.now() constructor initialization races with test timestamps — isAfter excludes equal
 - GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
+- GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects

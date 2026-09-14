@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3093
+**Entries merged since last sweep:** 3095
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2268,6 +2268,7 @@
 - GE-20260715-01a695 [MVEL3 single-quoted strings fail with UnsolvedSymbolException](jvm/GE-20260715-01a695.md)
 - GE-20260914-2fa3d1 [MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression](jvm/GE-20260914-2fa3d1.md)
 - GE-20260914-1ec5c0 [Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26](jvm/GE-20260914-1ec5c0.md)
+- GE-20260914-6fc5ce [Map key collision when using getClass().getSimpleName() on decorator-wrapped objects](jvm/GE-20260914-6fc5ce.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3096,6 +3097,7 @@
 - GE-20260910-4498ea [Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets](tools/GE-20260910-4498ea.md)
 - GE-20260911-fe606c [Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity](tools/GE-20260911-fe606c.md)
 - GE-20260913-f2c4cf [DTW significance testing requires circular shift surrogates — random permutation destroys autocorrelation](tools/GE-20260913-f2c4cf.md)
+- GE-20260914-e3cb03 [Profile data over prose directives for LLM cognitive state injection](tools/GE-20260914-e3cb03.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -12,3 +12,4 @@
 - GE-20260614-1ece0f: quarkus-langchain4j Ollama REST client default timeout is 10s — too short for local LLMs
 - GE-20260814-6b054e: Validation errors as schema reinjection — self-healing for hierarchical MCP models
 - GE-20260819-35aac5: LLM-generated detail text breaks dedup — use stable location anchors
+- GE-20260914-e3cb03: Profile data over prose directives for LLM cognitive state injection

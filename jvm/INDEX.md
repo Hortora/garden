@@ -1580,3 +1580,4 @@
 | GE-20260715-01a695 | MVEL3 single-quoted strings fail with UnsolvedSymbolException | gotcha | 11/15 |
 | GE-20260914-2fa3d1 | MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression | gotcha | 12/15 |
 | GE-20260914-1ec5c0 | Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26 | gotcha | 11/15 |
+| GE-20260914-6fc5ce | Map key collision when using getClass().getSimpleName() on decorator-wrapped objects | gotcha | 10/15 |

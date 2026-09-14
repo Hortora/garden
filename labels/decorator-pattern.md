@@ -1,1 +1,2 @@
 - GE-20260810-06aee1: Decorating immutable Java records by reconstructing with all components
+- GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects

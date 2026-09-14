@@ -1,1 +1,2 @@
 - GE-20260614-42f5ca: getClass().getSimpleName() on @ApplicationScoped CDI bean returns proxy class name
+- GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects

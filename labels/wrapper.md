@@ -1,2 +1,3 @@
 - GE-20260422-b45302: Wrapper script eliminates shell expansion prompts in Claude Code agents without disabling security
 - GE-20260630-ff06bf: Wrapper interface pattern for testing concrete SDK clients without WireMock
+- GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects
