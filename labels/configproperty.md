@@ -7,3 +7,4 @@
 - GE-20260612-ed9ff0: @ConfigProperty on a prefix already owned by @ConfigMapping causes SRCFG00014 at startup
 - GE-20260612-c3b611: SmallRye Config 'Unrecognized configuration key... will be ignored' warning is cosmetic — @ConfigProperty injection still succeeds
 - GE-20260805-340331: Quarkus @ConfigProperty validation fires at build time even for beans excluded by @UnlessBuildProperty — use Optional<String> instead
+- GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead

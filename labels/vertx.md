@@ -39,3 +39,4 @@
 - GE-20260822-86fce9: Vert.x event bus rejects custom Java records without MessageCodec — publish as JsonObject instead
 - GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
 - GE-20260910-e70acd: Typed event wrappers for dynamic Vert.x EventBus address dispatch
+- GE-20260914-863ffc: WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx

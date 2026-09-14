@@ -31,3 +31,4 @@
 - GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
 - GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
 - GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
+- GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead

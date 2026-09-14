@@ -14,3 +14,4 @@
 - GE-20260804-6076a3: SmallRye Config group validation cascade — setting one property triggers required-field checks on entire @ConfigMapping group
 - GE-20260808-0fa727: SmallRye Config ordinal override in library JAR for classpath-presence module subsumption
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
+- GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead

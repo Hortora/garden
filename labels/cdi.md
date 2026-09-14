@@ -451,3 +451,4 @@
 - GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
 - GE-20260914-01b1b6: Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead
 - GE-20260914-7a71d5: eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only
+- GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead

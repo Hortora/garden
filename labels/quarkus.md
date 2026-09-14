@@ -803,3 +803,5 @@
 - GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton
 - GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
 - GE-20260914-01b1b6: Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead
+- GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead
+- GE-20260914-863ffc: WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx

@@ -1,1 +1,2 @@
 - GE-20260609-086833: quarkus-vertx does NOT include Vert.x WebClient — need smallrye-mutiny-vertx-web-client separately
+- GE-20260914-863ffc: WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx
