@@ -139,3 +139,4 @@
 - GE-20260823-a02b08: pages page() nested children need interactive container for navigation — shared path segment
 - GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only
 - GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE
+- GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map

@@ -3,3 +3,4 @@
 - GE-20260603-ed5e47: Package-private concurrent-state accessor enables deterministic Awaitility polling instead of Thread.sleep
 - GE-20260608-2c8739: CDI proxy does not expose package-private methods to callers in other packages — compile error in @QuarkusTest
 - GE-20260609-453804: Making an enclosing class public does not promote its package-private members
+- GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map

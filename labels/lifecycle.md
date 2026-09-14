@@ -38,3 +38,4 @@
 - GE-20260821-e9c59e: Query hortora worklog.db to audit slot lifecycle state — more reliable than branch stamps or issue state
 - GE-20260825-4c2efb: lifecycle.py commit-transition expects evidence as single JSON argument
 - GE-20260826-d26944: LLM can force-complete mechanical steps via step_done — advances lifecycle past failures
+- GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map

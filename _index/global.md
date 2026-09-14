@@ -30,3 +30,4 @@
 | casehub-ops | casehub-ops/INDEX.md |
 | casehub-pages | casehub-pages/INDEX.md |
 | approaches | approaches/INDEX.md |
+| casehub-workers | casehub-workers/INDEX.md |

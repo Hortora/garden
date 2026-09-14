@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3083
+**Entries merged since last sweep:** 3084
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3432,6 +3432,8 @@
 ### approaches/
 - GE-20260912-c4c279 [Thing trait projections as typed facades — unified graph replaces per-concept stores for cognitive state](approaches/GE-20260912-c4c279.md)
 - GE-20260912-be7c74 [Three-tier memory for cognitive agents — never write to the graph during the tick loop](approaches/GE-20260912-be7c74.md)
+### casehub-workers/
+- GE-20260914-37d1fb [HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map](casehub-workers/GE-20260914-37d1fb.md)
 
 ---
 
