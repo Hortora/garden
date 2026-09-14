@@ -55,3 +55,4 @@
 - GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
 - GE-20260911-d84813: AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration
 - GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
+- GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources

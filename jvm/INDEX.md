@@ -1596,3 +1596,5 @@
 | GE-20260914-248827 | Synthetic test-scoped annotation stubs for Jandex-based scanner testing | technique | 10/15 |
 | GE-20260914-b2a01e | SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead | gotcha | 10/15 |
 | GE-20260914-863ffc | WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx | gotcha | 8/15 |
+| GE-20260914-638e46 | APT-generated REST endpoints return 200 with null body instead of 404 for missing resources | gotcha | 9/15 |
+| GE-20260914-714a71 | Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters | gotcha | 8/15 |

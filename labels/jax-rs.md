@@ -33,3 +33,5 @@
 - GE-20260810-fe3dcc: ExceptionMapper<RuntimeException> in casehub-ledger-rest swallows JAX-RS WebApplicationException subclasses into 500
 - GE-20260810-3f2f73: Override a broad ExceptionMapper by registering a more-specific generic type
 - GE-20260820-563a2d: POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only
+- GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
+- GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters

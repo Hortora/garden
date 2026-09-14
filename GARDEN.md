@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3111
+**Entries merged since last sweep:** 3113
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2284,6 +2284,8 @@
 - GE-20260914-248827 [Synthetic test-scoped annotation stubs for Jandex-based scanner testing](jvm/GE-20260914-248827.md)
 - GE-20260914-b2a01e [SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead](jvm/GE-20260914-b2a01e.md)
 - GE-20260914-863ffc [WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx](jvm/GE-20260914-863ffc.md)
+- GE-20260914-638e46 [APT-generated REST endpoints return 200 with null body instead of 404 for missing resources](jvm/GE-20260914-638e46.md)
+- GE-20260914-714a71 [Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters](jvm/GE-20260914-714a71.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

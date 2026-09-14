@@ -18,3 +18,5 @@
 - GE-20260816-8b91bf: JAX-RS path collision when foundation and app resources share the same @Path base
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
 - GE-20260823-edbf2b: composite() source replaces REST snapshot with empty WebSocket accumulator on first push
+- GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
+- GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
