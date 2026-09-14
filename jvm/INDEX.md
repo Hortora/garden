@@ -1588,3 +1588,6 @@
 | GE-20260914-f5ea14 | Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup | gotcha | 10/15 |
 | GE-20260914-659d40 | Nimbus JOSE+JWT Ed25519Signer/Verifier silently require Google Tink dependency | gotcha | 11/15 |
 | GE-20260914-cf2ac2 | Extract raw 32-byte Ed25519 public key from JCA EdECPublicKey for Nimbus OctetKeyPair | technique | 8/15 |
+| GE-20260914-01b1b6 | Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead | gotcha | 12/15 |
+| GE-20260914-7a71d5 | eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only | gotcha | 10/15 |
+| GE-20260914-43d628 | Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish() | technique | 8/15 |

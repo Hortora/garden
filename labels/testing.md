@@ -451,3 +451,4 @@
 - GE-20260825-a38514: Instant.EPOCH as initial watermark triggers quiet period bypass on first compositor synthesis — tests expecting gate enforcement must provide recent state
 - GE-20260831-63ecf4: Jandex Indexer.indexClass() for unit testing Quarkus @BuildStep methods without starting Quarkus
 - GE-20260907-ba00ac: Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it
+- GE-20260914-43d628: Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish()

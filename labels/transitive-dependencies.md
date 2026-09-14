@@ -1,0 +1,1 @@
+- GE-20260914-7a71d5: eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only

@@ -1,1 +1,2 @@
 - GE-20260824-7263e2: DriveSource Map.put overwrites existing axis values — use DriveComposer modulation layer for cross-axis effects
+- GE-20260914-43d628: Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish()

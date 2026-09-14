@@ -9,3 +9,4 @@
 - GE-20260804-13d434: NoOpCapabilityHealth CDI ambiguity when adding casehub-eidos runtime to app
 - GE-20260811-3bf675: AgentDescriptorRegistrar is a producer, not a callback — returns List<AgentDescriptor> for CDI discovery
 - GE-20260811-e941cc: AgentDisposition (eidos) and DispositionProfile (blocks) are different types for the same concept
+- GE-20260914-7a71d5: eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only
