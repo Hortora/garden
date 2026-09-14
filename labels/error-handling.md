@@ -9,3 +9,4 @@
 - GE-20260813-556494: Authoritative reads with best-effort writes guarantees stale state — both paths must match
 - GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
 - GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError
+- GE-20260914-22a1c0: Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends

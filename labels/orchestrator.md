@@ -7,3 +7,4 @@
 - GE-20260827-84598e: Postcondition verification on state machine judgment steps — verify artifacts not claims
 - GE-20260827-2f2d4f: Lazy handler loading in skill files prevents LLM shortcutting to concrete actions
 - GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks
+- GE-20260914-22a1c0: Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends

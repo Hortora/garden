@@ -794,3 +794,4 @@
 | GE-20260911-fe606c | Sticky-until-contradicted: retract cached state only when the location is re-observed without the entity | technique | 8/15 |
 | GE-20260913-f2c4cf | DTW significance testing requires circular shift surrogates — random permutation destroys autocorrelation | technique | 12/15 |
 | GE-20260914-e3cb03 | Profile data over prose directives for LLM cognitive state injection | technique | 12/15 |
+| GE-20260914-22a1c0 | Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends | technique | 9/15 |

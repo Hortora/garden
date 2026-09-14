@@ -7,3 +7,4 @@
 - GE-20260628-75502d: Surefire retry errors mask the real root cause — retry runs show a different error than Run 1
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
+- GE-20260914-22a1c0: Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends
