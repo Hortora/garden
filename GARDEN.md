@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3119
+**Entries merged since last sweep:** 3120
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3120,6 +3120,7 @@
 - GE-20260914-22a1c0 [Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends](tools/GE-20260914-22a1c0.md)
 - GE-20260915-258f3b [Proving WebSocket connection stability via second heartbeat count](tools/GE-20260915-258f3b.md)
 - GE-20260915-2b5e80 [Comparative cognitive data needs perception-level translation — raw metrics are not self-contained data](tools/GE-20260915-2b5e80.md)
+- GE-20260914-e3cb03 [Profile data over prose directives for LLM cognitive state injection](tools/GE-20260914-e3cb03.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

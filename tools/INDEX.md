@@ -797,3 +797,4 @@
 | GE-20260914-22a1c0 | Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends | technique | 9/15 |
 | GE-20260915-258f3b | Proving WebSocket connection stability via second heartbeat count | technique | 9/15 |
 | GE-20260915-2b5e80 | Comparative cognitive data needs perception-level translation — raw metrics are not self-contained data | technique | 12/15 |
+| GE-20260914-e3cb03 | Profile data over prose directives for LLM cognitive state injection | technique | 12/15 |
