@@ -31,3 +31,6 @@
 - GE-20260827-a19839: TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)
 - GE-20260827-6b92ca: Quarkus websockets-next @OnBinaryMessage rejects ByteBuffer — use byte[]
 - GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE
+- GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently
+- GE-20260915-d115fb: Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts
+- GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count

@@ -3,3 +3,4 @@
 - GE-20260612-b20b51: casehub-engine YamlCaseHub.getDefinition() requires CDI-injected ObjectMapper — NPE in plain JUnit
 - GE-20260625-83ed54: @Nested inner classes fail with @QuarkusTest — QuarkusClassLoader not propagated to nested test classes
 - GE-20260723-5d8f51: JUnit class discovery triggers NoClassDefFoundError on scope:provided transitive dependencies via test subclasses
+- GE-20260915-d115fb: Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts

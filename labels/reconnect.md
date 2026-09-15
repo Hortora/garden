@@ -1,0 +1,1 @@
+- GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently

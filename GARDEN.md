@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3115
+**Entries merged since last sweep:** 3118
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2286,6 +2286,8 @@
 - GE-20260914-863ffc [WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx](jvm/GE-20260914-863ffc.md)
 - GE-20260914-638e46 [APT-generated REST endpoints return 200 with null body instead of 404 for missing resources](jvm/GE-20260914-638e46.md)
 - GE-20260914-714a71 [Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters](jvm/GE-20260914-714a71.md)
+- GE-20260915-297606 [JDK HttpClient created per reconnect iteration leaks thread pools silently](jvm/GE-20260915-297606.md)
+- GE-20260915-d115fb [Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts](jvm/GE-20260915-d115fb.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3116,6 +3118,7 @@
 - GE-20260913-f2c4cf [DTW significance testing requires circular shift surrogates — random permutation destroys autocorrelation](tools/GE-20260913-f2c4cf.md)
 - GE-20260914-e3cb03 [Profile data over prose directives for LLM cognitive state injection](tools/GE-20260914-e3cb03.md)
 - GE-20260914-22a1c0 [Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends](tools/GE-20260914-22a1c0.md)
+- GE-20260915-258f3b [Proving WebSocket connection stability via second heartbeat count](tools/GE-20260915-258f3b.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

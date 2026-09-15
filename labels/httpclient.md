@@ -5,3 +5,4 @@
 - GE-20260618-220afe: HttpClient.send() throws InterruptedException — cannot propagate through Consumer<T>.accept() in forEach lambda
 - GE-20260703-8b71d9: Java HttpClient.Redirect.NORMAL bypasses SSRF validation in relay proxies
 - GE-20260820-563a2d: POST-based SSE testing with java.net.http.HttpClient — SseEventSource is GET-only
+- GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently

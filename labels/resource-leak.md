@@ -2,3 +2,4 @@
 - GE-20260701-82909e: ScheduledFuture map replacement requires synchronized cancel-clear-reschedule
 - GE-20260829-c497e0: OnnxRuntime C API tensor handles leak despite Java FFM Arena.ofConfined() cleanup
 - GE-20260914-863ffc: WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx
+- GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently

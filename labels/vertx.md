@@ -40,3 +40,4 @@
 - GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
 - GE-20260910-e70acd: Typed event wrappers for dynamic Vert.x EventBus address dispatch
 - GE-20260914-863ffc: WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx
+- GE-20260915-d115fb: Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts

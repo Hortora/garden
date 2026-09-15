@@ -1,0 +1,1 @@
+- GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count

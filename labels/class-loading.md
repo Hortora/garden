@@ -1,0 +1,1 @@
+- GE-20260915-d115fb: Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts

@@ -1,1 +1,2 @@
 - GE-20260801-de318e: Quartz default thread pool causes intermittent Awaitility timeouts in large @QuarkusTest suites
+- GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently

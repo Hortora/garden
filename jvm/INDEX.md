@@ -1598,3 +1598,5 @@
 | GE-20260914-863ffc | WebClient.create(Vertx.vertx()) per HTTP call silently leaks Vert.x event loop groups — create WebClient once from injected Vertx | gotcha | 8/15 |
 | GE-20260914-638e46 | APT-generated REST endpoints return 200 with null body instead of 404 for missing resources | gotcha | 9/15 |
 | GE-20260914-714a71 | Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters | gotcha | 8/15 |
+| GE-20260915-297606 | JDK HttpClient created per reconnect iteration leaks thread pools silently | gotcha | 10/15 |
+| GE-20260915-d115fb | Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts | gotcha | 9/15 |

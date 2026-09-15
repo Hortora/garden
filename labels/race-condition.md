@@ -27,3 +27,4 @@
 - GE-20260821-b6af20: Async initial-state fetch races with synchronous push wire events — stale REST response overwrites real-time state
 - GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file
 - GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo
+- GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count

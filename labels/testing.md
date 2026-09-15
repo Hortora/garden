@@ -453,3 +453,4 @@
 - GE-20260907-ba00ac: Tests silently pollute production SQLite DB when connect() defaults to a fixed path — env var + autouse fixture prevents it
 - GE-20260914-43d628: Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish()
 - GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
+- GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count
