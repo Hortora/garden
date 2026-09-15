@@ -14,3 +14,4 @@
 - GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route
 - GE-20260818-2589ee: CDI @Decorator with @Delegate does NOT auto-generate delegate methods at compile time
 - GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope
+- GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception

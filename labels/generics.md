@@ -30,3 +30,4 @@
 - GE-20260809-9a1ac2: IntelliJ MCP ide_structural_search_replace cannot match diamond and explicit generics in one pattern
 - GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair
 - GE-20260909-8fb2e4: Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional
+- GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs

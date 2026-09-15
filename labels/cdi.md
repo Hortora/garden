@@ -452,3 +452,5 @@
 - GE-20260914-01b1b6: Quarkus index-dependency for multi-bean JARs brings conflicting CDI beans — use manual @Produces instead
 - GE-20260914-7a71d5: eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only
 - GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead
+- GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs
+- GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception

@@ -1,2 +1,4 @@
 - GE-20260418-4d4c43: In combat simulation tests, using an attack command as a 'standing still' baseline silently doubles DPS and moves the unit
 - GE-20260415-0761e9: Floating-point boundary check with == speed is fragile — use a smaller arrival threshold
+- GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs
+- GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception

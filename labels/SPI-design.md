@@ -2,3 +2,4 @@
 - GE-20260625-97d014: Composed Capabilities with Auto-Degrading Builder — SPI for variable-capability platforms
 - GE-20260728-a53632: Vocabulary-generic structural navigation via interface default methods avoids cross-module dependencies
 - GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
+- GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception

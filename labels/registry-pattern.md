@@ -1,0 +1,1 @@
+- GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs

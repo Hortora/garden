@@ -2,3 +2,4 @@
 - GE-20260608-fc4733: AssertJ doesNotContainAnyElementsOf(List<String>) is vacuously true against List<? extends TypedElement>
 - GE-20260701-fdf192: Retry loop wrapping policy exceptions destroys type information — timeout looks like retry exhaustion
 - GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair
+- GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs
