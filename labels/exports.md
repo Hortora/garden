@@ -1,2 +1,1 @@
-- GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
 - GE-20260916-e52ecf: Vite serves workspace packages from dist/ not src/ — source changes need rebuild

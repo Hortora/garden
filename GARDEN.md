@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3123
+**Entries merged since last sweep:** 3125
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3446,6 +3446,8 @@
 - GE-20260914-fab341 [z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time](web/GE-20260914-fab341.md)
 - GE-20260914-f7dcf8 [Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier](web/GE-20260914-f7dcf8.md)
 - GE-20260914-22cde3 [LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0](web/GE-20260914-22cde3.md)
+- GE-20260916-b8eab4 [CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances](web/GE-20260916-b8eab4.md)
+- GE-20260916-e52ecf [Vite serves workspace packages from dist/ not src/ — source changes need rebuild](web/GE-20260916-e52ecf.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

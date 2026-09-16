@@ -20,3 +20,5 @@
 - GE-20260820-be630e: git format-patch --relative extracts subdirectory-scoped commits for replay into standalone repos
 - GE-20260907-156200: ts-morph resolves workspace package types via dist — stale dist shows 0 properties for correctly-named types
 - GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir
+- GE-20260916-b8eab4: CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances
+- GE-20260916-e52ecf: Vite serves workspace packages from dist/ not src/ — source changes need rebuild

@@ -1,3 +1,4 @@
 - GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
 - GE-20260420-18fbd4: casehub-engine ExpressionEvaluator is a marker-only interface — actual evaluation requires instanceof dispatch to LambdaExpressionEvaluator.test()
 - GE-20260723-e19b4a: CDI decorator delegate instanceof check fails when intermediate decorators exist in the chain
+- GE-20260916-b8eab4: CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances

@@ -1,3 +1,4 @@
 - GE-20260424-a02588: CDI @Qualifier + AnnotationLiteral producer for configurable named resource in Quarkus extensions
 - GE-20260424-e33d79: Hardcoding a consumer-specific @PersistenceUnit in a generic Quarkus extension silently breaks all other consumers
 - GE-20260421-1cfae6: @Produces @DefaultBean @ApplicationScoped on producer methods enables consumer-replaceable CDI defaults
+- GE-20260916-b8eab4: CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances

@@ -289,3 +289,5 @@
 | GE-20260914-fab341 | z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time | technique | 9/15 |
 | GE-20260914-f7dcf8 | Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier | technique | 10/15 |
 | GE-20260914-22cde3 | LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0 | gotcha | 11/15 |
+| GE-20260916-b8eab4 | CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances | gotcha | 11/15 |
+| GE-20260916-e52ecf | Vite serves workspace packages from dist/ not src/ — source changes need rebuild | gotcha | 10/15 |
