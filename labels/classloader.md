@@ -8,3 +8,4 @@
 - GE-20260810-ee9b0c: CompletableFuture.supplyAsync() uses ForkJoinPool with wrong classloader in Quarkus tests
 - GE-20260817-8b0648: Java APT annotationProcessorPaths isolates classloader from compilation classpath — Jandex index scanning fails
 - GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
+- GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies

@@ -1602,3 +1602,4 @@
 | GE-20260915-d115fb | Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts | gotcha | 9/15 |
 | GE-20260915-aa3b7f | Non-generic CDI registry pattern avoids type erasure with generic SPIs | technique | 9/15 |
 | GE-20260915-0a4009 | CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception | technique | 10/15 |
+| GE-20260916-41eca8 | Maven APT classloader isolates Jandex indexes from compile dependencies | gotcha | 10/15 |

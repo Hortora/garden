@@ -237,3 +237,4 @@
 - GE-20260914-fc2373: IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
 - GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
+- GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
