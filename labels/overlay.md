@@ -3,3 +3,4 @@
 - GE-20260810-7c5ae9: Dockview v7 grid element has opaque theme background — must override for overlay use
 - GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children
 - GE-20260814-85714a: HTML overlay divs for pixel-perfect canvas interaction — immune to container resize
+- GE-20260916-bbe75d: OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails

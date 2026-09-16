@@ -1,1 +1,3 @@
 - GE-20260625-5287ac: WEIGHTED_MAJORITY attestation aggregation silently masks contradicting verdicts on the same entry
+- GE-20260916-4a6bf5: Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring
+- GE-20260916-2fcb25: Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer

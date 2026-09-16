@@ -1,0 +1,1 @@
+- GE-20260916-bbe75d: OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails

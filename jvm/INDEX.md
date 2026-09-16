@@ -1603,3 +1603,6 @@
 | GE-20260915-aa3b7f | Non-generic CDI registry pattern avoids type erasure with generic SPIs | technique | 9/15 |
 | GE-20260915-0a4009 | CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception | technique | 10/15 |
 | GE-20260916-41eca8 | Maven APT classloader isolates Jandex indexes from compile dependencies | gotcha | 10/15 |
+| GE-20260916-bbe75d | OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails | gotcha | 9/15 |
+| GE-20260916-4a6bf5 | Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring | technique | 10/15 |
+| GE-20260916-2fcb25 | Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer | technique | 9/15 |

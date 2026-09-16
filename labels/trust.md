@@ -4,3 +4,5 @@
 - GE-20260531-769f9c: casehub-ledger updateGlobalTrustScore() is a silent no-op for new actors — use upsert() to seed trust scores in tests
 - GE-20260605-e7c2e9: Trust routing mixed-pool gap: BOOTSTRAP candidate wins when BORDERLINE is present, bypassing all-BOOTSTRAP guard
 - GE-20260804-565c2c: ActorTrustScoreRepository.findCapabilityDimension() — clean trust score lookup avoiding cross-PU EntityManager
+- GE-20260916-4a6bf5: Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring
+- GE-20260916-2fcb25: Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer

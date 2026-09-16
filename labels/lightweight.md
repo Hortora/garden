@@ -1,0 +1,1 @@
+- GE-20260916-2fcb25: Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer

@@ -11,3 +11,4 @@
 - GE-20260824-cd6a90: neocortex TimeSeries timestampField must be declared in innerFields — crashes at startup if omitted
 - GE-20260824-829f7a: neocortex retrieveSimilar() does not expose DTW alignment paths — re-run DtwSimilarity.compute() on retrieved cases
 - GE-20260912-ff141b: Neocortex cognitive stack is fully built but undiscovered — CognitiveProfile, PerspectivalResolver, CognitiveDerivationEngine, ConversationBridge
+- GE-20260916-bbe75d: OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails
