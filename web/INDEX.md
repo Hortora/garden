@@ -293,3 +293,5 @@
 | GE-20260916-e52ecf | Vite serves workspace packages from dist/ not src/ — source changes need rebuild | gotcha | 10/15 |
 | GE-20260916-9b0559 | CSS resize fails for panel edge-dragging in Lit shadow DOM | gotcha | 10/15 |
 | GE-20260916-b2ecf7 | PointerEvent-based panel resize in Lit shadow DOM — ~30 lines | technique | 8/15 |
+| GE-20260916-31780d | Coordinated-mode flag to suppress document-internal undo/notification under external coordination | technique | 12/15 |
+| GE-20260916-6e1665 | Lazy resolve closures in property sources to survive document-instance swaps | technique | 9/15 |

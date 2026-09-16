@@ -1,1 +1,2 @@
 - GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging
+- GE-20260916-31780d: Coordinated-mode flag to suppress document-internal undo/notification under external coordination

@@ -1,2 +1,1 @@
-- GE-20260429-d915d3: Subagent-driven development: parallel subagents commit unrelated changes to shared branch
 - GE-20260916-31780d: Coordinated-mode flag to suppress document-internal undo/notification under external coordination

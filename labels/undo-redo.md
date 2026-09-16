@@ -1,0 +1,1 @@
+- GE-20260916-6e1665: Lazy resolve closures in property sources to survive document-instance swaps

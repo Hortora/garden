@@ -1,1 +1,2 @@
 - GE-20260501-7835fe: Use GIT_EDITOR=true to auto-accept commit message during non-interactive git rebase --continue
+- GE-20260916-31780d: Coordinated-mode flag to suppress document-internal undo/notification under external coordination
