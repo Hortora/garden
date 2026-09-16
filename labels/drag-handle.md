@@ -1,0 +1,1 @@
+- GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines

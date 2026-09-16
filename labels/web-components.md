@@ -62,3 +62,5 @@
 - GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components
 - GE-20260827-24903b: webpack tree-shakes web component registration imports without explicit sideEffects config
 - GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier
+- GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
+- GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines

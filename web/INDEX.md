@@ -291,3 +291,5 @@
 | GE-20260914-22cde3 | LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0 | gotcha | 11/15 |
 | GE-20260916-b8eab4 | CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances | gotcha | 11/15 |
 | GE-20260916-e52ecf | Vite serves workspace packages from dist/ not src/ — source changes need rebuild | gotcha | 10/15 |
+| GE-20260916-9b0559 | CSS resize fails for panel edge-dragging in Lit shadow DOM | gotcha | 10/15 |
+| GE-20260916-b2ecf7 | PointerEvent-based panel resize in Lit shadow DOM — ~30 lines | technique | 8/15 |

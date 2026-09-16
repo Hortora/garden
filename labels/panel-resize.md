@@ -1,0 +1,2 @@
+- GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
+- GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines

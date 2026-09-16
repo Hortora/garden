@@ -56,3 +56,5 @@
 - GE-20260905-3e4256: CodeMirror 6 drawSelection() required for cursor rendering inside LitElement shadow DOM
 - GE-20260905-5986c1: CodeMirror 6 Compartment pattern for dynamic property reconfiguration in LitElement
 - GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier
+- GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
+- GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines

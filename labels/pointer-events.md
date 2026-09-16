@@ -1,3 +1,5 @@
 - GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives
 - GE-20260811-117018: pointer-events:none on overlay containers silently blocks clicks on dynamically appended children
 - GE-20260827-ed8606: React Flow onConnectEnd event.target is the pane overlay — use elementsFromPoint() with pointer-events:none on overlays
+- GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
+- GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines

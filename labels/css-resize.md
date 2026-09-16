@@ -1,0 +1,1 @@
+- GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
