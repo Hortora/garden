@@ -3,3 +3,5 @@
 - GE-20260514-875f82: Quarkus extension testing module creates circular Maven dependency — InMemory stores unavailable in runtime unit tests
 - GE-20260718-d22748: Yarn workspace hoisting masks circular cross-package dependencies — TS2307 only in CI
 - GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module
+- GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
+- GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed

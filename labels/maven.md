@@ -238,3 +238,5 @@
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
 - GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
+- GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
+- GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed

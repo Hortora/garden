@@ -1,0 +1,2 @@
+- GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
+- GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed

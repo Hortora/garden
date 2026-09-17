@@ -1608,3 +1608,5 @@
 | GE-20260916-2fcb25 | Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer | technique | 9/15 |
 | GE-20260917-1f47ef | Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup | gotcha | 10/15 |
 | GE-20260917-2b4c9f | @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages | gotcha | 9/15 |
+| GE-20260917-78b797 | banCircularDependencies enforcer rule misses cross-repo multi-module cycles | gotcha | 9/15 |
+| GE-20260917-91b5e6 | Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed | technique | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles

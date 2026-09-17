@@ -31,3 +31,5 @@
 - GE-20260819-5af956: Maven local repo isolation breaks cross-build SNAPSHOT resolution
 - GE-20260821-8ada11: IntelliJ MCP ide_import_modules with duplicate Maven artifactIds — edits silently route to first-registered module
 - GE-20260821-2b783c: Maven reads .mvn/ config from CWD, not from -f target directory
+- GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
+- GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
