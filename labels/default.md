@@ -1,0 +1,1 @@
+- GE-20260917-161e87: Zod v4 .default().optional() fires default for missing fields instead of returning undefined

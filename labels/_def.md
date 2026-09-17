@@ -1,0 +1,1 @@
+- GE-20260917-05b7ae: Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required

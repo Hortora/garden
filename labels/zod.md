@@ -3,3 +3,5 @@
 - GE-20260911-088dfe: Lazy reference accumulator pattern for recursive z.lazy() declarations in generated Zod schemas
 - GE-20260914-e4788a: Schema composition for multi-format LSP — preprocessing layers as z.intersection() language schemas, not format extensions
 - GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time
+- GE-20260917-161e87: Zod v4 .default().optional() fires default for missing fields instead of returning undefined
+- GE-20260917-05b7ae: Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required

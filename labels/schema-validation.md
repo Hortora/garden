@@ -1,2 +1,3 @@
 - GE-20260816-c7cc7f: SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar
 - GE-20260827-d453bd: quarkus.index-dependency causes SmallRye GraphQL schema failure on sealed interfaces — 'Object must define one or more fields'
+- GE-20260917-161e87: Zod v4 .default().optional() fires default for missing fields instead of returning undefined

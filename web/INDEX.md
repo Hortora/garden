@@ -295,3 +295,5 @@
 | GE-20260916-b2ecf7 | PointerEvent-based panel resize in Lit shadow DOM — ~30 lines | technique | 8/15 |
 | GE-20260916-31780d | Coordinated-mode flag to suppress document-internal undo/notification under external coordination | technique | 12/15 |
 | GE-20260916-6e1665 | Lazy resolve closures in property sources to survive document-instance swaps | technique | 9/15 |
+| GE-20260917-161e87 | Zod v4 .default().optional() fires default for missing fields instead of returning undefined | gotcha | 12/15 |
+| GE-20260917-05b7ae | Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required | gotcha | 11/15 |

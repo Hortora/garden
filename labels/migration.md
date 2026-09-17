@@ -56,3 +56,5 @@
 - GE-20260911-d84813: AdaptiveSearchConfig constrains gapThreshold to [0,1] — breaks CE-score-based gap detection on migration
 - GE-20260715-01a695: MVEL3 single-quoted strings fail with UnsolvedSymbolException
 - GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
+- GE-20260917-161e87: Zod v4 .default().optional() fires default for missing fields instead of returning undefined
+- GE-20260917-05b7ae: Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required
