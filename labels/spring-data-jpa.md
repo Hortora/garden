@@ -1,0 +1,1 @@
+- GE-20260917-2b4c9f: @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages

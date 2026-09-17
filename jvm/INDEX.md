@@ -1606,3 +1606,5 @@
 | GE-20260916-bbe75d | OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails | gotcha | 9/15 |
 | GE-20260916-4a6bf5 | Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring | technique | 10/15 |
 | GE-20260916-2fcb25 | Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer | technique | 9/15 |
+| GE-20260917-1f47ef | Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup | gotcha | 10/15 |
+| GE-20260917-2b4c9f | @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages | gotcha | 9/15 |

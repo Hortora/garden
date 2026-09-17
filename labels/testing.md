@@ -454,3 +454,4 @@
 - GE-20260914-43d628: Testing AbstractNarrativeSignalStrategy — use real EventStreamBus, not mocked publish()
 - GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
 - GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count
+- GE-20260917-2b4c9f: @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages

@@ -54,3 +54,4 @@
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
 - GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start
+- GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup

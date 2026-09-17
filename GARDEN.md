@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3132
+**Entries merged since last sweep:** 3134
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2294,6 +2294,8 @@
 - GE-20260916-bbe75d [OverlayRef is a utility class not a NodeRef subtype — instanceof check always fails](jvm/GE-20260916-bbe75d.md)
 - GE-20260916-4a6bf5 [Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring](jvm/GE-20260916-4a6bf5.md)
 - GE-20260916-2fcb25 [Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer](jvm/GE-20260916-2fcb25.md)
+- GE-20260917-1f47ef [Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup](jvm/GE-20260917-1f47ef.md)
+- GE-20260917-2b4c9f [@DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages](jvm/GE-20260917-2b4c9f.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

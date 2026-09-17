@@ -1,0 +1,1 @@
+- GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup

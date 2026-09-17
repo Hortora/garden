@@ -6,3 +6,4 @@
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260617-0fa804: Reflection-based compat shim for Java binary method return type change across dependency versions
 - GE-20260620-66bce6: Java record field inserted mid-position breaks positional callers across SNAPSHOT boundary — NoSuchMethodError only on CI
+- GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup
