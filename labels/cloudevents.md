@@ -4,3 +4,4 @@
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260621-629712: Canonical CloudEvent adapter pattern — 7 rules for CDI async adapters
 - GE-20260730-d761e5: RasEngine silently skips CloudEvents without tenancyid extension — no error, no detection
+- GE-20260918-9c8f7b: CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia

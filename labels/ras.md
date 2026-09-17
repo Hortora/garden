@@ -1,1 +1,2 @@
 - GE-20260914-2efac3: RAS API sealed variant names differ from intuition — Count not Single, NotifyOnly not Noop, Repeating not Continuous
+- GE-20260918-9c8f7b: CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia

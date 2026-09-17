@@ -454,3 +454,4 @@
 - GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead
 - GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs
 - GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception
+- GE-20260918-9c8f7b: CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia

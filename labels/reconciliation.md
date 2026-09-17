@@ -2,3 +2,4 @@
 - GE-20260707-775e2b: Event-loop listener placement — must fire before early returns, not at cycle end
 - GE-20260814-58bc55: ReconciliationLoop has no status() API — use getDesired() as presence check
 - GE-20260825-1ca259: Evidence-based reconciliation checks mechanical steps only — judgment steps are not independently verifiable
+- GE-20260814-58bc55: ReconciliationLoop.getDesired() throws for unknown tenants — not a null-safe presence check

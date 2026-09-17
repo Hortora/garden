@@ -1,0 +1,1 @@
+- GE-20260918-9c8f7b: CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia

@@ -1,1 +1,2 @@
 - GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression
+- GE-20260918-4bff26: EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T

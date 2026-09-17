@@ -1,2 +1,3 @@
 - GE-20260421-28c521: Serializable functional interface enables SerializedLambda reflection to extract generic return type from method reference
 - GE-20260525-4e0b24: Java method references from different call sites produce distinct JVM objects — IdentityHashMap keyed by accessor fails across rules
+- GE-20260918-4bff26: EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T

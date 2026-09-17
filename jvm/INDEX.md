@@ -1610,3 +1610,6 @@
 | GE-20260917-2b4c9f | @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages | gotcha | 9/15 |
 | GE-20260917-78b797 | banCircularDependencies enforcer rule misses cross-repo multi-module cycles | gotcha | 9/15 |
 | GE-20260917-91b5e6 | Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed | technique | 8/15 |
+| GE-20260814-58bc55 | ReconciliationLoop.getDesired() throws for unknown tenants — not a null-safe presence check | gotcha | 8/15 |
+| GE-20260918-9c8f7b | CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia | technique | 9/15 |
+| GE-20260918-4bff26 | EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T | gotcha | 8/15 |
