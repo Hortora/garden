@@ -798,3 +798,4 @@
 | GE-20260915-258f3b | Proving WebSocket connection stability via second heartbeat count | technique | 9/15 |
 | GE-20260915-2b5e80 | Comparative cognitive data needs perception-level translation — raw metrics are not self-contained data | technique | 12/15 |
 | GE-20260914-e3cb03 | Profile data over prose directives for LLM cognitive state injection | technique | 12/15 |
+| GE-20260918-73e964 | Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported | gotcha | 10/15 |

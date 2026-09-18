@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3141
+**Entries merged since last sweep:** 3144
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2301,6 +2301,8 @@
 - GE-20260814-58bc55 [ReconciliationLoop.getDesired() throws for unknown tenants — not a null-safe presence check](jvm/GE-20260814-58bc55.md)
 - GE-20260918-9c8f7b [CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia](jvm/GE-20260918-9c8f7b.md)
 - GE-20260918-4bff26 [EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T](jvm/GE-20260918-4bff26.md)
+- GE-20260918-8d46b2 [REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom](jvm/GE-20260918-8d46b2.md)
+- GE-20260918-df44b4 [Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules](jvm/GE-20260918-df44b4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3134,6 +3136,7 @@
 - GE-20260915-258f3b [Proving WebSocket connection stability via second heartbeat count](tools/GE-20260915-258f3b.md)
 - GE-20260915-2b5e80 [Comparative cognitive data needs perception-level translation — raw metrics are not self-contained data](tools/GE-20260915-2b5e80.md)
 - GE-20260914-e3cb03 [Profile data over prose directives for LLM cognitive state injection](tools/GE-20260914-e3cb03.md)
+- GE-20260918-73e964 [Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported](tools/GE-20260918-73e964.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

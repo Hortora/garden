@@ -240,3 +240,4 @@
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
 - GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
 - GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
+- GE-20260918-73e964: Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported

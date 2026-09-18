@@ -1613,3 +1613,5 @@
 | GE-20260814-58bc55 | ReconciliationLoop.getDesired() throws for unknown tenants — not a null-safe presence check | gotcha | 8/15 |
 | GE-20260918-9c8f7b | CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia | technique | 9/15 |
 | GE-20260918-4bff26 | EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T | gotcha | 8/15 |
+| GE-20260918-8d46b2 | REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom | gotcha | 13/15 |
+| GE-20260918-df44b4 | Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules | gotcha | 10/15 |

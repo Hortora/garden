@@ -1,0 +1,1 @@
+- GE-20260918-73e964: Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported

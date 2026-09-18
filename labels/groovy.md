@@ -1,3 +1,4 @@
 - GE-20260415-3cf4db: RestAssured GPath 'find { it == [x, y] }' matches int[] inside List<int[]> by value
 - GE-20260606-7a29fb: REST Assured GPath `$.findAll {}` returns null (not []) when no elements match
 - GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26
+- GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom

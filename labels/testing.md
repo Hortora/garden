@@ -455,3 +455,5 @@
 - GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
 - GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count
 - GE-20260917-2b4c9f: @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages
+- GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom
+- GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules

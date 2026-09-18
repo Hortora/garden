@@ -11,3 +11,4 @@
 - GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
 - GE-20260818-b9470a: New qhorus submodules need dependencyManagement entries in BOTH parent POM and consuming project parent — missing entry gives 'version missing' despite other qhorus deps resolving fine
 - GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26
+- GE-20260918-73e964: Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported

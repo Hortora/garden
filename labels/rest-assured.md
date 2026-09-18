@@ -12,3 +12,4 @@
 - GE-20260713-3c5fad: REST Assured closeTo() fails on Double JSON values — Jackson deserializes as Float, not Double
 - GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays
 - GE-20260914-1ec5c0: Spring Boot BOM at Maven parent level breaks rest-assured @QuarkusTest GET handlers on Java 26
+- GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom

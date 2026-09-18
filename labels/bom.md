@@ -5,3 +5,4 @@
 - GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins
 - GE-20260707-50052f: Quarkiverse extension version mismatch causes misleading NoClassDefFoundError during Quarkus augmentation
 - GE-20260721-076719: casehub-platform-view missing from casehub-parent BOM — transitive resolution fails in consuming projects
+- GE-20260918-73e964: Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported
