@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3144
+**Entries merged since last sweep:** 3145
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2303,6 +2303,7 @@
 - GE-20260918-4bff26 [EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T](jvm/GE-20260918-4bff26.md)
 - GE-20260918-8d46b2 [REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom](jvm/GE-20260918-8d46b2.md)
 - GE-20260918-df44b4 [Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules](jvm/GE-20260918-df44b4.md)
+- GE-20260918-7888de [Generated CDI @Decorator local variables collide with delegate method parameter names](jvm/GE-20260918-7888de.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

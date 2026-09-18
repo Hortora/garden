@@ -6,3 +6,4 @@
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
 - GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
 - GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
+- GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names

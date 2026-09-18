@@ -53,3 +53,4 @@
 - GE-20260914-6077b8: Maven annotationProcessorPaths creates an isolated classpath — Jandex indexes from compile dependencies are invisible to the APT
 - GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
+- GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
