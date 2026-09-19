@@ -1,0 +1,1 @@
+- GE-20260919-3f610d: Numeric values for LLM reasoning, qualitative labels for LLM embodiment — same data, different presentation by consumption mode
