@@ -58,3 +58,4 @@
 - GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier
 - GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
 - GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines
+- GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators

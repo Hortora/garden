@@ -1,3 +1,4 @@
 - GE-20260629-ebdb0a: import type does not trigger customElements.define() — Web Components missing from webpack bundle
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
 - GE-20260827-24903b: webpack tree-shakes web component registration imports without explicit sideEffects config
+- GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators

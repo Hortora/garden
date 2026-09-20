@@ -1,0 +1,1 @@
+- GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators

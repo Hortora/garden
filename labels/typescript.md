@@ -44,3 +44,4 @@
 - GE-20260826-ead83e: Array.isArray narrowing doesn't exclude non-array union members in else branch
 - GE-20260830-823543: TSJ (ts2jvm) embeddable use fails — emit-backend-tokens.cjs not bundled in JAR
 - GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time
+- GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators

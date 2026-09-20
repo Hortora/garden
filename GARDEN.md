@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3148
+**Entries merged since last sweep:** 3149
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3471,6 +3471,7 @@
 - GE-20260916-6e1665 [Lazy resolve closures in property sources to survive document-instance swaps](web/GE-20260916-6e1665.md)
 - GE-20260917-161e87 [Zod v4 .default().optional() fires default for missing fields instead of returning undefined](web/GE-20260917-161e87.md)
 - GE-20260917-05b7ae [Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required](web/GE-20260917-05b7ae.md)
+- GE-20260920-c521d1 [Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators](web/GE-20260920-c521d1.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
