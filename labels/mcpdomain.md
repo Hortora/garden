@@ -1,0 +1,1 @@
+- GE-20260920-d78e88: graphql-generator APT @Valid on body params requires jakarta.validation-api on consuming module classpath
