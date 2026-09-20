@@ -47,3 +47,5 @@
 - GE-20260825-8d52f0: Delegation-first refactoring for large structural type extractions
 - GE-20260905-8ad253: Bulk type-parameter addition to class declarations shadows imports — generification creates accidental type variables
 - GE-20260905-ca5783: IntelliJ structural search/replace for bulk Java record constructor migration
+- GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos
+- GE-20260920-f99d36: IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files

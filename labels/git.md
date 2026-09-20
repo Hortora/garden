@@ -198,3 +198,4 @@
 - GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping
 - GE-20260831-251f7d: Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged
 - GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify
+- GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos

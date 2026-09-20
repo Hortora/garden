@@ -1,0 +1,1 @@
+- GE-20260920-f99d36: IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files

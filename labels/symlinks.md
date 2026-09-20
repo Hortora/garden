@@ -6,3 +6,4 @@
 - GE-20260810-8f1daa: work-slot cross-org workspace wiring fails silently for repos from different families
 - GE-20260810-a60036: Gitignore trailing-slash patterns don't match symlinks to directories
 - GE-20260812-da1f97: vitest discovers tests through npm file: symlinks into vendored packages
+- GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos

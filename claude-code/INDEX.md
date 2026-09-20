@@ -49,3 +49,5 @@
 | GE-20260820-f45988 | IntelliJ MCP slot clones register as duplicate project names — ide_* calls silently target wrong checkout | gotcha | 11/15 |
 | GE-20260911-42a250 | IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references | gotcha | 12/15 |
 | GE-20260825-cd6efc | IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync | gotcha | 10/15 |
+| GE-20260920-6dfb5a | IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos | gotcha | 13/15 |
+| GE-20260920-f99d36 | IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files | gotcha | 11/15 |
