@@ -1,0 +1,1 @@
+- GE-20260921-f1139b: Additive eviction scoring outperforms multiplicative for heterogeneous-cost resource caches
