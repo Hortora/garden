@@ -1,0 +1,1 @@
+- GE-20260921-72bf81: Lit ?draggable directive sets empty string — draggable stays false

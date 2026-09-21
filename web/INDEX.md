@@ -298,3 +298,4 @@
 | GE-20260917-161e87 | Zod v4 .default().optional() fires default for missing fields instead of returning undefined | gotcha | 12/15 |
 | GE-20260917-05b7ae | Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required | gotcha | 11/15 |
 | GE-20260920-c521d1 | Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators | gotcha | 9/15 |
+| GE-20260921-72bf81 | Lit ?draggable directive sets empty string — draggable stays false | gotcha | 9/15 |
