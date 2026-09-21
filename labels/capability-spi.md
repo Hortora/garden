@@ -1,0 +1,1 @@
+- GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs

@@ -457,3 +457,4 @@
 - GE-20260917-2b4c9f: @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages
 - GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom
 - GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules
+- GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture

@@ -1,0 +1,1 @@
+- GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture

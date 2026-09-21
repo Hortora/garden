@@ -24,3 +24,4 @@
 - GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
 - GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
+- GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
