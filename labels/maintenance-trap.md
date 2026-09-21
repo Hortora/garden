@@ -1,0 +1,1 @@
+- GE-20260921-be4cc8: JPA hard-coded enum value lists silently diverge from Java enum classification methods

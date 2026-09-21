@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3155
+**Entries merged since last sweep:** 3156
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2310,6 +2310,7 @@
 - GE-20260921-59ddda [Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods](jvm/GE-20260921-59ddda.md)
 - GE-20260921-1382ff [CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs](jvm/GE-20260921-1382ff.md)
 - GE-20260921-8676a0 [Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture](jvm/GE-20260921-8676a0.md)
+- GE-20260921-be4cc8 [JPA hard-coded enum value lists silently diverge from Java enum classification methods](jvm/GE-20260921-be4cc8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
