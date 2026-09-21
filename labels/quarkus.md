@@ -808,3 +808,4 @@
 - GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
 - GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup
 - GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom
+- GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods

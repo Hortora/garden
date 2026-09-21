@@ -1,2 +1,1 @@
-- GE-20260810-d93e91: re.DOTALL with .*? crosses markdown section boundaries even with non-greedy matching
 - GE-20260921-b6cf8e: IntelliJ MCP ide_replace_text_in_file with DOTALL (?s) regex silently eats across Java method boundaries

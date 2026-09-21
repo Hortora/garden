@@ -7,3 +7,4 @@
 - GE-20260818-043feb: Quarkus @InterceptorBinding on interceptor class causes Jandex build validation to see interceptor's own methods as annotated targets
 - GE-20260820-ac6cc7: Quarkus extension classloader rejects CDI interceptors referencing types across extension boundaries
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
+- GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods

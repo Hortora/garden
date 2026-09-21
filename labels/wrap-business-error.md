@@ -1,0 +1,1 @@
+- GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods

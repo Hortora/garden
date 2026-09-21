@@ -456,3 +456,4 @@
 - GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception
 - GE-20260918-9c8f7b: CDI Event<CloudEvent>.fireAsync() is the emission path to RAS ganglia
 - GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
+- GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods

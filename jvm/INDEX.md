@@ -1617,3 +1617,4 @@
 | GE-20260918-df44b4 | Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules | gotcha | 10/15 |
 | GE-20260918-7888de | Generated CDI @Decorator local variables collide with delegate method parameter names | gotcha | 9/15 |
 | GE-20260920-d78e88 | graphql-generator APT @Valid on body params requires jakarta.validation-api on consuming module classpath | gotcha | 11/15 |
+| GE-20260921-59ddda | Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods | gotcha | 9/15 |

@@ -800,3 +800,4 @@
 | GE-20260914-e3cb03 | Profile data over prose directives for LLM cognitive state injection | technique | 12/15 |
 | GE-20260918-73e964 | Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported | gotcha | 10/15 |
 | GE-20260919-3f610d | Numeric values for LLM reasoning, qualitative labels for LLM embodiment — same data, different presentation by consumption mode | technique | 11/15 |
+| GE-20260921-b6cf8e | IntelliJ MCP ide_replace_text_in_file with DOTALL (?s) regex silently eats across Java method boundaries | gotcha | 10/15 |
