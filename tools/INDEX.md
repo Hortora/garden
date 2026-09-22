@@ -802,3 +802,4 @@
 | GE-20260919-3f610d | Numeric values for LLM reasoning, qualitative labels for LLM embodiment — same data, different presentation by consumption mode | technique | 11/15 |
 | GE-20260921-b6cf8e | IntelliJ MCP ide_replace_text_in_file with DOTALL (?s) regex silently eats across Java method boundaries | gotcha | 10/15 |
 | GE-20260921-f1139b | Additive eviction scoring outperforms multiplicative for heterogeneous-cost resource caches | technique | 11/15 |
+| GE-20260922-0ef292 | Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently | gotcha | 10/15 |

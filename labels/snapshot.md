@@ -79,3 +79,4 @@
 - GE-20260823-211f3e: WebJar SNAPSHOT portal staleness breaks Lit class hierarchy across packages
 - GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
+- GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently

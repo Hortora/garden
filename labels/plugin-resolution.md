@@ -1,0 +1,1 @@
+- GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently

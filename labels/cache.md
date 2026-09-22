@@ -16,3 +16,4 @@
 - GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
 - GE-20260921-f1139b: Additive eviction scoring outperforms multiplicative for heterogeneous-cost resource caches
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
+- GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently
