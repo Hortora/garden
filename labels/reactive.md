@@ -78,3 +78,4 @@
 - GE-20260804-8b0fd6: BroadcastProcessor bridges CDI async events into Multi<T> SSE streams in Quarkus REST
 - GE-20260810-f5f01d: Bridge reactive Multi<AgentEvent> to blocking collection via subscribe().asIterable() on virtual threads
 - GE-20260812-d92fa8: Virtual threads eliminate the need for reactive Uni wrappers on synchronous SPIs
+- GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor

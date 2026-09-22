@@ -1621,3 +1621,4 @@
 | GE-20260921-1382ff | CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs | technique | 13/15 |
 | GE-20260921-8676a0 | Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture | technique | 10/15 |
 | GE-20260921-be4cc8 | JPA hard-coded enum value lists silently diverge from Java enum classification methods | gotcha | 12/15 |
+| GE-20260922-34ceef | Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor | gotcha | 9/15 |

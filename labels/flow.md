@@ -1,0 +1,1 @@
+- GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor
