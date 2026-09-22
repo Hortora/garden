@@ -242,3 +242,4 @@
 - GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
 - GE-20260918-73e964: Maven BOM-within-BOM: explicit dependency overrides in a parent BOM don't propagate when the parent is itself imported
 - GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save
+- GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
