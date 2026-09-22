@@ -4,3 +4,4 @@
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
 - GE-20260806-821a98: @DefaultBean on both upstream NoOp and downstream real implementation creates CDI ambiguity when upstream changes CDI scope
 - GE-20260822-74a43e: SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving
+- GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface

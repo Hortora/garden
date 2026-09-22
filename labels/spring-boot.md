@@ -3,3 +3,5 @@
 - GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup
 - GE-20260917-2b4c9f: @DataJpaTest without @SpringBootApplication fails with Unable to retrieve @EnableAutoConfiguration base packages
 - GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules
+- GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
+- GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface

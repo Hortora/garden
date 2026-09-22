@@ -26,3 +26,6 @@
 - GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor
+- GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
+- GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface
+- GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones

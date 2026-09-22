@@ -14,3 +14,4 @@
 - GE-20260716-f292d3: Score-replacing decorators silently discard pre-applied multipliers — temporal decay before cross-encoder reranking has zero effect
 - GE-20260806-c91577: ClosureState priority ordering — worst state wins via max(), not min()
 - GE-20260819-c5f890: Sequential Vert.x event-bus publishes have no ordering guarantee for @RunOnVirtualThread handlers — downstream consumer may query uncommitted state
+- GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones

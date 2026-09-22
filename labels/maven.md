@@ -244,3 +244,5 @@
 - GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
 - GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently
+- GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
+- GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones

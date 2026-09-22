@@ -1623,3 +1623,6 @@
 | GE-20260921-be4cc8 | JPA hard-coded enum value lists silently diverge from Java enum classification methods | gotcha | 12/15 |
 | GE-20260922-34ceef | Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor | gotcha | 9/15 |
 | GE-20260802-44a85e | Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead | gotcha | 8/15 |
+| GE-20260923-357707 | Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory | gotcha | 12/15 |
+| GE-20260923-5bb52a | Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface | gotcha | 11/15 |
+| GE-20260923-16782e | Maven project.addResource appends to list — later resources overwrite earlier ones | gotcha | 9/15 |

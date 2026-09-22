@@ -1,0 +1,1 @@
+- GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface

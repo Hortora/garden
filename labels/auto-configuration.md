@@ -1,1 +1,3 @@
 - GE-20260909-81809c: Jandex-based Spring auto-config generator from Quarkus CDI @Produces — Quarkus as source of truth
+- GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
+- GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface

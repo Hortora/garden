@@ -1,0 +1,2 @@
+- GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
+- GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones
