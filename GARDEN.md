@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3157
+**Entries merged since last sweep:** 3158
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -202,6 +202,7 @@
 - GE-20260825-cd6efc [IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync](claude-code/GE-20260825-cd6efc.md)
 - GE-20260920-6dfb5a [IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos](claude-code/GE-20260920-6dfb5a.md)
 - GE-20260920-f99d36 [IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files](claude-code/GE-20260920-f99d36.md)
+- GE-20260717-886249 [IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save](claude-code/GE-20260717-886249.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)

@@ -96,3 +96,4 @@
 - GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos
 - GE-20260920-f99d36: IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files
 - GE-20260921-b6cf8e: IntelliJ MCP ide_replace_text_in_file with DOTALL (?s) regex silently eats across Java method boundaries
+- GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save

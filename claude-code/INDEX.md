@@ -51,3 +51,4 @@
 | GE-20260825-cd6efc | IntelliJ MCP ide_replace_text_in_file reports success but file on disk unchanged — VFS desync | gotcha | 10/15 |
 | GE-20260920-6dfb5a | IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos | gotcha | 13/15 |
 | GE-20260920-f99d36 | IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files | gotcha | 11/15 |
+| GE-20260717-886249 | IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save | gotcha | 9/15 |

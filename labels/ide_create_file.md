@@ -6,3 +6,4 @@
 - GE-20260731-6e7df6: IntelliJ MCP ide_create_file doubles module prefix in multi-module Maven workspaces
 - GE-20260803-30dcbb: ide_create_file doubles module path when project_path targets a Maven submodule
 - GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
+- GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save

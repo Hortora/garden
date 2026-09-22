@@ -3,3 +3,4 @@
 - GE-20260721-435df9: IntelliJ MCP ide_create_file times out on large content (80+ lines)
 - GE-20260829-a1c163: IntelliJ MCP ide_create_file silently doubles path when given absolute file path
 - GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name
+- GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save
