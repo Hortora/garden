@@ -1626,3 +1626,4 @@
 | GE-20260923-357707 | Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory | gotcha | 12/15 |
 | GE-20260923-5bb52a | Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface | gotcha | 11/15 |
 | GE-20260923-16782e | Maven project.addResource appends to list — later resources overwrite earlier ones | gotcha | 9/15 |
+| GE-20260719-1309d7 | Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper | technique | 9/15 |

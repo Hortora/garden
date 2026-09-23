@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3166
+**Entries merged since last sweep:** 3167
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2317,6 +2317,7 @@
 - GE-20260923-357707 [Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory](jvm/GE-20260923-357707.md)
 - GE-20260923-5bb52a [Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface](jvm/GE-20260923-5bb52a.md)
 - GE-20260923-16782e [Maven project.addResource appends to list — later resources overwrite earlier ones](jvm/GE-20260923-16782e.md)
+- GE-20260719-1309d7 [Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper](jvm/GE-20260719-1309d7.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

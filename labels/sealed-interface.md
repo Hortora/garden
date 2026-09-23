@@ -18,3 +18,4 @@
 - GE-20260909-865486: victools SealedHierarchyModule generates camelCase discriminators — silently mismatches Jackson @JsonSubTypes kebab-case names
 - GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names
 - GE-20260914-2efac3: RAS API sealed variant names differ from intuition — Count not Single, NotifyOnly not Noop, Repeating not Continuous
+- GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
