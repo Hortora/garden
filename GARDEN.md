@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3164
+**Entries merged since last sweep:** 3165
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3155,6 +3155,7 @@
 - GE-20260921-b6cf8e [IntelliJ MCP ide_replace_text_in_file with DOTALL (?s) regex silently eats across Java method boundaries](tools/GE-20260921-b6cf8e.md)
 - GE-20260921-f1139b [Additive eviction scoring outperforms multiplicative for heterogeneous-cost resource caches](tools/GE-20260921-f1139b.md)
 - GE-20260922-0ef292 [Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently](tools/GE-20260922-0ef292.md)
+- GE-20260923-e7ccdc [Progressive resolution for cognitive knowledge graphs — LOD applied to goal/intention tracking](tools/GE-20260923-e7ccdc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -1,2 +1,3 @@
 - GE-20260831-1e506c: Flyway consolidation leaves stale delta migrations with wrong table names — silent in prod, fails on clean-at-start
 - GE-20260912-be7c74: Three-tier memory for cognitive agents — never write to the graph during the tick loop
+- GE-20260923-e7ccdc: Progressive resolution for cognitive knowledge graphs — LOD applied to goal/intention tracking
