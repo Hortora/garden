@@ -21,3 +21,4 @@
 - GE-20260707-f3bece: Quarkus ARC @Alternative @Priority(1) subclass not injected when injection point uses concrete superclass type
 - GE-20260818-61ed16: Selective CDI interface injection controls decorator interception scope
 - GE-20260414-99a2a3: Field-inject CDI Event with null guard to keep unit tests free of CDI
+- GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths

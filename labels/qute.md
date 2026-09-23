@@ -1,0 +1,1 @@
+- GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths

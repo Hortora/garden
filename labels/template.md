@@ -3,3 +3,4 @@
 - GE-20260427-5c5bab: @PermuteFilter is silently ignored on plain template methods — use single-clone @PermuteMethod to enable per-arity suppression
 - GE-20260414-10b7c8: validate_examples.py silently skips any JSON block matching {[^}]*} as a template — use array-format JSON to test WARNING path
 - GE-20260629-b049bb: Java null string concatenation in template produces literal 'null' — latent bug surfaces when dead output path becomes live
+- GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths

@@ -809,3 +809,4 @@
 - GE-20260917-1f47ef: Flyway 12 removes cleanOnValidationError() — Spring Boot 3.4 FlywayAutoConfiguration crashes at startup
 - GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom
 - GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods
+- GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths

@@ -459,3 +459,4 @@
 - GE-20260921-59ddda: Quarkus @WrapBusinessError interceptor fires on all methods but only wraps exceptions for @Tool-annotated methods
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
+- GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths
