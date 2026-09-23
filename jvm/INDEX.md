@@ -1629,3 +1629,4 @@
 | GE-20260719-1309d7 | Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper | technique | 9/15 |
 | GE-20260923-2462e0 | Spring Boot 4 moves HealthIndicator, Health, Status to spring-boot-health module | breaking | 12/15 |
 | GE-20260923-fecfc5 | Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination | technique | 10/15 |
+| GE-20260923-99f67b | Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern' | gotcha | 8/15 |

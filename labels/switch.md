@@ -2,3 +2,4 @@
 - GE-20260418-90907d: @PermuteCase body with Java string literals silently produces empty switch cases
 - GE-20260522-99d52d: Java 21 pattern-matching switch does not match null with default — NPE without explicit case null arm
 - GE-20260805-4091ab: buildFlatGraph() throws unclear error on invalid SWF flow directives
+- GE-20260923-99f67b: Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'

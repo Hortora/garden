@@ -173,3 +173,4 @@
 - GE-20260821-601212: Java record component auto-implements interface method when name matches — no @Override needed
 - GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects
 - GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor
+- GE-20260923-99f67b: Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'

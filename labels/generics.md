@@ -32,3 +32,4 @@
 - GE-20260909-8fb2e4: Jandex loses generic type parameters on @ConfigProperty Optional<List<>> — generator emits raw Optional
 - GE-20260915-aa3b7f: Non-generic CDI registry pattern avoids type erasure with generic SPIs
 - GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor
+- GE-20260923-99f67b: Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'
