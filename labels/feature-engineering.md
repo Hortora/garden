@@ -1,2 +1,3 @@
 - GE-20260821-80522d: Source proportion imbalance in multi-source ML training silently collapses model
 - GE-20260821-a4982a: All-zero feature block detection as pre-merge data quality audit for multi-source ML
+- GE-20260923-3afc13: Binary fog-of-war masking for spatial ML features — continuous scaling produces nonsensical positions

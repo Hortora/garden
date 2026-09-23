@@ -804,3 +804,4 @@
 | GE-20260921-f1139b | Additive eviction scoring outperforms multiplicative for heterogeneous-cost resource caches | technique | 11/15 |
 | GE-20260922-0ef292 | Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently | gotcha | 10/15 |
 | GE-20260923-e7ccdc | Progressive resolution for cognitive knowledge graphs — LOD applied to goal/intention tracking | technique | 10/15 |
+| GE-20260923-3afc13 | Binary fog-of-war masking for spatial ML features — continuous scaling produces nonsensical positions | technique | 12/15 |
