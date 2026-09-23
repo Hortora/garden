@@ -1,2 +1,1 @@
-- GE-20260816-290024: ECharts aria.enabled can be injected at the abstract base class level via option mutation
 - GE-20260923-9393de: Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>

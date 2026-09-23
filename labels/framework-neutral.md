@@ -1,1 +1,2 @@
 - GE-20260910-fc414e: Event<T> to Consumer<T> for framework-neutral core extraction
+- GE-20260923-e81faa: orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields

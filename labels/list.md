@@ -1,2 +1,3 @@
 - GE-20260520-1e294c: jsonschema2pojo generates absent array/list fields as empty ArrayList, not null
 - GE-20260517-aaf0a7: List.getLast() — O(1) last-element access via Java 21 SequencedCollection
+- GE-20260923-9393de: Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>

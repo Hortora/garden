@@ -55,3 +55,4 @@
 - GE-20260817-55c9b2: CDI @Decorator for transparent callback routing on NamedStrategy SPIs — metadata methods delegate, business methods route
 - GE-20260818-c71c94: NoOpJobScheduler blocks ALL test compilation when engine SPI changes return types — symptom is 11 errors in one file, cause is transitive SNAPSHOT drift
 - GE-20260818-b2abcd: Separate SPI context record types when existing ClassificationContext conflicts
+- GE-20260923-9393de: Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>

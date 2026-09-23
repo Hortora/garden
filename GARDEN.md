@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3172
+**Entries merged since last sweep:** 3175
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2323,6 +2323,8 @@
 - GE-20260923-99f67b [Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'](jvm/GE-20260923-99f67b.md)
 - GE-20260923-8a6181 [Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths](jvm/GE-20260923-8a6181.md)
 - GE-20260923-941689 [@RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads](jvm/GE-20260923-941689.md)
+- GE-20260923-e81faa [orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields](jvm/GE-20260923-e81faa.md)
+- GE-20260923-9393de [Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>](jvm/GE-20260923-9393de.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3163,6 +3165,7 @@
 - GE-20260922-0ef292 [Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently](tools/GE-20260922-0ef292.md)
 - GE-20260923-e7ccdc [Progressive resolution for cognitive knowledge graphs — LOD applied to goal/intention tracking](tools/GE-20260923-e7ccdc.md)
 - GE-20260923-3afc13 [Binary fog-of-war masking for spatial ML features — continuous scaling produces nonsensical positions](tools/GE-20260923-3afc13.md)
+- GE-20260923-1d03d4 [ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers](tools/GE-20260923-1d03d4.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -123,3 +123,4 @@
 - GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules
 - GE-20260921-be4cc8: JPA hard-coded enum value lists silently diverge from Java enum classification methods
 - GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads
+- GE-20260923-e81faa: orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields

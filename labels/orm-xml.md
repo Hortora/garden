@@ -1,1 +1,2 @@
 - GE-20260812-5fe880: Quarkus cross-JAR orm.xml mapped-superclass discovery works correctly
+- GE-20260923-e81faa: orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields

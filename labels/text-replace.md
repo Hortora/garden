@@ -1,2 +1,1 @@
-- GE-20260805-450be2: ide_replace_text_in_file does substring matching — replaces inside longer identifiers
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
