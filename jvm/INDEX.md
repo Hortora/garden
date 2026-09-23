@@ -1627,3 +1627,5 @@
 | GE-20260923-5bb52a | Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface | gotcha | 11/15 |
 | GE-20260923-16782e | Maven project.addResource appends to list — later resources overwrite earlier ones | gotcha | 9/15 |
 | GE-20260719-1309d7 | Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper | technique | 9/15 |
+| GE-20260923-2462e0 | Spring Boot 4 moves HealthIndicator, Health, Status to spring-boot-health module | breaking | 12/15 |
+| GE-20260923-fecfc5 | Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination | technique | 10/15 |

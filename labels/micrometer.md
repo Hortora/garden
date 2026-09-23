@@ -3,3 +3,4 @@
 - GE-20260630-6c2515: CDI Instance<T> makes injection optional but not classloading — provided scope breaks transitive dependents
 - GE-20260806-218031: Async worker + timeout sweep double-counts the same queue entry in Micrometer metrics
 - GE-20260806-d0a7b5: SimpleMeterRegistry with reflection injection for unit testing Micrometer metrics without CDI
+- GE-20260923-fecfc5: Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination

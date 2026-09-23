@@ -1,0 +1,1 @@
+- GE-20260923-2462e0: Spring Boot 4 moves HealthIndicator, Health, Status to spring-boot-health module
