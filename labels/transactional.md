@@ -31,3 +31,4 @@
 - GE-20260429-da95ec: Two-bean pattern for @ObservesAsync + @Transactional with OCC retry in Quarkus
 - GE-20260810-0391c8: H2 dual-datasource @Transactional requires explicit XA enlistment
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
+- GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads

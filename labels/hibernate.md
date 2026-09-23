@@ -95,3 +95,4 @@
 - GE-20260618-08cb96: Named Hibernate ORM persistence unit requires both @PersistenceUnit qualifier AND packages config for entity discovery
 - GE-20260827-d5a3cf: H2 reserved-word columns cause misleading 'expected identifier' in Quarkus drop-and-create
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
+- GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads

@@ -1631,3 +1631,4 @@
 | GE-20260923-fecfc5 | Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination | technique | 10/15 |
 | GE-20260923-99f67b | Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern' | gotcha | 8/15 |
 | GE-20260923-8a6181 | Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths | gotcha | 8/15 |
+| GE-20260923-941689 | @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads | gotcha | 11/15 |

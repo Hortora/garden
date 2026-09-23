@@ -122,3 +122,4 @@
 - GE-20260827-4e692c: JPA JOINED inheritance — CREATE INDEX on subclass table cannot reference parent table columns
 - GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules
 - GE-20260921-be4cc8: JPA hard-coded enum value lists silently diverge from Java enum classification methods
+- GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads

@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3171
+**Entries merged since last sweep:** 3172
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2322,6 +2322,7 @@
 - GE-20260923-fecfc5 [Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination](jvm/GE-20260923-fecfc5.md)
 - GE-20260923-99f67b [Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'](jvm/GE-20260923-99f67b.md)
 - GE-20260923-8a6181 [Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths](jvm/GE-20260923-8a6181.md)
+- GE-20260923-941689 [@RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads](jvm/GE-20260923-941689.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
