@@ -5,3 +5,4 @@
 - GE-20260701-f7e1d5: BGE-M3 ColBERT ONNX output must include CLS token — BAAI reference excludes it, causing NPEs in batch inference
 - GE-20260803-263c2c: Explicit state machine replaces multi-signal inference for lifecycle detection
 - GE-20260822-b33f5c: ONNX models with padding masks: z-score normalization must skip zero-padded windows
+- GE-20260822-b33f5c: ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch

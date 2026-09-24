@@ -10,3 +10,5 @@
 - GE-20260803-e363e6: ONNX Runtime SIGSEGV when Quarkus @Scheduled fires during ONNX model loading — concurrent thread pool access
 - GE-20260822-b33f5c: ONNX models with padding masks: z-score normalization must skip zero-padded windows
 - GE-20260823-7b17ad: TensorClassifier applies softmax internally — InMemoryInferenceModel test values are raw logits, not probabilities
+- GE-20260822-b33f5c: ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch
+- GE-20260703-e0af92: torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning

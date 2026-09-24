@@ -2,3 +2,4 @@
 - GE-20260606-fc0556: GraalVM tracing agent as sole discovery path for ONNX Runtime + DJL native-image config
 - GE-20260822-b33f5c: ONNX models with padding masks: z-score normalization must skip zero-padded windows
 - GE-20260829-c497e0: OnnxRuntime C API tensor handles leak despite Java FFM Arena.ofConfined() cleanup
+- GE-20260822-b33f5c: ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch

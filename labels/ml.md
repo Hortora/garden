@@ -1,3 +1,4 @@
 - GE-20260803-027005: Batched ML model benchmarks with partial JSON saves to survive process timeouts
 - GE-20260822-b33f5c: ONNX models with padding masks: z-score normalization must skip zero-padded windows
 - GE-20260923-3afc13: Binary fog-of-war masking for spatial ML features — continuous scaling produces nonsensical positions
+- GE-20260822-b33f5c: ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch

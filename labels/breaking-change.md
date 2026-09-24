@@ -9,3 +9,4 @@
 - GE-20260707-5673c0: Java record field addition in SNAPSHOT dependency — IDE compiles, Maven NoSuchMethodError
 - GE-20260724-ce18be: SettingsScope.root() now requires tenancyId — silent compilation failure, no deprecation
 - GE-20260724-b3e9a6: WorkerFunction.Sync changed from 2-arg to 3-arg constructor — WorkerExecutionContext removed
+- GE-20260703-e0af92: torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning

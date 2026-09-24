@@ -1634,3 +1634,4 @@
 | GE-20260923-941689 | @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads | gotcha | 11/15 |
 | GE-20260923-e81faa | orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields | technique | 10/15 |
 | GE-20260923-9393de | Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base> | gotcha | 8/15 |
+| GE-20260822-b33f5c | ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch | gotcha | 9/15 |

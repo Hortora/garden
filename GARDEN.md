@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3175
+**Entries merged since last sweep:** 3177
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2325,6 +2325,7 @@
 - GE-20260923-941689 [@RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads](jvm/GE-20260923-941689.md)
 - GE-20260923-e81faa [orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields](jvm/GE-20260923-e81faa.md)
 - GE-20260923-9393de [Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>](jvm/GE-20260923-9393de.md)
+- GE-20260822-b33f5c [ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch](jvm/GE-20260822-b33f5c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3199,6 +3200,7 @@
 - GE-20260821-4b0952 [Confusion matrix identifies architecture vs data bottleneck before hyperparameter tuning](python/GE-20260821-4b0952.md)
 - GE-20260821-a4982a [All-zero feature block detection as pre-merge data quality audit for multi-source ML](python/GE-20260821-a4982a.md)
 - GE-20260824-46ff2c [Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state](python/GE-20260824-46ff2c.md)
+- GE-20260703-e0af92 [torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning](python/GE-20260703-e0af92.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)
