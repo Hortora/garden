@@ -124,3 +124,4 @@
 - GE-20260921-be4cc8: JPA hard-coded enum value lists silently diverge from Java enum classification methods
 - GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads
 - GE-20260923-e81faa: orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields
+- GE-20260924-bb5f55: Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata

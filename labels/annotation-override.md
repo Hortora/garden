@@ -1,0 +1,1 @@
+- GE-20260924-bb5f55: Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata
