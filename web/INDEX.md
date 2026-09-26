@@ -299,3 +299,6 @@
 | GE-20260917-05b7ae | Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required | gotcha | 11/15 |
 | GE-20260920-c521d1 | Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators | gotcha | 9/15 |
 | GE-20260921-72bf81 | Lit ?draggable directive sets empty string — draggable stays false | gotcha | 9/15 |
+| GE-20260926-9a81a8 | Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined | gotcha | 10/15 |
+| GE-20260926-66fe35 | pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object] | gotcha | 9/15 |
+| GE-20260926-a488e6 | WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers | technique | 9/15 |

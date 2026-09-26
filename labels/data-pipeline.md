@@ -3,3 +3,4 @@
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
 - GE-20260711-5170ee: pages-data extractDataSet throws EMPTY_RESULT on empty arrays — blocks empty-state rendering in fetchSource consumers
 - GE-20260714-b6ec65: Reactive data pipeline refresh-via-onChanged creates infinite recursion when refresh semantics change from cache-serve to re-fetch
+- GE-20260926-66fe35: pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object]

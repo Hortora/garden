@@ -1,2 +1,3 @@
 - GE-20260819-96e032: pages-ui html() DSL uses innerHTML — cannot pass complex properties to hosted web components
 - GE-20260819-1b3181: pages-ui masterDetail() referenced in source but absent from compiled SNAPSHOT
+- GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined

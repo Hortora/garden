@@ -1,0 +1,1 @@
+- GE-20260926-66fe35: pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object]

@@ -1,0 +1,1 @@
+- GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined

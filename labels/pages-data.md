@@ -5,3 +5,5 @@
 - GE-20260806-10d369: blocks-ui-core EventStreamController is WebSocket-based, not SSE — use SSEManager from pages-data for actual SSE
 - GE-20260806-1f881e: pages-data SSEManager eventNames filters SSE protocol-level named events only — JSON payload type field requires client-side filtering
 - GE-20260821-05fb0e: EventConnection from pages-data doesn't expose eventTarget — components must accept it as a separate parameter
+- GE-20260926-66fe35: pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object]
+- GE-20260926-a488e6: WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers

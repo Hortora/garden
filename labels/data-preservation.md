@@ -1,2 +1,1 @@
-- GE-20260818-f0257a: Shadow-aware CSS injection with per-root WeakMap ref-counting for web component libraries
 - GE-20260926-a488e6: WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers
