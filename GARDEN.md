@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3184
+**Entries merged since last sweep:** 3185
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2328,6 +2328,7 @@
 - GE-20260822-b33f5c [ONNX z-score normalization of zero-padded windows must match training — skip or normalize, never mismatch](jvm/GE-20260822-b33f5c.md)
 - GE-20260924-bb5f55 [Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata](jvm/GE-20260924-bb5f55.md)
 - GE-20260927-8a2eb6 [Blocking SPI interface decouples reactive session manager from framework-neutral execution manager](jvm/GE-20260927-8a2eb6.md)
+- GE-20260602-c4a68a [Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit](jvm/GE-20260602-c4a68a.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

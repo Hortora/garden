@@ -812,3 +812,4 @@
 - GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths
 - GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads
 - GE-20260924-bb5f55: Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata
+- GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
