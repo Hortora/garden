@@ -1,2 +1,1 @@
-- GE-20260826-2a58fa: CLAUDE_CODE_CHILD_SESSION inherited by terminal app silently kills transcript saving
 - GE-20260927-8a2eb6: Blocking SPI interface decouples reactive session manager from framework-neutral execution manager
