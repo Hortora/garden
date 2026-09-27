@@ -1,2 +1,2 @@
-- GE-20260426-5800d0: SC2 .SC2Map terrain file t3SyncCliffLevel: binary format and cliff-tier encoding
 - GE-20260927-c61fa5: Blizzard SC2 API ladder replays use stripped .backup MPQ format — SC2 returns MissingReplay without PySC2 run_configs
+- GE-20260927-57b782: SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2

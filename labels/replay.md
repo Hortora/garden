@@ -13,3 +13,5 @@
 - GE-20260530-f5b1d9: Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map
 - GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events
 - GE-20260910-4498ea: Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets
+- GE-20260927-c61fa5: Blizzard SC2 API ladder replays use stripped .backup MPQ format — SC2 returns MissingReplay without PySC2 run_configs
+- GE-20260927-57b782: SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2

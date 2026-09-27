@@ -8,3 +8,4 @@
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260520-c0e5b4: Podman on macOS requires explicit DOCKER_HOST for Testcontainers — no /var/run/docker.sock without podman-mac-helper
 - GE-20260616-bb45d5: Testcontainers 2.x ignores docker.host property — Podman socket requires DOCKER_HOST env var
+- GE-20260927-57b782: SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2

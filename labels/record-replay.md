@@ -1,0 +1,1 @@
+- GE-20260927-57b782: SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2
