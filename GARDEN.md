@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3187
+**Entries merged since last sweep:** 3189
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2330,6 +2330,7 @@
 - GE-20260927-8a2eb6 [Blocking SPI interface decouples reactive session manager from framework-neutral execution manager](jvm/GE-20260927-8a2eb6.md)
 - GE-20260602-c4a68a [Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit](jvm/GE-20260602-c4a68a.md)
 - GE-20260928-b3449a [Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction](jvm/GE-20260928-b3449a.md)
+- GE-20260928-7830db [Raw PAD mood values don't influence LLM behavior — emotional labels required](jvm/GE-20260928-7830db.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3174,6 +3175,7 @@
 - GE-20260927-c61fa5 [Blizzard SC2 API ladder replays use stripped .backup MPQ format — SC2 returns MissingReplay without PySC2 run_configs](tools/GE-20260927-c61fa5.md)
 - GE-20260927-57b782 [SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2](tools/GE-20260927-57b782.md)
 - GE-20260928-1bbdb9 [IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk](tools/GE-20260928-1bbdb9.md)
+- GE-20260928-bba8b1 [Paired state probes with control — isolating LLM behavioral emergence from random variation](tools/GE-20260928-bba8b1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

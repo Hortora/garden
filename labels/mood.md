@@ -1,0 +1,1 @@
+- GE-20260928-7830db: Raw PAD mood values don't influence LLM behavior — emotional labels required

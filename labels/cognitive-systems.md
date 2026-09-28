@@ -1,0 +1,2 @@
+- GE-20260928-7830db: Raw PAD mood values don't influence LLM behavior — emotional labels required
+- GE-20260928-bba8b1: Paired state probes with control — isolating LLM behavioral emergence from random variation

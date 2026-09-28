@@ -1,2 +1,3 @@
 - GE-20260914-e3cb03: Profile data over prose directives for LLM cognitive state injection
 - GE-20260914-e3cb03: Profile data over prose directives for LLM cognitive state injection
+- GE-20260928-7830db: Raw PAD mood values don't influence LLM behavior — emotional labels required

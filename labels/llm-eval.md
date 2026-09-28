@@ -1,2 +1,3 @@
 - GE-20260617-f3ea4e: Claude self-judges factual fidelity at 1.88–2.13 on its own enriched renders; independent judge (Qwen 8B) scores same renders 5.00
 - GE-20260915-2b5e80: Comparative cognitive data needs perception-level translation — raw metrics are not self-contained data
+- GE-20260928-bba8b1: Paired state probes with control — isolating LLM behavioral emergence from random variation
