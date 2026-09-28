@@ -51,3 +51,4 @@
 - GE-20260820-faa856: Flyway duplicate version error when merging multiple module migration paths
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
+- GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk

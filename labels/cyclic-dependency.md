@@ -1,1 +1,2 @@
 - GE-20260823-bf3452: Extracting test stubs to shared testing/ module creates Maven cyclic deps when stubs implement module-internal types
+- GE-20260928-b3449a: Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction

@@ -1638,3 +1638,4 @@
 | GE-20260924-bb5f55 | Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata | gotcha | 11/15 |
 | GE-20260927-8a2eb6 | Blocking SPI interface decouples reactive session manager from framework-neutral execution manager | technique | 9/15 |
 | GE-20260602-c4a68a | Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit | technique | 9/15 |
+| GE-20260928-b3449a | Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction | technique | 9/15 |

@@ -808,3 +808,4 @@
 | GE-20260923-1d03d4 | ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers | gotcha | 9/15 |
 | GE-20260927-c61fa5 | Blizzard SC2 API ladder replays use stripped .backup MPQ format — SC2 returns MissingReplay without PySC2 run_configs | gotcha | 12/15 |
 | GE-20260927-57b782 | SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2 | technique | 13/15 |
+| GE-20260928-1bbdb9 | IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk | gotcha | 10/15 |

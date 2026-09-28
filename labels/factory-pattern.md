@@ -1,1 +1,2 @@
 - GE-20260512-9f4de6: Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor
+- GE-20260928-b3449a: Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction

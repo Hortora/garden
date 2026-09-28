@@ -246,3 +246,5 @@
 - GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently
 - GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
 - GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones
+- GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk
+- GE-20260928-b3449a: Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction
