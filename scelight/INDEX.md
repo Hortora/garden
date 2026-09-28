@@ -6,3 +6,4 @@
 | GE-20260529-90ed14 | Scelight SelectionDeltaEvent.getDelta() is always non-null — null guard is unreachable | undocumented | 8/15 |
 | GE-20260530-f75780 | Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561 | gotcha | 10/15 |
 | GE-20260530-f5b1d9 | Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map | undocumented | 9/15 |
+| GE-20260929-4f3ee8 | Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers | undocumented | 15/15 |

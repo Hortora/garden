@@ -10,3 +10,4 @@
 - GE-20260530-f5b1d9: Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map
 - GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events
 - GE-20260910-4498ea: Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets
+- GE-20260929-4f3ee8: Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers

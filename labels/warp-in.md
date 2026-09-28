@@ -1,0 +1,1 @@
+- GE-20260929-4f3ee8: Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers
