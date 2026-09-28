@@ -1,2 +1,1 @@
-- GE-20260810-8f3127: Lit @state on parent survives child unmount/remount — ghost selection state when switching views
 - GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render

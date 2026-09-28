@@ -61,3 +61,4 @@
 - GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators
 - GE-20260921-72bf81: Lit ?draggable directive sets empty string — draggable stays false
 - GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined
+- GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render

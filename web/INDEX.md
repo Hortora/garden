@@ -302,3 +302,4 @@
 | GE-20260926-9a81a8 | Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined | gotcha | 10/15 |
 | GE-20260926-66fe35 | pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object] | gotcha | 9/15 |
 | GE-20260926-a488e6 | WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers | technique | 9/15 |
+| GE-20260928-558508 | Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render | gotcha | 10/15 |

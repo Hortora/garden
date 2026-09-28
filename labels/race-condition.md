@@ -28,3 +28,4 @@
 - GE-20260823-c9d1dd: IntelliJ MCP tool writes may not flush to disk before git add stages the file
 - GE-20260825-a455eb: Push-wire dispatch messages override executor speed — stale speed after runTo
 - GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count
+- GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render
