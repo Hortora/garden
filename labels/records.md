@@ -23,3 +23,4 @@
 - GE-20260822-f78d02: Jackson default ObjectMapper fails on java.time.Duration nested in records — register JavaTimeModule
 - GE-20260823-7346ff: Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites
 - GE-20260910-27296d: MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access
+- GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration

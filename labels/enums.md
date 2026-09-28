@@ -1,0 +1,1 @@
+- GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration

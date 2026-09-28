@@ -1640,3 +1640,4 @@
 | GE-20260602-c4a68a | Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit | technique | 9/15 |
 | GE-20260928-b3449a | Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction | technique | 9/15 |
 | GE-20260928-7830db | Raw PAD mood values don't influence LLM behavior — emotional labels required | gotcha | 12/15 |
+| GE-20260928-bf3f42 | Java annotation attributes require enum types — blocks enum-to-record migration | gotcha | 9/15 |

@@ -7,3 +7,4 @@
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
 - GE-20260914-631772: Jandex MethodInfo has no parameterAnnotation(int, DotName) — must iterate method.annotations() and filter by position
 - GE-20260914-248827: Synthetic test-scoped annotation stubs for Jandex-based scanner testing
+- GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration

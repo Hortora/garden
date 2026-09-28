@@ -50,3 +50,4 @@
 - GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos
 - GE-20260920-f99d36: IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
+- GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration
