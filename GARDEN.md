@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3190
+**Entries merged since last sweep:** 3191
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2332,6 +2332,7 @@
 - GE-20260928-b3449a [Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction](jvm/GE-20260928-b3449a.md)
 - GE-20260928-7830db [Raw PAD mood values don't influence LLM behavior — emotional labels required](jvm/GE-20260928-7830db.md)
 - GE-20260928-bf3f42 [Java annotation attributes require enum types — blocks enum-to-record migration](jvm/GE-20260928-bf3f42.md)
+- GE-20260928-1e3a2e [Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words](jvm/GE-20260928-1e3a2e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

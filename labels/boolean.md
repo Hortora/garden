@@ -1,3 +1,4 @@
 - GE-20260415-4700a5: JAX-RS @QueryParam boolean silently rejects '1' — only 'true'/'false' accepted
 - GE-20260521-aba9c9: assertNotNull on a primitive boolean return silently passes — autoboxing defeats the null check
 - GE-20260602-2cff5e: Jackson cannot set absent YAML key into primitive boolean record field — MismatchedInputException misdirects to field type
+- GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words

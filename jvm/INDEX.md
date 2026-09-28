@@ -1641,3 +1641,4 @@
 | GE-20260928-b3449a | Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction | technique | 9/15 |
 | GE-20260928-7830db | Raw PAD mood values don't influence LLM behavior — emotional labels required | gotcha | 12/15 |
 | GE-20260928-bf3f42 | Java annotation attributes require enum types — blocks enum-to-record migration | gotcha | 9/15 |
+| GE-20260928-1e3a2e | Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words | gotcha | 10/15 |

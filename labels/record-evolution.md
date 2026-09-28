@@ -1,0 +1,1 @@
+- GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
