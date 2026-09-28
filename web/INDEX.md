@@ -303,3 +303,4 @@
 | GE-20260926-66fe35 | pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object] | gotcha | 9/15 |
 | GE-20260926-a488e6 | WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers | technique | 9/15 |
 | GE-20260928-558508 | Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render | gotcha | 10/15 |
+| GE-20260928-05352b | Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions | gotcha | 9/15 |

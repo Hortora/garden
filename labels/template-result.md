@@ -1,0 +1,1 @@
+- GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions

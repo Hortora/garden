@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3192
+**Entries merged since last sweep:** 3193
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3515,6 +3515,7 @@
 - GE-20260926-66fe35 [pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object]](web/GE-20260926-66fe35.md)
 - GE-20260926-a488e6 [WeakMap<TypedRow, unknown> preserves raw entries through pages-data pipeline for detail renderers](web/GE-20260926-a488e6.md)
 - GE-20260928-558508 [Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render](web/GE-20260928-558508.md)
+- GE-20260928-05352b [Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions](web/GE-20260928-05352b.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

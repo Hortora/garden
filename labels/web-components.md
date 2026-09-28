@@ -66,3 +66,4 @@
 - GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines
 - GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined
 - GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render
+- GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions

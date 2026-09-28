@@ -62,3 +62,4 @@
 - GE-20260921-72bf81: Lit ?draggable directive sets empty string — draggable stays false
 - GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined
 - GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render
+- GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions
