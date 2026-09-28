@@ -1,0 +1,1 @@
+- GE-20260929-802000: @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers

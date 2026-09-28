@@ -1642,3 +1642,4 @@
 | GE-20260928-7830db | Raw PAD mood values don't influence LLM behavior — emotional labels required | gotcha | 12/15 |
 | GE-20260928-bf3f42 | Java annotation attributes require enum types — blocks enum-to-record migration | gotcha | 9/15 |
 | GE-20260928-1e3a2e | Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words | gotcha | 10/15 |
+| GE-20260929-802000 | @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers | gotcha | 9/15 |

@@ -140,3 +140,4 @@
 - GE-20260825-f5dd2b: casehub engine-runtime does not compile-depend on engine-planning — relationship is CDI-only
 - GE-20260905-a1c645: CaseHub push stack uses WebSocket EventConnection with topic subscriptions — not SSE
 - GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map
+- GE-20260929-802000: @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers

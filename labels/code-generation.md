@@ -29,3 +29,4 @@
 - GE-20260923-357707: Maven addCompileSourceRoot silently ignores non-Java resources in generated output directory
 - GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface
 - GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones
+- GE-20260929-802000: @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers
