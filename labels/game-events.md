@@ -2,3 +2,4 @@
 - GE-20260528-f89f62: SC2EGSet JSON training commands identified by data: {None: null} — not documented anywhere
 - GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events
 - GE-20260929-4f3ee8: Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers
+- GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them

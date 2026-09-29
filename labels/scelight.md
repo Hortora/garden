@@ -11,3 +11,4 @@
 - GE-20260828-07529b: SC2 replay tracker events use 2x coordinate scale vs game events
 - GE-20260910-4498ea: Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets
 - GE-20260929-4f3ee8: Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers
+- GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them

@@ -1,0 +1,1 @@
+- GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them

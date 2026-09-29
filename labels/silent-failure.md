@@ -168,3 +168,4 @@
 - GE-20260905-586db5: Gallery stripTs() regex silently strips capitalized YAML values inside JavaScript string literals
 - GE-20260914-37d1fb: HttpEndpointResolver.initialize() is package-private and lifecycle-dependent — injecting from another module gives an empty endpoint map
 - GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined
+- GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them
