@@ -1,2 +1,3 @@
 - GE-20260730-760270: Java generic return type defeats explicit cast for overload resolution
 - GE-20260905-176c58: Mockito verify resolves wrong overload when class has generic + specific method pair
+- GE-20260929-ef0897: jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile

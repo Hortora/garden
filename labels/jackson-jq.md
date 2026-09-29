@@ -1,0 +1,1 @@
+- GE-20260929-ef0897: jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile
