@@ -175,3 +175,4 @@
 - GE-20260922-34ceef: Flow.Subscription is not generic — asymmetric with Flow.Publisher/Subscriber/Processor
 - GE-20260923-99f67b: Java switch pattern matching on sealed interfaces fails with generic type parameters — 'duplicate unconditional pattern'
 - GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration
+- GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing

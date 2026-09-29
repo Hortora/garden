@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3200
+**Entries merged since last sweep:** 3202
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -203,6 +203,7 @@
 - GE-20260920-6dfb5a [IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos](claude-code/GE-20260920-6dfb5a.md)
 - GE-20260920-f99d36 [IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files](claude-code/GE-20260920-f99d36.md)
 - GE-20260717-886249 [IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save](claude-code/GE-20260717-886249.md)
+- GE-20260929-ffbc2d [IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace](claude-code/GE-20260929-ffbc2d.md)
 ### drools/
 - GE-0056 [Drools 10 Rule Units DRL: three silent syntax traps with Java records and OOPath patterns](drools/GE-0056.md)
 - GE-0057 [`addParamsFact()` must be called at build time — silent wrong-fact extraction at runtime](drools/GE-0057.md)
@@ -3185,6 +3186,7 @@
 - GE-20260928-bba8b1 [Paired state probes with control — isolating LLM behavioral emergence from random variation](tools/GE-20260928-bba8b1.md)
 - GE-20260929-d722ce [Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures](tools/GE-20260929-d722ce.md)
 - GE-20260929-d783cc [Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them](tools/GE-20260929-d783cc.md)
+- GE-20260929-f51b43 [Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing](tools/GE-20260929-f51b43.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

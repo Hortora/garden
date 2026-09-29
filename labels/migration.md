@@ -60,3 +60,5 @@
 - GE-20260917-05b7ae: Zod v4 internal ._zod.def field names differ from v3 ._def — undocumented mapping required
 - GE-20260918-df44b4: Spring Boot 4 modularization moves @DataJpaTest and @EntityScan to new packages and modules
 - GE-20260923-2462e0: Spring Boot 4 moves HealthIndicator, Health, Status to spring-boot-health module
+- GE-20260929-ffbc2d: IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace
+- GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing

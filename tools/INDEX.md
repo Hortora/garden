@@ -812,3 +812,4 @@
 | GE-20260928-bba8b1 | Paired state probes with control — isolating LLM behavioral emergence from random variation | technique | 10/15 |
 | GE-20260929-d722ce | Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures | gotcha | 9/15 |
 | GE-20260929-d783cc | Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them | technique | 10/15 |
+| GE-20260929-f51b43 | Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing | technique | 8/15 |
