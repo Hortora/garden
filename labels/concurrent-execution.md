@@ -1,0 +1,1 @@
+- GE-20260929-d783cc: Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them

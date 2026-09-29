@@ -1,0 +1,1 @@
+- GE-20260929-d722ce: Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures

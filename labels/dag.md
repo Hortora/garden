@@ -1,2 +1,3 @@
 - GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
 - GE-20260818-6546f0: Build DagNode dependency edges from GOAP precondition/effect graph via effectToNodeId map
+- GE-20260929-d783cc: Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them

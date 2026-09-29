@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3195
+**Entries merged since last sweep:** 3197
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3180,6 +3180,8 @@
 - GE-20260927-57b782 [SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2](tools/GE-20260927-57b782.md)
 - GE-20260928-1bbdb9 [IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk](tools/GE-20260928-1bbdb9.md)
 - GE-20260928-bba8b1 [Paired state probes with control — isolating LLM behavioral emergence from random variation](tools/GE-20260928-bba8b1.md)
+- GE-20260929-d722ce [Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures](tools/GE-20260929-d722ce.md)
+- GE-20260929-d783cc [Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them](tools/GE-20260929-d783cc.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

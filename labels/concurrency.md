@@ -54,3 +54,4 @@
 - GE-20260821-95732b: Shared AtomicBoolean for nested executor cancellation — avoids child-driver tracking
 - GE-20260822-3c7f0f: db-scheduler OneTimeTask reschedule from handler causes duplicate key
 - GE-20260910-8791cd: Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant
+- GE-20260929-d722ce: Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures

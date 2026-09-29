@@ -810,3 +810,5 @@
 | GE-20260927-57b782 | SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2 | technique | 13/15 |
 | GE-20260928-1bbdb9 | IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk | gotcha | 10/15 |
 | GE-20260928-bba8b1 | Paired state probes with control — isolating LLM behavioral emergence from random variation | technique | 10/15 |
+| GE-20260929-d722ce | Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures | gotcha | 9/15 |
+| GE-20260929-d783cc | Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them | technique | 10/15 |
