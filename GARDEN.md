@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3199
+**Entries merged since last sweep:** 3200
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2345,6 +2345,7 @@
 - GE-20260530-f75780 [Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561](scelight/GE-20260530-f75780.md)
 - GE-20260530-f5b1d9 [Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map](scelight/GE-20260530-f5b1d9.md)
 - GE-20260929-4f3ee8 [Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers](scelight/GE-20260929-4f3ee8.md)
+- GE-20260929-fc46af [Scelight SelectionUnitLinkTracker gives stale Larva counts — ceil(larvaCount/3) under-estimates Hatchery count by ~40%](scelight/GE-20260929-fc46af.md)
 ### electron/
 - GE-0173 [electron-builder `extraResources` strips the source directory name — packed path omits the subdir](electron/GE-0173.md)
 - GE-0176 [Electron E2E tests silently fail in git worktrees — binary and runtime missing](electron/GE-0176.md)

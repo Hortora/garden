@@ -7,3 +7,4 @@
 | GE-20260530-f75780 | Scelight SelectionDeltaEvent constructor silently corrupts synthetic removeMask when baseBuild < 16561 | gotcha | 10/15 |
 | GE-20260530-f5b1d9 | Scelight Delta.getRemoveMask() stores and returns a Pair<String,Object> directly — not a one-entry Map | undocumented | 9/15 |
 | GE-20260929-4f3ee8 | Scelight GameEventFactory drops CmdUpdateTargetPointEvent (ID 104) — rapid-fire commands invisible to CmdEvent consumers | undocumented | 15/15 |
+| GE-20260929-fc46af | Scelight SelectionUnitLinkTracker gives stale Larva counts — ceil(larvaCount/3) under-estimates Hatchery count by ~40% | gotcha | 11/15 |

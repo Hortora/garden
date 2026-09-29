@@ -1,2 +1,1 @@
-- GE-20260424-12e346: ocraft 0.4.21 Abilities enum is missing several Zerg and Protoss build/morph constants
 - GE-20260929-fc46af: Scelight SelectionUnitLinkTracker gives stale Larva counts — ceil(larvaCount/3) under-estimates Hatchery count by ~40%

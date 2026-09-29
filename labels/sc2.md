@@ -31,3 +31,4 @@
 - GE-20260910-4498ea: Scelight ID_UNIT_POSITIONS tracker event has no typed interface — flat Integer[] with delta-encoded triplets
 - GE-20260927-c61fa5: Blizzard SC2 API ladder replays use stripped .backup MPQ format — SC2 returns MissingReplay without PySC2 run_configs
 - GE-20260927-57b782: SC2 record_replay restores tracker events in stripped Blizzard API replays — requires Docker + Linux headless + PySC2
+- GE-20260929-fc46af: Scelight SelectionUnitLinkTracker gives stale Larva counts — ceil(larvaCount/3) under-estimates Hatchery count by ~40%
