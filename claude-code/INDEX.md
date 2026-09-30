@@ -53,3 +53,4 @@
 | GE-20260920-f99d36 | IntelliJ MCP ide_refactor_rename blocks on invisible preview dialog for text replacements in non-code files | gotcha | 11/15 |
 | GE-20260717-886249 | IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save | gotcha | 9/15 |
 | GE-20260929-ffbc2d | IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace | gotcha | 10/15 |
+| GE-20260930-09dee2 | IntelliJ MCP ide_search_text returns incomplete results when project has compilation errors | gotcha | 10/15 |

@@ -99,3 +99,4 @@
 - GE-20260717-886249: IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
 - GE-20260929-ffbc2d: IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace
+- GE-20260930-09dee2: IntelliJ MCP ide_search_text returns incomplete results when project has compilation errors
