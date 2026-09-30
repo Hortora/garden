@@ -35,3 +35,4 @@
 - GE-20260914-2fa8b8: yaml library Document.setIn() fails silently when intermediate path segments are not collections
 - GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0
 - GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
+- GE-20260930-b8ebec: YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords

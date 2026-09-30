@@ -3,3 +3,4 @@
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
 - GE-20260812-a0d705: Barrel re-export pulls in unavailable transitive dependency from unused module
 - GE-20260827-24903b: webpack tree-shakes web component registration imports without explicit sideEffects config
+- GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade

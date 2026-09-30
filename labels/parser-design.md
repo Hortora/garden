@@ -1,0 +1,1 @@
+- GE-20260930-b8ebec: YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords

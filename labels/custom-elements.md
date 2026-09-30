@@ -9,3 +9,4 @@
 - GE-20260804-24d409: Lit @customElement tag mismatch silently degrades — no error, no warning, visually masks broken UI
 - GE-20260819-fe9c37: Vite alias + cross-repo node_modules causes duplicate Lit custom element registration
 - GE-20260827-24903b: webpack tree-shakes web component registration imports without explicit sideEffects config
+- GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade

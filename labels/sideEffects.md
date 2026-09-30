@@ -1,3 +1,4 @@
 - GE-20260623-06914b: esbuild silently drops Web Component customElements.define() from bare side-effect imports
 - GE-20260720-96fab8: Barrel re-exports couple side-effect modules — causes duplicate customElements.define() in aliased bundler setups
 - GE-20260727-0e1c60: Webpack aliases bypass sideEffects package.json resolution — side-effect imports tree-shaken despite correct declaration
+- GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade
