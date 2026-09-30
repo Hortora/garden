@@ -84,3 +84,4 @@
 - GE-20260914-330473: LSP4IJ may require TextDocumentSyncOptions object form — bare TextDocumentSyncKind number silently drops didOpen
 - GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0
 - GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk
+- GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries

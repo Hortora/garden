@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3205
+**Entries merged since last sweep:** 3208
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3189,6 +3189,7 @@
 - GE-20260929-d783cc [Kahn's algorithm BFS levels are natural concurrent execution layers — stop discarding them](tools/GE-20260929-d783cc.md)
 - GE-20260929-f51b43 [Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing](tools/GE-20260929-f51b43.md)
 - GE-20260930-b8ebec [YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords](tools/GE-20260930-b8ebec.md)
+- GE-20261001-5fb8a1 [IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries](tools/GE-20261001-5fb8a1.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -3528,6 +3529,8 @@
 - GE-20260928-558508 [Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render](web/GE-20260928-558508.md)
 - GE-20260928-05352b [Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions](web/GE-20260928-05352b.md)
 - GE-20260930-1cdc32 [Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade](web/GE-20260930-1cdc32.md)
+- GE-20261001-131a61 [Vite aliases only match bare package names — subpath imports require relative paths](web/GE-20261001-131a61.md)
+- GE-20261001-2c5efb [Composed attribute pattern for suppressing document-level listeners in embedded Lit web components](web/GE-20261001-2c5efb.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

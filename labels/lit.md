@@ -64,3 +64,4 @@
 - GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render
 - GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions
 - GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade
+- GE-20261001-2c5efb: Composed attribute pattern for suppressing document-level listeners in embedded Lit web components

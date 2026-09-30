@@ -14,3 +14,4 @@
 - GE-20260821-2b0612: Vite pre-bundle cache ignores Yarn portal dependency source changes
 - GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution
 - GE-20260916-e52ecf: Vite serves workspace packages from dist/ not src/ — source changes need rebuild
+- GE-20261001-131a61: Vite aliases only match bare package names — subpath imports require relative paths

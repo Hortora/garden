@@ -4,3 +4,4 @@
 - GE-20260809-24b35e: Vite oxc transform fails with 'Tsconfig not found' when aliasing monorepo sibling packages to src/
 - GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies
 - GE-20260826-b55957: Vite regex alias with path.resolve() silently strips trailing slash — breaks sub-path module resolution
+- GE-20261001-131a61: Vite aliases only match bare package names — subpath imports require relative paths

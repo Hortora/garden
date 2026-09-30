@@ -3,3 +3,4 @@
 - GE-20260604-098217: serverlessworkflow-types: CallFunction and FunctionArguments are in io.serverlessworkflow.api.types — not the .func experimental subpackage
 - GE-20260804-415b0d: qhorus MessageReceivedEvent lives in api.gateway not api.message — import compiles to nothing
 - GE-20260814-b47ed9: Python dual-import identity mismatch — same file via sys.path and package import creates separate class objects
+- GE-20261001-131a61: Vite aliases only match bare package names — subpath imports require relative paths

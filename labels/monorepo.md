@@ -22,3 +22,4 @@
 - GE-20260907-d0ccd0: Split tsconfig for ts-morph generator vs tsc build in monorepo — paths for source resolution without breaking rootDir
 - GE-20260916-b8eab4: CodeMirror extensions silently ignored when monorepo has duplicate @codemirror/state instances
 - GE-20260916-e52ecf: Vite serves workspace packages from dist/ not src/ — source changes need rebuild
+- GE-20261001-131a61: Vite aliases only match bare package names — subpath imports require relative paths

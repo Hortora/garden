@@ -6,3 +6,4 @@
 - GE-20260722-447c98: IntelliJ MCP ide_create_file times out on freshly-opened git worktree projects during indexing
 - GE-20260804-8e2e87: IntelliJ MCP ide_find_class returns zero results when Maven project is open but not linked
 - GE-20260809-e37216: IntelliJ MCP returns empty indexes for slot-cloned TS projects without .idea
+- GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries

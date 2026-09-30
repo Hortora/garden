@@ -11,3 +11,4 @@
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
 - GE-20260826-e9e532: Compose pure geometry functions into DnD state machines instead of reimplementing
 - GE-20260826-f5bf58: Lit ReactiveController binds to constructor host — cannot pass pre-created controllers between components
+- GE-20261001-2c5efb: Composed attribute pattern for suppressing document-level listeners in embedded Lit web components

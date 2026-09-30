@@ -11,3 +11,4 @@
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
 - GE-20260914-fc2373: IntelliJ MCP ide_replace_text_in_file writes to in-memory Document buffer — changes invisible to Maven/javac until ide_sync_files flushes to disk
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
+- GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries

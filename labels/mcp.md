@@ -94,3 +94,4 @@
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
 - GE-20260909-bb550e: IntelliJ MCP ide_create_file writes to main repo clone when slot directory shares project name
 - GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk
+- GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries

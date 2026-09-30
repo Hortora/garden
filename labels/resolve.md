@@ -1,1 +1,2 @@
 - GE-20260811-8d569b: git <rev>:<path> resolves from repo root even with -C <subdir>
+- GE-20261001-131a61: Vite aliases only match bare package names — subpath imports require relative paths

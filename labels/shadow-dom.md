@@ -27,3 +27,4 @@
 - GE-20260914-f7dcf8: Light DOM Lit components for framework integration — createRenderRoot bypasses Shadow DOM querySelector barrier
 - GE-20260916-9b0559: CSS resize fails for panel edge-dragging in Lit shadow DOM
 - GE-20260916-b2ecf7: PointerEvent-based panel resize in Lit shadow DOM — ~30 lines
+- GE-20261001-2c5efb: Composed attribute pattern for suppressing document-level listeners in embedded Lit web components
