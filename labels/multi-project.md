@@ -2,3 +2,4 @@
 - GE-20260803-cc61b5: IntelliJ MCP ide_open_project requires project_path from an already-open project as JSON-RPC context
 - GE-20260825-ac5410: IntelliJ MCP write operations time out while reads succeed — too many open projects
 - GE-20260826-39cb41: IntelliJ MCP ide_replace_text_in_file silently targets wrong project when project_path points to a different clone
+- GE-20261001-4ffac0: IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace

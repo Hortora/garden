@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3210
+**Entries merged since last sweep:** 3211
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3191,6 +3191,7 @@
 - GE-20260929-f51b43 [Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing](tools/GE-20260929-f51b43.md)
 - GE-20260930-b8ebec [YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords](tools/GE-20260930-b8ebec.md)
 - GE-20261001-5fb8a1 [IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries](tools/GE-20261001-5fb8a1.md)
+- GE-20261001-4ffac0 [IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace](tools/GE-20261001-4ffac0.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

@@ -52,3 +52,4 @@
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
 - GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration
 - GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing
+- GE-20261001-4ffac0: IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace

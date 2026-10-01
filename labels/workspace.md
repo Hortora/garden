@@ -32,3 +32,4 @@
 - GE-20260911-42a250: IntelliJ MCP ide_refactor_rename aborts with 'read-only files' when project has symlinked directories containing text references
 - GE-20260916-e52ecf: Vite serves workspace packages from dist/ not src/ — source changes need rebuild
 - GE-20260929-ffbc2d: IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace
+- GE-20261001-4ffac0: IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace
