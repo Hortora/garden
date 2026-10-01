@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3208
+**Entries merged since last sweep:** 3209
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2338,6 +2338,7 @@
 - GE-20260929-802000 [@McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers](jvm/GE-20260929-802000.md)
 - GE-20260929-484015 [SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them](jvm/GE-20260929-484015.md)
 - GE-20260929-ef0897 [jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile](jvm/GE-20260929-ef0897.md)
+- GE-20261001-d1b767 [Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type](jvm/GE-20261001-d1b767.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

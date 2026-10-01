@@ -1,2 +1,3 @@
 - GE-20260426-6ec343: Strip Unicode control characters before piping GitHub API JSON to jq
 - GE-20260610-9f38b0: JsonObject.getJsonObject() returns null for missing keys — no default overload
+- GE-20261001-d1b767: Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type

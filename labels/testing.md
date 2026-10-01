@@ -460,3 +460,4 @@
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions
+- GE-20261001-d1b767: Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type

@@ -1645,3 +1645,4 @@
 | GE-20260929-802000 | @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers | gotcha | 9/15 |
 | GE-20260929-484015 | SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them | gotcha | 12/15 |
 | GE-20260929-ef0897 | jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile | gotcha | 8/15 |
+| GE-20261001-d1b767 | Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type | gotcha | 10/15 |

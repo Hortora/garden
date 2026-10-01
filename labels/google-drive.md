@@ -1,1 +1,2 @@
 - GE-20260820-8b6bd3: Google Drive virus-scan confirmation bypass with &confirm=t for programmatic large file downloads
+- GE-20261001-d1b767: Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type
