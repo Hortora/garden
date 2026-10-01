@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3215
+**Entries merged since last sweep:** 3216
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2343,6 +2343,7 @@
 - GE-20261001-28a02a [Maven silently drops all transitive dependencies when installed POM has unresolved version properties](jvm/GE-20261001-28a02a.md)
 - GE-20260923-5bb52a [Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface](jvm/GE-20260923-5bb52a.md)
 - GE-20261001-eec161 [CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help](jvm/GE-20261001-eec161.md)
+- GE-20261001-d7f187 [quarkus.arc.exclude-types silently fails for producer method return types](jvm/GE-20261001-d7f187.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

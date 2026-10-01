@@ -1650,3 +1650,4 @@
 | GE-20261001-28a02a | Maven silently drops all transitive dependencies when installed POM has unresolved version properties | gotcha | 12/15 |
 | GE-20260923-5bb52a | Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface | gotcha | 11/15 |
 | GE-20261001-eec161 | CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help | gotcha | 10/15 |
+| GE-20261001-d7f187 | quarkus.arc.exclude-types silently fails for producer method return types | gotcha | 11/15 |

@@ -1,2 +1,3 @@
 - GE-20260706-a4d5b0: Quarkus Arc @Decorator silently skips @Produces method beans — subclass generation requires managed beans
 - GE-20260806-842ee0: Wrap beans at @Produces site instead of CDI @Decorator to bypass Quarkus Arc lifecycle limitations
+- GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types

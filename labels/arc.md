@@ -86,3 +86,4 @@
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
 - GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters
+- GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types

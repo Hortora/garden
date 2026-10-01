@@ -23,3 +23,4 @@
 - GE-20260808-76f17e: Quartz-scheduled beans excluded from @QuarkusTest must be re-enabled with long interval for integration tests needing the real bean
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
 - GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton
+- GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types

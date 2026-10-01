@@ -814,3 +814,4 @@
 - GE-20260924-bb5f55: Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20260928-b3449a: Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction
+- GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types
