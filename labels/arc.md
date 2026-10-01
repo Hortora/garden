@@ -87,3 +87,4 @@
 - GE-20260905-7daa5b: @Transactional silently bypassed on @PostConstruct in Quarkus ArC — use @Observes StartupEvent
 - GE-20260910-c6f648: Quarkus @Scheduled methods silently reject arbitrary CDI bean parameters
 - GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types
+- GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not

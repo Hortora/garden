@@ -51,3 +51,4 @@
 - GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type
 - GE-20260810-804c58: CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
+- GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not

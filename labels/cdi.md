@@ -462,3 +462,4 @@
 - GE-20260923-8a6181: Qute @Inject Template field name does not resolve to subdirectory or hyphenated template paths
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types
+- GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
