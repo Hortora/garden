@@ -2,3 +2,4 @@
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
 - GE-20260703-885029: Qdrant Java client ValueFactory.value(long) creates IntegerValue — getDoubleValue() returns 0.0 silently
 - GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
+- GE-20261001-300961: yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params

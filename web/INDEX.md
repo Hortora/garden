@@ -307,3 +307,4 @@
 | GE-20260930-1cdc32 | Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade | gotcha | 12/15 |
 | GE-20261001-131a61 | Vite aliases only match bare package names — subpath imports require relative paths | gotcha | 8/15 |
 | GE-20261001-2c5efb | Composed attribute pattern for suppressing document-level listeners in embedded Lit web components | technique | 10/15 |
+| GE-20261001-300961 | yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params | gotcha | 9/15 |

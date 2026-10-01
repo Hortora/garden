@@ -170,3 +170,4 @@
 - GE-20260926-9a81a8: Lit component configure() silently drops properties not explicitly handled — hostPanel consumers see undefined
 - GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them
 - GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade
+- GE-20261001-300961: yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params

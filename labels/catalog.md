@@ -1,2 +1,1 @@
-- GE-20260810-e12c27: Dockview v7 createComponent receives {id, name} only — user params arrive at init(params.params)
 - GE-20261001-300961: yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params

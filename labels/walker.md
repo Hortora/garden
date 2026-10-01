@@ -1,1 +1,2 @@
 - GE-20260930-b8ebec: YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords
+- GE-20261001-300961: yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params
