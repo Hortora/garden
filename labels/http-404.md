@@ -1,0 +1,1 @@
+- GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg

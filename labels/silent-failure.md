@@ -171,3 +171,5 @@
 - GE-20260929-484015: SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them
 - GE-20260930-1cdc32: Webpack sideEffects field silently eliminates customElements.define() — bundle loads but components never upgrade
 - GE-20261001-300961: yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params
+- GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

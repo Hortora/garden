@@ -1,2 +1,3 @@
 - GE-20260920-d78e88: graphql-generator APT @Valid on body params requires jakarta.validation-api on consuming module classpath
 - GE-20260929-802000: @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers
+- GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg

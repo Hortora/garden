@@ -80,3 +80,4 @@
 - GE-20260825-bf13fa: Maven SNAPSHOT jar inspection misleads — javap shows stale bytecode while Maven compiles against a different locally-installed version
 - GE-20260802-44a85e: Maven SNAPSHOT 401 failure cache survives _remote.repositories purge — rebuild upstream repos from source instead
 - GE-20260922-0ef292: Slot-local .m2 cache shadows global Maven repository — SNAPSHOT plugins resolve stale artifacts silently
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

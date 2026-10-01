@@ -2,3 +2,4 @@
 - GE-20260417-a405a4: quarkus-maven-plugin build goal in extension runtime pom breaks mvn install with datasource error
 - GE-20260424-918740: XML comment containing '--' crashes Maven with Non-parseable POM
 - GE-20260424-ccdff5: sed replace of a SNAPSHOT version in a pom corrupts parent version declarations
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

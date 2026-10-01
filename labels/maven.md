@@ -248,3 +248,4 @@
 - GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones
 - GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk
 - GE-20260928-b3449a: Colocate Recorder factories with descriptor types to avoid cyclic Maven dependency in core extraction
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

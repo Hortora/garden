@@ -1,1 +1,2 @@
 - GE-20260914-7a71d5: eidos-org runtime transitively requires eidos-core SPIs — use org-api + org-memory only
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

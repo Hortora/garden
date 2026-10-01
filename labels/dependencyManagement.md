@@ -1,3 +1,4 @@
 - GE-20260524-baae14: Maven BOM scope inheritance: omitting scope in child pom does NOT override parent BOM's test scope
 - GE-20260629-554db2: Maven child dependencyManagement BOM re-import silently overrides parent's version pins
 - GE-20260801-a8ec17: Maven dependencyManagement runtime scope overrides explicit compile-scope dependency — must use <scope>compile</scope> explicitly
+- GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties

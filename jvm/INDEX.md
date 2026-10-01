@@ -1646,3 +1646,5 @@
 | GE-20260929-484015 | SC2 replay multi-select train commands use Event(id=103) continuation — scelight silently drops them | gotcha | 12/15 |
 | GE-20260929-ef0897 | jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile | gotcha | 8/15 |
 | GE-20261001-d1b767 | Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type | gotcha | 10/15 |
+| GE-20261001-d88376 | @McpDomain REST routes silently return 404 without domainFilter compiler arg | gotcha | 15/15 |
+| GE-20261001-28a02a | Maven silently drops all transitive dependencies when installed POM has unresolved version properties | gotcha | 12/15 |
