@@ -1648,3 +1648,5 @@
 | GE-20261001-d1b767 | Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type | gotcha | 10/15 |
 | GE-20261001-d88376 | @McpDomain REST routes silently return 404 without domainFilter compiler arg | gotcha | 15/15 |
 | GE-20261001-28a02a | Maven silently drops all transitive dependencies when installed POM has unresolved version properties | gotcha | 12/15 |
+| GE-20260923-5bb52a | Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface | gotcha | 11/15 |
+| GE-20261001-eec161 | CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help | gotcha | 10/15 |

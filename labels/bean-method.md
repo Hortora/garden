@@ -1,0 +1,1 @@
+- GE-20261001-eec161: CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help

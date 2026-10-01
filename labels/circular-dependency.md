@@ -5,3 +5,4 @@
 - GE-20260818-246c99: Bridge interfaces referencing both core and protocol types belong in the downstream module
 - GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
 - GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
+- GE-20261001-eec161: CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help
