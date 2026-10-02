@@ -10,3 +10,4 @@
 - GE-20260430-6b668c: Subagent-written code changes not committed leave published artifact stale
 - GE-20260605-248ca7: Design parallel agents as write-only — pass all deletions back to the parent session
 - GE-20260725-9f2e4b: Structured warnings as LLM fallback signal when extracting mechanical scripts from LLM workflows
+- GE-20261002-6253d2: LLM character voice: style-directive beats prescribed catchphrases for regional archetypes

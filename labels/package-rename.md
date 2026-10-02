@@ -1,3 +1,4 @@
 - GE-20260512-8c282a: IntelliJ Move Package refactoring corrupts @Inject field declarations — merges annotation with next field's type name
 - GE-20260512-f3a464: IntelliJ MCP ide_refactor_rename cannot do Move Package — only handles same-level renames
 - GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing
+- GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename

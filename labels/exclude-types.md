@@ -24,3 +24,4 @@
 - GE-20260827-d4cf1d: Quarkus arc.exclude-types requires full injection chain exclusion
 - GE-20260914-e9b339: @Produces @ApplicationScoped with unproxyable return type — exclude-types is useless, use @Singleton
 - GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types
+- GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename

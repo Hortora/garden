@@ -1,0 +1,1 @@
+- GE-20261002-6253d2: LLM character voice: style-directive beats prescribed catchphrases for regional archetypes

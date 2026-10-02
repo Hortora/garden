@@ -816,3 +816,4 @@
 | GE-20260930-b8ebec | YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords | technique | 10/15 |
 | GE-20261001-5fb8a1 | IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries | gotcha | 9/15 |
 | GE-20261001-4ffac0 | IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace | gotcha | 10/15 |
+| GE-20261002-6253d2 | LLM character voice: style-directive beats prescribed catchphrases for regional archetypes | technique | 9/15 |

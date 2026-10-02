@@ -463,3 +463,4 @@
 - GE-20260602-c4a68a: Dual-constructor aggregator: CDI constructor with ManagedExecutor + package-private test constructor for plain JUnit
 - GE-20261001-d7f187: quarkus.arc.exclude-types silently fails for producer method return types
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
+- GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename
