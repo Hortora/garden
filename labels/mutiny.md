@@ -71,3 +71,4 @@
 - GE-20260812-f2236d: Uni retention policy — API boundaries yes, internal SPIs no
 - GE-20260818-46c433: Mutiny BroadcastProcessor observer null-guard silently drops events — subscribers hang
 - GE-20260923-fecfc5: Micrometer timer for cold Mutiny Multi streams must use deferred + onTermination
+- GE-20261003-189086: Mutiny recoverWithMulti eagerly evaluates the recovery Multi during chain construction

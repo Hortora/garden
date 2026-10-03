@@ -1,1 +1,2 @@
 - GE-20260805-98f040: @ApplicationScoped (not @DefaultBean) when @Alternative needs fallback injection by concrete type
+- GE-20261003-189086: Mutiny recoverWithMulti eagerly evaluates the recovery Multi during chain construction

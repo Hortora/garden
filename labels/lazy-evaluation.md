@@ -1,1 +1,2 @@
 - GE-20260523-fc50d0: Unified lazy Supplier combines instance capability tags + synthetic role tag to make ACL checks work for both registered and external senders
+- GE-20261003-189086: Mutiny recoverWithMulti eagerly evaluates the recovery Multi during chain construction
