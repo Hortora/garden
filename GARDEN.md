@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3224
+**Entries merged since last sweep:** 3225
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3205,6 +3205,7 @@
 - GE-20261001-5fb8a1 [IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries](tools/GE-20261001-5fb8a1.md)
 - GE-20261001-4ffac0 [IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace](tools/GE-20261001-4ffac0.md)
 - GE-20261002-6253d2 [LLM character voice: style-directive beats prescribed catchphrases for regional archetypes](tools/GE-20261002-6253d2.md)
+- GE-20261004-d738a8 [Single-instance temporal filter recovers signals masked by aggregate correlation noise](tools/GE-20261004-d738a8.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
