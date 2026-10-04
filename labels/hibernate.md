@@ -98,3 +98,5 @@
 - GE-20260923-941689: @RunOnVirtualThread without @Transactional silently breaks JPA — queries return empty on virtual threads
 - GE-20260923-e81faa: orm.xml mapped-superclass lets api modules stay JPA-free while Hibernate maps inherited fields
 - GE-20260924-bb5f55: Quarkus orm.xml <entity> element silently overrides @OneToMany annotation metadata
+- GE-20261004-79aabc: Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible
+- GE-20261004-ffd7cc: Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly

@@ -1654,3 +1654,5 @@
 | GE-20260521-0bd1e6 | @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not | gotcha | 11/15 |
 | GE-20261002-464f54 | Quarkus CDI arc.exclude-types silently fails after upstream package rename | gotcha | 11/15 |
 | GE-20261003-189086 | Mutiny recoverWithMulti eagerly evaluates the recovery Multi during chain construction | gotcha | 13/15 |
+| GE-20261004-79aabc | Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible | gotcha | 15/15 |
+| GE-20261004-ffd7cc | Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly | gotcha | 12/15 |

@@ -1,2 +1,3 @@
 - GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
 - GE-20260909-8b0e55: Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work
+- GE-20261004-79aabc: Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible

@@ -1,1 +1,2 @@
 - GE-20260530-da427e: Quarkus multi-PU sub-package matching assigns LedgerEntry subclass entities to the wrong persistence unit
+- GE-20261004-ffd7cc: Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly

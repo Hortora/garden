@@ -1,1 +1,2 @@
 - GE-20260513-74dc72: casehub-work requires io.casehub.work.runtime.filter in Hibernate scan packages — omitting it causes FilterRule entity-not-found at startup
+- GE-20261004-ffd7cc: Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly

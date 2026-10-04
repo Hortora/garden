@@ -1,0 +1,1 @@
+- GE-20261004-ffd7cc: Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly

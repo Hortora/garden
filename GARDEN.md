@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3220
+**Entries merged since last sweep:** 3222
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2347,6 +2347,8 @@
 - GE-20260521-0bd1e6 [@Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not](jvm/GE-20260521-0bd1e6.md)
 - GE-20261002-464f54 [Quarkus CDI arc.exclude-types silently fails after upstream package rename](jvm/GE-20261002-464f54.md)
 - GE-20261003-189086 [Mutiny recoverWithMulti eagerly evaluates the recovery Multi during chain construction](jvm/GE-20261003-189086.md)
+- GE-20261004-79aabc [Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible](jvm/GE-20261004-79aabc.md)
+- GE-20261004-ffd7cc [Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly](jvm/GE-20261004-ffd7cc.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
