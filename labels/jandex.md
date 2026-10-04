@@ -55,3 +55,4 @@
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
 - GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
+- GE-20261004-7f4e10: Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class

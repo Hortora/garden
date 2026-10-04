@@ -31,3 +31,4 @@
 - GE-20260923-16782e: Maven project.addResource appends to list — later resources overwrite earlier ones
 - GE-20260929-802000: @McpDomain APT generates invalid Java for primitive type parameters — new int() in REST wrappers
 - GE-20260923-5bb52a: Spring @ConditionalOnMissingBean without type checks concrete return type, not SPI interface
+- GE-20261004-7f4e10: Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class

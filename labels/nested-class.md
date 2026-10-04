@@ -1,1 +1,2 @@
 - GE-20260726-7213f2: Drools Quarkus codegen fails on nested/inner classes used as DataStore type parameters — KieMemoryCompiler cannot find symbol
+- GE-20261004-7f4e10: Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class

@@ -1,1 +1,2 @@
 - GE-20260603-1c03a1: Mutiny Multi.createFrom().publisher() requires Flow.Publisher — JdkFlowAdapter needed for Reactor Flux
+- GE-20261004-7f4e10: Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class
