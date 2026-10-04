@@ -52,3 +52,4 @@
 - GE-20260810-804c58: CaseHub AgentProvider CDI tiering — NoOp < ChatModel < Claude, activation by classpath
 - GE-20260811-bfe973: CDI audit tools that count @Inject fields produce false positives for SPI displacement beans
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
+- GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives

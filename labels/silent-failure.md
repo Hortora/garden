@@ -174,3 +174,4 @@
 - GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg
 - GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties
 - GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename
+- GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives

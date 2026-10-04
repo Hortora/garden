@@ -1657,3 +1657,4 @@
 | GE-20261004-79aabc | Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible | gotcha | 15/15 |
 | GE-20261004-ffd7cc | Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly | gotcha | 12/15 |
 | GE-20261004-7f4e10 | Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class | gotcha | 10/15 |
+| GE-20261004-7e64d7 | Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives | gotcha | 10/15 |
