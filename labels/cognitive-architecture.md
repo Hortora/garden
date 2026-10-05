@@ -1,3 +1,4 @@
 - GE-20260912-c4c279: Thing trait projections as typed facades — unified graph replaces per-concept stores for cognitive state
 - GE-20260912-be7c74: Three-tier memory for cognitive agents — never write to the graph during the tick loop
 - GE-20260923-e7ccdc: Progressive resolution for cognitive knowledge graphs — LOD applied to goal/intention tracking
+- GE-20261005-57982c: Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines

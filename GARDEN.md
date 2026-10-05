@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3229
+**Entries merged since last sweep:** 3230
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2354,6 +2354,7 @@
 - GE-20261005-ff25d1 [SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'](jvm/GE-20261005-ff25d1.md)
 - GE-20261005-fec7ac [SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision](jvm/GE-20261005-fec7ac.md)
 - GE-20261005-0e344d [QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types](jvm/GE-20261005-0e344d.md)
+- GE-20261005-57982c [Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines](jvm/GE-20261005-57982c.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

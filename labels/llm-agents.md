@@ -4,3 +4,4 @@
 - GE-20260525-a91e15: OpenClaw /hooks/agent deliver:webhook — POSTs finished agent result to arbitrary HTTP URL
 - GE-20260529-9727bb: OpenClaw before_prompt_build hook only exists in TypeScript Plugin SDK — Python App SDK has no hook registration
 - GE-20260529-ef1d8c: Bound a per-session cursor Map by keying on agentId only, storing sessionKey alongside
+- GE-20261005-57982c: Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines
