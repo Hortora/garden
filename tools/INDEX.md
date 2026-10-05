@@ -818,3 +818,4 @@
 | GE-20261001-4ffac0 | IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace | gotcha | 10/15 |
 | GE-20261002-6253d2 | LLM character voice: style-directive beats prescribed catchphrases for regional archetypes | technique | 9/15 |
 | GE-20261004-d738a8 | Single-instance temporal filter recovers signals masked by aggregate correlation noise | technique | 10/15 |
+| GE-20261005-06a70d | Version-delta offset normalizes catalog-indexed dispatch across schema versions | technique | 10/15 |

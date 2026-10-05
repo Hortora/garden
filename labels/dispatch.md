@@ -4,3 +4,4 @@
 - GE-20260601-60efe8: gh workflow run — manually trigger a repo's CI without a dummy commit
 - GE-20260618-af5596: Write correlation cache BEFORE dispatching to message handlers — prevents response-arrives-before-cache race
 - GE-20260810-cc9129: Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review
+- GE-20261005-06a70d: Version-delta offset normalizes catalog-indexed dispatch across schema versions

@@ -1,0 +1,1 @@
+- GE-20261005-06a70d: Version-delta offset normalizes catalog-indexed dispatch across schema versions
