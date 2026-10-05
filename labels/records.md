@@ -24,3 +24,4 @@
 - GE-20260823-7346ff: Record-to-interface field migration — fix sealed interface hierarchy top-down, then remove record constructor param from all call sites
 - GE-20260910-27296d: MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access
 - GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration
+- GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure

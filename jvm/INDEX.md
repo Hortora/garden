@@ -1662,3 +1662,4 @@
 | GE-20261005-fec7ac | SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision | gotcha | 13/15 |
 | GE-20261005-0e344d | QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types | gotcha | 10/15 |
 | GE-20261005-57982c | Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines | technique | 10/15 |
+| GE-20261005-a2ef62 | Sibling domain records with different field names for the same concept cause silent YAML deserialization failure | gotcha | 9/15 |

@@ -20,3 +20,4 @@
 - GE-20260825-ba18b3: Polymorphic sealed hierarchy serialization to CBR features — type discriminator pattern
 - GE-20260825-f4565a: Jackson SimpleModule has no setMixIn — register mixins via setupModule(SetupContext)
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
+- GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure

@@ -36,3 +36,4 @@
 - GE-20260914-22cde3: LSP4IJ requires explicit textEdit on CompletionItems — insertText alone inserts at column 0
 - GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
 - GE-20260930-b8ebec: YAML mapping multiple keys eliminates wrapper ceremony in DSL design — sibling keys replace container keywords
+- GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure

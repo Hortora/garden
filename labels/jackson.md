@@ -41,3 +41,4 @@
 - GE-20260911-c52ab6: Jackson @JsonSubTypes on sealed interfaces prevents runtime addition of custom YAML type discriminators — extensible registries must override existing type names
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
 - GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
+- GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure
