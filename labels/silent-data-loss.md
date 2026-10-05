@@ -4,3 +4,4 @@
 - GE-20260701-5b2584: MongoDB findOneAndUpdate with explicit field list silently drops new entity fields on OCC updates
 - GE-20260719-59b809: RetrievalTracker.findFeedback() filters on feedback timestamp, not retrieval timestamp — silently drops late-submitted feedback
 - GE-20260720-b7a8b9: CbrCaseMemoryStore.eraseEntity() is not domain-scoped — silently erases cases across ALL CBR domains
+- GE-20261005-fadf75: Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support

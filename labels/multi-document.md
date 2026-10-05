@@ -1,0 +1,1 @@
+- GE-20261005-fadf75: Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support

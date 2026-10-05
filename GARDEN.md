@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3231
+**Entries merged since last sweep:** 3232
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2356,6 +2356,7 @@
 - GE-20261005-0e344d [QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types](jvm/GE-20261005-0e344d.md)
 - GE-20261005-57982c [Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines](jvm/GE-20261005-57982c.md)
 - GE-20261005-a2ef62 [Sibling domain records with different field names for the same concept cause silent YAML deserialization failure](jvm/GE-20261005-a2ef62.md)
+- GE-20261005-fadf75 [Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support](jvm/GE-20261005-fadf75.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -42,3 +42,4 @@
 - GE-20260719-1309d7: Jackson mixin-scoped @JsonTypeInfo — isolate polymorphic type info to a specific ObjectMapper
 - GE-20260928-1e3a2e: Jackson YAML: widening Map<String,String> to Map<String,Object> silently coerces boolean-like words
 - GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure
+- GE-20261005-fadf75: Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support
