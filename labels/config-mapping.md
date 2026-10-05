@@ -11,3 +11,5 @@
 - GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
 - GE-20260424-4b7aa2: @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex
+- GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
+- GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision

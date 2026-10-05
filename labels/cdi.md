@@ -466,3 +466,4 @@
 - GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename
 - GE-20261004-79aabc: Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible
 - GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives
+- GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types

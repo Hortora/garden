@@ -1,2 +1,1 @@
-- GE-20260426-c8f5c6: Jekyll defaults: silently ignored on files without YAML frontmatter
 - GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision

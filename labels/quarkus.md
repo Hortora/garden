@@ -820,3 +820,6 @@
 - GE-20261004-79aabc: Quarkus multi-PU: unqualified @Inject EntityManager queries only the default PU — entities in named PUs are invisible
 - GE-20261004-ffd7cc: Quarkus hibernate-orm.packages does not scan subpackages — each must be listed explicitly
 - GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives
+- GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
+- GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision
+- GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types

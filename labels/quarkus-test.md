@@ -39,3 +39,4 @@
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260814-8f18b9: Quarkus bootstrap resolver rejects locally-installed SNAPSHOTs tracked against unavailable remote repo
 - GE-20260817-7dfc03: rest-assured $.size() GPath returns null on root-level primitive JSON arrays
+- GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types

@@ -15,3 +15,5 @@
 - GE-20260808-0fa727: SmallRye Config ordinal override in library JAR for classpath-presence module subsumption
 - GE-20260823-43c64b: SmallRye Config rejects empty string for required String config properties
 - GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead
+- GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
+- GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision

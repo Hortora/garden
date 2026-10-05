@@ -56,3 +56,4 @@
 - GE-20260918-7888de: Generated CDI @Decorator local variables collide with delegate method parameter names
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20261004-7f4e10: Jandex-based code generators emit Flow$Publisher import for java.util.concurrent.Flow.Publisher nested class
+- GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types
