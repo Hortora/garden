@@ -5,3 +5,5 @@
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
 - GE-20260816-d18a02: GraphQL resolver modules should depend on api SPIs, not runtime modules — prevents JPA leak
 - GE-20260816-c7cc7f: SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure
+- GE-20261006-29679e: SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException

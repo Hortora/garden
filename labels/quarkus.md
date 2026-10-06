@@ -823,3 +823,6 @@
 - GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
 - GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision
 - GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure
+- GE-20261006-29679e: SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException
+- GE-20261006-56b2b7: quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate

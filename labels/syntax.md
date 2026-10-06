@@ -1,2 +1,3 @@
 - GE-20260512-1fa51e: @Scheduled interval without $ prefix silently uses literal string as duration — fires at wrong frequency
 - GE-20260617-03c1a3: H2 MODE=PostgreSQL supports ON CONFLICT DO NOTHING but not ON CONFLICT (columns) DO NOTHING
+- GE-20261006-d4303a: JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator

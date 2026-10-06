@@ -9,3 +9,4 @@
 - GE-20260706-f2a9b2: Map objects in postMessage appear to work but silently lose data across real iframe boundaries
 - GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression
 - GE-20260914-6fc5ce: Map key collision when using getClass().getSimpleName() on decorator-wrapped objects
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure

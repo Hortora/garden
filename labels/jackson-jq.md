@@ -1,1 +1,2 @@
 - GE-20260929-ef0897: jackson-jq Scope.setValue() ambiguous overload — inline valueToTree() fails to compile
+- GE-20261006-d4303a: JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator

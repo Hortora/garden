@@ -7,3 +7,4 @@
 - GE-20260608-8f6b5b: Use JQ strings verbatim in CaseHub DSL companions to enable JQExpressionEvaluator record equality in equivalence tests
 - GE-20260612-279b44: CDI bean ordering non-determinism causes silent registry key collision — symptoms mimic scheduler contamination
 - GE-20260615-35f52f: casehub-engine panels refactor silently breaks all consumer YAML JQ bindings — asJsonNode() returns panel document, not flat working data
+- GE-20261006-d4303a: JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator

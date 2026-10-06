@@ -468,3 +468,4 @@
 - GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives
 - GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types
 - GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface
+- GE-20261006-56b2b7: quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate

@@ -21,3 +21,4 @@
 - GE-20260914-638e46: APT-generated REST endpoints return 200 with null body instead of 404 for missing resources
 - GE-20260914-714a71: Java APT without -parameters flag produces positional arg0/arg1 names in generated REST query parameters
 - GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure

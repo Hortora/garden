@@ -1,0 +1,1 @@
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure

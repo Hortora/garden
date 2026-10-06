@@ -7,3 +7,4 @@
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
 - GE-20260814-5920f5: @ConfigMapping validates all required properties at startup even when feature group is disabled
 - GE-20260816-c7cc7f: SmallRye GraphQL rejects Map<String,Object> in @Type/@Input records — use Json custom scalar
+- GE-20261006-29679e: SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException

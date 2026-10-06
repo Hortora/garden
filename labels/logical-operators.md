@@ -1,0 +1,1 @@
+- GE-20261006-d4303a: JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator

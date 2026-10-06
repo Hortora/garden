@@ -5,3 +5,4 @@
 - GE-20260629-16e329: hibernate-jpamodelgen relocated to hibernate-processor — silent no-op on Hibernate 7.x + Java 21+
 - GE-20260916-41eca8: Maven APT classloader isolates Jandex indexes from compile dependencies
 - GE-20261001-d88376: @McpDomain REST routes silently return 404 without domainFilter compiler arg
+- GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure
