@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3232
+**Entries merged since last sweep:** 3234
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2357,6 +2357,7 @@
 - GE-20261005-57982c [Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines](jvm/GE-20261005-57982c.md)
 - GE-20261005-a2ef62 [Sibling domain records with different field names for the same concept cause silent YAML deserialization failure](jvm/GE-20261005-a2ef62.md)
 - GE-20261005-fadf75 [Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support](jvm/GE-20261005-fadf75.md)
+- GE-20261006-0a9fda [WordNet classifies restaurants and shops as noun.artifact, not noun.location](jvm/GE-20261006-0a9fda.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3213,6 +3214,7 @@
 - GE-20261002-6253d2 [LLM character voice: style-directive beats prescribed catchphrases for regional archetypes](tools/GE-20261002-6253d2.md)
 - GE-20261004-d738a8 [Single-instance temporal filter recovers signals masked by aggregate correlation noise](tools/GE-20261004-d738a8.md)
 - GE-20261005-06a70d [Version-delta offset normalizes catalog-indexed dispatch across schema versions](tools/GE-20261005-06a70d.md)
+- GE-20261006-b571d2 [Greedy bigram compound term detection via the normalizer itself](tools/GE-20261006-b571d2.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

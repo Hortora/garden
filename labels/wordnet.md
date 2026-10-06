@@ -1,0 +1,2 @@
+- GE-20261006-0a9fda: WordNet classifies restaurants and shops as noun.artifact, not noun.location
+- GE-20261006-b571d2: Greedy bigram compound term detection via the normalizer itself

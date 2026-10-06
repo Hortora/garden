@@ -1664,3 +1664,4 @@
 | GE-20261005-57982c | Keyword-based cognitive appraisal checks are inert — measure discrimination before building on computational SEC pipelines | technique | 10/15 |
 | GE-20261005-a2ef62 | Sibling domain records with different field names for the same concept cause silent YAML deserialization failure | gotcha | 9/15 |
 | GE-20261005-fadf75 | Jackson readTree() silently drops second document in multi-doc YAML — use readValues() for multi-document support | gotcha | 10/15 |
+| GE-20261006-0a9fda | WordNet classifies restaurants and shops as noun.artifact, not noun.location | gotcha | 10/15 |

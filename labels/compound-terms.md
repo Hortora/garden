@@ -1,0 +1,1 @@
+- GE-20261006-b571d2: Greedy bigram compound term detection via the normalizer itself
