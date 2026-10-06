@@ -820,3 +820,4 @@
 | GE-20261004-d738a8 | Single-instance temporal filter recovers signals masked by aggregate correlation noise | technique | 10/15 |
 | GE-20261005-06a70d | Version-delta offset normalizes catalog-indexed dispatch across schema versions | technique | 10/15 |
 | GE-20261006-b571d2 | Greedy bigram compound term detection via the normalizer itself | technique | 9/15 |
+| GE-20261006-0d6e98 | IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content | gotcha | 10/15 |

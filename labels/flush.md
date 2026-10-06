@@ -6,3 +6,4 @@
 - GE-20260414-963a6d: Hibernate @PreUpdate fires at flush time, not at persist() — denormalized fields are stale in the returned object
 - GE-20260530-01bcfe: JPA @Column(nullable=false) NOT NULL violation fires at REQUIRES_NEW commit (flush), not at save()
 - GE-20260723-30060e: IntelliJ MCP edits from parallel subagents silently fail to flush to disk
+- GE-20261006-0d6e98: IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content

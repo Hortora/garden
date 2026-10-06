@@ -3,3 +3,4 @@
 - GE-20260427-c77ee9: JPA repository test stub: new method overloads silently fall through to base JPA impl — NullPointerException on EntityManager
 - GE-20260605-5d0034: JPA JOINED inheritance subclass with its own repository bypasses base-class save() invariants — invisible until a constraint surfaces it
 - GE-20260804-565c2c: ActorTrustScoreRepository.findCapabilityDimension() — clean trust score lookup avoiding cross-PU EntityManager
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface

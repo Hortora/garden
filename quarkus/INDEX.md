@@ -245,3 +245,4 @@
 | GE-20260427-7162b2 | Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port | gotcha | 10/15 |
 | GE-20260414-99a2a3 | Field-inject CDI Event with null guard to keep unit tests free of CDI | technique | 11/15 |
 | GE-20260424-4b7aa2 | @ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex | gotcha | 12/15 |
+| GE-20260427-97650e | CDI ambiguity when adding second implementation of a quarkus-ledger repository interface | gotcha | 10/15 |

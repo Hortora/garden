@@ -29,3 +29,4 @@
 - GE-20260820-114e9a: @SubjectId requires UUID and triggers GOAP inference — two composition pitfalls when combining ledger and engine annotations
 - GE-20260916-4a6bf5: Per-relationship trust from per-actor Bayesian Beta model via attestor-filtered scoring
 - GE-20260916-2fcb25: Lightweight ledger trust scoring — InMemoryLedgerEntryRepository + PlainLedgerEntry + TrustScoreComputer
+- GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface

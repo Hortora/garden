@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3234
+**Entries merged since last sweep:** 3236
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -676,6 +676,7 @@
 - GE-20260427-7162b2 [Quarkus @QuarkusTest self-referencing REST client silently hits the default port, not the test port](quarkus/GE-20260427-7162b2.md)
 - GE-20260414-99a2a3 [Field-inject CDI Event with null guard to keep unit tests free of CDI](quarkus/GE-20260414-99a2a3.md)
 - GE-20260424-4b7aa2 [@ConfigMapping in library JAR causes SRCFG00050 when properties exist in application.properties — even with Jandex](quarkus/GE-20260424-4b7aa2.md)
+- GE-20260427-97650e [CDI ambiguity when adding second implementation of a quarkus-ledger repository interface](quarkus/GE-20260427-97650e.md)
 ### jvm/
 - GE-20260512-47f92e [quarkus-junit5 is a relocation stub since Quarkus 3.31 — quarkus-junit is the real artifact](jvm/GE-20260512-47f92e.md)
 - GE-20260512-9f4de6 [Java class implementing both factory and product interfaces causes NPE when null sentinel calls shared constructor](jvm/GE-20260512-9f4de6.md)
@@ -3215,6 +3216,7 @@
 - GE-20261004-d738a8 [Single-instance temporal filter recovers signals masked by aggregate correlation noise](tools/GE-20261004-d738a8.md)
 - GE-20261005-06a70d [Version-delta offset normalizes catalog-indexed dispatch across schema versions](tools/GE-20261005-06a70d.md)
 - GE-20261006-b571d2 [Greedy bigram compound term detection via the normalizer itself](tools/GE-20261006-b571d2.md)
+- GE-20261006-0d6e98 [IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content](tools/GE-20261006-0d6e98.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
