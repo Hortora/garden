@@ -1,2 +1,3 @@
 - GE-20260609-0bf5b9: reduce((a, b) -> b) finds the last Stream element matching a filter without reversing the stream
 - GE-20260903-d37d59: Stream.max() with secondary Comparator picks largest in ALL dimensions — reverse tiebreaker for smallest-key-on-tie
+- GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically

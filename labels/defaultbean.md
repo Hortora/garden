@@ -43,3 +43,4 @@
 - GE-20260817-25af6d: pages-push-runtime PushProducers omits @DefaultBean for SessionSender — unsatisfied CDI dependency
 - GE-20260820-a31880: Quarkus test @ApplicationScoped beans clash with production @DefaultBean during augmentation
 - GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives
+- GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely

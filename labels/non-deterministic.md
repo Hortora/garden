@@ -1,1 +1,2 @@
 - GE-20260808-c29cdf: ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results
+- GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically

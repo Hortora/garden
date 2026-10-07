@@ -55,3 +55,4 @@
 - GE-20260822-3c7f0f: db-scheduler OneTimeTask reschedule from handler causes duplicate key
 - GE-20260910-8791cd: Per-tenant phase iteration loses swap-and-reset snapshot when global state is cleared on first tenant
 - GE-20260929-d722ce: Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures
+- GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically

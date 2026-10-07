@@ -25,3 +25,5 @@
 - GE-20260609-496817: SOH byte (\u0001) in string constants is invisible to file Read tools — verify with binary inspection
 - GE-20260709-1d659b: Stale processes on a port serve wrong content — check Server response header before debugging the app
 - GE-20260817-a19495: QuarkusUnitTest.assertException() as build step diagnostic — verify steps run by deliberate exception
+- GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely
+- GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus

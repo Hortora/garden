@@ -826,3 +826,5 @@
 - GE-20261006-3cf1f3: GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure
 - GE-20261006-29679e: SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException
 - GE-20261006-56b2b7: quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate
+- GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely
+- GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus

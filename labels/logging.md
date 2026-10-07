@@ -9,3 +9,4 @@
 - GE-20260614-1d2ccc: Node.js stdout block-buffers in detached Docker containers — logs invisible without TTY
 - GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
 - GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay
+- GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus

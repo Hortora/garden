@@ -11,3 +11,4 @@
 - GE-20260610-09f7bd: Collections.unmodifiableMap() is a live view — computeIfAbsent() on the view throws UnsupportedOperationException
 - GE-20260719-f5ccc9: @ApplicationScoped beans sharing ConcurrentHashMap via constructor injection hold different map instances — CDI proxy field initializer creates a proxy-owned copy
 - GE-20260808-c29cdf: ConcurrentHashMap stream().findFirst() is non-deterministic — test stubs with duplicate business keys return arbitrary results
+- GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically
