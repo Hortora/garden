@@ -52,3 +52,4 @@
 - GE-20260823-22f56f: Quarkus multi-module sibling beans need explicit index-dependency after mvn clean
 - GE-20260914-3854b8: APT code generators produce outputs for all indexed interfaces on classpath — need explicit domain filtering
 - GE-20260928-1bbdb9: IntelliJ MCP ide_move_file creates copy instead of move in multi-module Maven projects — source file persists on disk
+- GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail

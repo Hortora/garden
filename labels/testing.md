@@ -462,3 +462,4 @@
 - GE-20260928-05352b: Lit html tagged template .map() produces nested Arrays in TemplateResult values — recursive flattener needed for test assertions
 - GE-20261001-d1b767: Google Drive Java API File.size rejects numeric JSON — requires string despite Long field type
 - GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types
+- GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail

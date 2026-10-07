@@ -25,3 +25,4 @@
 - GE-20260706-915505: Surefire forked JVM hangs on GitHub Packages 401 — use mvn -o for offline test runs
 - GE-20260718-483ed8: Surefire retry after @QuarkusTest failure produces misleading LinkageError/TestInstantiationException on Runs 2-3
 - GE-20260816-d231a6: Surefire rerun masks WorkItem outcome validation error as Awaitility timeout
+- GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail

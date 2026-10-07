@@ -1668,3 +1668,4 @@
 | GE-20261006-3cf1f3 | GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure | gotcha | 12/15 |
 | GE-20261006-29679e | SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException | gotcha | 10/15 |
 | GE-20261006-56b2b7 | quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate | gotcha | 10/15 |
+| GE-20261008-6f1b5e | Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail | gotcha | 10/15 |

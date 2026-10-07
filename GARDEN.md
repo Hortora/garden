@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3241
+**Entries merged since last sweep:** 3242
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2362,6 +2362,7 @@
 - GE-20261006-3cf1f3 [GraphQL generator classifies Map as simple type — REST @QueryParam Map causes JAX-RS param converter failure](jvm/GE-20261006-3cf1f3.md)
 - GE-20261006-29679e [SmallRye GraphQL — List<?> wildcard resolves to Object type, causing InvalidSchemaException](jvm/GE-20261006-29679e.md)
 - GE-20261006-56b2b7 [quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate](jvm/GE-20261006-56b2b7.md)
+- GE-20261008-6f1b5e [Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail](jvm/GE-20261008-6f1b5e.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
