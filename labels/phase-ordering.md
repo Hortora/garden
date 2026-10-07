@@ -1,0 +1,1 @@
+- GE-20261007-7134d5: Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs

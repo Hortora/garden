@@ -6,3 +6,4 @@
 - GE-20260917-78b797: banCircularDependencies enforcer rule misses cross-repo multi-module cycles
 - GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
 - GE-20261001-eec161: CDI circular deps silently break in Spring @Bean methods — allow-circular-references doesn't help
+- GE-20261007-7134d5: Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs

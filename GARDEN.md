@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3240
+**Entries merged since last sweep:** 3241
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3221,6 +3221,7 @@
 - GE-20261006-b571d2 [Greedy bigram compound term detection via the normalizer itself](tools/GE-20261006-b571d2.md)
 - GE-20261006-0d6e98 [IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content](tools/GE-20261006-0d6e98.md)
 - GE-20261006-d4303a [JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator](tools/GE-20261006-d4303a.md)
+- GE-20261007-7134d5 [Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs](tools/GE-20261007-7134d5.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

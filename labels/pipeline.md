@@ -1,3 +1,4 @@
 - GE-20260421-e86212: PermuteAnnotationTransformer never called in non-inline pipeline — @PermuteAnnotation silently ignored
 - GE-20260611-622b3f: CDI @Priority values documented in interface javadoc but never added to implementations — enricher ordering silently wrong
 - GE-20260611-dedf69: Two-phase signing pattern — prepareKey then sign — separates key material from cryptographic seal for enricher dependencies
+- GE-20261007-7134d5: Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs
