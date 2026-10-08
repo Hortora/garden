@@ -19,3 +19,4 @@
 - GE-20260823-38336f: WorkItemLifecycleEvent has no scope() — filter via workItem().scope() with null guard
 - GE-20260910-9dde45: Dual event dispatch for mixed Vert.x EventBus + CDI Event<T> codebases
 - GE-20261001-2c5efb: Composed attribute pattern for suppressing document-level listeners in embedded Lit web components
+- GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations

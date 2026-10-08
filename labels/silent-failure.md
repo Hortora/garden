@@ -178,3 +178,4 @@
 - GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely
 - GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus
 - GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention
+- GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations

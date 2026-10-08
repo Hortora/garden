@@ -29,3 +29,4 @@
 - GE-20260815-10ed52: Sandbox-first architecture validation — prove in isolation before migrating
 - GE-20260816-59f280: Integration-tier apps must not depend on each other — promote reusable capabilities to foundation
 - GE-20260825-309197: Design multi-phase interaction state machines as standalone coordinators — closure coupling prevents later extraction
+- GE-20261008-bfdea9: CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module

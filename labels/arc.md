@@ -90,3 +90,4 @@
 - GE-20260521-0bd1e6: @Alternative without @Priority silently disables @IfBuildProperty-gated beans — dependencies activate, service does not
 - GE-20261002-464f54: Quarkus CDI arc.exclude-types silently fails after upstream package rename
 - GE-20261006-56b2b7: quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate
+- GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations

@@ -470,3 +470,5 @@
 - GE-20260427-97650e: CDI ambiguity when adding second implementation of a quarkus-ledger repository interface
 - GE-20261006-56b2b7: quarkus.arc.exclude-types only excludes CLASS beans — producer methods on non-excluded beans still activate
 - GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely
+- GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations
+- GE-20261008-bfdea9: CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module
