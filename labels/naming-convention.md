@@ -1,1 +1,2 @@
 - GE-20260420-93d1ae: @QuarkusTest classes named *IT are silently routed to failsafe, not surefire — Tests run: 0
+- GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention

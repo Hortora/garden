@@ -1,0 +1,1 @@
+- GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention

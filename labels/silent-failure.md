@@ -177,3 +177,4 @@
 - GE-20261004-7e64d7: Quarkus extension @Alternative repos with @DefaultBean NoOps silently discard all data when no consumer activates alternatives
 - GE-20261008-3108aa: @DefaultBean overridden by downstream @ApplicationScoped — completely silent, no error, wrong implementation runs indefinitely
 - GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus
+- GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention

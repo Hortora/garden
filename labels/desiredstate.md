@@ -8,3 +8,4 @@
 - GE-20260814-58bc55: ReconciliationLoop has no status() API — use getDesired() as presence check
 - GE-20260914-bd0695: ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check
 - GE-20260814-58bc55: ReconciliationLoop.getDesired() throws for unknown tenants — not a null-safe presence check
+- GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention

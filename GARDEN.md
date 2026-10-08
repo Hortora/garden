@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3245
+**Entries merged since last sweep:** 3246
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3572,6 +3572,7 @@
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)
 - GE-20260914-bd0695 [ImmutableDesiredStateGraph has no equals() override — identity comparison only, structural comparison requires manual node/dependency map check](casehub-desiredstate/GE-20260914-bd0695.md)
+- GE-20261008-7cd3c1 [ExemptionStore NodeId keying must match IoTEventSource config-suffix convention](casehub-desiredstate/GE-20261008-7cd3c1.md)
 ### jvm/casehub-engine/
 - GE-20260618-dc2cb7 [CaseEventLogRecord drops workerId — capability info only in metadata JsonNode](jvm/casehub-engine/GE-20260618-dc2cb7.md)
 - GE-20260618-0daed6 [CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key](jvm/casehub-engine/GE-20260618-0daed6.md)
