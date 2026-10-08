@@ -10,3 +10,4 @@
 - GE-20260625-891c48: quarkus.datasource.active=false is runtime-only — Hibernate build step still demands a configured datasource
 - GE-20260707-4e41c3: Quarkus schema-management.strategy is build-time — QuarkusTestProfile.getConfigOverrides() cannot change it
 - GE-20260723-64e384: SmallRye Config rejects @IfBuildProperty keys not declared in @ConfigMapping — SRCFG00050
+- GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException

@@ -1674,3 +1674,4 @@
 | GE-20261008-cc66d7 | JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus | gotcha | 11/15 |
 | GE-20261008-a8e584 | CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations | gotcha | 12/15 |
 | GE-20261008-bfdea9 | CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module | technique | 9/15 |
+| GE-20261008-6575cd | @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException | gotcha | 10/15 |
