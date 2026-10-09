@@ -823,3 +823,4 @@
 | GE-20261006-0d6e98 | IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content | gotcha | 10/15 |
 | GE-20261006-d4303a | JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator | gotcha | 9/15 |
 | GE-20261007-7134d5 | Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs | technique | 10/15 |
+| GE-20261009-cb8cc4 | Classify Early Act Late — eliminate runtime-probing fragility in multi-entity pipelines | technique | 10/15 |

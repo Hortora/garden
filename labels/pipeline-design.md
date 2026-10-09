@@ -1,0 +1,1 @@
+- GE-20261009-cb8cc4: Classify Early Act Late — eliminate runtime-probing fragility in multi-entity pipelines
