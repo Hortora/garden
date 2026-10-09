@@ -308,3 +308,7 @@
 | GE-20261001-131a61 | Vite aliases only match bare package names — subpath imports require relative paths | gotcha | 8/15 |
 | GE-20261001-2c5efb | Composed attribute pattern for suppressing document-level listeners in embedded Lit web components | technique | 10/15 |
 | GE-20261001-300961 | yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params | gotcha | 9/15 |
+| GE-20261009-56f65c | Gallery stripTs regex strips uppercase JS constants as TypeScript type annotations | gotcha | 9/15 |
+| GE-20261009-09564d | Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG | gotcha | 9/15 |
+| GE-20261009-1cd7c9 | Visual line detection in ProseMirror via Range.getClientRects + posAtCoords | technique | 11/15 |
+| GE-20261009-1e24b6 | ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks | undocumented | 8/15 |

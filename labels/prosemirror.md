@@ -1,0 +1,3 @@
+- GE-20261009-09564d: Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG
+- GE-20261009-1cd7c9: Visual line detection in ProseMirror via Range.getClientRects + posAtCoords
+- GE-20261009-1e24b6: ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks

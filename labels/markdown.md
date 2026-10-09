@@ -15,3 +15,4 @@
 - GE-20260804-7469da: Java-to-markdown doclet landscape — no working tool on JDK 21/22
 - GE-20260804-c1cf5c: jmarkdoc source-only mode produces production-quality API docs
 - GE-20260529-182916: project-init fast-path gives false negatives for four bold-markdown, workspace layout, and CWD scenarios
+- GE-20261009-09564d: Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG

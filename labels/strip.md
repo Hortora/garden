@@ -1,2 +1,1 @@
-- GE-20260823-590f19: Pages gallery new component type requires three separate registration points
 - GE-20261009-56f65c: Gallery stripTs regex strips uppercase JS constants as TypeScript type annotations

@@ -1,0 +1,1 @@
+- GE-20261009-1cd7c9: Visual line detection in ProseMirror via Range.getClientRects + posAtCoords

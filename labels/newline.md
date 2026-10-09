@@ -2,3 +2,4 @@
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260804-777881: ide_replace_text_in_file writes literal \n instead of newlines — corrupts multi-line Java source
 - GE-20260826-cbcebc: IntelliJ MCP ide_replace_text_in_file treats \n as literal two characters, not newline
+- GE-20261009-1e24b6: ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks

@@ -1,0 +1,1 @@
+- GE-20261009-1e24b6: ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks

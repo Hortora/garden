@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3249
+**Entries merged since last sweep:** 3253
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3571,6 +3571,10 @@
 - GE-20261001-131a61 [Vite aliases only match bare package names — subpath imports require relative paths](web/GE-20261001-131a61.md)
 - GE-20261001-2c5efb [Composed attribute pattern for suppressing document-level listeners in embedded Lit web components](web/GE-20261001-2c5efb.md)
 - GE-20261001-300961 [yaml-core Walker.resolveOne() silently drops non-object action values — scalar shorthand resolves with empty params](web/GE-20261001-300961.md)
+- GE-20261009-56f65c [Gallery stripTs regex strips uppercase JS constants as TypeScript type annotations](web/GE-20261009-56f65c.md)
+- GE-20261009-09564d [Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG](web/GE-20261009-09564d.md)
+- GE-20261009-1cd7c9 [Visual line detection in ProseMirror via Range.getClientRects + posAtCoords](web/GE-20261009-1cd7c9.md)
+- GE-20261009-1e24b6 [ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks](web/GE-20261009-1e24b6.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

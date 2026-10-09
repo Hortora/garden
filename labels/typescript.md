@@ -46,3 +46,4 @@
 - GE-20260914-fab341: z.intersection() required for Zod schema composition when format schemas are widened ZodType — .merge() fails at compile time
 - GE-20260920-c521d1: Lit decorators throw 'Unsupported decorator location: field' when webpack ts-loader uses TC39 Stage 3 decorators
 - GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries
+- GE-20261009-56f65c: Gallery stripTs regex strips uppercase JS constants as TypeScript type annotations
