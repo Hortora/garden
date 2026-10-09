@@ -1,3 +1,4 @@
 - GE-20260616-57201e: Write volatile field BEFORE AtomicReference CAS to guarantee cross-thread visibility without additional synchronisation
 - GE-20260628-e82f4b: JMM volatile acquire-release: reading data before flag permits stale data + fresh flag — permanent state corruption
 - GE-20260818-1cf8b5: Single-entry volatile cache for evaluation-cycle POJO deduplication in @ApplicationScoped beans
+- GE-20261008-27f8cc: ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap

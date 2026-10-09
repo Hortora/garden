@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3253
+**Entries merged since last sweep:** 3255
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2369,6 +2369,8 @@
 - GE-20261008-a8e584 [CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations](jvm/GE-20261008-a8e584.md)
 - GE-20261008-bfdea9 [CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module](jvm/GE-20261008-bfdea9.md)
 - GE-20261008-6575cd [@IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException](jvm/GE-20261008-6575cd.md)
+- GE-20261008-27f8cc [ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap](jvm/GE-20261008-27f8cc.md)
+- GE-20261008-2c5ee4 [Event coalescing must preserve metadata from dropped submissions — accumulate in the gate](jvm/GE-20261008-2c5ee4.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

@@ -1,0 +1,1 @@
+- GE-20261008-2c5ee4: Event coalescing must preserve metadata from dropped submissions — accumulate in the gate

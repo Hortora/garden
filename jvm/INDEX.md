@@ -1675,3 +1675,5 @@
 | GE-20261008-a8e584 | CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations | gotcha | 12/15 |
 | GE-20261008-bfdea9 | CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module | technique | 9/15 |
 | GE-20261008-6575cd | @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException | gotcha | 10/15 |
+| GE-20261008-27f8cc | ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap | gotcha | 12/15 |
+| GE-20261008-2c5ee4 | Event coalescing must preserve metadata from dropped submissions — accumulate in the gate | technique | 11/15 |
