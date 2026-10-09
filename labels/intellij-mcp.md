@@ -100,3 +100,4 @@
 - GE-20260923-1d03d4: ide_replace_text_in_file substring corruption — blanket replacement matches within longer identifiers
 - GE-20260929-ffbc2d: IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace
 - GE-20260930-09dee2: IntelliJ MCP ide_search_text returns incomplete results when project has compilation errors
+- GE-20261010-9f5d9b: IntelliJ MCP ide_replace_member silently drops method body content not included in replacement

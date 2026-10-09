@@ -5,3 +5,4 @@
 - GE-20260802-d1b17d: IntelliJ MCP ide_replace_member nests duplicate method signature inside the body
 - GE-20260809-914ad1: ide_replace_member on large method bodies hangs IntelliJ EDT — use ide_replace_text_in_file instead
 - GE-20260825-3dbb7c: IntelliJ MCP ide_replace_member corrupts Java generics and lambdas via XML entity encoding
+- GE-20261010-9f5d9b: IntelliJ MCP ide_replace_member silently drops method body content not included in replacement

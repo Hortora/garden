@@ -54,3 +54,4 @@
 | GE-20260717-886249 | IntelliJ MCP write operations are VFS-only — changes invisible to Maven and filesystem until auto-save | gotcha | 9/15 |
 | GE-20260929-ffbc2d | IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace | gotcha | 10/15 |
 | GE-20260930-09dee2 | IntelliJ MCP ide_search_text returns incomplete results when project has compilation errors | gotcha | 10/15 |
+| GE-20261010-9f5d9b | IntelliJ MCP ide_replace_member silently drops method body content not included in replacement | gotcha | 11/15 |
