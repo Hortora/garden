@@ -1,1 +1,2 @@
 - GE-20261009-09564d: Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG
+- GE-20261010-b05aa6: Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected

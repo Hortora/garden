@@ -1,0 +1,1 @@
+- GE-20261010-b05aa6: Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected

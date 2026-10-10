@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3258
+**Entries merged since last sweep:** 3261
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3580,6 +3580,9 @@
 - GE-20261009-09564d [Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG](web/GE-20261009-09564d.md)
 - GE-20261009-1cd7c9 [Visual line detection in ProseMirror via Range.getClientRects + posAtCoords](web/GE-20261009-1cd7c9.md)
 - GE-20261009-1e24b6 [ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks](web/GE-20261009-1e24b6.md)
+- GE-20261010-b05aa6 [Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected](web/GE-20261010-b05aa6.md)
+- GE-20261010-e14639 [Inline CSS border on ProseMirror Decoration.inline causes text reflow](web/GE-20261010-e14639.md)
+- GE-20261009-1cd7c9 [Visual line detection in ProseMirror via bidirectional coordsAtPos walk](web/GE-20261009-1cd7c9.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

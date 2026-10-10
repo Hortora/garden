@@ -312,3 +312,6 @@
 | GE-20261009-09564d | Milkdown bridge insertText/setContent bypass markdown parser — renders raw syntax in WYSIWYG | gotcha | 9/15 |
 | GE-20261009-1cd7c9 | Visual line detection in ProseMirror via Range.getClientRects + posAtCoords | technique | 11/15 |
 | GE-20261009-1e24b6 | ProseMirror textBetween inserts newlines at inline node boundaries — not actual line breaks | undocumented | 8/15 |
+| GE-20261010-b05aa6 | Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected | gotcha | 10/15 |
+| GE-20261010-e14639 | Inline CSS border on ProseMirror Decoration.inline causes text reflow | gotcha | 9/15 |
+| GE-20261009-1cd7c9 | Visual line detection in ProseMirror via bidirectional coordsAtPos walk | technique | 11/15 |

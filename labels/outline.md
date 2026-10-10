@@ -1,0 +1,1 @@
+- GE-20261010-e14639: Inline CSS border on ProseMirror Decoration.inline causes text reflow

@@ -11,3 +11,4 @@
 - GE-20260810-4ae500: Absolute overlay inside content-sized parent gets content height, not flex space
 - GE-20260810-8ad59a: DockviewBackend injects CSS into document.head — invisible in shadow DOM host
 - GE-20260826-665046: html-to-image SVG export produces megabyte files — getComputedStyle copies all ~400 CSS properties per element
+- GE-20261010-e14639: Inline CSS border on ProseMirror Decoration.inline causes text reflow
