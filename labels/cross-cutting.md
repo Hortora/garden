@@ -1,0 +1,1 @@
+- GE-20261010-78d59a: Decorator pass-through methods silently bypass cross-cutting concerns added later

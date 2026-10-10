@@ -19,3 +19,4 @@
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
 - GE-20261008-bfdea9: CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module
+- GE-20261010-78d59a: Decorator pass-through methods silently bypass cross-cutting concerns added later

@@ -19,3 +19,4 @@
 - GE-20260803-0c691f: CDI Instance<T> interface stubbing — Proxy beats direct implementation across CDI versions
 - GE-20260814-93a3f3: CDI.current().select() returns proxy — Method.invoke() fires interceptors correctly
 - GE-20260907-333187: ReactFlow Proxy-based edgeTypes for dynamic edge component routing
+- GE-20261010-78d59a: Decorator pass-through methods silently bypass cross-cutting concerns added later
