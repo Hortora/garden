@@ -1,0 +1,1 @@
+- GE-20261011-89d8b5: JSpecify @Nullable fails on fully-qualified type references — must import or use split placement

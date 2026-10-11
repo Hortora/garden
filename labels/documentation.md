@@ -18,3 +18,4 @@
 - GE-20260607-321429: Declaring a migration complete while the old destination still exists causes silent continued writes
 - GE-20260623-e02ce2: GitHub issue body outlives the fix — use stateReason to distinguish completed vs deferred
 - GE-20260630-4ea132: Sonnet subagents hallucinate sealed type variant names when writing documentation
+- GE-20261011-a0bf0a: Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs

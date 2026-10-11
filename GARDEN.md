@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3267
+**Entries merged since last sweep:** 3270
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2373,6 +2373,8 @@
 - GE-20261008-27f8cc [ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap](jvm/GE-20261008-27f8cc.md)
 - GE-20261008-2c5ee4 [Event coalescing must preserve metadata from dropped submissions — accumulate in the gate](jvm/GE-20261008-2c5ee4.md)
 - GE-20261010-78d59a [Decorator pass-through methods silently bypass cross-cutting concerns added later](jvm/GE-20261010-78d59a.md)
+- GE-20261011-13dadc [EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions](jvm/GE-20261011-13dadc.md)
+- GE-20261011-89d8b5 [JSpecify @Nullable fails on fully-qualified type references — must import or use split placement](jvm/GE-20261011-89d8b5.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3240,6 +3242,7 @@
 - GE-20261011-41d857 [LLM structured output drifts from requested schema — format, vocabulary, and field omission](tools/GE-20261011-41d857.md)
 - GE-20261011-e9aa0f [Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering](tools/GE-20261011-e9aa0f.md)
 - GE-20261011-195c0c [Coverage gate per-field threshold for heterogeneous entity graphs](tools/GE-20261011-195c0c.md)
+- GE-20261011-a0bf0a [Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs](tools/GE-20261011-a0bf0a.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

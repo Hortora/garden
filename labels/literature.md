@@ -1,0 +1,1 @@
+- GE-20261011-a0bf0a: Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs

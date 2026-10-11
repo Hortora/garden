@@ -830,3 +830,4 @@
 | GE-20261011-41d857 | LLM structured output drifts from requested schema — format, vocabulary, and field omission | gotcha | 11/15 |
 | GE-20261011-e9aa0f | Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering | technique | 9/15 |
 | GE-20261011-195c0c | Coverage gate per-field threshold for heterogeneous entity graphs | technique | 8/15 |
+| GE-20261011-a0bf0a | Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs | technique | 9/15 |

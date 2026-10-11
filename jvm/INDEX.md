@@ -1678,3 +1678,5 @@
 | GE-20261008-27f8cc | ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap | gotcha | 12/15 |
 | GE-20261008-2c5ee4 | Event coalescing must preserve metadata from dropped submissions — accumulate in the gate | technique | 11/15 |
 | GE-20261010-78d59a | Decorator pass-through methods silently bypass cross-cutting concerns added later | gotcha | 11/15 |
+| GE-20261011-13dadc | EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions | gotcha | 10/15 |
+| GE-20261011-89d8b5 | JSpecify @Nullable fails on fully-qualified type references — must import or use split placement | gotcha | 8/15 |

@@ -1,0 +1,1 @@
+- GE-20261011-13dadc: EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions

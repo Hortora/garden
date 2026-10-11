@@ -32,3 +32,4 @@
 - GE-20260814-8bc7ef: QuarkusTest fails with misleading startup error in offline mode
 - GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
 - GE-20260914-b2a01e: SmallRye Config rejects empty-string @ConfigProperty defaultValue in CDI producer method parameters — use Optional<String> instead
+- GE-20261011-a0bf0a: Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs

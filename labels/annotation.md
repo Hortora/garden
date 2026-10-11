@@ -10,3 +10,4 @@
 - GE-20260610-7b4955: Quarkus @ConsumeEvent is compile-time — cannot dynamically subscribe to named Vert.x addresses
 - GE-20260613-095ce5: Jandex AnnotationInstance.value() returns null for defaulted attributes — use valueWithDefault()
 - GE-20260814-8843ea: @Subscription is io.smallrye.graphql.api.Subscription — not in MicroProfile GraphQL spec
+- GE-20261011-89d8b5: JSpecify @Nullable fails on fully-qualified type references — must import or use split placement
