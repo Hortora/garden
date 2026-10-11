@@ -1,1 +1,2 @@
 - GE-20260516-4e5919: Discovery test as permanent protocol constant coverage instrument
+- GE-20261011-195c0c: Coverage gate per-field threshold for heterogeneous entity graphs

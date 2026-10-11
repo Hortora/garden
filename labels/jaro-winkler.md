@@ -1,0 +1,1 @@
+- GE-20261011-e9aa0f: Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering

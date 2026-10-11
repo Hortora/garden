@@ -464,3 +464,4 @@
 - GE-20261005-0e344d: QuarkusUnitTest withApplicationRoot does not prevent Jandex-indexed dependency beans from being discovered — use quarkus.arc.exclude-types
 - GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
+- GE-20261011-195c0c: Coverage gate per-field threshold for heterogeneous entity graphs

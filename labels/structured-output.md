@@ -2,3 +2,4 @@
 - GE-20260612-79d73b: Ollama format=json enforces structurally valid JSON at sampling level — bypasses small model instruction-following failures
 - GE-20260613-53e590: TEMPLATE_HASH covers only PROMPT_TEMPLATE — RESPONSE_FORMAT schema descriptions are not cache-invalidating
 - GE-20260810-b1da3b: Agent.builder() structured JSON output as tool-calling alternative
+- GE-20261011-41d857: LLM structured output drifts from requested schema — format, vocabulary, and field omission

@@ -1,1 +1,2 @@
 - GE-20260909-8b0e55: Panache named-PU: raw JPQL via getEntityManager() fails with UnknownEntityException but Panache list/count/find work
+- GE-20261011-e9aa0f: Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering

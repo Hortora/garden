@@ -1,0 +1,1 @@
+- GE-20261011-195c0c: Coverage gate per-field threshold for heterogeneous entity graphs

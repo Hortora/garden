@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3264
+**Entries merged since last sweep:** 3267
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3237,6 +3237,9 @@
 - GE-20261011-12e241 [Per-repo progress keys break naive step dependency checks in orchestrator engines](tools/GE-20261011-12e241.md)
 - GE-20261011-304c98 [Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state](tools/GE-20261011-304c98.md)
 - GE-20261011-c3f3e9 [Mode-filtered step dependencies auto-satisfy via active_step_names set](tools/GE-20261011-c3f3e9.md)
+- GE-20261011-41d857 [LLM structured output drifts from requested schema — format, vocabulary, and field omission](tools/GE-20261011-41d857.md)
+- GE-20261011-e9aa0f [Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering](tools/GE-20261011-e9aa0f.md)
+- GE-20261011-195c0c [Coverage gate per-field threshold for heterogeneous entity graphs](tools/GE-20261011-195c0c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

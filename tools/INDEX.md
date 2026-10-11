@@ -827,3 +827,6 @@
 | GE-20261011-12e241 | Per-repo progress keys break naive step dependency checks in orchestrator engines | gotcha | 10/15 |
 | GE-20261011-304c98 | Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state | gotcha | 9/15 |
 | GE-20261011-c3f3e9 | Mode-filtered step dependencies auto-satisfy via active_step_names set | technique | 9/15 |
+| GE-20261011-41d857 | LLM structured output drifts from requested schema — format, vocabulary, and field omission | gotcha | 11/15 |
+| GE-20261011-e9aa0f | Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering | technique | 9/15 |
+| GE-20261011-195c0c | Coverage gate per-field threshold for heterogeneous entity graphs | technique | 8/15 |
