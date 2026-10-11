@@ -8,3 +8,6 @@
 - GE-20260827-2f2d4f: Lazy handler loading in skill files prevents LLM shortcutting to concrete actions
 - GE-20260827-22594f: Hook-based enforcement of orchestrator completion — the LLM cannot skip what a hook blocks
 - GE-20260914-22a1c0: Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends
+- GE-20261011-12e241: Per-repo progress keys break naive step dependency checks in orchestrator engines
+- GE-20261011-304c98: Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state
+- GE-20261011-c3f3e9: Mode-filtered step dependencies auto-satisfy via active_step_names set

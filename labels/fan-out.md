@@ -1,1 +1,2 @@
 - GE-20260420-f0a37a: Quarkus Vert.x eventBus.publish() is fan-out; eventBus.send() is point-to-point — multiple @ConsumeEvent handlers require publish()
+- GE-20261011-12e241: Per-repo progress keys break naive step dependency checks in orchestrator engines

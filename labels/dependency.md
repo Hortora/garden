@@ -9,3 +9,5 @@
 - GE-20260806-99b9bb: quarkus-mcp-server artifact is quarkus-mcp-server-http, not quarkus-mcp-server-sse
 - GE-20260809-c99c70: IntelliJ MCP ide_insert_member on dependency jar classes modifies PSI only — Maven cannot see the change
 - GE-20260822-e3e28d: Slot .m2 as a deliberate workaround — use stale cache to unblock compilation when an unrelated module drifts
+- GE-20261011-304c98: Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state
+- GE-20261011-c3f3e9: Mode-filtered step dependencies auto-satisfy via active_step_names set

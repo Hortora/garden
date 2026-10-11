@@ -1,2 +1,1 @@
-- GE-20260827-b928ab: Per-repo judgment steps return empty dict causing silent orchestrator deadlock
 - GE-20261011-12e241: Per-repo progress keys break naive step dependency checks in orchestrator engines

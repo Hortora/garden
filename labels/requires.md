@@ -1,0 +1,1 @@
+- GE-20261011-c3f3e9: Mode-filtered step dependencies auto-satisfy via active_step_names set

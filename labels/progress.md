@@ -1,1 +1,3 @@
 - GE-20260804-3dd611: Oscillation-free rollback via forward-state-sequence — consecutive undo calls go further back instead of ping-ponging
+- GE-20261011-12e241: Per-repo progress keys break naive step dependency checks in orchestrator engines
+- GE-20261011-304c98: Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state

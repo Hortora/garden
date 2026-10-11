@@ -1,3 +1,4 @@
 - GE-20260604-b561df: @ApplicationScoped CDI bean captures immutable-record snapshot at construction — registry updates are invisible
 - GE-20260627-5f208a: Stale SDD report files from previous sessions mislead fresh subagents
 - GE-20260823-68f909: Untracked .plan files on workspace main survive branch switches and block work-start with stale state
+- GE-20261011-304c98: Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state

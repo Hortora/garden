@@ -824,3 +824,6 @@
 | GE-20261006-d4303a | JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator | gotcha | 9/15 |
 | GE-20261007-7134d5 | Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs | technique | 10/15 |
 | GE-20261009-cb8cc4 | Classify Early Act Late — eliminate runtime-probing fragility in multi-entity pipelines | technique | 10/15 |
+| GE-20261011-12e241 | Per-repo progress keys break naive step dependency checks in orchestrator engines | gotcha | 10/15 |
+| GE-20261011-304c98 | Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state | gotcha | 9/15 |
+| GE-20261011-c3f3e9 | Mode-filtered step dependencies auto-satisfy via active_step_names set | technique | 9/15 |

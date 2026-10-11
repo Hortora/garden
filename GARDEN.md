@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3261
+**Entries merged since last sweep:** 3264
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3234,6 +3234,9 @@
 - GE-20261006-d4303a [JQ uses 'or' keyword not '||' for logical OR — || is the pipe-alternative operator](tools/GE-20261006-d4303a.md)
 - GE-20261007-7134d5 [Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs](tools/GE-20261007-7134d5.md)
 - GE-20261009-cb8cc4 [Classify Early Act Late — eliminate runtime-probing fragility in multi-entity pipelines](tools/GE-20261009-cb8cc4.md)
+- GE-20261011-12e241 [Per-repo progress keys break naive step dependency checks in orchestrator engines](tools/GE-20261011-12e241.md)
+- GE-20261011-304c98 [Orchestrator ctx.progress is a startup snapshot — within-loop dependency checks see stale state](tools/GE-20261011-304c98.md)
+- GE-20261011-c3f3e9 [Mode-filtered step dependencies auto-satisfy via active_step_names set](tools/GE-20261011-c3f3e9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
