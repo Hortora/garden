@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3271
+**Entries merged since last sweep:** 3275
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3244,6 +3244,7 @@
 - GE-20261011-e9aa0f [Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering](tools/GE-20261011-e9aa0f.md)
 - GE-20261011-195c0c [Coverage gate per-field threshold for heterogeneous entity graphs](tools/GE-20261011-195c0c.md)
 - GE-20261011-a0bf0a [Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs](tools/GE-20261011-a0bf0a.md)
+- GE-20261013-91990c [Recursive pre-extraction via catalog-gated mutual recursion for nested concurrent branches](tools/GE-20261013-91990c.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -3593,6 +3594,9 @@
 - GE-20261010-b05aa6 [Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected](web/GE-20261010-b05aa6.md)
 - GE-20261010-e14639 [Inline CSS border on ProseMirror Decoration.inline causes text reflow](web/GE-20261010-e14639.md)
 - GE-20261009-1cd7c9 [Visual line detection in ProseMirror via bidirectional coordsAtPos walk](web/GE-20261009-1cd7c9.md)
+- GE-20261013-34ab97 [Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error](web/GE-20261013-34ab97.md)
+- GE-20261013-158839 [Parser preExtract skips concurrent branch contents — signal/await rejected inside branches](web/GE-20261013-158839.md)
+- GE-20261013-6cc298 [createStepRunner incomplete Context crashes decorators accessing context.resolver](web/GE-20261013-6cc298.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

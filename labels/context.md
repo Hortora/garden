@@ -5,3 +5,4 @@
 - GE-20260607-25a3fe: CaseHubRuntime.signal(caseId, dotPath, value) is a direct case context patch — not an event dispatch
 - GE-20260615-537b99: Worker.Builder.function() takes Function<Map,WorkerResult> — NOT Function<CaseContext,Map>; use constructor for full context access
 - GE-20260618-0daed6: CaseHubRuntime.signal(path, null) puts null into context map — does not remove the key
+- GE-20261013-6cc298: createStepRunner incomplete Context crashes decorators accessing context.resolver

@@ -1,0 +1,1 @@
+- GE-20261013-91990c: Recursive pre-extraction via catalog-gated mutual recursion for nested concurrent branches

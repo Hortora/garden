@@ -1,0 +1,1 @@
+- GE-20261013-158839: Parser preExtract skips concurrent branch contents — signal/await rejected inside branches

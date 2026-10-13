@@ -315,3 +315,6 @@
 | GE-20261010-b05aa6 | Milkdown hardbreak nodes render as inline spans, not <br> — coordsAtPos unaffected | gotcha | 10/15 |
 | GE-20261010-e14639 | Inline CSS border on ProseMirror Decoration.inline causes text reflow | gotcha | 9/15 |
 | GE-20261009-1cd7c9 | Visual line detection in ProseMirror via bidirectional coordsAtPos walk | technique | 11/15 |
+| GE-20261013-34ab97 | Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error | gotcha | 9/15 |
+| GE-20261013-158839 | Parser preExtract skips concurrent branch contents — signal/await rejected inside branches | gotcha | 11/15 |
+| GE-20261013-6cc298 | createStepRunner incomplete Context crashes decorators accessing context.resolver | gotcha | 10/15 |

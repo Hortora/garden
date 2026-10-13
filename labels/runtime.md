@@ -1,1 +1,2 @@
 - GE-20260518-980ad7: Maven SNAPSHOT rebuilt by subagent mid-session causes NoSuchMethodError at test runtime despite clean compile
+- GE-20261013-34ab97: Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error

@@ -1,1 +1,3 @@
 - GE-20260627-9d0123: Parser condition priority silently converts aggregates to keys when source matches group column
+- GE-20261013-158839: Parser preExtract skips concurrent branch contents — signal/await rejected inside branches
+- GE-20261013-91990c: Recursive pre-extraction via catalog-gated mutual recursion for nested concurrent branches

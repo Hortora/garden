@@ -831,3 +831,4 @@
 | GE-20261011-e9aa0f | Two-guard entity dedup: Jaro-Winkler + Jaccard word overlap for precision-first pre-filtering | technique | 9/15 |
 | GE-20261011-195c0c | Coverage gate per-field threshold for heterogeneous entity graphs | technique | 8/15 |
 | GE-20261011-a0bf0a | Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs | technique | 9/15 |
+| GE-20261013-91990c | Recursive pre-extraction via catalog-gated mutual recursion for nested concurrent branches | technique | 9/15 |

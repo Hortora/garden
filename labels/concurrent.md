@@ -7,3 +7,4 @@
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260609-78dc3a: Mutiny memoize failure eviction must be chained BEFORE memoize().indefinitely(), not after
 - GE-20260615-6d0ae3: nextSequenceNumber() row lock incidentally serializes the Merkle frontier update for same-subject concurrent saves
+- GE-20261013-158839: Parser preExtract skips concurrent branch contents — signal/await rejected inside branches
