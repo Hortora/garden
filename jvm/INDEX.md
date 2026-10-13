@@ -1680,3 +1680,4 @@
 | GE-20261010-78d59a | Decorator pass-through methods silently bypass cross-cutting concerns added later | gotcha | 11/15 |
 | GE-20261011-13dadc | EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions | gotcha | 10/15 |
 | GE-20261011-89d8b5 | JSpecify @Nullable fails on fully-qualified type references — must import or use split placement | gotcha | 8/15 |
+| GE-20261013-60dc83 | SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces | gotcha | 10/15 |

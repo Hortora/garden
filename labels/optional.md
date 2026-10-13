@@ -12,3 +12,4 @@
 - GE-20260617-9b21f8: SmallRye Config SRCFG00040: empty string property value is treated as null for non-Optional<String> fields
 - GE-20260917-161e87: Zod v4 .default().optional() fires default for missing fields instead of returning undefined
 - GE-20260923-9393de: Java generics invariance breaks covariant SPI extraction — Optional<Entity> is not Optional<Base>
+- GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces

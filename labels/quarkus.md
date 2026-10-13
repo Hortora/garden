@@ -831,3 +831,4 @@
 - GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations
 - GE-20261008-bfdea9: CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
+- GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces

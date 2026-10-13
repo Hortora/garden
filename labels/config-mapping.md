@@ -14,3 +14,4 @@
 - GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
 - GE-20261005-fec7ac: SmallRye @ConfigMapping shared nested interface type applies the same @WithDefault to all usage sites — silent config collision
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
+- GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces

@@ -8,3 +8,4 @@
 - GE-20260820-a43996: quarkus-mcp-server programmatic setServerName() rejects named servers — all Manager APIs affected (Tool, Resource, Template, Completion)
 - GE-20260914-f5ea14: Quarkus ${ENV_VAR:} empty-default expression in application.properties breaks CDI startup
 - GE-20261005-ff25d1: SmallRye @ConfigMapping rejects @ConfigProperty keys under the same prefix — startup fails with 'does not map to any root'
+- GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces
