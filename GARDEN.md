@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3277
+**Entries merged since last sweep:** 3278
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2376,6 +2376,7 @@
 - GE-20261011-13dadc [EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions](jvm/GE-20261011-13dadc.md)
 - GE-20261011-89d8b5 [JSpecify @Nullable fails on fully-qualified type references — must import or use split placement](jvm/GE-20261011-89d8b5.md)
 - GE-20261013-60dc83 [SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces](jvm/GE-20261013-60dc83.md)
+- GE-20261014-fcf91d [Quarkus Dev Services do not activate in pre-built jars started via ProcessBuilder — external database provisioning required](jvm/GE-20261014-fcf91d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

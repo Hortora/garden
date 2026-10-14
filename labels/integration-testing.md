@@ -4,3 +4,4 @@
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260628-9159ce: Include library parsing layer in protobuf round-trip tests — schema-valid messages can fail library validation
 - GE-20260702-29cf6c: Cross-stack Content-Type mismatch passes isolated tests but breaks at integration — HTTP 415
+- GE-20261014-fcf91d: Quarkus Dev Services do not activate in pre-built jars started via ProcessBuilder — external database provisioning required
