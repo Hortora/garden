@@ -2,3 +2,4 @@
 - GE-20260429-ef6bdb: git checkout <hash> -- files + stash for non-destructive pre-existing regression triage
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
 - GE-20260522-543863: git checkout -b confirms success but repo silently reverts to main later in the same session
+- GE-20261014-9a906f: git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail

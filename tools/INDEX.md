@@ -832,3 +832,5 @@
 | GE-20261011-195c0c | Coverage gate per-field threshold for heterogeneous entity graphs | technique | 8/15 |
 | GE-20261011-a0bf0a | Config classes as self-documenting architecture — Javadoc with literature citations replaces design docs | technique | 9/15 |
 | GE-20261013-91990c | Recursive pre-extraction via catalog-gated mutual recursion for nested concurrent branches | technique | 9/15 |
+| GE-20261014-53d2da | Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain | gotcha | 10/15 |
+| GE-20261014-9a906f | git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail | gotcha | 9/15 |

@@ -200,3 +200,4 @@
 - GE-20260525-cc8321: Pre-push hook that enforces /git-squash blocks the squash's own delivery push — requires --no-verify
 - GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos
 - GE-20260929-d722ce: Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures
+- GE-20261014-9a906f: git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail

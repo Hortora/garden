@@ -1,0 +1,1 @@
+- GE-20261014-53d2da: Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain

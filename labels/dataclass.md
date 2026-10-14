@@ -1,1 +1,2 @@
 - GE-20260814-772b91: plan_manager.flatten_leaves() returns dataclass copies — mutations don't propagate to tree
+- GE-20261014-53d2da: Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain

@@ -58,3 +58,4 @@
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
 - GE-20260827-b5cd7d: sync-main rebases already-pushed fork commits, rewriting SHAs and orphaning branches
 - GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping
+- GE-20261014-9a906f: git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail

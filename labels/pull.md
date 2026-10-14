@@ -1,1 +1,2 @@
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
+- GE-20261014-9a906f: git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail
