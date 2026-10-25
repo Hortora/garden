@@ -51,3 +51,4 @@
 - GE-20260817-2dcaae: Async functions in synchronous event handlers break test assertions
 - GE-20260827-a19839: TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)
 - GE-20260928-558508: Lit updated() configure lost when parallel async fetch resolves during loading-state conditional render
+- GE-20261025-eeec80: EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss

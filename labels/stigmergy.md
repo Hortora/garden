@@ -1,0 +1,1 @@
+- GE-20261025-867a9d: Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer

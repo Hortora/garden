@@ -58,3 +58,5 @@
 - GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically
 - GE-20261008-27f8cc: ConcurrentHashMap batch population exposes partial state to concurrent readers — use volatile snapshot swap
 - GE-20261008-2c5ee4: Event coalescing must preserve metadata from dropped submissions — accumulate in the gate
+- GE-20261025-ea78d7: SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation
+- GE-20261025-eeec80: EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss

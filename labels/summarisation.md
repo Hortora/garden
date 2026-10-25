@@ -1,2 +1,4 @@
 - GE-20260914-2fa3d1: MVEL3 LazyMapMvelExpression fails when first event lacks a map key used in expression
 - GE-20260918-4bff26: EventStreamBus.subscribe() delivers LevelEvent<T> wrapper, not raw T
+- GE-20261025-ea78d7: SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation
+- GE-20261025-eeec80: EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss

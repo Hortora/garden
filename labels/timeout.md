@@ -25,3 +25,4 @@
 - GE-20260825-f0a9f2: IntelliJ MCP workspace with 11+ Maven modules causes persistent tool timeouts
 - GE-20260825-ac5410: IntelliJ MCP write operations time out while reads succeed — too many open projects
 - GE-20260828-5a3272: @Observes on @QuarkusTest classes causes engine settlement timeout with virtual threads
+- GE-20261025-867a9d: Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer

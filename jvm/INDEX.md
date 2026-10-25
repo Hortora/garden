@@ -1682,3 +1682,6 @@
 | GE-20261011-89d8b5 | JSpecify @Nullable fails on fully-qualified type references — must import or use split placement | gotcha | 8/15 |
 | GE-20261013-60dc83 | SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces | gotcha | 10/15 |
 | GE-20261014-fcf91d | Quarkus Dev Services do not activate in pre-built jars started via ProcessBuilder — external database provisioning required | gotcha | 11/15 |
+| GE-20261025-ea78d7 | SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation | gotcha | 12/15 |
+| GE-20261025-867a9d | Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer | undocumented | 9/15 |
+| GE-20261025-eeec80 | EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss | technique | 10/15 |

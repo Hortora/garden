@@ -12,3 +12,4 @@
 - GE-20260824-46ff2c: Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state
 - GE-20260824-c6fbb4: IntelliJ MCP ide_edit_member replaces entire class when member name matches class name
 - GE-20261008-f34e61: ConcurrentHashMap.values().stream().limit(N) silently excludes entries — search misses data non-deterministically
+- GE-20261025-ea78d7: SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation

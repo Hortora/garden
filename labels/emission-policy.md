@@ -1,0 +1,1 @@
+- GE-20261025-eeec80: EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss
