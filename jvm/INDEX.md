@@ -1685,3 +1685,4 @@
 | GE-20261025-ea78d7 | SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation | gotcha | 12/15 |
 | GE-20261025-867a9d | Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer | undocumented | 9/15 |
 | GE-20261025-eeec80 | EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss | technique | 10/15 |
+| GE-20261026-012063 | Maven code-generator plugins using filesystem paths race in cross-repo reactors | gotcha | 11/15 |

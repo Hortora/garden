@@ -15,3 +15,4 @@
 - GE-20260810-6309f5: esbuild alias resolves package root but external sources need nodePaths to find their dependencies
 - GE-20260811-7e119c: Slot .plan cross-repo issue numbers resolved against parent repo instead of epic child repos
 - GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing
+- GE-20261026-012063: Maven code-generator plugins using filesystem paths race in cross-repo reactors

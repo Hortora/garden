@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3281
+**Entries merged since last sweep:** 3282
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2380,6 +2380,7 @@
 - GE-20261025-ea78d7 [SummarisationRunner drain-before-skip loses events when ContentSummariser wrapper skips invocation](jvm/GE-20261025-ea78d7.md)
 - GE-20261025-867a9d [Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer](jvm/GE-20261025-867a9d.md)
 - GE-20261025-eeec80 [EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss](jvm/GE-20261025-eeec80.md)
+- GE-20261026-012063 [Maven code-generator plugins using filesystem paths race in cross-repo reactors](jvm/GE-20261026-012063.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
