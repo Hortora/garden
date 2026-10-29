@@ -1,1 +1,2 @@
 - GE-20260919-3f610d: Numeric values for LLM reasoning, qualitative labels for LLM embodiment — same data, different presentation by consumption mode
+- GE-20261029-9ef9e2: LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions

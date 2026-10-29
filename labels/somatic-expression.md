@@ -1,0 +1,1 @@
+- GE-20261029-9ef9e2: LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions
