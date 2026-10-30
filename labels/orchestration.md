@@ -1,1 +1,2 @@
 - GE-20260810-8bc960: ConversationOrchestrator.converse() runs an internal queue — channel messages are invisible to the loop
+- GE-20261030-78be7e: Step-based workflow engines can orchestrate binary data pipelines via typed step contracts

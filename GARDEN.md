@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3283
+**Entries merged since last sweep:** 3284
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3253,6 +3253,7 @@
 - GE-20261014-53d2da [Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain](tools/GE-20261014-53d2da.md)
 - GE-20261014-9a906f [git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail](tools/GE-20261014-9a906f.md)
 - GE-20261029-9ef9e2 [LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions](tools/GE-20261029-9ef9e2.md)
+- GE-20261030-78be7e [Step-based workflow engines can orchestrate binary data pipelines via typed step contracts](tools/GE-20261030-78be7e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)

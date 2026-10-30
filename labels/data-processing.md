@@ -1,0 +1,1 @@
+- GE-20261030-78be7e: Step-based workflow engines can orchestrate binary data pipelines via typed step contracts

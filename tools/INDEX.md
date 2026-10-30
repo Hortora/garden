@@ -835,3 +835,4 @@
 | GE-20261014-53d2da | Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain | gotcha | 10/15 |
 | GE-20261014-9a906f | git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail | gotcha | 9/15 |
 | GE-20261029-9ef9e2 | LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions | technique | 11/15 |
+| GE-20261030-78be7e | Step-based workflow engines can orchestrate binary data pipelines via typed step contracts | technique | 11/15 |

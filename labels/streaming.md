@@ -5,3 +5,4 @@
 - GE-20260618-a0f1e0: --verbose is required for incremental AssistantMessage streaming in --output-format stream-json
 - GE-20260630-e18bed: BodyHandlers.ofByteArray() silently materializes entire HTTP response — use ofInputStream() for size-limited downloads
 - GE-20260827-2220a2: Streaming ASR needs silence padding before finalResult to flush decoder chunk buffer
+- GE-20261030-78be7e: Step-based workflow engines can orchestrate binary data pipelines via typed step contracts
