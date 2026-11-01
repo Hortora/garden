@@ -1,0 +1,1 @@
+- GE-20261101-0dd962: Design review coherence dimension must check platform-level concept maps, not just sibling packages

@@ -19,3 +19,4 @@
 - GE-20260818-b2abcd: Separate SPI context record types when existing ClassificationContext conflicts
 - GE-20260820-807538: Workspace clones named by git remote URL stem avoid work- prefix collisions
 - GE-20260909-c81437: module-core/module/module-spring naming for dual-framework extraction
+- GE-20261101-0dd962: Design review coherence dimension must check platform-level concept maps, not just sibling packages

@@ -836,3 +836,4 @@
 | GE-20261014-9a906f | git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail | gotcha | 9/15 |
 | GE-20261029-9ef9e2 | LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions | technique | 11/15 |
 | GE-20261030-78be7e | Step-based workflow engines can orchestrate binary data pipelines via typed step contracts | technique | 11/15 |
+| GE-20261101-0dd962 | Design review coherence dimension must check platform-level concept maps, not just sibling packages | technique | 9/15 |

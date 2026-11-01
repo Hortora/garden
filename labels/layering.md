@@ -1,3 +1,4 @@
 - GE-20260513-4f26a7: @DefaultBean + plain @ApplicationScoped enables CDI layer displacement without config switches or @Alternative @Priority
 - GE-20260525-00cbde: Remove JAX-RS coupling from @ApplicationScoped service beans using inner static domain exception classes
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
+- GE-20261101-0dd962: Design review coherence dimension must check platform-level concept maps, not just sibling packages

@@ -4,3 +4,4 @@
 - GE-20260810-cc9129: Decision review dispatches as a lifecycle MODE not a dimensional TYPE in design-review
 - GE-20260816-7f35fb: design-review review.py --type spec is invalid — only accepts dimension types, not lifecycle types
 - GE-20260819-bec581: Design-review lifecycle points as fillable slots for different execution models
+- GE-20261101-0dd962: Design review coherence dimension must check platform-level concept maps, not just sibling packages
