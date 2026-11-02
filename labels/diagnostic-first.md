@@ -1,0 +1,1 @@
+- GE-20261102-9e22ed: Mode flag set at entry point but not propagated to downstream code paths — happy path silently bypassed

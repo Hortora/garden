@@ -837,3 +837,4 @@
 | GE-20261029-9ef9e2 | LLM prompt register degradation: three-layer diagnosis for multi-section prompts with competing style instructions | technique | 11/15 |
 | GE-20261030-78be7e | Step-based workflow engines can orchestrate binary data pipelines via typed step contracts | technique | 11/15 |
 | GE-20261101-0dd962 | Design review coherence dimension must check platform-level concept maps, not just sibling packages | technique | 9/15 |
+| GE-20261102-9e22ed | Mode flag set at entry point but not propagated to downstream code paths — happy path silently bypassed | technique | 12/15 |
