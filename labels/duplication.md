@@ -1,3 +1,4 @@
 - GE-20260422-b3423e: Visually duplicate methods across two files may have silently diverged — extraction reveals hidden differences
 - GE-20260618-580486: NavTree orphaned pages duplicate charts — filtering navTree members is insufficient
 - GE-20260826-5dcb1a: IntelliJ MCP ide_replace_text_in_file replaces ALL occurrences — structural code patterns produce silent duplication
+- GE-20261110-7add2c: Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move

@@ -87,3 +87,4 @@
 - GE-20261001-5fb8a1: IntelliJ MCP search index empty for TypeScript projects despite successful file structure queries
 - GE-20261001-4ffac0: IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace
 - GE-20261006-0d6e98: IntelliJ MCP ide_replace_text_in_file reports success but doesn't flush to disk — build tools see stale content
+- GE-20261110-7add2c: Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move

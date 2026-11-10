@@ -63,3 +63,4 @@
 - GE-20260929-ffbc2d: IntelliJ MCP ide_move_file silently misplaces files on cross-project moves in workspace
 - GE-20260929-f51b43: Cross-repo Java migration requires ordered-prefix package replacement and two-pass import fixing
 - GE-20261014-53d2da: Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain
+- GE-20261110-7add2c: Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move

@@ -55,3 +55,4 @@
 - GE-20261001-4ffac0: IntelliJ MCP ide_move_file resolves ambiguous module paths to wrong project in multi-project workspace
 - GE-20261007-7134d5: Break circular pipeline phase dependencies by decomposing composite reads into primitive inputs
 - GE-20261009-cb8cc4: Classify Early Act Late — eliminate runtime-probing fragility in multi-entity pipelines
+- GE-20261110-7add2c: Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move
