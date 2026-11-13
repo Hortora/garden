@@ -4,3 +4,4 @@
 - GE-20260915-0a4009: CDI @Decorator simulation requires flat interfaces — capability-based SPIs break method-level interception
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
+- GE-20261113-ca1b56: SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations

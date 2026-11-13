@@ -1,1 +1,2 @@
 - GE-20260825-4fdd5b: Python set iteration order breaks state tracking when multiple transitions fire atomically
+- GE-20261113-ca1b56: SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations

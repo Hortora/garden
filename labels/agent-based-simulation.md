@@ -1,0 +1,1 @@
+- GE-20261113-ca1b56: SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations
