@@ -1,0 +1,1 @@
+- GE-20261113-ad6e9e: Array-index tracking produces phantom transitions when observation arrays are reordered between samples

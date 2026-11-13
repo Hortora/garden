@@ -1,2 +1,3 @@
 - GE-20260525-3fe619: wc -l understates AI context file bloat — always measure with wc -c
 - GE-20260709-19a59a: Excluding unscored entries from retrieval precision silently inflates precision for noisier methods
+- GE-20261113-ad6e9e: Array-index tracking produces phantom transitions when observation arrays are reordered between samples

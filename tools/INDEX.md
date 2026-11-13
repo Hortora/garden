@@ -840,3 +840,4 @@
 | GE-20261102-9e22ed | Mode flag set at entry point but not propagated to downstream code paths — happy path silently bypassed | technique | 12/15 |
 | GE-20261110-7add2c | Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move | technique | 12/15 |
 | GE-20261113-ca1b56 | SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations | technique | 13/15 |
+| GE-20261113-ad6e9e | Array-index tracking produces phantom transitions when observation arrays are reordered between samples | gotcha | 13/15 |
