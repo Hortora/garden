@@ -2,3 +2,4 @@
 - GE-20260823-11ffe5: CDI-discovered functional interfaces with implicit category: all-instances × all-categories iteration requires self-filtering
 - GE-20260921-be4cc8: JPA hard-coded enum value lists silently diverge from Java enum classification methods
 - GE-20260926-66fe35: pages-data TypedRow CellValue conversion destroys complex objects — nested payloads become [object Object]
+- GE-20261114-8bb169: IntelliJ MCP ide_insert_member renders HTML entities in Java string literals

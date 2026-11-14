@@ -1,2 +1,3 @@
 - GE-20260414-598352: Angle brackets in BeautifulSoup get_text() output are unambiguous HTML-entity markers
 - GE-20260827-5a54de: IntelliJ MCP ide_replace_member silently decodes HTML entities in content parameter
+- GE-20261114-8bb169: IntelliJ MCP ide_insert_member renders HTML entities in Java string literals
