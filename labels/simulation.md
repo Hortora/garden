@@ -5,3 +5,5 @@
 - GE-20260921-1382ff: CDI @Decorator generators cannot intercept capability sub-interface methods — recursive wrapper generation needed for composite SPIs
 - GE-20260921-8676a0: Hybrid ref + simulation layering via CDI decorator precedence — three composable modes from one architecture
 - GE-20261113-ca1b56: SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations
+- GE-20261116-1915e7: EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm
+- GE-20261116-7898c9: Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others

@@ -1,1 +1,2 @@
 - GE-20260627-8b0fb8: Qdrant PrefetchQuery supports per-leg SearchParams — oversampling can target dense prefetch only in RRF hybrid queries
+- GE-20261116-3381a1: Modular residue fingerprinting — identifying sliding window sizes and algorithm type from quantised output

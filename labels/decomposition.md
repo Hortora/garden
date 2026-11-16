@@ -1,2 +1,3 @@
 - GE-20260808-47dc40: CasePlanModel initial decomposition and plan adaptation are structurally different — shared materialisation fails
 - GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
+- GE-20261116-7898c9: Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others

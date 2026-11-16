@@ -1,1 +1,2 @@
 - GE-20261011-13dadc: EMA convergence ceiling masks reinforcement count — strength plateaus regardless of repetitions
+- GE-20261116-1915e7: EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm

@@ -1,0 +1,2 @@
+- GE-20261116-1915e7: EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm
+- GE-20261116-7898c9: Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others

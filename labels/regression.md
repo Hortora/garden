@@ -2,3 +2,4 @@
 - GE-20260531-686150: Adding a member to an enum dimension set breaks evaluators that iterate EvalDimension.values()
 - GE-20260609-2308ed: wireMock.verify(0, anyRequestedFor(anyUrl())) is required to prove a fast-fail guard fired — return value alone is insufficient
 - GE-20260713-8ea659: Cross-repo commit silently regresses prior session's deliberate exception handling design
+- GE-20261116-1915e7: EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm

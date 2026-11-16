@@ -2,3 +2,4 @@
 - GE-20260525-a8c35a: SC2 building-type mapper that aliases addon names to parent type silently contaminates calibration modal values
 - GE-20260525-1a1a7f: SC2 building construction time calibration requires no command matching — UnitInit/UnitDone tracker events give exact T_real directly
 - GE-20261113-ad6e9e: Array-index tracking produces phantom transitions when observation arrays are reordered between samples
+- GE-20261116-7898c9: Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others

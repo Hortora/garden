@@ -1,2 +1,3 @@
 - GE-20260505-c7db9d: Tile-centre Bresenham LOS passes but continuous movement at speed<1 crosses wall tiles
 - GE-20260505-df6f1e: Sub-tile LOS sampling for path smoothing: step at 0.8× movement speed
+- GE-20261116-1915e7: EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm

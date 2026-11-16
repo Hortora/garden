@@ -1,0 +1,1 @@
+- GE-20261116-3381a1: Modular residue fingerprinting — identifying sliding window sizes and algorithm type from quantised output

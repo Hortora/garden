@@ -1,0 +1,1 @@
+- GE-20261116-7898c9: Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others

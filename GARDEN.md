@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3290
+**Entries merged since last sweep:** 3293
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3260,6 +3260,9 @@
 - GE-20261110-7add2c [Cross-repo code extraction via copy leaves silent duplication — use IDE refactor-move](tools/GE-20261110-7add2c.md)
 - GE-20261113-ca1b56 [SC2 randomizes event processing order per game loop — root cause of mining cycle variance in simulations](tools/GE-20261113-ca1b56.md)
 - GE-20261113-ad6e9e [Array-index tracking produces phantom transitions when observation arrays are reordered between samples](tools/GE-20261113-ad6e9e.md)
+- GE-20261116-1915e7 [EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm](tools/GE-20261116-1915e7.md)
+- GE-20261116-3381a1 [Modular residue fingerprinting — identifying sliding window sizes and algorithm type from quantised output](tools/GE-20261116-3381a1.md)
+- GE-20261116-7898c9 [Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others](tools/GE-20261116-7898c9.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
