@@ -10,3 +10,4 @@
 - GE-20260820-e8e36f: quarkus-mcp-server CompletionManager.removeCompletion() NPE — CompletionInfo.name() returns null for some entries
 - GE-20260823-28398d: SequenceBuilder.agents() must be called before build() — routing and termination only set inside agents()
 - GE-20260918-8d46b2: REST Assured 5.5 + Groovy 5 NPE — ClosureMetaClass.invokeOnDelegationObject crashes at Class.isAssignableFrom
+- GE-20261118-e0f022: Map.copyOf rejects null values — silent NPE when copying record-derived maps

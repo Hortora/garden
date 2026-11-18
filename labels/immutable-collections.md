@@ -1,2 +1,3 @@
 - GE-20260429-177cbe: Map.of() / Map.ofEntries() throw NPE on get(null), not return null
 - GE-20260617-68c9c5: Set.of().contains(null) throws NullPointerException — unlike HashSet.contains(null) which returns false
+- GE-20261118-e0f022: Map.copyOf rejects null values — silent NPE when copying record-derived maps

@@ -25,3 +25,4 @@
 - GE-20260910-27296d: MvelExpressionEngine PojoAdapter fails for Java records — UnsolvedSymbolException on record component access
 - GE-20260928-bf3f42: Java annotation attributes require enum types — blocks enum-to-record migration
 - GE-20261005-a2ef62: Sibling domain records with different field names for the same concept cause silent YAML deserialization failure
+- GE-20261118-e0f022: Map.copyOf rejects null values — silent NPE when copying record-derived maps

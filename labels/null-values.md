@@ -1,1 +1,2 @@
 - GE-20260625-88c860: casehub-iot DeviceEntity.capabilities() returns null values for Optional fields — Map.copyOf() throws NPE
+- GE-20261118-e0f022: Map.copyOf rejects null values — silent NPE when copying record-derived maps

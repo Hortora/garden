@@ -1686,3 +1686,4 @@
 | GE-20261025-867a9d | Engine EnvironmentObserver has hardcoded 100ms timeout — not configurable per observer | undocumented | 9/15 |
 | GE-20261025-eeec80 | EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss | technique | 10/15 |
 | GE-20261026-012063 | Maven code-generator plugins using filesystem paths race in cross-repo reactors | gotcha | 11/15 |
+| GE-20261118-e0f022 | Map.copyOf rejects null values — silent NPE when copying record-derived maps | gotcha | 11/15 |
