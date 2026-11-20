@@ -10,3 +10,4 @@
 - GE-20260616-8b9da9: Quarkus service classes don't inherit Logger — each class needs its own static Logger field
 - GE-20260806-871bfc: Compose the sink at the call site for tee-logging instead of modifying the relay
 - GE-20261008-cc66d7: JUL loggers created before JBoss LogManager installation silently lose messages in Quarkus
+- GE-20261120-fa81ad: A keyword argument named like a positional parameter raises TypeError at the call, outside the function's own try/except

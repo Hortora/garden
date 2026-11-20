@@ -9,3 +9,4 @@
 - GE-20260801-836d85: Post-push verification with git cat-file catches silent promotion failures
 - GE-20260819-55bffe: Per-boundary verification and per-close forcing functions are different scopes
 - GE-20260827-84598e: Postcondition verification on state machine judgment steps — verify artifacts not claims
+- GE-20261120-e8581e: A test that hands the code the right input passes with the rule deleted: break the rule on purpose before trusting it

@@ -1,0 +1,1 @@
+- GE-20261120-a6ca53: git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists

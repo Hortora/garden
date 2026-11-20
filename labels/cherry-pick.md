@@ -19,3 +19,4 @@
 - GE-20260629-3fa09c: git pull --rebase after rejected push silently drops commits when remote has overlapping changes
 - GE-20260803-ec5c8a: Parallel agent dispatch with worktree isolation for independent S-scale issues — cherry-pick merge pattern
 - GE-20260831-251f7d: Cherry-pick between repos sharing bare ancestry produces identical SHAs when histories haven't diverged
+- GE-20261120-a6ca53: git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists

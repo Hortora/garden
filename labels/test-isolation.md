@@ -19,3 +19,4 @@
 - GE-20260808-394c0c: Quarkus @QuarkusTest cross-class WorkItem leakage causes OptimisticLockException in SLA expiry tests
 - GE-20260810-ea14ce: Quarkus CDI Instance<T>.isResolvable() returns false when multiple @QuarkusTest inner classes implement same SPI
 - GE-20260905-685393: Module-level registration guard boolean survives clearRegistry() across vitest tests
+- GE-20261120-b317e9: An environment dict built at module import bypasses per-test monkeypatch.setenv, so subprocess tests hit real resources

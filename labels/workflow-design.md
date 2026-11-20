@@ -1,1 +1,2 @@
 - GE-20260501-4242d8: Use github.event_name != 'pull_request' as universal GitHub Actions publish guard
+- GE-20261120-0b226f: A state file tracked in a repo is copied into every clone, so each clone silently has its own diverging copy

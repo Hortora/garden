@@ -1,0 +1,1 @@
+- GE-20261120-e8581e: A test that hands the code the right input passes with the rule deleted: break the rule on purpose before trusting it

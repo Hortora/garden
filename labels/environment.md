@@ -1,3 +1,4 @@
 - GE-20260415-81aad8: PYTHONHOME exported for JVM process poisons python3 commands in the same shell
 - GE-20260415-b53912: JEP loads libpython via DYLD_LIBRARY_PATH but CPython stdlib also needs PYTHONHOME
 - GE-20260612-506191: Claude Code settings.json env.PATH replaces the shell PATH entirely — does not prepend or merge
+- GE-20261120-b317e9: An environment dict built at module import bypasses per-test monkeypatch.setenv, so subprocess tests hit real resources

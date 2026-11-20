@@ -1,3 +1,4 @@
 - GE-20260416-b57ee4: JavaParser NodeList.clone() returns raw Object — clone each element individually
 - GE-20260730-37faf4: git worktree shared refs block checkout — git clone --shared as zero-cost alternative
 - GE-20260820-49b388: git clone --shared alternates break silently when source repo directory is moved
+- GE-20261120-0b226f: A state file tracked in a repo is copied into every clone, so each clone silently has its own diverging copy

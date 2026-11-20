@@ -27,3 +27,5 @@
 | GE-20260821-a4982a | All-zero feature block detection as pre-merge data quality audit for multi-source ML | technique | 9/15 |
 | GE-20260824-46ff2c | Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state | gotcha | 10/15 |
 | GE-20260703-e0af92 | torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning | gotcha | 11/15 |
+| GE-20261120-fa81ad | A keyword argument named like a positional parameter raises TypeError at the call, outside the function's own try/except | gotcha | 10/15 |
+| GE-20261120-b317e9 | An environment dict built at module import bypasses per-test monkeypatch.setenv, so subprocess tests hit real resources | gotcha | 11/15 |

@@ -40,3 +40,4 @@
 - GE-20260825-4fdd5b: Python set iteration order breaks state tracking when multiple transitions fire atomically
 - GE-20260917-91b5e6: Cross-repo Maven cycle detection via pom.xml parsing — no Maven execution needed
 - GE-20261014-53d2da: Raw dict passed to dataclass expecting typed wrapper silently breaks — AttributeError surfaces deep in call chain
+- GE-20261120-fa81ad: A keyword argument named like a positional parameter raises TypeError at the call, outside the function's own try/except

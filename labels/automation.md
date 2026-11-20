@@ -15,3 +15,4 @@
 - GE-20260601-8c9e4b: Stamp a git branch locked in a linked worktree using commit-tree + update-ref
 - GE-20260818-f384e4: Automated git rebase's clean-tree prerequisite silently destroys concurrent session's uncommitted work
 - GE-20260831-437590: GIT_SEQUENCE_EDITOR for programmatic interactive rebase commit dropping
+- GE-20261120-90c2e3: git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit'

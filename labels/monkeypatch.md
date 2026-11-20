@@ -1,0 +1,1 @@
+- GE-20261120-b317e9: An environment dict built at module import bypasses per-test monkeypatch.setenv, so subprocess tests hit real resources

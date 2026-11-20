@@ -1,2 +1,3 @@
 - GE-20260501-66625a: git commit bundles other sessions' staged files — git add <file> does not limit what gets committed
 - GE-20260524-bc8f10: git commit --amend without --allow-empty silently skips empty commits
+- GE-20261120-90c2e3: git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit'

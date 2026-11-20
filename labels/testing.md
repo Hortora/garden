@@ -465,3 +465,5 @@
 - GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
 - GE-20261011-195c0c: Coverage gate per-field threshold for heterogeneous entity graphs
+- GE-20261120-a6ca53: git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists
+- GE-20261120-e8581e: A test that hands the code the right input passes with the rule deleted: break the rule on purpose before trusting it

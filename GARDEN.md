@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3294
+**Entries merged since last sweep:** 3300
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -3264,6 +3264,10 @@
 - GE-20261116-1915e7 [EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm](tools/GE-20261116-1915e7.md)
 - GE-20261116-3381a1 [Modular residue fingerprinting — identifying sliding window sizes and algorithm type from quantised output](tools/GE-20261116-3381a1.md)
 - GE-20261116-7898c9 [Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others](tools/GE-20261116-7898c9.md)
+- GE-20261120-a6ca53 [git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists](tools/GE-20261120-a6ca53.md)
+- GE-20261120-90c2e3 [git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit'](tools/GE-20261120-90c2e3.md)
+- GE-20261120-0b226f [A state file tracked in a repo is copied into every clone, so each clone silently has its own diverging copy](tools/GE-20261120-0b226f.md)
+- GE-20261120-e8581e [A test that hands the code the right input passes with the rule deleted: break the rule on purpose before trusting it](tools/GE-20261120-e8581e.md)
 ### /
 - GE-20260519-a8682e [](/GE-20260519-a8682e.md)
 - GE-20260508-ecef8e [](/GE-20260508-ecef8e.md)
@@ -3298,6 +3302,8 @@
 - GE-20260821-a4982a [All-zero feature block detection as pre-merge data quality audit for multi-source ML](python/GE-20260821-a4982a.md)
 - GE-20260824-46ff2c [Path.write_text() is read-modify-write not append-only — truncates file first, crash loses all prior state](python/GE-20260824-46ff2c.md)
 - GE-20260703-e0af92 [torch.onnx.export renamed use_external_data_format to external_data in PyTorch 2.12 — silent TypeError, no deprecation warning](python/GE-20260703-e0af92.md)
+- GE-20261120-fa81ad [A keyword argument named like a positional parameter raises TypeError at the call, outside the function's own try/except](python/GE-20261120-fa81ad.md)
+- GE-20261120-b317e9 [An environment dict built at module import bypasses per-test monkeypatch.setenv, so subprocess tests hit real resources](python/GE-20261120-b317e9.md)
 ### web/
 - GE-20260420-060bd6 [escapeHtml() in onclick attributes prevents HTML injection but not JS injection — use data-* attributes for externally-sourced values](web/GE-20260420-060bd6.md)
 - GE-20260421-1eac96 [Three.js r128: Object.assign to a Light's .position throws 'read only property' and silently aborts scene init](web/GE-20260421-1eac96.md)

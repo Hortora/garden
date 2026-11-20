@@ -201,3 +201,6 @@
 - GE-20260920-6dfb5a: IntelliJ MCP ide_refactor_rename silently fails when project contains symlinks to other git repos
 - GE-20260929-d722ce: Concurrent git add/commit in a shared repo from parallel processes causes index.lock failures
 - GE-20261014-9a906f: git pull --rebase after checkout leaves repo in detached rebase state — subsequent checkouts fail
+- GE-20261120-a6ca53: git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists
+- GE-20261120-90c2e3: git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit'
+- GE-20261120-0b226f: A state file tracked in a repo is copied into every clone, so each clone silently has its own diverging copy

@@ -844,3 +844,7 @@
 | GE-20261116-1915e7 | EMA compensation masking — switching to theoretically correct algorithm regresses accuracy when input noise was absorbed by the previous algorithm | gotcha | 10/15 |
 | GE-20261116-3381a1 | Modular residue fingerprinting — identifying sliding window sizes and algorithm type from quantised output | technique | 9/15 |
 | GE-20261116-7898c9 | Composite simulation constant — a constant absorbing two independent physical effects calibrates for one scenario and breaks in others | technique | 8/15 |
+| GE-20261120-a6ca53 | git cherry-pick onto the commit's own parent can produce the identical SHA, so no second commit exists | gotcha | 10/15 |
+| GE-20261120-90c2e3 | git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit' | gotcha | 9/15 |
+| GE-20261120-0b226f | A state file tracked in a repo is copied into every clone, so each clone silently has its own diverging copy | gotcha | 9/15 |
+| GE-20261120-e8581e | A test that hands the code the right input passes with the rule deleted: break the rule on purpose before trusting it | technique | 8/15 |

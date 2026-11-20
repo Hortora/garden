@@ -10,3 +10,5 @@
 - GE-20260818-dd3e91: DagPlan.fromNodes(List.of()) throws — DecompositionStrategy cannot return an empty plan
 - GE-20260826-4410e5: SQLite FK constraint silently blocks record deletion when except-pass swallows IntegrityError
 - GE-20260914-22a1c0: Stateful orchestrators: mechanical steps need auto-skip, not user escalation — treating all failures identically creates unresolvable dead ends
+- GE-20261120-90c2e3: git commit with a pathspec reports 'nothing added to commit but untracked files present', not 'nothing to commit'
+- GE-20261120-fa81ad: A keyword argument named like a positional parameter raises TypeError at the call, outside the function's own try/except
