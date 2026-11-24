@@ -833,3 +833,4 @@
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
 - GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces
 - GE-20261014-fcf91d: Quarkus Dev Services do not activate in pre-built jars started via ProcessBuilder — external database provisioning required
+- GE-20261124-acbc2d: casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer

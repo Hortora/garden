@@ -34,3 +34,4 @@
 - GE-20260915-297606: JDK HttpClient created per reconnect iteration leaks thread pools silently
 - GE-20260915-d115fb: Vert.x WebSocket tests flake on cold JVM — @BeforeAll warmup eliminates class-loading timeouts
 - GE-20260915-258f3b: Proving WebSocket connection stability via second heartbeat count
+- GE-20261124-b96bb4: Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails

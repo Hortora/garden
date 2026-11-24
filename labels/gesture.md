@@ -1,1 +1,2 @@
 - GE-20260713-b35869: PointerEvent timeStamp near-zero in jsdom causes velocity false-positives
+- GE-20261124-530701: firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues

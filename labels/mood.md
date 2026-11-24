@@ -1,1 +1,2 @@
 - GE-20260928-7830db: Raw PAD mood values don't influence LLM behavior — emotional labels required
+- GE-20261124-530701: firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues

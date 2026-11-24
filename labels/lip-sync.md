@@ -1,1 +1,2 @@
 - GE-20260827-a19839: TalkingHead speakAudio silently fails from async/microtask context — requires setTimeout(0)
+- GE-20261124-b96bb4: Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails

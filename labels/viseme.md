@@ -1,0 +1,1 @@
+- GE-20261124-b96bb4: Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails

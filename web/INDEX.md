@@ -318,3 +318,6 @@
 | GE-20261013-34ab97 | Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error | gotcha | 9/15 |
 | GE-20261013-158839 | Parser preExtract skips concurrent branch contents — signal/await rejected inside branches | gotcha | 11/15 |
 | GE-20261013-6cc298 | createStepRunner incomplete Context crashes decorators accessing context.resolver | gotcha | 10/15 |
+| GE-20261124-b96bb4 | Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails | gotcha | 10/15 |
+| GE-20261124-530701 | firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues | gotcha | 9/15 |
+| GE-20261124-96889a | TalkingHead avatarSpeakingEyeContact is a probability weight, not a persistent gaze lock — need explicit lookAtCamera() for direct eye contact | undocumented | 9/15 |

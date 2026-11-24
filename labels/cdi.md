@@ -474,3 +474,4 @@
 - GE-20261008-bfdea9: CDI Decorator tiering — pure logic in CDI-free module, thin @Decorator subclass in CDI-enabled module
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
 - GE-20261010-78d59a: Decorator pass-through methods silently bypass cross-cutting concerns added later
+- GE-20261124-acbc2d: casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer

@@ -1,0 +1,3 @@
+- GE-20261124-b96bb4: Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails
+- GE-20261124-530701: firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues
+- GE-20261124-96889a: TalkingHead avatarSpeakingEyeContact is a probability weight, not a persistent gaze lock — need explicit lookAtCamera() for direct eye contact

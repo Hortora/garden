@@ -180,3 +180,4 @@
 - GE-20261008-7cd3c1: ExemptionStore NodeId keying must match IoTEventSource config-suffix convention
 - GE-20261008-a8e584: CDI @Observes on @Produces-managed beans silently never fires — observer methods require bean-defining annotations
 - GE-20261013-34ab97: Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error
+- GE-20261124-530701: firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues

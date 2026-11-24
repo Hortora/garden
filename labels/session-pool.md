@@ -1,0 +1,1 @@
+- GE-20261124-acbc2d: casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer

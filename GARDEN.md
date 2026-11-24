@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3300
+**Entries merged since last sweep:** 3304
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2383,6 +2383,7 @@
 - GE-20261025-eeec80 [EmissionPolicy-level gating for async concurrency control — prevent drain-before-skip data loss](jvm/GE-20261025-eeec80.md)
 - GE-20261026-012063 [Maven code-generator plugins using filesystem paths race in cross-repo reactors](jvm/GE-20261026-012063.md)
 - GE-20261118-e0f022 [Map.copyOf rejects null values — silent NPE when copying record-derived maps](jvm/GE-20261118-e0f022.md)
+- GE-20261124-acbc2d [casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer](jvm/GE-20261124-acbc2d.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)
@@ -3622,6 +3623,9 @@
 - GE-20261013-34ab97 [Silent API rename: parseScenario → parsePlaybook leaves callers broken with no error](web/GE-20261013-34ab97.md)
 - GE-20261013-158839 [Parser preExtract skips concurrent branch contents — signal/await rejected inside branches](web/GE-20261013-158839.md)
 - GE-20261013-6cc298 [createStepRunner incomplete Context crashes decorators accessing context.resolver](web/GE-20261013-6cc298.md)
+- GE-20261124-b96bb4 [Avatar _handleSegment stores segment before _resetTurnState clears it — second message lip sync silently fails](web/GE-20261124-b96bb4.md)
+- GE-20261124-530701 [firstChunk flag captured after _turnCuesAttached.add(key) — always false, silently drops gesture and mood cues](web/GE-20261124-530701.md)
+- GE-20261124-96889a [TalkingHead avatarSpeakingEyeContact is a probability weight, not a persistent gaze lock — need explicit lookAtCamera() for direct eye contact](web/GE-20261124-96889a.md)
 ### casehub-desiredstate/
 - GE-20260616-02d0a7 [CaseHub platform entities have zero hard creation-time dependencies — all binding is runtime](casehub-desiredstate/GE-20260616-02d0a7.md)
 - GE-20260806-272a90 [Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates](casehub-desiredstate/GE-20260806-272a90.md)

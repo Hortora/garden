@@ -1,1 +1,2 @@
 - GE-20260421-3460ce: Pre-generate 4 CanvasTexture directional sprite variants at startup — swap .material per frame for zero-cost direction
+- GE-20261124-96889a: TalkingHead avatarSpeakingEyeContact is a probability weight, not a persistent gaze lock — need explicit lookAtCamera() for direct eye contact
