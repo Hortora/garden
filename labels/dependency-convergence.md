@@ -1,1 +1,2 @@
 - GE-20260726-fd29f7: Google API client library dependency convergence — don't declare transitive deps explicitly
+- GE-20261126-b989f8: Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts

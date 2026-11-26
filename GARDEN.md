@@ -1,6 +1,6 @@
 **Last legacy ID:** GE-0180
 **Last full DEDUPE sweep:** 2026-05-03
-**Entries merged since last sweep:** 3304
+**Entries merged since last sweep:** 3306
 **Drift threshold:** 10
 **Last staleness review:** 2026-04-14
 
@@ -2384,6 +2384,8 @@
 - GE-20261026-012063 [Maven code-generator plugins using filesystem paths race in cross-repo reactors](jvm/GE-20261026-012063.md)
 - GE-20261118-e0f022 [Map.copyOf rejects null values — silent NPE when copying record-derived maps](jvm/GE-20261118-e0f022.md)
 - GE-20261124-acbc2d [casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer](jvm/GE-20261124-acbc2d.md)
+- GE-20261126-f3f610 [hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations](jvm/GE-20261126-f3f610.md)
+- GE-20261126-b989f8 [Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts](jvm/GE-20261126-b989f8.md)
 ### scelight/
 - GE-20260412-fec397 [Scelight tracker events: three API traps for player and unit identification](scelight/tracker-events.md)
 - GE-20260420-39b211 [SC2EGSet pre-processed JSON encodes supply/food values as raw integers — not fixed-point ×4096 like Scelight binary](scelight/GE-20260420-39b211.md)

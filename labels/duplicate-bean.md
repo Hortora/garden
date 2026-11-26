@@ -1,0 +1,1 @@
+- GE-20261126-f3f610: hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations

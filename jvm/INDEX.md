@@ -1688,3 +1688,5 @@
 | GE-20261026-012063 | Maven code-generator plugins using filesystem paths race in cross-repo reactors | gotcha | 11/15 |
 | GE-20261118-e0f022 | Map.copyOf rejects null values — silent NPE when copying record-derived maps | gotcha | 11/15 |
 | GE-20261124-acbc2d | casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer | gotcha | 8/15 |
+| GE-20261126-f3f610 | hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations | gotcha | 9/15 |
+| GE-20261126-b989f8 | Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts | gotcha | 8/15 |

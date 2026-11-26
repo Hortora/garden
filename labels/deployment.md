@@ -18,3 +18,5 @@
 - GE-20260806-272a90: Adding a deployment node type to casehub-desiredstate requires 6 components plus 4 ripple updates
 - GE-20260810-1bd017: Maven reactor module gap causes invisible CI failure — local builds pass, CI gets stale SNAPSHOT
 - GE-20260821-b708dc: QuarkusUnitTest only works in the deployment module — fails silently in other modules
+- GE-20261126-f3f610: hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations
+- GE-20261126-b989f8: Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts

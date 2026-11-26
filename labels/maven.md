@@ -251,3 +251,4 @@
 - GE-20261001-28a02a: Maven silently drops all transitive dependencies when installed POM has unresolved version properties
 - GE-20261008-6f1b5e: Maven -Dtest with -am applies test filter to all reactor modules — upstream modules fail
 - GE-20261026-012063: Maven code-generator plugins using filesystem paths race in cross-repo reactors
+- GE-20261126-b989f8: Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts

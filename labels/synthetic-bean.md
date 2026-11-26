@@ -3,3 +3,4 @@
 - GE-20260817-48caeb: SyntheticBeanBuildItem with RUNTIME_INIT recorder requires setRuntimeInit() — error blames SyntheticBeansProcessor not your code
 - GE-20260818-d7915b: SyntheticBeanBuildItem.supplier() silently fails at augmentation when Supplier lambda captures non-recordable objects
 - GE-20260822-74a43e: SyntheticBeanBuildItem.addQualifier() silently removes @Default — unqualified @Inject stops resolving
+- GE-20261126-f3f610: hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations

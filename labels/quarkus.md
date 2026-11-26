@@ -834,3 +834,5 @@
 - GE-20261013-60dc83: SmallRye Config rejects Optional<Map<K,V>> in @ConfigMapping interfaces
 - GE-20261014-fcf91d: Quarkus Dev Services do not activate in pre-built jars started via ProcessBuilder — external database provisioning required
 - GE-20261124-acbc2d: casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer
+- GE-20261126-f3f610: hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations
+- GE-20261126-b989f8: Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts

@@ -1,0 +1,1 @@
+- GE-20261126-b989f8: Adding Quarkus deployment module dependency resurfaces excluded transitive version conflicts
