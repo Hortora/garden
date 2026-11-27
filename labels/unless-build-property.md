@@ -1,0 +1,1 @@
+- GE-20261127-06212a: @UnlessBuildProperty enableIfMissing defaults to false — bean excluded when property absent

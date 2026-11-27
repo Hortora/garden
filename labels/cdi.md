@@ -476,3 +476,4 @@
 - GE-20261010-78d59a: Decorator pass-through methods silently bypass cross-cutting concerns added later
 - GE-20261124-acbc2d: casehub-platform-agent-session-core vs agent-session — pool=disabled without CDI SessionBeans producer
 - GE-20261126-f3f610: hasAppBean() guard in Quarkus deployment modules misses duplicate SyntheticBeanBuildItem registrations
+- GE-20261127-06212a: @UnlessBuildProperty enableIfMissing defaults to false — bean excluded when property absent

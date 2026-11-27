@@ -1,3 +1,4 @@
 - GE-20260519-244ad2: Gate optional beans in a Quarkus extension with ExcludedTypeBuildItem + @ConfigRoot(BUILD_TIME) — not @IfBuildProperty on runtime beans
 - GE-20260512-b3f32a: @IfBuildProperty/@UnlessBuildProperty evaluated at augmentation only — QuarkusTestProfile properties have no effect on bean activation
 - GE-20261008-6575cd: @IfBuildProperty(enableIfMissing=true) + @ConfigMapping — disabled test profile crashes with ConfigValidationException
+- GE-20261127-06212a: @UnlessBuildProperty enableIfMissing defaults to false — bean excluded when property absent
